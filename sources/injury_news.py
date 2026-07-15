@@ -18,9 +18,12 @@ from __future__ import annotations
 import html
 import re
 import urllib.parse
+from datetime import datetime, timezone
 from typing import Any, Dict, List, Tuple
 
+import config
 from .base import Source, SourceResult, FighterPatch, http_get
+from .espn_common import days_until_next_card
 
 RSS = "https://news.google.com/rss/search"
 
@@ -83,19 +86,56 @@ class InjuryNewsSource(Source):
     def fetch(self, state: Dict[str, Any]) -> SourceResult:
         res = SourceResult()
         fighters = state.get("fighters", {})
+        now = datetime.now(timezone.utc)
+
+        # Budget guard: skip news entirely when no card is imminent — nothing
+        # urgent to learn, and it saves Google News from needless traffic.
+        days = days_until_next_card(now.strftime("%Y-%m-%d"))
+        if days is not None and days > config.NEWS_LOOKAHEAD_DAYS:
+            res.ok = True
+            res.notes.append(f"news SKIPPED: next card {days}d away "
+                             f"(> {config.NEWS_LOOKAHEAD_DAYS}d lookahead)")
+            return res
+
         # Only search fighters that appear in a watched matchup.
         watched_keys = set()
         for m in state.get("matchups", []):
             watched_keys.add(m["a"])
             watched_keys.add(m["b"])
 
-        any_ok = False
+        news_meta = state.setdefault("meta", {}).setdefault("news_last", {})
+
+        # Build the queue: skip fictional fighters and any queried too recently
+        # (per-fighter cooldown), then cap the number of requests this cycle.
+        queue: List[str] = []
         for key in sorted(watched_keys):
             rec = fighters.get(key, {})
             name = rec.get("display_name") or rec.get("name") or ""
-            # Skip clearly fictional/demo fighters (no real news to find).
             if not name or rec.get("fictional"):
                 continue
+            last = news_meta.get(key)
+            if last:
+                try:
+                    if (now - datetime.fromisoformat(last)).total_seconds() / 3600 \
+                            < config.NEWS_MIN_INTERVAL_HOURS:
+                        continue  # queried recently — cooldown
+                except Exception:
+                    pass
+            queue.append(key)
+
+        # Prioritise the fighters we've gone longest without checking (oldest
+        # timestamp first, never-checked first), then cap the burst.
+        queue.sort(key=lambda k: news_meta.get(k) or "")
+        capped = queue[:config.NEWS_MAX_PER_CYCLE]
+        if len(queue) > len(capped):
+            res.notes.append(f"news: {len(queue)} due, querying {len(capped)} "
+                             f"this cycle (rest next cycle)")
+
+        any_ok = False
+        for key in capped:
+            rec = fighters.get(key, {})
+            name = rec.get("display_name") or rec.get("name") or ""
+            news_meta[key] = now.isoformat()   # stamp attempt (success or not)
 
             query = f'"{name}" UFC injury OR weight OR withdraw when:14d'
             url = f"{RSS}?q={urllib.parse.quote(query)}&hl=en-US&gl=US&ceid=US:en"

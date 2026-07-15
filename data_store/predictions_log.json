@@ -1,0 +1,16 @@
+{
+  "entries": [
+    {
+      "label": "Du Plessis vs Usman",
+      "a": "Dricus du Plessis",
+      "b": "Kamaru Usman",
+      "p_a": 0.2615,
+      "event": "",
+      "logged": "2026-07-15T19:05:42+00:00",
+      "resolved": false,
+      "actual_a": null,
+      "brier": null,
+      "resolved_at": null
+    }
+  ]
+}

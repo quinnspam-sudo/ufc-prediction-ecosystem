@@ -70,6 +70,8 @@ class SourceResult:
     # Auto-discovery: brand-new fighters/matchups to add to the store.
     new_fighters: Dict[str, Dict[str, Any]] = field(default_factory=dict)  # tempkey -> field dict
     new_matchups: List[Dict[str, Any]] = field(default_factory=list)       # {a,b,rounds,label,...}
+    # Completed bouts for calibration scoring: {winner, loser}.
+    fight_results: List[Dict[str, str]] = field(default_factory=list)
     notes: List[str] = field(default_factory=list)               # diagnostics
     ok: bool = True                # False if the source was unavailable
 

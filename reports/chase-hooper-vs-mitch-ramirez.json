@@ -4,8 +4,8 @@
     "fighter_b": "Mitch Ramirez",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 3000,
-    "avg_rounds_simulated": 2.715,
+    "iterations": 2000,
+    "avg_rounds_simulated": 2.707,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -24,34 +24,34 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 50.29,
-    "fighter_b_pct": 49.71,
-    "draw_pct": 6.53
+    "fighter_a_pct": 49.25,
+    "fighter_b_pct": 50.75,
+    "draw_pct": 6.4
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 7.43,
-      "Submission": 6.83,
-      "Unanimous Decision": 24.23,
-      "Split/Majority Decision": 8.5
+      "KO/TKO": 7.5,
+      "Submission": 6.6,
+      "Unanimous Decision": 23.75,
+      "Split/Majority Decision": 8.25
     },
     "fighter_b": {
-      "KO/TKO": 7.7,
-      "Submission": 6.1,
-      "Unanimous Decision": 23.43,
-      "Split/Majority Decision": 9.23
+      "KO/TKO": 7.95,
+      "Submission": 6.45,
+      "Unanimous Decision": 23.5,
+      "Split/Majority Decision": 9.6
     }
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 134,
-      "round_2": 170,
-      "round_3": 124
+      "round_1": 89,
+      "round_2": 109,
+      "round_3": 84
     },
     "fighter_b": {
-      "round_1": 145,
-      "round_2": 127,
-      "round_3": 142
+      "round_1": 109,
+      "round_2": 82,
+      "round_3": 97
     }
   },
   "value_betting": {
@@ -59,9 +59,9 @@
       "market_moneyline": -350,
       "market_decimal_odds": 1.286,
       "market_implied_prob_pct": 77.78,
-      "model_win_prob_pct": 50.29,
-      "edge_pct": -27.49,
-      "kelly_fraction_full": -1.2372,
+      "model_win_prob_pct": 49.25,
+      "edge_pct": -28.53,
+      "kelly_fraction_full": -1.2837,
       "kelly_fraction_half": 0.0,
       "value_bet": false
     },
@@ -69,10 +69,10 @@
       "market_moneyline": 280,
       "market_decimal_odds": 3.8,
       "market_implied_prob_pct": 26.32,
-      "model_win_prob_pct": 49.71,
-      "edge_pct": 23.4,
-      "kelly_fraction_full": 0.3176,
-      "kelly_fraction_half": 0.1588,
+      "model_win_prob_pct": 50.75,
+      "edge_pct": 24.43,
+      "kelly_fraction_full": 0.3316,
+      "kelly_fraction_half": 0.1658,
       "value_bet": false
     },
     "insufficient_data": true,

@@ -32,6 +32,9 @@ import subprocess
 import sys
 from typing import Any, Dict, List
 
+import analytics_reporting as ar
+import calibration
+import config
 import data_store as ds
 from data_ingestion import MatchupOdds
 from main import run_pipeline
@@ -58,8 +61,40 @@ def _enabled_sources(no_network: bool) -> List:
             InjuryNewsSource()]
 
 
+def _apply_shrink(report: Dict[str, Any], shrink: float) -> None:
+    """
+    Pull the decisive win probabilities toward 50/50 by the learned calibration
+    factor λ, then recompute the value metrics on the calibrated probabilities.
+    A no-op when λ == 1.0 (default until enough fights have resolved).
+    """
+    if shrink >= 0.999:
+        return
+    wp = report["win_probability"]
+    a, b = wp["fighter_a_pct"], wp["fighter_b_pct"]
+    decisive = a + b
+    if decisive <= 0:
+        return
+    p_a = a / decisive
+    p_a2 = 0.5 + shrink * (p_a - 0.5)          # shrink toward 0.5
+    wp["fighter_a_pct"] = round(p_a2 * decisive, 2)
+    wp["fighter_b_pct"] = round((1 - p_a2) * decisive, 2)
+    wp["calibration_shrink_applied"] = shrink
+
+    # Recompute value on calibrated probabilities.
+    for side, prob in (("fighter_a", p_a2), ("fighter_b", 1 - p_a2)):
+        v = report["value_betting"][side]
+        ml = v["market_moneyline"]
+        implied = ar.implied_probability(ml)
+        kelly = ar.kelly_fraction(prob, ml)
+        v["model_win_prob_pct"] = round(prob * 100, 2)
+        v["edge_pct"] = round((prob - implied) * 100, 2)
+        v["kelly_fraction_full"] = round(kelly, 4)
+        v["kelly_fraction_half"] = round(max(0.0, kelly) / 2, 4)
+        v["value_bet"] = bool((prob - implied) > 0 and kelly > 0)
+
+
 def _predict_matchup(state: Dict[str, Any], m: Dict[str, Any],
-                     iterations: int) -> Dict[str, Any]:
+                     iterations: int, shrink: float = 1.0) -> Dict[str, Any]:
     """Run the full pipeline for one matchup dict and return the report."""
     a_raw = ds.state_fighter_to_raw(state["fighters"][m["a"]])
     b_raw = ds.state_fighter_to_raw(state["fighters"][m["b"]])
@@ -69,14 +104,21 @@ def _predict_matchup(state: Dict[str, Any], m: Dict[str, Any],
         scheduled_rounds=int(m.get("rounds", 3)),
         is_title_fight=bool(m.get("is_title_fight", False)),
     )
-    report = run_pipeline(a_raw, b_raw, odds, iterations=iterations, seed=42)
+    needs_stats = (state["fighters"][m["a"]].get("needs_stats")
+                   or state["fighters"][m["b"]].get("needs_stats"))
+    # Placeholder-stat fights are ~50/50 regardless — don't waste iterations.
+    iters = config.SIM_ITERATIONS_PLACEHOLDER if needs_stats else iterations
+    report = run_pipeline(a_raw, b_raw, odds, iterations=iters, seed=42)
+
+    # Adaptive calibration: temper confidence by the learned shrink (real fights
+    # only; placeholder fights are already 50/50 and get their value suppressed).
+    if not needs_stats:
+        _apply_shrink(report, shrink)
 
     # SAFETY: a fighter on placeholder (league-average) stats produces a ~50/50
     # model, which would falsely flag the market underdog as "value" on every
     # such fight. Suppress value flags unless BOTH fighters have real stats, so
     # the system never emits a misleading bet signal it can't actually support.
-    needs_stats = (state["fighters"][m["a"]].get("needs_stats")
-                   or state["fighters"][m["b"]].get("needs_stats"))
     if needs_stats:
         for side in ("fighter_a", "fighter_b"):
             report["value_betting"][side]["value_bet"] = False
@@ -126,7 +168,7 @@ def _commit_and_push(summary: str) -> bool:
     return True
 
 
-def run_cycle(iterations: int = 10_000, no_network: bool = False,
+def run_cycle(iterations: int = config.SIM_ITERATIONS, no_network: bool = False,
               force: bool = False, push: bool = False) -> Dict[str, Any]:
     first_run = not os.path.exists(ds.STATE_PATH)
     state = ds.load_state()
@@ -135,6 +177,7 @@ def run_cycle(iterations: int = 10_000, no_network: bool = False,
     changed_fighter_keys = set()
     changed_matchup_labels = set()
     discovered_labels: List[str] = []
+    fight_results: List[Dict[str, str]] = []
     notes: List[str] = []
 
     for src in _enabled_sources(no_network):
@@ -154,7 +197,21 @@ def run_cycle(iterations: int = 10_000, no_network: bool = False,
             changed_fighter_keys.add(key)
         all_changes.extend(fchanges)
         changed_matchup_labels.update(ds.apply_odds(state, result.odds))
+        fight_results.extend(result.fight_results)
         ds.record_events(state, result.events)
+
+    # ── Calibration: score any newly-completed fights, then refit confidence ──
+    cal_log = calibration.load_log()
+    resolved_now = []
+    for fr in fight_results:
+        entry = calibration.resolve_result(cal_log, fr["winner"], fr["loser"])
+        if entry:
+            resolved_now.append(entry)
+            ds.record_events(state, [{"type": "calibration_resolved",
+                                      "detail": f"{fr['winner']} beat {fr['loser']} "
+                                                f"(Brier {entry['brier']})"}])
+    shrink = calibration.fit_shrink(cal_log)
+    state.setdefault("meta", {})["calibration"] = {"shrink": shrink}
 
     # Which matchups need re-prediction?
     to_predict = []
@@ -172,9 +229,16 @@ def run_cycle(iterations: int = 10_000, no_network: bool = False,
         label = m.get("label", f"{m['a']} vs {m['b']}")
         path = os.path.join(REPORTS_DIR, f"{_slug(label)}.json")
         if m in to_predict:
-            report = _predict_matchup(state, m, iterations)
+            report = _predict_matchup(state, m, iterations, shrink)
             with open(path, "w") as fh:
                 json.dump(report, fh, indent=2)
+            # Log real-stat predictions so we can score them when they resolve.
+            if not report["matchup"].get("fighter_a_flags", {}).get("needs_real_stats"):
+                calibration.log_prediction(
+                    cal_log, label,
+                    report["matchup"]["fighter_a"], report["matchup"]["fighter_b"],
+                    report["win_probability"]["fighter_a_pct"] / 100.0,
+                    event=m.get("event", ""))
         # Build the index entry from whatever report exists.
         if os.path.exists(path):
             with open(path) as fh:
@@ -190,17 +254,23 @@ def run_cycle(iterations: int = 10_000, no_network: bool = False,
     with open(os.path.join(REPORTS_DIR, "index.json"), "w") as fh:
         json.dump({"matchups": index}, fh, indent=2)
 
+    # Persist calibration ledger + publish the accuracy scorecard.
+    calibration.save_log(cal_log)
+    with open(os.path.join(REPORTS_DIR, "calibration.json"), "w") as fh:
+        json.dump(calibration.summary(cal_log, shrink), fh, indent=2)
+
     ds.save_state(state)
 
     summary = (f"{len(to_predict)} matchup(s) predicted, "
                f"{len(discovered_labels)} new bout(s), "
                f"{len(all_changes)} field change(s), "
-               f"{len(changed_matchup_labels)} odds move(s)")
+               f"{len(changed_matchup_labels)} odds move(s), "
+               f"{len(resolved_now)} result(s) scored")
 
     # Only commit when something MEANINGFUL changed — not just the last_sync
     # heartbeat. Otherwise a frequent schedule would spam junk commits.
     meaningful = bool(to_predict or all_changes or changed_matchup_labels
-                      or discovered_labels)
+                      or discovered_labels or resolved_now)
     committed = False
     if push and meaningful:
         committed = _commit_and_push(summary)
@@ -211,6 +281,8 @@ def run_cycle(iterations: int = 10_000, no_network: bool = False,
         "odds_moves": sorted(changed_matchup_labels),
         "discovered": discovered_labels,
         "predicted": [m.get("label") for m in to_predict],
+        "resolved": [f"{e['a']} vs {e['b']} (Brier {e['brier']})" for e in resolved_now],
+        "shrink": shrink,
         "notes": notes,
         "summary": summary,
         "committed": committed,
@@ -219,7 +291,7 @@ def run_cycle(iterations: int = 10_000, no_network: bool = False,
 
 def main(argv=None) -> int:
     p = argparse.ArgumentParser(description="UFC ecosystem auto-update cycle")
-    p.add_argument("--iterations", type=int, default=10_000)
+    p.add_argument("--iterations", type=int, default=config.SIM_ITERATIONS)
     p.add_argument("--no-network", action="store_true",
                    help="skip live sources (deterministic local test)")
     p.add_argument("--force", action="store_true",
@@ -239,6 +311,8 @@ def main(argv=None) -> int:
     for k, f, old, new in out["changes"]:
         print(f"    {k}.{f}: {old!r} -> {new!r}")
     print("odds moves    :", ", ".join(out["odds_moves"]) or "(none)")
+    print("results scored:", ", ".join(out["resolved"]) or "(none)")
+    print("calib. shrink :", out["shrink"], "(1.0 = no adjustment yet)")
     print("committed     :", out["committed"])
     if out["notes"]:
         print("notes         :")

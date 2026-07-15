@@ -4,8 +4,8 @@
     "fighter_b": "Fatima Kline",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 3000,
-    "avg_rounds_simulated": 2.738,
+    "iterations": 2000,
+    "avg_rounds_simulated": 2.736,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -24,34 +24,34 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 51.08,
-    "fighter_b_pct": 48.92,
-    "draw_pct": 7.07
+    "fighter_a_pct": 50.43,
+    "fighter_b_pct": 49.57,
+    "draw_pct": 6.9
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 7.1,
-      "Submission": 6.7,
-      "Unanimous Decision": 25.1,
-      "Split/Majority Decision": 8.57
+      "KO/TKO": 7.25,
+      "Submission": 6.35,
+      "Unanimous Decision": 25.0,
+      "Split/Majority Decision": 8.35
     },
     "fighter_b": {
-      "KO/TKO": 6.47,
-      "Submission": 6.0,
-      "Unanimous Decision": 23.7,
-      "Split/Majority Decision": 9.3
+      "KO/TKO": 6.4,
+      "Submission": 6.4,
+      "Unanimous Decision": 23.45,
+      "Split/Majority Decision": 9.9
     }
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 125,
-      "round_2": 166,
-      "round_3": 123
+      "round_1": 78,
+      "round_2": 107,
+      "round_3": 87
     },
     "fighter_b": {
-      "round_1": 128,
-      "round_2": 114,
-      "round_3": 132
+      "round_1": 96,
+      "round_2": 72,
+      "round_3": 88
     }
   },
   "value_betting": {
@@ -59,19 +59,19 @@
       "market_moneyline": 350,
       "market_decimal_odds": 4.5,
       "market_implied_prob_pct": 22.22,
-      "model_win_prob_pct": 51.08,
-      "edge_pct": 28.85,
-      "kelly_fraction_full": 0.371,
-      "kelly_fraction_half": 0.1855,
+      "model_win_prob_pct": 50.43,
+      "edge_pct": 28.21,
+      "kelly_fraction_full": 0.3627,
+      "kelly_fraction_half": 0.1813,
       "value_bet": false
     },
     "fighter_b": {
       "market_moneyline": -460,
       "market_decimal_odds": 1.217,
       "market_implied_prob_pct": 82.14,
-      "model_win_prob_pct": 48.92,
-      "edge_pct": -33.22,
-      "kelly_fraction_full": -1.8603,
+      "model_win_prob_pct": 49.57,
+      "edge_pct": -32.57,
+      "kelly_fraction_full": -1.8241,
       "kelly_fraction_half": 0.0,
       "value_bet": false
     },

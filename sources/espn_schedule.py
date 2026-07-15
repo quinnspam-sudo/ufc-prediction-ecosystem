@@ -25,9 +25,8 @@ import re
 from typing import Any, Dict, List
 
 from data_ingestion import FighterRawStats, WEIGHT_CLASSES
-from .base import Source, SourceResult, http_get
-
-SCOREBOARD = "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard"
+from .base import Source, SourceResult
+from .espn_common import get_scoreboard
 
 
 def _slug(name: str) -> str:
@@ -79,13 +78,13 @@ class EspnScheduleSource(Source):
 
     def fetch(self, state: Dict[str, Any]) -> SourceResult:
         res = SourceResult()
-        r = http_get(SCOREBOARD)
-        if r is None or r.status_code != 200:
+        data = get_scoreboard()
+        if not data:
             res.ok = False
             res.notes.append("ESPN scoreboard unavailable")
             return res
 
-        for ev in r.json().get("events", []) or []:
+        for ev in data.get("events", []) or []:
             ev_name = ev.get("name", "")
             for comp in ev.get("competitions", []) or []:
                 # Only discover bouts that haven't happened yet.

@@ -4,8 +4,8 @@
     "fighter_b": "Christian Leroy Duncan",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 3000,
-    "avg_rounds_simulated": 2.707,
+    "iterations": 2000,
+    "avg_rounds_simulated": 2.703,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -24,34 +24,34 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 50.62,
-    "fighter_b_pct": 49.38,
-    "draw_pct": 6.63
+    "fighter_a_pct": 49.63,
+    "fighter_b_pct": 50.37,
+    "draw_pct": 6.4
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 8.07,
-      "Submission": 6.77,
-      "Unanimous Decision": 24.2,
-      "Split/Majority Decision": 8.23
+      "KO/TKO": 8.0,
+      "Submission": 6.45,
+      "Unanimous Decision": 23.7,
+      "Split/Majority Decision": 8.3
     },
     "fighter_b": {
-      "KO/TKO": 7.8,
-      "Submission": 6.03,
-      "Unanimous Decision": 23.1,
-      "Split/Majority Decision": 9.17
+      "KO/TKO": 8.2,
+      "Submission": 6.15,
+      "Unanimous Decision": 23.2,
+      "Split/Majority Decision": 9.6
     }
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 143,
-      "round_2": 178,
-      "round_3": 124
+      "round_1": 93,
+      "round_2": 113,
+      "round_3": 83
     },
     "fighter_b": {
-      "round_1": 143,
-      "round_2": 129,
-      "round_3": 143
+      "round_1": 107,
+      "round_2": 82,
+      "round_3": 98
     }
   },
   "value_betting": {
@@ -59,19 +59,19 @@
       "market_moneyline": 279,
       "market_decimal_odds": 3.79,
       "market_implied_prob_pct": 26.39,
-      "model_win_prob_pct": 50.62,
-      "edge_pct": 24.24,
-      "kelly_fraction_full": 0.3293,
-      "kelly_fraction_half": 0.1646,
+      "model_win_prob_pct": 49.63,
+      "edge_pct": 23.24,
+      "kelly_fraction_full": 0.3157,
+      "kelly_fraction_half": 0.1579,
       "value_bet": false
     },
     "fighter_b": {
       "market_moneyline": -350,
       "market_decimal_odds": 1.286,
       "market_implied_prob_pct": 77.78,
-      "model_win_prob_pct": 49.38,
-      "edge_pct": -28.4,
-      "kelly_fraction_full": -1.2781,
+      "model_win_prob_pct": 50.37,
+      "edge_pct": -27.4,
+      "kelly_fraction_full": -1.2332,
       "kelly_fraction_half": 0.0,
       "value_bet": false
     },

@@ -20,9 +20,8 @@ from __future__ import annotations
 
 from typing import Any, Dict, List
 
-from .base import Source, SourceResult, FighterPatch, http_get
-
-SCOREBOARD = "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard"
+from .base import Source, SourceResult, FighterPatch
+from .espn_common import get_scoreboard
 
 
 def _norm(name: str) -> str:
@@ -34,13 +33,12 @@ class EspnResultsSource(Source):
 
     def fetch(self, state: Dict[str, Any]) -> SourceResult:
         res = SourceResult()
-        r = http_get(SCOREBOARD)
-        if r is None or r.status_code != 200:
+        data = get_scoreboard()
+        if not data:
             res.ok = False
             res.notes.append("ESPN scoreboard unavailable")
             return res
 
-        data = r.json()
         events = data.get("events", []) or []
 
         # Build a name -> fighter-key map for the watched fighters.
@@ -57,6 +55,19 @@ class EspnResultsSource(Source):
                 status = (comp.get("status", {}) or {}).get("type", {}) or {}
                 completed = bool(status.get("completed"))
                 competitors = comp.get("competitors", []) or []
+
+                # Bout-level result (for calibration): who won, who lost.
+                if completed:
+                    win_name = lose_name = ""
+                    for c in competitors:
+                        nm = (c.get("athlete", {}) or {}).get("displayName", "")
+                        if c.get("winner") is True:
+                            win_name = nm
+                        else:
+                            lose_name = nm
+                    if win_name and lose_name:
+                        res.fight_results.append({"winner": win_name,
+                                                  "loser": lose_name})
 
                 for c in competitors:
                     ath = (c.get("athlete", {}) or {})

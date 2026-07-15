@@ -4,8 +4,8 @@
     "fighter_b": "Levi Rodrigues Jr.",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 3000,
-    "avg_rounds_simulated": 2.705,
+    "iterations": 2000,
+    "avg_rounds_simulated": 2.7,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -24,34 +24,34 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 50.8,
-    "fighter_b_pct": 49.2,
-    "draw_pct": 6.63
+    "fighter_a_pct": 50.0,
+    "fighter_b_pct": 50.0,
+    "draw_pct": 6.6
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 8.03,
-      "Submission": 6.77,
-      "Unanimous Decision": 24.6,
-      "Split/Majority Decision": 8.03
+      "KO/TKO": 7.95,
+      "Submission": 6.55,
+      "Unanimous Decision": 24.05,
+      "Split/Majority Decision": 8.15
     },
     "fighter_b": {
-      "KO/TKO": 8.0,
-      "Submission": 5.97,
-      "Unanimous Decision": 23.07,
-      "Split/Majority Decision": 8.9
+      "KO/TKO": 8.35,
+      "Submission": 6.1,
+      "Unanimous Decision": 22.95,
+      "Split/Majority Decision": 9.3
     }
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 141,
-      "round_2": 178,
-      "round_3": 125
+      "round_1": 93,
+      "round_2": 112,
+      "round_3": 85
     },
     "fighter_b": {
-      "round_1": 147,
-      "round_2": 131,
-      "round_3": 141
+      "round_1": 108,
+      "round_2": 85,
+      "round_3": 96
     }
   },
   "value_betting": {
@@ -59,9 +59,9 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 50.8,
-      "edge_pct": -1.58,
-      "kelly_fraction_full": -0.0331,
+      "model_win_prob_pct": 50.0,
+      "edge_pct": -2.38,
+      "kelly_fraction_full": -0.05,
       "kelly_fraction_half": 0.0,
       "value_bet": false
     },
@@ -69,9 +69,9 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 49.2,
-      "edge_pct": -3.18,
-      "kelly_fraction_full": -0.0669,
+      "model_win_prob_pct": 50.0,
+      "edge_pct": -2.38,
+      "kelly_fraction_full": -0.05,
       "kelly_fraction_half": 0.0,
       "value_bet": false
     },

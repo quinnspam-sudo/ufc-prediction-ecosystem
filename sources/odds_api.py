@@ -19,9 +19,12 @@ from __future__ import annotations
 
 import os
 import statistics
+from datetime import datetime, timezone
 from typing import Any, Dict, List
 
+import config
 from .base import Source, SourceResult, http_get
+from .espn_common import days_until_next_card
 
 ODDS_URL = ("https://api.the-odds-api.com/v4/sports/"
             "mma_mixed_martial_arts/odds")
@@ -29,6 +32,50 @@ ODDS_URL = ("https://api.the-odds-api.com/v4/sports/"
 
 def _norm(name: str) -> str:
     return " ".join(name.lower().replace(".", "").split())
+
+
+def _budget_check(state: Dict[str, Any], res: SourceResult) -> bool:
+    """
+    Enforce the three independent Odds API budget guards. Returns True if a call
+    is allowed this cycle. Any one guard alone keeps us under 500/month; all
+    three together make an overage essentially impossible.
+    """
+    now = datetime.now(timezone.utc)
+    meta = state.setdefault("meta", {})
+    odds_meta = meta.setdefault("odds", {"month": "", "count": 0, "last_call": None})
+
+    # Roll the monthly counter over at each calendar month.
+    this_month = now.strftime("%Y-%m")
+    if odds_meta.get("month") != this_month:
+        odds_meta["month"] = this_month
+        odds_meta["count"] = 0
+
+    # Guard 1: hard monthly ceiling.
+    if odds_meta["count"] >= config.ODDS_MONTHLY_CAP:
+        res.notes.append(f"odds SKIPPED: monthly cap reached "
+                         f"({odds_meta['count']}/{config.ODDS_MONTHLY_CAP})")
+        return False
+
+    # Guard 2: minimum interval between calls.
+    last = odds_meta.get("last_call")
+    if last:
+        try:
+            elapsed_h = (now - datetime.fromisoformat(last)).total_seconds() / 3600
+            if elapsed_h < config.ODDS_MIN_INTERVAL_HOURS:
+                res.notes.append(f"odds SKIPPED: only {elapsed_h:.1f}h since last "
+                                 f"call (min {config.ODDS_MIN_INTERVAL_HOURS}h)")
+                return False
+        except Exception:
+            pass
+
+    # Guard 3: only spend when a card is actually near.
+    days = days_until_next_card(now.strftime("%Y-%m-%d"))
+    if days is not None and days > config.ODDS_LOOKAHEAD_DAYS:
+        res.notes.append(f"odds SKIPPED: next card {days}d away "
+                         f"(> {config.ODDS_LOOKAHEAD_DAYS}d lookahead)")
+        return False
+
+    return True
 
 
 class OddsApiSource(Source):
@@ -40,6 +87,11 @@ class OddsApiSource(Source):
         if not key:
             res.ok = False
             res.notes.append("ODDS_API_KEY not set — odds source skipped")
+            return res
+
+        # Budget guards BEFORE any network call.
+        if not _budget_check(state, res):
+            res.ok = True   # not an error — a deliberate, healthy skip
             return res
 
         r = http_get(ODDS_URL, params={
@@ -57,6 +109,16 @@ class OddsApiSource(Source):
             res.notes.append(f"Odds API HTTP {r.status_code} "
                              f"({'bad/no key or quota' if r.status_code in (401, 429) else 'error'})")
             return res
+
+        # A request actually went out — count it against the monthly budget.
+        odds_meta = state["meta"]["odds"]
+        odds_meta["count"] = odds_meta.get("count", 0) + 1
+        odds_meta["last_call"] = datetime.now(timezone.utc).isoformat()
+        # The Odds API returns remaining quota in headers — surface it.
+        remaining = r.headers.get("x-requests-remaining")
+        if remaining is not None:
+            res.notes.append(f"odds call OK — API reports {remaining} requests "
+                             f"remaining this month (local count {odds_meta['count']})")
 
         events = r.json()
 

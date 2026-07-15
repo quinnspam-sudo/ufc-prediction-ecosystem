@@ -25,6 +25,35 @@ data_ingestion  →  feature_engineering  →  simulation_engine  →  analytics
 | `data_store.py` | Persistent fighter/matchup state + changelog + change detection. |
 | `watchlist.json` | Which fighters/matchups to track. |
 
+## Budget safety ($0, always)
+
+Every external call is capped so the system can never incur a charge or exhaust a
+free tier, no matter how often the scheduler fires. All knobs live in
+[config.py](config.py) (env-overridable).
+
+| Source | Free limit | Protection |
+|--------|-----------|------------|
+| **The Odds API** | 500 req/month | Hard monthly ceiling (450) **+** min 4h between calls **+** only when a card is ≤10 days out. Any one keeps us under 500; combined, max ≈186/month. |
+| **Google News** | soft IP block | Max 8 fighters/cycle, 12h per-fighter cooldown, skipped when no card ≤21 days out. |
+| **ESPN JSON** | none (be polite) | Scoreboard fetched **once per cycle**, shared by discovery + results. |
+| **GitHub Actions** | unlimited on public repos | n/a — free. |
+
+The odds source also reads The Odds API's `x-requests-remaining` header each call and
+logs it, so you always know the true remaining quota.
+
+## Adaptive calibration (gets better over time)
+
+[calibration.py](calibration.py) makes the system self-correcting:
+1. Every real-stat prediction is logged with its model probability.
+2. When ESPN reports the result, the fight is scored with the **Brier score**
+   (0.25 = coin-flip; lower is better).
+3. Each cycle it refits a **confidence-shrink factor λ** that minimises historical
+   Brier and tempers predictions toward 50/50 if the model has been over-confident.
+   λ only activates after 15 resolved fights (no over-tuning on noise).
+
+The live scorecard is published to `reports/calibration.json` (accuracy, raw vs
+calibrated Brier, current λ). This is the foundation for future weight auto-tuning.
+
 ## Auto-update
 
 The system keeps itself current: a scheduled job polls live sources, and any

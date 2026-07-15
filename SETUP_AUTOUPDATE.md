@@ -74,6 +74,19 @@ A `204 No Content` means the Action was triggered — watch it under the repo's
 > Heads-up: your notes show a PAT expiring **2026-08-07**. If you reuse it, the
 > auto-update stops when it expires — rotate it before then.
 
+## Budget safety — you can schedule aggressively now
+
+The odds source is self-throttling, so **the cron interval no longer risks your
+Odds API quota.** Even if you set cron to every 15 minutes, the odds API is called
+at most once every 4 hours and hard-capped at 450/month (free tier is 500). During
+dead weeks (no card within 10 days) it doesn't call at all. Google News is likewise
+bounded (8 fighters/cycle, 12h cooldown). So pick whatever interval you like for
+fresh results/injuries — a frequent schedule only spends free ESPN + News calls.
+
+Override any cap via env vars in the workflow if you want (all in `config.py`):
+`ODDS_MONTHLY_CAP`, `ODDS_MIN_INTERVAL_HOURS`, `ODDS_LOOKAHEAD_DAYS`,
+`NEWS_MAX_PER_CYCLE`, `NEWS_MIN_INTERVAL_HOURS`, `NEWS_LOOKAHEAD_DAYS`.
+
 ## Tuning what's tracked
 
 Edit **`watchlist.json`** to control which fighters and matchups are monitored.

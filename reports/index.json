@@ -14,9 +14,9 @@
     },
     "Dione Barbosa vs Anna Melisano": {
       "win_probability": {
-        "fighter_a_pct": 51.08,
-        "fighter_b_pct": 48.92,
-        "draw_pct": 7.07
+        "fighter_a_pct": 50.43,
+        "fighter_b_pct": 49.57,
+        "draw_pct": 6.9
       },
       "value_flags": {
         "fighter_a": false,
@@ -26,9 +26,9 @@
     },
     "Alvin Hines vs RJ Harris": {
       "win_probability": {
-        "fighter_a_pct": 50.68,
-        "fighter_b_pct": 49.32,
-        "draw_pct": 6.73
+        "fighter_a_pct": 49.97,
+        "fighter_b_pct": 50.03,
+        "draw_pct": 6.85
       },
       "value_flags": {
         "fighter_a": false,
@@ -38,9 +38,9 @@
     },
     "Alden Coria vs Stewart Nicoll": {
       "win_probability": {
-        "fighter_a_pct": 51.08,
-        "fighter_b_pct": 48.92,
-        "draw_pct": 7.07
+        "fighter_a_pct": 50.43,
+        "fighter_b_pct": 49.57,
+        "draw_pct": 6.9
       },
       "value_flags": {
         "fighter_a": false,
@@ -50,9 +50,9 @@
     },
     "Felipe Franco vs Levi Rodrigues Jr.": {
       "win_probability": {
-        "fighter_a_pct": 50.8,
-        "fighter_b_pct": 49.2,
-        "draw_pct": 6.63
+        "fighter_a_pct": 50.0,
+        "fighter_b_pct": 50.0,
+        "draw_pct": 6.6
       },
       "value_flags": {
         "fighter_a": false,
@@ -62,9 +62,9 @@
     },
     "Jean-Paul Lebosnoyani vs Seokhyeon Ko": {
       "win_probability": {
-        "fighter_a_pct": 50.59,
-        "fighter_b_pct": 49.41,
-        "draw_pct": 6.57
+        "fighter_a_pct": 49.52,
+        "fighter_b_pct": 50.48,
+        "draw_pct": 6.3
       },
       "value_flags": {
         "fighter_a": false,
@@ -74,9 +74,9 @@
     },
     "Austin Bashi vs Jose Miguel Delgado": {
       "win_probability": {
-        "fighter_a_pct": 50.52,
-        "fighter_b_pct": 49.48,
-        "draw_pct": 6.43
+        "fighter_a_pct": 49.68,
+        "fighter_b_pct": 50.32,
+        "draw_pct": 6.2
       },
       "value_flags": {
         "fighter_a": false,
@@ -86,9 +86,9 @@
     },
     "Alberto Montes vs Tommy McMillen": {
       "win_probability": {
-        "fighter_a_pct": 50.52,
-        "fighter_b_pct": 49.48,
-        "draw_pct": 6.43
+        "fighter_a_pct": 49.68,
+        "fighter_b_pct": 50.32,
+        "draw_pct": 6.2
       },
       "value_flags": {
         "fighter_a": false,
@@ -98,9 +98,9 @@
     },
     "Tabatha Ricci vs Fatima Kline": {
       "win_probability": {
-        "fighter_a_pct": 51.08,
-        "fighter_b_pct": 48.92,
-        "draw_pct": 7.07
+        "fighter_a_pct": 50.43,
+        "fighter_b_pct": 49.57,
+        "draw_pct": 6.9
       },
       "value_flags": {
         "fighter_a": false,
@@ -110,9 +110,9 @@
     },
     "Chase Hooper vs Mitch Ramirez": {
       "win_probability": {
-        "fighter_a_pct": 50.29,
-        "fighter_b_pct": 49.71,
-        "draw_pct": 6.53
+        "fighter_a_pct": 49.25,
+        "fighter_b_pct": 50.75,
+        "draw_pct": 6.4
       },
       "value_flags": {
         "fighter_a": false,
@@ -122,9 +122,9 @@
     },
     "Jared Cannonier vs Christian Leroy Duncan": {
       "win_probability": {
-        "fighter_a_pct": 50.62,
-        "fighter_b_pct": 49.38,
-        "draw_pct": 6.63
+        "fighter_a_pct": 49.63,
+        "fighter_b_pct": 50.37,
+        "draw_pct": 6.4
       },
       "value_flags": {
         "fighter_a": false,

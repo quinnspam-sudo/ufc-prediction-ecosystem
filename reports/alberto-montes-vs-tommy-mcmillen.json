@@ -4,8 +4,8 @@
     "fighter_b": "Tommy McMillen",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 3000,
-    "avg_rounds_simulated": 2.723,
+    "iterations": 2000,
+    "avg_rounds_simulated": 2.717,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -24,34 +24,34 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 50.52,
-    "fighter_b_pct": 49.48,
-    "draw_pct": 6.43
+    "fighter_a_pct": 49.68,
+    "fighter_b_pct": 50.32,
+    "draw_pct": 6.2
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 7.13,
-      "Submission": 6.7,
-      "Unanimous Decision": 24.83,
-      "Split/Majority Decision": 8.6
+      "KO/TKO": 7.3,
+      "Submission": 6.35,
+      "Unanimous Decision": 24.55,
+      "Split/Majority Decision": 8.4
     },
     "fighter_b": {
-      "KO/TKO": 7.4,
-      "Submission": 6.2,
-      "Unanimous Decision": 23.43,
-      "Split/Majority Decision": 9.27
+      "KO/TKO": 7.55,
+      "Submission": 6.6,
+      "Unanimous Decision": 23.45,
+      "Split/Majority Decision": 9.6
     }
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 128,
-      "round_2": 164,
-      "round_3": 123
+      "round_1": 82,
+      "round_2": 106,
+      "round_3": 85
     },
     "fighter_b": {
-      "round_1": 142,
-      "round_2": 128,
-      "round_3": 138
+      "round_1": 105,
+      "round_2": 85,
+      "round_3": 93
     }
   },
   "value_betting": {
@@ -59,19 +59,19 @@
       "market_moneyline": 125,
       "market_decimal_odds": 2.25,
       "market_implied_prob_pct": 44.44,
-      "model_win_prob_pct": 50.52,
-      "edge_pct": 6.07,
-      "kelly_fraction_full": 0.1093,
-      "kelly_fraction_half": 0.0546,
+      "model_win_prob_pct": 49.68,
+      "edge_pct": 5.24,
+      "kelly_fraction_full": 0.0942,
+      "kelly_fraction_half": 0.0471,
       "value_bet": false
     },
     "fighter_b": {
       "market_moneyline": -150,
       "market_decimal_odds": 1.667,
       "market_implied_prob_pct": 60.0,
-      "model_win_prob_pct": 49.48,
-      "edge_pct": -10.52,
-      "kelly_fraction_full": -0.2629,
+      "model_win_prob_pct": 50.32,
+      "edge_pct": -9.68,
+      "kelly_fraction_full": -0.242,
       "kelly_fraction_half": 0.0,
       "value_bet": false
     },
