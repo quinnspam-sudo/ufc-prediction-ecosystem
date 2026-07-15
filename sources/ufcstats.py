@@ -191,6 +191,14 @@ class UfcStatsSource(Source):
                     if not stats:
                         res.notes.append(f"ufcstats: no career stats parsed for {name}")
                         continue
+                    if all(v == 0.0 for v in stats.values()):
+                        # No real UFC fight-metric data yet (e.g. a debut whose
+                        # page shows all zeros/dashes) — a degenerate all-zero
+                        # profile is worse than the placeholder, so leave
+                        # needs_stats set and retry after the next cooldown.
+                        res.notes.append(f"ufcstats: {name} has no fight data yet "
+                                         f"(all-zero career box) — keeping placeholder")
+                        continue
                     any_ok = True
                     fields = dict(stats)
                     fields["needs_stats"] = False
