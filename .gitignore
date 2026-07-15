@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Generated reports / caches
+report.json
+*.report.json
+data_store/*.json
+!data_store/.gitkeep
+
+# OS
+.DS_Store
