@@ -26,9 +26,9 @@
     },
     "Alvin Hines vs RJ Harris": {
       "win_probability": {
-        "fighter_a_pct": 49.97,
-        "fighter_b_pct": 50.03,
-        "draw_pct": 6.85
+        "fighter_a_pct": 10.96,
+        "fighter_b_pct": 89.04,
+        "draw_pct": 0.05
       },
       "value_flags": {
         "fighter_a": false,
@@ -38,9 +38,9 @@
     },
     "Alden Coria vs Stewart Nicoll": {
       "win_probability": {
-        "fighter_a_pct": 50.43,
-        "fighter_b_pct": 49.57,
-        "draw_pct": 6.9
+        "fighter_a_pct": 78.01,
+        "fighter_b_pct": 21.99,
+        "draw_pct": 3.8
       },
       "value_flags": {
         "fighter_a": false,
@@ -74,9 +74,9 @@
     },
     "Austin Bashi vs Jose Miguel Delgado": {
       "win_probability": {
-        "fighter_a_pct": 49.68,
-        "fighter_b_pct": 50.32,
-        "draw_pct": 6.2
+        "fighter_a_pct": 84.99,
+        "fighter_b_pct": 15.01,
+        "draw_pct": 0.05
       },
       "value_flags": {
         "fighter_a": false,
@@ -86,9 +86,9 @@
     },
     "Alberto Montes vs Tommy McMillen": {
       "win_probability": {
-        "fighter_a_pct": 49.68,
-        "fighter_b_pct": 50.32,
-        "draw_pct": 6.2
+        "fighter_a_pct": 75.92,
+        "fighter_b_pct": 24.08,
+        "draw_pct": 3.85
       },
       "value_flags": {
         "fighter_a": false,
@@ -110,9 +110,9 @@
     },
     "Chase Hooper vs Mitch Ramirez": {
       "win_probability": {
-        "fighter_a_pct": 49.25,
-        "fighter_b_pct": 50.75,
-        "draw_pct": 6.4
+        "fighter_a_pct": 70.69,
+        "fighter_b_pct": 29.31,
+        "draw_pct": 4.65
       },
       "value_flags": {
         "fighter_a": false,

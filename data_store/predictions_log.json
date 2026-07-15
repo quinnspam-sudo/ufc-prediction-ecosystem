@@ -11,6 +11,66 @@
       "actual_a": null,
       "brier": null,
       "resolved_at": null
+    },
+    {
+      "label": "Alvin Hines vs RJ Harris",
+      "a": "Alvin Hines",
+      "b": "RJ Harris",
+      "p_a": 0.1096,
+      "event": "UFC Fight Night: Du Plessis vs. Usman",
+      "logged": "2026-07-15T21:38:53+00:00",
+      "resolved": false,
+      "actual_a": null,
+      "brier": null,
+      "resolved_at": null
+    },
+    {
+      "label": "Alden Coria vs Stewart Nicoll",
+      "a": "Alden Coria",
+      "b": "Stewart Nicoll",
+      "p_a": 0.7801,
+      "event": "UFC Fight Night: Du Plessis vs. Usman",
+      "logged": "2026-07-15T21:38:53+00:00",
+      "resolved": false,
+      "actual_a": null,
+      "brier": null,
+      "resolved_at": null
+    },
+    {
+      "label": "Austin Bashi vs Jose Miguel Delgado",
+      "a": "Austin Bashi",
+      "b": "Jose Miguel Delgado",
+      "p_a": 0.8499,
+      "event": "UFC Fight Night: Du Plessis vs. Usman",
+      "logged": "2026-07-15T21:38:53+00:00",
+      "resolved": false,
+      "actual_a": null,
+      "brier": null,
+      "resolved_at": null
+    },
+    {
+      "label": "Alberto Montes vs Tommy McMillen",
+      "a": "Alberto Montes",
+      "b": "Tommy McMillen",
+      "p_a": 0.7592,
+      "event": "UFC Fight Night: Du Plessis vs. Usman",
+      "logged": "2026-07-15T21:38:53+00:00",
+      "resolved": false,
+      "actual_a": null,
+      "brier": null,
+      "resolved_at": null
+    },
+    {
+      "label": "Chase Hooper vs Mitch Ramirez",
+      "a": "Chase Hooper",
+      "b": "Mitch Ramirez",
+      "p_a": 0.7069,
+      "event": "UFC Fight Night: Du Plessis vs. Usman",
+      "logged": "2026-07-15T21:38:53+00:00",
+      "resolved": false,
+      "actual_a": null,
+      "brier": null,
+      "resolved_at": null
     }
   ]
 }

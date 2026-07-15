@@ -134,11 +134,36 @@
       "detail": "Du Plessis vs Usman: consensus -245 / +195 (5 books)",
       "ts": "2026-07-15T19:10:44+00:00",
       "type": "odds_update"
+    },
+    {
+      "detail": "Alberto Montes: real stats populated (http://ufcstats.com/fighter-details/a112097ad877a48f)",
+      "ts": "2026-07-15T21:38:53+00:00",
+      "type": "ufcstats_scraped"
+    },
+    {
+      "detail": "Alden Coria: real stats populated (http://ufcstats.com/fighter-details/5e9ca8dd7d783a75)",
+      "ts": "2026-07-15T21:38:53+00:00",
+      "type": "ufcstats_scraped"
+    },
+    {
+      "detail": "Alvin Hines: real stats populated (http://ufcstats.com/fighter-details/ab2a4b5e04dc5fe9)",
+      "ts": "2026-07-15T21:38:53+00:00",
+      "type": "ufcstats_scraped"
+    },
+    {
+      "detail": "Austin Bashi: real stats populated (http://ufcstats.com/fighter-details/d3f89fa685bd8420)",
+      "ts": "2026-07-15T21:38:53+00:00",
+      "type": "ufcstats_scraped"
+    },
+    {
+      "detail": "Chase Hooper: real stats populated (http://ufcstats.com/fighter-details/971246648e162f0d)",
+      "ts": "2026-07-15T21:38:53+00:00",
+      "type": "ufcstats_scraped"
     }
   ],
   "fighters": {
     "alberto-montes": {
-      "_updated": "2026-07-15T18:47:02+00:00",
+      "_updated": "2026-07-15T21:38:53+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -155,7 +180,7 @@
       "last_fight_date": "2025-06-01",
       "missed_weight": false,
       "name": "Alberto Montes",
-      "needs_stats": true,
+      "needs_stats": false,
       "reach_in": 72.0,
       "round_strike_output": [
         60,
@@ -164,26 +189,26 @@
         54,
         52
       ],
-      "sapm": 4.0,
-      "slpm": 4.0,
+      "sapm": 4.44,
+      "slpm": 5.26,
       "stance": "Orthodox",
-      "stats_approx": true,
-      "strike_acc": 0.45,
+      "stats_approx": false,
+      "strike_acc": 0.6,
       "strike_acc_body": 0.5175,
       "strike_acc_head": 0.45,
       "strike_acc_leg": 0.5625,
-      "strike_def": 0.55,
-      "sub_avg": 0.6,
+      "strike_def": 0.6,
+      "sub_avg": 6.8,
       "sub_def": 0.65,
       "sweep_rate": 0.2,
-      "td_acc": 0.4,
-      "td_avg": 1.5,
-      "td_def": 0.65,
+      "td_acc": 0.0,
+      "td_avg": 0.0,
+      "td_def": 0.77,
       "weight_class": "Featherweight",
       "withdrawn": false
     },
     "alden-coria": {
-      "_updated": "2026-07-15T18:47:02+00:00",
+      "_updated": "2026-07-15T21:38:53+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -200,7 +225,7 @@
       "last_fight_date": "2025-06-01",
       "missed_weight": false,
       "name": "Alden Coria",
-      "needs_stats": true,
+      "needs_stats": false,
       "reach_in": 72.0,
       "round_strike_output": [
         60,
@@ -209,26 +234,26 @@
         54,
         52
       ],
-      "sapm": 4.0,
-      "slpm": 4.0,
+      "sapm": 2.4,
+      "slpm": 4.69,
       "stance": "Orthodox",
-      "stats_approx": true,
-      "strike_acc": 0.45,
+      "stats_approx": false,
+      "strike_acc": 0.44,
       "strike_acc_body": 0.5175,
       "strike_acc_head": 0.45,
       "strike_acc_leg": 0.5625,
-      "strike_def": 0.55,
-      "sub_avg": 0.6,
+      "strike_def": 0.69,
+      "sub_avg": 0.0,
       "sub_def": 0.65,
       "sweep_rate": 0.2,
-      "td_acc": 0.4,
-      "td_avg": 1.5,
-      "td_def": 0.65,
+      "td_acc": 0.5,
+      "td_avg": 1.75,
+      "td_def": 0.71,
       "weight_class": "Flyweight",
       "withdrawn": false
     },
     "alvin-hines": {
-      "_updated": "2026-07-15T18:47:02+00:00",
+      "_updated": "2026-07-15T21:38:53+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -245,7 +270,7 @@
       "last_fight_date": "2025-06-01",
       "missed_weight": false,
       "name": "Alvin Hines",
-      "needs_stats": true,
+      "needs_stats": false,
       "reach_in": 72.0,
       "round_strike_output": [
         60,
@@ -254,21 +279,21 @@
         54,
         52
       ],
-      "sapm": 4.0,
-      "slpm": 4.0,
+      "sapm": 7.47,
+      "slpm": 5.47,
       "stance": "Orthodox",
-      "stats_approx": true,
-      "strike_acc": 0.45,
+      "stats_approx": false,
+      "strike_acc": 0.31,
       "strike_acc_body": 0.5175,
       "strike_acc_head": 0.45,
       "strike_acc_leg": 0.5625,
-      "strike_def": 0.55,
-      "sub_avg": 0.6,
+      "strike_def": 0.38,
+      "sub_avg": 0.0,
       "sub_def": 0.65,
       "sweep_rate": 0.2,
-      "td_acc": 0.4,
-      "td_avg": 1.5,
-      "td_def": 0.65,
+      "td_acc": 0.1,
+      "td_avg": 1.0,
+      "td_def": 0.0,
       "weight_class": "Heavyweight",
       "withdrawn": false
     },
@@ -318,7 +343,7 @@
       "withdrawn": false
     },
     "austin-bashi": {
-      "_updated": "2026-07-15T18:47:02+00:00",
+      "_updated": "2026-07-15T21:38:53+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -335,7 +360,7 @@
       "last_fight_date": "2025-06-01",
       "missed_weight": false,
       "name": "Austin Bashi",
-      "needs_stats": true,
+      "needs_stats": false,
       "reach_in": 72.0,
       "round_strike_output": [
         60,
@@ -344,26 +369,26 @@
         54,
         52
       ],
-      "sapm": 4.0,
-      "slpm": 4.0,
+      "sapm": 2.34,
+      "slpm": 1.75,
       "stance": "Orthodox",
-      "stats_approx": true,
-      "strike_acc": 0.45,
+      "stats_approx": false,
+      "strike_acc": 0.47,
       "strike_acc_body": 0.5175,
       "strike_acc_head": 0.45,
       "strike_acc_leg": 0.5625,
-      "strike_def": 0.55,
-      "sub_avg": 0.6,
+      "strike_def": 0.48,
+      "sub_avg": 1.7,
       "sub_def": 0.65,
       "sweep_rate": 0.2,
-      "td_acc": 0.4,
-      "td_avg": 1.5,
-      "td_def": 0.65,
+      "td_acc": 0.41,
+      "td_avg": 7.81,
+      "td_def": 0.62,
       "weight_class": "Featherweight",
       "withdrawn": false
     },
     "chase-hooper": {
-      "_updated": "2026-07-15T18:47:02+00:00",
+      "_updated": "2026-07-15T21:38:53+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -380,7 +405,7 @@
       "last_fight_date": "2025-06-01",
       "missed_weight": false,
       "name": "Chase Hooper",
-      "needs_stats": true,
+      "needs_stats": false,
       "reach_in": 72.0,
       "round_strike_output": [
         60,
@@ -389,21 +414,21 @@
         54,
         52
       ],
-      "sapm": 4.0,
-      "slpm": 4.0,
+      "sapm": 3.02,
+      "slpm": 4.5,
       "stance": "Orthodox",
-      "stats_approx": true,
-      "strike_acc": 0.45,
+      "stats_approx": false,
+      "strike_acc": 0.49,
       "strike_acc_body": 0.5175,
       "strike_acc_head": 0.45,
       "strike_acc_leg": 0.5625,
-      "strike_def": 0.55,
-      "sub_avg": 0.6,
+      "strike_def": 0.39,
+      "sub_avg": 2.1,
       "sub_def": 0.65,
       "sweep_rate": 0.2,
-      "td_acc": 0.4,
-      "td_avg": 1.5,
-      "td_def": 0.65,
+      "td_acc": 0.32,
+      "td_avg": 2.43,
+      "td_def": 0.55,
       "weight_class": "Lightweight",
       "withdrawn": false
     },
@@ -1234,7 +1259,7 @@
     "calibration": {
       "shrink": 1.0
     },
-    "last_sync": "2026-07-15T19:10:44+00:00",
+    "last_sync": "2026-07-15T21:38:53+00:00",
     "news_last": {
       "alberto-montes": "2026-07-15T18:59:05.372847+00:00",
       "alden-coria": "2026-07-15T18:59:05.372847+00:00",
@@ -1263,6 +1288,14 @@
       "count": 1,
       "last_call": "2026-07-15T19:10:44.573618+00:00",
       "month": "2026-07"
+    },
+    "ufcstats_last": {
+      "alberto-montes": "2026-07-15T21:38:27.127905+00:00",
+      "alden-coria": "2026-07-15T21:38:27.127905+00:00",
+      "alvin-hines": "2026-07-15T21:38:27.127905+00:00",
+      "anna-melisano": "2026-07-15T21:38:27.127905+00:00",
+      "austin-bashi": "2026-07-15T21:38:27.127905+00:00",
+      "chase-hooper": "2026-07-15T21:38:27.127905+00:00"
     }
   }
 }
