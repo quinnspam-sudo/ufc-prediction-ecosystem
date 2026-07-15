@@ -40,6 +40,7 @@ class EspnResultsSource(Source):
             return res
 
         events = data.get("events", []) or []
+        upcoming = 0
 
         # Build a name -> fighter-key map for the watched fighters.
         name_to_key: Dict[str, str] = {}
@@ -97,5 +98,7 @@ class EspnResultsSource(Source):
                                           f"at {ev_name} ({ev_date})",
                             })
                     elif ev_date:
-                        res.notes.append(f"{fname}: upcoming at {ev_name} {ev_date}")
+                        upcoming += 1
+        if upcoming:
+            res.notes.append(f"{upcoming} tracked fighter(s) have upcoming bouts")
         return res
