@@ -1,0 +1,45 @@
+{
+  "_comment": "Fighters/matchups the auto-updater tracks. 'seed:mock' pulls the fully-specified fictional demo archetypes from data_ingestion.py. Real fighters carry APPROXIMATE granular stats (stats_approx=true) because UFCStats' per-minute numbers are behind a JS bot-wall; the live sources still keep their results/odds/health current, which moves the prediction. Replace the approximate blocks with real numbers when you have them.",
+
+  "fighters": {
+    "marquez": { "seed": "mock" },
+    "tanaka":  { "seed": "mock" },
+
+    "duplessis": {
+      "name": "Dricus du Plessis",
+      "display_name": "Dricus du Plessis",
+      "age": 31, "height_in": 73.0, "reach_in": 76.0,
+      "weight_class": "Middleweight", "stance": "Switch",
+      "slpm": 5.4, "strike_acc": 0.47, "sapm": 4.6, "strike_def": 0.52,
+      "td_avg": 2.4, "td_acc": 0.42, "td_def": 0.68,
+      "sub_avg": 1.1, "control_time_pct": 0.42, "sub_def": 0.72,
+      "career_knockdowns_suffered": 3, "career_sig_strikes_absorbed": 1400,
+      "career_fights": 24, "championship_round_fights": 3,
+      "round_strike_output": [78, 80, 82, 84, 86],
+      "last_fight_date": "2025-02-08", "home_country": "South Africa",
+      "fight_location_country": "USA"
+    },
+
+    "usman": {
+      "name": "Kamaru Usman",
+      "display_name": "Kamaru Usman",
+      "age": 38, "height_in": 72.0, "reach_in": 76.0,
+      "weight_class": "Middleweight", "stance": "Switch",
+      "slpm": 4.6, "strike_acc": 0.51, "sapm": 3.1, "strike_def": 0.56,
+      "td_avg": 3.1, "td_acc": 0.44, "td_def": 0.90,
+      "sub_avg": 0.3, "control_time_pct": 0.55, "sub_def": 0.78,
+      "career_knockdowns_suffered": 2, "career_sig_strikes_absorbed": 1600,
+      "career_fights": 25, "championship_round_fights": 6,
+      "round_strike_output": [64, 60, 58, 55, 52],
+      "last_fight_date": "2024-08-24", "division_move": 1,
+      "home_country": "USA", "fight_location_country": "USA"
+    }
+  },
+
+  "matchups": [
+    { "a": "marquez", "b": "tanaka", "rounds": 5, "label": "Marquez vs Tanaka (demo)",
+      "a_ml": -165, "b_ml": 140 },
+    { "a": "duplessis", "b": "usman", "rounds": 5, "label": "Du Plessis vs Usman",
+      "a_ml": -200, "b_ml": 170 }
+  ]
+}

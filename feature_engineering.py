@@ -321,10 +321,38 @@ def _division_adjustments(s: FighterRawStats) -> Tuple[float, float]:
 # ---------------------------------------------------------------------------
 # Public API
 # ---------------------------------------------------------------------------
+def _health_adjustments(s: FighterRawStats) -> Tuple[float, float, float]:
+    """
+    Live health/weight modifiers. Returns
+    (power_mult, cardio_mult, extra_variance).
+
+    * missed_weight: a brutal/failed cut saps power and (especially) cardio —
+      the tank is smaller and the fighter fades faster.
+    * active_injury: an unresolved injury adds unpredictability (variance) and
+      a small across-the-board performance tax.
+    These are intentionally conservative; tune once you trust the news source.
+    """
+    power_mult, cardio_mult, extra_var = 1.0, 1.0, 0.0
+    if s.missed_weight:
+        power_mult *= 0.95
+        cardio_mult *= 0.88     # the cut hits cardio hardest
+    if s.active_injury:
+        # Penalty is intentionally larger than the variance bump so the central
+        # tendency drops even for an underdog (more variance alone would help a
+        # dog). Net: an injured fighter is worse AND less predictable.
+        power_mult *= 0.90
+        cardio_mult *= 0.90
+        extra_var += 0.08       # injured fighters are less predictable
+    return power_mult, cardio_mult, extra_var
+
+
 def build_profile(s: FighterRawStats, scheduled_rounds: int) -> FighterProfile:
     """Build the single-fighter (matchup-independent) portion of a profile."""
     cardio_pool, cardio_slope = _cardio(s)
     power_adj, cardio_adj = _division_adjustments(s)
+    health_power, health_cardio, _ = _health_adjustments(s)
+    power_adj *= health_power
+    cardio_adj *= health_cardio
     return FighterProfile(
         name=s.name,
         scheduled_rounds=scheduled_rounds,
@@ -370,7 +398,9 @@ def build_matchup(
     # Independent per-fighter modifiers.
     for prof, raw in ((a, a_raw), (b, b_raw)):
         prof.age_factor = _age_factor(raw)
-        prof.rust_variance = _rust_variance(raw)
+        # Layoff rust variance plus any live injury variance stack.
+        _, _, health_var = _health_adjustments(raw)
+        prof.rust_variance = _rust_variance(raw) + health_var
         prof.travel_penalty = _travel_penalty(raw)
 
     return a, b

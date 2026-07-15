@@ -1,0 +1,214 @@
+"""
+sync.py
+=======
+Auto-update orchestrator. One cycle:
+
+    1. Load persisted state (seed from watchlist.json on first run).
+    2. Run each enabled live source (results, odds, injury news) defensively.
+    3. Merge patches/odds into the store; collect prediction-relevant changes.
+    4. Re-run the Monte Carlo prediction for every matchup whose inputs changed
+       (or all matchups on first run / --force).
+    5. Write reports/<matchup>.json + reports/index.json and persist state.
+    6. Optionally git commit + push (so GitHub always holds the latest state).
+
+Run modes:
+    python sync.py                 # fetch live, predict changed, no git
+    python sync.py --push          # ...and commit+push if anything changed
+    python sync.py --force         # re-predict every matchup regardless
+    python sync.py --no-network    # skip live sources (deterministic local test)
+    python sync.py --iterations N  # Monte Carlo iterations (default 10000)
+
+Designed to be the single entrypoint a scheduler (GitHub Actions triggered by
+cron-job.org) calls each cycle.
+"""
+
+from __future__ import annotations
+
+import argparse
+import json
+import os
+import re
+import subprocess
+import sys
+from typing import Any, Dict, List
+
+import data_store as ds
+from data_ingestion import MatchupOdds
+from main import run_pipeline
+
+REPORTS_DIR = os.path.join(os.path.dirname(__file__), "reports")
+
+
+def _slug(label: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "-", label.lower()).strip("-")
+
+
+def _enabled_sources(no_network: bool) -> List:
+    """Instantiate the live sources. Kept import-local so --no-network works
+    even if `requests` isn't installed."""
+    if no_network:
+        return []
+    from sources.espn_results import EspnResultsSource
+    from sources.odds_api import OddsApiSource
+    from sources.injury_news import InjuryNewsSource
+    return [EspnResultsSource(), OddsApiSource(), InjuryNewsSource()]
+
+
+def _predict_matchup(state: Dict[str, Any], m: Dict[str, Any],
+                     iterations: int) -> Dict[str, Any]:
+    """Run the full pipeline for one matchup dict and return the report."""
+    a_raw = ds.state_fighter_to_raw(state["fighters"][m["a"]])
+    b_raw = ds.state_fighter_to_raw(state["fighters"][m["b"]])
+    odds = MatchupOdds(
+        fighter_a_moneyline=int(m.get("a_ml", -110)),
+        fighter_b_moneyline=int(m.get("b_ml", -110)),
+        scheduled_rounds=int(m.get("rounds", 3)),
+        is_title_fight=bool(m.get("is_title_fight", False)),
+    )
+    report = run_pipeline(a_raw, b_raw, odds, iterations=iterations, seed=42)
+    # Annotate with any live health flags so the report is self-describing.
+    for side, key in (("fighter_a", m["a"]), ("fighter_b", m["b"])):
+        rec = state["fighters"][key]
+        report["matchup"][f"{side}_flags"] = {
+            "active_injury": rec.get("active_injury", False),
+            "missed_weight": rec.get("missed_weight", False),
+            "withdrawn": rec.get("withdrawn", False),
+            "injury_note": rec.get("injury_note", ""),
+            "stats_approx": rec.get("stats_approx", False),
+        }
+    return report
+
+
+def _git(*args: str) -> subprocess.CompletedProcess:
+    return subprocess.run(["git", *args], cwd=os.path.dirname(__file__),
+                          capture_output=True, text=True)
+
+
+def _commit_and_push(summary: str) -> bool:
+    """Commit changed reports/state and push. Returns True if a commit was made."""
+    _git("add", "-A", "reports", "data_store")
+    status = _git("status", "--porcelain", "reports", "data_store").stdout.strip()
+    if not status:
+        return False
+    # Identity: rely on CI/global config, but fall back so local runs don't fail.
+    env_name = _git("config", "user.name").stdout.strip()
+    cfg = [] if env_name else ["-c", "user.name=UFC AutoUpdater",
+                               "-c", "user.email=autoupdate@localhost"]
+    msg = f"auto-update: {summary}"
+    res = subprocess.run(["git", *cfg, "commit", "-m", msg],
+                         cwd=os.path.dirname(__file__), capture_output=True, text=True)
+    if res.returncode != 0:
+        print("commit failed:", res.stderr, file=sys.stderr)
+        return False
+    push = _git("push")
+    if push.returncode != 0:
+        print("push failed (committed locally):", push.stderr, file=sys.stderr)
+    return True
+
+
+def run_cycle(iterations: int = 10_000, no_network: bool = False,
+              force: bool = False, push: bool = False) -> Dict[str, Any]:
+    first_run = not os.path.exists(ds.STATE_PATH)
+    state = ds.load_state()
+
+    all_changes: List = []
+    changed_fighter_keys = set()
+    changed_matchup_labels = set()
+    notes: List[str] = []
+
+    for src in _enabled_sources(no_network):
+        result = src.safe_fetch(state)
+        notes.extend(f"[{src.name}] {n}" for n in result.notes)
+        fchanges = ds.apply_patches(state, result.patches)
+        for key, field, old, new in fchanges:
+            changed_fighter_keys.add(key)
+        all_changes.extend(fchanges)
+        changed_matchup_labels.update(ds.apply_odds(state, result.odds))
+        ds.record_events(state, result.events)
+
+    # Which matchups need re-prediction?
+    to_predict = []
+    for m in state["matchups"]:
+        label = m.get("label", f"{m['a']} vs {m['b']}")
+        touched = (m["a"] in changed_fighter_keys or m["b"] in changed_fighter_keys
+                   or label in changed_matchup_labels)
+        report_path = os.path.join(REPORTS_DIR, f"{_slug(label)}.json")
+        if force or first_run or touched or not os.path.exists(report_path):
+            to_predict.append(m)
+
+    os.makedirs(REPORTS_DIR, exist_ok=True)
+    index = {}
+    for m in state["matchups"]:
+        label = m.get("label", f"{m['a']} vs {m['b']}")
+        path = os.path.join(REPORTS_DIR, f"{_slug(label)}.json")
+        if m in to_predict:
+            report = _predict_matchup(state, m, iterations)
+            with open(path, "w") as fh:
+                json.dump(report, fh, indent=2)
+        # Build the index entry from whatever report exists.
+        if os.path.exists(path):
+            with open(path) as fh:
+                rep = json.load(fh)
+            index[label] = {
+                "win_probability": rep["win_probability"],
+                "value_flags": {
+                    "fighter_a": rep["value_betting"]["fighter_a"]["value_bet"],
+                    "fighter_b": rep["value_betting"]["fighter_b"]["value_bet"],
+                },
+                "report_file": f"reports/{_slug(label)}.json",
+            }
+    with open(os.path.join(REPORTS_DIR, "index.json"), "w") as fh:
+        json.dump({"matchups": index}, fh, indent=2)
+
+    ds.save_state(state)
+
+    summary = (f"{len(to_predict)} matchup(s) re-predicted, "
+               f"{len(all_changes)} field change(s), "
+               f"{len(changed_matchup_labels)} odds move(s)")
+    committed = False
+    if push:
+        committed = _commit_and_push(summary)
+
+    return {
+        "first_run": first_run,
+        "changes": all_changes,
+        "odds_moves": sorted(changed_matchup_labels),
+        "predicted": [m.get("label") for m in to_predict],
+        "notes": notes,
+        "summary": summary,
+        "committed": committed,
+    }
+
+
+def main(argv=None) -> int:
+    p = argparse.ArgumentParser(description="UFC ecosystem auto-update cycle")
+    p.add_argument("--iterations", type=int, default=10_000)
+    p.add_argument("--no-network", action="store_true",
+                   help="skip live sources (deterministic local test)")
+    p.add_argument("--force", action="store_true",
+                   help="re-predict every matchup regardless of change")
+    p.add_argument("--push", action="store_true",
+                   help="commit + push changed reports/state to GitHub")
+    args = p.parse_args(argv)
+
+    out = run_cycle(iterations=args.iterations, no_network=args.no_network,
+                    force=args.force, push=args.push)
+
+    print("── UFC auto-update cycle ─────────────────────────────")
+    print("first run     :", out["first_run"])
+    print("predicted     :", ", ".join(out["predicted"]) or "(none)")
+    print("field changes :", len(out["changes"]))
+    for k, f, old, new in out["changes"]:
+        print(f"    {k}.{f}: {old!r} -> {new!r}")
+    print("odds moves    :", ", ".join(out["odds_moves"]) or "(none)")
+    print("committed     :", out["committed"])
+    if out["notes"]:
+        print("notes         :")
+        for n in out["notes"][:20]:
+            print("    -", n)
+    print("summary       :", out["summary"])
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

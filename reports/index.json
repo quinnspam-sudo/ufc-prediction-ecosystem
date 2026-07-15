@@ -1,0 +1,28 @@
+{
+  "matchups": {
+    "Marquez vs Tanaka (demo)": {
+      "win_probability": {
+        "fighter_a_pct": 17.87,
+        "fighter_b_pct": 82.13,
+        "draw_pct": 0.0
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": true
+      },
+      "report_file": "reports/marquez-vs-tanaka-demo.json"
+    },
+    "Du Plessis vs Usman": {
+      "win_probability": {
+        "fighter_a_pct": 25.37,
+        "fighter_b_pct": 74.63,
+        "draw_pct": 1.9
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": true
+      },
+      "report_file": "reports/du-plessis-vs-usman.json"
+    }
+  }
+}

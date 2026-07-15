@@ -5,11 +5,11 @@ __pycache__/
 venv/
 *.egg-info/
 
-# Generated reports / caches
-report.json
-*.report.json
-data_store/*.json
-!data_store/.gitkeep
+# Scratch output from `main.py --json-out` (top-level only).
+# NOTE: reports/*.json and data_store/state.json ARE tracked on purpose —
+# they're the persistent state the auto-updater commits each cycle.
+/report.json
+/*.report.json
 
 # OS
 .DS_Store

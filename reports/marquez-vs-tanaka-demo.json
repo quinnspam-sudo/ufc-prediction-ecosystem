@@ -1,0 +1,81 @@
+{
+  "matchup": {
+    "fighter_a": "Diego 'Volume' Marquez",
+    "fighter_b": "Kenji 'The Anaconda' Tanaka",
+    "scheduled_rounds": 5,
+    "is_title_fight": false,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.893,
+    "fighter_a_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": false
+    },
+    "fighter_b_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": false
+    }
+  },
+  "win_probability": {
+    "fighter_a_pct": 17.87,
+    "fighter_b_pct": 82.13,
+    "draw_pct": 0.0
+  },
+  "method_of_victory_matrix": {
+    "fighter_a": {
+      "KO/TKO": 14.55,
+      "Submission": 3.32,
+      "Unanimous Decision": 0.0,
+      "Split/Majority Decision": 0.0
+    },
+    "fighter_b": {
+      "KO/TKO": 8.22,
+      "Submission": 56.87,
+      "Unanimous Decision": 17.04,
+      "Split/Majority Decision": 0.0
+    }
+  },
+  "finish_round_distribution": {
+    "fighter_a": {
+      "round_1": 546,
+      "round_2": 451,
+      "round_3": 326,
+      "round_4": 269,
+      "round_5": 195
+    },
+    "fighter_b": {
+      "round_1": 2074,
+      "round_2": 1636,
+      "round_3": 1244,
+      "round_4": 919,
+      "round_5": 636
+    }
+  },
+  "value_betting": {
+    "fighter_a": {
+      "market_moneyline": -165,
+      "market_decimal_odds": 1.606,
+      "market_implied_prob_pct": 62.26,
+      "model_win_prob_pct": 17.87,
+      "edge_pct": -44.39,
+      "kelly_fraction_full": -1.1764,
+      "kelly_fraction_half": 0.0,
+      "value_bet": false
+    },
+    "fighter_b": {
+      "market_moneyline": 140,
+      "market_decimal_odds": 2.4,
+      "market_implied_prob_pct": 41.67,
+      "model_win_prob_pct": 82.13,
+      "edge_pct": 40.46,
+      "kelly_fraction_full": 0.6937,
+      "kelly_fraction_half": 0.3468,
+      "value_bet": true
+    }
+  }
+}

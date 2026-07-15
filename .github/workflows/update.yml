@@ -1,0 +1,43 @@
+name: UFC Auto-Update
+
+# Triggers:
+#   * repository_dispatch (event_type: refresh) — fired by cron-job.org (primary,
+#     reliable schedule; GitHub's own cron has fired unreliably on this account).
+#   * workflow_dispatch — manual "Run workflow" button.
+#   * schedule — best-effort backup only; may lag or skip.
+on:
+  repository_dispatch:
+    types: [refresh]
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"   # backup: every ~6h at :17 (GitHub cron is flaky)
+
+# Allow the job to commit updated reports/state back to the repo.
+permissions:
+  contents: write
+
+concurrency:
+  group: ufc-auto-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run auto-update cycle
+        env:
+          # Add this in repo Settings → Secrets and variables → Actions.
+          # If unset, the odds source is skipped cleanly (everything else runs).
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+        run: python sync.py --push --iterations 10000

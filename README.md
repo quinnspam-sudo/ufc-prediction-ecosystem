@@ -19,7 +19,32 @@ data_ingestion  →  feature_engineering  →  simulation_engine  →  analytics
 | `feature_engineering.py` | Turns raw stats into normalized, matchup-aware combat primitives (striking, grappling, chin, cardio, plus age/reach/stance/rust/travel/division modifiers). |
 | `simulation_engine.py` | Round-by-round Monte Carlo: dominance scores, stamina decay, KO/submission finish triggers, and a 3-judge scorecard engine. |
 | `analytics_reporting.py` | Aggregates sims into a detailed JSON schema + clean CLI tables; computes implied vs market odds and the Kelly Criterion stake. |
-| `main.py` | CLI orchestrator tying it all together. |
+| `main.py` | CLI orchestrator for a single ad-hoc matchup. |
+| `sync.py` | **Auto-update** orchestrator: poll sources → diff → re-predict changed matchups → commit to GitHub. |
+| `sources/` | Pluggable live-data adapters (ESPN results, The Odds API, Google News injury scan). |
+| `data_store.py` | Persistent fighter/matchup state + changelog + change detection. |
+| `watchlist.json` | Which fighters/matchups to track. |
+
+## Auto-update
+
+The system keeps itself current: a scheduled job polls live sources, and any
+change (fight result, line move, injury/weight news) re-runs the affected
+prediction and commits the new report to GitHub. See
+**[SETUP_AUTOUPDATE.md](SETUP_AUTOUPDATE.md)** for the full wiring (Odds API key +
+cron-job.org trigger).
+
+```bash
+python sync.py --no-network     # deterministic local test
+python sync.py                  # live fetch + predict (no commit)
+python sync.py --push           # live fetch + predict + commit/push
+```
+
+What auto-updates today: **fight results/status** (ESPN JSON API), **betting odds**
+(The Odds API), and **injury/weight/withdrawal flags** (Google News keyword scan,
+approximate — every flag keeps its source headline for verification). Granular
+per-minute striking/grappling stats stay seeded from `watchlist.json` because
+UFCStats is behind a JS bot-wall; adding a headless-browser fetcher is a documented
+next step.
 
 ## Setup & run
 

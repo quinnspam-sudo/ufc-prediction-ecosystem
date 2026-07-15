@@ -96,6 +96,16 @@ class FighterRawStats:
     home_country: str = "USA"
     fight_location_country: str = "USA"     # where THIS bout takes place
 
+    # --- Live health / status (auto-populated by the update pipeline) ------
+    # These are refreshed by sources/injury_news.py + sources/espn_results.py.
+    # They feed feature_engineering so a fresh injury/weight-miss actually
+    # moves the prediction, not just a log line.
+    active_injury: bool = False             # a reported, unresolved injury
+    injury_note: str = ""                   # human-readable source snippet
+    missed_weight: bool = False             # missed the contracted weight
+    withdrawn: bool = False                 # pulled from the bout entirely
+    display_name: str = ""                  # name used for news/ESPN lookups
+
     def __post_init__(self) -> None:
         if self.weight_class not in WEIGHT_CLASSES:
             raise ValueError(

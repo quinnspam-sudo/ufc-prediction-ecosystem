@@ -1,0 +1,81 @@
+{
+  "matchup": {
+    "fighter_a": "Dricus du Plessis",
+    "fighter_b": "Kamaru Usman",
+    "scheduled_rounds": 5,
+    "is_title_fight": false,
+    "iterations": 10000,
+    "avg_rounds_simulated": 4.131,
+    "fighter_a_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": true
+    },
+    "fighter_b_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": true
+    }
+  },
+  "win_probability": {
+    "fighter_a_pct": 25.37,
+    "fighter_b_pct": 74.63,
+    "draw_pct": 1.9
+  },
+  "method_of_victory_matrix": {
+    "fighter_a": {
+      "KO/TKO": 12.17,
+      "Submission": 10.93,
+      "Unanimous Decision": 0.81,
+      "Split/Majority Decision": 0.98
+    },
+    "fighter_b": {
+      "KO/TKO": 11.83,
+      "Submission": 6.94,
+      "Unanimous Decision": 51.37,
+      "Split/Majority Decision": 3.07
+    }
+  },
+  "finish_round_distribution": {
+    "fighter_a": {
+      "round_1": 469,
+      "round_2": 470,
+      "round_3": 477,
+      "round_4": 465,
+      "round_5": 429
+    },
+    "fighter_b": {
+      "round_1": 409,
+      "round_2": 404,
+      "round_3": 385,
+      "round_4": 371,
+      "round_5": 308
+    }
+  },
+  "value_betting": {
+    "fighter_a": {
+      "market_moneyline": -200,
+      "market_decimal_odds": 1.5,
+      "market_implied_prob_pct": 66.67,
+      "model_win_prob_pct": 25.37,
+      "edge_pct": -41.29,
+      "kelly_fraction_full": -1.2388,
+      "kelly_fraction_half": 0.0,
+      "value_bet": false
+    },
+    "fighter_b": {
+      "market_moneyline": 170,
+      "market_decimal_odds": 2.7,
+      "market_implied_prob_pct": 37.04,
+      "model_win_prob_pct": 74.63,
+      "edge_pct": 37.59,
+      "kelly_fraction_full": 0.597,
+      "kelly_fraction_half": 0.2985,
+      "value_bet": true
+    }
+  }
+}
