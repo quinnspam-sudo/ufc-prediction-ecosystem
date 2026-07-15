@@ -165,8 +165,12 @@ def run_cycle(iterations: int = 10_000, no_network: bool = False,
     summary = (f"{len(to_predict)} matchup(s) re-predicted, "
                f"{len(all_changes)} field change(s), "
                f"{len(changed_matchup_labels)} odds move(s)")
+
+    # Only commit when something MEANINGFUL changed — not just the last_sync
+    # heartbeat. Otherwise a frequent schedule would spam junk commits.
+    meaningful = bool(to_predict or all_changes or changed_matchup_labels)
     committed = False
-    if push:
+    if push and meaningful:
         committed = _commit_and_push(summary)
 
     return {
