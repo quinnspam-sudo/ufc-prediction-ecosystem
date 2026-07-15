@@ -4,8 +4,8 @@
     "fighter_b": "Jose Miguel Delgado",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2500,
-    "avg_rounds_simulated": 2.724,
+    "iterations": 3000,
+    "avg_rounds_simulated": 2.723,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -24,34 +24,34 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 50.36,
-    "fighter_b_pct": 49.64,
-    "draw_pct": 6.12
+    "fighter_a_pct": 50.52,
+    "fighter_b_pct": 49.48,
+    "draw_pct": 6.43
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 7.24,
-      "Submission": 6.4,
-      "Unanimous Decision": 25.08,
-      "Split/Majority Decision": 8.56
+      "KO/TKO": 7.13,
+      "Submission": 6.7,
+      "Unanimous Decision": 24.83,
+      "Split/Majority Decision": 8.6
     },
     "fighter_b": {
-      "KO/TKO": 7.32,
-      "Submission": 6.32,
-      "Unanimous Decision": 23.72,
-      "Split/Majority Decision": 9.24
+      "KO/TKO": 7.4,
+      "Submission": 6.2,
+      "Unanimous Decision": 23.43,
+      "Split/Majority Decision": 9.27
     }
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 102,
-      "round_2": 138,
-      "round_3": 101
+      "round_1": 128,
+      "round_2": 164,
+      "round_3": 123
     },
     "fighter_b": {
-      "round_1": 118,
-      "round_2": 111,
-      "round_3": 112
+      "round_1": 142,
+      "round_2": 128,
+      "round_3": 138
     }
   },
   "value_betting": {
@@ -59,9 +59,9 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 50.36,
-      "edge_pct": -2.02,
-      "kelly_fraction_full": -0.0424,
+      "model_win_prob_pct": 50.52,
+      "edge_pct": -1.86,
+      "kelly_fraction_full": -0.0392,
       "kelly_fraction_half": 0.0,
       "value_bet": false
     },
@@ -69,11 +69,13 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 49.64,
-      "edge_pct": -2.74,
-      "kelly_fraction_full": -0.0576,
+      "model_win_prob_pct": 49.48,
+      "edge_pct": -2.9,
+      "kelly_fraction_full": -0.0608,
       "kelly_fraction_half": 0.0,
       "value_bet": false
-    }
+    },
+    "insufficient_data": true,
+    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
   }
 }

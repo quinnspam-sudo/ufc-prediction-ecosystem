@@ -4,8 +4,8 @@
     "fighter_b": "Christian Leroy Duncan",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 10000,
-    "avg_rounds_simulated": 2.715,
+    "iterations": 3000,
+    "avg_rounds_simulated": 2.707,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -24,34 +24,34 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 50.44,
-    "fighter_b_pct": 49.56,
-    "draw_pct": 6.84
+    "fighter_a_pct": 50.62,
+    "fighter_b_pct": 49.38,
+    "draw_pct": 6.63
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 7.91,
-      "Submission": 6.32,
-      "Unanimous Decision": 23.75,
-      "Split/Majority Decision": 9.01
+      "KO/TKO": 8.07,
+      "Submission": 6.77,
+      "Unanimous Decision": 24.2,
+      "Split/Majority Decision": 8.23
     },
     "fighter_b": {
-      "KO/TKO": 7.9,
-      "Submission": 5.94,
-      "Unanimous Decision": 23.52,
-      "Split/Majority Decision": 8.81
+      "KO/TKO": 7.8,
+      "Submission": 6.03,
+      "Unanimous Decision": 23.1,
+      "Split/Majority Decision": 9.17
     }
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 458,
-      "round_2": 497,
-      "round_3": 468
+      "round_1": 143,
+      "round_2": 178,
+      "round_3": 124
     },
     "fighter_b": {
-      "round_1": 501,
-      "round_2": 431,
-      "round_3": 452
+      "round_1": 143,
+      "round_2": 129,
+      "round_3": 143
     }
   },
   "value_betting": {
@@ -59,21 +59,23 @@
       "market_moneyline": 279,
       "market_decimal_odds": 3.79,
       "market_implied_prob_pct": 26.39,
-      "model_win_prob_pct": 50.44,
-      "edge_pct": 24.05,
-      "kelly_fraction_full": 0.3268,
-      "kelly_fraction_half": 0.1634,
-      "value_bet": true
+      "model_win_prob_pct": 50.62,
+      "edge_pct": 24.24,
+      "kelly_fraction_full": 0.3293,
+      "kelly_fraction_half": 0.1646,
+      "value_bet": false
     },
     "fighter_b": {
       "market_moneyline": -350,
       "market_decimal_odds": 1.286,
       "market_implied_prob_pct": 77.78,
-      "model_win_prob_pct": 49.56,
-      "edge_pct": -28.22,
-      "kelly_fraction_full": -1.2698,
+      "model_win_prob_pct": 49.38,
+      "edge_pct": -28.4,
+      "kelly_fraction_full": -1.2781,
       "kelly_fraction_half": 0.0,
       "value_bet": false
-    }
+    },
+    "insufficient_data": true,
+    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
   }
 }

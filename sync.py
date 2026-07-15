@@ -70,6 +70,21 @@ def _predict_matchup(state: Dict[str, Any], m: Dict[str, Any],
         is_title_fight=bool(m.get("is_title_fight", False)),
     )
     report = run_pipeline(a_raw, b_raw, odds, iterations=iterations, seed=42)
+
+    # SAFETY: a fighter on placeholder (league-average) stats produces a ~50/50
+    # model, which would falsely flag the market underdog as "value" on every
+    # such fight. Suppress value flags unless BOTH fighters have real stats, so
+    # the system never emits a misleading bet signal it can't actually support.
+    needs_stats = (state["fighters"][m["a"]].get("needs_stats")
+                   or state["fighters"][m["b"]].get("needs_stats"))
+    if needs_stats:
+        for side in ("fighter_a", "fighter_b"):
+            report["value_betting"][side]["value_bet"] = False
+        report["value_betting"]["insufficient_data"] = True
+        report["value_betting"]["note"] = (
+            "Value flags suppressed: one or both fighters use placeholder "
+            "league-average stats. Add real stats in watchlist.json to enable.")
+
     # Annotate with any live health flags so the report is self-describing.
     for side, key in (("fighter_a", m["a"]), ("fighter_b", m["b"])):
         rec = state["fighters"][key]

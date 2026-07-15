@@ -4,8 +4,8 @@
     "fighter_b": "Seokhyeon Ko",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2500,
-    "avg_rounds_simulated": 2.708,
+    "iterations": 3000,
+    "avg_rounds_simulated": 2.71,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -24,34 +24,34 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 50.19,
-    "fighter_b_pct": 49.81,
-    "draw_pct": 6.2
+    "fighter_a_pct": 50.59,
+    "fighter_b_pct": 49.41,
+    "draw_pct": 6.57
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 7.92,
-      "Submission": 6.44,
-      "Unanimous Decision": 24.4,
-      "Split/Majority Decision": 8.32
+      "KO/TKO": 7.87,
+      "Submission": 6.7,
+      "Unanimous Decision": 24.2,
+      "Split/Majority Decision": 8.5
     },
     "fighter_b": {
-      "KO/TKO": 7.72,
-      "Submission": 6.12,
-      "Unanimous Decision": 23.6,
-      "Split/Majority Decision": 9.28
+      "KO/TKO": 7.8,
+      "Submission": 5.93,
+      "Unanimous Decision": 23.3,
+      "Split/Majority Decision": 9.13
     }
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 117,
-      "round_2": 146,
-      "round_3": 96
+      "round_1": 142,
+      "round_2": 173,
+      "round_3": 122
     },
     "fighter_b": {
-      "round_1": 120,
-      "round_2": 109,
-      "round_3": 117
+      "round_1": 143,
+      "round_2": 127,
+      "round_3": 142
     }
   },
   "value_betting": {
@@ -59,9 +59,9 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 50.19,
-      "edge_pct": -2.19,
-      "kelly_fraction_full": -0.046,
+      "model_win_prob_pct": 50.59,
+      "edge_pct": -1.79,
+      "kelly_fraction_full": -0.0376,
       "kelly_fraction_half": 0.0,
       "value_bet": false
     },
@@ -69,11 +69,13 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 49.81,
-      "edge_pct": -2.57,
-      "kelly_fraction_full": -0.054,
+      "model_win_prob_pct": 49.41,
+      "edge_pct": -2.97,
+      "kelly_fraction_full": -0.0624,
       "kelly_fraction_half": 0.0,
       "value_bet": false
-    }
+    },
+    "insufficient_data": true,
+    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
   }
 }

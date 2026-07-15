@@ -4,8 +4,8 @@
     "fighter_b": "Kamaru Usman",
     "scheduled_rounds": 5,
     "is_title_fight": false,
-    "iterations": 2500,
-    "avg_rounds_simulated": 4.119,
+    "iterations": 3000,
+    "avg_rounds_simulated": 4.117,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -26,57 +26,57 @@
   "win_probability": {
     "fighter_a_pct": 26.15,
     "fighter_b_pct": 73.85,
-    "draw_pct": 2.12
+    "draw_pct": 1.97
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 12.08,
-      "Submission": 11.44,
-      "Unanimous Decision": 0.88,
-      "Split/Majority Decision": 1.2
+      "KO/TKO": 12.13,
+      "Submission": 11.57,
+      "Unanimous Decision": 0.8,
+      "Split/Majority Decision": 1.13
     },
     "fighter_b": {
-      "KO/TKO": 11.36,
-      "Submission": 6.56,
-      "Unanimous Decision": 51.2,
-      "Split/Majority Decision": 3.16
+      "KO/TKO": 11.57,
+      "Submission": 6.67,
+      "Unanimous Decision": 50.83,
+      "Split/Majority Decision": 3.33
     }
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 119,
-      "round_2": 126,
-      "round_3": 128,
-      "round_4": 118,
-      "round_5": 97
+      "round_1": 140,
+      "round_2": 143,
+      "round_3": 153,
+      "round_4": 153,
+      "round_5": 122
     },
     "fighter_b": {
-      "round_1": 106,
-      "round_2": 102,
-      "round_3": 80,
-      "round_4": 85,
-      "round_5": 75
+      "round_1": 129,
+      "round_2": 128,
+      "round_3": 100,
+      "round_4": 100,
+      "round_5": 90
     }
   },
   "value_betting": {
     "fighter_a": {
-      "market_moneyline": -200,
-      "market_decimal_odds": 1.5,
-      "market_implied_prob_pct": 66.67,
+      "market_moneyline": -245,
+      "market_decimal_odds": 1.408,
+      "market_implied_prob_pct": 71.01,
       "model_win_prob_pct": 26.15,
-      "edge_pct": -40.51,
-      "kelly_fraction_full": -1.2154,
+      "edge_pct": -44.87,
+      "kelly_fraction_full": -1.5479,
       "kelly_fraction_half": 0.0,
       "value_bet": false
     },
     "fighter_b": {
-      "market_moneyline": 170,
-      "market_decimal_odds": 2.7,
-      "market_implied_prob_pct": 37.04,
+      "market_moneyline": 195,
+      "market_decimal_odds": 2.95,
+      "market_implied_prob_pct": 33.9,
       "model_win_prob_pct": 73.85,
-      "edge_pct": 36.81,
-      "kelly_fraction_full": 0.5846,
-      "kelly_fraction_half": 0.2923,
+      "edge_pct": 39.95,
+      "kelly_fraction_full": 0.6044,
+      "kelly_fraction_half": 0.3022,
       "value_bet": true
     }
   }

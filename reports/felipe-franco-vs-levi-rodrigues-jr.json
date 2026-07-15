@@ -4,8 +4,8 @@
     "fighter_b": "Levi Rodrigues Jr.",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2500,
-    "avg_rounds_simulated": 2.704,
+    "iterations": 3000,
+    "avg_rounds_simulated": 2.705,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -24,34 +24,34 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 50.49,
-    "fighter_b_pct": 49.51,
-    "draw_pct": 6.36
+    "fighter_a_pct": 50.8,
+    "fighter_b_pct": 49.2,
+    "draw_pct": 6.63
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 8.08,
-      "Submission": 6.44,
-      "Unanimous Decision": 24.68,
-      "Split/Majority Decision": 8.08
+      "KO/TKO": 8.03,
+      "Submission": 6.77,
+      "Unanimous Decision": 24.6,
+      "Split/Majority Decision": 8.03
     },
     "fighter_b": {
-      "KO/TKO": 7.88,
-      "Submission": 6.16,
-      "Unanimous Decision": 23.24,
-      "Split/Majority Decision": 9.08
+      "KO/TKO": 8.0,
+      "Submission": 5.97,
+      "Unanimous Decision": 23.07,
+      "Split/Majority Decision": 8.9
     }
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 117,
-      "round_2": 148,
-      "round_3": 98
+      "round_1": 141,
+      "round_2": 178,
+      "round_3": 125
     },
     "fighter_b": {
-      "round_1": 124,
-      "round_2": 110,
-      "round_3": 117
+      "round_1": 147,
+      "round_2": 131,
+      "round_3": 141
     }
   },
   "value_betting": {
@@ -59,9 +59,9 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 50.49,
-      "edge_pct": -1.89,
-      "kelly_fraction_full": -0.0397,
+      "model_win_prob_pct": 50.8,
+      "edge_pct": -1.58,
+      "kelly_fraction_full": -0.0331,
       "kelly_fraction_half": 0.0,
       "value_bet": false
     },
@@ -69,11 +69,13 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 49.51,
-      "edge_pct": -2.87,
-      "kelly_fraction_full": -0.0603,
+      "model_win_prob_pct": 49.2,
+      "edge_pct": -3.18,
+      "kelly_fraction_full": -0.0669,
       "kelly_fraction_half": 0.0,
       "value_bet": false
-    }
+    },
+    "insufficient_data": true,
+    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
   }
 }
