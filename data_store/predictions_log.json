@@ -71,6 +71,54 @@
       "actual_a": null,
       "brier": null,
       "resolved_at": null
+    },
+    {
+      "label": "Dione Barbosa vs Anna Melisano",
+      "a": "Dione Barbosa",
+      "b": "Anna Melisano",
+      "p_a": 0.3367,
+      "event": "UFC Fight Night: Du Plessis vs. Usman",
+      "logged": "2026-07-15T23:01:33+00:00",
+      "resolved": false,
+      "actual_a": null,
+      "brier": null,
+      "resolved_at": null
+    },
+    {
+      "label": "Felipe Franco vs Levi Rodrigues Jr.",
+      "a": "Felipe Franco",
+      "b": "Levi Rodrigues Jr.",
+      "p_a": 0.4903,
+      "event": "UFC Fight Night: Du Plessis vs. Usman",
+      "logged": "2026-07-15T23:01:33+00:00",
+      "resolved": false,
+      "actual_a": null,
+      "brier": null,
+      "resolved_at": null
+    },
+    {
+      "label": "Jean-Paul Lebosnoyani vs Seokhyeon Ko",
+      "a": "Jean-Paul Lebosnoyani",
+      "b": "Seokhyeon Ko",
+      "p_a": 0.2344,
+      "event": "UFC Fight Night: Du Plessis vs. Usman",
+      "logged": "2026-07-15T23:01:33+00:00",
+      "resolved": false,
+      "actual_a": null,
+      "brier": null,
+      "resolved_at": null
+    },
+    {
+      "label": "Jared Cannonier vs Christian Leroy Duncan",
+      "a": "Jared Cannonier",
+      "b": "Christian Leroy Duncan",
+      "p_a": 0.4957,
+      "event": "UFC Fight Night: Du Plessis vs. Usman",
+      "logged": "2026-07-15T23:01:34+00:00",
+      "resolved": false,
+      "actual_a": null,
+      "brier": null,
+      "resolved_at": null
     }
   ]
 }

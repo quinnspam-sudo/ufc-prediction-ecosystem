@@ -14,9 +14,9 @@
     },
     "Dione Barbosa vs Anna Melisano": {
       "win_probability": {
-        "fighter_a_pct": 50.43,
-        "fighter_b_pct": 49.57,
-        "draw_pct": 6.9
+        "fighter_a_pct": 33.67,
+        "fighter_b_pct": 66.33,
+        "draw_pct": 6.0
       },
       "value_flags": {
         "fighter_a": false,
@@ -50,9 +50,9 @@
     },
     "Felipe Franco vs Levi Rodrigues Jr.": {
       "win_probability": {
-        "fighter_a_pct": 50.0,
-        "fighter_b_pct": 50.0,
-        "draw_pct": 6.6
+        "fighter_a_pct": 49.03,
+        "fighter_b_pct": 50.97,
+        "draw_pct": 7.4
       },
       "value_flags": {
         "fighter_a": false,
@@ -62,9 +62,9 @@
     },
     "Jean-Paul Lebosnoyani vs Seokhyeon Ko": {
       "win_probability": {
-        "fighter_a_pct": 49.52,
-        "fighter_b_pct": 50.48,
-        "draw_pct": 6.3
+        "fighter_a_pct": 23.44,
+        "fighter_b_pct": 76.56,
+        "draw_pct": 2.1
       },
       "value_flags": {
         "fighter_a": false,
@@ -98,9 +98,9 @@
     },
     "Tabatha Ricci vs Fatima Kline": {
       "win_probability": {
-        "fighter_a_pct": 50.43,
-        "fighter_b_pct": 49.57,
-        "draw_pct": 6.9
+        "fighter_a_pct": 22.88,
+        "fighter_b_pct": 77.12,
+        "draw_pct": 4.5
       },
       "value_flags": {
         "fighter_a": false,
@@ -122,12 +122,12 @@
     },
     "Jared Cannonier vs Christian Leroy Duncan": {
       "win_probability": {
-        "fighter_a_pct": 49.63,
-        "fighter_b_pct": 50.37,
-        "draw_pct": 6.4
+        "fighter_a_pct": 49.57,
+        "fighter_b_pct": 50.43,
+        "draw_pct": 7.77
       },
       "value_flags": {
-        "fighter_a": false,
+        "fighter_a": true,
         "fighter_b": false
       },
       "report_file": "reports/jared-cannonier-vs-christian-leroy-duncan.json"
