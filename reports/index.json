@@ -1,28 +1,136 @@
 {
   "matchups": {
-    "Marquez vs Tanaka (demo)": {
-      "win_probability": {
-        "fighter_a_pct": 17.87,
-        "fighter_b_pct": 82.13,
-        "draw_pct": 0.0
-      },
-      "value_flags": {
-        "fighter_a": false,
-        "fighter_b": true
-      },
-      "report_file": "reports/marquez-vs-tanaka-demo.json"
-    },
     "Du Plessis vs Usman": {
       "win_probability": {
-        "fighter_a_pct": 25.37,
-        "fighter_b_pct": 74.63,
-        "draw_pct": 1.9
+        "fighter_a_pct": 26.15,
+        "fighter_b_pct": 73.85,
+        "draw_pct": 2.12
       },
       "value_flags": {
         "fighter_a": false,
         "fighter_b": true
       },
       "report_file": "reports/du-plessis-vs-usman.json"
+    },
+    "Dione Barbosa vs Anna Melisano": {
+      "win_probability": {
+        "fighter_a_pct": 50.75,
+        "fighter_b_pct": 49.25,
+        "draw_pct": 6.84
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/dione-barbosa-vs-anna-melisano.json"
+    },
+    "Alvin Hines vs RJ Harris": {
+      "win_probability": {
+        "fighter_a_pct": 50.3,
+        "fighter_b_pct": 49.7,
+        "draw_pct": 6.48
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/alvin-hines-vs-rj-harris.json"
+    },
+    "Alden Coria vs Stewart Nicoll": {
+      "win_probability": {
+        "fighter_a_pct": 50.75,
+        "fighter_b_pct": 49.25,
+        "draw_pct": 6.84
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/alden-coria-vs-stewart-nicoll.json"
+    },
+    "Felipe Franco vs Levi Rodrigues Jr.": {
+      "win_probability": {
+        "fighter_a_pct": 50.49,
+        "fighter_b_pct": 49.51,
+        "draw_pct": 6.36
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/felipe-franco-vs-levi-rodrigues-jr.json"
+    },
+    "Jean-Paul Lebosnoyani vs Seokhyeon Ko": {
+      "win_probability": {
+        "fighter_a_pct": 50.19,
+        "fighter_b_pct": 49.81,
+        "draw_pct": 6.2
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/jean-paul-lebosnoyani-vs-seokhyeon-ko.json"
+    },
+    "Austin Bashi vs Jose Miguel Delgado": {
+      "win_probability": {
+        "fighter_a_pct": 50.36,
+        "fighter_b_pct": 49.64,
+        "draw_pct": 6.12
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/austin-bashi-vs-jose-miguel-delgado.json"
+    },
+    "Alberto Montes vs Tommy McMillen": {
+      "win_probability": {
+        "fighter_a_pct": 50.36,
+        "fighter_b_pct": 49.64,
+        "draw_pct": 6.12
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/alberto-montes-vs-tommy-mcmillen.json"
+    },
+    "Tabatha Ricci vs Fatima Kline": {
+      "win_probability": {
+        "fighter_a_pct": 50.75,
+        "fighter_b_pct": 49.25,
+        "draw_pct": 6.84
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/tabatha-ricci-vs-fatima-kline.json"
+    },
+    "Chase Hooper vs Mitch Ramirez": {
+      "win_probability": {
+        "fighter_a_pct": 50.04,
+        "fighter_b_pct": 49.96,
+        "draw_pct": 6.16
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/chase-hooper-vs-mitch-ramirez.json"
+    },
+    "Jared Cannonier vs Christian Leroy Duncan": {
+      "win_probability": {
+        "fighter_a_pct": 50.15,
+        "fighter_b_pct": 49.85,
+        "draw_pct": 6.2
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/jared-cannonier-vs-christian-leroy-duncan.json"
     }
   }
 }

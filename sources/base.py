@@ -67,6 +67,9 @@ class SourceResult:
     patches: List[FighterPatch] = field(default_factory=list)
     events: List[Dict[str, Any]] = field(default_factory=list)   # {type, detail}
     odds: Dict[str, Dict[str, int]] = field(default_factory=dict)  # label -> {a_ml,b_ml}
+    # Auto-discovery: brand-new fighters/matchups to add to the store.
+    new_fighters: Dict[str, Dict[str, Any]] = field(default_factory=dict)  # tempkey -> field dict
+    new_matchups: List[Dict[str, Any]] = field(default_factory=list)       # {a,b,rounds,label,...}
     notes: List[str] = field(default_factory=list)               # diagnostics
     ok: bool = True                # False if the source was unavailable
 

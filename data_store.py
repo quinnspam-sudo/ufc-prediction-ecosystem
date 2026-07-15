@@ -156,6 +156,71 @@ def apply_odds(state: Dict[str, Any], odds: Dict[str, Dict[str, int]]) -> List[s
     return changed
 
 
+def _norm_name(s: str) -> str:
+    return " ".join((s or "").lower().replace(".", "").split())
+
+
+def _display(state: Dict[str, Any], key: str) -> str:
+    rec = state["fighters"].get(key, {})
+    return rec.get("display_name") or rec.get("name") or key
+
+
+def add_discovered(state: Dict[str, Any],
+                   new_fighters: Dict[str, Any],
+                   new_matchups: List[Dict[str, Any]]) -> Tuple[List[str], List[str]]:
+    """
+    Merge auto-discovered fighters/matchups into the store, de-duplicating by
+    fighter NAME (so a curated fighter is reused, not overwritten with
+    placeholder stats) and by matchup pair. Returns (added_fighter_keys,
+    added_matchup_labels).
+    """
+    added_f: List[str] = []
+    added_m: List[str] = []
+
+    # Index existing fighters by normalized display name.
+    name_idx = {_norm_name(_display(state, k)): k for k in state["fighters"]}
+
+    # Map each discovered temp key to the real store key (existing or new).
+    keymap: Dict[str, str] = {}
+    for tempkey, fields in new_fighters.items():
+        nm = _norm_name(fields.get("display_name") or fields.get("name") or tempkey)
+        if nm in name_idx:
+            keymap[tempkey] = name_idx[nm]           # reuse existing/curated fighter
+            continue
+        key = tempkey
+        i = 2
+        while key in state["fighters"]:              # avoid slug collisions
+            key = f"{tempkey}-{i}"; i += 1
+        rec = dict(fields)
+        rec["_updated"] = _now()
+        state["fighters"][key] = rec
+        name_idx[nm] = key
+        keymap[tempkey] = key
+        added_f.append(key)
+
+    # Existing matchup pairs (by normalized fighter names).
+    existing_pairs = set()
+    for m in state["matchups"]:
+        existing_pairs.add(frozenset((_norm_name(_display(state, m["a"])),
+                                      _norm_name(_display(state, m["b"])))))
+
+    for m in new_matchups:
+        a_key = keymap.get(m["a"], m["a"])
+        b_key = keymap.get(m["b"], m["b"])
+        pair = frozenset((_norm_name(_display(state, a_key)),
+                          _norm_name(_display(state, b_key))))
+        if pair in existing_pairs:
+            continue                                  # already tracked (e.g. curated)
+        entry = {k: v for k, v in m.items() if k not in ("a", "b")}
+        entry["a"] = a_key
+        entry["b"] = b_key
+        state["matchups"].append(entry)
+        existing_pairs.add(pair)
+        added_m.append(entry.get("label"))
+
+    return added_f, added_m
+
+
 def record_events(state: Dict[str, Any], events: List[Dict[str, Any]]) -> None:
     """Append events to the changelog (keep the last 500)."""
     ts = _now()

@@ -48,10 +48,14 @@ def _enabled_sources(no_network: bool) -> List:
     even if `requests` isn't installed."""
     if no_network:
         return []
+    from sources.espn_schedule import EspnScheduleSource
     from sources.espn_results import EspnResultsSource
     from sources.odds_api import OddsApiSource
     from sources.injury_news import InjuryNewsSource
-    return [EspnResultsSource(), OddsApiSource(), InjuryNewsSource()]
+    # Schedule discovery runs FIRST so newly-added fighters exist before the
+    # results/odds/news sources try to match against them this same cycle.
+    return [EspnScheduleSource(), EspnResultsSource(), OddsApiSource(),
+            InjuryNewsSource()]
 
 
 def _predict_matchup(state: Dict[str, Any], m: Dict[str, Any],
@@ -75,6 +79,7 @@ def _predict_matchup(state: Dict[str, Any], m: Dict[str, Any],
             "withdrawn": rec.get("withdrawn", False),
             "injury_note": rec.get("injury_note", ""),
             "stats_approx": rec.get("stats_approx", False),
+            "needs_real_stats": rec.get("needs_stats", False),
         }
     return report
 
@@ -114,11 +119,21 @@ def run_cycle(iterations: int = 10_000, no_network: bool = False,
     all_changes: List = []
     changed_fighter_keys = set()
     changed_matchup_labels = set()
+    discovered_labels: List[str] = []
     notes: List[str] = []
 
     for src in _enabled_sources(no_network):
         result = src.safe_fetch(state)
         notes.extend(f"[{src.name}] {n}" for n in result.notes)
+        # Auto-discovery additions first, so later sources see the new fighters.
+        if result.new_fighters or result.new_matchups:
+            added_f, added_m = ds.add_discovered(
+                state, result.new_fighters, result.new_matchups)
+            discovered_labels.extend([l for l in added_m if l])
+            for lbl in added_m:
+                if lbl:
+                    ds.record_events(state, [{"type": "matchup_discovered",
+                                              "detail": lbl}])
         fchanges = ds.apply_patches(state, result.patches)
         for key, field, old, new in fchanges:
             changed_fighter_keys.add(key)
@@ -162,13 +177,15 @@ def run_cycle(iterations: int = 10_000, no_network: bool = False,
 
     ds.save_state(state)
 
-    summary = (f"{len(to_predict)} matchup(s) re-predicted, "
+    summary = (f"{len(to_predict)} matchup(s) predicted, "
+               f"{len(discovered_labels)} new bout(s), "
                f"{len(all_changes)} field change(s), "
                f"{len(changed_matchup_labels)} odds move(s)")
 
     # Only commit when something MEANINGFUL changed — not just the last_sync
     # heartbeat. Otherwise a frequent schedule would spam junk commits.
-    meaningful = bool(to_predict or all_changes or changed_matchup_labels)
+    meaningful = bool(to_predict or all_changes or changed_matchup_labels
+                      or discovered_labels)
     committed = False
     if push and meaningful:
         committed = _commit_and_push(summary)
@@ -177,6 +194,7 @@ def run_cycle(iterations: int = 10_000, no_network: bool = False,
         "first_run": first_run,
         "changes": all_changes,
         "odds_moves": sorted(changed_matchup_labels),
+        "discovered": discovered_labels,
         "predicted": [m.get("label") for m in to_predict],
         "notes": notes,
         "summary": summary,
@@ -200,6 +218,7 @@ def main(argv=None) -> int:
 
     print("── UFC auto-update cycle ─────────────────────────────")
     print("first run     :", out["first_run"])
+    print("discovered    :", ", ".join(out["discovered"]) or "(none)")
     print("predicted     :", ", ".join(out["predicted"]) or "(none)")
     print("field changes :", len(out["changes"]))
     for k, f, old, new in out["changes"]:

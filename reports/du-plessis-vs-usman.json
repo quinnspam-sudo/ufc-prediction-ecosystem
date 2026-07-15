@@ -4,56 +4,58 @@
     "fighter_b": "Kamaru Usman",
     "scheduled_rounds": 5,
     "is_title_fight": false,
-    "iterations": 10000,
-    "avg_rounds_simulated": 4.131,
+    "iterations": 2500,
+    "avg_rounds_simulated": 4.119,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true
+      "stats_approx": true,
+      "needs_real_stats": false
     },
     "fighter_b_flags": {
       "active_injury": false,
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true
+      "stats_approx": true,
+      "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 25.37,
-    "fighter_b_pct": 74.63,
-    "draw_pct": 1.9
+    "fighter_a_pct": 26.15,
+    "fighter_b_pct": 73.85,
+    "draw_pct": 2.12
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 12.17,
-      "Submission": 10.93,
-      "Unanimous Decision": 0.81,
-      "Split/Majority Decision": 0.98
+      "KO/TKO": 12.08,
+      "Submission": 11.44,
+      "Unanimous Decision": 0.88,
+      "Split/Majority Decision": 1.2
     },
     "fighter_b": {
-      "KO/TKO": 11.83,
-      "Submission": 6.94,
-      "Unanimous Decision": 51.37,
-      "Split/Majority Decision": 3.07
+      "KO/TKO": 11.36,
+      "Submission": 6.56,
+      "Unanimous Decision": 51.2,
+      "Split/Majority Decision": 3.16
     }
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 469,
-      "round_2": 470,
-      "round_3": 477,
-      "round_4": 465,
-      "round_5": 429
+      "round_1": 119,
+      "round_2": 126,
+      "round_3": 128,
+      "round_4": 118,
+      "round_5": 97
     },
     "fighter_b": {
-      "round_1": 409,
-      "round_2": 404,
-      "round_3": 385,
-      "round_4": 371,
-      "round_5": 308
+      "round_1": 106,
+      "round_2": 102,
+      "round_3": 80,
+      "round_4": 85,
+      "round_5": 75
     }
   },
   "value_betting": {
@@ -61,9 +63,9 @@
       "market_moneyline": -200,
       "market_decimal_odds": 1.5,
       "market_implied_prob_pct": 66.67,
-      "model_win_prob_pct": 25.37,
-      "edge_pct": -41.29,
-      "kelly_fraction_full": -1.2388,
+      "model_win_prob_pct": 26.15,
+      "edge_pct": -40.51,
+      "kelly_fraction_full": -1.2154,
       "kelly_fraction_half": 0.0,
       "value_bet": false
     },
@@ -71,10 +73,10 @@
       "market_moneyline": 170,
       "market_decimal_odds": 2.7,
       "market_implied_prob_pct": 37.04,
-      "model_win_prob_pct": 74.63,
-      "edge_pct": 37.59,
-      "kelly_fraction_full": 0.597,
-      "kelly_fraction_half": 0.2985,
+      "model_win_prob_pct": 73.85,
+      "edge_pct": 36.81,
+      "kelly_fraction_full": 0.5846,
+      "kelly_fraction_half": 0.2923,
       "value_bet": true
     }
   }

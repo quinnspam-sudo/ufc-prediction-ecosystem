@@ -1,10 +1,7 @@
 {
-  "_comment": "Fighters/matchups the auto-updater tracks. 'seed:mock' pulls the fully-specified fictional demo archetypes from data_ingestion.py. Real fighters carry APPROXIMATE granular stats (stats_approx=true) because UFCStats' per-minute numbers are behind a JS bot-wall; the live sources still keep their results/odds/health current, which moves the prediction. Replace the approximate blocks with real numbers when you have them.",
+  "_comment": "CURATED fighters/matchups. The pipeline AUTO-DISCOVERS the full upcoming card from ESPN each cycle (sources/espn_schedule.py), so you don't need to hand-enter fights. Entries here are optional overrides: a fighter listed here with real stats is REUSED (by name) instead of the league-average placeholder auto-discovery would seed. Use this to hand-tune stats for fights you care about. (The fictional Marquez/Tanaka demo still lives in data_ingestion.py for `python main.py`, but is no longer tracked here.)",
 
   "fighters": {
-    "marquez": { "seed": "mock" },
-    "tanaka":  { "seed": "mock" },
-
     "duplessis": {
       "name": "Dricus du Plessis",
       "display_name": "Dricus du Plessis",
@@ -37,8 +34,6 @@
   },
 
   "matchups": [
-    { "a": "marquez", "b": "tanaka", "rounds": 5, "label": "Marquez vs Tanaka (demo)",
-      "a_ml": -165, "b_ml": 140 },
     { "a": "duplessis", "b": "usman", "rounds": 5, "label": "Du Plessis vs Usman",
       "a_ml": -200, "b_ml": 170 }
   ]

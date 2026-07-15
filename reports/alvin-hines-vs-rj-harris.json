@@ -1,0 +1,79 @@
+{
+  "matchup": {
+    "fighter_a": "Alvin Hines",
+    "fighter_b": "RJ Harris",
+    "scheduled_rounds": 3,
+    "is_title_fight": false,
+    "iterations": 2500,
+    "avg_rounds_simulated": 2.698,
+    "fighter_a_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": true,
+      "needs_real_stats": true
+    },
+    "fighter_b_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": true,
+      "needs_real_stats": true
+    }
+  },
+  "win_probability": {
+    "fighter_a_pct": 50.3,
+    "fighter_b_pct": 49.7,
+    "draw_pct": 6.48
+  },
+  "method_of_victory_matrix": {
+    "fighter_a": {
+      "KO/TKO": 8.48,
+      "Submission": 6.36,
+      "Unanimous Decision": 24.28,
+      "Split/Majority Decision": 7.92
+    },
+    "fighter_b": {
+      "KO/TKO": 7.96,
+      "Submission": 6.36,
+      "Unanimous Decision": 23.28,
+      "Split/Majority Decision": 8.88
+    }
+  },
+  "finish_round_distribution": {
+    "fighter_a": {
+      "round_1": 120,
+      "round_2": 148,
+      "round_3": 103
+    },
+    "fighter_b": {
+      "round_1": 128,
+      "round_2": 112,
+      "round_3": 118
+    }
+  },
+  "value_betting": {
+    "fighter_a": {
+      "market_moneyline": -110,
+      "market_decimal_odds": 1.909,
+      "market_implied_prob_pct": 52.38,
+      "model_win_prob_pct": 50.3,
+      "edge_pct": -2.08,
+      "kelly_fraction_full": -0.0437,
+      "kelly_fraction_half": 0.0,
+      "value_bet": false
+    },
+    "fighter_b": {
+      "market_moneyline": -110,
+      "market_decimal_odds": 1.909,
+      "market_implied_prob_pct": 52.38,
+      "model_win_prob_pct": 49.7,
+      "edge_pct": -2.68,
+      "kelly_fraction_full": -0.0563,
+      "kelly_fraction_half": 0.0,
+      "value_bet": false
+    }
+  }
+}

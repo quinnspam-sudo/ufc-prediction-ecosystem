@@ -1,0 +1,79 @@
+{
+  "matchup": {
+    "fighter_a": "Jared Cannonier",
+    "fighter_b": "Christian Leroy Duncan",
+    "scheduled_rounds": 3,
+    "is_title_fight": false,
+    "iterations": 2500,
+    "avg_rounds_simulated": 2.705,
+    "fighter_a_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": true,
+      "needs_real_stats": true
+    },
+    "fighter_b_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": true,
+      "needs_real_stats": true
+    }
+  },
+  "win_probability": {
+    "fighter_a_pct": 50.15,
+    "fighter_b_pct": 49.85,
+    "draw_pct": 6.2
+  },
+  "method_of_victory_matrix": {
+    "fighter_a": {
+      "KO/TKO": 8.12,
+      "Submission": 6.36,
+      "Unanimous Decision": 24.36,
+      "Split/Majority Decision": 8.2
+    },
+    "fighter_b": {
+      "KO/TKO": 7.76,
+      "Submission": 6.28,
+      "Unanimous Decision": 23.44,
+      "Split/Majority Decision": 9.28
+    }
+  },
+  "finish_round_distribution": {
+    "fighter_a": {
+      "round_1": 117,
+      "round_2": 149,
+      "round_3": 96
+    },
+    "fighter_b": {
+      "round_1": 122,
+      "round_2": 110,
+      "round_3": 119
+    }
+  },
+  "value_betting": {
+    "fighter_a": {
+      "market_moneyline": -110,
+      "market_decimal_odds": 1.909,
+      "market_implied_prob_pct": 52.38,
+      "model_win_prob_pct": 50.15,
+      "edge_pct": -2.23,
+      "kelly_fraction_full": -0.0469,
+      "kelly_fraction_half": 0.0,
+      "value_bet": false
+    },
+    "fighter_b": {
+      "market_moneyline": -110,
+      "market_decimal_odds": 1.909,
+      "market_implied_prob_pct": 52.38,
+      "model_win_prob_pct": 49.85,
+      "edge_pct": -2.53,
+      "kelly_fraction_full": -0.0531,
+      "kelly_fraction_half": 0.0,
+      "value_bet": false
+    }
+  }
+}
