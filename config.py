@@ -17,6 +17,9 @@ Why each cap exists
   cycle with a per-fighter cooldown.
 * ESPN's unofficial JSON has no key but shouldn't be spammed; we fetch its
   scoreboard once per cycle and share it.
+* UFCStats has no quota either, but a headless-browser scrape costs real
+  runner CPU/time per fighter, so we cap fighters-per-cycle and add a
+  per-fighter cooldown to keep it a light, polite scrape.
 """
 
 from __future__ import annotations
@@ -48,6 +51,15 @@ NEWS_MAX_PER_CYCLE = _int("NEWS_MAX_PER_CYCLE", 8)
 NEWS_MIN_INTERVAL_HOURS = _int("NEWS_MIN_INTERVAL_HOURS", 12)
 # Skip news entirely when no card is within this many days (nothing urgent).
 NEWS_LOOKAHEAD_DAYS = _int("NEWS_LOOKAHEAD_DAYS", 21)
+
+# ── UFCStats scraper (Playwright, headless-browser) guards ────────────────
+# No published quota (unofficial site, no key) — these exist purely to be a
+# polite scraper and to bound GH Actions runner minutes, not to protect $.
+# Max fighters to scrape for real stats in a single cycle.
+UFCSTATS_MAX_PER_CYCLE = _int("UFCSTATS_MAX_PER_CYCLE", 6)
+# Per-fighter cooldown: don't re-scrape the same fighter more often than this
+# (real stats barely move between cycles; also caps retries on a miss/no-match).
+UFCSTATS_MIN_INTERVAL_HOURS = _int("UFCSTATS_MIN_INTERVAL_HOURS", 24)
 
 # ── Simulation ────────────────────────────────────────────────────────────
 # Iterations for a normal prediction. Placeholder-stat fights use fewer (their

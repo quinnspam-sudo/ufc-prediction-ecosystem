@@ -55,10 +55,11 @@ def _enabled_sources(no_network: bool) -> List:
     from sources.espn_results import EspnResultsSource
     from sources.odds_api import OddsApiSource
     from sources.injury_news import InjuryNewsSource
+    from sources.ufcstats import UfcStatsSource
     # Schedule discovery runs FIRST so newly-added fighters exist before the
-    # results/odds/news sources try to match against them this same cycle.
+    # results/odds/news/ufcstats sources try to match against them this cycle.
     return [EspnScheduleSource(), EspnResultsSource(), OddsApiSource(),
-            InjuryNewsSource()]
+            InjuryNewsSource(), UfcStatsSource()]
 
 
 def _apply_shrink(report: Dict[str, Any], shrink: float) -> None:
