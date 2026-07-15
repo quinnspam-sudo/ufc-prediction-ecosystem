@@ -54,6 +54,46 @@
       "detail": "Jared Cannonier vs Christian Leroy Duncan",
       "ts": "2026-07-15T18:47:02+00:00",
       "type": "matchup_discovered"
+    },
+    {
+      "detail": "Alberto Montes vs Tommy McMillen: consensus +125 / -150 (5 books)",
+      "ts": "2026-07-15T18:49:58+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Alden Coria vs Stewart Nicoll: consensus -1050 / +675 (5 books)",
+      "ts": "2026-07-15T18:49:58+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Dione Barbosa vs Anna Melisano: consensus -600 / +430 (5 books)",
+      "ts": "2026-07-15T18:49:58+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Alvin Hines vs RJ Harris: consensus -145 / +120 (5 books)",
+      "ts": "2026-07-15T18:49:58+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Tabatha Ricci vs Fatima Kline: consensus +350 / -460 (5 books)",
+      "ts": "2026-07-15T18:49:58+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Chase Hooper vs Mitch Ramirez: consensus -350 / +280 (5 books)",
+      "ts": "2026-07-15T18:49:58+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Jared Cannonier vs Christian Leroy Duncan: consensus +279 / -350 (5 books)",
+      "ts": "2026-07-15T18:49:58+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Du Plessis vs Usman: consensus -245 / +195 (5 books)",
+      "ts": "2026-07-15T18:49:58+00:00",
+      "type": "odds_update"
     }
   ],
   "fighters": {
@@ -1057,7 +1097,9 @@
     },
     {
       "a": "dione-barbosa",
+      "a_ml": -600,
       "b": "anna-melisano",
+      "b_ml": 430,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
       "label": "Dione Barbosa vs Anna Melisano",
       "rounds": 3,
@@ -1065,7 +1107,9 @@
     },
     {
       "a": "alvin-hines",
+      "a_ml": -145,
       "b": "rj-harris",
+      "b_ml": 120,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
       "label": "Alvin Hines vs RJ Harris",
       "rounds": 3,
@@ -1073,7 +1117,9 @@
     },
     {
       "a": "alden-coria",
+      "a_ml": -1050,
       "b": "stewart-nicoll",
+      "b_ml": 675,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
       "label": "Alden Coria vs Stewart Nicoll",
       "rounds": 3,
@@ -1105,7 +1151,9 @@
     },
     {
       "a": "alberto-montes",
+      "a_ml": 125,
       "b": "tommy-mcmillen",
+      "b_ml": -150,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
       "label": "Alberto Montes vs Tommy McMillen",
       "rounds": 3,
@@ -1113,7 +1161,9 @@
     },
     {
       "a": "tabatha-ricci",
+      "a_ml": 350,
       "b": "fatima-kline",
+      "b_ml": -460,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
       "label": "Tabatha Ricci vs Fatima Kline",
       "rounds": 3,
@@ -1121,7 +1171,9 @@
     },
     {
       "a": "chase-hooper",
+      "a_ml": -350,
       "b": "mitch-ramirez",
+      "b_ml": 280,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
       "label": "Chase Hooper vs Mitch Ramirez",
       "rounds": 3,
@@ -1129,7 +1181,9 @@
     },
     {
       "a": "jared-cannonier",
+      "a_ml": 279,
       "b": "christian-leroy-duncan",
+      "b_ml": -350,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
       "label": "Jared Cannonier vs Christian Leroy Duncan",
       "rounds": 3,
@@ -1137,6 +1191,6 @@
     }
   ],
   "meta": {
-    "last_sync": "2026-07-15T18:47:09+00:00"
+    "last_sync": "2026-07-15T18:50:08+00:00"
   }
 }
