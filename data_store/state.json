@@ -1049,9 +1049,9 @@
   "matchups": [
     {
       "a": "duplessis",
-      "a_ml": -200,
+      "a_ml": -245,
       "b": "usman",
-      "b_ml": 170,
+      "b_ml": 195,
       "label": "Du Plessis vs Usman",
       "rounds": 5
     },
