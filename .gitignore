@@ -11,5 +11,18 @@ venv/
 /report.json
 /*.report.json
 
+# Secrets — NEVER commit these. API keys live only in GitHub Actions secrets
+# (repo Settings → Secrets) and local env vars, never in the repo.
+.env
+.env.*
+*.local
+secrets.json
+credentials.json
+*.pem
+*.key
+*_token
+*_secret
+.odds_api_key
+
 # OS
 .DS_Store
