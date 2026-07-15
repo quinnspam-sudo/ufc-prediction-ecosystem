@@ -173,6 +173,15 @@ def run_cycle(iterations: int = config.SIM_ITERATIONS, no_network: bool = False,
     first_run = not os.path.exists(ds.STATE_PATH)
     state = ds.load_state()
 
+    # Snapshot budget-throttle meta BEFORE sources run. If a source spends budget
+    # (an odds call) or updates a per-fighter news cooldown, that state MUST be
+    # committed even on an otherwise no-op cycle — otherwise the next CI run
+    # (fresh checkout) wouldn't see it and could call the API again too soon,
+    # defeating the throttle. This makes "spent budget" a commit-worthy change.
+    _meta0 = state.get("meta", {})
+    odds_count0 = _meta0.get("odds", {}).get("count", 0)
+    news_sig0 = json.dumps(_meta0.get("news_last", {}), sort_keys=True)
+
     all_changes: List = []
     changed_fighter_keys = set()
     changed_matchup_labels = set()
@@ -267,10 +276,17 @@ def run_cycle(iterations: int = config.SIM_ITERATIONS, no_network: bool = False,
                f"{len(changed_matchup_labels)} odds move(s), "
                f"{len(resolved_now)} result(s) scored")
 
+    # A budget-throttle update (odds call spent, or news cooldown stamps) MUST
+    # persist so the throttle survives across CI runs.
+    budget_meta_changed = (
+        state.get("meta", {}).get("odds", {}).get("count", 0) != odds_count0
+        or json.dumps(state.get("meta", {}).get("news_last", {}), sort_keys=True) != news_sig0
+    )
+
     # Only commit when something MEANINGFUL changed — not just the last_sync
     # heartbeat. Otherwise a frequent schedule would spam junk commits.
     meaningful = bool(to_predict or all_changes or changed_matchup_labels
-                      or discovered_labels or resolved_now)
+                      or discovered_labels or resolved_now or budget_meta_changed)
     committed = False
     if push and meaningful:
         committed = _commit_and_push(summary)
