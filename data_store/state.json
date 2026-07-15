@@ -14,6 +14,11 @@
       "detail": "Kamaru Usman: Kamaru Usman has sympathy for Conor McGregor following injury at UFC 329: 'It's a dark place to be' - CBS Sports",
       "ts": "2026-07-15T17:46:25+00:00",
       "type": "health_injury"
+    },
+    {
+      "detail": "Du Plessis vs Usman: consensus -245 / +195 (5 books)",
+      "ts": "2026-07-15T18:25:48+00:00",
+      "type": "odds_update"
     }
   ],
   "fighters": {
@@ -207,14 +212,14 @@
     },
     {
       "a": "duplessis",
-      "a_ml": -200,
+      "a_ml": -245,
       "b": "usman",
-      "b_ml": 170,
+      "b_ml": 195,
       "label": "Du Plessis vs Usman",
       "rounds": 5
     }
   ],
   "meta": {
-    "last_sync": "2026-07-15T17:50:20+00:00"
+    "last_sync": "2026-07-15T18:25:49+00:00"
   }
 }
