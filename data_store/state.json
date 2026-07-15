@@ -94,6 +94,46 @@
       "detail": "Du Plessis vs Usman: consensus -245 / +195 (5 books)",
       "ts": "2026-07-15T18:49:58+00:00",
       "type": "odds_update"
+    },
+    {
+      "detail": "Alberto Montes vs Tommy McMillen: consensus +125 / -150 (5 books)",
+      "ts": "2026-07-15T19:10:44+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Alden Coria vs Stewart Nicoll: consensus -1050 / +675 (5 books)",
+      "ts": "2026-07-15T19:10:44+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Dione Barbosa vs Anna Melisano: consensus -600 / +430 (5 books)",
+      "ts": "2026-07-15T19:10:44+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Alvin Hines vs RJ Harris: consensus -145 / +120 (5 books)",
+      "ts": "2026-07-15T19:10:44+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Tabatha Ricci vs Fatima Kline: consensus +350 / -460 (5 books)",
+      "ts": "2026-07-15T19:10:44+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Chase Hooper vs Mitch Ramirez: consensus -350 / +280 (5 books)",
+      "ts": "2026-07-15T19:10:44+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Jared Cannonier vs Christian Leroy Duncan: consensus +279 / -350 (5 books)",
+      "ts": "2026-07-15T19:10:44+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Du Plessis vs Usman: consensus -245 / +195 (5 books)",
+      "ts": "2026-07-15T19:10:44+00:00",
+      "type": "odds_update"
     }
   ],
   "fighters": {
@@ -1194,7 +1234,7 @@
     "calibration": {
       "shrink": 1.0
     },
-    "last_sync": "2026-07-15T19:10:15+00:00",
+    "last_sync": "2026-07-15T19:10:44+00:00",
     "news_last": {
       "alberto-montes": "2026-07-15T18:59:05.372847+00:00",
       "alden-coria": "2026-07-15T18:59:05.372847+00:00",
@@ -1218,6 +1258,11 @@
       "tabatha-ricci": "2026-07-15T19:04:04.659073+00:00",
       "tommy-mcmillen": "2026-07-15T19:04:04.659073+00:00",
       "usman": "2026-07-15T19:04:04.659073+00:00"
+    },
+    "odds": {
+      "count": 1,
+      "last_call": "2026-07-15T19:10:44.573618+00:00",
+      "month": "2026-07"
     }
   }
 }
