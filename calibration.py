@@ -58,28 +58,45 @@ def save_log(log: Dict[str, Any]) -> None:
 
 
 def log_prediction(log: Dict[str, Any], label: str, a_name: str, b_name: str,
-                   p_a: float, event: str = "") -> None:
+                   p_a: float, event: str = "",
+                   fight_level: Optional[Dict[str, Any]] = None) -> None:
     """
     Record (or update) the OPEN prediction for a matchup. `p_a` is the model's
-    raw probability that fighter A wins. Only call for real-stat fights.
+    raw probability that fighter A wins. `fight_level` (the report's
+    side-agnostic block) adds method + goes-the-distance probabilities so
+    those predictions get graded too. Only call for real-stat fights.
     """
+    fl = {}
+    if fight_level:
+        fl = {
+            "p_ko": round(fight_level["ko_tko_pct"] / 100.0, 4),
+            "p_sub": round(fight_level["submission_pct"] / 100.0, 4),
+            "p_dec": round(fight_level["decision_pct"] / 100.0, 4),
+            "p_distance": round(fight_level["goes_the_distance_pct"] / 100.0, 4),
+        }
     for e in reversed(log["entries"]):
         if e["label"] == label and not e["resolved"]:
             e["p_a"] = round(p_a, 4)          # refresh the still-open prediction
+            e.update(fl)
             e["logged"] = _now()
             return
-    log["entries"].append({
+    entry = {
         "label": label, "a": a_name, "b": b_name,
         "p_a": round(p_a, 4), "event": event,
         "logged": _now(), "resolved": False,
         "actual_a": None, "brier": None, "resolved_at": None,
-    })
+    }
+    entry.update(fl)
+    log["entries"].append(entry)
 
 
-def resolve_result(log: Dict[str, Any], winner_name: str, loser_name: str) -> Optional[Dict]:
+def resolve_result(log: Dict[str, Any], winner_name: str, loser_name: str,
+                   method: str = "", finish_round: int = 0) -> Optional[Dict]:
     """
     Resolve the open prediction matching this bout (by the two fighter names).
-    Returns the resolved entry, or None if no open prediction matched.
+    `method` ("KO/TKO" | "Submission" | "Decision" | "" if unknown) grades the
+    method-of-victory and goes-the-distance predictions when the entry logged
+    them. Returns the resolved entry, or None if no open prediction matched.
     """
     w, l = _norm(winner_name), _norm(loser_name)
     for e in reversed(log["entries"]):
@@ -90,6 +107,20 @@ def resolve_result(log: Dict[str, Any], winner_name: str, loser_name: str) -> Op
             actual_a = 1.0 if _norm(e["a"]) == w else 0.0
             e["actual_a"] = actual_a
             e["brier"] = round((e["p_a"] - actual_a) ** 2, 4)
+            if method and "p_distance" in e:
+                e["actual_method"] = method
+                e["actual_round"] = finish_round
+                went_distance = 1.0 if method == "Decision" else 0.0
+                e["distance_brier"] = round(
+                    (e["p_distance"] - went_distance) ** 2, 4)
+                # Multiclass Brier over {KO/TKO, Submission, Decision}.
+                probs = {"KO/TKO": e["p_ko"], "Submission": e["p_sub"],
+                         "Decision": e["p_dec"]}
+                e["method_brier"] = round(sum(
+                    (p - (1.0 if m == method else 0.0)) ** 2
+                    for m, p in probs.items()), 4)
+                e["method_correct"] = bool(
+                    max(probs, key=probs.get) == method)
             e["resolved"] = True
             e["resolved_at"] = _now()
             return e
@@ -168,7 +199,23 @@ def summary(log: Dict[str, Any], shrink: float) -> Dict[str, Any]:
     # Accuracy = share of fights where the model's favorite actually won.
     correct = sum(1 for e in resolved
                   if (e["p_a"] >= 0.5) == (e["actual_a"] == 1.0))
+    # Method / goes-the-distance grading (only entries that logged + resolved
+    # with a known method).
+    graded = [e for e in resolved if "method_brier" in e]
+    method_block = {
+        "graded_fights": len(graded),
+        "method_accuracy_pct": round(
+            100.0 * sum(e["method_correct"] for e in graded) / len(graded), 1)
+            if graded else None,
+        "method_brier_mean": round(
+            sum(e["method_brier"] for e in graded) / len(graded), 4)
+            if graded else None,
+        "distance_brier_mean": round(
+            sum(e["distance_brier"] for e in graded) / len(graded), 4)
+            if graded else None,
+    }
     return {
+        "method_and_distance": method_block,
         "resolved_fights": n, "open_predictions": open_n,
         "brier_raw": round(_brier_at(resolved, 1.0), 4),
         "brier_calibrated": round(_brier_at(resolved, shrink), 4),

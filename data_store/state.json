@@ -1537,7 +1537,11 @@
     "calibration": {
       "shrink": 1.0
     },
+<<<<<<< Updated upstream
     "last_sync": "2026-07-16T11:01:14+00:00",
+=======
+    "last_sync": "2026-07-16T15:24:45+00:00",
+>>>>>>> Stashed changes
     "news_last": {
       "alberto-montes": "2026-07-16T07:01:03.756438+00:00",
       "alden-coria": "2026-07-16T07:01:03.756438+00:00",

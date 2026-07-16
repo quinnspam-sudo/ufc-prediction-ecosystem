@@ -4,8 +4,8 @@
     "fighter_b": "Kamaru Usman",
     "scheduled_rounds": 5,
     "is_title_fight": false,
-    "iterations": 10000,
-    "avg_rounds_simulated": 4.131,
+    "iterations": 3000,
+    "avg_rounds_simulated": 4.117,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -24,49 +24,63 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 25.37,
-    "fighter_b_pct": 74.63,
-    "draw_pct": 1.9
+    "fighter_a_pct": 26.15,
+    "fighter_b_pct": 73.85,
+    "draw_pct": 1.97
   },
   "consensus_forecast": {
     "applied": true,
     "model_weight": 0.4,
+<<<<<<< Updated upstream
     "fighter_a_pct": 51.06,
     "fighter_b_pct": 48.94,
     "market_devig_a_pct": 68.18
+=======
+    "fighter_a_pct": 51.29,
+    "fighter_b_pct": 48.71,
+    "market_devig_a_pct": 68.06
+>>>>>>> Stashed changes
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 12.17,
-      "Submission": 10.93,
-      "Unanimous Decision": 0.81,
-      "Split/Majority Decision": 0.98
+      "KO/TKO": 12.13,
+      "Submission": 11.57,
+      "Unanimous Decision": 0.8,
+      "Split/Majority Decision": 1.13
     },
     "fighter_b": {
-      "KO/TKO": 11.83,
-      "Submission": 6.94,
-      "Unanimous Decision": 51.37,
-      "Split/Majority Decision": 3.07
+      "KO/TKO": 11.57,
+      "Submission": 6.67,
+      "Unanimous Decision": 50.83,
+      "Split/Majority Decision": 3.33
     }
+  },
+  "fight_level": {
+    "ko_tko_pct": 23.7,
+    "submission_pct": 18.23,
+    "decision_pct": 56.1,
+    "goes_the_distance_pct": 58.07,
+    "expected_fight_minutes": 19.54
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 469,
-      "round_2": 470,
-      "round_3": 477,
-      "round_4": 465,
-      "round_5": 429
+      "round_1": 140,
+      "round_2": 143,
+      "round_3": 153,
+      "round_4": 153,
+      "round_5": 122
     },
     "fighter_b": {
-      "round_1": 409,
-      "round_2": 404,
-      "round_3": 385,
-      "round_4": 371,
-      "round_5": 308
+      "round_1": 129,
+      "round_2": 128,
+      "round_3": 100,
+      "round_4": 100,
+      "round_5": 90
     }
   },
   "value_betting": {
     "fighter_a": {
+<<<<<<< Updated upstream
       "market_moneyline": -250,
       "market_decimal_odds": 1.4,
       "market_implied_prob_pct": 71.43,
@@ -74,6 +88,15 @@
       "edge_pct": -46.06,
       "consensus_edge_pct": -20.37,
       "kelly_fraction_full": -1.612,
+=======
+      "market_moneyline": -245,
+      "market_decimal_odds": 1.408,
+      "market_implied_prob_pct": 71.01,
+      "model_win_prob_pct": 26.15,
+      "edge_pct": -44.87,
+      "consensus_edge_pct": -19.72,
+      "kelly_fraction_full": -1.5479,
+>>>>>>> Stashed changes
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
@@ -83,11 +106,19 @@
       "market_moneyline": 200,
       "market_decimal_odds": 3.0,
       "market_implied_prob_pct": 33.33,
+<<<<<<< Updated upstream
       "model_win_prob_pct": 74.63,
       "edge_pct": 41.29,
       "consensus_edge_pct": 15.61,
       "kelly_fraction_full": 0.6194,
       "kelly_fraction_half": 0.3097,
+=======
+      "model_win_prob_pct": 73.85,
+      "edge_pct": 40.52,
+      "consensus_edge_pct": 15.37,
+      "kelly_fraction_full": 0.6078,
+      "kelly_fraction_half": 0.3039,
+>>>>>>> Stashed changes
       "model_sees_value": true,
       "consensus_agrees": true,
       "value_bet": true

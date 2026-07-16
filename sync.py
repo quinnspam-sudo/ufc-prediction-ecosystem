@@ -221,7 +221,9 @@ def run_cycle(iterations: int = config.SIM_ITERATIONS, no_network: bool = False,
     cal_log = calibration.load_log()
     resolved_now = []
     for fr in fight_results:
-        entry = calibration.resolve_result(cal_log, fr["winner"], fr["loser"])
+        entry = calibration.resolve_result(
+            cal_log, fr["winner"], fr["loser"],
+            method=fr.get("method", ""), finish_round=fr.get("round", 0))
         if entry:
             resolved_now.append(entry)
             ds.record_events(state, [{"type": "calibration_resolved",
@@ -255,7 +257,8 @@ def run_cycle(iterations: int = config.SIM_ITERATIONS, no_network: bool = False,
                     cal_log, label,
                     report["matchup"]["fighter_a"], report["matchup"]["fighter_b"],
                     report["win_probability"]["fighter_a_pct"] / 100.0,
-                    event=m.get("event", ""))
+                    event=m.get("event", ""),
+                    fight_level=report.get("fight_level"))
         # Build the index entry from whatever report exists.
         if os.path.exists(path):
             with open(path) as fh:

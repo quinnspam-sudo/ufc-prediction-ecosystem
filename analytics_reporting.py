@@ -90,6 +90,39 @@ def _pct(n: int, d: int) -> float:
     return round(100.0 * n / d, 2) if d else 0.0
 
 
+def _fight_level(result: SimulationResult, odds: MatchupOdds) -> Dict:
+    """
+    Side-agnostic fight outcome probabilities + expected duration.
+
+    * p(KO/TKO), p(Submission), p(Decision) — either fighter.
+    * goes_the_distance_pct — decisions + draws.
+    * expected_fight_minutes — finishes count (round-1)*5 + 2.5 (mid-round
+      expectation, since the sim only records the finish round), decisions
+      count the full scheduled distance.
+    """
+    n = result.iterations
+    mc = result.method_counts
+    ko = mc["A"]["KO/TKO"] + mc["B"]["KO/TKO"]
+    sub = mc["A"]["Submission"] + mc["B"]["Submission"]
+    dec = (mc["A"]["Unanimous Decision"] + mc["A"]["Split/Majority Decision"]
+           + mc["B"]["Unanimous Decision"] + mc["B"]["Split/Majority Decision"])
+    distance = dec + result.draws
+
+    finish_minutes = 0.0
+    for side in ("A", "B"):
+        for rnd, count in result.finish_round_counts[side].items():
+            finish_minutes += count * ((rnd - 1) * 5.0 + 2.5)
+    total_minutes = finish_minutes + distance * odds.scheduled_rounds * 5.0
+
+    return {
+        "ko_tko_pct": _pct(ko, n),
+        "submission_pct": _pct(sub, n),
+        "decision_pct": _pct(dec, n),
+        "goes_the_distance_pct": _pct(distance, n),
+        "expected_fight_minutes": round(total_minutes / n, 2) if n else None,
+    }
+
+
 def build_report(result: SimulationResult, odds: MatchupOdds) -> Dict:
     """
     Aggregate simulation counts + market odds into the full JSON report dict.
@@ -189,6 +222,10 @@ def build_report(result: SimulationResult, odds: MatchupOdds) -> Dict:
             "fighter_a": method_matrix("A"),
             "fighter_b": method_matrix("B"),
         },
+        # Fight-level outcome probabilities (side-agnostic), derived from the
+        # same sim counts at zero extra cost. These are first-class predictions
+        # that get logged and graded by calibration alongside the winner.
+        "fight_level": _fight_level(result, odds),
         "finish_round_distribution": {
             "fighter_a": {f"round_{r}": c
                           for r, c in result.finish_round_counts["A"].items()},

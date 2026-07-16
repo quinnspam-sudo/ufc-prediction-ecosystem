@@ -2,9 +2,9 @@
   "matchups": {
     "Du Plessis vs Usman": {
       "win_probability": {
-        "fighter_a_pct": 25.37,
-        "fighter_b_pct": 74.63,
-        "draw_pct": 1.9
+        "fighter_a_pct": 26.15,
+        "fighter_b_pct": 73.85,
+        "draw_pct": 1.97
       },
       "value_flags": {
         "fighter_a": false,
@@ -38,8 +38,8 @@
     },
     "Alden Coria vs Stewart Nicoll": {
       "win_probability": {
-        "fighter_a_pct": 91.28,
-        "fighter_b_pct": 8.72,
+        "fighter_a_pct": 92.03,
+        "fighter_b_pct": 7.97,
         "draw_pct": 0.0
       },
       "value_flags": {
@@ -50,9 +50,9 @@
     },
     "Felipe Franco vs Levi Rodrigues Jr.": {
       "win_probability": {
-        "fighter_a_pct": 12.12,
-        "fighter_b_pct": 87.88,
-        "draw_pct": 1.28
+        "fighter_a_pct": 12.42,
+        "fighter_b_pct": 87.58,
+        "draw_pct": 1.27
       },
       "value_flags": {
         "fighter_a": false,
@@ -86,9 +86,9 @@
     },
     "Alberto Montes vs Tommy McMillen": {
       "win_probability": {
-        "fighter_a_pct": 28.08,
-        "fighter_b_pct": 71.92,
-        "draw_pct": 0.02
+        "fighter_a_pct": 28.21,
+        "fighter_b_pct": 71.79,
+        "draw_pct": 0.03
       },
       "value_flags": {
         "fighter_a": false,
@@ -98,9 +98,9 @@
     },
     "Tabatha Ricci vs Fatima Kline": {
       "win_probability": {
-        "fighter_a_pct": 36.6,
-        "fighter_b_pct": 63.4,
-        "draw_pct": 7.34
+        "fighter_a_pct": 37.12,
+        "fighter_b_pct": 62.88,
+        "draw_pct": 7.77
       },
       "value_flags": {
         "fighter_a": true,
@@ -110,8 +110,8 @@
     },
     "Chase Hooper vs Mitch Ramirez": {
       "win_probability": {
-        "fighter_a_pct": 90.81,
-        "fighter_b_pct": 9.19,
+        "fighter_a_pct": 90.43,
+        "fighter_b_pct": 9.57,
         "draw_pct": 0.0
       },
       "value_flags": {
@@ -122,9 +122,9 @@
     },
     "Jared Cannonier vs Christian Leroy Duncan": {
       "win_probability": {
-        "fighter_a_pct": 49.57,
-        "fighter_b_pct": 50.43,
-        "draw_pct": 7.77
+        "fighter_a_pct": 50.18,
+        "fighter_b_pct": 49.82,
+        "draw_pct": 7.87
       },
       "value_flags": {
         "fighter_a": true,

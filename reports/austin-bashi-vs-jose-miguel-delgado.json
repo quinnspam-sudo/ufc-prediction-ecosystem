@@ -49,6 +49,13 @@
       "Split/Majority Decision": 0.0
     }
   },
+  "fight_level": {
+    "ko_tko_pct": 15.3,
+    "submission_pct": 22.5,
+    "decision_pct": 62.15,
+    "goes_the_distance_pct": 62.2,
+    "expected_fight_minutes": 12.08
+  },
   "finish_round_distribution": {
     "fighter_a": {
       "round_1": 160,

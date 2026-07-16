@@ -53,11 +53,15 @@ class EspnResultsSource(Source):
             ev_name = ev.get("name", "")
             ev_date = (ev.get("date") or "")[:10]  # ISO date prefix
             for comp in ev.get("competitions", []) or []:
-                status = (comp.get("status", {}) or {}).get("type", {}) or {}
+                full_status = comp.get("status", {}) or {}
+                status = full_status.get("type", {}) or {}
                 completed = bool(status.get("completed"))
                 competitors = comp.get("competitors", []) or []
 
-                # Bout-level result (for calibration): who won, who lost.
+                # Bout-level result (for calibration): who won, who lost, and
+                # (when ESPN provides it on FINAL bouts) method + finish round
+                # so method-of-victory / goes-the-distance predictions get
+                # graded too, not just the winner.
                 if completed:
                     win_name = lose_name = ""
                     for c in competitors:
@@ -67,8 +71,21 @@ class EspnResultsSource(Source):
                         else:
                             lose_name = nm
                     if win_name and lose_name:
-                        res.fight_results.append({"winner": win_name,
-                                                  "loser": lose_name})
+                        raw_method = ((full_status.get("result") or {})
+                                      .get("displayName") or "").upper()
+                        if "KO" in raw_method:          # covers KO and TKO
+                            method = "KO/TKO"
+                        elif "SUB" in raw_method:
+                            method = "Submission"
+                        elif "DEC" in raw_method:
+                            method = "Decision"
+                        else:
+                            method = ""                 # unknown -> ungraded
+                        res.fight_results.append({
+                            "winner": win_name, "loser": lose_name,
+                            "method": method,
+                            "round": int(full_status.get("period") or 0),
+                        })
 
                 for c in competitors:
                     ath = (c.get("athlete", {}) or {})

@@ -4,8 +4,8 @@
     "fighter_b": "Mitch Ramirez",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 10000,
-    "avg_rounds_simulated": 2.611,
+    "iterations": 3000,
+    "avg_rounds_simulated": 2.603,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -24,45 +24,59 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 90.81,
-    "fighter_b_pct": 9.19,
+    "fighter_a_pct": 90.43,
+    "fighter_b_pct": 9.57,
     "draw_pct": 0.0
   },
   "consensus_forecast": {
     "applied": true,
     "model_weight": 0.4,
+<<<<<<< Updated upstream
     "fighter_a_pct": 81.19,
     "fighter_b_pct": 18.81,
     "market_devig_a_pct": 74.78
+=======
+    "fighter_a_pct": 81.0,
+    "fighter_b_pct": 19.0,
+    "market_devig_a_pct": 74.72
+>>>>>>> Stashed changes
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 7.68,
-      "Submission": 19.75,
-      "Unanimous Decision": 63.38,
+      "KO/TKO": 8.17,
+      "Submission": 19.27,
+      "Unanimous Decision": 63.0,
       "Split/Majority Decision": 0.0
     },
     "fighter_b": {
-      "KO/TKO": 7.32,
-      "Submission": 1.87,
+      "KO/TKO": 7.47,
+      "Submission": 2.1,
       "Unanimous Decision": 0.0,
       "Split/Majority Decision": 0.0
     }
   },
+  "fight_level": {
+    "ko_tko_pct": 15.63,
+    "submission_pct": 21.37,
+    "decision_pct": 63.0,
+    "goes_the_distance_pct": 63.0,
+    "expected_fight_minutes": 12.09
+  },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 988,
-      "round_2": 937,
-      "round_3": 818
+      "round_1": 294,
+      "round_2": 296,
+      "round_3": 233
     },
     "fighter_b": {
-      "round_1": 342,
-      "round_2": 288,
-      "round_3": 289
+      "round_1": 111,
+      "round_2": 86,
+      "round_3": 90
     }
   },
   "value_betting": {
     "fighter_a": {
+<<<<<<< Updated upstream
       "market_moneyline": -355,
       "market_decimal_odds": 1.282,
       "market_implied_prob_pct": 78.02,
@@ -71,6 +85,16 @@
       "consensus_edge_pct": 3.17,
       "kelly_fraction_full": 0.5819,
       "kelly_fraction_half": 0.2909,
+=======
+      "market_moneyline": -350,
+      "market_decimal_odds": 1.286,
+      "market_implied_prob_pct": 77.78,
+      "model_win_prob_pct": 90.43,
+      "edge_pct": 12.66,
+      "consensus_edge_pct": 3.23,
+      "kelly_fraction_full": 0.5695,
+      "kelly_fraction_half": 0.2847,
+>>>>>>> Stashed changes
       "model_sees_value": true,
       "consensus_agrees": true,
       "value_bet": true
@@ -79,10 +103,17 @@
       "market_moneyline": 280,
       "market_decimal_odds": 3.8,
       "market_implied_prob_pct": 26.32,
+<<<<<<< Updated upstream
       "model_win_prob_pct": 9.19,
       "edge_pct": -17.13,
       "consensus_edge_pct": -7.51,
       "kelly_fraction_full": -0.2324,
+=======
+      "model_win_prob_pct": 9.57,
+      "edge_pct": -16.75,
+      "consensus_edge_pct": -7.32,
+      "kelly_fraction_full": -0.2273,
+>>>>>>> Stashed changes
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
