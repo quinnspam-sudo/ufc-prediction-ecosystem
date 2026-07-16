@@ -22,7 +22,7 @@
               "pick": "Chase Hooper",
               "moneyline": -350,
               "decimal_odds": 1.286,
-              "consensus_prob": 0.8116,
+              "consensus_prob": 0.81,
               "model_prob": 0.9081,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 63.38,
@@ -41,10 +41,10 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 45.84,
+          "combined_prob_pct": 45.75,
           "combined_decimal_odds": 2.339,
           "combined_american": 134,
-          "ev_per_unit": 0.0721,
+          "ev_per_unit": 0.07,
           "positive_ev": true
         },
         "5_leg": {
@@ -65,7 +65,7 @@
               "pick": "Chase Hooper",
               "moneyline": -350,
               "decimal_odds": 1.286,
-              "consensus_prob": 0.8116,
+              "consensus_prob": 0.81,
               "model_prob": 0.9081,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 63.38,
@@ -85,9 +85,9 @@
             {
               "matchup": "Tabatha Ricci vs Fatima Kline",
               "pick": "Fatima Kline",
-              "moneyline": -475,
-              "decimal_odds": 1.211,
-              "consensus_prob": 0.7286,
+              "moneyline": -485,
+              "decimal_odds": 1.206,
+              "consensus_prob": 0.7309,
               "model_prob": 0.634,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 38.97,
@@ -106,10 +106,10 @@
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 21.78,
-          "combined_decimal_odds": 3.62,
-          "combined_american": 262,
-          "ev_per_unit": -0.2115,
+          "combined_prob_pct": 21.81,
+          "combined_decimal_odds": 3.605,
+          "combined_american": 260,
+          "ev_per_unit": -0.2139,
           "positive_ev": false
         }
       }
