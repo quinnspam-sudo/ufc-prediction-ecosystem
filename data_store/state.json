@@ -244,6 +244,21 @@
       "detail": "Stewart Nicoll: real stats populated (http://ufcstats.com/fighter-details/2bd98ab77a8daa75)",
       "ts": "2026-07-16T01:01:37+00:00",
       "type": "ufcstats_scraped"
+    },
+    {
+      "detail": "Damien Anderson vs Ezra Elliott",
+      "ts": "2026-07-16T03:01:20+00:00",
+      "type": "matchup_discovered"
+    },
+    {
+      "detail": "Tabatha Ricci: real stats populated (http://ufcstats.com/fighter-details/d25240135aee03e5)",
+      "ts": "2026-07-16T03:01:40+00:00",
+      "type": "ufcstats_scraped"
+    },
+    {
+      "detail": "Tommy McMillen: real stats populated (http://ufcstats.com/fighter-details/6b0a6def604de298)",
+      "ts": "2026-07-16T03:01:40+00:00",
+      "type": "ufcstats_scraped"
     }
   ],
   "fighters": {
@@ -562,6 +577,51 @@
       "weight_class": "Middleweight",
       "withdrawn": false
     },
+    "damien-anderson": {
+      "_updated": "2026-07-16T03:01:20+00:00",
+      "active_injury": false,
+      "age": 30,
+      "career_fights": 12,
+      "career_knockdowns_suffered": 2,
+      "career_sig_strikes_absorbed": 800,
+      "championship_round_fights": 0,
+      "control_time_pct": 0.3,
+      "display_name": "Damien Anderson",
+      "division_move": 0,
+      "fight_location_country": "USA",
+      "height_in": 70.0,
+      "home_country": "USA",
+      "injury_note": "",
+      "last_fight_date": "2025-06-01",
+      "missed_weight": false,
+      "name": "Damien Anderson",
+      "needs_stats": true,
+      "reach_in": 72.0,
+      "round_strike_output": [
+        60,
+        58,
+        56,
+        54,
+        52
+      ],
+      "sapm": 4.0,
+      "slpm": 4.0,
+      "stance": "Orthodox",
+      "stats_approx": true,
+      "strike_acc": 0.45,
+      "strike_acc_body": 0.5175,
+      "strike_acc_head": 0.45,
+      "strike_acc_leg": 0.5625,
+      "strike_def": 0.55,
+      "sub_avg": 0.6,
+      "sub_def": 0.65,
+      "sweep_rate": 0.2,
+      "td_acc": 0.4,
+      "td_avg": 1.5,
+      "td_def": 0.65,
+      "weight_class": "Featherweight",
+      "withdrawn": false
+    },
     "dione-barbosa": {
       "_updated": "2026-07-15T23:01:32+00:00",
       "active_injury": false,
@@ -649,6 +709,51 @@
       "td_avg": 2.4,
       "td_def": 0.68,
       "weight_class": "Middleweight",
+      "withdrawn": false
+    },
+    "ezra-elliott": {
+      "_updated": "2026-07-16T03:01:20+00:00",
+      "active_injury": false,
+      "age": 30,
+      "career_fights": 12,
+      "career_knockdowns_suffered": 2,
+      "career_sig_strikes_absorbed": 800,
+      "championship_round_fights": 0,
+      "control_time_pct": 0.3,
+      "display_name": "Ezra Elliott",
+      "division_move": 0,
+      "fight_location_country": "USA",
+      "height_in": 70.0,
+      "home_country": "USA",
+      "injury_note": "",
+      "last_fight_date": "2025-06-01",
+      "missed_weight": false,
+      "name": "Ezra Elliott",
+      "needs_stats": true,
+      "reach_in": 72.0,
+      "round_strike_output": [
+        60,
+        58,
+        56,
+        54,
+        52
+      ],
+      "sapm": 4.0,
+      "slpm": 4.0,
+      "stance": "Orthodox",
+      "stats_approx": true,
+      "strike_acc": 0.45,
+      "strike_acc_body": 0.5175,
+      "strike_acc_head": 0.45,
+      "strike_acc_leg": 0.5625,
+      "strike_def": 0.55,
+      "sub_avg": 0.6,
+      "sub_def": 0.65,
+      "sweep_rate": 0.2,
+      "td_acc": 0.4,
+      "td_avg": 1.5,
+      "td_def": 0.65,
+      "weight_class": "Featherweight",
       "withdrawn": false
     },
     "fatima-kline": {
@@ -1102,7 +1207,7 @@
       "withdrawn": false
     },
     "tabatha-ricci": {
-      "_updated": "2026-07-15T18:47:02+00:00",
+      "_updated": "2026-07-16T03:01:40+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -1119,7 +1224,7 @@
       "last_fight_date": "2025-06-01",
       "missed_weight": false,
       "name": "Tabatha Ricci",
-      "needs_stats": true,
+      "needs_stats": false,
       "reach_in": 72.0,
       "round_strike_output": [
         60,
@@ -1128,26 +1233,26 @@
         54,
         52
       ],
-      "sapm": 4.0,
+      "sapm": 4.83,
       "slpm": 4.0,
       "stance": "Orthodox",
-      "stats_approx": true,
-      "strike_acc": 0.45,
+      "stats_approx": false,
+      "strike_acc": 0.37,
       "strike_acc_body": 0.5175,
       "strike_acc_head": 0.45,
       "strike_acc_leg": 0.5625,
-      "strike_def": 0.55,
-      "sub_avg": 0.6,
+      "strike_def": 0.57,
+      "sub_avg": 0.1,
       "sub_def": 0.65,
       "sweep_rate": 0.2,
-      "td_acc": 0.4,
-      "td_avg": 1.5,
+      "td_acc": 0.37,
+      "td_avg": 2.51,
       "td_def": 0.65,
       "weight_class": "Flyweight",
       "withdrawn": false
     },
     "tommy-mcmillen": {
-      "_updated": "2026-07-15T18:47:02+00:00",
+      "_updated": "2026-07-16T03:01:40+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -1164,7 +1269,7 @@
       "last_fight_date": "2025-06-01",
       "missed_weight": false,
       "name": "Tommy McMillen",
-      "needs_stats": true,
+      "needs_stats": false,
       "reach_in": 72.0,
       "round_strike_output": [
         60,
@@ -1173,21 +1278,21 @@
         54,
         52
       ],
-      "sapm": 4.0,
-      "slpm": 4.0,
+      "sapm": 5.54,
+      "slpm": 9.87,
       "stance": "Orthodox",
-      "stats_approx": true,
-      "strike_acc": 0.45,
+      "stats_approx": false,
+      "strike_acc": 0.53,
       "strike_acc_body": 0.5175,
       "strike_acc_head": 0.45,
       "strike_acc_leg": 0.5625,
-      "strike_def": 0.55,
-      "sub_avg": 0.6,
+      "strike_def": 0.58,
+      "sub_avg": 0.0,
       "sub_def": 0.65,
       "sweep_rate": 0.2,
-      "td_acc": 0.4,
-      "td_avg": 1.5,
-      "td_def": 0.65,
+      "td_acc": 0.0,
+      "td_avg": 0.0,
+      "td_def": 0.83,
       "weight_class": "Featherweight",
       "withdrawn": false
     },
@@ -1338,13 +1443,21 @@
       "label": "Jared Cannonier vs Christian Leroy Duncan",
       "rounds": 3,
       "weight_class": "Middleweight"
+    },
+    {
+      "a": "damien-anderson",
+      "b": "ezra-elliott",
+      "event": "UFC Fight Night: Du Plessis vs. Usman",
+      "label": "Damien Anderson vs Ezra Elliott",
+      "rounds": 3,
+      "weight_class": "Featherweight"
     }
   ],
   "meta": {
     "calibration": {
       "shrink": 1.0
     },
-    "last_sync": "2026-07-16T01:01:41+00:00",
+    "last_sync": "2026-07-16T03:01:41+00:00",
     "news_last": {
       "alberto-montes": "2026-07-15T18:59:05.372847+00:00",
       "alden-coria": "2026-07-15T18:59:05.372847+00:00",
@@ -1353,8 +1466,10 @@
       "austin-bashi": "2026-07-15T18:59:05.372847+00:00",
       "chase-hooper": "2026-07-15T18:59:05.372847+00:00",
       "christian-leroy-duncan": "2026-07-15T18:59:05.372847+00:00",
+      "damien-anderson": "2026-07-16T03:01:20.091176+00:00",
       "dione-barbosa": "2026-07-15T18:59:05.372847+00:00",
       "duplessis": "2026-07-15T18:59:22.215610+00:00",
+      "ezra-elliott": "2026-07-16T03:01:20.091176+00:00",
       "fatima-kline": "2026-07-15T18:59:22.215610+00:00",
       "felipe-franco": "2026-07-15T18:59:22.215610+00:00",
       "jared-cannonier": "2026-07-15T18:59:22.215610+00:00",
@@ -1382,7 +1497,9 @@
       "austin-bashi": "2026-07-15T21:38:27.127905+00:00",
       "chase-hooper": "2026-07-15T21:38:27.127905+00:00",
       "christian-leroy-duncan": "2026-07-15T23:01:08.574882+00:00",
+      "damien-anderson": "2026-07-16T03:01:20.534247+00:00",
       "dione-barbosa": "2026-07-15T23:01:08.574882+00:00",
+      "ezra-elliott": "2026-07-16T03:01:20.534247+00:00",
       "fatima-kline": "2026-07-15T23:01:08.574882+00:00",
       "felipe-franco": "2026-07-15T23:01:08.574882+00:00",
       "jared-cannonier": "2026-07-15T23:01:08.574882+00:00",
@@ -1392,7 +1509,9 @@
       "mitch-ramirez": "2026-07-16T01:01:10.349922+00:00",
       "rj-harris": "2026-07-16T01:01:10.349922+00:00",
       "seokhyeon-ko": "2026-07-16T01:01:10.349922+00:00",
-      "stewart-nicoll": "2026-07-16T01:01:10.349922+00:00"
+      "stewart-nicoll": "2026-07-16T01:01:10.349922+00:00",
+      "tabatha-ricci": "2026-07-16T03:01:20.534247+00:00",
+      "tommy-mcmillen": "2026-07-16T03:01:20.534247+00:00"
     }
   }
 }

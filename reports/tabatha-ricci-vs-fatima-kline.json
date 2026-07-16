@@ -4,15 +4,15 @@
     "fighter_b": "Fatima Kline",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.751,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.803,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     },
     "fighter_b_flags": {
       "active_injury": false,
@@ -24,34 +24,34 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 22.88,
-    "fighter_b_pct": 77.12,
-    "draw_pct": 4.5
+    "fighter_a_pct": 36.6,
+    "fighter_b_pct": 63.4,
+    "draw_pct": 7.34
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 7.25,
-      "Submission": 6.75,
-      "Unanimous Decision": 4.2,
-      "Split/Majority Decision": 3.65
+      "KO/TKO": 6.62,
+      "Submission": 3.72,
+      "Unanimous Decision": 15.83,
+      "Split/Majority Decision": 7.74
     },
     "fighter_b": {
-      "KO/TKO": 8.0,
-      "Submission": 2.3,
-      "Unanimous Decision": 56.0,
-      "Split/Majority Decision": 7.35
+      "KO/TKO": 7.67,
+      "Submission": 2.16,
+      "Unanimous Decision": 38.97,
+      "Split/Majority Decision": 9.95
     }
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 83,
-      "round_2": 106,
-      "round_3": 91
+      "round_1": 309,
+      "round_2": 367,
+      "round_3": 358
     },
     "fighter_b": {
-      "round_1": 83,
-      "round_2": 60,
-      "round_3": 63
+      "round_1": 336,
+      "round_2": 310,
+      "round_3": 337
     }
   },
   "value_betting": {
@@ -59,23 +59,21 @@
       "market_moneyline": 360,
       "market_decimal_odds": 4.6,
       "market_implied_prob_pct": 21.74,
-      "model_win_prob_pct": 22.88,
-      "edge_pct": 1.14,
-      "kelly_fraction_full": 0.0146,
-      "kelly_fraction_half": 0.0073,
-      "value_bet": false
+      "model_win_prob_pct": 36.6,
+      "edge_pct": 14.86,
+      "kelly_fraction_full": 0.1898,
+      "kelly_fraction_half": 0.0949,
+      "value_bet": true
     },
     "fighter_b": {
       "market_moneyline": -475,
       "market_decimal_odds": 1.211,
       "market_implied_prob_pct": 82.61,
-      "model_win_prob_pct": 77.12,
-      "edge_pct": -5.49,
-      "kelly_fraction_full": -0.3156,
+      "model_win_prob_pct": 63.4,
+      "edge_pct": -19.2,
+      "kelly_fraction_full": -1.1043,
       "kelly_fraction_half": 0.0,
       "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+    }
   }
 }

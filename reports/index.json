@@ -86,24 +86,24 @@
     },
     "Alberto Montes vs Tommy McMillen": {
       "win_probability": {
-        "fighter_a_pct": 75.92,
-        "fighter_b_pct": 24.08,
-        "draw_pct": 3.85
+        "fighter_a_pct": 28.08,
+        "fighter_b_pct": 71.92,
+        "draw_pct": 0.02
       },
       "value_flags": {
         "fighter_a": false,
-        "fighter_b": false
+        "fighter_b": true
       },
       "report_file": "reports/alberto-montes-vs-tommy-mcmillen.json"
     },
     "Tabatha Ricci vs Fatima Kline": {
       "win_probability": {
-        "fighter_a_pct": 22.88,
-        "fighter_b_pct": 77.12,
-        "draw_pct": 4.5
+        "fighter_a_pct": 36.6,
+        "fighter_b_pct": 63.4,
+        "draw_pct": 7.34
       },
       "value_flags": {
-        "fighter_a": false,
+        "fighter_a": true,
         "fighter_b": false
       },
       "report_file": "reports/tabatha-ricci-vs-fatima-kline.json"
@@ -131,6 +131,18 @@
         "fighter_b": false
       },
       "report_file": "reports/jared-cannonier-vs-christian-leroy-duncan.json"
+    },
+    "Damien Anderson vs Ezra Elliott": {
+      "win_probability": {
+        "fighter_a_pct": 49.68,
+        "fighter_b_pct": 50.32,
+        "draw_pct": 6.2
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/damien-anderson-vs-ezra-elliott.json"
     }
   }
 }

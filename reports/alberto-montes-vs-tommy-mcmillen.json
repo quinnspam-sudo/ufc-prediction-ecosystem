@@ -4,8 +4,8 @@
     "fighter_b": "Tommy McMillen",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.57,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.585,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -19,39 +19,39 @@
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 75.92,
-    "fighter_b_pct": 24.08,
-    "draw_pct": 3.85
+    "fighter_a_pct": 28.08,
+    "fighter_b_pct": 71.92,
+    "draw_pct": 0.02
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 7.95,
-      "Submission": 19.0,
-      "Unanimous Decision": 38.55,
-      "Split/Majority Decision": 7.5
+      "KO/TKO": 7.55,
+      "Submission": 20.52,
+      "Unanimous Decision": 0.0,
+      "Split/Majority Decision": 0.0
     },
     "fighter_b": {
-      "KO/TKO": 7.55,
-      "Submission": 6.5,
-      "Unanimous Decision": 4.75,
-      "Split/Majority Decision": 4.35
+      "KO/TKO": 9.87,
+      "Submission": 1.66,
+      "Unanimous Decision": 60.36,
+      "Split/Majority Decision": 0.02
     }
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 193,
-      "round_2": 179,
-      "round_3": 167
+      "round_1": 975,
+      "round_2": 940,
+      "round_3": 892
     },
     "fighter_b": {
-      "round_1": 109,
-      "round_2": 78,
-      "round_3": 94
+      "round_1": 445,
+      "round_2": 369,
+      "round_3": 339
     }
   },
   "value_betting": {
@@ -59,23 +59,21 @@
       "market_moneyline": 125,
       "market_decimal_odds": 2.25,
       "market_implied_prob_pct": 44.44,
-      "model_win_prob_pct": 75.92,
-      "edge_pct": 31.48,
-      "kelly_fraction_full": 0.5666,
-      "kelly_fraction_half": 0.2833,
+      "model_win_prob_pct": 28.08,
+      "edge_pct": -16.37,
+      "kelly_fraction_full": -0.2946,
+      "kelly_fraction_half": 0.0,
       "value_bet": false
     },
     "fighter_b": {
       "market_moneyline": -150,
       "market_decimal_odds": 1.667,
       "market_implied_prob_pct": 60.0,
-      "model_win_prob_pct": 24.08,
-      "edge_pct": -35.92,
-      "kelly_fraction_full": -0.8981,
-      "kelly_fraction_half": 0.0,
-      "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+      "model_win_prob_pct": 71.92,
+      "edge_pct": 11.92,
+      "kelly_fraction_full": 0.2981,
+      "kelly_fraction_half": 0.1491,
+      "value_bet": true
+    }
   }
 }

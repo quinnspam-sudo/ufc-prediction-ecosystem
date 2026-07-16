@@ -1,6 +1,6 @@
 {
   "resolved_fights": 0,
-  "open_predictions": 10,
+  "open_predictions": 11,
   "brier_raw": null,
   "brier_calibrated": null,
   "accuracy_pct": null,
