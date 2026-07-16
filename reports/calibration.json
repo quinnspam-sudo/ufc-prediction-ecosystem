@@ -5,7 +5,7 @@
   "brier_calibrated": null,
   "accuracy_pct": null,
   "baseline_brier": 0.25,
-  "shrink_factor": 1.0,
+  "shrink_factor": 0.55,
   "min_resolved_before_adapt": 15,
   "note": "Collecting outcomes. Adaptive shrink activates after 15 resolved fights."
 }

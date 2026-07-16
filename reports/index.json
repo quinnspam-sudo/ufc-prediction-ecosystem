@@ -2,9 +2,10 @@
   "matchups": {
     "Du Plessis vs Usman": {
       "win_probability": {
-        "fighter_a_pct": 25.37,
-        "fighter_b_pct": 74.63,
-        "draw_pct": 1.9
+        "fighter_a_pct": 36.45,
+        "fighter_b_pct": 63.55,
+        "draw_pct": 1.9,
+        "calibration_shrink_applied": 0.55
       },
       "value_flags": {
         "fighter_a": false,
@@ -38,9 +39,10 @@
     },
     "Alden Coria vs Stewart Nicoll": {
       "win_probability": {
-        "fighter_a_pct": 91.28,
-        "fighter_b_pct": 8.72,
-        "draw_pct": 0.0
+        "fighter_a_pct": 72.7,
+        "fighter_b_pct": 27.3,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.55
       },
       "value_flags": {
         "fighter_a": false,
@@ -50,9 +52,10 @@
     },
     "Felipe Franco vs Levi Rodrigues Jr.": {
       "win_probability": {
-        "fighter_a_pct": 12.12,
-        "fighter_b_pct": 87.88,
-        "draw_pct": 1.28
+        "fighter_a_pct": 29.17,
+        "fighter_b_pct": 70.83,
+        "draw_pct": 1.28,
+        "calibration_shrink_applied": 0.55
       },
       "value_flags": {
         "fighter_a": false,
@@ -86,9 +89,10 @@
     },
     "Alberto Montes vs Tommy McMillen": {
       "win_probability": {
-        "fighter_a_pct": 28.08,
-        "fighter_b_pct": 71.92,
-        "draw_pct": 0.02
+        "fighter_a_pct": 37.94,
+        "fighter_b_pct": 62.06,
+        "draw_pct": 0.02,
+        "calibration_shrink_applied": 0.55
       },
       "value_flags": {
         "fighter_a": false,
@@ -98,9 +102,10 @@
     },
     "Tabatha Ricci vs Fatima Kline": {
       "win_probability": {
-        "fighter_a_pct": 36.6,
-        "fighter_b_pct": 63.4,
-        "draw_pct": 7.34
+        "fighter_a_pct": 42.63,
+        "fighter_b_pct": 57.37,
+        "draw_pct": 7.34,
+        "calibration_shrink_applied": 0.55
       },
       "value_flags": {
         "fighter_a": true,
@@ -110,21 +115,23 @@
     },
     "Chase Hooper vs Mitch Ramirez": {
       "win_probability": {
-        "fighter_a_pct": 90.81,
-        "fighter_b_pct": 9.19,
-        "draw_pct": 0.0
+        "fighter_a_pct": 72.45,
+        "fighter_b_pct": 27.55,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.55
       },
       "value_flags": {
-        "fighter_a": true,
+        "fighter_a": false,
         "fighter_b": false
       },
       "report_file": "reports/chase-hooper-vs-mitch-ramirez.json"
     },
     "Jared Cannonier vs Christian Leroy Duncan": {
       "win_probability": {
-        "fighter_a_pct": 49.57,
-        "fighter_b_pct": 50.43,
-        "draw_pct": 7.77
+        "fighter_a_pct": 49.76,
+        "fighter_b_pct": 50.24,
+        "draw_pct": 7.77,
+        "calibration_shrink_applied": 0.55
       },
       "value_flags": {
         "fighter_a": true,

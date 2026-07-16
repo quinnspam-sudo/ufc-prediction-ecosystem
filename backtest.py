@@ -327,6 +327,9 @@ def run(since: str, iterations: int) -> Dict[str, Any]:
     brier_sum = 0.0
     by_conf = {"50-60": [0, 0], "60-70": [0, 0], "70-80": [0, 0], "80+": [0, 0]}
     skipped = 0
+    # Per-fight predictions, kept for post-hoc constant fitting (λ shrink,
+    # finish-rate scaling) without re-simulating.
+    preds: List[Dict[str, Any]] = []
 
     for i, f in enumerate(fights):
         wd = fighters.get(f["winner_url"])
@@ -377,16 +380,50 @@ def run(since: str, iterations: int) -> Dict[str, Any]:
             went = f["method"] == "Decision"
             pred_distance = probs["Decision"] >= probs["KO/TKO"] + probs["Submission"]
             dist_correct += pred_distance == went
+            tot = max(sum(probs.values()), 1)
+            preds.append({"p": p_winner,
+                          "ko": probs["KO/TKO"] / tot,
+                          "sub": probs["Submission"] / tot,
+                          "dec": probs["Decision"] / tot,
+                          "actual": f["method"]})
 
         if (i + 1) % 100 == 0:
             print(f"[sim] {i+1}/{len(fights)} fights "
                   f"(acc so far {100*correct/max(n,1):.1f}%)", file=sys.stderr)
+
+    # ── Post-hoc constant fitting on the collected predictions ────────────
+    # 1. λ shrink minimising winner Brier (what calibration.py fits live).
+    best_lam, best_brier = 1.0, float("inf")
+    for i in range(2, 21):
+        lam = i / 20.0
+        b = sum((0.5 + lam * (pr["p"] - 0.5) - 1.0) ** 2 for pr in preds) / max(len(preds), 1)
+        if b < best_brier:
+            best_lam, best_brier = lam, b
+    # 2. Finish-scale f: multiply KO+sub shares by f, renormalise, and see
+    #    which f maximises modal-method accuracy (proxy for KO_BASE/SUB_BASE).
+    best_f, best_meth = 1.0, -1.0
+    for fi in range(4, 21):
+        fscale = fi / 10.0
+        hits = 0
+        for pr in preds:
+            ko, sub = pr["ko"] * fscale, pr["sub"] * fscale
+            probs = {"KO/TKO": ko, "Submission": sub, "Decision": pr["dec"]}
+            hits += max(probs, key=probs.get) == pr["actual"]
+        acc = hits / max(len(preds), 1)
+        if acc > best_meth:
+            best_f, best_meth = fscale, acc
 
     out = {
         "caveat": ("Fighter rate stats are AS-OF-TODAY (UFCStats shows only "
                    "current career averages), so results contain lookahead "
                    "bias — treat accuracy as an UPPER BOUND. Finish counts "
                    "and age/layoff ARE point-in-time."),
+        "fitted": {
+            "lambda_shrink": best_lam,
+            "brier_at_lambda": round(best_brier, 4),
+            "finish_scale": best_f,
+            "method_accuracy_at_scale_pct": round(100 * best_meth, 1),
+        },
         "since": since, "iterations_per_fight": iterations,
         "fights_scored": n, "fights_skipped": skipped,
         "winner_accuracy_pct": round(100 * correct / n, 1) if n else None,

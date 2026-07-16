@@ -1,0 +1,36 @@
+{
+  "caveat": "Fighter rate stats are AS-OF-TODAY (UFCStats shows only current career averages), so results contain lookahead bias \u2014 treat accuracy as an UPPER BOUND. Finish counts and age/layoff ARE point-in-time.",
+  "fitted": {
+    "lambda_shrink": 0.55,
+    "brier_at_lambda": 0.2242,
+    "finish_scale": 1.9,
+    "method_accuracy_at_scale_pct": 51.1
+  },
+  "since": "2024-04-13",
+  "iterations_per_fight": 1000,
+  "fights_scored": 1152,
+  "fights_skipped": 0,
+  "winner_accuracy_pct": 64.1,
+  "winner_brier_mean": 0.2435,
+  "method_fights_scored": 1151,
+  "method_accuracy_pct": 51.0,
+  "distance_accuracy_pct": 50.8,
+  "accuracy_by_confidence": {
+    "50-60": {
+      "n": 149,
+      "accuracy_pct": 47.7
+    },
+    "60-70": {
+      "n": 190,
+      "accuracy_pct": 58.9
+    },
+    "70-80": {
+      "n": 210,
+      "accuracy_pct": 63.3
+    },
+    "80+": {
+      "n": 603,
+      "accuracy_pct": 70.0
+    }
+  }
+}

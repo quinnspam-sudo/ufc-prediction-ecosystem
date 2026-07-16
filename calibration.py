@@ -165,20 +165,24 @@ def fit_shrink(log: Dict[str, Any]) -> float:
        out-of-sample do we trust shrinking at all.
     4. If validated, refit on ALL resolved fights for the freshest estimate.
 
-    Returns 1.0 (no shrink) until MIN_RESOLVED fights, or when the fitted λ
-    fails held-out validation.
+    Until MIN_RESOLVED fights (and as the fallback when the live fit fails
+    holdout validation), returns the BACKTEST-FITTED prior λ
+    (config.CALIBRATION_PRIOR_SHRINK, fitted on 1,152 fights since UFC 300)
+    rather than 1.0 — the sim's raw probabilities are known-overconfident.
     """
+    import config
+    prior = config.CALIBRATION_PRIOR_SHRINK
     resolved = [e for e in log["entries"]
                 if e["resolved"] and e["actual_a"] is not None]
     if len(resolved) < MIN_RESOLVED:
-        return 1.0
+        return prior
     split = max(int(len(resolved) * 0.8), len(resolved) - max(3, len(resolved) // 5))
     train, holdout = resolved[:split], resolved[split:]
     if not holdout:
-        return 1.0
+        return prior
     lam_fit = _grid_best_lambda(train)
     if _brier_at(holdout, lam_fit) >= _brier_at(holdout, 1.0):
-        return 1.0                      # shrink didn't help out-of-sample
+        return prior                    # live fit didn't beat no-shrink
     return _grid_best_lambda(resolved)
 
 
