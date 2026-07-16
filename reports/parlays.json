@@ -9,9 +9,9 @@
             {
               "matchup": "Alberto Montes vs Tommy McMillen",
               "pick": "Tommy McMillen",
-              "moneyline": -150,
-              "decimal_odds": 1.667,
-              "consensus_prob": 0.6324,
+              "moneyline": -148,
+              "decimal_odds": 1.676,
+              "consensus_prob": 0.6316,
               "model_prob": 0.7192,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 60.36,
@@ -20,9 +20,9 @@
             {
               "matchup": "Chase Hooper vs Mitch Ramirez",
               "pick": "Chase Hooper",
-              "moneyline": -350,
-              "decimal_odds": 1.286,
-              "consensus_prob": 0.81,
+              "moneyline": -355,
+              "decimal_odds": 1.282,
+              "consensus_prob": 0.8119,
               "model_prob": 0.9081,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 63.38,
@@ -41,10 +41,10 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 45.75,
-          "combined_decimal_odds": 2.339,
+          "combined_prob_pct": 45.8,
+          "combined_decimal_odds": 2.344,
           "combined_american": 134,
-          "ev_per_unit": 0.07,
+          "ev_per_unit": 0.0736,
           "positive_ev": true
         },
         "5_leg": {
@@ -52,9 +52,9 @@
             {
               "matchup": "Alberto Montes vs Tommy McMillen",
               "pick": "Tommy McMillen",
-              "moneyline": -150,
-              "decimal_odds": 1.667,
-              "consensus_prob": 0.6324,
+              "moneyline": -148,
+              "decimal_odds": 1.676,
+              "consensus_prob": 0.6316,
               "model_prob": 0.7192,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 60.36,
@@ -63,9 +63,9 @@
             {
               "matchup": "Chase Hooper vs Mitch Ramirez",
               "pick": "Chase Hooper",
-              "moneyline": -350,
-              "decimal_odds": 1.286,
-              "consensus_prob": 0.81,
+              "moneyline": -355,
+              "decimal_odds": 1.282,
+              "consensus_prob": 0.8119,
               "model_prob": 0.9081,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 63.38,
@@ -106,10 +106,10 @@
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 21.81,
-          "combined_decimal_odds": 3.605,
-          "combined_american": 260,
-          "ev_per_unit": -0.2139,
+          "combined_prob_pct": 21.83,
+          "combined_decimal_odds": 3.613,
+          "combined_american": 261,
+          "ev_per_unit": -0.2112,
           "positive_ev": false
         }
       }
