@@ -126,6 +126,11 @@ upgrades" table for the full map):
   <quinnspam-sudo@users.noreply.github.com>`** — do NOT use the gmail (history was
   scrubbed to remove it). Keys live only in GitHub Actions secrets / env.
 - Use `./.venv/bin/python` for everything.
+- **Never `git pull --rebase --autostash` with dirty generated JSON**
+  (data_store/, reports/) — a failed stash reapply leaves conflict markers
+  inside JSON and breaks CI. Commit first, rebase, then if reports conflict:
+  `git checkout` the CI side of data_store/+reports/ and re-run
+  `sync.py --no-network --force` to regenerate with your code.
 - Test deterministically with `./.venv/bin/python sync.py --no-network`; live runs
   hit real APIs (odds throttle protects the budget).
 - End commit messages with `Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>`.
