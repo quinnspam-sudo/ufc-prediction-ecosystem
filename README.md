@@ -49,10 +49,44 @@ logs it, so you always know the true remaining quota.
    (0.25 = coin-flip; lower is better).
 3. Each cycle it refits a **confidence-shrink factor λ** that minimises historical
    Brier and tempers predictions toward 50/50 if the model has been over-confident.
-   λ only activates after 15 resolved fights (no over-tuning on noise).
+   λ only activates after 15 resolved fights (no over-tuning on noise), and is
+   **walk-forward validated**: fitted on the first 80% of resolved fights
+   (chronologically — never shuffled), applied only if it beats no-shrink on the
+   held-out final 20%. In-sample-only calibration is a known trap
+   (r/algobetting: it consistently degraded a 5-year UFC model's live ROI).
 
 The live scorecard is published to `reports/calibration.json` (accuracy, raw vs
 calibrated Brier, current λ). This is the foundation for future weight auto-tuning.
+
+## Accuracy upgrades (community-research pass, 2026-07-15)
+
+Findings from r/algobetting / r/MMAbetting modelers, implemented:
+
+| Upgrade | Where | What it does |
+|---------|-------|--------------|
+| **Consensus forecast + confirmation gate** | `analytics_reporting.py`, `MARKET_BLEND_MODEL_WEIGHT` in [config.py](config.py) | The model's pick stays PURE (no market input). Separately, a `consensus_forecast` (40% model + 60% devigged market) is reported as the best-accuracy estimate, and acts as a confirmation gate: `value_bet` fires only when the model sees an edge AND that edge survives the market-blended consensus. Model-only edges the market rejects are flagged `◇ model only`, informational not actionable. Only real odds participate, never the -110/-110 placeholder. |
+| **Bayesian finish-rate shrink** | `_finish_propensity` in [feature_engineering.py](feature_engineering.py) | Career KO/sub win rates are shrunk toward divisional base rates (`ko_base`/`sub_base` in `WEIGHT_CLASSES`) with 5 pseudo-wins, then tilt the sim's KO/sub triggers. A 3-for-3 KO record no longer reads as a 100% finisher. Sharpens the method-of-victory matrix and finish-round distribution. |
+| **Venue elevation** | `_elevation_adjustments` + `venue_elevation_ft`/`trains_at_altitude` fields | Above 3,000 ft, non-altitude-trained fighters lose up to 12% cardio pool and fade faster (Denver ≈ half tax, Mexico City ≈ near-full). |
+| **Stat time-decay** | `_staleness_trust` | Offensive primitives regress toward league average as a fighter's most recent data ages (full trust ≤3 yrs, bottoming at −40% by ~10 yrs). |
+| **Walk-forward λ validation** | [calibration.py](calibration.py) | See above. |
+| **External benchmarking** | [benchmark.py](benchmark.py) | Compare our probabilities to any external model (e.g. the open-sourced `DanMcInerney/mma-ai`, ~8% ROI since 2024) and Brier-score both on resolved bouts. Disagreements are the improvement signal. |
+| **Finish-count scraping** | [sources/ufcstats.py](sources/ufcstats.py) | The fighter-page scrape now also parses the fight-history table (same page, zero extra requests) into `career_wins/ko_wins/sub_wins`, feeding the Bayesian finish-rate shrink real data. |
+
+## Parlay recommendations
+
+[parlay_engine.py](parlay_engine.py) builds per-card parlays from the reports
+every sync cycle → `reports/parlays.json` (+ CLI section in `sync.py` output).
+
+* **Fight Night**: a 3-leg and a 5-leg parlay. **Numbered/PPV card** (title
+  matches `UFC <number>`): one 4–6 leg parlay.
+* A fight only becomes a leg when: both fighters have REAL stats, real market
+  odds exist, the model pick and market-blended consensus AGREE on the side,
+  and the consensus probability ≥ 60%. Legs rank by consensus probability.
+* Each parlay reports combined probability, combined odds, and EV per unit at
+  quoted prices; each leg is annotated with its most-likely method and modal
+  finish round so upgrading a leg to a method/round prop is a one-look call.
+* Empty parlays on a card mean the quality bar wasn't met (usually fighters
+  still on placeholder stats) — the engine never pads with junk legs.
 
 ## Auto-update
 

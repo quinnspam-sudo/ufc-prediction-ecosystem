@@ -34,6 +34,13 @@ def _int(name: str, default: int) -> int:
         return default
 
 
+def _float(name: str, default: float) -> float:
+    try:
+        return float(os.environ.get(name, default))
+    except (TypeError, ValueError):
+        return default
+
+
 # ── The Odds API budget guards ────────────────────────────────────────────
 # Hard monthly ceiling (free tier is 500; leave headroom for manual runs).
 ODDS_MONTHLY_CAP = _int("ODDS_MONTHLY_CAP", 450)
@@ -67,3 +74,13 @@ UFCSTATS_MIN_INTERVAL_HOURS = _int("UFCSTATS_MIN_INTERVAL_HOURS", 24)
 # repos, but courteous and faster.
 SIM_ITERATIONS = _int("SIM_ITERATIONS", 10_000)
 SIM_ITERATIONS_PLACEHOLDER = _int("SIM_ITERATIONS_PLACEHOLDER", 2_000)
+
+# ── Market blend ──────────────────────────────────────────────────────────
+# Weight given to the MODEL when blending the simulated win probability with
+# the devigged market-implied probability. Community consensus (r/algobetting)
+# is that market-aware models beat stats-only models; the market is a strong
+# prior. 0.4 = 60% market / 40% model. Set to 1.0 to disable blending.
+# Blending only happens when the matchup carries REAL market odds (not the
+# -110/-110 placeholder), so placeholder fights are never dragged around by
+# fake market data.
+MARKET_BLEND_MODEL_WEIGHT = _float("MARKET_BLEND_MODEL_WEIGHT", 0.4)

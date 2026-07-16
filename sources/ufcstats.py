@@ -127,13 +127,56 @@ class _Scraper:
         try:
             page.goto(url, wait_until="networkidle", timeout=20_000)
             page.wait_for_timeout(500)
+            stats: Dict[str, float] = {}
             for box in page.query_selector_all(".b-list__info-box"):
                 text = box.inner_text()
                 if "CAREER STATISTICS" in text.upper():
-                    return _parse_career_box(text)
-            return {}
+                    stats = _parse_career_box(text)
+                    break
+            if stats:
+                # Same page also lists the full fight history (result + method
+                # per bout) — harvest method-of-victory counts for the
+                # Bayesian finish-rate shrink at zero extra requests.
+                stats.update(self._parse_fight_history(page))
+            return stats
         finally:
             page.close()
+
+    @staticmethod
+    def _parse_fight_history(page) -> Dict[str, int]:
+        """
+        Count wins / KO wins / sub wins from the fight-history table rows.
+
+        Each row's inner_text starts with the result flag ("win"/"loss"/...)
+        and contains the method code (KO/TKO, SUB, U-DEC, S-DEC, M-DEC).
+        Only listed (UFC-era) fights are counted — consistent, clean data
+        beats an inflated all-career record with unknown methods. Returns {}
+        when the table isn't found so we never overwrite with zeros.
+        """
+        rows = page.query_selector_all(
+            "table.b-fight-details__table tbody tr.b-fight-details__table-row")
+        wins = ko = sub = 0
+        parsed_any = False
+        for row in rows:
+            text = row.inner_text()
+            if not text.strip():
+                continue
+            first = text.strip().split()[0].lower()
+            if first not in ("win", "loss", "draw", "nc", "next"):
+                continue
+            parsed_any = True
+            if first != "win":
+                continue
+            wins += 1
+            upper = text.upper()
+            if "KO/TKO" in upper:
+                ko += 1
+            elif re.search(r"\bSUB\b", upper):
+                sub += 1
+        if not parsed_any:
+            return {}
+        return {"career_wins": wins, "career_ko_wins": ko,
+                "career_sub_wins": sub}
 
 
 class UfcStatsSource(Source):
@@ -191,7 +234,9 @@ class UfcStatsSource(Source):
                     if not stats:
                         res.notes.append(f"ufcstats: no career stats parsed for {name}")
                         continue
-                    if all(v == 0.0 for v in stats.values()):
+                    metric_fields = {f for f, _ in _STAT_MAP.values()}
+                    if all(v == 0.0 for k, v in stats.items()
+                           if k in metric_fields):
                         # No real UFC fight-metric data yet (e.g. a debut whose
                         # page shows all zeros/dashes) — a degenerate all-zero
                         # profile is worse than the placeholder, so leave

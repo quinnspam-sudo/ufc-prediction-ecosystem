@@ -81,7 +81,9 @@ def _apply_shrink(report: Dict[str, Any], shrink: float) -> None:
     wp["fighter_b_pct"] = round((1 - p_a2) * decisive, 2)
     wp["calibration_shrink_applied"] = shrink
 
-    # Recompute value on calibrated probabilities.
+    # Recompute value on calibrated probabilities. The consensus-agreement
+    # gate from build_report is preserved: value_bet still requires BOTH the
+    # (now-calibrated) model edge and the market-blended consensus edge.
     for side, prob in (("fighter_a", p_a2), ("fighter_b", 1 - p_a2)):
         v = report["value_betting"][side]
         ml = v["market_moneyline"]
@@ -91,7 +93,9 @@ def _apply_shrink(report: Dict[str, Any], shrink: float) -> None:
         v["edge_pct"] = round((prob - implied) * 100, 2)
         v["kelly_fraction_full"] = round(kelly, 4)
         v["kelly_fraction_half"] = round(max(0.0, kelly) / 2, 4)
-        v["value_bet"] = bool((prob - implied) > 0 and kelly > 0)
+        v["model_sees_value"] = bool((prob - implied) > 0 and kelly > 0)
+        v["value_bet"] = bool(v["model_sees_value"]
+                              and v.get("consensus_agrees", True))
 
 
 def _predict_matchup(state: Dict[str, Any], m: Dict[str, Any],
@@ -104,6 +108,9 @@ def _predict_matchup(state: Dict[str, Any], m: Dict[str, Any],
         fighter_b_moneyline=int(m.get("b_ml", -110)),
         scheduled_rounds=int(m.get("rounds", 3)),
         is_title_fight=bool(m.get("is_title_fight", False)),
+        # Only blend the model with the market when a real odds feed has
+        # priced this bout — never against the -110/-110 placeholder.
+        is_real_market=bool("a_ml" in m and "b_ml" in m),
     )
     needs_stats = (state["fighters"][m["a"]].get("needs_stats")
                    or state["fighters"][m["b"]].get("needs_stats"))
@@ -264,6 +271,13 @@ def run_cycle(iterations: int = config.SIM_ITERATIONS, no_network: bool = False,
     with open(os.path.join(REPORTS_DIR, "index.json"), "w") as fh:
         json.dump({"matchups": index}, fh, indent=2)
 
+    # Parlay recommendations per card (3+5 legs for Fight Nights, 4-6 for
+    # numbered cards) — rebuilt from the freshly-written reports every cycle.
+    import parlay_engine
+    parlays = parlay_engine.build_parlays(state)
+    with open(os.path.join(REPORTS_DIR, "parlays.json"), "w") as fh:
+        json.dump(parlays, fh, indent=2)
+
     # Persist calibration ledger + publish the accuracy scorecard.
     calibration.save_log(cal_log)
     with open(os.path.join(REPORTS_DIR, "calibration.json"), "w") as fh:
@@ -303,6 +317,7 @@ def run_cycle(iterations: int = config.SIM_ITERATIONS, no_network: bool = False,
         "notes": notes,
         "summary": summary,
         "committed": committed,
+        "parlays": parlays,
     }
 
 
@@ -331,6 +346,9 @@ def main(argv=None) -> int:
     print("results scored:", ", ".join(out["resolved"]) or "(none)")
     print("calib. shrink :", out["shrink"], "(1.0 = no adjustment yet)")
     print("committed     :", out["committed"])
+    import parlay_engine
+    print("── Parlay recommendations ────────────────────────────")
+    print(parlay_engine.render_cli(out["parlays"]))
     if out["notes"]:
         print("notes         :")
         for n in out["notes"][:20]:

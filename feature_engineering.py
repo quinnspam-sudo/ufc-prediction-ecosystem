@@ -49,6 +49,32 @@ LEAGUE_AVG = {
 AGE_CLIFF = 35            # age past which the decline penalty kicks in
 LAYOFF_RUST_DAYS = 365    # layoff beyond this adds ring-rust variance
 
+# --- Bayesian finish-rate shrink ------------------------------------------
+# Pseudo-fight count for shrinking a fighter's career KO/sub rates toward the
+# divisional base rate: shrunk = (wins_by_method + K * base) / (wins + K).
+# K=5 means a 3-for-3 KO record reads as ~(3 + 5*base)/8, not 100%.
+FINISH_PRIOR_STRENGTH = 5.0
+# Clamp on the resulting propensity multiplier so an outlier record can tilt
+# but never dominate the sim's finish triggers.
+FINISH_PROPENSITY_RANGE = (0.65, 1.55)
+
+# --- Elevation ---------------------------------------------------------------
+# Venue elevation above this many feet starts taxing cardio for fighters who
+# don't train at altitude. Fully saturates at ELEVATION_MAX_FT.
+ELEVATION_FLOOR_FT = 3000.0
+ELEVATION_MAX_FT = 8000.0
+ELEVATION_MAX_CARDIO_TAX = 0.12   # up to -12% cardio pool at/above 8000ft
+ELEVATION_MAX_SLOPE_ADD = 0.03    # and a faster per-round fade
+
+# --- Stat staleness (time decay) ----------------------------------------------
+# Career-aggregate stats stop being trustworthy as they age. Community
+# consensus (r/algobetting): full weight ~3 years, decay out to ~10 years.
+# We implement the sim-side analog: shrink offensive primitives toward the
+# league average (1.0) as the fighter's most recent data point gets stale.
+STALENESS_FULL_TRUST_DAYS = 3 * 365
+STALENESS_ZERO_EXTRA_DAYS = 7 * 365   # trust bottoms out ~10 years total
+STALENESS_MAX_SHRINK = 0.40           # at most 40% pull toward league average
+
 
 @dataclass
 class FighterProfile:
@@ -212,6 +238,77 @@ def _cardio(s: FighterRawStats) -> Tuple[float, float]:
     return float(cardio_pool), float(max(0.01, min(0.15, cardio_slope)))
 
 
+def _finish_propensity(s: FighterRawStats) -> Tuple[float, float]:
+    """
+    Returns (ko_propensity, sub_propensity) multipliers (~1.0 = divisional
+    average finisher).
+
+    Bayesian shrink: the fighter's career KO-rate and sub-rate (per win) are
+    pulled toward the divisional base rates by FINISH_PRIOR_STRENGTH
+    pseudo-wins, then expressed as a ratio to that base. This keeps a 3-fight
+    sample honest while letting a 20-win finisher's record speak. Fighters
+    with no recorded wins (or unpopulated fields) get a neutral 1.0.
+    """
+    if s.career_wins <= 0:
+        return 1.0, 1.0
+    wc = WEIGHT_CLASSES[s.weight_class]
+    ko_base, sub_base = wc["ko_base"], wc["sub_base"]
+    k = FINISH_PRIOR_STRENGTH
+    lo, hi = FINISH_PROPENSITY_RANGE
+    ko_shrunk = (s.career_ko_wins + k * ko_base) / (s.career_wins + k)
+    sub_shrunk = (s.career_sub_wins + k * sub_base) / (s.career_wins + k)
+    ko_prop = max(lo, min(hi, ko_shrunk / ko_base))
+    sub_prop = max(lo, min(hi, sub_shrunk / sub_base))
+    return float(ko_prop), float(sub_prop)
+
+
+def _days_since_last_fight(s: FighterRawStats) -> int:
+    try:
+        y, m, d = (int(x) for x in s.last_fight_date.split("-"))
+        return (REFERENCE_FIGHT_DATE - date(y, m, d)).days
+    except Exception:
+        return 0
+
+
+def _staleness_trust(s: FighterRawStats) -> float:
+    """
+    Time-decay weight on career stats, in [1 - STALENESS_MAX_SHRINK, 1.0].
+
+    A fighter whose most recent bout is <3 years old gets full trust (1.0);
+    trust then decays linearly, bottoming out ~10 years after the last fight.
+    Offensive primitives are blended toward the league average (1.0) by
+    (1 - trust), so ancient stat lines regress instead of being taken at face
+    value.
+    """
+    days_off = _days_since_last_fight(s)
+    if days_off <= STALENESS_FULL_TRUST_DAYS:
+        return 1.0
+    excess = min(days_off - STALENESS_FULL_TRUST_DAYS, STALENESS_ZERO_EXTRA_DAYS)
+    shrink = STALENESS_MAX_SHRINK * (excess / STALENESS_ZERO_EXTRA_DAYS)
+    return float(1.0 - shrink)
+
+
+def _decay_toward_avg(value: float, trust: float) -> float:
+    """Blend a ~1.0-anchored primitive toward the league-average 1.0."""
+    return trust * value + (1.0 - trust) * 1.0
+
+
+def _elevation_adjustments(s: FighterRawStats) -> Tuple[float, float]:
+    """
+    Returns (cardio_pool_mult, cardio_slope_add) for the bout's venue
+    elevation. Sea-level venues and altitude-trained fighters pay nothing;
+    everyone else loses tank and fades faster, scaling from
+    ELEVATION_FLOOR_FT up to ELEVATION_MAX_FT (Denver ~5280ft lands at
+    roughly half the maximum tax).
+    """
+    if s.trains_at_altitude or s.venue_elevation_ft <= ELEVATION_FLOOR_FT:
+        return 1.0, 0.0
+    span = ELEVATION_MAX_FT - ELEVATION_FLOOR_FT
+    severity = min(1.0, (s.venue_elevation_ft - ELEVATION_FLOOR_FT) / span)
+    return (1.0 - ELEVATION_MAX_CARDIO_TAX * severity,
+            ELEVATION_MAX_SLOPE_ADD * severity)
+
+
 def _submission_defense(s: FighterRawStats) -> float:
     """Submission defense mapped so league-avg (~0.65) == ~1.0."""
     return s.sub_def / 0.65
@@ -353,17 +450,32 @@ def build_profile(s: FighterRawStats, scheduled_rounds: int) -> FighterProfile:
     health_power, health_cardio, _ = _health_adjustments(s)
     power_adj *= health_power
     cardio_adj *= health_cardio
+
+    # Venue elevation taxes the tank and steepens the fade for fighters who
+    # don't train at altitude.
+    elev_cardio_mult, elev_slope_add = _elevation_adjustments(s)
+    cardio_adj *= elev_cardio_mult
+    cardio_slope = min(0.15, cardio_slope + elev_slope_add)
+
+    # Method-of-victory propensity: career finish rates, Bayesian-shrunk
+    # toward the divisional base, tilt the sim's KO and submission triggers.
+    ko_prop, sub_prop = _finish_propensity(s)
+
+    # Stat staleness: regress offensive primitives toward league average when
+    # the underlying career data is old.
+    trust = _staleness_trust(s)
+
     return FighterProfile(
         name=s.name,
         scheduled_rounds=scheduled_rounds,
-        striking_offense=_striking_offense(s),
+        striking_offense=_decay_toward_avg(_striking_offense(s), trust),
         striking_defense=_striking_defense(s),
-        striking_power=_striking_power(s) * power_adj,
+        striking_power=_decay_toward_avg(_striking_power(s), trust) * power_adj * ko_prop,
         strike_differential=s.slpm - s.sapm,
         absorption_resilience=_absorption_resilience(s),
-        grappling_offense=_grappling_offense(s),
+        grappling_offense=_decay_toward_avg(_grappling_offense(s), trust),
         grappling_defense=_grappling_defense(s),
-        submission_offense=_submission_offense(s),
+        submission_offense=_decay_toward_avg(_submission_offense(s), trust) * sub_prop,
         submission_defense=_submission_defense(s),
         control_dominance=s.control_time_pct,
         chin=_chin(s),

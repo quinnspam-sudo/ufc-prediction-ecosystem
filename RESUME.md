@@ -78,14 +78,36 @@ Their value flags are **deliberately suppressed** (`insufficient_data`) so the s
 never emits fake bet signals. Only curated fighters in `watchlist.json` (currently
 Du Plessis, Usman) have real stats and trustworthy outputs.
 
-## THE NEXT STEP (highest-value, still $0)
-**Build a headless-browser (Playwright) UFCStats fetcher** that runs on the free
-GitHub Actions runner to pull real per-fighter stats, replacing the placeholders.
-This is the single biggest accuracy unlock — it would light up trustworthy
-predictions + value flags across the whole card. Design it as one more `sources/`
-adapter (`sources/ufcstats.py`) that patches real stats onto discovered fighters
-and clears `needs_real_stats`. Respect budget rules (Playwright is free on the
-runner; add a per-fighter refresh cooldown so we don't re-scrape every cycle).
+## 2026-07-15 accuracy pass (Reddit community research) — DONE
+Implemented after mining r/algobetting + r/MMAbetting (see README "Accuracy
+upgrades" table for the full map):
+- **Model pick vs consensus separation**: `win_probability` = pure model;
+  `consensus_forecast` = 40% model + 60% devigged market (knob:
+  `MARKET_BLEND_MODEL_WEIGHT`). `value_bet` requires the model edge AND
+  consensus agreement (two-stage gate; `◇ model only` = unconfirmed).
+- **Bayesian finish-rate shrink** (`career_wins/ko_wins/sub_wins` +
+  `ko_base`/`sub_base` per division) sharpens method-of-victory + fight-minutes.
+- **Venue elevation** (`venue_elevation_ft`, `trains_at_altitude`) and
+  **stat-staleness decay** in feature_engineering.
+- **Walk-forward λ validation** in calibration.py (shrink must beat no-shrink
+  on a chronological holdout).
+- **`benchmark.py`**: compare vs external models (best target: open-sourced
+  `DanMcInerney/mma-ai`); Brier-scores both on resolved bouts.
+- **`sources/ufcstats.py` now also scrapes fight history** (same page) into
+  career win/KO/sub counts, feeding the finish-rate shrink.
+- **`parlay_engine.py` (STANDING REQUIREMENT)**: every cycle writes
+  `reports/parlays.json` — Fight Night = 3-leg + 5-leg, numbered/PPV card =
+  one 4–6 leg. Leg bar: real stats + real odds + model/consensus agree +
+  consensus ≥60%. Never pad with junk legs; empty = bar not met.
+
+## THE NEXT STEPS (highest-value, still $0)
+1. **Let live cycles populate real stats** — parlays and value flags light up
+   as `sources/ufcstats.py` clears `needs_stats` (6 fighters/cycle). Watch
+   `reports/parlays.json` for the 2026-07-18 Du Plessis vs Usman card.
+2. **Venue elevation lookup**: `espn_schedule.py` should map venue city →
+   `venue_elevation_ft` (static dict of common UFC venues is enough).
+3. **Benchmark run**: pull DanMcInerney/mma-ai predictions for an upcoming
+   card into the `benchmark.py` JSON format and mine the disagreements.
 
 ## Other backlog (optional)
 - Human-readable `reports/SUMMARY.md` regenerated each cycle (today's value bets).

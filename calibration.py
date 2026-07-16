@@ -108,21 +108,47 @@ def _brier_at(entries: List[Dict], lam: float) -> float:
     return total / len(resolved)
 
 
-def fit_shrink(log: Dict[str, Any]) -> float:
-    """
-    Grid-search the λ ∈ [0.1, 1.0] that minimises historical Brier. Returns 1.0
-    (no shrink) until we have MIN_RESOLVED fights, so we don't tune on noise.
-    """
-    resolved = [e for e in log["entries"] if e["resolved"]]
-    if len(resolved) < MIN_RESOLVED:
-        return 1.0
+def _grid_best_lambda(entries: List[Dict]) -> float:
+    """Grid-search λ ∈ [0.10, 1.00] minimising Brier over `entries`."""
     best_lam, best_brier = 1.0, float("inf")
-    for i in range(2, 21):                     # 0.10 .. 1.00
+    for i in range(2, 21):
         lam = i / 20.0
-        b = _brier_at(log["entries"], lam)
+        b = _brier_at(entries, lam)
         if b < best_brier:
             best_lam, best_brier = lam, b
     return best_lam
+
+
+def fit_shrink(log: Dict[str, Any]) -> float:
+    """
+    Fit the confidence-shrink λ with WALK-FORWARD validation.
+
+    Fitting λ on all history and then trusting it is in-sample optimism — the
+    same trap as shuffled cross-validation on temporal sports data (a fitted
+    λ that "would have" minimised past Brier may not help going forward). So:
+
+    1. Split resolved fights chronologically 80/20 (entries are appended in
+       prediction order, so list order IS time order — never shuffle).
+    2. Fit λ on the first 80%.
+    3. Apply it to the held-out final 20%. Only if it beats λ=1.0 (no shrink)
+       out-of-sample do we trust shrinking at all.
+    4. If validated, refit on ALL resolved fights for the freshest estimate.
+
+    Returns 1.0 (no shrink) until MIN_RESOLVED fights, or when the fitted λ
+    fails held-out validation.
+    """
+    resolved = [e for e in log["entries"]
+                if e["resolved"] and e["actual_a"] is not None]
+    if len(resolved) < MIN_RESOLVED:
+        return 1.0
+    split = max(int(len(resolved) * 0.8), len(resolved) - max(3, len(resolved) // 5))
+    train, holdout = resolved[:split], resolved[split:]
+    if not holdout:
+        return 1.0
+    lam_fit = _grid_best_lambda(train)
+    if _brier_at(holdout, lam_fit) >= _brier_at(holdout, 1.0):
+        return 1.0                      # shrink didn't help out-of-sample
+    return _grid_best_lambda(resolved)
 
 
 def summary(log: Dict[str, Any], shrink: float) -> Dict[str, Any]:
@@ -150,4 +176,7 @@ def summary(log: Dict[str, Any], shrink: float) -> Dict[str, Any]:
         "baseline_brier": BASELINE_BRIER, "shrink_factor": shrink,
         "min_resolved_before_adapt": MIN_RESOLVED,
         "beating_coinflip": bool(_brier_at(resolved, shrink) < BASELINE_BRIER),
+        "shrink_validation": "walk-forward (fit on first 80% chronologically, "
+                             "applied only if it beats no-shrink on the "
+                             "held-out final 20%)",
     }

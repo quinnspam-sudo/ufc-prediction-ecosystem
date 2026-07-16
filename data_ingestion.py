@@ -26,15 +26,24 @@ from typing import Dict, List, Optional
 # reflexes, which decay earliest, so their age curve is steeper. Heavyweights
 # (lightness ~0.6) carry punching power far later, so they age more gracefully
 # in terms of finishing ability. Tune these freely.
+"""
+`ko_base` / `sub_base` are divisional METHOD-OF-VICTORY base rates: the
+approximate share of *wins* in that division that come by KO/TKO and by
+submission respectively (the remainder go to decision). They are the priors
+that small-sample fighter finish rates get Bayesian-shrunk toward in
+feature_engineering — a 3-for-3 KO record should NOT read as a 100% KO rate.
+Values approximate long-run UFC divisional tendencies (heavier = more KOs,
+lighter = more decisions); tune as real data accumulates.
+"""
 WEIGHT_CLASSES: Dict[str, Dict[str, float]] = {
-    "Flyweight":        {"limit_lbs": 125, "lightness": 1.35},
-    "Bantamweight":     {"limit_lbs": 135, "lightness": 1.25},
-    "Featherweight":    {"limit_lbs": 145, "lightness": 1.15},
-    "Lightweight":      {"limit_lbs": 155, "lightness": 1.05},
-    "Welterweight":     {"limit_lbs": 170, "lightness": 0.95},
-    "Middleweight":     {"limit_lbs": 185, "lightness": 0.85},
-    "Light Heavyweight":{"limit_lbs": 205, "lightness": 0.72},
-    "Heavyweight":      {"limit_lbs": 265, "lightness": 0.60},
+    "Flyweight":        {"limit_lbs": 125, "lightness": 1.35, "ko_base": 0.20, "sub_base": 0.22},
+    "Bantamweight":     {"limit_lbs": 135, "lightness": 1.25, "ko_base": 0.27, "sub_base": 0.20},
+    "Featherweight":    {"limit_lbs": 145, "lightness": 1.15, "ko_base": 0.32, "sub_base": 0.19},
+    "Lightweight":      {"limit_lbs": 155, "lightness": 1.05, "ko_base": 0.35, "sub_base": 0.19},
+    "Welterweight":     {"limit_lbs": 170, "lightness": 0.95, "ko_base": 0.40, "sub_base": 0.18},
+    "Middleweight":     {"limit_lbs": 185, "lightness": 0.85, "ko_base": 0.48, "sub_base": 0.16},
+    "Light Heavyweight":{"limit_lbs": 205, "lightness": 0.72, "ko_base": 0.54, "sub_base": 0.13},
+    "Heavyweight":      {"limit_lbs": 265, "lightness": 0.60, "ko_base": 0.62, "sub_base": 0.11},
 }
 
 
@@ -82,6 +91,15 @@ class FighterRawStats:
     career_sig_strikes_absorbed: int = 0    # cumulative absorbed damage load
     career_fights: int = 0
 
+    # --- Method-of-victory history ------------------------------------------
+    # Career win/finish counts. Feature engineering Bayesian-shrinks the
+    # implied finish rates toward the divisional base rates in WEIGHT_CLASSES,
+    # so small samples don't produce extreme KO/sub propensities. Leave at 0
+    # (unknown) to fall back to a neutral 1.0 propensity.
+    career_wins: int = 0
+    career_ko_wins: int = 0
+    career_sub_wins: int = 0
+
     # --- Cardio / experience -----------------------------------------------
     # Average significant strikes landed by round across the fighter's career.
     # Used to compute the cardio-trajectory (output-slope) factor. Index 0=R1.
@@ -95,6 +113,12 @@ class FighterRawStats:
     division_move: int = 0
     home_country: str = "USA"
     fight_location_country: str = "USA"     # where THIS bout takes place
+    # Venue elevation for THIS bout, feet above sea level (e.g. Denver ~5280,
+    # Mexico City ~7350, Salt Lake City ~4300, sea-level cards 0). Thin air
+    # punishes cardio-heavy styles (r/MMAbetting flags this as a consistently
+    # under-modeled factor) unless the fighter trains at altitude.
+    venue_elevation_ft: float = 0.0
+    trains_at_altitude: bool = False        # camp at >~4000ft negates the tax
 
     # --- Live health / status (auto-populated by the update pipeline) ------
     # These are refreshed by sources/injury_news.py + sources/espn_results.py.
@@ -128,6 +152,10 @@ class MatchupOdds:
     fighter_b_moneyline: int
     scheduled_rounds: int = 3        # 3 or 5
     is_title_fight: bool = False
+    # True only when the moneylines came from a real sportsbook feed. The
+    # market-blend step in analytics_reporting refuses to blend placeholder
+    # (-110/-110 default) odds into the model probability.
+    is_real_market: bool = True
 
 
 # ---------------------------------------------------------------------------
@@ -168,12 +196,17 @@ def fetch_fighter_stats() -> Dict[str, FighterRawStats]:
             career_knockdowns_suffered=4,
             career_sig_strikes_absorbed=1850,
             career_fights=22,
+            career_wins=16,
+            career_ko_wins=9,                   # heavy hands, KO-leaning
+            career_sub_wins=1,
             round_strike_output=[95, 92, 90, 88, 85],  # flat, elite cardio
             championship_round_fights=3,
             last_fight_date="2025-04-12",       # active, no rust
             division_move=0,
             home_country="USA",
             fight_location_country="USA",
+            venue_elevation_ft=0.0,             # sea-level card
+            trains_at_altitude=False,
         ),
         "tanaka": FighterRawStats(
             name="Kenji 'The Anaconda' Tanaka",
@@ -196,12 +229,17 @@ def fetch_fighter_stats() -> Dict[str, FighterRawStats]:
             career_knockdowns_suffered=9,       # aging chin / damage load
             career_sig_strikes_absorbed=2400,
             career_fights=27,
+            career_wins=20,
+            career_ko_wins=2,
+            career_sub_wins=13,                 # sub specialist
             round_strike_output=[70, 60, 52, 45, 40],  # steep cardio drop-off
             championship_round_fights=5,
             last_fight_date="2024-02-20",       # >365 day layoff -> ring rust
             division_move=0,
             home_country="Japan",
             fight_location_country="USA",       # travelling opponent
+            venue_elevation_ft=0.0,
+            trains_at_altitude=False,
         ),
     }
     return fighters

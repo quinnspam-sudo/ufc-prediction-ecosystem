@@ -14,6 +14,7 @@ from __future__ import annotations
 import json
 from typing import Dict, List, Tuple
 
+import config
 from data_ingestion import MatchupOdds
 from simulation_engine import SimulationResult
 
@@ -31,6 +32,32 @@ def american_to_decimal(moneyline: int) -> float:
 def implied_probability(moneyline: int) -> float:
     """Market-implied probability (includes the book's vig)."""
     return 1.0 / american_to_decimal(moneyline)
+
+
+def devig_probabilities(a_ml: int, b_ml: int) -> Tuple[float, float]:
+    """
+    Remove the book's vig from a two-way market: normalize the two implied
+    probabilities so they sum to 1. Returns (p_a_fair, p_b_fair).
+    """
+    ia, ib = implied_probability(a_ml), implied_probability(b_ml)
+    total = ia + ib
+    if total <= 0:
+        return 0.5, 0.5
+    return ia / total, ib / total
+
+
+def blend_with_market(p_model: float, a_ml: int, b_ml: int,
+                      model_weight: float) -> float:
+    """
+    Blend the model's P(A wins) with the devigged market probability.
+
+    The market is a strong prior — market-aware models consistently beat
+    stats-only models — so by default the market gets the majority weight
+    (see config.MARKET_BLEND_MODEL_WEIGHT). Returns the blended P(A).
+    """
+    w = min(1.0, max(0.0, model_weight))
+    p_market_a, _ = devig_probabilities(a_ml, b_ml)
+    return w * p_model + (1.0 - w) * p_market_a
 
 
 def kelly_fraction(win_prob: float, moneyline: int) -> float:
@@ -72,8 +99,23 @@ def build_report(result: SimulationResult, odds: MatchupOdds) -> Dict:
 
     # --- Win probabilities (normalized to exclude draws for the h2h price) --
     decisive = a_wins + b_wins
+    # The MODEL'S OWN probability. This is the pick, and it is what value
+    # detection compares against the market — never blended, so the market
+    # can't mute the model's independent voice.
     a_win_prob = a_wins / decisive if decisive else 0.0
     b_win_prob = b_wins / decisive if decisive else 0.0
+
+    # --- Consensus forecast (separate from the pick) ------------------------
+    # A market-majority blend of model + devigged odds. This is the best
+    # ACCURACY estimate of who actually wins (the market prices late info the
+    # model can't see), reported alongside — but it never replaces the model's
+    # pick and never feeds edge/Kelly math. It is also the confirmation gate:
+    # a value flag must survive this tempered probability too.
+    model_weight = config.MARKET_BLEND_MODEL_WEIGHT
+    blended = bool(odds.is_real_market and decisive and model_weight < 1.0)
+    a_blend_prob = blend_with_market(
+        a_win_prob, odds.fighter_a_moneyline, odds.fighter_b_moneyline,
+        model_weight) if blended else a_win_prob
 
     # --- Method-of-victory matrix (as % of ALL iterations) -----------------
     def method_matrix(side: str) -> Dict[str, float]:
@@ -86,19 +128,33 @@ def build_report(result: SimulationResult, odds: MatchupOdds) -> Dict:
         }
 
     # --- Value / Kelly for each side --------------------------------------
-    def value_block(win_prob: float, moneyline: int) -> Dict:
+    # Two-stage gate:
+    #   1. model_sees_value — the RAW model probability beats the implied
+    #      price (the pick "makes sense" on our own numbers).
+    #   2. consensus_agrees — the market-tempered consensus probability ALSO
+    #      beats the implied price. Since the consensus is majority-market,
+    #      surviving it means the model's edge is big enough that even after
+    #      respecting the market there is still value ("a good pairing").
+    # `value_bet` (what Kelly staking and the CLI flag key off) requires BOTH.
+    def value_block(win_prob: float, blend_prob: float, moneyline: int) -> Dict:
         implied = implied_probability(moneyline)
-        edge = win_prob - implied            # positive == model sees value
+        edge = win_prob - implied            # model's own edge
+        blend_edge = blend_prob - implied    # edge after respecting the market
         kelly = kelly_fraction(win_prob, moneyline)
+        model_sees_value = bool(edge > 0 and kelly > 0)
+        consensus_agrees = bool(blend_edge > 0)
         return {
             "market_moneyline": moneyline,
             "market_decimal_odds": round(american_to_decimal(moneyline), 3),
             "market_implied_prob_pct": round(implied * 100, 2),
             "model_win_prob_pct": round(win_prob * 100, 2),
             "edge_pct": round(edge * 100, 2),
+            "consensus_edge_pct": round(blend_edge * 100, 2),
             "kelly_fraction_full": round(kelly, 4),
             "kelly_fraction_half": round(max(0.0, kelly) / 2, 4),
-            "value_bet": bool(edge > 0 and kelly > 0),
+            "model_sees_value": model_sees_value,
+            "consensus_agrees": consensus_agrees,
+            "value_bet": bool(model_sees_value and consensus_agrees),
         }
 
     report = {
@@ -111,9 +167,23 @@ def build_report(result: SimulationResult, odds: MatchupOdds) -> Dict:
             "avg_rounds_simulated": round(result.avg_rounds, 3),
         },
         "win_probability": {
+            # The model's own pick — pure simulation output, no market input.
             "fighter_a_pct": round(a_win_prob * 100, 2),
             "fighter_b_pct": round(b_win_prob * 100, 2),
             "draw_pct": _pct(draws, n),
+        },
+        # Best-accuracy forecast (model blended with the devigged market).
+        # Reported separately: informs the confirmation gate and the reader,
+        # never overwrites the model's pick.
+        "consensus_forecast": {
+            "applied": blended,
+            "model_weight": model_weight if blended else 1.0,
+            "fighter_a_pct": round(a_blend_prob * 100, 2),
+            "fighter_b_pct": round((1.0 - a_blend_prob) * 100, 2) if decisive else 0.0,
+            "market_devig_a_pct": round(
+                devig_probabilities(odds.fighter_a_moneyline,
+                                    odds.fighter_b_moneyline)[0] * 100, 2)
+                if blended else None,
         },
         "method_of_victory_matrix": {
             "fighter_a": method_matrix("A"),
@@ -126,8 +196,10 @@ def build_report(result: SimulationResult, odds: MatchupOdds) -> Dict:
                           for r, c in result.finish_round_counts["B"].items()},
         },
         "value_betting": {
-            "fighter_a": value_block(a_win_prob, odds.fighter_a_moneyline),
-            "fighter_b": value_block(b_win_prob, odds.fighter_b_moneyline),
+            "fighter_a": value_block(a_win_prob, a_blend_prob,
+                                     odds.fighter_a_moneyline),
+            "fighter_b": value_block(b_win_prob, 1.0 - a_blend_prob,
+                                     odds.fighter_b_moneyline),
         },
     }
     return report
@@ -188,14 +260,25 @@ def render_cli(report: Dict) -> str:
     )
     blocks.append("═" * 74)
 
-    # Win probability
-    blocks.append(_render_table(
-        ["Fighter", "Win Probability"],
-        [[a_name, f"{wp['fighter_a_pct']:.2f}%"],
-         [b_name, f"{wp['fighter_b_pct']:.2f}%"],
-         ["Draw", f"{wp['draw_pct']:.2f}%"]],
-        title="\n▸ WIN PROBABILITY",
-    ))
+    # Win probability: the model's pick, with the market-blended consensus
+    # forecast alongside when real odds exist.
+    cf = report.get("consensus_forecast", {})
+    if cf.get("applied"):
+        blocks.append(_render_table(
+            ["Fighter", "Model (pick)", "Consensus (w/ market)"],
+            [[a_name, f"{wp['fighter_a_pct']:.2f}%", f"{cf['fighter_a_pct']:.2f}%"],
+             [b_name, f"{wp['fighter_b_pct']:.2f}%", f"{cf['fighter_b_pct']:.2f}%"],
+             ["Draw", f"{wp['draw_pct']:.2f}%", "—"]],
+            title="\n▸ WIN PROBABILITY",
+        ))
+    else:
+        blocks.append(_render_table(
+            ["Fighter", "Win Probability"],
+            [[a_name, f"{wp['fighter_a_pct']:.2f}%"],
+             [b_name, f"{wp['fighter_b_pct']:.2f}%"],
+             ["Draw", f"{wp['draw_pct']:.2f}%"]],
+            title="\n▸ WIN PROBABILITY",
+        ))
 
     # Method of victory matrix
     methods = ["KO/TKO", "Submission", "Unanimous Decision", "Split/Majority Decision"]
@@ -209,7 +292,12 @@ def render_cli(report: Dict) -> str:
 
     # Value betting
     def vrow(side_name: str, v: Dict) -> List[str]:
-        flag = "★ VALUE" if v["value_bet"] else "—"
+        if v["value_bet"]:
+            flag = "★ VALUE"                      # model edge + market survives
+        elif v.get("model_sees_value"):
+            flag = "◇ model only"                 # unconfirmed — market disagrees hard
+        else:
+            flag = "—"
         return [
             side_name,
             f"{v['market_moneyline']:+d}",
@@ -226,8 +314,10 @@ def render_cli(report: Dict) -> str:
         title="\n▸ VALUE BETTING  (Kelly vs market moneyline)",
     ))
     blocks.append(
-        "\n  ½-Kelly = suggested stake as % of bankroll (half-Kelly, "
-        "clamped at 0). ★ VALUE flags a positive model edge."
+        "\n  ½-Kelly = suggested stake as % of bankroll (half-Kelly, clamped "
+        "at 0).\n  ★ VALUE = model sees an edge AND it survives the "
+        "market-blended consensus.\n  ◇ model only = model edge the consensus "
+        "rejects — informational, not a bet signal."
     )
 
     return "\n".join(blocks)
