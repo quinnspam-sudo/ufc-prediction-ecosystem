@@ -4,21 +4,17 @@
       "label": "Du Plessis vs Usman",
       "a": "Dricus du Plessis",
       "b": "Kamaru Usman",
-      "p_a": 0.2615,
+      "p_a": 0.2537,
       "event": "",
-<<<<<<< Updated upstream
-      "logged": "2026-07-16T11:01:14+00:00",
-=======
-      "logged": "2026-07-16T15:24:45+00:00",
->>>>>>> Stashed changes
+      "logged": "2026-07-16T15:26:31+00:00",
       "resolved": false,
       "actual_a": null,
       "brier": null,
       "resolved_at": null,
-      "p_ko": 0.237,
-      "p_sub": 0.1823,
-      "p_dec": 0.561,
-      "p_distance": 0.5807
+      "p_ko": 0.24,
+      "p_sub": 0.1787,
+      "p_dec": 0.5623,
+      "p_distance": 0.5813
     },
     {
       "label": "Alvin Hines vs RJ Harris",
@@ -26,7 +22,7 @@
       "b": "RJ Harris",
       "p_a": 0.1096,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
-      "logged": "2026-07-16T15:24:45+00:00",
+      "logged": "2026-07-16T15:26:31+00:00",
       "resolved": false,
       "actual_a": null,
       "brier": null,
@@ -40,17 +36,17 @@
       "label": "Alden Coria vs Stewart Nicoll",
       "a": "Alden Coria",
       "b": "Stewart Nicoll",
-      "p_a": 0.9203,
+      "p_a": 0.9128,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
-      "logged": "2026-07-16T15:24:45+00:00",
+      "logged": "2026-07-16T15:26:31+00:00",
       "resolved": false,
       "actual_a": null,
       "brier": null,
       "resolved_at": null,
-      "p_ko": 0.143,
-      "p_sub": 0.062,
-      "p_dec": 0.795,
-      "p_distance": 0.795
+      "p_ko": 0.1419,
+      "p_sub": 0.0597,
+      "p_dec": 0.7984,
+      "p_distance": 0.7984
     },
     {
       "label": "Austin Bashi vs Jose Miguel Delgado",
@@ -58,7 +54,7 @@
       "b": "Jose Miguel Delgado",
       "p_a": 0.8499,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
-      "logged": "2026-07-16T15:24:45+00:00",
+      "logged": "2026-07-16T15:26:31+00:00",
       "resolved": false,
       "actual_a": null,
       "brier": null,
@@ -72,41 +68,33 @@
       "label": "Alberto Montes vs Tommy McMillen",
       "a": "Alberto Montes",
       "b": "Tommy McMillen",
-      "p_a": 0.2821,
+      "p_a": 0.2808,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
-<<<<<<< Updated upstream
-      "logged": "2026-07-16T11:01:14+00:00",
-=======
-      "logged": "2026-07-16T15:24:45+00:00",
->>>>>>> Stashed changes
+      "logged": "2026-07-16T15:26:31+00:00",
       "resolved": false,
       "actual_a": null,
       "brier": null,
       "resolved_at": null,
-      "p_ko": 0.1773,
-      "p_sub": 0.218,
-      "p_dec": 0.6043,
-      "p_distance": 0.6047
+      "p_ko": 0.1742,
+      "p_sub": 0.2218,
+      "p_dec": 0.6038,
+      "p_distance": 0.604
     },
     {
       "label": "Chase Hooper vs Mitch Ramirez",
       "a": "Chase Hooper",
       "b": "Mitch Ramirez",
-      "p_a": 0.9043,
+      "p_a": 0.9081,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
-<<<<<<< Updated upstream
-      "logged": "2026-07-16T11:01:14+00:00",
-=======
-      "logged": "2026-07-16T15:24:45+00:00",
->>>>>>> Stashed changes
+      "logged": "2026-07-16T15:26:32+00:00",
       "resolved": false,
       "actual_a": null,
       "brier": null,
       "resolved_at": null,
-      "p_ko": 0.1563,
-      "p_sub": 0.2137,
-      "p_dec": 0.63,
-      "p_distance": 0.63
+      "p_ko": 0.15,
+      "p_sub": 0.2162,
+      "p_dec": 0.6338,
+      "p_distance": 0.6338
     },
     {
       "label": "Dione Barbosa vs Anna Melisano",
@@ -114,11 +102,7 @@
       "b": "Anna Melisano",
       "p_a": 0.3367,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
-<<<<<<< Updated upstream
-      "logged": "2026-07-16T11:01:14+00:00",
-=======
-      "logged": "2026-07-16T15:24:45+00:00",
->>>>>>> Stashed changes
+      "logged": "2026-07-16T15:26:31+00:00",
       "resolved": false,
       "actual_a": null,
       "brier": null,
@@ -132,17 +116,17 @@
       "label": "Felipe Franco vs Levi Rodrigues Jr.",
       "a": "Felipe Franco",
       "b": "Levi Rodrigues Jr.",
-      "p_a": 0.1242,
+      "p_a": 0.1212,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
-      "logged": "2026-07-16T15:24:45+00:00",
+      "logged": "2026-07-16T15:26:31+00:00",
       "resolved": false,
       "actual_a": null,
       "brier": null,
       "resolved_at": null,
-      "p_ko": 0.204,
-      "p_sub": 0.0453,
-      "p_dec": 0.738,
-      "p_distance": 0.7507
+      "p_ko": 0.2034,
+      "p_sub": 0.0445,
+      "p_dec": 0.7393,
+      "p_distance": 0.7521
     },
     {
       "label": "Jean-Paul Lebosnoyani vs Seokhyeon Ko",
@@ -150,7 +134,7 @@
       "b": "Seokhyeon Ko",
       "p_a": 0.2344,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
-      "logged": "2026-07-16T15:24:45+00:00",
+      "logged": "2026-07-16T15:26:31+00:00",
       "resolved": false,
       "actual_a": null,
       "brier": null,
@@ -164,37 +148,33 @@
       "label": "Jared Cannonier vs Christian Leroy Duncan",
       "a": "Jared Cannonier",
       "b": "Christian Leroy Duncan",
-      "p_a": 0.5018,
+      "p_a": 0.4957,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
-      "logged": "2026-07-16T15:24:45+00:00",
+      "logged": "2026-07-16T15:26:32+00:00",
       "resolved": false,
       "actual_a": null,
       "brier": null,
       "resolved_at": null,
-      "p_ko": 0.1713,
-      "p_sub": 0.0487,
-      "p_dec": 0.7013,
-      "p_distance": 0.78
+      "p_ko": 0.1684,
+      "p_sub": 0.045,
+      "p_dec": 0.7089,
+      "p_distance": 0.7866
     },
     {
       "label": "Tabatha Ricci vs Fatima Kline",
       "a": "Tabatha Ricci",
       "b": "Fatima Kline",
-      "p_a": 0.3712,
+      "p_a": 0.366,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
-<<<<<<< Updated upstream
-      "logged": "2026-07-16T07:01:06+00:00",
-=======
-      "logged": "2026-07-16T15:24:45+00:00",
->>>>>>> Stashed changes
+      "logged": "2026-07-16T15:26:32+00:00",
       "resolved": false,
       "actual_a": null,
       "brier": null,
       "resolved_at": null,
-      "p_ko": 0.146,
-      "p_sub": 0.0613,
-      "p_dec": 0.715,
-      "p_distance": 0.7927
+      "p_ko": 0.1429,
+      "p_sub": 0.0588,
+      "p_dec": 0.7249,
+      "p_distance": 0.7983
     }
   ]
 }

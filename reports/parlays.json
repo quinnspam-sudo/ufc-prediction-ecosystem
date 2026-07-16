@@ -2,60 +2,45 @@
   "cards": {
     "UFC Fight Night: Du Plessis vs. Usman": {
       "card_type": "fight_night",
-      "eligible_legs": 4,
+      "eligible_legs": 5,
       "parlays": {
         "3_leg": {
           "legs": [
             {
               "matchup": "Alberto Montes vs Tommy McMillen",
               "pick": "Tommy McMillen",
-<<<<<<< Updated upstream
               "moneyline": -148,
               "decimal_odds": 1.676,
               "consensus_prob": 0.6316,
               "model_prob": 0.7192,
-=======
-              "moneyline": -150,
-              "decimal_odds": 1.667,
-              "consensus_prob": 0.6318,
-              "model_prob": 0.7179,
->>>>>>> Stashed changes
               "likely_method": "Unanimous Decision",
-              "likely_method_pct": 60.43,
+              "likely_method_pct": 60.36,
               "modal_finish_round": "round_1"
             },
             {
               "matchup": "Chase Hooper vs Mitch Ramirez",
               "pick": "Chase Hooper",
-<<<<<<< Updated upstream
               "moneyline": -355,
               "decimal_odds": 1.282,
               "consensus_prob": 0.8119,
               "model_prob": 0.9081,
-=======
-              "moneyline": -350,
-              "decimal_odds": 1.286,
-              "consensus_prob": 0.81,
-              "model_prob": 0.9043,
->>>>>>> Stashed changes
               "likely_method": "Unanimous Decision",
-              "likely_method_pct": 63.0,
-              "modal_finish_round": "round_2"
+              "likely_method_pct": 63.38,
+              "modal_finish_round": "round_1"
             },
             {
               "matchup": "Alden Coria vs Stewart Nicoll",
               "pick": "Alden Coria",
               "moneyline": -1100,
               "decimal_odds": 1.091,
-              "consensus_prob": 0.8961,
-              "model_prob": 0.9203,
+              "consensus_prob": 0.8931,
+              "model_prob": 0.9128,
               "likely_method": "Unanimous Decision",
-              "likely_method_pct": 79.5,
+              "likely_method_pct": 79.84,
               "modal_finish_round": "round_2"
             }
           ],
           "leg_count": 3,
-<<<<<<< Updated upstream
           "combined_prob_pct": 45.8,
           "combined_decimal_odds": 2.344,
           "combined_american": 134,
@@ -128,17 +113,6 @@
           "positive_ev": false
         }
       }
-=======
-          "combined_prob_pct": 45.86,
-          "combined_decimal_odds": 2.339,
-          "combined_american": 134,
-          "ev_per_unit": 0.0726,
-          "positive_ev": true
-        },
-        "5_leg": null
-      },
-      "note": "Only 4 eligible legs; 5_leg not buildable."
->>>>>>> Stashed changes
     }
   },
   "min_leg_consensus_prob": 0.6

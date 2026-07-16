@@ -4,8 +4,8 @@
     "fighter_b": "Levi Rodrigues Jr.",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 3000,
-    "avg_rounds_simulated": 2.741,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.747,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -24,48 +24,48 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 12.42,
-    "fighter_b_pct": 87.58,
-    "draw_pct": 1.27
+    "fighter_a_pct": 12.12,
+    "fighter_b_pct": 87.88,
+    "draw_pct": 1.28
   },
   "consensus_forecast": {
     "applied": false,
     "model_weight": 1.0,
-    "fighter_a_pct": 12.42,
-    "fighter_b_pct": 87.58,
+    "fighter_a_pct": 12.12,
+    "fighter_b_pct": 87.88,
     "market_devig_a_pct": null
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 8.27,
-      "Submission": 2.63,
-      "Unanimous Decision": 0.7,
-      "Split/Majority Decision": 0.67
+      "KO/TKO": 8.08,
+      "Submission": 2.46,
+      "Unanimous Decision": 0.6,
+      "Split/Majority Decision": 0.82
     },
     "fighter_b": {
-      "KO/TKO": 12.13,
-      "Submission": 1.9,
-      "Unanimous Decision": 70.23,
-      "Split/Majority Decision": 2.2
+      "KO/TKO": 12.26,
+      "Submission": 1.99,
+      "Unanimous Decision": 70.1,
+      "Split/Majority Decision": 2.41
     }
   },
   "fight_level": {
-    "ko_tko_pct": 20.4,
-    "submission_pct": 4.53,
-    "decision_pct": 73.8,
-    "goes_the_distance_pct": 75.07,
-    "expected_fight_minutes": 13.08
+    "ko_tko_pct": 20.34,
+    "submission_pct": 4.45,
+    "decision_pct": 73.93,
+    "goes_the_distance_pct": 75.21,
+    "expected_fight_minutes": 13.12
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 121,
-      "round_2": 105,
-      "round_3": 101
+      "round_1": 364,
+      "round_2": 355,
+      "round_3": 335
     },
     "fighter_b": {
-      "round_1": 147,
-      "round_2": 135,
-      "round_3": 139
+      "round_1": 496,
+      "round_2": 452,
+      "round_3": 477
     }
   },
   "value_betting": {
@@ -73,10 +73,10 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 12.42,
-      "edge_pct": -39.96,
-      "consensus_edge_pct": -39.96,
-      "kelly_fraction_full": -0.8391,
+      "model_win_prob_pct": 12.12,
+      "edge_pct": -40.27,
+      "consensus_edge_pct": -40.27,
+      "kelly_fraction_full": -0.8456,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
@@ -86,11 +86,11 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 87.58,
-      "edge_pct": 35.2,
-      "consensus_edge_pct": 35.2,
-      "kelly_fraction_full": 0.7391,
-      "kelly_fraction_half": 0.3695,
+      "model_win_prob_pct": 87.88,
+      "edge_pct": 35.5,
+      "consensus_edge_pct": 35.5,
+      "kelly_fraction_full": 0.7456,
+      "kelly_fraction_half": 0.3728,
       "model_sees_value": true,
       "consensus_agrees": true,
       "value_bet": true
