@@ -25,8 +25,27 @@ import re
 from typing import Any, Dict, List
 
 from data_ingestion import FighterRawStats, WEIGHT_CLASSES
-from .base import Source, SourceResult
+from .base import Source, SourceResult, FighterPatch
 from .espn_common import get_scoreboard
+
+# Approximate elevation (feet above sea level) for cities that host UFC cards.
+# Anything not listed is treated as sea level (elevation only matters above
+# ~3000ft — see feature_engineering.ELEVATION_FLOOR_FT — so only high-altitude
+# venues have any effect; missing low-altitude cities cost nothing).
+CITY_ELEVATION_FT: Dict[str, float] = {
+    "las vegas": 2001, "denver": 5280, "mexico city": 7349,
+    "salt lake city": 4226, "albuquerque": 5312, "calgary": 3428,
+    "edmonton": 2192, "johannesburg": 5751, "guadalajara": 5138,
+    "sao paulo": 2493, "são paulo": 2493, "madrid": 2188,
+    "monterrey": 1765, "phoenix": 1086, "kansas city": 910,
+}
+
+
+def _venue_elevation(comp: Dict[str, Any], ev: Dict[str, Any]) -> float:
+    """Resolve the bout's venue city to an elevation (ft); 0 when unknown."""
+    venue = comp.get("venue") or ev.get("venue") or {}
+    city = ((venue.get("address") or {}).get("city") or "").strip().lower()
+    return CITY_ELEVATION_FT.get(city, 0.0)
 
 
 def _slug(name: str) -> str:
@@ -115,6 +134,18 @@ class EspnScheduleSource(Source):
                     "a": a_key, "b": b_key, "rounds": rounds, "label": label,
                     "weight_class": wc, "event": ev_name,
                 })
+
+                # Venue elevation: patch BOTH fighters (covers pre-existing
+                # fighters too — new ones were seeded above and dedup runs
+                # before patches apply). Only patch when it matters, so
+                # sea-level cards don't generate change-noise every cycle.
+                elev = _venue_elevation(comp, ev)
+                if elev > 0:
+                    for key in (a_key, b_key):
+                        res.patches.append(FighterPatch(
+                            key=key, fields={"venue_elevation_ft": elev},
+                            reason=f"venue elevation {elev:.0f}ft ({ev_name})",
+                        ))
 
         res.notes.append(f"discovered {len(res.new_matchups)} bout(s) on the schedule")
         return res
