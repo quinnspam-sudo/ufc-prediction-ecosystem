@@ -2,9 +2,9 @@
   "matchups": {
     "Du Plessis vs Usman": {
       "win_probability": {
-        "fighter_a_pct": 26.15,
-        "fighter_b_pct": 73.85,
-        "draw_pct": 1.97
+        "fighter_a_pct": 25.37,
+        "fighter_b_pct": 74.63,
+        "draw_pct": 1.9
       },
       "value_flags": {
         "fighter_a": false,
@@ -38,9 +38,9 @@
     },
     "Alden Coria vs Stewart Nicoll": {
       "win_probability": {
-        "fighter_a_pct": 78.01,
-        "fighter_b_pct": 21.99,
-        "draw_pct": 3.8
+        "fighter_a_pct": 91.28,
+        "fighter_b_pct": 8.72,
+        "draw_pct": 0.0
       },
       "value_flags": {
         "fighter_a": false,
@@ -50,13 +50,13 @@
     },
     "Felipe Franco vs Levi Rodrigues Jr.": {
       "win_probability": {
-        "fighter_a_pct": 49.03,
-        "fighter_b_pct": 50.97,
-        "draw_pct": 7.4
+        "fighter_a_pct": 12.12,
+        "fighter_b_pct": 87.88,
+        "draw_pct": 1.28
       },
       "value_flags": {
         "fighter_a": false,
-        "fighter_b": false
+        "fighter_b": true
       },
       "report_file": "reports/felipe-franco-vs-levi-rodrigues-jr.json"
     },
@@ -110,12 +110,12 @@
     },
     "Chase Hooper vs Mitch Ramirez": {
       "win_probability": {
-        "fighter_a_pct": 70.69,
-        "fighter_b_pct": 29.31,
-        "draw_pct": 4.65
+        "fighter_a_pct": 90.81,
+        "fighter_b_pct": 9.19,
+        "draw_pct": 0.0
       },
       "value_flags": {
-        "fighter_a": false,
+        "fighter_a": true,
         "fighter_b": false
       },
       "report_file": "reports/chase-hooper-vs-mitch-ramirez.json"

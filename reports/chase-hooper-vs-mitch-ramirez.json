@@ -4,8 +4,8 @@
     "fighter_b": "Mitch Ramirez",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.657,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.611,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -19,39 +19,39 @@
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 70.69,
-    "fighter_b_pct": 29.31,
-    "draw_pct": 4.65
+    "fighter_a_pct": 90.81,
+    "fighter_b_pct": 9.19,
+    "draw_pct": 0.0
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 7.45,
-      "Submission": 11.15,
-      "Unanimous Decision": 40.7,
-      "Split/Majority Decision": 8.1
+      "KO/TKO": 7.68,
+      "Submission": 19.75,
+      "Unanimous Decision": 63.38,
+      "Split/Majority Decision": 0.0
     },
     "fighter_b": {
-      "KO/TKO": 7.95,
-      "Submission": 6.35,
-      "Unanimous Decision": 8.25,
-      "Split/Majority Decision": 5.4
+      "KO/TKO": 7.32,
+      "Submission": 1.87,
+      "Unanimous Decision": 0.0,
+      "Split/Majority Decision": 0.0
     }
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 126,
-      "round_2": 140,
-      "round_3": 106
+      "round_1": 988,
+      "round_2": 937,
+      "round_3": 818
     },
     "fighter_b": {
-      "round_1": 108,
-      "round_2": 78,
-      "round_3": 100
+      "round_1": 342,
+      "round_2": 288,
+      "round_3": 289
     }
   },
   "value_betting": {
@@ -59,23 +59,21 @@
       "market_moneyline": -350,
       "market_decimal_odds": 1.286,
       "market_implied_prob_pct": 77.78,
-      "model_win_prob_pct": 70.69,
-      "edge_pct": -7.09,
-      "kelly_fraction_full": -0.3191,
-      "kelly_fraction_half": 0.0,
-      "value_bet": false
+      "model_win_prob_pct": 90.81,
+      "edge_pct": 13.03,
+      "kelly_fraction_full": 0.5864,
+      "kelly_fraction_half": 0.2932,
+      "value_bet": true
     },
     "fighter_b": {
       "market_moneyline": 280,
       "market_decimal_odds": 3.8,
       "market_implied_prob_pct": 26.32,
-      "model_win_prob_pct": 29.31,
-      "edge_pct": 3.0,
-      "kelly_fraction_full": 0.0407,
-      "kelly_fraction_half": 0.0203,
+      "model_win_prob_pct": 9.19,
+      "edge_pct": -17.13,
+      "kelly_fraction_full": -0.2324,
+      "kelly_fraction_half": 0.0,
       "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+    }
   }
 }

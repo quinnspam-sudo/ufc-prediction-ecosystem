@@ -66,13 +66,13 @@
       "value_bet": false
     },
     "fighter_b": {
-      "market_moneyline": 120,
-      "market_decimal_odds": 2.2,
-      "market_implied_prob_pct": 45.45,
+      "market_moneyline": 117,
+      "market_decimal_odds": 2.17,
+      "market_implied_prob_pct": 46.08,
       "model_win_prob_pct": 89.04,
-      "edge_pct": 43.59,
-      "kelly_fraction_full": 0.7991,
-      "kelly_fraction_half": 0.3996,
+      "edge_pct": 42.96,
+      "kelly_fraction_full": 0.7968,
+      "kelly_fraction_half": 0.3984,
       "value_bet": false
     },
     "insufficient_data": true,

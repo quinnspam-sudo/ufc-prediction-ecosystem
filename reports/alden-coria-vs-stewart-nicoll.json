@@ -4,8 +4,8 @@
     "fighter_b": "Stewart Nicoll",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.778,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.801,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -19,63 +19,61 @@
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 78.01,
-    "fighter_b_pct": 21.99,
-    "draw_pct": 3.8
+    "fighter_a_pct": 91.28,
+    "fighter_b_pct": 8.72,
+    "draw_pct": 0.0
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 7.55,
-      "Submission": 2.3,
-      "Unanimous Decision": 58.15,
-      "Split/Majority Decision": 7.05
+      "KO/TKO": 7.58,
+      "Submission": 3.86,
+      "Unanimous Decision": 79.84,
+      "Split/Majority Decision": 0.0
     },
     "fighter_b": {
-      "KO/TKO": 6.9,
-      "Submission": 6.2,
-      "Unanimous Decision": 4.65,
-      "Split/Majority Decision": 3.4
+      "KO/TKO": 6.61,
+      "Submission": 2.11,
+      "Unanimous Decision": 0.0,
+      "Split/Majority Decision": 0.0
     }
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 63,
-      "round_2": 68,
-      "round_3": 66
+      "round_1": 359,
+      "round_2": 415,
+      "round_3": 370
     },
     "fighter_b": {
-      "round_1": 86,
-      "round_2": 78,
-      "round_3": 98
+      "round_1": 286,
+      "round_2": 286,
+      "round_3": 300
     }
   },
   "value_betting": {
     "fighter_a": {
-      "market_moneyline": -1050,
-      "market_decimal_odds": 1.095,
-      "market_implied_prob_pct": 91.3,
-      "model_win_prob_pct": 78.01,
-      "edge_pct": -13.29,
-      "kelly_fraction_full": -1.5283,
+      "market_moneyline": -1100,
+      "market_decimal_odds": 1.091,
+      "market_implied_prob_pct": 91.67,
+      "model_win_prob_pct": 91.28,
+      "edge_pct": -0.39,
+      "kelly_fraction_full": -0.0464,
       "kelly_fraction_half": 0.0,
       "value_bet": false
     },
     "fighter_b": {
-      "market_moneyline": 675,
-      "market_decimal_odds": 7.75,
-      "market_implied_prob_pct": 12.9,
-      "model_win_prob_pct": 21.99,
-      "edge_pct": 9.08,
-      "kelly_fraction_full": 0.1043,
-      "kelly_fraction_half": 0.0521,
+      "market_moneyline": 700,
+      "market_decimal_odds": 8.0,
+      "market_implied_prob_pct": 12.5,
+      "model_win_prob_pct": 8.72,
+      "edge_pct": -3.78,
+      "kelly_fraction_full": -0.0432,
+      "kelly_fraction_half": 0.0,
       "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+    }
   }
 }

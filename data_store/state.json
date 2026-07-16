@@ -189,6 +189,61 @@
       "detail": "Jean-Paul Lebosnoyani: real stats populated (http://ufcstats.com/fighter-details/a3dda21be645be93)",
       "ts": "2026-07-15T23:01:32+00:00",
       "type": "ufcstats_scraped"
+    },
+    {
+      "detail": "Alberto Montes vs Tommy McMillen: consensus +125 / -150 (7 books)",
+      "ts": "2026-07-16T01:01:10+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Alden Coria vs Stewart Nicoll: consensus -1100 / +700 (7 books)",
+      "ts": "2026-07-16T01:01:10+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Dione Barbosa vs Anna Melisano: consensus -590 / +425 (7 books)",
+      "ts": "2026-07-16T01:01:10+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Alvin Hines vs RJ Harris: consensus -145 / +117 (7 books)",
+      "ts": "2026-07-16T01:01:10+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Tabatha Ricci vs Fatima Kline: consensus +360 / -475 (7 books)",
+      "ts": "2026-07-16T01:01:10+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Chase Hooper vs Mitch Ramirez: consensus -350 / +280 (7 books)",
+      "ts": "2026-07-16T01:01:10+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Jared Cannonier vs Christian Leroy Duncan: consensus +285 / -360 (7 books)",
+      "ts": "2026-07-16T01:01:10+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Du Plessis vs Usman: consensus -245 / +200 (7 books)",
+      "ts": "2026-07-16T01:01:10+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Levi Rodrigues Jr.: real stats populated (http://ufcstats.com/fighter-details/9ac4e43ed56429ed)",
+      "ts": "2026-07-16T01:01:37+00:00",
+      "type": "ufcstats_scraped"
+    },
+    {
+      "detail": "Mitch Ramirez: real stats populated (http://ufcstats.com/fighter-details/e99eb0ef25885de5)",
+      "ts": "2026-07-16T01:01:37+00:00",
+      "type": "ufcstats_scraped"
+    },
+    {
+      "detail": "Stewart Nicoll: real stats populated (http://ufcstats.com/fighter-details/2bd98ab77a8daa75)",
+      "ts": "2026-07-16T01:01:37+00:00",
+      "type": "ufcstats_scraped"
     }
   ],
   "fighters": {
@@ -822,7 +877,7 @@
       "withdrawn": false
     },
     "levi-rodrigues-jr": {
-      "_updated": "2026-07-15T18:47:02+00:00",
+      "_updated": "2026-07-16T01:01:37+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -839,7 +894,7 @@
       "last_fight_date": "2025-06-01",
       "missed_weight": false,
       "name": "Levi Rodrigues Jr.",
-      "needs_stats": true,
+      "needs_stats": false,
       "reach_in": 72.0,
       "round_strike_output": [
         60,
@@ -848,26 +903,26 @@
         54,
         52
       ],
-      "sapm": 4.0,
-      "slpm": 4.0,
+      "sapm": 2.1,
+      "slpm": 4.5,
       "stance": "Orthodox",
-      "stats_approx": true,
-      "strike_acc": 0.45,
+      "stats_approx": false,
+      "strike_acc": 0.78,
       "strike_acc_body": 0.5175,
       "strike_acc_head": 0.45,
       "strike_acc_leg": 0.5625,
-      "strike_def": 0.55,
-      "sub_avg": 0.6,
+      "strike_def": 0.22,
+      "sub_avg": 0.0,
       "sub_def": 0.65,
       "sweep_rate": 0.2,
-      "td_acc": 0.4,
-      "td_avg": 1.5,
-      "td_def": 0.65,
+      "td_acc": 0.0,
+      "td_avg": 0.0,
+      "td_def": 1.0,
       "weight_class": "Light Heavyweight",
       "withdrawn": false
     },
     "mitch-ramirez": {
-      "_updated": "2026-07-15T18:47:02+00:00",
+      "_updated": "2026-07-16T01:01:37+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -884,7 +939,7 @@
       "last_fight_date": "2025-06-01",
       "missed_weight": false,
       "name": "Mitch Ramirez",
-      "needs_stats": true,
+      "needs_stats": false,
       "reach_in": 72.0,
       "round_strike_output": [
         60,
@@ -893,21 +948,21 @@
         54,
         52
       ],
-      "sapm": 4.0,
-      "slpm": 4.0,
+      "sapm": 3.98,
+      "slpm": 3.51,
       "stance": "Orthodox",
-      "stats_approx": true,
-      "strike_acc": 0.45,
+      "stats_approx": false,
+      "strike_acc": 0.44,
       "strike_acc_body": 0.5175,
       "strike_acc_head": 0.45,
       "strike_acc_leg": 0.5625,
-      "strike_def": 0.55,
-      "sub_avg": 0.6,
+      "strike_def": 0.37,
+      "sub_avg": 0.0,
       "sub_def": 0.65,
       "sweep_rate": 0.2,
-      "td_acc": 0.4,
-      "td_avg": 1.5,
-      "td_def": 0.65,
+      "td_acc": 0.33,
+      "td_avg": 0.59,
+      "td_def": 0.25,
       "weight_class": "Lightweight",
       "withdrawn": false
     },
@@ -1002,7 +1057,7 @@
       "withdrawn": false
     },
     "stewart-nicoll": {
-      "_updated": "2026-07-15T18:47:02+00:00",
+      "_updated": "2026-07-16T01:01:37+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -1019,7 +1074,7 @@
       "last_fight_date": "2025-06-01",
       "missed_weight": false,
       "name": "Stewart Nicoll",
-      "needs_stats": true,
+      "needs_stats": false,
       "reach_in": 72.0,
       "round_strike_output": [
         60,
@@ -1028,21 +1083,21 @@
         54,
         52
       ],
-      "sapm": 4.0,
-      "slpm": 4.0,
+      "sapm": 5.84,
+      "slpm": 3.63,
       "stance": "Orthodox",
-      "stats_approx": true,
-      "strike_acc": 0.45,
+      "stats_approx": false,
+      "strike_acc": 0.39,
       "strike_acc_body": 0.5175,
       "strike_acc_head": 0.45,
       "strike_acc_leg": 0.5625,
-      "strike_def": 0.55,
-      "sub_avg": 0.6,
+      "strike_def": 0.49,
+      "sub_avg": 0.0,
       "sub_def": 0.65,
       "sweep_rate": 0.2,
-      "td_acc": 0.4,
-      "td_avg": 1.5,
-      "td_def": 0.65,
+      "td_acc": 0.11,
+      "td_avg": 1.63,
+      "td_def": 0.28,
       "weight_class": "Flyweight",
       "withdrawn": false
     },
@@ -1186,15 +1241,15 @@
       "a": "duplessis",
       "a_ml": -245,
       "b": "usman",
-      "b_ml": 195,
+      "b_ml": 200,
       "label": "Du Plessis vs Usman",
       "rounds": 5
     },
     {
       "a": "dione-barbosa",
-      "a_ml": -600,
+      "a_ml": -590,
       "b": "anna-melisano",
-      "b_ml": 430,
+      "b_ml": 425,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
       "label": "Dione Barbosa vs Anna Melisano",
       "rounds": 3,
@@ -1204,7 +1259,7 @@
       "a": "alvin-hines",
       "a_ml": -145,
       "b": "rj-harris",
-      "b_ml": 120,
+      "b_ml": 117,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
       "label": "Alvin Hines vs RJ Harris",
       "rounds": 3,
@@ -1212,9 +1267,9 @@
     },
     {
       "a": "alden-coria",
-      "a_ml": -1050,
+      "a_ml": -1100,
       "b": "stewart-nicoll",
-      "b_ml": 675,
+      "b_ml": 700,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
       "label": "Alden Coria vs Stewart Nicoll",
       "rounds": 3,
@@ -1256,9 +1311,9 @@
     },
     {
       "a": "tabatha-ricci",
-      "a_ml": 350,
+      "a_ml": 360,
       "b": "fatima-kline",
-      "b_ml": -460,
+      "b_ml": -475,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
       "label": "Tabatha Ricci vs Fatima Kline",
       "rounds": 3,
@@ -1276,9 +1331,9 @@
     },
     {
       "a": "jared-cannonier",
-      "a_ml": 279,
+      "a_ml": 285,
       "b": "christian-leroy-duncan",
-      "b_ml": -350,
+      "b_ml": -360,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
       "label": "Jared Cannonier vs Christian Leroy Duncan",
       "rounds": 3,
@@ -1289,7 +1344,7 @@
     "calibration": {
       "shrink": 1.0
     },
-    "last_sync": "2026-07-15T23:01:34+00:00",
+    "last_sync": "2026-07-16T01:01:41+00:00",
     "news_last": {
       "alberto-montes": "2026-07-15T18:59:05.372847+00:00",
       "alden-coria": "2026-07-15T18:59:05.372847+00:00",
@@ -1315,8 +1370,8 @@
       "usman": "2026-07-15T19:04:04.659073+00:00"
     },
     "odds": {
-      "count": 1,
-      "last_call": "2026-07-15T19:10:44.573618+00:00",
+      "count": 2,
+      "last_call": "2026-07-16T01:01:10.347895+00:00",
       "month": "2026-07"
     },
     "ufcstats_last": {
@@ -1331,7 +1386,13 @@
       "fatima-kline": "2026-07-15T23:01:08.574882+00:00",
       "felipe-franco": "2026-07-15T23:01:08.574882+00:00",
       "jared-cannonier": "2026-07-15T23:01:08.574882+00:00",
-      "jean-paul-lebosnoyani": "2026-07-15T23:01:08.574882+00:00"
+      "jean-paul-lebosnoyani": "2026-07-15T23:01:08.574882+00:00",
+      "jose-miguel-delgado": "2026-07-16T01:01:10.349922+00:00",
+      "levi-rodrigues-jr": "2026-07-16T01:01:10.349922+00:00",
+      "mitch-ramirez": "2026-07-16T01:01:10.349922+00:00",
+      "rj-harris": "2026-07-16T01:01:10.349922+00:00",
+      "seokhyeon-ko": "2026-07-16T01:01:10.349922+00:00",
+      "stewart-nicoll": "2026-07-16T01:01:10.349922+00:00"
     }
   }
 }
