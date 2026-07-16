@@ -9,9 +9,9 @@
             {
               "matchup": "Alberto Montes vs Tommy McMillen",
               "pick": "Tommy McMillen",
-              "moneyline": -148,
-              "decimal_odds": 1.676,
-              "consensus_prob": 0.6316,
+              "moneyline": -150,
+              "decimal_odds": 1.667,
+              "consensus_prob": 0.6324,
               "model_prob": 0.6206,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 60.36,
@@ -41,10 +41,10 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 45.8,
-          "combined_decimal_odds": 2.344,
-          "combined_american": 134,
-          "ev_per_unit": 0.0736,
+          "combined_prob_pct": 45.86,
+          "combined_decimal_odds": 2.332,
+          "combined_american": 133,
+          "ev_per_unit": 0.0692,
           "positive_ev": true
         },
         "5_leg": {
@@ -52,9 +52,9 @@
             {
               "matchup": "Alberto Montes vs Tommy McMillen",
               "pick": "Tommy McMillen",
-              "moneyline": -148,
-              "decimal_odds": 1.676,
-              "consensus_prob": 0.6316,
+              "moneyline": -150,
+              "decimal_odds": 1.667,
+              "consensus_prob": 0.6324,
               "model_prob": 0.6206,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 60.36,
@@ -96,9 +96,9 @@
             {
               "matchup": "Jared Cannonier vs Christian Leroy Duncan",
               "pick": "Christian Leroy Duncan",
-              "moneyline": -360,
-              "decimal_odds": 1.278,
-              "consensus_prob": 0.6522,
+              "moneyline": -370,
+              "decimal_odds": 1.27,
+              "consensus_prob": 0.6557,
               "model_prob": 0.5024,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 26.25,
@@ -106,10 +106,10 @@
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 21.83,
-          "combined_decimal_odds": 3.613,
-          "combined_american": 261,
-          "ev_per_unit": -0.2112,
+          "combined_prob_pct": 21.98,
+          "combined_decimal_odds": 3.571,
+          "combined_american": 257,
+          "ev_per_unit": -0.2152,
           "positive_ev": false
         }
       }
