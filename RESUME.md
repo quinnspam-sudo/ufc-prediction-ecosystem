@@ -104,10 +104,13 @@ upgrades" table for the full map):
 1. **Let live cycles populate real stats** — parlays and value flags light up
    as `sources/ufcstats.py` clears `needs_stats` (6 fighters/cycle). Watch
    `reports/parlays.json` for the 2026-07-18 Du Plessis vs Usman card.
-2. **Venue elevation lookup**: `espn_schedule.py` should map venue city →
-   `venue_elevation_ft` (static dict of common UFC venues is enough).
-3. **Benchmark run**: pull DanMcInerney/mma-ai predictions for an upcoming
+2. **Benchmark run**: pull DanMcInerney/mma-ai predictions for an upcoming
    card into the `benchmark.py` JSON format and mine the disagreements.
+3. **Parlay leg ranking is per-leg EV** (not raw prob) above a 60% consensus
+   floor — flipped the current card's 3-leg to +EV. A possible next refinement:
+   a MIN_EV gate that marks a whole parlay "pass" rather than best-available.
+4. DONE this session: venue elevation auto-populates from the ESPN venue city
+   (`CITY_ELEVATION_FT` in espn_schedule.py; only >0 elevations emit patches).
 
 ## Other backlog (optional)
 - Human-readable `reports/SUMMARY.md` regenerated each cycle (today's value bets).
