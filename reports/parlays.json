@@ -7,15 +7,15 @@
         "3_leg": {
           "legs": [
             {
-              "matchup": "Alden Coria vs Stewart Nicoll",
-              "pick": "Alden Coria",
-              "moneyline": -1100,
-              "decimal_odds": 1.091,
-              "consensus_prob": 0.8931,
-              "model_prob": 0.9128,
+              "matchup": "Alberto Montes vs Tommy McMillen",
+              "pick": "Tommy McMillen",
+              "moneyline": -150,
+              "decimal_odds": 1.667,
+              "consensus_prob": 0.6324,
+              "model_prob": 0.7192,
               "likely_method": "Unanimous Decision",
-              "likely_method_pct": 79.84,
-              "modal_finish_round": "round_2"
+              "likely_method_pct": 60.36,
+              "modal_finish_round": "round_1"
             },
             {
               "matchup": "Chase Hooper vs Mitch Ramirez",
@@ -29,36 +29,36 @@
               "modal_finish_round": "round_1"
             },
             {
-              "matchup": "Tabatha Ricci vs Fatima Kline",
-              "pick": "Fatima Kline",
-              "moneyline": -475,
-              "decimal_odds": 1.211,
-              "consensus_prob": 0.7286,
-              "model_prob": 0.634,
+              "matchup": "Alden Coria vs Stewart Nicoll",
+              "pick": "Alden Coria",
+              "moneyline": -1100,
+              "decimal_odds": 1.091,
+              "consensus_prob": 0.8931,
+              "model_prob": 0.9128,
               "likely_method": "Unanimous Decision",
-              "likely_method_pct": 38.97,
-              "modal_finish_round": "round_3"
+              "likely_method_pct": 79.84,
+              "modal_finish_round": "round_2"
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 52.81,
-          "combined_decimal_odds": 1.699,
-          "combined_american": 70,
-          "ev_per_unit": -0.1027,
-          "positive_ev": false
+          "combined_prob_pct": 45.84,
+          "combined_decimal_odds": 2.339,
+          "combined_american": 134,
+          "ev_per_unit": 0.0721,
+          "positive_ev": true
         },
         "5_leg": {
           "legs": [
             {
-              "matchup": "Alden Coria vs Stewart Nicoll",
-              "pick": "Alden Coria",
-              "moneyline": -1100,
-              "decimal_odds": 1.091,
-              "consensus_prob": 0.8931,
-              "model_prob": 0.9128,
+              "matchup": "Alberto Montes vs Tommy McMillen",
+              "pick": "Tommy McMillen",
+              "moneyline": -150,
+              "decimal_odds": 1.667,
+              "consensus_prob": 0.6324,
+              "model_prob": 0.7192,
               "likely_method": "Unanimous Decision",
-              "likely_method_pct": 79.84,
-              "modal_finish_round": "round_2"
+              "likely_method_pct": 60.36,
+              "modal_finish_round": "round_1"
             },
             {
               "matchup": "Chase Hooper vs Mitch Ramirez",
@@ -70,6 +70,17 @@
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 63.38,
               "modal_finish_round": "round_1"
+            },
+            {
+              "matchup": "Alden Coria vs Stewart Nicoll",
+              "pick": "Alden Coria",
+              "moneyline": -1100,
+              "decimal_odds": 1.091,
+              "consensus_prob": 0.8931,
+              "model_prob": 0.9128,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 79.84,
+              "modal_finish_round": "round_2"
             },
             {
               "matchup": "Tabatha Ricci vs Fatima Kline",
@@ -92,17 +103,6 @@
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 26.25,
               "modal_finish_round": "round_3"
-            },
-            {
-              "matchup": "Alberto Montes vs Tommy McMillen",
-              "pick": "Tommy McMillen",
-              "moneyline": -150,
-              "decimal_odds": 1.667,
-              "consensus_prob": 0.6324,
-              "model_prob": 0.7192,
-              "likely_method": "Unanimous Decision",
-              "likely_method_pct": 60.36,
-              "modal_finish_round": "round_1"
             }
           ],
           "leg_count": 5,

@@ -160,7 +160,13 @@ def build_parlays(state: Dict[str, Any]) -> Dict[str, Any]:
 
     out: Dict[str, Any] = {"cards": {}, "min_leg_consensus_prob": MIN_LEG_PROB}
     for event, legs in cards.items():
-        legs.sort(key=lambda l: -l["consensus_prob"])
+        # Rank by per-leg EV (consensus_prob * decimal_odds), not raw
+        # probability: every candidate already clears the 60% confidence
+        # floor, so among safe legs we prefer the ones the book underprices.
+        # Ranking by probability alone stacks over-priced chalk and bakes the
+        # vig of every leg into the parlay.
+        legs.sort(key=lambda l: (-(l["consensus_prob"] * l["decimal_odds"]),
+                                 -l["consensus_prob"]))
         numbered = bool(NUMBERED_CARD_RE.search(event))
         card: Dict[str, Any] = {
             "card_type": "numbered/PPV" if numbered else "fight_night",
