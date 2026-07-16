@@ -379,6 +379,46 @@
       "detail": "Du Plessis vs Usman: consensus -250 / +200 (7 books)",
       "ts": "2026-07-16T16:52:21+00:00",
       "type": "odds_update"
+    },
+    {
+      "detail": "Alberto Montes vs Tommy McMillen: consensus +126 / -150 (7 books)",
+      "ts": "2026-07-16T21:01:01+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Alden Coria vs Stewart Nicoll: consensus -1100 / +700 (7 books)",
+      "ts": "2026-07-16T21:01:01+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Dione Barbosa vs Anna Melisano: consensus -650 / +455 (7 books)",
+      "ts": "2026-07-16T21:01:01+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Alvin Hines vs RJ Harris: consensus -145 / +117 (7 books)",
+      "ts": "2026-07-16T21:01:01+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Tabatha Ricci vs Fatima Kline: consensus +369 / -485 (7 books)",
+      "ts": "2026-07-16T21:01:01+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Chase Hooper vs Mitch Ramirez: consensus -355 / +280 (7 books)",
+      "ts": "2026-07-16T21:01:01+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Jared Cannonier vs Christian Leroy Duncan: consensus +295 / -370 (7 books)",
+      "ts": "2026-07-16T21:01:01+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Du Plessis vs Usman: consensus -250 / +200 (7 books)",
+      "ts": "2026-07-16T21:01:01+00:00",
+      "type": "odds_update"
     }
   ],
   "fighters": {
@@ -1526,7 +1566,7 @@
     },
     {
       "a": "alberto-montes",
-      "a_ml": 125,
+      "a_ml": 126,
       "b": "tommy-mcmillen",
       "b_ml": -150,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
@@ -1577,17 +1617,17 @@
     "calibration": {
       "shrink": 0.55
     },
-    "last_sync": "2026-07-16T16:52:23+00:00",
+    "last_sync": "2026-07-16T21:01:04+00:00",
     "news_last": {
-      "alberto-montes": "2026-07-16T07:01:03.756438+00:00",
-      "alden-coria": "2026-07-16T07:01:03.756438+00:00",
-      "alvin-hines": "2026-07-16T07:01:03.756438+00:00",
-      "anna-melisano": "2026-07-16T07:01:03.756438+00:00",
-      "austin-bashi": "2026-07-16T07:01:03.756438+00:00",
-      "chase-hooper": "2026-07-16T07:01:03.756438+00:00",
-      "christian-leroy-duncan": "2026-07-16T07:01:03.756438+00:00",
+      "alberto-montes": "2026-07-16T21:01:01.923648+00:00",
+      "alden-coria": "2026-07-16T21:01:01.923648+00:00",
+      "alvin-hines": "2026-07-16T21:01:01.923648+00:00",
+      "anna-melisano": "2026-07-16T21:01:01.923648+00:00",
+      "austin-bashi": "2026-07-16T21:01:01.923648+00:00",
+      "chase-hooper": "2026-07-16T21:01:01.923648+00:00",
+      "christian-leroy-duncan": "2026-07-16T21:01:01.923648+00:00",
       "damien-anderson": "2026-07-16T16:52:21.931056+00:00",
-      "dione-barbosa": "2026-07-16T07:01:03.756438+00:00",
+      "dione-barbosa": "2026-07-16T21:01:01.923648+00:00",
       "duplessis": "2026-07-16T07:49:32.619208+00:00",
       "ezra-elliott": "2026-07-16T16:52:21.931056+00:00",
       "fatima-kline": "2026-07-16T07:49:32.619208+00:00",
@@ -1605,8 +1645,8 @@
       "usman": "2026-07-16T09:01:08.691638+00:00"
     },
     "odds": {
-      "count": 5,
-      "last_call": "2026-07-16T16:52:21.929150+00:00",
+      "count": 6,
+      "last_call": "2026-07-16T21:01:01.921741+00:00",
       "month": "2026-07"
     },
     "ufcstats_last": {
