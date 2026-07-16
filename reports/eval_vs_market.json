@@ -1,0 +1,23 @@
+{
+  "caveat": "Rate stats as-of-today (lookahead) \u2014 treat model numbers as upper bounds; market numbers are exact.",
+  "fights_matched": 875,
+  "accuracy_pct": {
+    "model_raw": 64.7,
+    "market_favorite": 70.7,
+    "production_blend": 71.5
+  },
+  "brier_mean": {
+    "model_raw": 0.2393,
+    "model_shrunk_055": 0.2221,
+    "market_devig": 0.1962,
+    "production_blend": 0.1974
+  },
+  "flat_1u_pnl_units": {
+    "model_picks": 65.7,
+    "market_favorites": 1.4
+  },
+  "model_vs_market_disagreements": {
+    "n": 291,
+    "model_right_pct": 40.9
+  }
+}
