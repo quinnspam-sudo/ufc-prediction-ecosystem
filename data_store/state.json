@@ -459,6 +459,51 @@
       "detail": "Du Plessis vs Usman: consensus -245 / +200 (7 books)",
       "ts": "2026-07-17T03:00:51+00:00",
       "type": "odds_update"
+    },
+    {
+      "detail": "Alberto Montes vs Tommy McMillen: consensus +133 / -160 (7 books)",
+      "ts": "2026-07-17T07:01:01+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Alden Coria vs Stewart Nicoll: consensus -1100 / +700 (7 books)",
+      "ts": "2026-07-17T07:01:01+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Damien Anderson vs Ezra Elliott: consensus -135 / +114 (5 books)",
+      "ts": "2026-07-17T07:01:01+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Dione Barbosa vs Anna Melisano: consensus -650 / +455 (7 books)",
+      "ts": "2026-07-17T07:01:01+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Alvin Hines vs RJ Harris: consensus -135 / +115 (7 books)",
+      "ts": "2026-07-17T07:01:01+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Tabatha Ricci vs Fatima Kline: consensus +369 / -485 (7 books)",
+      "ts": "2026-07-17T07:01:01+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Chase Hooper vs Mitch Ramirez: consensus -375 / +295 (7 books)",
+      "ts": "2026-07-17T07:01:01+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Jared Cannonier vs Christian Leroy Duncan: consensus +295 / -370 (7 books)",
+      "ts": "2026-07-17T07:01:01+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Du Plessis vs Usman: consensus -245 / +200 (7 books)",
+      "ts": "2026-07-17T07:01:01+00:00",
+      "type": "odds_update"
     }
   ],
   "fighters": {
@@ -1562,9 +1607,9 @@
     },
     {
       "a": "alvin-hines",
-      "a_ml": -142,
+      "a_ml": -135,
       "b": "rj-harris",
-      "b_ml": 116,
+      "b_ml": 115,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
       "label": "Alvin Hines vs RJ Harris",
       "rounds": 3,
@@ -1646,7 +1691,9 @@
     },
     {
       "a": "damien-anderson",
+      "a_ml": -135,
       "b": "ezra-elliott",
+      "b_ml": 114,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
       "label": "Damien Anderson vs Ezra Elliott",
       "rounds": 3,
@@ -1657,7 +1704,7 @@
     "calibration": {
       "shrink": 0.55
     },
-    "last_sync": "2026-07-17T05:01:22+00:00",
+    "last_sync": "2026-07-17T07:01:01+00:00",
     "news_last": {
       "alberto-montes": "2026-07-16T21:01:01.923648+00:00",
       "alden-coria": "2026-07-16T21:01:01.923648+00:00",
@@ -1685,8 +1732,8 @@
       "usman": "2026-07-16T23:00:52.326259+00:00"
     },
     "odds": {
-      "count": 7,
-      "last_call": "2026-07-17T03:00:51.509453+00:00",
+      "count": 8,
+      "last_call": "2026-07-17T07:01:01.099735+00:00",
       "month": "2026-07"
     },
     "ufcstats_last": {
