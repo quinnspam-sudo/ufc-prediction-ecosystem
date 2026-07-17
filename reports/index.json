@@ -96,7 +96,7 @@
       },
       "value_flags": {
         "fighter_a": false,
-        "fighter_b": true
+        "fighter_b": false
       },
       "report_file": "reports/alberto-montes-vs-tommy-mcmillen.json"
     },

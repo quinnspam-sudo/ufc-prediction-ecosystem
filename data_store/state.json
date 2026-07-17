@@ -504,6 +504,51 @@
       "detail": "Du Plessis vs Usman: consensus -245 / +200 (7 books)",
       "ts": "2026-07-17T07:01:01+00:00",
       "type": "odds_update"
+    },
+    {
+      "detail": "Alberto Montes vs Tommy McMillen: consensus +142 / -168 (7 books)",
+      "ts": "2026-07-17T13:00:53+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Alden Coria vs Stewart Nicoll: consensus -1100 / +700 (7 books)",
+      "ts": "2026-07-17T13:00:53+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Damien Anderson vs Ezra Elliott: consensus -135 / +114 (5 books)",
+      "ts": "2026-07-17T13:00:53+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Dione Barbosa vs Anna Melisano: consensus -650 / +455 (7 books)",
+      "ts": "2026-07-17T13:00:53+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Alvin Hines vs RJ Harris: consensus -135 / +114 (7 books)",
+      "ts": "2026-07-17T13:00:53+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Tabatha Ricci vs Fatima Kline: consensus +369 / -485 (7 books)",
+      "ts": "2026-07-17T13:00:53+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Chase Hooper vs Mitch Ramirez: consensus -380 / +300 (7 books)",
+      "ts": "2026-07-17T13:00:53+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Jared Cannonier vs Christian Leroy Duncan: consensus +295 / -375 (7 books)",
+      "ts": "2026-07-17T13:00:53+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Du Plessis vs Usman: consensus -245 / +200 (7 books)",
+      "ts": "2026-07-17T13:00:53+00:00",
+      "type": "odds_update"
     }
   ],
   "fighters": {
@@ -1609,7 +1654,7 @@
       "a": "alvin-hines",
       "a_ml": -135,
       "b": "rj-harris",
-      "b_ml": 115,
+      "b_ml": 114,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
       "label": "Alvin Hines vs RJ Harris",
       "rounds": 3,
@@ -1651,9 +1696,9 @@
     },
     {
       "a": "alberto-montes",
-      "a_ml": 133,
+      "a_ml": 142,
       "b": "tommy-mcmillen",
-      "b_ml": -160,
+      "b_ml": -168,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
       "label": "Alberto Montes vs Tommy McMillen",
       "rounds": 3,
@@ -1671,9 +1716,9 @@
     },
     {
       "a": "chase-hooper",
-      "a_ml": -375,
+      "a_ml": -380,
       "b": "mitch-ramirez",
-      "b_ml": 295,
+      "b_ml": 300,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
       "label": "Chase Hooper vs Mitch Ramirez",
       "rounds": 3,
@@ -1683,7 +1728,7 @@
       "a": "jared-cannonier",
       "a_ml": 295,
       "b": "christian-leroy-duncan",
-      "b_ml": -370,
+      "b_ml": -375,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
       "label": "Jared Cannonier vs Christian Leroy Duncan",
       "rounds": 3,
@@ -1704,7 +1749,7 @@
     "calibration": {
       "shrink": 0.55
     },
-    "last_sync": "2026-07-17T11:00:56+00:00",
+    "last_sync": "2026-07-17T13:00:56+00:00",
     "news_last": {
       "alberto-montes": "2026-07-17T09:01:02.618135+00:00",
       "alden-coria": "2026-07-17T09:01:02.618135+00:00",
@@ -1724,16 +1769,16 @@
       "jose-miguel-delgado": "2026-07-17T11:00:53.997621+00:00",
       "levi-rodrigues-jr": "2026-07-17T11:00:53.997621+00:00",
       "mitch-ramirez": "2026-07-17T11:00:53.997621+00:00",
-      "rj-harris": "2026-07-16T23:00:52.326259+00:00",
-      "seokhyeon-ko": "2026-07-16T23:00:52.326259+00:00",
-      "stewart-nicoll": "2026-07-16T23:00:52.326259+00:00",
-      "tabatha-ricci": "2026-07-16T23:00:52.326259+00:00",
-      "tommy-mcmillen": "2026-07-16T23:00:52.326259+00:00",
-      "usman": "2026-07-16T23:00:52.326259+00:00"
+      "rj-harris": "2026-07-17T13:00:53.518763+00:00",
+      "seokhyeon-ko": "2026-07-17T13:00:53.518763+00:00",
+      "stewart-nicoll": "2026-07-17T13:00:53.518763+00:00",
+      "tabatha-ricci": "2026-07-17T13:00:53.518763+00:00",
+      "tommy-mcmillen": "2026-07-17T13:00:53.518763+00:00",
+      "usman": "2026-07-17T13:00:53.518763+00:00"
     },
     "odds": {
-      "count": 8,
-      "last_call": "2026-07-17T07:01:01.099735+00:00",
+      "count": 9,
+      "last_call": "2026-07-17T13:00:53.516868+00:00",
       "month": "2026-07"
     },
     "ufcstats_last": {
