@@ -594,6 +594,51 @@
       "detail": "Du Plessis vs Usman: consensus -242 / +194 (6 books)",
       "ts": "2026-07-17T17:01:08+00:00",
       "type": "odds_update"
+    },
+    {
+      "detail": "Damien Anderson vs Ezra Elliott: consensus -128 / +108 (5 books)",
+      "ts": "2026-07-17T21:12:43+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Dione Barbosa vs Anna Melisano: consensus -650 / +462 (6 books)",
+      "ts": "2026-07-17T21:12:43+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Alvin Hines vs RJ Harris: consensus -126 / +105 (6 books)",
+      "ts": "2026-07-17T21:12:43+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Alden Coria vs Stewart Nicoll: consensus -1100 / +700 (6 books)",
+      "ts": "2026-07-17T21:12:43+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Alberto Montes vs Tommy McMillen: consensus +141 / -170 (6 books)",
+      "ts": "2026-07-17T21:12:43+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Tabatha Ricci vs Fatima Kline: consensus +369 / -482 (6 books)",
+      "ts": "2026-07-17T21:12:43+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Chase Hooper vs Mitch Ramirez: consensus -372 / +295 (6 books)",
+      "ts": "2026-07-17T21:12:43+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Jared Cannonier vs Christian Leroy Duncan: consensus +300 / -387 (6 books)",
+      "ts": "2026-07-17T21:12:43+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Du Plessis vs Usman: consensus -242 / +192 (6 books)",
+      "ts": "2026-07-17T21:12:43+00:00",
+      "type": "odds_update"
     }
   ],
   "fighters": {
@@ -1681,15 +1726,15 @@
       "a": "duplessis",
       "a_ml": -242,
       "b": "usman",
-      "b_ml": 194,
+      "b_ml": 192,
       "label": "Du Plessis vs Usman",
       "rounds": 5
     },
     {
       "a": "dione-barbosa",
-      "a_ml": -637,
+      "a_ml": -650,
       "b": "anna-melisano",
-      "b_ml": 455,
+      "b_ml": 462,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
       "label": "Dione Barbosa vs Anna Melisano",
       "rounds": 3,
@@ -1697,9 +1742,9 @@
     },
     {
       "a": "alvin-hines",
-      "a_ml": -131,
+      "a_ml": -126,
       "b": "rj-harris",
-      "b_ml": 111,
+      "b_ml": 105,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
       "label": "Alvin Hines vs RJ Harris",
       "rounds": 3,
@@ -1743,7 +1788,7 @@
       "a": "alberto-montes",
       "a_ml": 141,
       "b": "tommy-mcmillen",
-      "b_ml": -168,
+      "b_ml": -170,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
       "label": "Alberto Montes vs Tommy McMillen",
       "rounds": 3,
@@ -1761,9 +1806,9 @@
     },
     {
       "a": "chase-hooper",
-      "a_ml": -380,
+      "a_ml": -372,
       "b": "mitch-ramirez",
-      "b_ml": 300,
+      "b_ml": 295,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
       "label": "Chase Hooper vs Mitch Ramirez",
       "rounds": 3,
@@ -1771,9 +1816,9 @@
     },
     {
       "a": "jared-cannonier",
-      "a_ml": 290,
+      "a_ml": 300,
       "b": "christian-leroy-duncan",
-      "b_ml": -372,
+      "b_ml": -387,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
       "label": "Jared Cannonier vs Christian Leroy Duncan",
       "rounds": 3,
@@ -1781,7 +1826,7 @@
     },
     {
       "a": "damien-anderson",
-      "a_ml": -130,
+      "a_ml": -128,
       "b": "ezra-elliott",
       "b_ml": 108,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
@@ -1794,17 +1839,17 @@
     "calibration": {
       "shrink": 0.55
     },
-    "last_sync": "2026-07-17T19:01:06+00:00",
+    "last_sync": "2026-07-17T21:12:48+00:00",
     "news_last": {
-      "alberto-montes": "2026-07-17T09:01:02.618135+00:00",
-      "alden-coria": "2026-07-17T09:01:02.618135+00:00",
-      "alvin-hines": "2026-07-17T09:01:02.618135+00:00",
-      "anna-melisano": "2026-07-17T09:01:02.618135+00:00",
-      "austin-bashi": "2026-07-17T09:01:02.618135+00:00",
-      "chase-hooper": "2026-07-17T09:01:02.618135+00:00",
-      "christian-leroy-duncan": "2026-07-17T09:01:02.618135+00:00",
+      "alberto-montes": "2026-07-17T21:12:43.897118+00:00",
+      "alden-coria": "2026-07-17T21:12:43.897118+00:00",
+      "alvin-hines": "2026-07-17T21:12:43.897118+00:00",
+      "anna-melisano": "2026-07-17T21:12:43.897118+00:00",
+      "austin-bashi": "2026-07-17T21:12:43.897118+00:00",
+      "chase-hooper": "2026-07-17T21:12:43.897118+00:00",
+      "christian-leroy-duncan": "2026-07-17T21:12:43.897118+00:00",
       "damien-anderson": "2026-07-17T19:01:05.741459+00:00",
-      "dione-barbosa": "2026-07-17T09:01:02.618135+00:00",
+      "dione-barbosa": "2026-07-17T21:12:43.897118+00:00",
       "duplessis": "2026-07-17T11:00:53.997621+00:00",
       "ezra-elliott": "2026-07-17T19:01:05.741459+00:00",
       "fatima-kline": "2026-07-17T11:00:53.997621+00:00",
@@ -1822,8 +1867,8 @@
       "usman": "2026-07-17T13:00:53.518763+00:00"
     },
     "odds": {
-      "count": 10,
-      "last_call": "2026-07-17T17:01:08.059544+00:00",
+      "count": 11,
+      "last_call": "2026-07-17T21:12:43.895136+00:00",
       "month": "2026-07"
     },
     "ufcstats_last": {
