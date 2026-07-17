@@ -11,7 +11,7 @@
               "pick": "Tommy McMillen",
               "moneyline": -168,
               "decimal_odds": 1.595,
-              "consensus_prob": 0.6493,
+              "consensus_prob": 0.6487,
               "model_prob": 0.6206,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 60.36,
@@ -41,10 +41,10 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 47.5,
+          "combined_prob_pct": 47.46,
           "combined_decimal_odds": 2.198,
           "combined_american": 120,
-          "ev_per_unit": 0.0441,
+          "ev_per_unit": 0.0431,
           "positive_ev": true
         },
         "5_leg": {
@@ -54,7 +54,7 @@
               "pick": "Tommy McMillen",
               "moneyline": -168,
               "decimal_odds": 1.595,
-              "consensus_prob": 0.6493,
+              "consensus_prob": 0.6487,
               "model_prob": 0.6206,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 60.36,
@@ -85,9 +85,9 @@
             {
               "matchup": "Tabatha Ricci vs Fatima Kline",
               "pick": "Fatima Kline",
-              "moneyline": -485,
-              "decimal_odds": 1.206,
-              "consensus_prob": 0.7309,
+              "moneyline": -482,
+              "decimal_odds": 1.207,
+              "consensus_prob": 0.7308,
               "model_prob": 0.5737,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 38.97,
@@ -96,9 +96,9 @@
             {
               "matchup": "Jared Cannonier vs Christian Leroy Duncan",
               "pick": "Christian Leroy Duncan",
-              "moneyline": -375,
-              "decimal_odds": 1.267,
-              "consensus_prob": 0.656,
+              "moneyline": -372,
+              "decimal_odds": 1.269,
+              "consensus_prob": 0.6544,
               "model_prob": 0.5024,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 26.25,
@@ -106,10 +106,10 @@
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 22.78,
-          "combined_decimal_odds": 3.358,
-          "combined_american": 236,
-          "ev_per_unit": -0.2351,
+          "combined_prob_pct": 22.7,
+          "combined_decimal_odds": 3.366,
+          "combined_american": 237,
+          "ev_per_unit": -0.2359,
           "positive_ev": false
         }
       }

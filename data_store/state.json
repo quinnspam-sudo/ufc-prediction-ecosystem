@@ -549,6 +549,51 @@
       "detail": "Du Plessis vs Usman: consensus -245 / +200 (7 books)",
       "ts": "2026-07-17T13:00:53+00:00",
       "type": "odds_update"
+    },
+    {
+      "detail": "Alberto Montes vs Tommy McMillen: consensus +141 / -168 (6 books)",
+      "ts": "2026-07-17T17:01:08+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Alden Coria vs Stewart Nicoll: consensus -1100 / +700 (6 books)",
+      "ts": "2026-07-17T17:01:08+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Damien Anderson vs Ezra Elliott: consensus -130 / +108 (5 books)",
+      "ts": "2026-07-17T17:01:08+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Dione Barbosa vs Anna Melisano: consensus -637 / +455 (6 books)",
+      "ts": "2026-07-17T17:01:08+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Alvin Hines vs RJ Harris: consensus -131 / +111 (6 books)",
+      "ts": "2026-07-17T17:01:08+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Tabatha Ricci vs Fatima Kline: consensus +369 / -482 (6 books)",
+      "ts": "2026-07-17T17:01:08+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Chase Hooper vs Mitch Ramirez: consensus -380 / +300 (6 books)",
+      "ts": "2026-07-17T17:01:08+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Jared Cannonier vs Christian Leroy Duncan: consensus +290 / -372 (6 books)",
+      "ts": "2026-07-17T17:01:08+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Du Plessis vs Usman: consensus -242 / +194 (6 books)",
+      "ts": "2026-07-17T17:01:08+00:00",
+      "type": "odds_update"
     }
   ],
   "fighters": {
@@ -1634,15 +1679,15 @@
   "matchups": [
     {
       "a": "duplessis",
-      "a_ml": -245,
+      "a_ml": -242,
       "b": "usman",
-      "b_ml": 200,
+      "b_ml": 194,
       "label": "Du Plessis vs Usman",
       "rounds": 5
     },
     {
       "a": "dione-barbosa",
-      "a_ml": -650,
+      "a_ml": -637,
       "b": "anna-melisano",
       "b_ml": 455,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
@@ -1652,9 +1697,9 @@
     },
     {
       "a": "alvin-hines",
-      "a_ml": -135,
+      "a_ml": -131,
       "b": "rj-harris",
-      "b_ml": 114,
+      "b_ml": 111,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
       "label": "Alvin Hines vs RJ Harris",
       "rounds": 3,
@@ -1696,7 +1741,7 @@
     },
     {
       "a": "alberto-montes",
-      "a_ml": 142,
+      "a_ml": 141,
       "b": "tommy-mcmillen",
       "b_ml": -168,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
@@ -1708,7 +1753,7 @@
       "a": "tabatha-ricci",
       "a_ml": 369,
       "b": "fatima-kline",
-      "b_ml": -485,
+      "b_ml": -482,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
       "label": "Tabatha Ricci vs Fatima Kline",
       "rounds": 3,
@@ -1726,9 +1771,9 @@
     },
     {
       "a": "jared-cannonier",
-      "a_ml": 295,
+      "a_ml": 290,
       "b": "christian-leroy-duncan",
-      "b_ml": -375,
+      "b_ml": -372,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
       "label": "Jared Cannonier vs Christian Leroy Duncan",
       "rounds": 3,
@@ -1736,9 +1781,9 @@
     },
     {
       "a": "damien-anderson",
-      "a_ml": -135,
+      "a_ml": -130,
       "b": "ezra-elliott",
-      "b_ml": 114,
+      "b_ml": 108,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
       "label": "Damien Anderson vs Ezra Elliott",
       "rounds": 3,
@@ -1749,7 +1794,7 @@
     "calibration": {
       "shrink": 0.55
     },
-    "last_sync": "2026-07-17T13:00:56+00:00",
+    "last_sync": "2026-07-17T17:01:10+00:00",
     "news_last": {
       "alberto-montes": "2026-07-17T09:01:02.618135+00:00",
       "alden-coria": "2026-07-17T09:01:02.618135+00:00",
@@ -1777,8 +1822,8 @@
       "usman": "2026-07-17T13:00:53.518763+00:00"
     },
     "odds": {
-      "count": 9,
-      "last_call": "2026-07-17T13:00:53.516868+00:00",
+      "count": 10,
+      "last_call": "2026-07-17T17:01:08.059544+00:00",
       "month": "2026-07"
     },
     "ufcstats_last": {
