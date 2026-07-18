@@ -15,9 +15,9 @@
     },
     "Dione Barbosa vs Anna Melisano": {
       "win_probability": {
-        "fighter_a_pct": 33.67,
-        "fighter_b_pct": 66.33,
-        "draw_pct": 6.0
+        "fighter_a_pct": 32.96,
+        "fighter_b_pct": 67.04,
+        "draw_pct": 5.2
       },
       "value_flags": {
         "fighter_a": false,
@@ -141,9 +141,9 @@
     },
     "Damien Anderson vs Ezra Elliott": {
       "win_probability": {
-        "fighter_a_pct": 49.68,
-        "fighter_b_pct": 50.32,
-        "draw_pct": 6.2
+        "fighter_a_pct": 49.34,
+        "fighter_b_pct": 50.66,
+        "draw_pct": 5.75
       },
       "value_flags": {
         "fighter_a": false,

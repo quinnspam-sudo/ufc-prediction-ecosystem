@@ -869,6 +869,61 @@
       "detail": "Du Plessis vs Usman: consensus -210 / +174 (7 books)",
       "ts": "2026-07-18T21:00:49+00:00",
       "type": "odds_update"
+    },
+    {
+      "detail": "Dione Barbosa won at UFC Fight Night: Du Plessis vs. Usman (2026-07-18)",
+      "ts": "2026-07-18T23:00:49+00:00",
+      "type": "fight_result"
+    },
+    {
+      "detail": "Anna Melisano did not win at UFC Fight Night: Du Plessis vs. Usman (2026-07-18)",
+      "ts": "2026-07-18T23:00:49+00:00",
+      "type": "fight_result"
+    },
+    {
+      "detail": "Alvin Hines did not win at UFC Fight Night: Du Plessis vs. Usman (2026-07-18)",
+      "ts": "2026-07-18T23:00:49+00:00",
+      "type": "fight_result"
+    },
+    {
+      "detail": "RJ Harris won at UFC Fight Night: Du Plessis vs. Usman (2026-07-18)",
+      "ts": "2026-07-18T23:00:49+00:00",
+      "type": "fight_result"
+    },
+    {
+      "detail": "Alden Coria won at UFC Fight Night: Du Plessis vs. Usman (2026-07-18)",
+      "ts": "2026-07-18T23:00:49+00:00",
+      "type": "fight_result"
+    },
+    {
+      "detail": "Stewart Nicoll did not win at UFC Fight Night: Du Plessis vs. Usman (2026-07-18)",
+      "ts": "2026-07-18T23:00:49+00:00",
+      "type": "fight_result"
+    },
+    {
+      "detail": "Damien Anderson did not win at UFC Fight Night: Du Plessis vs. Usman (2026-07-18)",
+      "ts": "2026-07-18T23:00:49+00:00",
+      "type": "fight_result"
+    },
+    {
+      "detail": "Ezra Elliott won at UFC Fight Night: Du Plessis vs. Usman (2026-07-18)",
+      "ts": "2026-07-18T23:00:49+00:00",
+      "type": "fight_result"
+    },
+    {
+      "detail": "Dione Barbosa beat Anna Melisano (Brier 0.44)",
+      "ts": "2026-07-18T23:00:49+00:00",
+      "type": "calibration_resolved"
+    },
+    {
+      "detail": "RJ Harris beat Alvin Hines (Brier 0.012)",
+      "ts": "2026-07-18T23:00:49+00:00",
+      "type": "calibration_resolved"
+    },
+    {
+      "detail": "Alden Coria beat Stewart Nicoll (Brier 0.0745)",
+      "ts": "2026-07-18T23:00:49+00:00",
+      "type": "calibration_resolved"
     }
   ],
   "fighters": {
@@ -918,7 +973,7 @@
       "withdrawn": false
     },
     "alden-coria": {
-      "_updated": "2026-07-15T21:38:53+00:00",
+      "_updated": "2026-07-18T23:00:49+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -932,7 +987,7 @@
       "height_in": 70.0,
       "home_country": "USA",
       "injury_note": "",
-      "last_fight_date": "2025-06-01",
+      "last_fight_date": "2026-07-18",
       "missed_weight": false,
       "name": "Alden Coria",
       "needs_stats": false,
@@ -963,7 +1018,7 @@
       "withdrawn": false
     },
     "alvin-hines": {
-      "_updated": "2026-07-15T21:38:53+00:00",
+      "_updated": "2026-07-18T23:00:49+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -977,7 +1032,7 @@
       "height_in": 70.0,
       "home_country": "USA",
       "injury_note": "",
-      "last_fight_date": "2025-06-01",
+      "last_fight_date": "2026-07-18",
       "missed_weight": false,
       "name": "Alvin Hines",
       "needs_stats": false,
@@ -1008,7 +1063,7 @@
       "withdrawn": false
     },
     "anna-melisano": {
-      "_updated": "2026-07-15T18:47:02+00:00",
+      "_updated": "2026-07-18T23:00:49+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -1022,7 +1077,7 @@
       "height_in": 70.0,
       "home_country": "USA",
       "injury_note": "",
-      "last_fight_date": "2025-06-01",
+      "last_fight_date": "2026-07-18",
       "missed_weight": false,
       "name": "Anna Melisano",
       "needs_stats": true,
@@ -1189,7 +1244,7 @@
       "withdrawn": false
     },
     "damien-anderson": {
-      "_updated": "2026-07-16T03:01:20+00:00",
+      "_updated": "2026-07-18T23:00:49+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -1203,7 +1258,7 @@
       "height_in": 70.0,
       "home_country": "USA",
       "injury_note": "",
-      "last_fight_date": "2025-06-01",
+      "last_fight_date": "2026-07-18",
       "missed_weight": false,
       "name": "Damien Anderson",
       "needs_stats": true,
@@ -1234,7 +1289,7 @@
       "withdrawn": false
     },
     "dione-barbosa": {
-      "_updated": "2026-07-15T23:01:32+00:00",
+      "_updated": "2026-07-18T23:00:49+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -1248,7 +1303,7 @@
       "height_in": 70.0,
       "home_country": "USA",
       "injury_note": "",
-      "last_fight_date": "2025-06-01",
+      "last_fight_date": "2026-07-18",
       "missed_weight": false,
       "name": "Dione Barbosa",
       "needs_stats": false,
@@ -1323,7 +1378,7 @@
       "withdrawn": false
     },
     "ezra-elliott": {
-      "_updated": "2026-07-16T03:01:20+00:00",
+      "_updated": "2026-07-18T23:00:49+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -1337,7 +1392,7 @@
       "height_in": 70.0,
       "home_country": "USA",
       "injury_note": "",
-      "last_fight_date": "2025-06-01",
+      "last_fight_date": "2026-07-18",
       "missed_weight": false,
       "name": "Ezra Elliott",
       "needs_stats": true,
@@ -1683,7 +1738,7 @@
       "withdrawn": false
     },
     "rj-harris": {
-      "_updated": "2026-07-15T18:47:02+00:00",
+      "_updated": "2026-07-18T23:00:49+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -1697,7 +1752,7 @@
       "height_in": 70.0,
       "home_country": "USA",
       "injury_note": "",
-      "last_fight_date": "2025-06-01",
+      "last_fight_date": "2026-07-18",
       "missed_weight": false,
       "name": "RJ Harris",
       "needs_stats": true,
@@ -1773,7 +1828,7 @@
       "withdrawn": false
     },
     "stewart-nicoll": {
-      "_updated": "2026-07-16T01:01:37+00:00",
+      "_updated": "2026-07-18T23:00:49+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -1787,7 +1842,7 @@
       "height_in": 70.0,
       "home_country": "USA",
       "injury_note": "",
-      "last_fight_date": "2025-06-01",
+      "last_fight_date": "2026-07-18",
       "missed_weight": false,
       "name": "Stewart Nicoll",
       "needs_stats": false,
@@ -2070,7 +2125,7 @@
     "calibration": {
       "shrink": 0.55
     },
-    "last_sync": "2026-07-18T21:00:54+00:00",
+    "last_sync": "2026-07-18T23:00:50+00:00",
     "news_last": {
       "alberto-montes": "2026-07-18T11:02:40.168843+00:00",
       "alden-coria": "2026-07-18T11:02:40.168843+00:00",
