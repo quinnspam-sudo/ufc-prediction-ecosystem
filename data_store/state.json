@@ -824,6 +824,51 @@
       "detail": "Du Plessis vs Usman: consensus -215 / +180 (7 books)",
       "ts": "2026-07-18T15:36:21+00:00",
       "type": "odds_update"
+    },
+    {
+      "detail": "Dione Barbosa vs Anna Melisano: consensus -675 / +480 (7 books)",
+      "ts": "2026-07-18T21:00:49+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Alvin Hines vs RJ Harris: consensus -115 / -105 (7 books)",
+      "ts": "2026-07-18T21:00:49+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Alden Coria vs Stewart Nicoll: consensus -1100 / +705 (7 books)",
+      "ts": "2026-07-18T21:00:49+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Damien Anderson vs Ezra Elliott: consensus -124 / +105 (6 books)",
+      "ts": "2026-07-18T21:00:49+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Alberto Montes vs Tommy McMillen: consensus +175 / -205 (7 books)",
+      "ts": "2026-07-18T21:00:49+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Tabatha Ricci vs Fatima Kline: consensus +380 / -500 (7 books)",
+      "ts": "2026-07-18T21:00:49+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Chase Hooper vs Mitch Ramirez: consensus -370 / +285 (7 books)",
+      "ts": "2026-07-18T21:00:49+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Jared Cannonier vs Christian Leroy Duncan: consensus +280 / -355 (7 books)",
+      "ts": "2026-07-18T21:00:49+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Du Plessis vs Usman: consensus -210 / +174 (7 books)",
+      "ts": "2026-07-18T21:00:49+00:00",
+      "type": "odds_update"
     }
   ],
   "fighters": {
@@ -1910,17 +1955,17 @@
   "matchups": [
     {
       "a": "duplessis",
-      "a_ml": -215,
+      "a_ml": -210,
       "b": "usman",
-      "b_ml": 180,
+      "b_ml": 174,
       "label": "Du Plessis vs Usman",
       "rounds": 5
     },
     {
       "a": "dione-barbosa",
-      "a_ml": -650,
+      "a_ml": -675,
       "b": "anna-melisano",
-      "b_ml": 455,
+      "b_ml": 480,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
       "label": "Dione Barbosa vs Anna Melisano",
       "rounds": 3,
@@ -1928,9 +1973,9 @@
     },
     {
       "a": "alvin-hines",
-      "a_ml": -120,
+      "a_ml": -115,
       "b": "rj-harris",
-      "b_ml": 100,
+      "b_ml": -105,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
       "label": "Alvin Hines vs RJ Harris",
       "rounds": 3,
@@ -1940,7 +1985,7 @@
       "a": "alden-coria",
       "a_ml": -1100,
       "b": "stewart-nicoll",
-      "b_ml": 700,
+      "b_ml": 705,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
       "label": "Alden Coria vs Stewart Nicoll",
       "rounds": 3,
@@ -1972,9 +2017,9 @@
     },
     {
       "a": "alberto-montes",
-      "a_ml": 145,
+      "a_ml": 175,
       "b": "tommy-mcmillen",
-      "b_ml": -174,
+      "b_ml": -205,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
       "label": "Alberto Montes vs Tommy McMillen",
       "rounds": 3,
@@ -1982,9 +2027,9 @@
     },
     {
       "a": "tabatha-ricci",
-      "a_ml": 360,
+      "a_ml": 380,
       "b": "fatima-kline",
-      "b_ml": -480,
+      "b_ml": -500,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
       "label": "Tabatha Ricci vs Fatima Kline",
       "rounds": 3,
@@ -1994,7 +2039,7 @@
       "a": "chase-hooper",
       "a_ml": -370,
       "b": "mitch-ramirez",
-      "b_ml": 295,
+      "b_ml": 285,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
       "label": "Chase Hooper vs Mitch Ramirez",
       "rounds": 3,
@@ -2002,9 +2047,9 @@
     },
     {
       "a": "jared-cannonier",
-      "a_ml": 310,
+      "a_ml": 280,
       "b": "christian-leroy-duncan",
-      "b_ml": -400,
+      "b_ml": -355,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
       "label": "Jared Cannonier vs Christian Leroy Duncan",
       "rounds": 3,
@@ -2012,7 +2057,7 @@
     },
     {
       "a": "damien-anderson",
-      "a_ml": -125,
+      "a_ml": -124,
       "b": "ezra-elliott",
       "b_ml": 105,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
@@ -2025,7 +2070,7 @@
     "calibration": {
       "shrink": 0.55
     },
-    "last_sync": "2026-07-18T15:36:24+00:00",
+    "last_sync": "2026-07-18T21:00:54+00:00",
     "news_last": {
       "alberto-montes": "2026-07-18T11:02:40.168843+00:00",
       "alden-coria": "2026-07-18T11:02:40.168843+00:00",
@@ -2034,10 +2079,10 @@
       "austin-bashi": "2026-07-18T11:02:40.168843+00:00",
       "chase-hooper": "2026-07-18T11:02:40.168843+00:00",
       "christian-leroy-duncan": "2026-07-18T11:02:40.168843+00:00",
-      "damien-anderson": "2026-07-18T07:12:56.011913+00:00",
+      "damien-anderson": "2026-07-18T21:00:49.708843+00:00",
       "dione-barbosa": "2026-07-18T11:02:40.168843+00:00",
       "duplessis": "2026-07-18T13:00:53.742459+00:00",
-      "ezra-elliott": "2026-07-18T07:12:56.011913+00:00",
+      "ezra-elliott": "2026-07-18T21:00:49.708843+00:00",
       "fatima-kline": "2026-07-18T13:00:53.742459+00:00",
       "felipe-franco": "2026-07-18T13:00:53.742459+00:00",
       "jared-cannonier": "2026-07-18T13:00:53.742459+00:00",
@@ -2053,8 +2098,8 @@
       "usman": "2026-07-18T15:00:53.585746+00:00"
     },
     "odds": {
-      "count": 15,
-      "last_call": "2026-07-18T15:36:21.430069+00:00",
+      "count": 16,
+      "last_call": "2026-07-18T21:00:49.706916+00:00",
       "month": "2026-07"
     },
     "ufcstats_last": {
