@@ -20,9 +20,9 @@
             {
               "matchup": "Alberto Montes vs Tommy McMillen",
               "pick": "Tommy McMillen",
-              "moneyline": -170,
-              "decimal_odds": 1.588,
-              "consensus_prob": 0.65,
+              "moneyline": -174,
+              "decimal_odds": 1.575,
+              "consensus_prob": 0.6529,
               "model_prob": 0.6206,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 60.36,
@@ -41,10 +41,10 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 47.42,
-          "combined_decimal_odds": 2.2,
-          "combined_american": 120,
-          "ev_per_unit": 0.0433,
+          "combined_prob_pct": 47.63,
+          "combined_decimal_odds": 2.182,
+          "combined_american": 118,
+          "ev_per_unit": 0.0394,
           "positive_ev": true
         },
         "5_leg": {
@@ -63,9 +63,9 @@
             {
               "matchup": "Alberto Montes vs Tommy McMillen",
               "pick": "Tommy McMillen",
-              "moneyline": -170,
-              "decimal_odds": 1.588,
-              "consensus_prob": 0.65,
+              "moneyline": -174,
+              "decimal_odds": 1.575,
+              "consensus_prob": 0.6529,
               "model_prob": 0.6206,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 60.36,
@@ -85,9 +85,9 @@
             {
               "matchup": "Tabatha Ricci vs Fatima Kline",
               "pick": "Fatima Kline",
-              "moneyline": -490,
-              "decimal_odds": 1.204,
-              "consensus_prob": 0.7313,
+              "moneyline": -480,
+              "decimal_odds": 1.208,
+              "consensus_prob": 0.7288,
               "model_prob": 0.5737,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 38.97,
@@ -96,9 +96,9 @@
             {
               "matchup": "Jared Cannonier vs Christian Leroy Duncan",
               "pick": "Christian Leroy Duncan",
-              "moneyline": -395,
-              "decimal_odds": 1.253,
-              "consensus_prob": 0.6586,
+              "moneyline": -400,
+              "decimal_odds": 1.25,
+              "consensus_prob": 0.6615,
               "model_prob": 0.5024,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 26.25,
@@ -106,10 +106,10 @@
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 22.84,
-          "combined_decimal_odds": 3.319,
-          "combined_american": 232,
-          "ev_per_unit": -0.2419,
+          "combined_prob_pct": 22.96,
+          "combined_decimal_odds": 3.295,
+          "combined_american": 230,
+          "ev_per_unit": -0.2434,
           "positive_ev": false
         }
       }
