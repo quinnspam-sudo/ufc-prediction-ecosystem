@@ -639,6 +639,51 @@
       "detail": "Du Plessis vs Usman: consensus -242 / +192 (6 books)",
       "ts": "2026-07-17T21:12:43+00:00",
       "type": "odds_update"
+    },
+    {
+      "detail": "Damien Anderson vs Ezra Elliott: consensus -126 / +106 (6 books)",
+      "ts": "2026-07-18T03:00:50+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Dione Barbosa vs Anna Melisano: consensus -625 / +455 (7 books)",
+      "ts": "2026-07-18T03:00:50+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Alden Coria vs Stewart Nicoll: consensus -1100 / +700 (7 books)",
+      "ts": "2026-07-18T03:00:50+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Alvin Hines vs RJ Harris: consensus -124 / +104 (7 books)",
+      "ts": "2026-07-18T03:00:50+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Alberto Montes vs Tommy McMillen: consensus +142 / -170 (7 books)",
+      "ts": "2026-07-18T03:00:50+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Tabatha Ricci vs Fatima Kline: consensus +370 / -490 (7 books)",
+      "ts": "2026-07-18T03:00:50+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Chase Hooper vs Mitch Ramirez: consensus -370 / +295 (7 books)",
+      "ts": "2026-07-18T03:00:50+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Jared Cannonier vs Christian Leroy Duncan: consensus +300 / -395 (7 books)",
+      "ts": "2026-07-18T03:00:50+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Du Plessis vs Usman: consensus -235 / +194 (7 books)",
+      "ts": "2026-07-18T03:00:50+00:00",
+      "type": "odds_update"
     }
   ],
   "fighters": {
@@ -1724,17 +1769,17 @@
   "matchups": [
     {
       "a": "duplessis",
-      "a_ml": -242,
+      "a_ml": -235,
       "b": "usman",
-      "b_ml": 192,
+      "b_ml": 194,
       "label": "Du Plessis vs Usman",
       "rounds": 5
     },
     {
       "a": "dione-barbosa",
-      "a_ml": -650,
+      "a_ml": -625,
       "b": "anna-melisano",
-      "b_ml": 462,
+      "b_ml": 455,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
       "label": "Dione Barbosa vs Anna Melisano",
       "rounds": 3,
@@ -1742,9 +1787,9 @@
     },
     {
       "a": "alvin-hines",
-      "a_ml": -126,
+      "a_ml": -124,
       "b": "rj-harris",
-      "b_ml": 105,
+      "b_ml": 104,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
       "label": "Alvin Hines vs RJ Harris",
       "rounds": 3,
@@ -1786,7 +1831,7 @@
     },
     {
       "a": "alberto-montes",
-      "a_ml": 141,
+      "a_ml": 142,
       "b": "tommy-mcmillen",
       "b_ml": -170,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
@@ -1796,9 +1841,9 @@
     },
     {
       "a": "tabatha-ricci",
-      "a_ml": 369,
+      "a_ml": 370,
       "b": "fatima-kline",
-      "b_ml": -482,
+      "b_ml": -490,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
       "label": "Tabatha Ricci vs Fatima Kline",
       "rounds": 3,
@@ -1806,7 +1851,7 @@
     },
     {
       "a": "chase-hooper",
-      "a_ml": -372,
+      "a_ml": -370,
       "b": "mitch-ramirez",
       "b_ml": 295,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
@@ -1818,7 +1863,7 @@
       "a": "jared-cannonier",
       "a_ml": 300,
       "b": "christian-leroy-duncan",
-      "b_ml": -387,
+      "b_ml": -395,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
       "label": "Jared Cannonier vs Christian Leroy Duncan",
       "rounds": 3,
@@ -1826,9 +1871,9 @@
     },
     {
       "a": "damien-anderson",
-      "a_ml": -128,
+      "a_ml": -126,
       "b": "ezra-elliott",
-      "b_ml": 108,
+      "b_ml": 106,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
       "label": "Damien Anderson vs Ezra Elliott",
       "rounds": 3,
@@ -1839,7 +1884,7 @@
     "calibration": {
       "shrink": 0.55
     },
-    "last_sync": "2026-07-17T23:01:03+00:00",
+    "last_sync": "2026-07-18T03:01:06+00:00",
     "news_last": {
       "alberto-montes": "2026-07-17T21:12:43.897118+00:00",
       "alden-coria": "2026-07-17T21:12:43.897118+00:00",
@@ -1859,16 +1904,16 @@
       "jose-miguel-delgado": "2026-07-17T23:00:55.965261+00:00",
       "levi-rodrigues-jr": "2026-07-17T23:00:55.965261+00:00",
       "mitch-ramirez": "2026-07-17T23:00:55.965261+00:00",
-      "rj-harris": "2026-07-17T13:00:53.518763+00:00",
-      "seokhyeon-ko": "2026-07-17T13:00:53.518763+00:00",
-      "stewart-nicoll": "2026-07-17T13:00:53.518763+00:00",
-      "tabatha-ricci": "2026-07-17T13:00:53.518763+00:00",
-      "tommy-mcmillen": "2026-07-17T13:00:53.518763+00:00",
-      "usman": "2026-07-17T13:00:53.518763+00:00"
+      "rj-harris": "2026-07-18T03:00:50.295076+00:00",
+      "seokhyeon-ko": "2026-07-18T03:00:50.295076+00:00",
+      "stewart-nicoll": "2026-07-18T03:00:50.295076+00:00",
+      "tabatha-ricci": "2026-07-18T03:00:50.295076+00:00",
+      "tommy-mcmillen": "2026-07-18T03:00:50.295076+00:00",
+      "usman": "2026-07-18T03:00:50.295076+00:00"
     },
     "odds": {
-      "count": 11,
-      "last_call": "2026-07-17T21:12:43.895136+00:00",
+      "count": 12,
+      "last_call": "2026-07-18T03:00:50.293116+00:00",
       "month": "2026-07"
     },
     "ufcstats_last": {
@@ -1886,11 +1931,11 @@
       "felipe-franco": "2026-07-15T23:01:08.574882+00:00",
       "jared-cannonier": "2026-07-15T23:01:08.574882+00:00",
       "jean-paul-lebosnoyani": "2026-07-15T23:01:08.574882+00:00",
-      "jose-miguel-delgado": "2026-07-17T03:00:51.511059+00:00",
+      "jose-miguel-delgado": "2026-07-18T03:00:52.118960+00:00",
       "levi-rodrigues-jr": "2026-07-16T01:01:10.349922+00:00",
       "mitch-ramirez": "2026-07-16T01:01:10.349922+00:00",
-      "rj-harris": "2026-07-17T03:00:51.511059+00:00",
-      "seokhyeon-ko": "2026-07-17T03:00:51.511059+00:00",
+      "rj-harris": "2026-07-18T03:00:52.118960+00:00",
+      "seokhyeon-ko": "2026-07-18T03:00:52.118960+00:00",
       "stewart-nicoll": "2026-07-16T01:01:10.349922+00:00",
       "tabatha-ricci": "2026-07-16T03:01:20.534247+00:00",
       "tommy-mcmillen": "2026-07-16T03:01:20.534247+00:00"
