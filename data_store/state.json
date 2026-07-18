@@ -729,6 +729,56 @@
       "detail": "Du Plessis vs Usman: consensus -235 / +194 (7 books)",
       "ts": "2026-07-18T07:00:57+00:00",
       "type": "odds_update"
+    },
+    {
+      "detail": "Damien Anderson vs Ezra Elliott: consensus -123 / +102 (6 books)",
+      "ts": "2026-07-18T11:02:40+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Dione Barbosa vs Anna Melisano: consensus -625 / +455 (7 books)",
+      "ts": "2026-07-18T11:02:40+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Alden Coria vs Stewart Nicoll: consensus -1100 / +700 (7 books)",
+      "ts": "2026-07-18T11:02:40+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Alvin Hines vs RJ Harris: consensus -124 / +104 (7 books)",
+      "ts": "2026-07-18T11:02:40+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Alberto Montes vs Tommy McMillen: consensus +142 / -170 (7 books)",
+      "ts": "2026-07-18T11:02:40+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Tabatha Ricci vs Fatima Kline: consensus +370 / -490 (7 books)",
+      "ts": "2026-07-18T11:02:40+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Chase Hooper vs Mitch Ramirez: consensus -370 / +295 (7 books)",
+      "ts": "2026-07-18T11:02:40+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Jared Cannonier vs Christian Leroy Duncan: consensus +300 / -395 (7 books)",
+      "ts": "2026-07-18T11:02:40+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Du Plessis vs Usman: consensus -235 / +194 (7 books)",
+      "ts": "2026-07-18T11:02:40+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Chase Hooper: Chase Hooper misses weight for first time at UFC Oklahoma City - Yardbarker",
+      "ts": "2026-07-18T11:02:42+00:00",
+      "type": "health_missed_weight"
     }
   ],
   "fighters": {
@@ -958,7 +1008,8 @@
       "withdrawn": false
     },
     "chase-hooper": {
-      "_updated": "2026-07-15T21:38:53+00:00",
+      "_injury_from_news": true,
+      "_updated": "2026-07-18T11:02:42+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -971,9 +1022,9 @@
       "fight_location_country": "USA",
       "height_in": 70.0,
       "home_country": "USA",
-      "injury_note": "",
+      "injury_note": "Chase Hooper misses weight for first time at UFC Oklahoma City - Yardbarker",
       "last_fight_date": "2025-06-01",
-      "missed_weight": false,
+      "missed_weight": true,
       "name": "Chase Hooper",
       "needs_stats": false,
       "reach_in": 72.0,
@@ -1929,17 +1980,17 @@
     "calibration": {
       "shrink": 0.55
     },
-    "last_sync": "2026-07-18T07:12:56+00:00",
+    "last_sync": "2026-07-18T11:02:42+00:00",
     "news_last": {
-      "alberto-montes": "2026-07-17T21:12:43.897118+00:00",
-      "alden-coria": "2026-07-17T21:12:43.897118+00:00",
-      "alvin-hines": "2026-07-17T21:12:43.897118+00:00",
-      "anna-melisano": "2026-07-17T21:12:43.897118+00:00",
-      "austin-bashi": "2026-07-17T21:12:43.897118+00:00",
-      "chase-hooper": "2026-07-17T21:12:43.897118+00:00",
-      "christian-leroy-duncan": "2026-07-17T21:12:43.897118+00:00",
+      "alberto-montes": "2026-07-18T11:02:40.168843+00:00",
+      "alden-coria": "2026-07-18T11:02:40.168843+00:00",
+      "alvin-hines": "2026-07-18T11:02:40.168843+00:00",
+      "anna-melisano": "2026-07-18T11:02:40.168843+00:00",
+      "austin-bashi": "2026-07-18T11:02:40.168843+00:00",
+      "chase-hooper": "2026-07-18T11:02:40.168843+00:00",
+      "christian-leroy-duncan": "2026-07-18T11:02:40.168843+00:00",
       "damien-anderson": "2026-07-18T07:12:56.011913+00:00",
-      "dione-barbosa": "2026-07-17T21:12:43.897118+00:00",
+      "dione-barbosa": "2026-07-18T11:02:40.168843+00:00",
       "duplessis": "2026-07-17T23:00:55.965261+00:00",
       "ezra-elliott": "2026-07-18T07:12:56.011913+00:00",
       "fatima-kline": "2026-07-17T23:00:55.965261+00:00",
@@ -1957,8 +2008,8 @@
       "usman": "2026-07-18T03:00:50.295076+00:00"
     },
     "odds": {
-      "count": 13,
-      "last_call": "2026-07-18T07:00:57.586985+00:00",
+      "count": 14,
+      "last_call": "2026-07-18T11:02:40.166915+00:00",
       "month": "2026-07"
     },
     "ufcstats_last": {

@@ -115,8 +115,8 @@
     },
     "Chase Hooper vs Mitch Ramirez": {
       "win_probability": {
-        "fighter_a_pct": 72.45,
-        "fighter_b_pct": 27.55,
+        "fighter_a_pct": 72.39,
+        "fighter_b_pct": 27.61,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.55
       },

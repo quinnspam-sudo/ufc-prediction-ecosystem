@@ -84,17 +84,17 @@
       "label": "Chase Hooper vs Mitch Ramirez",
       "a": "Chase Hooper",
       "b": "Mitch Ramirez",
-      "p_a": 0.7245,
+      "p_a": 0.7239,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
-      "logged": "2026-07-18T03:01:05+00:00",
+      "logged": "2026-07-18T11:02:42+00:00",
       "resolved": false,
       "actual_a": null,
       "brier": null,
       "resolved_at": null,
-      "p_ko": 0.15,
-      "p_sub": 0.2162,
-      "p_dec": 0.6338,
-      "p_distance": 0.6338
+      "p_ko": 0.1504,
+      "p_sub": 0.2142,
+      "p_dec": 0.6354,
+      "p_distance": 0.6354
     },
     {
       "label": "Dione Barbosa vs Anna Melisano",

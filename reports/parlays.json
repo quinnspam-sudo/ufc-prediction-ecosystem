@@ -11,10 +11,10 @@
               "pick": "Chase Hooper",
               "moneyline": -370,
               "decimal_odds": 1.27,
-              "consensus_prob": 0.8172,
-              "model_prob": 0.7245,
+              "consensus_prob": 0.8168,
+              "model_prob": 0.7239,
               "likely_method": "Unanimous Decision",
-              "likely_method_pct": 63.38,
+              "likely_method_pct": 63.54,
               "modal_finish_round": "round_1"
             },
             {
@@ -41,10 +41,10 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 47.44,
+          "combined_prob_pct": 47.42,
           "combined_decimal_odds": 2.2,
           "combined_american": 120,
-          "ev_per_unit": 0.0438,
+          "ev_per_unit": 0.0433,
           "positive_ev": true
         },
         "5_leg": {
@@ -54,10 +54,10 @@
               "pick": "Chase Hooper",
               "moneyline": -370,
               "decimal_odds": 1.27,
-              "consensus_prob": 0.8172,
-              "model_prob": 0.7245,
+              "consensus_prob": 0.8168,
+              "model_prob": 0.7239,
               "likely_method": "Unanimous Decision",
-              "likely_method_pct": 63.38,
+              "likely_method_pct": 63.54,
               "modal_finish_round": "round_1"
             },
             {
@@ -106,10 +106,10 @@
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 22.85,
+          "combined_prob_pct": 22.84,
           "combined_decimal_odds": 3.319,
           "combined_american": 232,
-          "ev_per_unit": -0.2416,
+          "ev_per_unit": -0.2419,
           "positive_ev": false
         }
       }
