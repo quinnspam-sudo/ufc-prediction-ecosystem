@@ -924,11 +924,111 @@
       "detail": "Alden Coria beat Stewart Nicoll (Brier 0.0745)",
       "ts": "2026-07-18T23:00:49+00:00",
       "type": "calibration_resolved"
+    },
+    {
+      "detail": "Felipe Franco won at UFC Fight Night: Du Plessis vs. Usman (2026-07-18)",
+      "ts": "2026-07-19T01:02:30+00:00",
+      "type": "fight_result"
+    },
+    {
+      "detail": "Levi Rodrigues Jr. did not win at UFC Fight Night: Du Plessis vs. Usman (2026-07-18)",
+      "ts": "2026-07-19T01:02:30+00:00",
+      "type": "fight_result"
+    },
+    {
+      "detail": "Jean-Paul Lebosnoyani won at UFC Fight Night: Du Plessis vs. Usman (2026-07-18)",
+      "ts": "2026-07-19T01:02:30+00:00",
+      "type": "fight_result"
+    },
+    {
+      "detail": "Seokhyeon Ko did not win at UFC Fight Night: Du Plessis vs. Usman (2026-07-18)",
+      "ts": "2026-07-19T01:02:30+00:00",
+      "type": "fight_result"
+    },
+    {
+      "detail": "Austin Bashi did not win at UFC Fight Night: Du Plessis vs. Usman (2026-07-18)",
+      "ts": "2026-07-19T01:02:30+00:00",
+      "type": "fight_result"
+    },
+    {
+      "detail": "Jose Miguel Delgado won at UFC Fight Night: Du Plessis vs. Usman (2026-07-18)",
+      "ts": "2026-07-19T01:02:30+00:00",
+      "type": "fight_result"
+    },
+    {
+      "detail": "Alberto Montes did not win at UFC Fight Night: Du Plessis vs. Usman (2026-07-18)",
+      "ts": "2026-07-19T01:02:30+00:00",
+      "type": "fight_result"
+    },
+    {
+      "detail": "Tommy McMillen won at UFC Fight Night: Du Plessis vs. Usman (2026-07-18)",
+      "ts": "2026-07-19T01:02:30+00:00",
+      "type": "fight_result"
+    },
+    {
+      "detail": "Tabatha Ricci vs Fatima Kline: consensus +800 / -1800 (7 books)",
+      "ts": "2026-07-19T01:02:30+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Chase Hooper vs Mitch Ramirez: consensus -375 / +285 (7 books)",
+      "ts": "2026-07-19T01:02:30+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Jared Cannonier vs Christian Leroy Duncan: consensus +267 / -330 (7 books)",
+      "ts": "2026-07-19T01:02:30+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Du Plessis vs Usman: consensus -210 / +180 (7 books)",
+      "ts": "2026-07-19T01:02:30+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Chase Hooper: Chase Hooper misses weight for first time at UFC Oklahoma City - Yardbarker",
+      "ts": "2026-07-19T01:02:33+00:00",
+      "type": "health_missed_weight"
+    },
+    {
+      "detail": "Dione Barbosa beat Anna Melisano (Brier 0.4494)",
+      "ts": "2026-07-19T01:02:38+00:00",
+      "type": "calibration_resolved"
+    },
+    {
+      "detail": "RJ Harris beat Alvin Hines (Brier 0.012)",
+      "ts": "2026-07-19T01:02:38+00:00",
+      "type": "calibration_resolved"
+    },
+    {
+      "detail": "Alden Coria beat Stewart Nicoll (Brier 0.0745)",
+      "ts": "2026-07-19T01:02:38+00:00",
+      "type": "calibration_resolved"
+    },
+    {
+      "detail": "Felipe Franco beat Levi Rodrigues Jr. (Brier 0.5017)",
+      "ts": "2026-07-19T01:02:38+00:00",
+      "type": "calibration_resolved"
+    },
+    {
+      "detail": "Jean-Paul Lebosnoyani beat Seokhyeon Ko (Brier 0.5861)",
+      "ts": "2026-07-19T01:02:38+00:00",
+      "type": "calibration_resolved"
+    },
+    {
+      "detail": "Jose Miguel Delgado beat Austin Bashi (Brier 0.7223)",
+      "ts": "2026-07-19T01:02:38+00:00",
+      "type": "calibration_resolved"
+    },
+    {
+      "detail": "Tommy McMillen beat Alberto Montes (Brier 0.1439)",
+      "ts": "2026-07-19T01:02:38+00:00",
+      "type": "calibration_resolved"
     }
   ],
   "fighters": {
     "alberto-montes": {
-      "_updated": "2026-07-15T21:38:53+00:00",
+      "_updated": "2026-07-19T01:02:30+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -942,7 +1042,7 @@
       "height_in": 70.0,
       "home_country": "USA",
       "injury_note": "",
-      "last_fight_date": "2025-06-01",
+      "last_fight_date": "2026-07-18",
       "missed_weight": false,
       "name": "Alberto Montes",
       "needs_stats": false,
@@ -1108,7 +1208,7 @@
       "withdrawn": false
     },
     "austin-bashi": {
-      "_updated": "2026-07-15T21:38:53+00:00",
+      "_updated": "2026-07-19T01:02:30+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -1122,7 +1222,7 @@
       "height_in": 70.0,
       "home_country": "USA",
       "injury_note": "",
-      "last_fight_date": "2025-06-01",
+      "last_fight_date": "2026-07-18",
       "missed_weight": false,
       "name": "Austin Bashi",
       "needs_stats": false,
@@ -1154,7 +1254,7 @@
     },
     "chase-hooper": {
       "_injury_from_news": true,
-      "_updated": "2026-07-18T11:02:42+00:00",
+      "_updated": "2026-07-19T01:02:33+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -1468,7 +1568,7 @@
       "withdrawn": false
     },
     "felipe-franco": {
-      "_updated": "2026-07-15T23:01:32+00:00",
+      "_updated": "2026-07-19T01:02:30+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -1482,7 +1582,7 @@
       "height_in": 70.0,
       "home_country": "USA",
       "injury_note": "",
-      "last_fight_date": "2025-06-01",
+      "last_fight_date": "2026-07-18",
       "missed_weight": false,
       "name": "Felipe Franco",
       "needs_stats": false,
@@ -1558,7 +1658,7 @@
       "withdrawn": false
     },
     "jean-paul-lebosnoyani": {
-      "_updated": "2026-07-15T23:01:32+00:00",
+      "_updated": "2026-07-19T01:02:30+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -1572,7 +1672,7 @@
       "height_in": 70.0,
       "home_country": "USA",
       "injury_note": "",
-      "last_fight_date": "2025-06-01",
+      "last_fight_date": "2026-07-18",
       "missed_weight": false,
       "name": "Jean-Paul Lebosnoyani",
       "needs_stats": false,
@@ -1603,7 +1703,7 @@
       "withdrawn": false
     },
     "jose-miguel-delgado": {
-      "_updated": "2026-07-15T18:47:02+00:00",
+      "_updated": "2026-07-19T01:02:30+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -1617,7 +1717,7 @@
       "height_in": 70.0,
       "home_country": "USA",
       "injury_note": "",
-      "last_fight_date": "2025-06-01",
+      "last_fight_date": "2026-07-18",
       "missed_weight": false,
       "name": "Jose Miguel Delgado",
       "needs_stats": true,
@@ -1648,7 +1748,7 @@
       "withdrawn": false
     },
     "levi-rodrigues-jr": {
-      "_updated": "2026-07-16T01:01:37+00:00",
+      "_updated": "2026-07-19T01:02:30+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -1662,7 +1762,7 @@
       "height_in": 70.0,
       "home_country": "USA",
       "injury_note": "",
-      "last_fight_date": "2025-06-01",
+      "last_fight_date": "2026-07-18",
       "missed_weight": false,
       "name": "Levi Rodrigues Jr.",
       "needs_stats": false,
@@ -1783,7 +1883,7 @@
       "withdrawn": false
     },
     "seokhyeon-ko": {
-      "_updated": "2026-07-15T18:47:02+00:00",
+      "_updated": "2026-07-19T01:02:30+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -1797,7 +1897,7 @@
       "height_in": 70.0,
       "home_country": "USA",
       "injury_note": "",
-      "last_fight_date": "2025-06-01",
+      "last_fight_date": "2026-07-18",
       "missed_weight": false,
       "name": "Seokhyeon Ko",
       "needs_stats": true,
@@ -1918,7 +2018,7 @@
       "withdrawn": false
     },
     "tommy-mcmillen": {
-      "_updated": "2026-07-16T03:01:40+00:00",
+      "_updated": "2026-07-19T01:02:30+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -1932,7 +2032,7 @@
       "height_in": 70.0,
       "home_country": "USA",
       "injury_note": "",
-      "last_fight_date": "2025-06-01",
+      "last_fight_date": "2026-07-18",
       "missed_weight": false,
       "name": "Tommy McMillen",
       "needs_stats": false,
@@ -2012,7 +2112,7 @@
       "a": "duplessis",
       "a_ml": -210,
       "b": "usman",
-      "b_ml": 174,
+      "b_ml": 180,
       "label": "Du Plessis vs Usman",
       "rounds": 5
     },
@@ -2082,9 +2182,9 @@
     },
     {
       "a": "tabatha-ricci",
-      "a_ml": 380,
+      "a_ml": 800,
       "b": "fatima-kline",
-      "b_ml": -500,
+      "b_ml": -1800,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
       "label": "Tabatha Ricci vs Fatima Kline",
       "rounds": 3,
@@ -2092,7 +2192,7 @@
     },
     {
       "a": "chase-hooper",
-      "a_ml": -370,
+      "a_ml": -375,
       "b": "mitch-ramirez",
       "b_ml": 285,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
@@ -2102,9 +2202,9 @@
     },
     {
       "a": "jared-cannonier",
-      "a_ml": 280,
+      "a_ml": 267,
       "b": "christian-leroy-duncan",
-      "b_ml": -355,
+      "b_ml": -330,
       "event": "UFC Fight Night: Du Plessis vs. Usman",
       "label": "Jared Cannonier vs Christian Leroy Duncan",
       "rounds": 3,
@@ -2125,17 +2225,17 @@
     "calibration": {
       "shrink": 0.55
     },
-    "last_sync": "2026-07-18T23:00:50+00:00",
+    "last_sync": "2026-07-19T01:02:42+00:00",
     "news_last": {
-      "alberto-montes": "2026-07-18T11:02:40.168843+00:00",
-      "alden-coria": "2026-07-18T11:02:40.168843+00:00",
-      "alvin-hines": "2026-07-18T11:02:40.168843+00:00",
-      "anna-melisano": "2026-07-18T11:02:40.168843+00:00",
-      "austin-bashi": "2026-07-18T11:02:40.168843+00:00",
-      "chase-hooper": "2026-07-18T11:02:40.168843+00:00",
-      "christian-leroy-duncan": "2026-07-18T11:02:40.168843+00:00",
+      "alberto-montes": "2026-07-19T01:02:30.831517+00:00",
+      "alden-coria": "2026-07-19T01:02:30.831517+00:00",
+      "alvin-hines": "2026-07-19T01:02:30.831517+00:00",
+      "anna-melisano": "2026-07-19T01:02:30.831517+00:00",
+      "austin-bashi": "2026-07-19T01:02:30.831517+00:00",
+      "chase-hooper": "2026-07-19T01:02:30.831517+00:00",
+      "christian-leroy-duncan": "2026-07-19T01:02:30.831517+00:00",
       "damien-anderson": "2026-07-18T21:00:49.708843+00:00",
-      "dione-barbosa": "2026-07-18T11:02:40.168843+00:00",
+      "dione-barbosa": "2026-07-19T01:02:30.831517+00:00",
       "duplessis": "2026-07-18T13:00:53.742459+00:00",
       "ezra-elliott": "2026-07-18T21:00:49.708843+00:00",
       "fatima-kline": "2026-07-18T13:00:53.742459+00:00",
@@ -2153,15 +2253,15 @@
       "usman": "2026-07-18T15:00:53.585746+00:00"
     },
     "odds": {
-      "count": 16,
-      "last_call": "2026-07-18T21:00:49.706916+00:00",
+      "count": 17,
+      "last_call": "2026-07-19T01:02:30.829617+00:00",
       "month": "2026-07"
     },
     "ufcstats_last": {
       "alberto-montes": "2026-07-15T21:38:27.127905+00:00",
       "alden-coria": "2026-07-15T21:38:27.127905+00:00",
       "alvin-hines": "2026-07-15T21:38:27.127905+00:00",
-      "anna-melisano": "2026-07-17T23:00:58.353595+00:00",
+      "anna-melisano": "2026-07-19T01:02:33.048918+00:00",
       "austin-bashi": "2026-07-15T21:38:27.127905+00:00",
       "chase-hooper": "2026-07-15T21:38:27.127905+00:00",
       "christian-leroy-duncan": "2026-07-15T23:01:08.574882+00:00",

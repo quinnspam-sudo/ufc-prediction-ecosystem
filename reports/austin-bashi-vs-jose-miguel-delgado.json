@@ -39,8 +39,8 @@
     "fighter_a": {
       "KO/TKO": 6.45,
       "Submission": 16.35,
-      "Unanimous Decision": 62.0,
-      "Split/Majority Decision": 0.15
+      "Unanimous Decision": 62.05,
+      "Split/Majority Decision": 0.1
     },
     "fighter_b": {
       "KO/TKO": 8.85,

@@ -9,9 +9,9 @@
             {
               "matchup": "Chase Hooper vs Mitch Ramirez",
               "pick": "Chase Hooper",
-              "moneyline": -370,
-              "decimal_odds": 1.27,
-              "consensus_prob": 0.814,
+              "moneyline": -375,
+              "decimal_odds": 1.267,
+              "consensus_prob": 0.8143,
               "model_prob": 0.7239,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 63.54,
@@ -25,7 +25,7 @@
               "consensus_prob": 0.6771,
               "model_prob": 0.6206,
               "likely_method": "Unanimous Decision",
-              "likely_method_pct": 60.36,
+              "likely_method_pct": 60.37,
               "modal_finish_round": "round_1"
             },
             {
@@ -41,10 +41,10 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 49.25,
-          "combined_decimal_odds": 2.062,
+          "combined_prob_pct": 49.26,
+          "combined_decimal_odds": 2.057,
           "combined_american": 106,
-          "ev_per_unit": 0.0153,
+          "ev_per_unit": 0.0133,
           "positive_ev": true
         },
         "5_leg": {
@@ -52,9 +52,9 @@
             {
               "matchup": "Chase Hooper vs Mitch Ramirez",
               "pick": "Chase Hooper",
-              "moneyline": -370,
-              "decimal_odds": 1.27,
-              "consensus_prob": 0.814,
+              "moneyline": -375,
+              "decimal_odds": 1.267,
+              "consensus_prob": 0.8143,
               "model_prob": 0.7239,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 63.54,
@@ -68,7 +68,7 @@
               "consensus_prob": 0.6771,
               "model_prob": 0.6206,
               "likely_method": "Unanimous Decision",
-              "likely_method_pct": 60.36,
+              "likely_method_pct": 60.37,
               "modal_finish_round": "round_1"
             },
             {
@@ -83,33 +83,33 @@
               "modal_finish_round": "round_2"
             },
             {
-              "matchup": "Tabatha Ricci vs Fatima Kline",
-              "pick": "Fatima Kline",
-              "moneyline": -500,
-              "decimal_odds": 1.2,
-              "consensus_prob": 0.7336,
-              "model_prob": 0.5737,
-              "likely_method": "Unanimous Decision",
-              "likely_method_pct": 38.97,
-              "modal_finish_round": "round_3"
-            },
-            {
               "matchup": "Jared Cannonier vs Christian Leroy Duncan",
               "pick": "Christian Leroy Duncan",
-              "moneyline": -355,
-              "decimal_odds": 1.282,
-              "consensus_prob": 0.6504,
+              "moneyline": -330,
+              "decimal_odds": 1.303,
+              "consensus_prob": 0.6445,
               "model_prob": 0.5024,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 26.25,
               "modal_finish_round": "round_3"
+            },
+            {
+              "matchup": "Tabatha Ricci vs Fatima Kline",
+              "pick": "Fatima Kline",
+              "moneyline": -1800,
+              "decimal_odds": 1.056,
+              "consensus_prob": 0.7906,
+              "model_prob": 0.5737,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 38.97,
+              "modal_finish_round": "round_3"
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 23.5,
-          "combined_decimal_odds": 3.172,
-          "combined_american": 217,
-          "ev_per_unit": -0.2547,
+          "combined_prob_pct": 25.1,
+          "combined_decimal_odds": 2.83,
+          "combined_american": 183,
+          "ev_per_unit": -0.2896,
           "positive_ev": false
         }
       }
