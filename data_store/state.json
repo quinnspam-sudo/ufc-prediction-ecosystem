@@ -1089,6 +1089,36 @@
       "detail": "Christian Leroy Duncan beat Jared Cannonier (Brier 0.2476)",
       "ts": "2026-07-19T03:07:35+00:00",
       "type": "calibration_resolved"
+    },
+    {
+      "detail": "Kamaru Usman did not win at UFC Fight Night: Du Plessis vs. Usman (2026-07-18)",
+      "ts": "2026-07-19T05:02:31+00:00",
+      "type": "fight_result"
+    },
+    {
+      "detail": "Dricus Du Plessis won at UFC Fight Night: Du Plessis vs. Usman (2026-07-18)",
+      "ts": "2026-07-19T05:02:31+00:00",
+      "type": "fight_result"
+    },
+    {
+      "detail": "Fatima Kline beat Tabatha Ricci (Brier 0.2363)",
+      "ts": "2026-07-19T05:02:33+00:00",
+      "type": "calibration_resolved"
+    },
+    {
+      "detail": "Chase Hooper beat Mitch Ramirez (Brier 0.211)",
+      "ts": "2026-07-19T05:02:33+00:00",
+      "type": "calibration_resolved"
+    },
+    {
+      "detail": "Christian Leroy Duncan beat Jared Cannonier (Brier 0.2496)",
+      "ts": "2026-07-19T05:02:33+00:00",
+      "type": "calibration_resolved"
+    },
+    {
+      "detail": "Dricus Du Plessis beat Kamaru Usman (Brier 0.4039)",
+      "ts": "2026-07-19T05:02:33+00:00",
+      "type": "calibration_resolved"
     }
   ],
   "fighters": {
@@ -1499,7 +1529,7 @@
       "withdrawn": false
     },
     "duplessis": {
-      "_updated": "2026-07-15T18:47:01+00:00",
+      "_updated": "2026-07-19T05:02:31+00:00",
       "active_injury": false,
       "age": 31,
       "career_fights": 24,
@@ -1513,7 +1543,7 @@
       "height_in": 73.0,
       "home_country": "South Africa",
       "injury_note": "",
-      "last_fight_date": "2025-02-08",
+      "last_fight_date": "2026-07-18",
       "missed_weight": false,
       "name": "Dricus du Plessis",
       "reach_in": 76.0,
@@ -2128,7 +2158,7 @@
       "withdrawn": false
     },
     "usman": {
-      "_updated": "2026-07-15T18:47:01+00:00",
+      "_updated": "2026-07-19T05:02:31+00:00",
       "active_injury": false,
       "age": 38,
       "career_fights": 25,
@@ -2142,7 +2172,7 @@
       "height_in": 72.0,
       "home_country": "USA",
       "injury_note": "",
-      "last_fight_date": "2024-08-24",
+      "last_fight_date": "2026-07-18",
       "missed_weight": false,
       "name": "Kamaru Usman",
       "reach_in": 76.0,
@@ -2288,9 +2318,9 @@
   ],
   "meta": {
     "calibration": {
-      "shrink": 0.1
+      "shrink": 0.55
     },
-    "last_sync": "2026-07-19T03:07:37+00:00",
+    "last_sync": "2026-07-19T05:02:34+00:00",
     "news_last": {
       "alberto-montes": "2026-07-19T01:02:30.831517+00:00",
       "alden-coria": "2026-07-19T01:02:30.831517+00:00",
@@ -2310,16 +2340,16 @@
       "jose-miguel-delgado": "2026-07-19T03:01:03.952200+00:00",
       "levi-rodrigues-jr": "2026-07-19T03:01:03.952200+00:00",
       "mitch-ramirez": "2026-07-19T03:01:03.952200+00:00",
-      "rj-harris": "2026-07-18T15:00:53.585746+00:00",
-      "seokhyeon-ko": "2026-07-18T15:00:53.585746+00:00",
-      "stewart-nicoll": "2026-07-18T15:00:53.585746+00:00",
-      "tabatha-ricci": "2026-07-18T15:00:53.585746+00:00",
-      "tommy-mcmillen": "2026-07-18T15:00:53.585746+00:00",
-      "usman": "2026-07-18T15:00:53.585746+00:00"
+      "rj-harris": "2026-07-19T05:02:31.995860+00:00",
+      "seokhyeon-ko": "2026-07-19T05:02:31.995860+00:00",
+      "stewart-nicoll": "2026-07-19T05:02:31.995860+00:00",
+      "tabatha-ricci": "2026-07-19T05:02:31.995860+00:00",
+      "tommy-mcmillen": "2026-07-19T05:02:31.995860+00:00",
+      "usman": "2026-07-19T05:02:31.995860+00:00"
     },
     "odds": {
-      "count": 17,
-      "last_call": "2026-07-19T01:02:30.829617+00:00",
+      "count": 18,
+      "last_call": "2026-07-19T05:02:31.994481+00:00",
       "month": "2026-07"
     },
     "ufcstats_last": {

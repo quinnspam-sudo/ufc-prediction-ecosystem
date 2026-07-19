@@ -2,9 +2,9 @@
   "matchups": {
     "Du Plessis vs Usman": {
       "win_probability": {
-        "fighter_a_pct": 36.45,
-        "fighter_b_pct": 63.55,
-        "draw_pct": 1.9,
+        "fighter_a_pct": 35.69,
+        "fighter_b_pct": 64.31,
+        "draw_pct": 0.88,
         "calibration_shrink_applied": 0.55
       },
       "value_flags": {
