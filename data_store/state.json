@@ -1119,6 +1119,11 @@
       "detail": "Dricus Du Plessis beat Kamaru Usman (Brier 0.4039)",
       "ts": "2026-07-19T05:02:33+00:00",
       "type": "calibration_resolved"
+    },
+    {
+      "detail": "Dricus Du Plessis beat Kamaru Usman (Brier 0.4136)",
+      "ts": "2026-07-19T07:00:47+00:00",
+      "type": "calibration_resolved"
     }
   ],
   "fighters": {
@@ -2318,9 +2323,9 @@
   ],
   "meta": {
     "calibration": {
-      "shrink": 0.55
+      "shrink": 0.1
     },
-    "last_sync": "2026-07-19T05:02:34+00:00",
+    "last_sync": "2026-07-19T07:00:47+00:00",
     "news_last": {
       "alberto-montes": "2026-07-19T01:02:30.831517+00:00",
       "alden-coria": "2026-07-19T01:02:30.831517+00:00",
