@@ -12,7 +12,7 @@
               "moneyline": -375,
               "decimal_odds": 1.267,
               "consensus_prob": 0.8143,
-              "model_prob": 0.7239,
+              "model_prob": 0.5407,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 63.54,
               "modal_finish_round": "round_1"
@@ -55,7 +55,7 @@
               "moneyline": -375,
               "decimal_odds": 1.267,
               "consensus_prob": 0.8143,
-              "model_prob": 0.7239,
+              "model_prob": 0.5407,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 63.54,
               "modal_finish_round": "round_1"
@@ -87,10 +87,10 @@
               "pick": "Christian Leroy Duncan",
               "moneyline": -330,
               "decimal_odds": 1.303,
-              "consensus_prob": 0.6445,
-              "model_prob": 0.5024,
+              "consensus_prob": 0.6444,
+              "model_prob": 0.5004,
               "likely_method": "Unanimous Decision",
-              "likely_method_pct": 26.25,
+              "likely_method_pct": 26.18,
               "modal_finish_round": "round_3"
             },
             {
@@ -98,18 +98,18 @@
               "pick": "Fatima Kline",
               "moneyline": -1800,
               "decimal_odds": 1.056,
-              "consensus_prob": 0.7906,
-              "model_prob": 0.5737,
+              "consensus_prob": 0.7927,
+              "model_prob": 0.5139,
               "likely_method": "Unanimous Decision",
-              "likely_method_pct": 38.97,
+              "likely_method_pct": 39.21,
               "modal_finish_round": "round_3"
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 25.1,
+          "combined_prob_pct": 25.16,
           "combined_decimal_odds": 2.83,
           "combined_american": 183,
-          "ev_per_unit": -0.2896,
+          "ev_per_unit": -0.2878,
           "positive_ev": false
         }
       }

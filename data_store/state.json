@@ -1024,6 +1024,71 @@
       "detail": "Tommy McMillen beat Alberto Montes (Brier 0.1439)",
       "ts": "2026-07-19T01:02:38+00:00",
       "type": "calibration_resolved"
+    },
+    {
+      "detail": "Tabatha Ricci did not win at UFC Fight Night: Du Plessis vs. Usman (2026-07-18)",
+      "ts": "2026-07-19T03:01:03+00:00",
+      "type": "fight_result"
+    },
+    {
+      "detail": "Fatima Kline won at UFC Fight Night: Du Plessis vs. Usman (2026-07-18)",
+      "ts": "2026-07-19T03:01:03+00:00",
+      "type": "fight_result"
+    },
+    {
+      "detail": "Chase Hooper won at UFC Fight Night: Du Plessis vs. Usman (2026-07-18)",
+      "ts": "2026-07-19T03:01:03+00:00",
+      "type": "fight_result"
+    },
+    {
+      "detail": "Mitch Ramirez did not win at UFC Fight Night: Du Plessis vs. Usman (2026-07-18)",
+      "ts": "2026-07-19T03:01:03+00:00",
+      "type": "fight_result"
+    },
+    {
+      "detail": "Jared Cannonier did not win at UFC Fight Night: Du Plessis vs. Usman (2026-07-18)",
+      "ts": "2026-07-19T03:01:03+00:00",
+      "type": "fight_result"
+    },
+    {
+      "detail": "Christian Leroy Duncan won at UFC Fight Night: Du Plessis vs. Usman (2026-07-18)",
+      "ts": "2026-07-19T03:01:03+00:00",
+      "type": "fight_result"
+    },
+    {
+      "detail": "Felipe Franco beat Levi Rodrigues Jr. (Brier 0.5042)",
+      "ts": "2026-07-19T03:07:35+00:00",
+      "type": "calibration_resolved"
+    },
+    {
+      "detail": "Jean-Paul Lebosnoyani beat Seokhyeon Ko (Brier 0.5923)",
+      "ts": "2026-07-19T03:07:35+00:00",
+      "type": "calibration_resolved"
+    },
+    {
+      "detail": "Jose Miguel Delgado beat Austin Bashi (Brier 0.7223)",
+      "ts": "2026-07-19T03:07:35+00:00",
+      "type": "calibration_resolved"
+    },
+    {
+      "detail": "Tommy McMillen beat Alberto Montes (Brier 0.1439)",
+      "ts": "2026-07-19T03:07:35+00:00",
+      "type": "calibration_resolved"
+    },
+    {
+      "detail": "Fatima Kline beat Tabatha Ricci (Brier 0.1817)",
+      "ts": "2026-07-19T03:07:35+00:00",
+      "type": "calibration_resolved"
+    },
+    {
+      "detail": "Chase Hooper beat Mitch Ramirez (Brier 0.0762)",
+      "ts": "2026-07-19T03:07:35+00:00",
+      "type": "calibration_resolved"
+    },
+    {
+      "detail": "Christian Leroy Duncan beat Jared Cannonier (Brier 0.2476)",
+      "ts": "2026-07-19T03:07:35+00:00",
+      "type": "calibration_resolved"
     }
   ],
   "fighters": {
@@ -1254,7 +1319,7 @@
     },
     "chase-hooper": {
       "_injury_from_news": true,
-      "_updated": "2026-07-19T01:02:33+00:00",
+      "_updated": "2026-07-19T03:01:03+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -1268,7 +1333,7 @@
       "height_in": 70.0,
       "home_country": "USA",
       "injury_note": "Chase Hooper misses weight for first time at UFC Oklahoma City - Yardbarker",
-      "last_fight_date": "2025-06-01",
+      "last_fight_date": "2026-07-18",
       "missed_weight": true,
       "name": "Chase Hooper",
       "needs_stats": false,
@@ -1299,7 +1364,7 @@
       "withdrawn": false
     },
     "christian-leroy-duncan": {
-      "_updated": "2026-07-15T23:01:32+00:00",
+      "_updated": "2026-07-19T03:01:03+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -1313,7 +1378,7 @@
       "height_in": 70.0,
       "home_country": "USA",
       "injury_note": "",
-      "last_fight_date": "2025-06-01",
+      "last_fight_date": "2026-07-18",
       "missed_weight": false,
       "name": "Christian Leroy Duncan",
       "needs_stats": false,
@@ -1523,7 +1588,7 @@
       "withdrawn": false
     },
     "fatima-kline": {
-      "_updated": "2026-07-15T23:01:32+00:00",
+      "_updated": "2026-07-19T03:01:03+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -1537,7 +1602,7 @@
       "height_in": 70.0,
       "home_country": "USA",
       "injury_note": "",
-      "last_fight_date": "2025-06-01",
+      "last_fight_date": "2026-07-18",
       "missed_weight": false,
       "name": "Fatima Kline",
       "needs_stats": false,
@@ -1613,7 +1678,7 @@
       "withdrawn": false
     },
     "jared-cannonier": {
-      "_updated": "2026-07-15T23:01:32+00:00",
+      "_updated": "2026-07-19T03:01:03+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -1627,7 +1692,7 @@
       "height_in": 70.0,
       "home_country": "USA",
       "injury_note": "",
-      "last_fight_date": "2025-06-01",
+      "last_fight_date": "2026-07-18",
       "missed_weight": false,
       "name": "Jared Cannonier",
       "needs_stats": false,
@@ -1793,7 +1858,7 @@
       "withdrawn": false
     },
     "mitch-ramirez": {
-      "_updated": "2026-07-16T01:01:37+00:00",
+      "_updated": "2026-07-19T03:01:03+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -1807,7 +1872,7 @@
       "height_in": 70.0,
       "home_country": "USA",
       "injury_note": "",
-      "last_fight_date": "2025-06-01",
+      "last_fight_date": "2026-07-18",
       "missed_weight": false,
       "name": "Mitch Ramirez",
       "needs_stats": false,
@@ -1973,7 +2038,7 @@
       "withdrawn": false
     },
     "tabatha-ricci": {
-      "_updated": "2026-07-16T03:01:40+00:00",
+      "_updated": "2026-07-19T03:01:03+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -1987,7 +2052,7 @@
       "height_in": 70.0,
       "home_country": "USA",
       "injury_note": "",
-      "last_fight_date": "2025-06-01",
+      "last_fight_date": "2026-07-18",
       "missed_weight": false,
       "name": "Tabatha Ricci",
       "needs_stats": false,
@@ -2223,9 +2288,9 @@
   ],
   "meta": {
     "calibration": {
-      "shrink": 0.55
+      "shrink": 0.1
     },
-    "last_sync": "2026-07-19T01:02:42+00:00",
+    "last_sync": "2026-07-19T03:07:37+00:00",
     "news_last": {
       "alberto-montes": "2026-07-19T01:02:30.831517+00:00",
       "alden-coria": "2026-07-19T01:02:30.831517+00:00",
@@ -2236,15 +2301,15 @@
       "christian-leroy-duncan": "2026-07-19T01:02:30.831517+00:00",
       "damien-anderson": "2026-07-18T21:00:49.708843+00:00",
       "dione-barbosa": "2026-07-19T01:02:30.831517+00:00",
-      "duplessis": "2026-07-18T13:00:53.742459+00:00",
+      "duplessis": "2026-07-19T03:01:03.952200+00:00",
       "ezra-elliott": "2026-07-18T21:00:49.708843+00:00",
-      "fatima-kline": "2026-07-18T13:00:53.742459+00:00",
-      "felipe-franco": "2026-07-18T13:00:53.742459+00:00",
-      "jared-cannonier": "2026-07-18T13:00:53.742459+00:00",
-      "jean-paul-lebosnoyani": "2026-07-18T13:00:53.742459+00:00",
-      "jose-miguel-delgado": "2026-07-18T13:00:53.742459+00:00",
-      "levi-rodrigues-jr": "2026-07-18T13:00:53.742459+00:00",
-      "mitch-ramirez": "2026-07-18T13:00:53.742459+00:00",
+      "fatima-kline": "2026-07-19T03:01:03.952200+00:00",
+      "felipe-franco": "2026-07-19T03:01:03.952200+00:00",
+      "jared-cannonier": "2026-07-19T03:01:03.952200+00:00",
+      "jean-paul-lebosnoyani": "2026-07-19T03:01:03.952200+00:00",
+      "jose-miguel-delgado": "2026-07-19T03:01:03.952200+00:00",
+      "levi-rodrigues-jr": "2026-07-19T03:01:03.952200+00:00",
+      "mitch-ramirez": "2026-07-19T03:01:03.952200+00:00",
       "rj-harris": "2026-07-18T15:00:53.585746+00:00",
       "seokhyeon-ko": "2026-07-18T15:00:53.585746+00:00",
       "stewart-nicoll": "2026-07-18T15:00:53.585746+00:00",
@@ -2272,11 +2337,11 @@
       "felipe-franco": "2026-07-15T23:01:08.574882+00:00",
       "jared-cannonier": "2026-07-15T23:01:08.574882+00:00",
       "jean-paul-lebosnoyani": "2026-07-15T23:01:08.574882+00:00",
-      "jose-miguel-delgado": "2026-07-18T03:00:52.118960+00:00",
+      "jose-miguel-delgado": "2026-07-19T03:07:24.317548+00:00",
       "levi-rodrigues-jr": "2026-07-16T01:01:10.349922+00:00",
       "mitch-ramirez": "2026-07-16T01:01:10.349922+00:00",
-      "rj-harris": "2026-07-18T03:00:52.118960+00:00",
-      "seokhyeon-ko": "2026-07-18T03:00:52.118960+00:00",
+      "rj-harris": "2026-07-19T03:07:24.317548+00:00",
+      "seokhyeon-ko": "2026-07-19T03:07:24.317548+00:00",
       "stewart-nicoll": "2026-07-16T01:01:10.349922+00:00",
       "tabatha-ricci": "2026-07-16T03:01:20.534247+00:00",
       "tommy-mcmillen": "2026-07-16T03:01:20.534247+00:00"

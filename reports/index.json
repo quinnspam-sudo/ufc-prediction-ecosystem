@@ -102,10 +102,10 @@
     },
     "Tabatha Ricci vs Fatima Kline": {
       "win_probability": {
-        "fighter_a_pct": 42.63,
-        "fighter_b_pct": 57.37,
-        "draw_pct": 7.34,
-        "calibration_shrink_applied": 0.55
+        "fighter_a_pct": 48.61,
+        "fighter_b_pct": 51.39,
+        "draw_pct": 7.12,
+        "calibration_shrink_applied": 0.1
       },
       "value_flags": {
         "fighter_a": true,
@@ -115,10 +115,10 @@
     },
     "Chase Hooper vs Mitch Ramirez": {
       "win_probability": {
-        "fighter_a_pct": 72.39,
-        "fighter_b_pct": 27.61,
+        "fighter_a_pct": 54.07,
+        "fighter_b_pct": 45.93,
         "draw_pct": 0.0,
-        "calibration_shrink_applied": 0.55
+        "calibration_shrink_applied": 0.1
       },
       "value_flags": {
         "fighter_a": false,
@@ -128,10 +128,10 @@
     },
     "Jared Cannonier vs Christian Leroy Duncan": {
       "win_probability": {
-        "fighter_a_pct": 49.76,
-        "fighter_b_pct": 50.24,
-        "draw_pct": 7.77,
-        "calibration_shrink_applied": 0.55
+        "fighter_a_pct": 49.96,
+        "fighter_b_pct": 50.04,
+        "draw_pct": 7.31,
+        "calibration_shrink_applied": 0.1
       },
       "value_flags": {
         "fighter_a": true,
