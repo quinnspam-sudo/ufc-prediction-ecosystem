@@ -1124,6 +1124,11 @@
       "detail": "Dricus Du Plessis beat Kamaru Usman (Brier 0.4136)",
       "ts": "2026-07-19T07:00:47+00:00",
       "type": "calibration_resolved"
+    },
+    {
+      "detail": "Chase Hooper: Chase Hooper misses weight for first time at UFC Oklahoma City - Yardbarker",
+      "ts": "2026-07-19T15:00:56+00:00",
+      "type": "health_missed_weight"
     }
   ],
   "fighters": {
@@ -1354,7 +1359,7 @@
     },
     "chase-hooper": {
       "_injury_from_news": true,
-      "_updated": "2026-07-19T03:01:03+00:00",
+      "_updated": "2026-07-19T15:00:56+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -2325,17 +2330,17 @@
     "calibration": {
       "shrink": 0.1
     },
-    "last_sync": "2026-07-19T11:00:47+00:00",
+    "last_sync": "2026-07-19T15:00:56+00:00",
     "news_last": {
-      "alberto-montes": "2026-07-19T01:02:30.831517+00:00",
-      "alden-coria": "2026-07-19T01:02:30.831517+00:00",
-      "alvin-hines": "2026-07-19T01:02:30.831517+00:00",
-      "anna-melisano": "2026-07-19T01:02:30.831517+00:00",
-      "austin-bashi": "2026-07-19T01:02:30.831517+00:00",
-      "chase-hooper": "2026-07-19T01:02:30.831517+00:00",
-      "christian-leroy-duncan": "2026-07-19T01:02:30.831517+00:00",
+      "alberto-montes": "2026-07-19T15:00:53.944495+00:00",
+      "alden-coria": "2026-07-19T15:00:53.944495+00:00",
+      "alvin-hines": "2026-07-19T15:00:53.944495+00:00",
+      "anna-melisano": "2026-07-19T15:00:53.944495+00:00",
+      "austin-bashi": "2026-07-19T15:00:53.944495+00:00",
+      "chase-hooper": "2026-07-19T15:00:53.944495+00:00",
+      "christian-leroy-duncan": "2026-07-19T15:00:53.944495+00:00",
       "damien-anderson": "2026-07-19T09:00:52.961962+00:00",
-      "dione-barbosa": "2026-07-19T01:02:30.831517+00:00",
+      "dione-barbosa": "2026-07-19T15:00:53.944495+00:00",
       "duplessis": "2026-07-19T03:01:03.952200+00:00",
       "ezra-elliott": "2026-07-19T09:00:52.961962+00:00",
       "fatima-kline": "2026-07-19T03:01:03.952200+00:00",
@@ -2353,8 +2358,8 @@
       "usman": "2026-07-19T05:02:31.995860+00:00"
     },
     "odds": {
-      "count": 19,
-      "last_call": "2026-07-19T11:00:47.607656+00:00",
+      "count": 20,
+      "last_call": "2026-07-19T15:00:53.942976+00:00",
       "month": "2026-07"
     },
     "ufcstats_last": {
