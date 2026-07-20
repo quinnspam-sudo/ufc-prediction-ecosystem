@@ -305,6 +305,18 @@
         "fighter_b": true
       },
       "report_file": "reports/magomed-ankalaev-vs-bogdan-guskov.json"
+    },
+    "Cody Gibson vs Abdul Hussein": {
+      "win_probability": {
+        "fighter_a_pct": 60.01,
+        "fighter_b_pct": 39.99,
+        "draw_pct": 6.85
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/cody-gibson-vs-abdul-hussein.json"
     }
   }
 }

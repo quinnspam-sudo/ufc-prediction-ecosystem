@@ -1519,9 +1519,119 @@
       "detail": "Magomed Ankalaev: Rountree injured, Guskov steps in vs. Ankalaev at UFC Abu Dhabi - theScore",
       "ts": "2026-07-20T21:00:55+00:00",
       "type": "health_injury"
+    },
+    {
+      "detail": "Cody Gibson vs Abdul Hussein",
+      "ts": "2026-07-20T23:00:50+00:00",
+      "type": "matchup_discovered"
+    },
+    {
+      "detail": "Ismael Bonfim vs Axel Sola: consensus +165 / -200 (7 books)",
+      "ts": "2026-07-20T23:00:50+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Magomed Ankalaev vs Bogdan Guskov: consensus -550 / +400 (7 books)",
+      "ts": "2026-07-20T23:00:50+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Magomed Zaynukov vs Damian Rzepecki: consensus -340 / +265 (7 books)",
+      "ts": "2026-07-20T23:00:50+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Wellington Turman vs Islam Dulatov: consensus +575 / -850 (7 books)",
+      "ts": "2026-07-20T23:00:50+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Mike Davis vs Nurullo Aliev: consensus +160 / -195 (7 books)",
+      "ts": "2026-07-20T23:00:50+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Rizvan Kuniev vs Tyrell Fortune: consensus -285 / +230 (7 books)",
+      "ts": "2026-07-20T23:00:50+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Santiago Ponzinibbio vs Sam Patterson: consensus +310 / -410 (7 books)",
+      "ts": "2026-07-20T23:00:50+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Thomas Petersen vs Valter Walker: consensus +160 / -190 (7 books)",
+      "ts": "2026-07-20T23:00:50+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Cody Gibson vs Abdul Hussein: consensus +309 / -405 (6 books)",
+      "ts": "2026-07-20T23:00:50+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Brendson Ribeiro vs Magomed Tuchalov: consensus +500 / -715 (7 books)",
+      "ts": "2026-07-20T23:00:50+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Cody Gibson: real stats populated (http://ufcstats.com/fighter-details/700a674c042b7a96)",
+      "ts": "2026-07-20T23:01:01+00:00",
+      "type": "ufcstats_scraped"
     }
   ],
   "fighters": {
+    "abdul-hussein": {
+      "_updated": "2026-07-20T23:00:50+00:00",
+      "active_injury": false,
+      "age": 30,
+      "career_fights": 12,
+      "career_knockdowns_suffered": 2,
+      "career_ko_wins": 0,
+      "career_sig_strikes_absorbed": 800,
+      "career_sub_wins": 0,
+      "career_wins": 0,
+      "championship_round_fights": 0,
+      "control_time_pct": 0.3,
+      "display_name": "Abdul Hussein",
+      "division_move": 0,
+      "fight_location_country": "USA",
+      "height_in": 70.0,
+      "home_country": "USA",
+      "injury_note": "",
+      "last_fight_date": "2025-06-01",
+      "missed_weight": false,
+      "name": "Abdul Hussein",
+      "needs_stats": true,
+      "reach_in": 72.0,
+      "round_strike_output": [
+        60,
+        58,
+        56,
+        54,
+        52
+      ],
+      "sapm": 4.0,
+      "slpm": 4.0,
+      "stance": "Orthodox",
+      "stats_approx": true,
+      "strike_acc": 0.45,
+      "strike_acc_body": 0.5175,
+      "strike_acc_head": 0.45,
+      "strike_acc_leg": 0.5625,
+      "strike_def": 0.55,
+      "sub_avg": 0.6,
+      "sub_def": 0.65,
+      "sweep_rate": 0.2,
+      "td_acc": 0.4,
+      "td_avg": 1.5,
+      "td_def": 0.65,
+      "trains_at_altitude": false,
+      "venue_elevation_ft": 0.0,
+      "weight_class": "Bantamweight",
+      "withdrawn": false
+    },
     "abubakar-vagaev": {
       "_updated": "2026-07-20T05:00:51+00:00",
       "active_injury": false,
@@ -2040,6 +2150,56 @@
       "td_avg": 0.33,
       "td_def": 0.63,
       "weight_class": "Middleweight",
+      "withdrawn": false
+    },
+    "cody-gibson": {
+      "_updated": "2026-07-20T23:01:01+00:00",
+      "active_injury": false,
+      "age": 30,
+      "career_fights": 12,
+      "career_knockdowns_suffered": 2,
+      "career_ko_wins": 1,
+      "career_sig_strikes_absorbed": 800,
+      "career_sub_wins": 1,
+      "career_wins": 3,
+      "championship_round_fights": 0,
+      "control_time_pct": 0.3,
+      "display_name": "Cody Gibson",
+      "division_move": 0,
+      "fight_location_country": "USA",
+      "height_in": 70.0,
+      "home_country": "USA",
+      "injury_note": "",
+      "last_fight_date": "2025-06-01",
+      "missed_weight": false,
+      "name": "Cody Gibson",
+      "needs_stats": false,
+      "reach_in": 72.0,
+      "round_strike_output": [
+        60,
+        58,
+        56,
+        54,
+        52
+      ],
+      "sapm": 3.22,
+      "slpm": 3.63,
+      "stance": "Orthodox",
+      "stats_approx": false,
+      "strike_acc": 0.46,
+      "strike_acc_body": 0.5175,
+      "strike_acc_head": 0.45,
+      "strike_acc_leg": 0.5625,
+      "strike_def": 0.57,
+      "sub_avg": 0.6,
+      "sub_def": 0.65,
+      "sweep_rate": 0.2,
+      "td_acc": 0.37,
+      "td_avg": 2.12,
+      "td_def": 0.69,
+      "trains_at_altitude": false,
+      "venue_elevation_ft": 0.0,
+      "weight_class": "Bantamweight",
       "withdrawn": false
     },
     "damian-rzepecki": {
@@ -3932,9 +4092,9 @@
     },
     {
       "a": "mike-davis",
-      "a_ml": 155,
+      "a_ml": 160,
       "b": "nurullo-aliev",
-      "b_ml": -190,
+      "b_ml": -195,
       "event": "UFC Fight Night: Ankalaev vs. Guskov",
       "label": "Mike Davis vs Nurullo Aliev",
       "rounds": 3,
@@ -3952,9 +4112,9 @@
     },
     {
       "a": "ismael-bonfim",
-      "a_ml": 162,
+      "a_ml": 165,
       "b": "axel-sola",
-      "b_ml": -190,
+      "b_ml": -200,
       "event": "UFC Fight Night: Ankalaev vs. Guskov",
       "label": "Ismael Bonfim vs Axel Sola",
       "rounds": 3,
@@ -3980,7 +4140,7 @@
     },
     {
       "a": "thomas-petersen",
-      "a_ml": 158,
+      "a_ml": 160,
       "b": "valter-walker",
       "b_ml": -190,
       "event": "UFC Fight Night: Ankalaev vs. Guskov",
@@ -3998,9 +4158,9 @@
     },
     {
       "a": "rizvan-kuniev",
-      "a_ml": -270,
+      "a_ml": -285,
       "b": "tyrell-fortune",
-      "b_ml": 220,
+      "b_ml": 230,
       "event": "UFC Fight Night: Ankalaev vs. Guskov",
       "label": "Rizvan Kuniev vs Tyrell Fortune",
       "rounds": 3,
@@ -4008,9 +4168,9 @@
     },
     {
       "a": "magomed-zaynukov",
-      "a_ml": -355,
+      "a_ml": -340,
       "b": "damian-rzepecki",
-      "b_ml": 279,
+      "b_ml": 265,
       "event": "UFC Fight Night: Ankalaev vs. Guskov",
       "label": "Magomed Zaynukov vs Damian Rzepecki",
       "rounds": 3,
@@ -4018,7 +4178,7 @@
     },
     {
       "a": "wellington-turman",
-      "a_ml": 555,
+      "a_ml": 575,
       "b": "islam-dulatov",
       "b_ml": -850,
       "event": "UFC Fight Night: Ankalaev vs. Guskov",
@@ -4043,14 +4203,25 @@
       "label": "Magomed Ankalaev vs Bogdan Guskov",
       "rounds": 5,
       "weight_class": "Light Heavyweight"
+    },
+    {
+      "a": "cody-gibson",
+      "a_ml": 309,
+      "b": "abdul-hussein",
+      "b_ml": -405,
+      "event": "UFC Fight Night: Ankalaev vs. Guskov",
+      "label": "Cody Gibson vs Abdul Hussein",
+      "rounds": 3,
+      "weight_class": "Bantamweight"
     }
   ],
   "meta": {
     "calibration": {
       "shrink": 0.1
     },
-    "last_sync": "2026-07-20T21:54:04+00:00",
+    "last_sync": "2026-07-20T23:01:03+00:00",
     "news_last": {
+      "abdul-hussein": "2026-07-20T23:00:50.636910+00:00",
       "abubakar-vagaev": "2026-07-20T17:00:55.750904+00:00",
       "alberto-montes": "2026-07-20T11:00:56.161256+00:00",
       "alden-coria": "2026-07-20T11:00:56.161256+00:00",
@@ -4062,6 +4233,7 @@
       "brendson-ribeiro": "2026-07-20T17:00:55.750904+00:00",
       "chase-hooper": "2026-07-20T11:00:56.161256+00:00",
       "christian-leroy-duncan": "2026-07-20T11:00:56.161256+00:00",
+      "cody-gibson": "2026-07-20T23:00:50.636910+00:00",
       "damian-rzepecki": "2026-07-20T17:00:55.750904+00:00",
       "damien-anderson": "2026-07-20T13:00:49.316282+00:00",
       "dione-barbosa": "2026-07-20T11:00:56.161256+00:00",
@@ -4101,11 +4273,12 @@
       "wellington-turman": "2026-07-20T21:54:02.326938+00:00"
     },
     "odds": {
-      "count": 26,
-      "last_call": "2026-07-20T19:00:45.493330+00:00",
+      "count": 27,
+      "last_call": "2026-07-20T23:00:50.635318+00:00",
       "month": "2026-07"
     },
     "ufcstats_last": {
+      "abdul-hussein": "2026-07-20T23:00:51.192247+00:00",
       "abubakar-vagaev": "2026-07-20T07:00:58.503645+00:00",
       "alberto-montes": "2026-07-15T21:38:27.127905+00:00",
       "alden-coria": "2026-07-15T21:38:27.127905+00:00",
@@ -4117,6 +4290,7 @@
       "brendson-ribeiro": "2026-07-20T05:00:53.211847+00:00",
       "chase-hooper": "2026-07-15T21:38:27.127905+00:00",
       "christian-leroy-duncan": "2026-07-15T23:01:08.574882+00:00",
+      "cody-gibson": "2026-07-20T23:00:51.192247+00:00",
       "damian-rzepecki": "2026-07-20T07:00:58.503645+00:00",
       "damien-anderson": "2026-07-20T11:24:36.395771+00:00",
       "dione-barbosa": "2026-07-15T23:01:08.574882+00:00",

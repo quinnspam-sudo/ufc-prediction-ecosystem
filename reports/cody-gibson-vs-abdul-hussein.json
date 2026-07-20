@@ -1,0 +1,101 @@
+{
+  "matchup": {
+    "fighter_a": "Cody Gibson",
+    "fighter_b": "Abdul Hussein",
+    "scheduled_rounds": 3,
+    "is_title_fight": false,
+    "iterations": 2000,
+    "avg_rounds_simulated": 2.705,
+    "fighter_a_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": false,
+      "needs_real_stats": false
+    },
+    "fighter_b_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": true,
+      "needs_real_stats": true
+    }
+  },
+  "win_probability": {
+    "fighter_a_pct": 60.01,
+    "fighter_b_pct": 39.99,
+    "draw_pct": 6.85
+  },
+  "consensus_forecast": {
+    "applied": true,
+    "model_weight": 0.4,
+    "fighter_a_pct": 38.02,
+    "fighter_b_pct": 61.98,
+    "market_devig_a_pct": 23.36
+  },
+  "method_of_victory_matrix": {
+    "fighter_a": {
+      "KO/TKO": 7.15,
+      "Submission": 7.55,
+      "Unanimous Decision": 31.95,
+      "Split/Majority Decision": 9.25
+    },
+    "fighter_b": {
+      "KO/TKO": 7.15,
+      "Submission": 6.45,
+      "Unanimous Decision": 15.35,
+      "Split/Majority Decision": 8.3
+    }
+  },
+  "fight_level": {
+    "ko_tko_pct": 14.3,
+    "submission_pct": 14.0,
+    "decision_pct": 64.85,
+    "goes_the_distance_pct": 71.7,
+    "expected_fight_minutes": 12.82
+  },
+  "finish_round_distribution": {
+    "fighter_a": {
+      "round_1": 90,
+      "round_2": 114,
+      "round_3": 90
+    },
+    "fighter_b": {
+      "round_1": 109,
+      "round_2": 77,
+      "round_3": 86
+    }
+  },
+  "value_betting": {
+    "fighter_a": {
+      "market_moneyline": 309,
+      "market_decimal_odds": 4.09,
+      "market_implied_prob_pct": 24.45,
+      "model_win_prob_pct": 60.01,
+      "edge_pct": 35.56,
+      "consensus_edge_pct": 13.57,
+      "kelly_fraction_full": 0.4707,
+      "kelly_fraction_half": 0.2353,
+      "model_sees_value": true,
+      "consensus_agrees": true,
+      "value_bet": false
+    },
+    "fighter_b": {
+      "market_moneyline": -405,
+      "market_decimal_odds": 1.247,
+      "market_implied_prob_pct": 80.2,
+      "model_win_prob_pct": 39.99,
+      "edge_pct": -40.21,
+      "consensus_edge_pct": -18.22,
+      "kelly_fraction_full": -2.0305,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
+      "value_bet": false
+    },
+    "insufficient_data": true,
+    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+  }
+}
