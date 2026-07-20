@@ -1514,6 +1514,11 @@
       "detail": "Brendson Ribeiro vs Magomed Tuchalov: consensus +500 / -715 (7 books)",
       "ts": "2026-07-20T19:00:45+00:00",
       "type": "odds_update"
+    },
+    {
+      "detail": "Magomed Ankalaev: Rountree injured, Guskov steps in vs. Ankalaev at UFC Abu Dhabi - theScore",
+      "ts": "2026-07-20T21:00:55+00:00",
+      "type": "health_injury"
     }
   ],
   "fighters": {
@@ -2694,7 +2699,7 @@
     },
     "magomed-ankalaev": {
       "_injury_from_news": true,
-      "_updated": "2026-07-20T07:01:24+00:00",
+      "_updated": "2026-07-20T21:00:55+00:00",
       "active_injury": true,
       "age": 30,
       "career_fights": 12,
@@ -4044,7 +4049,7 @@
     "calibration": {
       "shrink": 0.1
     },
-    "last_sync": "2026-07-20T19:00:48+00:00",
+    "last_sync": "2026-07-20T21:00:55+00:00",
     "news_last": {
       "abubakar-vagaev": "2026-07-20T17:00:55.750904+00:00",
       "alberto-montes": "2026-07-20T11:00:56.161256+00:00",
@@ -4071,16 +4076,16 @@
       "jean-paul-lebosnoyani": "2026-07-20T11:24:33.672845+00:00",
       "jose-miguel-delgado": "2026-07-20T11:24:33.672845+00:00",
       "levi-rodrigues-jr": "2026-07-20T11:24:33.672845+00:00",
-      "magomed-ankalaev": "2026-07-20T07:00:56.264463+00:00",
-      "magomed-tuchalov": "2026-07-20T07:00:56.264463+00:00",
-      "magomed-zaynukov": "2026-07-20T07:00:56.264463+00:00",
-      "mike-davis": "2026-07-20T07:00:56.264463+00:00",
+      "magomed-ankalaev": "2026-07-20T21:00:52.847578+00:00",
+      "magomed-tuchalov": "2026-07-20T21:00:52.847578+00:00",
+      "magomed-zaynukov": "2026-07-20T21:00:52.847578+00:00",
+      "mike-davis": "2026-07-20T21:00:52.847578+00:00",
       "mitch-ramirez": "2026-07-20T11:24:33.672845+00:00",
-      "nurullo-aliev": "2026-07-20T07:00:56.264463+00:00",
-      "ramazan-temirov": "2026-07-20T07:00:56.264463+00:00",
-      "rizvan-kuniev": "2026-07-20T07:00:56.264463+00:00",
+      "nurullo-aliev": "2026-07-20T21:00:52.847578+00:00",
+      "ramazan-temirov": "2026-07-20T21:00:52.847578+00:00",
+      "rizvan-kuniev": "2026-07-20T21:00:52.847578+00:00",
       "rj-harris": "2026-07-20T13:00:49.316282+00:00",
-      "sam-patterson": "2026-07-20T07:00:56.264463+00:00",
+      "sam-patterson": "2026-07-20T21:00:52.847578+00:00",
       "santiago-ponzinibbio": "2026-07-20T09:00:51.686820+00:00",
       "saygid-izagakhmaev": "2026-07-20T09:00:51.686820+00:00",
       "seokhyeon-ko": "2026-07-20T13:00:49.316282+00:00",
