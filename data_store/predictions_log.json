@@ -559,6 +559,22 @@
       "p_sub": 0.3278,
       "p_dec": 0.5466,
       "p_distance": 0.5466
+    },
+    {
+      "label": "Du Plessis vs Usman",
+      "a": "Dricus du Plessis",
+      "b": "Kamaru Usman",
+      "p_a": 0.4763,
+      "event": "",
+      "logged": "2026-07-20T13:00:52+00:00",
+      "resolved": false,
+      "actual_a": null,
+      "brier": null,
+      "resolved_at": null,
+      "p_ko": 0.2363,
+      "p_sub": 0.1814,
+      "p_dec": 0.5616,
+      "p_distance": 0.5823
     }
   ]
 }
