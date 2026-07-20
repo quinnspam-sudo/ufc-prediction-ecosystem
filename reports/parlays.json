@@ -2,7 +2,7 @@
   "cards": {
     "UFC Fight Night: Du Plessis vs. Usman": {
       "card_type": "fight_night",
-      "eligible_legs": 5,
+      "eligible_legs": 6,
       "parlays": {
         "3_leg": {
           "legs": [
@@ -29,22 +29,22 @@
               "modal_finish_round": "round_1"
             },
             {
-              "matchup": "Alden Coria vs Stewart Nicoll",
-              "pick": "Alden Coria",
-              "moneyline": -1100,
-              "decimal_odds": 1.091,
-              "consensus_prob": 0.8935,
-              "model_prob": 0.727,
+              "matchup": "Dione Barbosa vs Anna Melisano",
+              "pick": "Dione Barbosa",
+              "moneyline": -675,
+              "decimal_odds": 1.148,
+              "consensus_prob": 0.8684,
+              "model_prob": 0.5419,
               "likely_method": "Unanimous Decision",
-              "likely_method_pct": 79.84,
-              "modal_finish_round": "round_2"
+              "likely_method_pct": 70.41,
+              "modal_finish_round": "round_1"
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 49.26,
-          "combined_decimal_odds": 2.057,
-          "combined_american": 106,
-          "ev_per_unit": 0.0133,
+          "combined_prob_pct": 47.88,
+          "combined_decimal_odds": 2.164,
+          "combined_american": 116,
+          "ev_per_unit": 0.0363,
           "positive_ev": true
         },
         "5_leg": {
@@ -72,6 +72,17 @@
               "modal_finish_round": "round_1"
             },
             {
+              "matchup": "Dione Barbosa vs Anna Melisano",
+              "pick": "Dione Barbosa",
+              "moneyline": -675,
+              "decimal_odds": 1.148,
+              "consensus_prob": 0.8684,
+              "model_prob": 0.5419,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 70.41,
+              "modal_finish_round": "round_1"
+            },
+            {
               "matchup": "Alden Coria vs Stewart Nicoll",
               "pick": "Alden Coria",
               "moneyline": -1100,
@@ -92,24 +103,13 @@
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 26.18,
               "modal_finish_round": "round_3"
-            },
-            {
-              "matchup": "Tabatha Ricci vs Fatima Kline",
-              "pick": "Fatima Kline",
-              "moneyline": -1800,
-              "decimal_odds": 1.056,
-              "consensus_prob": 0.7927,
-              "model_prob": 0.5139,
-              "likely_method": "Unanimous Decision",
-              "likely_method_pct": 39.21,
-              "modal_finish_round": "round_3"
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 25.16,
-          "combined_decimal_odds": 2.83,
-          "combined_american": 183,
-          "ev_per_unit": -0.2878,
+          "combined_prob_pct": 27.57,
+          "combined_decimal_odds": 3.077,
+          "combined_american": 208,
+          "ev_per_unit": -0.1518,
           "positive_ev": false
         }
       }

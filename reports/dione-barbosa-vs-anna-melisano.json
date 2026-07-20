@@ -4,8 +4,8 @@
     "fighter_b": "Anna Melisano",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.663,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.695,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -19,53 +19,54 @@
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 32.96,
-    "fighter_b_pct": 67.04,
-    "draw_pct": 5.2
+    "fighter_a_pct": 54.19,
+    "fighter_b_pct": 45.81,
+    "draw_pct": 0.0,
+    "calibration_shrink_applied": 0.1
   },
   "consensus_forecast": {
     "applied": true,
     "model_weight": 0.4,
-    "fighter_a_pct": 63.27,
-    "fighter_b_pct": 36.73,
+    "fighter_a_pct": 86.84,
+    "fighter_b_pct": 13.16,
     "market_devig_a_pct": 83.48
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 6.45,
-      "Submission": 11.15,
-      "Unanimous Decision": 8.2,
-      "Split/Majority Decision": 5.45
+      "KO/TKO": 7.3,
+      "Submission": 14.18,
+      "Unanimous Decision": 70.41,
+      "Split/Majority Decision": 0.0
     },
     "fighter_b": {
-      "KO/TKO": 7.85,
-      "Submission": 6.5,
-      "Unanimous Decision": 41.75,
-      "Split/Majority Decision": 7.45
+      "KO/TKO": 6.1,
+      "Submission": 2.01,
+      "Unanimous Decision": 0.0,
+      "Split/Majority Decision": 0.0
     }
   },
   "fight_level": {
-    "ko_tko_pct": 14.3,
-    "submission_pct": 17.65,
-    "decision_pct": 62.85,
-    "goes_the_distance_pct": 68.05,
-    "expected_fight_minutes": 12.51
+    "ko_tko_pct": 13.4,
+    "submission_pct": 16.19,
+    "decision_pct": 70.41,
+    "goes_the_distance_pct": 70.41,
+    "expected_fight_minutes": 12.74
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 123,
-      "round_2": 133,
-      "round_3": 96
+      "round_1": 739,
+      "round_2": 737,
+      "round_3": 672
     },
     "fighter_b": {
-      "round_1": 108,
-      "round_2": 80,
-      "round_3": 99
+      "round_1": 272,
+      "round_2": 288,
+      "round_3": 251
     }
   },
   "value_betting": {
@@ -73,10 +74,10 @@
       "market_moneyline": -675,
       "market_decimal_odds": 1.148,
       "market_implied_prob_pct": 87.1,
-      "model_win_prob_pct": 32.96,
-      "edge_pct": -54.13,
-      "consensus_edge_pct": -23.83,
-      "kelly_fraction_full": -4.1953,
+      "model_win_prob_pct": 54.19,
+      "edge_pct": -32.91,
+      "consensus_edge_pct": -0.26,
+      "kelly_fraction_full": -2.5504,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
@@ -86,16 +87,14 @@
       "market_moneyline": 480,
       "market_decimal_odds": 5.8,
       "market_implied_prob_pct": 17.24,
-      "model_win_prob_pct": 67.04,
-      "edge_pct": 49.79,
-      "consensus_edge_pct": 19.49,
-      "kelly_fraction_full": 0.6017,
-      "kelly_fraction_half": 0.3008,
+      "model_win_prob_pct": 45.81,
+      "edge_pct": 28.57,
+      "consensus_edge_pct": -4.08,
+      "kelly_fraction_full": 0.3452,
+      "kelly_fraction_half": 0.1726,
       "model_sees_value": true,
-      "consensus_agrees": true,
+      "consensus_agrees": false,
       "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+    }
   }
 }

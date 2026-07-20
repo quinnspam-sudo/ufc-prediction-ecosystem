@@ -351,6 +351,22 @@
       "p_sub": 0.1787,
       "p_dec": 0.5725,
       "p_distance": 0.5813
+    },
+    {
+      "label": "Dione Barbosa vs Anna Melisano",
+      "a": "Dione Barbosa",
+      "b": "Anna Melisano",
+      "p_a": 0.5419,
+      "event": "UFC Fight Night: Du Plessis vs. Usman",
+      "logged": "2026-07-20T03:00:59+00:00",
+      "resolved": false,
+      "actual_a": null,
+      "brier": null,
+      "resolved_at": null,
+      "p_ko": 0.134,
+      "p_sub": 0.1619,
+      "p_dec": 0.7041,
+      "p_distance": 0.7041
     }
   ]
 }

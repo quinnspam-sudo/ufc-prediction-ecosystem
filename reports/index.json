@@ -15,9 +15,10 @@
     },
     "Dione Barbosa vs Anna Melisano": {
       "win_probability": {
-        "fighter_a_pct": 32.96,
-        "fighter_b_pct": 67.04,
-        "draw_pct": 5.2
+        "fighter_a_pct": 54.19,
+        "fighter_b_pct": 45.81,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.1
       },
       "value_flags": {
         "fighter_a": false,
