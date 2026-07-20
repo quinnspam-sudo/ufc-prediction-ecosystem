@@ -4,8 +4,8 @@
     "fighter_b": "Tyrell Fortune",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.743,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.771,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -19,53 +19,54 @@
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 73.93,
-    "fighter_b_pct": 26.07,
-    "draw_pct": 4.5
+    "fighter_a_pct": 51.22,
+    "fighter_b_pct": 48.78,
+    "draw_pct": 7.19,
+    "calibration_shrink_applied": 0.1
   },
   "consensus_forecast": {
     "applied": true,
     "model_weight": 0.4,
-    "fighter_a_pct": 71.58,
-    "fighter_b_pct": 28.42,
+    "fighter_a_pct": 66.88,
+    "fighter_b_pct": 33.12,
     "market_devig_a_pct": 70.02
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 9.5,
-      "Submission": 1.95,
-      "Unanimous Decision": 50.15,
-      "Split/Majority Decision": 9.0
+      "KO/TKO": 10.93,
+      "Submission": 1.72,
+      "Unanimous Decision": 34.93,
+      "Split/Majority Decision": 10.12
     },
     "fighter_b": {
-      "KO/TKO": 8.15,
-      "Submission": 6.5,
-      "Unanimous Decision": 6.05,
-      "Split/Majority Decision": 4.2
+      "KO/TKO": 7.84,
+      "Submission": 2.16,
+      "Unanimous Decision": 17.2,
+      "Split/Majority Decision": 7.91
     }
   },
   "fight_level": {
-    "ko_tko_pct": 17.65,
-    "submission_pct": 8.45,
-    "decision_pct": 69.4,
-    "goes_the_distance_pct": 73.9,
-    "expected_fight_minutes": 13.06
+    "ko_tko_pct": 18.77,
+    "submission_pct": 3.88,
+    "decision_pct": 70.16,
+    "goes_the_distance_pct": 77.35,
+    "expected_fight_minutes": 13.29
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 71,
-      "round_2": 85,
-      "round_3": 73
+      "round_1": 418,
+      "round_2": 436,
+      "round_3": 411
     },
     "fighter_b": {
-      "round_1": 98,
-      "round_2": 91,
-      "round_3": 104
+      "round_1": 347,
+      "round_2": 324,
+      "round_3": 329
     }
   },
   "value_betting": {
@@ -73,12 +74,12 @@
       "market_moneyline": -270,
       "market_decimal_odds": 1.37,
       "market_implied_prob_pct": 72.97,
-      "model_win_prob_pct": 73.93,
-      "edge_pct": 0.95,
-      "consensus_edge_pct": -1.39,
-      "kelly_fraction_full": 0.0353,
-      "kelly_fraction_half": 0.0176,
-      "model_sees_value": true,
+      "model_win_prob_pct": 51.22,
+      "edge_pct": -21.76,
+      "consensus_edge_pct": -6.1,
+      "kelly_fraction_full": -0.805,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
       "consensus_agrees": false,
       "value_bet": false
     },
@@ -86,16 +87,14 @@
       "market_moneyline": 220,
       "market_decimal_odds": 3.2,
       "market_implied_prob_pct": 31.25,
-      "model_win_prob_pct": 26.07,
-      "edge_pct": -5.18,
-      "consensus_edge_pct": -2.83,
-      "kelly_fraction_full": -0.0753,
-      "kelly_fraction_half": 0.0,
-      "model_sees_value": false,
-      "consensus_agrees": false,
-      "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+      "model_win_prob_pct": 48.78,
+      "edge_pct": 17.53,
+      "consensus_edge_pct": 1.87,
+      "kelly_fraction_full": 0.255,
+      "kelly_fraction_half": 0.1275,
+      "model_sees_value": true,
+      "consensus_agrees": true,
+      "value_bet": true
+    }
   }
 }

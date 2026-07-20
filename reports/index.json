@@ -204,24 +204,26 @@
     },
     "Dustin Jacoby vs Uran Satybaldiev": {
       "win_probability": {
-        "fighter_a_pct": 52.69,
-        "fighter_b_pct": 47.31,
-        "draw_pct": 7.0
+        "fighter_a_pct": 53.14,
+        "fighter_b_pct": 46.86,
+        "draw_pct": 0.01,
+        "calibration_shrink_applied": 0.1
       },
       "value_flags": {
-        "fighter_a": false,
+        "fighter_a": true,
         "fighter_b": false
       },
       "report_file": "reports/dustin-jacoby-vs-uran-satybaldiev.json"
     },
     "Thomas Petersen vs Valter Walker": {
       "win_probability": {
-        "fighter_a_pct": 49.97,
-        "fighter_b_pct": 50.03,
-        "draw_pct": 6.85
+        "fighter_a_pct": 52.88,
+        "fighter_b_pct": 47.12,
+        "draw_pct": 0.01,
+        "calibration_shrink_applied": 0.1
       },
       "value_flags": {
-        "fighter_a": false,
+        "fighter_a": true,
         "fighter_b": false
       },
       "report_file": "reports/thomas-petersen-vs-valter-walker.json"
@@ -240,13 +242,14 @@
     },
     "Rizvan Kuniev vs Tyrell Fortune": {
       "win_probability": {
-        "fighter_a_pct": 73.93,
-        "fighter_b_pct": 26.07,
-        "draw_pct": 4.5
+        "fighter_a_pct": 51.22,
+        "fighter_b_pct": 48.78,
+        "draw_pct": 7.19,
+        "calibration_shrink_applied": 0.1
       },
       "value_flags": {
         "fighter_a": false,
-        "fighter_b": false
+        "fighter_b": true
       },
       "report_file": "reports/rizvan-kuniev-vs-tyrell-fortune.json"
     },
@@ -264,9 +267,10 @@
     },
     "Wellington Turman vs Islam Dulatov": {
       "win_probability": {
-        "fighter_a_pct": 13.6,
-        "fighter_b_pct": 86.4,
-        "draw_pct": 0.0
+        "fighter_a_pct": 46.38,
+        "fighter_b_pct": 53.62,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.1
       },
       "value_flags": {
         "fighter_a": false,
@@ -276,9 +280,10 @@
     },
     "Ramazan Temirov vs Steve Erceg": {
       "win_probability": {
-        "fighter_a_pct": 64.47,
-        "fighter_b_pct": 35.53,
-        "draw_pct": 6.0
+        "fighter_a_pct": 50.47,
+        "fighter_b_pct": 49.53,
+        "draw_pct": 7.43,
+        "calibration_shrink_applied": 0.1
       },
       "value_flags": {
         "fighter_a": false,

@@ -4,8 +4,8 @@
     "fighter_b": "Steve Erceg",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.768,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.79,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -19,53 +19,54 @@
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 64.47,
-    "fighter_b_pct": 35.53,
-    "draw_pct": 6.0
+    "fighter_a_pct": 50.47,
+    "fighter_b_pct": 49.53,
+    "draw_pct": 7.43,
+    "calibration_shrink_applied": 0.1
   },
   "consensus_forecast": {
     "applied": false,
     "model_weight": 1.0,
-    "fighter_a_pct": 64.47,
-    "fighter_b_pct": 35.53,
+    "fighter_a_pct": 54.67,
+    "fighter_b_pct": 45.33,
     "market_devig_a_pct": null
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 8.65,
-      "Submission": 1.85,
-      "Unanimous Decision": 40.3,
-      "Split/Majority Decision": 9.8
+      "KO/TKO": 7.87,
+      "Submission": 2.1,
+      "Unanimous Decision": 30.22,
+      "Split/Majority Decision": 10.42
     },
     "fighter_b": {
-      "KO/TKO": 6.8,
-      "Submission": 6.1,
-      "Unanimous Decision": 12.85,
-      "Split/Majority Decision": 7.65
+      "KO/TKO": 7.37,
+      "Submission": 3.86,
+      "Unanimous Decision": 21.83,
+      "Split/Majority Decision": 8.9
     }
   },
   "fight_level": {
-    "ko_tko_pct": 15.45,
-    "submission_pct": 7.95,
-    "decision_pct": 70.6,
-    "goes_the_distance_pct": 76.6,
-    "expected_fight_minutes": 13.26
+    "ko_tko_pct": 15.24,
+    "submission_pct": 5.96,
+    "decision_pct": 71.37,
+    "goes_the_distance_pct": 78.8,
+    "expected_fight_minutes": 13.42
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 70,
-      "round_2": 74,
-      "round_3": 66
+      "round_1": 326,
+      "round_2": 326,
+      "round_3": 345
     },
     "fighter_b": {
-      "round_1": 85,
-      "round_2": 80,
-      "round_3": 93
+      "round_1": 388,
+      "round_2": 346,
+      "round_3": 389
     }
   },
   "value_betting": {
@@ -73,12 +74,12 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 64.47,
-      "edge_pct": 12.09,
-      "consensus_edge_pct": 12.09,
-      "kelly_fraction_full": 0.2538,
-      "kelly_fraction_half": 0.1269,
-      "model_sees_value": true,
+      "model_win_prob_pct": 50.47,
+      "edge_pct": -1.91,
+      "consensus_edge_pct": 2.29,
+      "kelly_fraction_full": -0.0402,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
       "consensus_agrees": true,
       "value_bet": false
     },
@@ -86,16 +87,14 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 35.53,
-      "edge_pct": -16.85,
-      "consensus_edge_pct": -16.85,
-      "kelly_fraction_full": -0.3538,
+      "model_win_prob_pct": 49.53,
+      "edge_pct": -2.85,
+      "consensus_edge_pct": -7.05,
+      "kelly_fraction_full": -0.0598,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
       "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+    }
   }
 }
