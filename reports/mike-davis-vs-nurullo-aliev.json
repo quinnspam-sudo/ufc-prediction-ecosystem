@@ -1,0 +1,101 @@
+{
+  "matchup": {
+    "fighter_a": "Mike Davis",
+    "fighter_b": "Nurullo Aliev",
+    "scheduled_rounds": 3,
+    "is_title_fight": false,
+    "iterations": 2000,
+    "avg_rounds_simulated": 2.745,
+    "fighter_a_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": true,
+      "needs_real_stats": true
+    },
+    "fighter_b_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": false,
+      "needs_real_stats": false
+    }
+  },
+  "win_probability": {
+    "fighter_a_pct": 53.29,
+    "fighter_b_pct": 46.71,
+    "draw_pct": 6.65
+  },
+  "consensus_forecast": {
+    "applied": true,
+    "model_weight": 0.4,
+    "fighter_a_pct": 45.09,
+    "fighter_b_pct": 54.91,
+    "market_devig_a_pct": 39.62
+  },
+  "method_of_victory_matrix": {
+    "fighter_a": {
+      "KO/TKO": 8.55,
+      "Submission": 6.25,
+      "Unanimous Decision": 26.0,
+      "Split/Majority Decision": 8.95
+    },
+    "fighter_b": {
+      "KO/TKO": 7.05,
+      "Submission": 3.4,
+      "Unanimous Decision": 23.1,
+      "Split/Majority Decision": 10.05
+    }
+  },
+  "fight_level": {
+    "ko_tko_pct": 15.6,
+    "submission_pct": 9.65,
+    "decision_pct": 68.1,
+    "goes_the_distance_pct": 74.75,
+    "expected_fight_minutes": 13.1
+  },
+  "finish_round_distribution": {
+    "fighter_a": {
+      "round_1": 91,
+      "round_2": 108,
+      "round_3": 97
+    },
+    "fighter_b": {
+      "round_1": 82,
+      "round_2": 55,
+      "round_3": 72
+    }
+  },
+  "value_betting": {
+    "fighter_a": {
+      "market_moneyline": 142,
+      "market_decimal_odds": 2.42,
+      "market_implied_prob_pct": 41.32,
+      "model_win_prob_pct": 53.29,
+      "edge_pct": 11.97,
+      "consensus_edge_pct": 3.77,
+      "kelly_fraction_full": 0.204,
+      "kelly_fraction_half": 0.102,
+      "model_sees_value": true,
+      "consensus_agrees": true,
+      "value_bet": false
+    },
+    "fighter_b": {
+      "market_moneyline": -170,
+      "market_decimal_odds": 1.588,
+      "market_implied_prob_pct": 62.96,
+      "model_win_prob_pct": 46.71,
+      "edge_pct": -16.26,
+      "consensus_edge_pct": -8.06,
+      "kelly_fraction_full": -0.4389,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
+      "value_bet": false
+    },
+    "insufficient_data": true,
+    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+  }
+}

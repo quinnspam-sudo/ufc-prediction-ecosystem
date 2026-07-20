@@ -1,0 +1,100 @@
+{
+  "matchup": {
+    "fighter_a": "Ismael Bonfim",
+    "fighter_b": "Axel Sola",
+    "scheduled_rounds": 3,
+    "is_title_fight": false,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.786,
+    "fighter_a_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": false,
+      "needs_real_stats": false
+    },
+    "fighter_b_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": false,
+      "needs_real_stats": false
+    }
+  },
+  "win_probability": {
+    "fighter_a_pct": 53.96,
+    "fighter_b_pct": 46.04,
+    "draw_pct": 0.0,
+    "calibration_shrink_applied": 0.1
+  },
+  "consensus_forecast": {
+    "applied": true,
+    "model_weight": 0.4,
+    "fighter_a_pct": 58.5,
+    "fighter_b_pct": 41.5,
+    "market_devig_a_pct": 37.8
+  },
+  "method_of_victory_matrix": {
+    "fighter_a": {
+      "KO/TKO": 9.1,
+      "Submission": 2.4,
+      "Unanimous Decision": 78.06,
+      "Split/Majority Decision": 0.0
+    },
+    "fighter_b": {
+      "KO/TKO": 8.49,
+      "Submission": 1.95,
+      "Unanimous Decision": 0.0,
+      "Split/Majority Decision": 0.0
+    }
+  },
+  "fight_level": {
+    "ko_tko_pct": 17.59,
+    "submission_pct": 4.35,
+    "decision_pct": 78.06,
+    "goes_the_distance_pct": 78.06,
+    "expected_fight_minutes": 13.38
+  },
+  "finish_round_distribution": {
+    "fighter_a": {
+      "round_1": 367,
+      "round_2": 391,
+      "round_3": 392
+    },
+    "fighter_b": {
+      "round_1": 347,
+      "round_2": 317,
+      "round_3": 380
+    }
+  },
+  "value_betting": {
+    "fighter_a": {
+      "market_moneyline": 155,
+      "market_decimal_odds": 2.55,
+      "market_implied_prob_pct": 39.22,
+      "model_win_prob_pct": 53.96,
+      "edge_pct": 14.74,
+      "consensus_edge_pct": 19.29,
+      "kelly_fraction_full": 0.2425,
+      "kelly_fraction_half": 0.1213,
+      "model_sees_value": true,
+      "consensus_agrees": true,
+      "value_bet": true
+    },
+    "fighter_b": {
+      "market_moneyline": -182,
+      "market_decimal_odds": 1.549,
+      "market_implied_prob_pct": 64.54,
+      "model_win_prob_pct": 46.04,
+      "edge_pct": -18.5,
+      "consensus_edge_pct": -23.04,
+      "kelly_fraction_full": -0.5216,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
+      "value_bet": false
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "matchup": {
+    "fighter_a": "Santiago Ponzinibbio",
+    "fighter_b": "Sam Patterson",
+    "scheduled_rounds": 3,
+    "is_title_fight": false,
+    "iterations": 2000,
+    "avg_rounds_simulated": 2.704,
+    "fighter_a_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": true,
+      "needs_real_stats": true
+    },
+    "fighter_b_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": true,
+      "needs_real_stats": true
+    }
+  },
+  "win_probability": {
+    "fighter_a_pct": 49.52,
+    "fighter_b_pct": 50.48,
+    "draw_pct": 6.3
+  },
+  "consensus_forecast": {
+    "applied": true,
+    "model_weight": 0.4,
+    "fighter_a_pct": 33.64,
+    "fighter_b_pct": 66.36,
+    "market_devig_a_pct": 23.06
+  },
+  "method_of_victory_matrix": {
+    "fighter_a": {
+      "KO/TKO": 7.9,
+      "Submission": 6.4,
+      "Unanimous Decision": 23.75,
+      "Split/Majority Decision": 8.35
+    },
+    "fighter_b": {
+      "KO/TKO": 8.2,
+      "Submission": 6.1,
+      "Unanimous Decision": 23.35,
+      "Split/Majority Decision": 9.65
+    }
+  },
+  "fight_level": {
+    "ko_tko_pct": 16.1,
+    "submission_pct": 12.5,
+    "decision_pct": 65.1,
+    "goes_the_distance_pct": 71.4,
+    "expected_fight_minutes": 12.81
+  },
+  "finish_round_distribution": {
+    "fighter_a": {
+      "round_1": 93,
+      "round_2": 110,
+      "round_3": 83
+    },
+    "fighter_b": {
+      "round_1": 107,
+      "round_2": 81,
+      "round_3": 98
+    }
+  },
+  "value_betting": {
+    "fighter_a": {
+      "market_moneyline": 315,
+      "market_decimal_odds": 4.15,
+      "market_implied_prob_pct": 24.1,
+      "model_win_prob_pct": 49.52,
+      "edge_pct": 25.42,
+      "consensus_edge_pct": 9.55,
+      "kelly_fraction_full": 0.3349,
+      "kelly_fraction_half": 0.1675,
+      "model_sees_value": true,
+      "consensus_agrees": true,
+      "value_bet": false
+    },
+    "fighter_b": {
+      "market_moneyline": -410,
+      "market_decimal_odds": 1.244,
+      "market_implied_prob_pct": 80.39,
+      "model_win_prob_pct": 50.48,
+      "edge_pct": -29.91,
+      "consensus_edge_pct": -14.04,
+      "kelly_fraction_full": -1.5255,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
+      "value_bet": false
+    },
+    "insufficient_data": true,
+    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+  }
+}

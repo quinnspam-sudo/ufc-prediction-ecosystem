@@ -1,0 +1,101 @@
+{
+  "matchup": {
+    "fighter_a": "Rizvan Kuniev",
+    "fighter_b": "Tyrell Fortune",
+    "scheduled_rounds": 3,
+    "is_title_fight": false,
+    "iterations": 2000,
+    "avg_rounds_simulated": 2.695,
+    "fighter_a_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": true,
+      "needs_real_stats": true
+    },
+    "fighter_b_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": true,
+      "needs_real_stats": true
+    }
+  },
+  "win_probability": {
+    "fighter_a_pct": 49.97,
+    "fighter_b_pct": 50.03,
+    "draw_pct": 6.85
+  },
+  "consensus_forecast": {
+    "applied": true,
+    "model_weight": 0.4,
+    "fighter_a_pct": 61.67,
+    "fighter_b_pct": 38.33,
+    "market_devig_a_pct": 69.47
+  },
+  "method_of_victory_matrix": {
+    "fighter_a": {
+      "KO/TKO": 8.25,
+      "Submission": 6.5,
+      "Unanimous Decision": 23.7,
+      "Split/Majority Decision": 8.1
+    },
+    "fighter_b": {
+      "KO/TKO": 8.45,
+      "Submission": 6.3,
+      "Unanimous Decision": 22.75,
+      "Split/Majority Decision": 9.1
+    }
+  },
+  "fight_level": {
+    "ko_tko_pct": 16.7,
+    "submission_pct": 12.8,
+    "decision_pct": 63.65,
+    "goes_the_distance_pct": 70.5,
+    "expected_fight_minutes": 12.74
+  },
+  "finish_round_distribution": {
+    "fighter_a": {
+      "round_1": 94,
+      "round_2": 113,
+      "round_3": 88
+    },
+    "fighter_b": {
+      "round_1": 111,
+      "round_2": 87,
+      "round_3": 97
+    }
+  },
+  "value_betting": {
+    "fighter_a": {
+      "market_moneyline": -260,
+      "market_decimal_odds": 1.385,
+      "market_implied_prob_pct": 72.22,
+      "model_win_prob_pct": 49.97,
+      "edge_pct": -22.25,
+      "consensus_edge_pct": -10.55,
+      "kelly_fraction_full": -0.801,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
+      "value_bet": false
+    },
+    "fighter_b": {
+      "market_moneyline": 215,
+      "market_decimal_odds": 3.15,
+      "market_implied_prob_pct": 31.75,
+      "model_win_prob_pct": 50.03,
+      "edge_pct": 18.28,
+      "consensus_edge_pct": 6.59,
+      "kelly_fraction_full": 0.2678,
+      "kelly_fraction_half": 0.1339,
+      "model_sees_value": true,
+      "consensus_agrees": true,
+      "value_bet": false
+    },
+    "insufficient_data": true,
+    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+  }
+}

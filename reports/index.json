@@ -151,6 +151,151 @@
         "fighter_b": false
       },
       "report_file": "reports/damien-anderson-vs-ezra-elliott.json"
+    },
+    "Mike Davis vs Nurullo Aliev": {
+      "win_probability": {
+        "fighter_a_pct": 53.29,
+        "fighter_b_pct": 46.71,
+        "draw_pct": 6.65
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/mike-davis-vs-nurullo-aliev.json"
+    },
+    "Brendson Ribeiro vs Magomed Tuchalov": {
+      "win_probability": {
+        "fighter_a_pct": 15.6,
+        "fighter_b_pct": 84.4,
+        "draw_pct": 0.0
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/brendson-ribeiro-vs-magomed-tuchalov.json"
+    },
+    "Ismael Bonfim vs Axel Sola": {
+      "win_probability": {
+        "fighter_a_pct": 53.96,
+        "fighter_b_pct": 46.04,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.1
+      },
+      "value_flags": {
+        "fighter_a": true,
+        "fighter_b": false
+      },
+      "report_file": "reports/ismael-bonfim-vs-axel-sola.json"
+    },
+    "Santiago Ponzinibbio vs Sam Patterson": {
+      "win_probability": {
+        "fighter_a_pct": 49.52,
+        "fighter_b_pct": 50.48,
+        "draw_pct": 6.3
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/santiago-ponzinibbio-vs-sam-patterson.json"
+    },
+    "Dustin Jacoby vs Uran Satybaldiev": {
+      "win_probability": {
+        "fighter_a_pct": 50.0,
+        "fighter_b_pct": 50.0,
+        "draw_pct": 6.6
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/dustin-jacoby-vs-uran-satybaldiev.json"
+    },
+    "Thomas Petersen vs Valter Walker": {
+      "win_probability": {
+        "fighter_a_pct": 49.97,
+        "fighter_b_pct": 50.03,
+        "draw_pct": 6.85
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/thomas-petersen-vs-valter-walker.json"
+    },
+    "Abubakar Vagaev vs Saygid Izagakhmaev": {
+      "win_probability": {
+        "fighter_a_pct": 49.52,
+        "fighter_b_pct": 50.48,
+        "draw_pct": 6.3
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/abubakar-vagaev-vs-saygid-izagakhmaev.json"
+    },
+    "Rizvan Kuniev vs Tyrell Fortune": {
+      "win_probability": {
+        "fighter_a_pct": 49.97,
+        "fighter_b_pct": 50.03,
+        "draw_pct": 6.85
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/rizvan-kuniev-vs-tyrell-fortune.json"
+    },
+    "Magomed Zaynukov vs Damian Rzepecki": {
+      "win_probability": {
+        "fighter_a_pct": 49.25,
+        "fighter_b_pct": 50.75,
+        "draw_pct": 6.4
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/magomed-zaynukov-vs-damian-rzepecki.json"
+    },
+    "Wellington Turman vs Islam Dulatov": {
+      "win_probability": {
+        "fighter_a_pct": 49.52,
+        "fighter_b_pct": 50.48,
+        "draw_pct": 6.3
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/wellington-turman-vs-islam-dulatov.json"
+    },
+    "Ramazan Temirov vs Steve Erceg": {
+      "win_probability": {
+        "fighter_a_pct": 50.43,
+        "fighter_b_pct": 49.57,
+        "draw_pct": 6.9
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/ramazan-temirov-vs-steve-erceg.json"
+    },
+    "Magomed Ankalaev vs Bogdan Guskov": {
+      "win_probability": {
+        "fighter_a_pct": 53.52,
+        "fighter_b_pct": 46.48,
+        "draw_pct": 5.65
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/magomed-ankalaev-vs-bogdan-guskov.json"
     }
   }
 }
