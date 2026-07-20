@@ -203,9 +203,9 @@
     },
     "Dustin Jacoby vs Uran Satybaldiev": {
       "win_probability": {
-        "fighter_a_pct": 50.0,
-        "fighter_b_pct": 50.0,
-        "draw_pct": 6.6
+        "fighter_a_pct": 52.69,
+        "fighter_b_pct": 47.31,
+        "draw_pct": 7.0
       },
       "value_flags": {
         "fighter_a": false,
@@ -263,9 +263,9 @@
     },
     "Wellington Turman vs Islam Dulatov": {
       "win_probability": {
-        "fighter_a_pct": 49.52,
-        "fighter_b_pct": 50.48,
-        "draw_pct": 6.3
+        "fighter_a_pct": 13.6,
+        "fighter_b_pct": 86.4,
+        "draw_pct": 0.0
       },
       "value_flags": {
         "fighter_a": false,
@@ -287,13 +287,14 @@
     },
     "Magomed Ankalaev vs Bogdan Guskov": {
       "win_probability": {
-        "fighter_a_pct": 53.52,
-        "fighter_b_pct": 46.48,
-        "draw_pct": 5.65
+        "fighter_a_pct": 49.63,
+        "fighter_b_pct": 50.37,
+        "draw_pct": 6.68,
+        "calibration_shrink_applied": 0.1
       },
       "value_flags": {
         "fighter_a": false,
-        "fighter_b": false
+        "fighter_b": true
       },
       "report_file": "reports/magomed-ankalaev-vs-bogdan-guskov.json"
     }
