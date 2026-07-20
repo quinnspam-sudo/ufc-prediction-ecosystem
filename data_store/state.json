@@ -1469,6 +1469,51 @@
       "detail": "Bogdan Guskov: Rountree injured, Guskov steps in vs. Ankalaev at UFC Abu Dhabi - theScore",
       "ts": "2026-07-20T17:00:58+00:00",
       "type": "health_injury"
+    },
+    {
+      "detail": "Ismael Bonfim vs Axel Sola: consensus +162 / -190 (7 books)",
+      "ts": "2026-07-20T19:00:45+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Magomed Ankalaev vs Bogdan Guskov: consensus -550 / +400 (7 books)",
+      "ts": "2026-07-20T19:00:45+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Magomed Zaynukov vs Damian Rzepecki: consensus -355 / +279 (6 books)",
+      "ts": "2026-07-20T19:00:45+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Wellington Turman vs Islam Dulatov: consensus +555 / -850 (7 books)",
+      "ts": "2026-07-20T19:00:45+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Mike Davis vs Nurullo Aliev: consensus +155 / -190 (7 books)",
+      "ts": "2026-07-20T19:00:45+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Rizvan Kuniev vs Tyrell Fortune: consensus -270 / +220 (7 books)",
+      "ts": "2026-07-20T19:00:45+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Santiago Ponzinibbio vs Sam Patterson: consensus +310 / -410 (7 books)",
+      "ts": "2026-07-20T19:00:45+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Thomas Petersen vs Valter Walker: consensus +158 / -190 (7 books)",
+      "ts": "2026-07-20T19:00:45+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Brendson Ribeiro vs Magomed Tuchalov: consensus +500 / -715 (7 books)",
+      "ts": "2026-07-20T19:00:45+00:00",
+      "type": "odds_update"
     }
   ],
   "fighters": {
@@ -3882,9 +3927,9 @@
     },
     {
       "a": "mike-davis",
-      "a_ml": 154,
+      "a_ml": 155,
       "b": "nurullo-aliev",
-      "b_ml": -183,
+      "b_ml": -190,
       "event": "UFC Fight Night: Ankalaev vs. Guskov",
       "label": "Mike Davis vs Nurullo Aliev",
       "rounds": 3,
@@ -3894,7 +3939,7 @@
       "a": "brendson-ribeiro",
       "a_ml": 500,
       "b": "magomed-tuchalov",
-      "b_ml": -700,
+      "b_ml": -715,
       "event": "UFC Fight Night: Ankalaev vs. Guskov",
       "label": "Brendson Ribeiro vs Magomed Tuchalov",
       "rounds": 3,
@@ -3902,9 +3947,9 @@
     },
     {
       "a": "ismael-bonfim",
-      "a_ml": 160,
+      "a_ml": 162,
       "b": "axel-sola",
-      "b_ml": -185,
+      "b_ml": -190,
       "event": "UFC Fight Night: Ankalaev vs. Guskov",
       "label": "Ismael Bonfim vs Axel Sola",
       "rounds": 3,
@@ -3914,7 +3959,7 @@
       "a": "santiago-ponzinibbio",
       "a_ml": 310,
       "b": "sam-patterson",
-      "b_ml": -400,
+      "b_ml": -410,
       "event": "UFC Fight Night: Ankalaev vs. Guskov",
       "label": "Santiago Ponzinibbio vs Sam Patterson",
       "rounds": 3,
@@ -3930,9 +3975,9 @@
     },
     {
       "a": "thomas-petersen",
-      "a_ml": 163,
+      "a_ml": 158,
       "b": "valter-walker",
-      "b_ml": -192,
+      "b_ml": -190,
       "event": "UFC Fight Night: Ankalaev vs. Guskov",
       "label": "Thomas Petersen vs Valter Walker",
       "rounds": 3,
@@ -3958,9 +4003,9 @@
     },
     {
       "a": "magomed-zaynukov",
-      "a_ml": -370,
+      "a_ml": -355,
       "b": "damian-rzepecki",
-      "b_ml": 292,
+      "b_ml": 279,
       "event": "UFC Fight Night: Ankalaev vs. Guskov",
       "label": "Magomed Zaynukov vs Damian Rzepecki",
       "rounds": 3,
@@ -3968,7 +4013,7 @@
     },
     {
       "a": "wellington-turman",
-      "a_ml": 550,
+      "a_ml": 555,
       "b": "islam-dulatov",
       "b_ml": -850,
       "event": "UFC Fight Night: Ankalaev vs. Guskov",
@@ -3999,7 +4044,7 @@
     "calibration": {
       "shrink": 0.1
     },
-    "last_sync": "2026-07-20T17:00:58+00:00",
+    "last_sync": "2026-07-20T19:00:48+00:00",
     "news_last": {
       "abubakar-vagaev": "2026-07-20T17:00:55.750904+00:00",
       "alberto-montes": "2026-07-20T11:00:56.161256+00:00",
@@ -4051,8 +4096,8 @@
       "wellington-turman": "2026-07-20T09:00:51.686820+00:00"
     },
     "odds": {
-      "count": 25,
-      "last_call": "2026-07-20T15:00:44.172176+00:00",
+      "count": 26,
+      "last_call": "2026-07-20T19:00:45.493330+00:00",
       "month": "2026-07"
     },
     "ufcstats_last": {
