@@ -1464,6 +1464,11 @@
       "detail": "Brendson Ribeiro vs Magomed Tuchalov: consensus +500 / -700 (7 books)",
       "ts": "2026-07-20T15:00:44+00:00",
       "type": "odds_update"
+    },
+    {
+      "detail": "Bogdan Guskov: Rountree injured, Guskov steps in vs. Ankalaev at UFC Abu Dhabi - theScore",
+      "ts": "2026-07-20T17:00:58+00:00",
+      "type": "health_injury"
     }
   ],
   "fighters": {
@@ -1797,7 +1802,7 @@
     },
     "bogdan-guskov": {
       "_injury_from_news": true,
-      "_updated": "2026-07-20T07:01:24+00:00",
+      "_updated": "2026-07-20T17:00:58+00:00",
       "active_injury": true,
       "age": 30,
       "career_fights": 12,
@@ -3994,29 +3999,29 @@
     "calibration": {
       "shrink": 0.1
     },
-    "last_sync": "2026-07-20T15:00:44+00:00",
+    "last_sync": "2026-07-20T17:00:58+00:00",
     "news_last": {
-      "abubakar-vagaev": "2026-07-20T05:00:51.385678+00:00",
+      "abubakar-vagaev": "2026-07-20T17:00:55.750904+00:00",
       "alberto-montes": "2026-07-20T11:00:56.161256+00:00",
       "alden-coria": "2026-07-20T11:00:56.161256+00:00",
       "alvin-hines": "2026-07-20T11:00:56.161256+00:00",
       "anna-melisano": "2026-07-20T11:00:56.161256+00:00",
       "austin-bashi": "2026-07-20T11:00:56.161256+00:00",
-      "axel-sola": "2026-07-20T05:00:51.385678+00:00",
-      "bogdan-guskov": "2026-07-20T05:00:51.385678+00:00",
-      "brendson-ribeiro": "2026-07-20T05:00:51.385678+00:00",
+      "axel-sola": "2026-07-20T17:00:55.750904+00:00",
+      "bogdan-guskov": "2026-07-20T17:00:55.750904+00:00",
+      "brendson-ribeiro": "2026-07-20T17:00:55.750904+00:00",
       "chase-hooper": "2026-07-20T11:00:56.161256+00:00",
       "christian-leroy-duncan": "2026-07-20T11:00:56.161256+00:00",
-      "damian-rzepecki": "2026-07-20T05:00:51.385678+00:00",
+      "damian-rzepecki": "2026-07-20T17:00:55.750904+00:00",
       "damien-anderson": "2026-07-20T13:00:49.316282+00:00",
       "dione-barbosa": "2026-07-20T11:00:56.161256+00:00",
       "duplessis": "2026-07-20T11:24:33.672845+00:00",
-      "dustin-jacoby": "2026-07-20T05:00:51.385678+00:00",
+      "dustin-jacoby": "2026-07-20T17:00:55.750904+00:00",
       "ezra-elliott": "2026-07-20T13:00:49.316282+00:00",
       "fatima-kline": "2026-07-20T11:24:33.672845+00:00",
       "felipe-franco": "2026-07-20T11:24:33.672845+00:00",
-      "islam-dulatov": "2026-07-20T05:00:51.385678+00:00",
-      "ismael-bonfim": "2026-07-20T05:00:51.385678+00:00",
+      "islam-dulatov": "2026-07-20T17:00:55.750904+00:00",
+      "ismael-bonfim": "2026-07-20T17:00:55.750904+00:00",
       "jared-cannonier": "2026-07-20T11:24:33.672845+00:00",
       "jean-paul-lebosnoyani": "2026-07-20T11:24:33.672845+00:00",
       "jose-miguel-delgado": "2026-07-20T11:24:33.672845+00:00",
