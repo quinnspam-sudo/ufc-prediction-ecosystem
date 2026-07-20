@@ -1419,6 +1419,51 @@
       "detail": "Kamaru Usman: Dana White On Dricus Du Plessis, Kamaru Usman, Conor McGregor\u2019s Injury & More - UFC.com",
       "ts": "2026-07-20T13:00:51+00:00",
       "type": "health_injury"
+    },
+    {
+      "detail": "Ismael Bonfim vs Axel Sola: consensus +160 / -185 (7 books)",
+      "ts": "2026-07-20T15:00:44+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Magomed Ankalaev vs Bogdan Guskov: consensus -550 / +400 (7 books)",
+      "ts": "2026-07-20T15:00:44+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Magomed Zaynukov vs Damian Rzepecki: consensus -370 / +292 (6 books)",
+      "ts": "2026-07-20T15:00:44+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Wellington Turman vs Islam Dulatov: consensus +550 / -850 (7 books)",
+      "ts": "2026-07-20T15:00:44+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Mike Davis vs Nurullo Aliev: consensus +154 / -183 (7 books)",
+      "ts": "2026-07-20T15:00:44+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Rizvan Kuniev vs Tyrell Fortune: consensus -270 / +220 (7 books)",
+      "ts": "2026-07-20T15:00:44+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Santiago Ponzinibbio vs Sam Patterson: consensus +310 / -400 (7 books)",
+      "ts": "2026-07-20T15:00:44+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Thomas Petersen vs Valter Walker: consensus +163 / -192 (7 books)",
+      "ts": "2026-07-20T15:00:44+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Brendson Ribeiro vs Magomed Tuchalov: consensus +500 / -700 (7 books)",
+      "ts": "2026-07-20T15:00:44+00:00",
+      "type": "odds_update"
     }
   ],
   "fighters": {
@@ -3832,9 +3877,9 @@
     },
     {
       "a": "mike-davis",
-      "a_ml": 140,
+      "a_ml": 154,
       "b": "nurullo-aliev",
-      "b_ml": -166,
+      "b_ml": -183,
       "event": "UFC Fight Night: Ankalaev vs. Guskov",
       "label": "Mike Davis vs Nurullo Aliev",
       "rounds": 3,
@@ -3842,7 +3887,7 @@
     },
     {
       "a": "brendson-ribeiro",
-      "a_ml": 490,
+      "a_ml": 500,
       "b": "magomed-tuchalov",
       "b_ml": -700,
       "event": "UFC Fight Night: Ankalaev vs. Guskov",
@@ -3910,7 +3955,7 @@
       "a": "magomed-zaynukov",
       "a_ml": -370,
       "b": "damian-rzepecki",
-      "b_ml": 295,
+      "b_ml": 292,
       "event": "UFC Fight Night: Ankalaev vs. Guskov",
       "label": "Magomed Zaynukov vs Damian Rzepecki",
       "rounds": 3,
@@ -3949,7 +3994,7 @@
     "calibration": {
       "shrink": 0.1
     },
-    "last_sync": "2026-07-20T13:00:52+00:00",
+    "last_sync": "2026-07-20T15:00:44+00:00",
     "news_last": {
       "abubakar-vagaev": "2026-07-20T05:00:51.385678+00:00",
       "alberto-montes": "2026-07-20T11:00:56.161256+00:00",
@@ -4001,8 +4046,8 @@
       "wellington-turman": "2026-07-20T09:00:51.686820+00:00"
     },
     "odds": {
-      "count": 24,
-      "last_call": "2026-07-20T09:00:51.684209+00:00",
+      "count": 25,
+      "last_call": "2026-07-20T15:00:44.172176+00:00",
       "month": "2026-07"
     },
     "ufcstats_last": {
