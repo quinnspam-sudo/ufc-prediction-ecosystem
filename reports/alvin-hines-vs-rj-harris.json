@@ -4,8 +4,8 @@
     "fighter_b": "RJ Harris",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.709,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.737,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -19,53 +19,54 @@
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 10.96,
-    "fighter_b_pct": 89.04,
-    "draw_pct": 0.05
+    "fighter_a_pct": 46.02,
+    "fighter_b_pct": 53.97,
+    "draw_pct": 0.07,
+    "calibration_shrink_applied": 0.1
   },
   "consensus_forecast": {
     "applied": true,
     "model_weight": 0.4,
-    "fighter_a_pct": 35.03,
-    "fighter_b_pct": 64.97,
+    "fighter_a_pct": 34.75,
+    "fighter_b_pct": 65.25,
     "market_devig_a_pct": 51.08
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 8.75,
-      "Submission": 2.2,
+      "KO/TKO": 7.79,
+      "Submission": 2.45,
       "Unanimous Decision": 0.0,
       "Split/Majority Decision": 0.0
     },
     "fighter_b": {
-      "KO/TKO": 7.9,
-      "Submission": 9.7,
-      "Unanimous Decision": 71.4,
-      "Split/Majority Decision": 0.0
+      "KO/TKO": 13.81,
+      "Submission": 1.66,
+      "Unanimous Decision": 74.01,
+      "Split/Majority Decision": 0.21
     }
   },
   "fight_level": {
-    "ko_tko_pct": 16.65,
-    "submission_pct": 11.9,
-    "decision_pct": 71.4,
-    "goes_the_distance_pct": 71.45,
-    "expected_fight_minutes": 12.83
+    "ko_tko_pct": 21.6,
+    "submission_pct": 4.11,
+    "decision_pct": 74.22,
+    "goes_the_distance_pct": 74.29,
+    "expected_fight_minutes": 13.04
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 69,
-      "round_2": 85,
-      "round_3": 65
+      "round_1": 350,
+      "round_2": 343,
+      "round_3": 331
     },
     "fighter_b": {
-      "round_1": 124,
-      "round_2": 111,
-      "round_3": 117
+      "round_1": 542,
+      "round_2": 501,
+      "round_3": 504
     }
   },
   "value_betting": {
@@ -73,10 +74,10 @@
       "market_moneyline": -115,
       "market_decimal_odds": 1.87,
       "market_implied_prob_pct": 53.49,
-      "model_win_prob_pct": 10.96,
-      "edge_pct": -42.53,
-      "consensus_edge_pct": -18.46,
-      "kelly_fraction_full": -0.9145,
+      "model_win_prob_pct": 46.02,
+      "edge_pct": -7.46,
+      "consensus_edge_pct": -18.74,
+      "kelly_fraction_full": -0.1605,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
@@ -86,16 +87,14 @@
       "market_moneyline": -105,
       "market_decimal_odds": 1.952,
       "market_implied_prob_pct": 51.22,
-      "model_win_prob_pct": 89.04,
-      "edge_pct": 37.83,
-      "consensus_edge_pct": 13.75,
-      "kelly_fraction_full": 0.7754,
-      "kelly_fraction_half": 0.3877,
+      "model_win_prob_pct": 53.97,
+      "edge_pct": 2.76,
+      "consensus_edge_pct": 14.03,
+      "kelly_fraction_full": 0.0565,
+      "kelly_fraction_half": 0.0282,
       "model_sees_value": true,
       "consensus_agrees": true,
-      "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+      "value_bet": true
+    }
   }
 }

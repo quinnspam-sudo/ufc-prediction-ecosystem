@@ -2,10 +2,32 @@
   "cards": {
     "UFC Fight Night: Du Plessis vs. Usman": {
       "card_type": "fight_night",
-      "eligible_legs": 6,
+      "eligible_legs": 8,
       "parlays": {
         "3_leg": {
           "legs": [
+            {
+              "matchup": "Damien Anderson vs Ezra Elliott",
+              "pick": "Ezra Elliott",
+              "moneyline": 105,
+              "decimal_odds": 2.05,
+              "consensus_prob": 0.6253,
+              "model_prob": 0.5361,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 54.66,
+              "modal_finish_round": "round_1"
+            },
+            {
+              "matchup": "Alvin Hines vs RJ Harris",
+              "pick": "RJ Harris",
+              "moneyline": -105,
+              "decimal_odds": 1.952,
+              "consensus_prob": 0.6525,
+              "model_prob": 0.5397,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 74.01,
+              "modal_finish_round": "round_1"
+            },
             {
               "matchup": "Chase Hooper vs Mitch Ramirez",
               "pick": "Chase Hooper",
@@ -16,40 +38,40 @@
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 63.54,
               "modal_finish_round": "round_1"
-            },
-            {
-              "matchup": "Alberto Montes vs Tommy McMillen",
-              "pick": "Tommy McMillen",
-              "moneyline": -205,
-              "decimal_odds": 1.488,
-              "consensus_prob": 0.6771,
-              "model_prob": 0.6206,
-              "likely_method": "Unanimous Decision",
-              "likely_method_pct": 60.37,
-              "modal_finish_round": "round_1"
-            },
-            {
-              "matchup": "Dione Barbosa vs Anna Melisano",
-              "pick": "Dione Barbosa",
-              "moneyline": -675,
-              "decimal_odds": 1.148,
-              "consensus_prob": 0.8684,
-              "model_prob": 0.5419,
-              "likely_method": "Unanimous Decision",
-              "likely_method_pct": 70.41,
-              "modal_finish_round": "round_1"
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 47.88,
-          "combined_decimal_odds": 2.164,
-          "combined_american": 116,
-          "ev_per_unit": 0.0363,
+          "combined_prob_pct": 33.22,
+          "combined_decimal_odds": 5.07,
+          "combined_american": 407,
+          "ev_per_unit": 0.6845,
           "positive_ev": true
         },
         "5_leg": {
           "legs": [
             {
+              "matchup": "Damien Anderson vs Ezra Elliott",
+              "pick": "Ezra Elliott",
+              "moneyline": 105,
+              "decimal_odds": 2.05,
+              "consensus_prob": 0.6253,
+              "model_prob": 0.5361,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 54.66,
+              "modal_finish_round": "round_1"
+            },
+            {
+              "matchup": "Alvin Hines vs RJ Harris",
+              "pick": "RJ Harris",
+              "moneyline": -105,
+              "decimal_odds": 1.952,
+              "consensus_prob": 0.6525,
+              "model_prob": 0.5397,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 74.01,
+              "modal_finish_round": "round_1"
+            },
+            {
               "matchup": "Chase Hooper vs Mitch Ramirez",
               "pick": "Chase Hooper",
               "moneyline": -375,
@@ -81,36 +103,14 @@
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 70.41,
               "modal_finish_round": "round_1"
-            },
-            {
-              "matchup": "Alden Coria vs Stewart Nicoll",
-              "pick": "Alden Coria",
-              "moneyline": -1100,
-              "decimal_odds": 1.091,
-              "consensus_prob": 0.8935,
-              "model_prob": 0.727,
-              "likely_method": "Unanimous Decision",
-              "likely_method_pct": 79.84,
-              "modal_finish_round": "round_2"
-            },
-            {
-              "matchup": "Jared Cannonier vs Christian Leroy Duncan",
-              "pick": "Christian Leroy Duncan",
-              "moneyline": -330,
-              "decimal_odds": 1.303,
-              "consensus_prob": 0.6444,
-              "model_prob": 0.5004,
-              "likely_method": "Unanimous Decision",
-              "likely_method_pct": 26.18,
-              "modal_finish_round": "round_3"
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 27.57,
-          "combined_decimal_odds": 3.077,
-          "combined_american": 208,
-          "ev_per_unit": -0.1518,
-          "positive_ev": false
+          "combined_prob_pct": 19.54,
+          "combined_decimal_odds": 8.661,
+          "combined_american": 766,
+          "ev_per_unit": 0.6919,
+          "positive_ev": true
         }
       }
     },

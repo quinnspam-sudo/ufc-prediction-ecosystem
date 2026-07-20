@@ -527,6 +527,38 @@
       "p_sub": 0.11,
       "p_dec": 0.688,
       "p_distance": 0.688
+    },
+    {
+      "label": "Alvin Hines vs RJ Harris",
+      "a": "Alvin Hines",
+      "b": "RJ Harris",
+      "p_a": 0.4602,
+      "event": "UFC Fight Night: Du Plessis vs. Usman",
+      "logged": "2026-07-20T11:24:53+00:00",
+      "resolved": false,
+      "actual_a": null,
+      "brier": null,
+      "resolved_at": null,
+      "p_ko": 0.216,
+      "p_sub": 0.0411,
+      "p_dec": 0.7422,
+      "p_distance": 0.7429
+    },
+    {
+      "label": "Damien Anderson vs Ezra Elliott",
+      "a": "Damien Anderson",
+      "b": "Ezra Elliott",
+      "p_a": 0.4639,
+      "event": "UFC Fight Night: Du Plessis vs. Usman",
+      "logged": "2026-07-20T11:24:53+00:00",
+      "resolved": false,
+      "actual_a": null,
+      "brier": null,
+      "resolved_at": null,
+      "p_ko": 0.1256,
+      "p_sub": 0.3278,
+      "p_dec": 0.5466,
+      "p_distance": 0.5466
     }
   ]
 }

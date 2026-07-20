@@ -28,13 +28,14 @@
     },
     "Alvin Hines vs RJ Harris": {
       "win_probability": {
-        "fighter_a_pct": 10.96,
-        "fighter_b_pct": 89.04,
-        "draw_pct": 0.05
+        "fighter_a_pct": 46.02,
+        "fighter_b_pct": 53.97,
+        "draw_pct": 0.07,
+        "calibration_shrink_applied": 0.1
       },
       "value_flags": {
         "fighter_a": false,
-        "fighter_b": false
+        "fighter_b": true
       },
       "report_file": "reports/alvin-hines-vs-rj-harris.json"
     },
@@ -142,13 +143,14 @@
     },
     "Damien Anderson vs Ezra Elliott": {
       "win_probability": {
-        "fighter_a_pct": 49.34,
-        "fighter_b_pct": 50.66,
-        "draw_pct": 5.75
+        "fighter_a_pct": 46.39,
+        "fighter_b_pct": 53.61,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.1
       },
       "value_flags": {
         "fighter_a": false,
-        "fighter_b": false
+        "fighter_b": true
       },
       "report_file": "reports/damien-anderson-vs-ezra-elliott.json"
     },
