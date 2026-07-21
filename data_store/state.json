@@ -1639,6 +1639,16 @@
       "detail": "Brendson Ribeiro vs Magomed Tuchalov: consensus +500 / -715 (7 books)",
       "ts": "2026-07-21T05:00:54+00:00",
       "type": "odds_update"
+    },
+    {
+      "detail": "Kamaru Usman: Dana White On Dricus Du Plessis, Kamaru Usman, Conor McGregor\u2019s Injury & More - UFC.com",
+      "ts": "2026-07-21T07:01:06+00:00",
+      "type": "health_injury"
+    },
+    {
+      "detail": "Bogdan Guskov: Rountree injured, Guskov steps in vs. Ankalaev at UFC Abu Dhabi - theScore",
+      "ts": "2026-07-21T07:01:06+00:00",
+      "type": "health_injury"
     }
   ],
   "fighters": {
@@ -2022,7 +2032,7 @@
     },
     "bogdan-guskov": {
       "_injury_from_news": true,
-      "_updated": "2026-07-20T17:00:58+00:00",
+      "_updated": "2026-07-21T07:01:06+00:00",
       "active_injury": true,
       "age": 30,
       "career_fights": 12,
@@ -3943,7 +3953,7 @@
     },
     "usman": {
       "_injury_from_news": true,
-      "_updated": "2026-07-20T13:00:51+00:00",
+      "_updated": "2026-07-21T07:01:06+00:00",
       "active_injury": true,
       "age": 38,
       "career_fights": 25,
@@ -4337,30 +4347,30 @@
     "calibration": {
       "shrink": 0.1
     },
-    "last_sync": "2026-07-21T05:01:08+00:00",
+    "last_sync": "2026-07-21T07:01:16+00:00",
     "news_last": {
       "abdul-hussein": "2026-07-20T23:00:50.636910+00:00",
-      "abubakar-vagaev": "2026-07-20T17:00:55.750904+00:00",
+      "abubakar-vagaev": "2026-07-21T07:01:03.852614+00:00",
       "alberto-montes": "2026-07-21T01:00:52.828906+00:00",
       "alden-coria": "2026-07-21T01:00:52.828906+00:00",
       "alvin-hines": "2026-07-21T01:00:52.828906+00:00",
       "anna-melisano": "2026-07-21T01:00:52.828906+00:00",
       "austin-bashi": "2026-07-21T01:00:52.828906+00:00",
-      "axel-sola": "2026-07-20T17:00:55.750904+00:00",
-      "bogdan-guskov": "2026-07-20T17:00:55.750904+00:00",
-      "brendson-ribeiro": "2026-07-20T17:00:55.750904+00:00",
+      "axel-sola": "2026-07-21T07:01:03.852614+00:00",
+      "bogdan-guskov": "2026-07-21T07:01:03.852614+00:00",
+      "brendson-ribeiro": "2026-07-21T07:01:03.852614+00:00",
       "chase-hooper": "2026-07-21T01:00:52.828906+00:00",
       "christian-leroy-duncan": "2026-07-21T01:00:52.828906+00:00",
       "cody-gibson": "2026-07-20T23:00:50.636910+00:00",
-      "damian-rzepecki": "2026-07-20T17:00:55.750904+00:00",
+      "damian-rzepecki": "2026-07-21T07:01:03.852614+00:00",
       "damien-anderson": "2026-07-21T05:00:54.499733+00:00",
       "dione-barbosa": "2026-07-21T03:00:44.742553+00:00",
       "duplessis": "2026-07-21T03:00:44.742553+00:00",
-      "dustin-jacoby": "2026-07-20T17:00:55.750904+00:00",
+      "dustin-jacoby": "2026-07-21T07:01:03.852614+00:00",
       "ezra-elliott": "2026-07-21T05:00:54.499733+00:00",
       "fatima-kline": "2026-07-21T03:00:44.742553+00:00",
       "felipe-franco": "2026-07-21T03:00:44.742553+00:00",
-      "islam-dulatov": "2026-07-20T17:00:55.750904+00:00",
+      "islam-dulatov": "2026-07-21T07:01:03.852614+00:00",
       "ismael-bonfim": "2026-07-20T17:00:55.750904+00:00",
       "jared-cannonier": "2026-07-21T03:00:44.742553+00:00",
       "jean-paul-lebosnoyani": "2026-07-21T03:00:44.742553+00:00",
@@ -4387,7 +4397,7 @@
       "tommy-mcmillen": "2026-07-21T05:00:54.499733+00:00",
       "tyrell-fortune": "2026-07-20T21:54:02.326938+00:00",
       "uran-satybaldiev": "2026-07-20T21:54:02.326938+00:00",
-      "usman": "2026-07-20T13:00:49.316282+00:00",
+      "usman": "2026-07-21T07:01:03.852614+00:00",
       "valter-walker": "2026-07-20T21:54:02.326938+00:00",
       "wellington-turman": "2026-07-20T21:54:02.326938+00:00"
     },
@@ -4398,7 +4408,7 @@
     },
     "ufcstats_last": {
       "abdul-hussein": "2026-07-20T23:00:51.192247+00:00",
-      "abubakar-vagaev": "2026-07-20T07:00:58.503645+00:00",
+      "abubakar-vagaev": "2026-07-21T07:01:06.056935+00:00",
       "alberto-montes": "2026-07-15T21:38:27.127905+00:00",
       "alden-coria": "2026-07-15T21:38:27.127905+00:00",
       "alvin-hines": "2026-07-15T21:38:27.127905+00:00",
@@ -4410,7 +4420,7 @@
       "chase-hooper": "2026-07-15T21:38:27.127905+00:00",
       "christian-leroy-duncan": "2026-07-15T23:01:08.574882+00:00",
       "cody-gibson": "2026-07-20T23:00:51.192247+00:00",
-      "damian-rzepecki": "2026-07-20T07:00:58.503645+00:00",
+      "damian-rzepecki": "2026-07-21T07:01:06.056935+00:00",
       "damien-anderson": "2026-07-20T11:24:36.395771+00:00",
       "dione-barbosa": "2026-07-15T23:01:08.574882+00:00",
       "dustin-jacoby": "2026-07-20T07:00:58.503645+00:00",
