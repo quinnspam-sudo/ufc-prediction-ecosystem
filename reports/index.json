@@ -317,6 +317,18 @@
         "fighter_b": false
       },
       "report_file": "reports/cody-gibson-vs-abdul-hussein.json"
+    },
+    "Dustin Jacoby vs Muhammad Said": {
+      "win_probability": {
+        "fighter_a_pct": 52.69,
+        "fighter_b_pct": 47.31,
+        "draw_pct": 7.0
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/dustin-jacoby-vs-muhammad-said.json"
     }
   }
 }

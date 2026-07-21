@@ -591,6 +591,22 @@
       "p_sub": 0.14,
       "p_dec": 0.6485,
       "p_distance": 0.717
+    },
+    {
+      "label": "Dustin Jacoby vs Muhammad Said",
+      "a": "Dustin Jacoby",
+      "b": "Muhammad Said",
+      "p_a": 0.5269,
+      "event": "UFC Fight Night: Ankalaev vs. Guskov",
+      "logged": "2026-07-21T01:01:01+00:00",
+      "resolved": false,
+      "actual_a": null,
+      "brier": null,
+      "resolved_at": null,
+      "p_ko": 0.1825,
+      "p_sub": 0.084,
+      "p_dec": 0.6635,
+      "p_distance": 0.7335
     }
   ]
 }
