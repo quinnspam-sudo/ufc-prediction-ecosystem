@@ -1649,6 +1649,61 @@
       "detail": "Bogdan Guskov: Rountree injured, Guskov steps in vs. Ankalaev at UFC Abu Dhabi - theScore",
       "ts": "2026-07-21T07:01:06+00:00",
       "type": "health_injury"
+    },
+    {
+      "detail": "Ismael Bonfim vs Axel Sola: consensus +166 / -200 (7 books)",
+      "ts": "2026-07-21T09:00:55+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Magomed Ankalaev vs Bogdan Guskov: consensus -550 / +400 (7 books)",
+      "ts": "2026-07-21T09:00:55+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Magomed Zaynukov vs Damian Rzepecki: consensus -325 / +260 (7 books)",
+      "ts": "2026-07-21T09:00:55+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Wellington Turman vs Islam Dulatov: consensus +600 / -900 (7 books)",
+      "ts": "2026-07-21T09:00:55+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Mike Davis vs Nurullo Aliev: consensus +160 / -195 (7 books)",
+      "ts": "2026-07-21T09:00:55+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Rizvan Kuniev vs Tyrell Fortune: consensus -290 / +235 (7 books)",
+      "ts": "2026-07-21T09:00:55+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Santiago Ponzinibbio vs Sam Patterson: consensus +310 / -410 (7 books)",
+      "ts": "2026-07-21T09:00:55+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Thomas Petersen vs Valter Walker: consensus +155 / -185 (7 books)",
+      "ts": "2026-07-21T09:00:55+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Cody Gibson vs Abdul Hussein: consensus +340 / -445 (6 books)",
+      "ts": "2026-07-21T09:00:55+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Brendson Ribeiro vs Magomed Tuchalov: consensus +525 / -750 (7 books)",
+      "ts": "2026-07-21T09:00:55+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Magomed Ankalaev: Rountree injured, Guskov steps in vs. Ankalaev at UFC Abu Dhabi - theScore",
+      "ts": "2026-07-21T09:00:58+00:00",
+      "type": "health_injury"
     }
   ],
   "fighters": {
@@ -2929,7 +2984,7 @@
     },
     "magomed-ankalaev": {
       "_injury_from_news": true,
-      "_updated": "2026-07-20T21:00:55+00:00",
+      "_updated": "2026-07-21T09:00:58+00:00",
       "active_injury": true,
       "age": 30,
       "career_fights": 12,
@@ -4222,9 +4277,9 @@
     },
     {
       "a": "brendson-ribeiro",
-      "a_ml": 500,
+      "a_ml": 525,
       "b": "magomed-tuchalov",
-      "b_ml": -715,
+      "b_ml": -750,
       "event": "UFC Fight Night: Ankalaev vs. Guskov",
       "label": "Brendson Ribeiro vs Magomed Tuchalov",
       "rounds": 3,
@@ -4232,9 +4287,9 @@
     },
     {
       "a": "ismael-bonfim",
-      "a_ml": 162,
+      "a_ml": 166,
       "b": "axel-sola",
-      "b_ml": -198,
+      "b_ml": -200,
       "event": "UFC Fight Night: Ankalaev vs. Guskov",
       "label": "Ismael Bonfim vs Axel Sola",
       "rounds": 3,
@@ -4280,7 +4335,7 @@
       "a": "rizvan-kuniev",
       "a_ml": -290,
       "b": "tyrell-fortune",
-      "b_ml": 230,
+      "b_ml": 235,
       "event": "UFC Fight Night: Ankalaev vs. Guskov",
       "label": "Rizvan Kuniev vs Tyrell Fortune",
       "rounds": 3,
@@ -4288,9 +4343,9 @@
     },
     {
       "a": "magomed-zaynukov",
-      "a_ml": -345,
+      "a_ml": -325,
       "b": "damian-rzepecki",
-      "b_ml": 265,
+      "b_ml": 260,
       "event": "UFC Fight Night: Ankalaev vs. Guskov",
       "label": "Magomed Zaynukov vs Damian Rzepecki",
       "rounds": 3,
@@ -4326,9 +4381,9 @@
     },
     {
       "a": "cody-gibson",
-      "a_ml": 337,
+      "a_ml": 340,
       "b": "abdul-hussein",
-      "b_ml": -440,
+      "b_ml": -445,
       "event": "UFC Fight Night: Ankalaev vs. Guskov",
       "label": "Cody Gibson vs Abdul Hussein",
       "rounds": 3,
@@ -4347,7 +4402,7 @@
     "calibration": {
       "shrink": 0.1
     },
-    "last_sync": "2026-07-21T07:01:16+00:00",
+    "last_sync": "2026-07-21T09:00:59+00:00",
     "news_last": {
       "abdul-hussein": "2026-07-20T23:00:50.636910+00:00",
       "abubakar-vagaev": "2026-07-21T07:01:03.852614+00:00",
@@ -4371,20 +4426,20 @@
       "fatima-kline": "2026-07-21T03:00:44.742553+00:00",
       "felipe-franco": "2026-07-21T03:00:44.742553+00:00",
       "islam-dulatov": "2026-07-21T07:01:03.852614+00:00",
-      "ismael-bonfim": "2026-07-20T17:00:55.750904+00:00",
+      "ismael-bonfim": "2026-07-21T09:00:55.713336+00:00",
       "jared-cannonier": "2026-07-21T03:00:44.742553+00:00",
       "jean-paul-lebosnoyani": "2026-07-21T03:00:44.742553+00:00",
       "jose-miguel-delgado": "2026-07-21T03:00:44.742553+00:00",
       "levi-rodrigues-jr": "2026-07-21T03:00:44.742553+00:00",
-      "magomed-ankalaev": "2026-07-20T21:00:52.847578+00:00",
-      "magomed-tuchalov": "2026-07-20T21:00:52.847578+00:00",
-      "magomed-zaynukov": "2026-07-20T21:00:52.847578+00:00",
-      "mike-davis": "2026-07-20T21:00:52.847578+00:00",
+      "magomed-ankalaev": "2026-07-21T09:00:55.713336+00:00",
+      "magomed-tuchalov": "2026-07-21T09:00:55.713336+00:00",
+      "magomed-zaynukov": "2026-07-21T09:00:55.713336+00:00",
+      "mike-davis": "2026-07-21T09:00:55.713336+00:00",
       "mitch-ramirez": "2026-07-21T05:00:54.499733+00:00",
       "muhammad-said": "2026-07-21T01:00:52.828906+00:00",
-      "nurullo-aliev": "2026-07-20T21:00:52.847578+00:00",
-      "ramazan-temirov": "2026-07-20T21:00:52.847578+00:00",
-      "rizvan-kuniev": "2026-07-20T21:00:52.847578+00:00",
+      "nurullo-aliev": "2026-07-21T09:00:55.713336+00:00",
+      "ramazan-temirov": "2026-07-21T09:00:55.713336+00:00",
+      "rizvan-kuniev": "2026-07-21T09:00:55.713336+00:00",
       "rj-harris": "2026-07-21T05:00:54.499733+00:00",
       "sam-patterson": "2026-07-20T21:00:52.847578+00:00",
       "santiago-ponzinibbio": "2026-07-20T21:54:02.326938+00:00",
@@ -4402,8 +4457,8 @@
       "wellington-turman": "2026-07-20T21:54:02.326938+00:00"
     },
     "odds": {
-      "count": 28,
-      "last_call": "2026-07-21T05:00:54.497318+00:00",
+      "count": 29,
+      "last_call": "2026-07-21T09:00:55.711775+00:00",
       "month": "2026-07"
     },
     "ufcstats_last": {
