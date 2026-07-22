@@ -2089,6 +2089,66 @@
       "detail": "Chase Hooper: Chase Hooper misses weight for first time at UFC Oklahoma City - Yardbarker",
       "ts": "2026-07-22T17:00:56+00:00",
       "type": "health_missed_weight"
+    },
+    {
+      "detail": "Ismael Bonfim vs Axel Sola: consensus +164 / -198 (7 books)",
+      "ts": "2026-07-22T21:00:47+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Magomed Ankalaev vs Bogdan Guskov: consensus -560 / +400 (7 books)",
+      "ts": "2026-07-22T21:00:47+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Magomed Zaynukov vs Damian Rzepecki: consensus -305 / +250 (7 books)",
+      "ts": "2026-07-22T21:00:47+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Wellington Turman vs Islam Dulatov: consensus +625 / -1000 (7 books)",
+      "ts": "2026-07-22T21:00:47+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Mike Davis vs Nurullo Aliev: consensus +190 / -230 (7 books)",
+      "ts": "2026-07-22T21:00:47+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Rizvan Kuniev vs Tyrell Fortune: consensus -335 / +260 (7 books)",
+      "ts": "2026-07-22T21:00:47+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Santiago Ponzinibbio vs Sam Patterson: consensus +350 / -455 (7 books)",
+      "ts": "2026-07-22T21:00:47+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Thomas Petersen vs Valter Walker: consensus +150 / -180 (7 books)",
+      "ts": "2026-07-22T21:00:47+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Cody Gibson vs Abdul Hussein: consensus +375 / -500 (7 books)",
+      "ts": "2026-07-22T21:00:47+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Brendson Ribeiro vs Magomed Tuchalov: consensus +575 / -900 (7 books)",
+      "ts": "2026-07-22T21:00:47+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Dustin Jacoby vs Muhammad Said: consensus -168 / +138 (7 books)",
+      "ts": "2026-07-22T21:00:47+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Abubakar Vagaev vs Saygid Izagakhmaev: consensus -265 / +215 (5 books)",
+      "ts": "2026-07-22T21:00:47+00:00",
+      "type": "odds_update"
     }
   ],
   "fighters": {
@@ -4652,9 +4712,9 @@
     },
     {
       "a": "mike-davis",
-      "a_ml": 180,
+      "a_ml": 190,
       "b": "nurullo-aliev",
-      "b_ml": -225,
+      "b_ml": -230,
       "event": "UFC Fight Night: Ankalaev vs. Guskov",
       "label": "Mike Davis vs Nurullo Aliev",
       "rounds": 3,
@@ -4662,9 +4722,9 @@
     },
     {
       "a": "brendson-ribeiro",
-      "a_ml": 550,
+      "a_ml": 575,
       "b": "magomed-tuchalov",
-      "b_ml": -800,
+      "b_ml": -900,
       "event": "UFC Fight Night: Ankalaev vs. Guskov",
       "label": "Brendson Ribeiro vs Magomed Tuchalov",
       "rounds": 3,
@@ -4672,9 +4732,9 @@
     },
     {
       "a": "ismael-bonfim",
-      "a_ml": 160,
+      "a_ml": 164,
       "b": "axel-sola",
-      "b_ml": -192,
+      "b_ml": -198,
       "event": "UFC Fight Night: Ankalaev vs. Guskov",
       "label": "Ismael Bonfim vs Axel Sola",
       "rounds": 3,
@@ -4682,9 +4742,9 @@
     },
     {
       "a": "santiago-ponzinibbio",
-      "a_ml": 320,
+      "a_ml": 350,
       "b": "sam-patterson",
-      "b_ml": -415,
+      "b_ml": -455,
       "event": "UFC Fight Night: Ankalaev vs. Guskov",
       "label": "Santiago Ponzinibbio vs Sam Patterson",
       "rounds": 3,
@@ -4710,9 +4770,9 @@
     },
     {
       "a": "abubakar-vagaev",
-      "a_ml": -260,
+      "a_ml": -265,
       "b": "saygid-izagakhmaev",
-      "b_ml": 214,
+      "b_ml": 215,
       "event": "UFC Fight Night: Ankalaev vs. Guskov",
       "label": "Abubakar Vagaev vs Saygid Izagakhmaev",
       "rounds": 3,
@@ -4730,7 +4790,7 @@
     },
     {
       "a": "magomed-zaynukov",
-      "a_ml": -310,
+      "a_ml": -305,
       "b": "damian-rzepecki",
       "b_ml": 250,
       "event": "UFC Fight Night: Ankalaev vs. Guskov",
@@ -4758,7 +4818,7 @@
     },
     {
       "a": "magomed-ankalaev",
-      "a_ml": -550,
+      "a_ml": -560,
       "b": "bogdan-guskov",
       "b_ml": 400,
       "event": "UFC Fight Night: Ankalaev vs. Guskov",
@@ -4768,7 +4828,7 @@
     },
     {
       "a": "cody-gibson",
-      "a_ml": 360,
+      "a_ml": 375,
       "b": "abdul-hussein",
       "b_ml": -500,
       "event": "UFC Fight Night: Ankalaev vs. Guskov",
@@ -4778,9 +4838,9 @@
     },
     {
       "a": "dustin-jacoby",
-      "a_ml": -166,
+      "a_ml": -168,
       "b": "muhammad-said",
-      "b_ml": 136,
+      "b_ml": 138,
       "event": "UFC Fight Night: Ankalaev vs. Guskov",
       "label": "Dustin Jacoby vs Muhammad Said",
       "rounds": 3,
@@ -4791,7 +4851,7 @@
     "calibration": {
       "shrink": 0.1
     },
-    "last_sync": "2026-07-22T19:00:55+00:00",
+    "last_sync": "2026-07-22T21:00:52+00:00",
     "news_last": {
       "abdul-hussein": "2026-07-22T15:00:55.676106+00:00",
       "abubakar-vagaev": "2026-07-22T09:38:49.897332+00:00",
@@ -4807,11 +4867,11 @@
       "christian-leroy-duncan": "2026-07-22T17:00:53.946105+00:00",
       "cody-gibson": "2026-07-22T15:00:55.676106+00:00",
       "damian-rzepecki": "2026-07-22T09:38:49.897332+00:00",
-      "damien-anderson": "2026-07-22T09:00:46.837634+00:00",
+      "damien-anderson": "2026-07-22T21:00:47.164334+00:00",
       "dione-barbosa": "2026-07-22T19:00:53.504755+00:00",
       "duplessis": "2026-07-22T19:00:53.504755+00:00",
       "dustin-jacoby": "2026-07-22T09:38:49.897332+00:00",
-      "ezra-elliott": "2026-07-22T09:00:46.837634+00:00",
+      "ezra-elliott": "2026-07-22T21:00:47.164334+00:00",
       "fatima-kline": "2026-07-22T19:00:53.504755+00:00",
       "felipe-franco": "2026-07-22T19:00:53.504755+00:00",
       "islam-dulatov": "2026-07-22T09:38:49.897332+00:00",
@@ -4824,21 +4884,21 @@
       "magomed-tuchalov": "2026-07-22T11:00:44.624635+00:00",
       "magomed-zaynukov": "2026-07-22T11:00:44.624635+00:00",
       "mike-davis": "2026-07-22T11:00:44.624635+00:00",
-      "mitch-ramirez": "2026-07-22T09:00:46.837634+00:00",
+      "mitch-ramirez": "2026-07-22T21:00:47.164334+00:00",
       "muhammad-said": "2026-07-22T17:00:53.946105+00:00",
       "nurullo-aliev": "2026-07-22T11:00:44.624635+00:00",
       "ramazan-temirov": "2026-07-22T11:00:44.624635+00:00",
       "rizvan-kuniev": "2026-07-22T11:00:44.624635+00:00",
-      "rj-harris": "2026-07-22T09:00:46.837634+00:00",
+      "rj-harris": "2026-07-22T21:00:47.164334+00:00",
       "sam-patterson": "2026-07-22T13:00:51.134195+00:00",
       "santiago-ponzinibbio": "2026-07-22T13:00:51.134195+00:00",
       "saygid-izagakhmaev": "2026-07-22T13:00:51.134195+00:00",
-      "seokhyeon-ko": "2026-07-22T09:00:46.837634+00:00",
+      "seokhyeon-ko": "2026-07-22T21:00:47.164334+00:00",
       "steve-erceg": "2026-07-22T13:00:51.134195+00:00",
-      "stewart-nicoll": "2026-07-22T09:00:46.837634+00:00",
-      "tabatha-ricci": "2026-07-22T09:00:46.837634+00:00",
+      "stewart-nicoll": "2026-07-22T21:00:47.164334+00:00",
+      "tabatha-ricci": "2026-07-22T21:00:47.164334+00:00",
       "thomas-petersen": "2026-07-22T13:00:51.134195+00:00",
-      "tommy-mcmillen": "2026-07-22T09:00:46.837634+00:00",
+      "tommy-mcmillen": "2026-07-22T21:00:47.164334+00:00",
       "tyrell-fortune": "2026-07-22T13:00:51.134195+00:00",
       "uran-satybaldiev": "2026-07-22T13:00:51.134195+00:00",
       "usman": "2026-07-22T09:38:49.897332+00:00",
@@ -4846,8 +4906,8 @@
       "wellington-turman": "2026-07-22T15:00:55.676106+00:00"
     },
     "odds": {
-      "count": 35,
-      "last_call": "2026-07-22T15:00:55.674311+00:00",
+      "count": 36,
+      "last_call": "2026-07-22T21:00:47.162363+00:00",
       "month": "2026-07"
     },
     "ufcstats_last": {
