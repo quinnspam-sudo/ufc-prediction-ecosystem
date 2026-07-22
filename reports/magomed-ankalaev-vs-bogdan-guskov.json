@@ -5,12 +5,12 @@
     "scheduled_rounds": 5,
     "is_title_fight": false,
     "iterations": 10000,
-    "avg_rounds_simulated": 4.112,
+    "avg_rounds_simulated": 4.123,
     "fighter_a_flags": {
-      "active_injury": false,
+      "active_injury": true,
       "missed_weight": false,
-      "withdrawn": false,
-      "injury_note": "",
+      "withdrawn": true,
+      "injury_note": "Magomed Ankalaev was urged to pull out of Alex Pereira rematch with injury: 'Have to pay for your mistakes' - CBS Sports",
       "stats_approx": false,
       "needs_real_stats": false
     },
@@ -24,53 +24,53 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 50.0,
-    "fighter_b_pct": 50.0,
-    "draw_pct": 6.58,
+    "fighter_a_pct": 49.63,
+    "fighter_b_pct": 50.37,
+    "draw_pct": 6.68,
     "calibration_shrink_applied": 0.1
   },
   "consensus_forecast": {
     "applied": true,
     "model_weight": 0.4,
-    "fighter_a_pct": 68.57,
-    "fighter_b_pct": 31.43,
+    "fighter_a_pct": 67.09,
+    "fighter_b_pct": 32.91,
     "market_devig_a_pct": 80.92
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 13.07,
-      "Submission": 3.2,
-      "Unanimous Decision": 23.32,
-      "Split/Majority Decision": 7.15
+      "KO/TKO": 12.17,
+      "Submission": 3.27,
+      "Unanimous Decision": 21.51,
+      "Split/Majority Decision": 6.29
     },
     "fighter_b": {
-      "KO/TKO": 14.52,
-      "Submission": 12.52,
-      "Unanimous Decision": 13.57,
-      "Split/Majority Decision": 6.07
+      "KO/TKO": 14.7,
+      "Submission": 12.88,
+      "Unanimous Decision": 16.76,
+      "Split/Majority Decision": 5.74
     }
   },
   "fight_level": {
-    "ko_tko_pct": 27.59,
-    "submission_pct": 15.72,
-    "decision_pct": 50.11,
-    "goes_the_distance_pct": 56.69,
-    "expected_fight_minutes": 19.48
+    "ko_tko_pct": 26.87,
+    "submission_pct": 16.15,
+    "decision_pct": 50.3,
+    "goes_the_distance_pct": 56.98,
+    "expected_fight_minutes": 19.54
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 312,
-      "round_2": 317,
-      "round_3": 332,
-      "round_4": 345,
-      "round_5": 321
+      "round_1": 295,
+      "round_2": 312,
+      "round_3": 308,
+      "round_4": 328,
+      "round_5": 301
     },
     "fighter_b": {
-      "round_1": 584,
-      "round_2": 573,
-      "round_3": 544,
-      "round_4": 529,
-      "round_5": 474
+      "round_1": 577,
+      "round_2": 583,
+      "round_3": 560,
+      "round_4": 533,
+      "round_5": 505
     }
   },
   "value_betting": {
@@ -78,10 +78,10 @@
       "market_moneyline": -560,
       "market_decimal_odds": 1.179,
       "market_implied_prob_pct": 84.85,
-      "model_win_prob_pct": 50.0,
-      "edge_pct": -34.85,
-      "consensus_edge_pct": -16.28,
-      "kelly_fraction_full": -2.2998,
+      "model_win_prob_pct": 49.63,
+      "edge_pct": -35.21,
+      "consensus_edge_pct": -17.76,
+      "kelly_fraction_full": -2.3242,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
@@ -91,11 +91,11 @@
       "market_moneyline": 400,
       "market_decimal_odds": 5.0,
       "market_implied_prob_pct": 20.0,
-      "model_win_prob_pct": 50.0,
-      "edge_pct": 30.0,
-      "consensus_edge_pct": 11.43,
-      "kelly_fraction_full": 0.375,
-      "kelly_fraction_half": 0.1875,
+      "model_win_prob_pct": 50.37,
+      "edge_pct": 30.37,
+      "consensus_edge_pct": 12.91,
+      "kelly_fraction_full": 0.3796,
+      "kelly_fraction_half": 0.1898,
       "model_sees_value": true,
       "consensus_agrees": true,
       "value_bet": true
