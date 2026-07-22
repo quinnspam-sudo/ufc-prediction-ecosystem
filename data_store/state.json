@@ -2084,6 +2084,11 @@
       "detail": "Abubakar Vagaev vs Saygid Izagakhmaev: consensus -260 / +214 (5 books)",
       "ts": "2026-07-22T15:00:55+00:00",
       "type": "odds_update"
+    },
+    {
+      "detail": "Chase Hooper: Chase Hooper misses weight for first time at UFC Oklahoma City - Yardbarker",
+      "ts": "2026-07-22T17:00:56+00:00",
+      "type": "health_missed_weight"
     }
   ],
   "fighters": {
@@ -2568,7 +2573,7 @@
     },
     "chase-hooper": {
       "_injury_from_news": true,
-      "_updated": "2026-07-22T05:00:54+00:00",
+      "_updated": "2026-07-22T17:00:56+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -4786,20 +4791,20 @@
     "calibration": {
       "shrink": 0.1
     },
-    "last_sync": "2026-07-22T15:00:57+00:00",
+    "last_sync": "2026-07-22T17:00:56+00:00",
     "news_last": {
       "abdul-hussein": "2026-07-22T15:00:55.676106+00:00",
       "abubakar-vagaev": "2026-07-22T09:38:49.897332+00:00",
-      "alberto-montes": "2026-07-22T05:00:52.175274+00:00",
-      "alden-coria": "2026-07-22T05:00:52.175274+00:00",
-      "alvin-hines": "2026-07-22T05:00:52.175274+00:00",
-      "anna-melisano": "2026-07-22T05:00:52.175274+00:00",
-      "austin-bashi": "2026-07-22T05:00:52.175274+00:00",
+      "alberto-montes": "2026-07-22T17:00:53.946105+00:00",
+      "alden-coria": "2026-07-22T17:00:53.946105+00:00",
+      "alvin-hines": "2026-07-22T17:00:53.946105+00:00",
+      "anna-melisano": "2026-07-22T17:00:53.946105+00:00",
+      "austin-bashi": "2026-07-22T17:00:53.946105+00:00",
       "axel-sola": "2026-07-22T09:38:49.897332+00:00",
       "bogdan-guskov": "2026-07-22T09:38:49.897332+00:00",
       "brendson-ribeiro": "2026-07-22T09:38:49.897332+00:00",
-      "chase-hooper": "2026-07-22T05:00:52.175274+00:00",
-      "christian-leroy-duncan": "2026-07-22T05:00:52.175274+00:00",
+      "chase-hooper": "2026-07-22T17:00:53.946105+00:00",
+      "christian-leroy-duncan": "2026-07-22T17:00:53.946105+00:00",
       "cody-gibson": "2026-07-22T15:00:55.676106+00:00",
       "damian-rzepecki": "2026-07-22T09:38:49.897332+00:00",
       "damien-anderson": "2026-07-22T09:00:46.837634+00:00",
@@ -4820,7 +4825,7 @@
       "magomed-zaynukov": "2026-07-22T11:00:44.624635+00:00",
       "mike-davis": "2026-07-22T11:00:44.624635+00:00",
       "mitch-ramirez": "2026-07-22T09:00:46.837634+00:00",
-      "muhammad-said": "2026-07-22T05:00:52.175274+00:00",
+      "muhammad-said": "2026-07-22T17:00:53.946105+00:00",
       "nurullo-aliev": "2026-07-22T11:00:44.624635+00:00",
       "ramazan-temirov": "2026-07-22T11:00:44.624635+00:00",
       "rizvan-kuniev": "2026-07-22T11:00:44.624635+00:00",
