@@ -5,7 +5,7 @@
     "scheduled_rounds": 5,
     "is_title_fight": false,
     "iterations": 10000,
-    "avg_rounds_simulated": 4.101,
+    "avg_rounds_simulated": 4.112,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -15,62 +15,62 @@
       "needs_real_stats": false
     },
     "fighter_b_flags": {
-      "active_injury": false,
+      "active_injury": true,
       "missed_weight": false,
       "withdrawn": false,
-      "injury_note": "",
+      "injury_note": "Rountree injured, Guskov steps in vs. Ankalaev at UFC Abu Dhabi - theScore",
       "stats_approx": false,
       "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 49.73,
-    "fighter_b_pct": 50.27,
-    "draw_pct": 6.56,
+    "fighter_a_pct": 50.0,
+    "fighter_b_pct": 50.0,
+    "draw_pct": 6.58,
     "calibration_shrink_applied": 0.1
   },
   "consensus_forecast": {
     "applied": true,
     "model_weight": 0.4,
-    "fighter_a_pct": 67.47,
-    "fighter_b_pct": 32.53,
+    "fighter_a_pct": 68.57,
+    "fighter_b_pct": 31.43,
     "market_devig_a_pct": 80.92
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 12.65,
-      "Submission": 3.22,
-      "Unanimous Decision": 20.68,
-      "Split/Majority Decision": 7.63
+      "KO/TKO": 13.07,
+      "Submission": 3.2,
+      "Unanimous Decision": 23.32,
+      "Split/Majority Decision": 7.15
     },
     "fighter_b": {
-      "KO/TKO": 15.3,
-      "Submission": 12.37,
-      "Unanimous Decision": 14.65,
-      "Split/Majority Decision": 6.94
+      "KO/TKO": 14.52,
+      "Submission": 12.52,
+      "Unanimous Decision": 13.57,
+      "Split/Majority Decision": 6.07
     }
   },
   "fight_level": {
-    "ko_tko_pct": 27.95,
-    "submission_pct": 15.59,
-    "decision_pct": 49.9,
-    "goes_the_distance_pct": 56.46,
-    "expected_fight_minutes": 19.41
+    "ko_tko_pct": 27.59,
+    "submission_pct": 15.72,
+    "decision_pct": 50.11,
+    "goes_the_distance_pct": 56.69,
+    "expected_fight_minutes": 19.48
   },
   "finish_round_distribution": {
     "fighter_a": {
       "round_1": 312,
-      "round_2": 313,
-      "round_3": 324,
-      "round_4": 320,
-      "round_5": 318
+      "round_2": 317,
+      "round_3": 332,
+      "round_4": 345,
+      "round_5": 321
     },
     "fighter_b": {
-      "round_1": 612,
-      "round_2": 581,
-      "round_3": 563,
-      "round_4": 523,
-      "round_5": 488
+      "round_1": 584,
+      "round_2": 573,
+      "round_3": 544,
+      "round_4": 529,
+      "round_5": 474
     }
   },
   "value_betting": {
@@ -78,10 +78,10 @@
       "market_moneyline": -560,
       "market_decimal_odds": 1.179,
       "market_implied_prob_pct": 84.85,
-      "model_win_prob_pct": 49.73,
-      "edge_pct": -35.12,
-      "consensus_edge_pct": -17.38,
-      "kelly_fraction_full": -2.318,
+      "model_win_prob_pct": 50.0,
+      "edge_pct": -34.85,
+      "consensus_edge_pct": -16.28,
+      "kelly_fraction_full": -2.2998,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
@@ -91,11 +91,11 @@
       "market_moneyline": 400,
       "market_decimal_odds": 5.0,
       "market_implied_prob_pct": 20.0,
-      "model_win_prob_pct": 50.27,
-      "edge_pct": 30.27,
-      "consensus_edge_pct": 12.53,
-      "kelly_fraction_full": 0.3784,
-      "kelly_fraction_half": 0.1892,
+      "model_win_prob_pct": 50.0,
+      "edge_pct": 30.0,
+      "consensus_edge_pct": 11.43,
+      "kelly_fraction_full": 0.375,
+      "kelly_fraction_half": 0.1875,
       "model_sees_value": true,
       "consensus_agrees": true,
       "value_bet": true

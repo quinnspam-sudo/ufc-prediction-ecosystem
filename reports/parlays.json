@@ -116,12 +116,54 @@
     },
     "UFC Fight Night: Ankalaev vs. Guskov": {
       "card_type": "fight_night",
-      "eligible_legs": 2,
+      "eligible_legs": 3,
       "parlays": {
-        "3_leg": null,
+        "3_leg": {
+          "legs": [
+            {
+              "matchup": "Wellington Turman vs Islam Dulatov",
+              "pick": "Islam Dulatov",
+              "moneyline": -1000,
+              "decimal_odds": 1.1,
+              "consensus_prob": 0.8657,
+              "model_prob": 0.5362,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 68.8,
+              "modal_finish_round": "round_1"
+            },
+            {
+              "matchup": "Rizvan Kuniev vs Tyrell Fortune",
+              "pick": "Rizvan Kuniev",
+              "moneyline": -335,
+              "decimal_odds": 1.299,
+              "consensus_prob": 0.6896,
+              "model_prob": 0.5122,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 34.93,
+              "modal_finish_round": "round_2"
+            },
+            {
+              "matchup": "Magomed Ankalaev vs Bogdan Guskov",
+              "pick": "Magomed Ankalaev",
+              "moneyline": -560,
+              "decimal_odds": 1.179,
+              "consensus_prob": 0.6857,
+              "model_prob": 0.5,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 23.32,
+              "modal_finish_round": "round_4"
+            }
+          ],
+          "leg_count": 3,
+          "combined_prob_pct": 40.94,
+          "combined_decimal_odds": 1.685,
+          "combined_american": 68,
+          "ev_per_unit": -0.3104,
+          "positive_ev": false
+        },
         "5_leg": null
       },
-      "note": "Only 2 eligible legs; 3_leg, 5_leg not buildable."
+      "note": "Only 3 eligible legs; 5_leg not buildable."
     }
   },
   "min_leg_consensus_prob": 0.6
