@@ -2224,6 +2224,71 @@
       "detail": "Abubakar Vagaev vs Saygid Izagakhmaev: consensus -270 / +220 (6 books)",
       "ts": "2026-07-23T03:00:46+00:00",
       "type": "odds_update"
+    },
+    {
+      "detail": "Ismael Bonfim vs Axel Sola: consensus +164 / -198 (7 books)",
+      "ts": "2026-07-23T07:01:06+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Magomed Ankalaev vs Bogdan Guskov: consensus -600 / +425 (7 books)",
+      "ts": "2026-07-23T07:01:06+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Magomed Zaynukov vs Damian Rzepecki: consensus -300 / +240 (7 books)",
+      "ts": "2026-07-23T07:01:06+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Wellington Turman vs Islam Dulatov: consensus +625 / -1000 (7 books)",
+      "ts": "2026-07-23T07:01:06+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Mike Davis vs Nurullo Aliev: consensus +190 / -230 (7 books)",
+      "ts": "2026-07-23T07:01:06+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Rizvan Kuniev vs Tyrell Fortune: consensus -335 / +260 (7 books)",
+      "ts": "2026-07-23T07:01:06+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Santiago Ponzinibbio vs Sam Patterson: consensus +340 / -450 (7 books)",
+      "ts": "2026-07-23T07:01:06+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Thomas Petersen vs Valter Walker: consensus +146 / -180 (7 books)",
+      "ts": "2026-07-23T07:01:06+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Cody Gibson vs Abdul Hussein: consensus +375 / -500 (7 books)",
+      "ts": "2026-07-23T07:01:06+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Brendson Ribeiro vs Magomed Tuchalov: consensus +575 / -900 (7 books)",
+      "ts": "2026-07-23T07:01:06+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Dustin Jacoby vs Muhammad Said: consensus -170 / +140 (7 books)",
+      "ts": "2026-07-23T07:01:06+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Abubakar Vagaev vs Saygid Izagakhmaev: consensus -270 / +220 (6 books)",
+      "ts": "2026-07-23T07:01:06+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Chase Hooper: Chase Hooper misses weight for first time at UFC Oklahoma City - Yardbarker",
+      "ts": "2026-07-23T07:01:09+00:00",
+      "type": "health_missed_weight"
     }
   ],
   "fighters": {
@@ -2708,7 +2773,7 @@
     },
     "chase-hooper": {
       "_injury_from_news": true,
-      "_updated": "2026-07-22T17:00:56+00:00",
+      "_updated": "2026-07-23T07:01:09+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -4787,7 +4852,7 @@
     },
     {
       "a": "mike-davis",
-      "a_ml": 185,
+      "a_ml": 190,
       "b": "nurullo-aliev",
       "b_ml": -230,
       "event": "UFC Fight Night: Ankalaev vs. Guskov",
@@ -4865,7 +4930,7 @@
     },
     {
       "a": "magomed-zaynukov",
-      "a_ml": -298,
+      "a_ml": -300,
       "b": "damian-rzepecki",
       "b_ml": 240,
       "event": "UFC Fight Night: Ankalaev vs. Guskov",
@@ -4926,20 +4991,20 @@
     "calibration": {
       "shrink": 0.1
     },
-    "last_sync": "2026-07-23T05:00:45+00:00",
+    "last_sync": "2026-07-23T07:01:19+00:00",
     "news_last": {
       "abdul-hussein": "2026-07-23T05:00:44.174405+00:00",
       "abubakar-vagaev": "2026-07-22T21:49:49.764064+00:00",
-      "alberto-montes": "2026-07-22T17:00:53.946105+00:00",
-      "alden-coria": "2026-07-22T17:00:53.946105+00:00",
-      "alvin-hines": "2026-07-22T17:00:53.946105+00:00",
-      "anna-melisano": "2026-07-22T17:00:53.946105+00:00",
-      "austin-bashi": "2026-07-22T17:00:53.946105+00:00",
+      "alberto-montes": "2026-07-23T07:01:06.773883+00:00",
+      "alden-coria": "2026-07-23T07:01:06.773883+00:00",
+      "alvin-hines": "2026-07-23T07:01:06.773883+00:00",
+      "anna-melisano": "2026-07-23T07:01:06.773883+00:00",
+      "austin-bashi": "2026-07-23T07:01:06.773883+00:00",
       "axel-sola": "2026-07-22T21:49:49.764064+00:00",
       "bogdan-guskov": "2026-07-22T21:49:49.764064+00:00",
       "brendson-ribeiro": "2026-07-22T21:49:49.764064+00:00",
-      "chase-hooper": "2026-07-22T17:00:53.946105+00:00",
-      "christian-leroy-duncan": "2026-07-22T17:00:53.946105+00:00",
+      "chase-hooper": "2026-07-23T07:01:06.773883+00:00",
+      "christian-leroy-duncan": "2026-07-23T07:01:06.773883+00:00",
       "cody-gibson": "2026-07-23T05:00:44.174405+00:00",
       "damian-rzepecki": "2026-07-22T21:49:49.764064+00:00",
       "damien-anderson": "2026-07-22T21:00:47.164334+00:00",
@@ -4960,7 +5025,7 @@
       "magomed-zaynukov": "2026-07-22T23:00:53.972261+00:00",
       "mike-davis": "2026-07-22T23:00:53.972261+00:00",
       "mitch-ramirez": "2026-07-22T21:00:47.164334+00:00",
-      "muhammad-said": "2026-07-22T17:00:53.946105+00:00",
+      "muhammad-said": "2026-07-23T07:01:06.773883+00:00",
       "nurullo-aliev": "2026-07-22T23:00:53.972261+00:00",
       "ramazan-temirov": "2026-07-22T23:00:53.972261+00:00",
       "rizvan-kuniev": "2026-07-22T23:00:53.972261+00:00",
@@ -4981,8 +5046,8 @@
       "wellington-turman": "2026-07-23T05:00:44.174405+00:00"
     },
     "odds": {
-      "count": 37,
-      "last_call": "2026-07-23T03:00:46.403282+00:00",
+      "count": 38,
+      "last_call": "2026-07-23T07:01:06.772460+00:00",
       "month": "2026-07"
     },
     "ufcstats_last": {
@@ -5013,9 +5078,9 @@
       "jose-miguel-delgado": "2026-07-22T13:00:53.283157+00:00",
       "levi-rodrigues-jr": "2026-07-16T01:01:10.349922+00:00",
       "magomed-ankalaev": "2026-07-20T07:00:58.503645+00:00",
-      "magomed-tuchalov": "2026-07-22T07:00:44.610147+00:00",
+      "magomed-tuchalov": "2026-07-23T07:01:09.024872+00:00",
       "magomed-zaynukov": "2026-07-20T09:00:53.524154+00:00",
-      "mike-davis": "2026-07-22T07:00:44.610147+00:00",
+      "mike-davis": "2026-07-23T07:01:09.024872+00:00",
       "mitch-ramirez": "2026-07-16T01:01:10.349922+00:00",
       "muhammad-said": "2026-07-23T03:00:48.682625+00:00",
       "nurullo-aliev": "2026-07-20T05:00:53.211847+00:00",
