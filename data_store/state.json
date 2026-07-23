@@ -2359,6 +2359,66 @@
       "detail": "Magomed Ankalaev: Magomed Ankalaev was urged to pull out of Alex Pereira rematch with injury: 'Have to pay for your mistakes' - CBS Sports",
       "ts": "2026-07-23T13:01:01+00:00",
       "type": "health_withdrawn"
+    },
+    {
+      "detail": "Ismael Bonfim vs Axel Sola: consensus +170 / -205 (7 books)",
+      "ts": "2026-07-23T17:09:45+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Magomed Ankalaev vs Bogdan Guskov: consensus -600 / +425 (7 books)",
+      "ts": "2026-07-23T17:09:45+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Magomed Zaynukov vs Damian Rzepecki: consensus -298 / +240 (7 books)",
+      "ts": "2026-07-23T17:09:45+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Wellington Turman vs Islam Dulatov: consensus +650 / -1000 (7 books)",
+      "ts": "2026-07-23T17:09:45+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Mike Davis vs Nurullo Aliev: consensus +182 / -220 (7 books)",
+      "ts": "2026-07-23T17:09:45+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Rizvan Kuniev vs Tyrell Fortune: consensus -335 / +260 (7 books)",
+      "ts": "2026-07-23T17:09:45+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Santiago Ponzinibbio vs Sam Patterson: consensus +360 / -480 (7 books)",
+      "ts": "2026-07-23T17:09:45+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Thomas Petersen vs Valter Walker: consensus +145 / -177 (7 books)",
+      "ts": "2026-07-23T17:09:45+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Cody Gibson vs Abdul Hussein: consensus +399 / -550 (7 books)",
+      "ts": "2026-07-23T17:09:45+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Brendson Ribeiro vs Magomed Tuchalov: consensus +600 / -900 (7 books)",
+      "ts": "2026-07-23T17:09:45+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Dustin Jacoby vs Muhammad Said: consensus -170 / +145 (7 books)",
+      "ts": "2026-07-23T17:09:45+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Abubakar Vagaev vs Saygid Izagakhmaev: consensus -270 / +220 (7 books)",
+      "ts": "2026-07-23T17:09:45+00:00",
+      "type": "odds_update"
     }
   ],
   "fighters": {
@@ -4934,7 +4994,7 @@
       "a": "brendson-ribeiro",
       "a_ml": 600,
       "b": "magomed-tuchalov",
-      "b_ml": -950,
+      "b_ml": -900,
       "event": "UFC Fight Night: Ankalaev vs. Guskov",
       "label": "Brendson Ribeiro vs Magomed Tuchalov",
       "rounds": 3,
@@ -4942,9 +5002,9 @@
     },
     {
       "a": "ismael-bonfim",
-      "a_ml": 165,
+      "a_ml": 170,
       "b": "axel-sola",
-      "b_ml": -200,
+      "b_ml": -205,
       "event": "UFC Fight Night: Ankalaev vs. Guskov",
       "label": "Ismael Bonfim vs Axel Sola",
       "rounds": 3,
@@ -4980,9 +5040,9 @@
     },
     {
       "a": "abubakar-vagaev",
-      "a_ml": -272,
+      "a_ml": -270,
       "b": "saygid-izagakhmaev",
-      "b_ml": 223,
+      "b_ml": 220,
       "event": "UFC Fight Night: Ankalaev vs. Guskov",
       "label": "Abubakar Vagaev vs Saygid Izagakhmaev",
       "rounds": 3,
@@ -5000,9 +5060,9 @@
     },
     {
       "a": "magomed-zaynukov",
-      "a_ml": -300,
+      "a_ml": -298,
       "b": "damian-rzepecki",
-      "b_ml": 238,
+      "b_ml": 240,
       "event": "UFC Fight Night: Ankalaev vs. Guskov",
       "label": "Magomed Zaynukov vs Damian Rzepecki",
       "rounds": 3,
@@ -5010,7 +5070,7 @@
     },
     {
       "a": "wellington-turman",
-      "a_ml": 625,
+      "a_ml": 650,
       "b": "islam-dulatov",
       "b_ml": -1000,
       "event": "UFC Fight Night: Ankalaev vs. Guskov",
@@ -5038,9 +5098,9 @@
     },
     {
       "a": "cody-gibson",
-      "a_ml": 395,
+      "a_ml": 399,
       "b": "abdul-hussein",
-      "b_ml": -525,
+      "b_ml": -550,
       "event": "UFC Fight Night: Ankalaev vs. Guskov",
       "label": "Cody Gibson vs Abdul Hussein",
       "rounds": 3,
@@ -5050,7 +5110,7 @@
       "a": "dustin-jacoby",
       "a_ml": -170,
       "b": "muhammad-said",
-      "b_ml": 142,
+      "b_ml": 145,
       "event": "UFC Fight Night: Ankalaev vs. Guskov",
       "label": "Dustin Jacoby vs Muhammad Said",
       "rounds": 3,
@@ -5061,7 +5121,7 @@
     "calibration": {
       "shrink": 0.1
     },
-    "last_sync": "2026-07-23T17:00:47+00:00",
+    "last_sync": "2026-07-23T17:09:47+00:00",
     "news_last": {
       "abdul-hussein": "2026-07-23T17:00:46.895170+00:00",
       "abubakar-vagaev": "2026-07-23T11:00:42.772662+00:00",
@@ -5116,8 +5176,8 @@
       "wellington-turman": "2026-07-23T17:00:46.895170+00:00"
     },
     "odds": {
-      "count": 39,
-      "last_call": "2026-07-23T13:00:59.436265+00:00",
+      "count": 40,
+      "last_call": "2026-07-23T17:09:45.659521+00:00",
       "month": "2026-07"
     },
     "ufcstats_last": {
