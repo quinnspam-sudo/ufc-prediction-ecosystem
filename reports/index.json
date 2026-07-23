@@ -295,9 +295,9 @@
     },
     "Magomed Ankalaev vs Bogdan Guskov": {
       "win_probability": {
-        "fighter_a_pct": 49.63,
-        "fighter_b_pct": 50.37,
-        "draw_pct": 6.68,
+        "fighter_a_pct": 49.35,
+        "fighter_b_pct": 50.65,
+        "draw_pct": 6.8,
         "calibration_shrink_applied": 0.1
       },
       "value_flags": {

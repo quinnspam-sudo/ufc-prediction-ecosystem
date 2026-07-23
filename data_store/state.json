@@ -2289,6 +2289,11 @@
       "detail": "Chase Hooper: Chase Hooper misses weight for first time at UFC Oklahoma City - Yardbarker",
       "ts": "2026-07-23T07:01:09+00:00",
       "type": "health_missed_weight"
+    },
+    {
+      "detail": "Kamaru Usman: Dana White On Dricus Du Plessis, Kamaru Usman, Conor McGregor\u2019s Injury & More - UFC.com",
+      "ts": "2026-07-23T11:00:45+00:00",
+      "type": "health_injury"
     }
   ],
   "fighters": {
@@ -2671,9 +2676,9 @@
       "withdrawn": false
     },
     "bogdan-guskov": {
-      "_injury_from_news": true,
-      "_updated": "2026-07-22T21:49:52+00:00",
-      "active_injury": true,
+      "_injury_from_news": false,
+      "_updated": "2026-07-23T11:00:45+00:00",
+      "active_injury": false,
       "age": 30,
       "career_fights": 12,
       "career_knockdowns_suffered": 2,
@@ -2688,7 +2693,7 @@
       "fight_location_country": "USA",
       "height_in": 70.0,
       "home_country": "USA",
-      "injury_note": "Rountree injured, Guskov steps in vs. Ankalaev at UFC Abu Dhabi - theScore",
+      "injury_note": "",
       "last_fight_date": "2025-06-01",
       "missed_weight": false,
       "name": "Bogdan Guskov",
@@ -4593,7 +4598,7 @@
     },
     "usman": {
       "_injury_from_news": true,
-      "_updated": "2026-07-22T21:49:52+00:00",
+      "_updated": "2026-07-23T11:00:45+00:00",
       "active_injury": true,
       "age": 38,
       "career_fights": 25,
@@ -4991,30 +4996,30 @@
     "calibration": {
       "shrink": 0.1
     },
-    "last_sync": "2026-07-23T09:32:31+00:00",
+    "last_sync": "2026-07-23T11:00:45+00:00",
     "news_last": {
       "abdul-hussein": "2026-07-23T05:00:44.174405+00:00",
-      "abubakar-vagaev": "2026-07-22T21:49:49.764064+00:00",
+      "abubakar-vagaev": "2026-07-23T11:00:42.772662+00:00",
       "alberto-montes": "2026-07-23T07:01:06.773883+00:00",
       "alden-coria": "2026-07-23T07:01:06.773883+00:00",
       "alvin-hines": "2026-07-23T07:01:06.773883+00:00",
       "anna-melisano": "2026-07-23T07:01:06.773883+00:00",
       "austin-bashi": "2026-07-23T07:01:06.773883+00:00",
-      "axel-sola": "2026-07-22T21:49:49.764064+00:00",
-      "bogdan-guskov": "2026-07-22T21:49:49.764064+00:00",
-      "brendson-ribeiro": "2026-07-22T21:49:49.764064+00:00",
+      "axel-sola": "2026-07-23T11:00:42.772662+00:00",
+      "bogdan-guskov": "2026-07-23T11:00:42.772662+00:00",
+      "brendson-ribeiro": "2026-07-23T11:00:42.772662+00:00",
       "chase-hooper": "2026-07-23T07:01:06.773883+00:00",
       "christian-leroy-duncan": "2026-07-23T07:01:06.773883+00:00",
       "cody-gibson": "2026-07-23T05:00:44.174405+00:00",
-      "damian-rzepecki": "2026-07-22T21:49:49.764064+00:00",
+      "damian-rzepecki": "2026-07-23T11:00:42.772662+00:00",
       "damien-anderson": "2026-07-23T09:32:28.563724+00:00",
       "dione-barbosa": "2026-07-23T09:00:50.636798+00:00",
       "duplessis": "2026-07-23T09:00:50.636798+00:00",
-      "dustin-jacoby": "2026-07-22T21:49:49.764064+00:00",
+      "dustin-jacoby": "2026-07-23T11:00:42.772662+00:00",
       "ezra-elliott": "2026-07-23T09:32:28.563724+00:00",
       "fatima-kline": "2026-07-23T09:00:50.636798+00:00",
       "felipe-franco": "2026-07-23T09:00:50.636798+00:00",
-      "islam-dulatov": "2026-07-22T21:49:49.764064+00:00",
+      "islam-dulatov": "2026-07-23T11:00:42.772662+00:00",
       "ismael-bonfim": "2026-07-22T23:00:53.972261+00:00",
       "jared-cannonier": "2026-07-23T09:00:50.636798+00:00",
       "jean-paul-lebosnoyani": "2026-07-23T09:00:50.636798+00:00",
@@ -5041,7 +5046,7 @@
       "tommy-mcmillen": "2026-07-23T09:32:28.563724+00:00",
       "tyrell-fortune": "2026-07-23T03:00:46.404689+00:00",
       "uran-satybaldiev": "2026-07-23T03:00:46.404689+00:00",
-      "usman": "2026-07-22T21:49:49.764064+00:00",
+      "usman": "2026-07-23T11:00:42.772662+00:00",
       "valter-walker": "2026-07-23T03:00:46.404689+00:00",
       "wellington-turman": "2026-07-23T05:00:44.174405+00:00"
     },
