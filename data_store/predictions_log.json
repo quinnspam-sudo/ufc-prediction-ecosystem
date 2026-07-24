@@ -420,17 +420,17 @@
       "label": "Magomed Ankalaev vs Bogdan Guskov",
       "a": "Magomed Ankalaev",
       "b": "Bogdan Guskov",
-      "p_a": 0.4935,
+      "p_a": 0.4963,
       "event": "UFC Fight Night: Ankalaev vs. Guskov",
-      "logged": "2026-07-23T11:00:45+00:00",
+      "logged": "2026-07-24T01:01:09+00:00",
       "resolved": false,
       "actual_a": null,
       "brier": null,
       "resolved_at": null,
-      "p_ko": 0.2736,
-      "p_sub": 0.1583,
-      "p_dec": 0.5001,
-      "p_distance": 0.5681
+      "p_ko": 0.2687,
+      "p_sub": 0.1615,
+      "p_dec": 0.503,
+      "p_distance": 0.5698
     },
     {
       "label": "Santiago Ponzinibbio vs Sam Patterson",
