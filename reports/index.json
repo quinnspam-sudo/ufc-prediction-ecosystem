@@ -244,9 +244,9 @@
     },
     "Rizvan Kuniev vs Tyrell Fortune": {
       "win_probability": {
-        "fighter_a_pct": 51.22,
-        "fighter_b_pct": 48.78,
-        "draw_pct": 7.19,
+        "fighter_a_pct": 51.25,
+        "fighter_b_pct": 48.75,
+        "draw_pct": 6.92,
         "calibration_shrink_applied": 0.1
       },
       "value_flags": {
@@ -282,9 +282,9 @@
     },
     "Ramazan Temirov vs Steve Erceg": {
       "win_probability": {
-        "fighter_a_pct": 50.47,
-        "fighter_b_pct": 49.53,
-        "draw_pct": 7.43,
+        "fighter_a_pct": 50.48,
+        "fighter_b_pct": 49.52,
+        "draw_pct": 7.26,
         "calibration_shrink_applied": 0.1
       },
       "value_flags": {
@@ -295,9 +295,9 @@
     },
     "Magomed Ankalaev vs Bogdan Guskov": {
       "win_probability": {
-        "fighter_a_pct": 49.63,
-        "fighter_b_pct": 50.37,
-        "draw_pct": 6.68,
+        "fighter_a_pct": 49.75,
+        "fighter_b_pct": 50.25,
+        "draw_pct": 6.36,
         "calibration_shrink_applied": 0.1
       },
       "value_flags": {
