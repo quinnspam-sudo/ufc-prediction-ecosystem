@@ -232,9 +232,9 @@
     },
     "Abubakar Vagaev vs Saygid Izagakhmaev": {
       "win_probability": {
-        "fighter_a_pct": 26.46,
-        "fighter_b_pct": 73.54,
-        "draw_pct": 5.15
+        "fighter_a_pct": 25.81,
+        "fighter_b_pct": 74.19,
+        "draw_pct": 4.5
       },
       "value_flags": {
         "fighter_a": false,
