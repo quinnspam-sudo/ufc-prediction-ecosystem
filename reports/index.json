@@ -275,7 +275,7 @@
         "calibration_shrink_applied": 0.1
       },
       "value_flags": {
-        "fighter_a": true,
+        "fighter_a": false,
         "fighter_b": false
       },
       "report_file": "reports/wellington-turman-vs-islam-dulatov.json"
