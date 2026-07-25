@@ -156,9 +156,9 @@
     },
     "Mike Davis vs Nurullo Aliev": {
       "win_probability": {
-        "fighter_a_pct": 53.29,
-        "fighter_b_pct": 46.71,
-        "draw_pct": 6.65
+        "fighter_a_pct": 53.26,
+        "fighter_b_pct": 46.74,
+        "draw_pct": 6.4
       },
       "value_flags": {
         "fighter_a": false,
@@ -308,9 +308,9 @@
     },
     "Cody Gibson vs Abdul Hussein": {
       "win_probability": {
-        "fighter_a_pct": 60.01,
-        "fighter_b_pct": 39.99,
-        "draw_pct": 6.85
+        "fighter_a_pct": 60.5,
+        "fighter_b_pct": 39.5,
+        "draw_pct": 6.2
       },
       "value_flags": {
         "fighter_a": false,
