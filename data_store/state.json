@@ -1,11 +1,6 @@
 {
   "changelog": [
     {
-      "detail": "Chase Hooper: Chase Hooper misses weight for first time at UFC Oklahoma City - Yardbarker",
-      "ts": "2026-07-18T11:02:42+00:00",
-      "type": "health_missed_weight"
-    },
-    {
       "detail": "Alvin Hines vs RJ Harris: consensus -120 / +100 (7 books)",
       "ts": "2026-07-18T15:36:21+00:00",
       "type": "odds_update"
@@ -2498,6 +2493,11 @@
     {
       "detail": "Magomed Ankalaev beat Bogdan Guskov (Brier 0.2525)",
       "ts": "2026-07-25T21:01:00+00:00",
+      "type": "calibration_resolved"
+    },
+    {
+      "detail": "Magomed Ankalaev beat Bogdan Guskov (Brier 0.2867)",
+      "ts": "2026-07-25T21:13:02+00:00",
       "type": "calibration_resolved"
     }
   ],
@@ -5201,7 +5201,7 @@
     "calibration": {
       "shrink": 0.55
     },
-    "last_sync": "2026-07-25T21:01:00+00:00",
+    "last_sync": "2026-07-25T21:13:02+00:00",
     "news_last": {
       "abdul-hussein": "2026-07-25T09:04:06.140754+00:00",
       "abubakar-vagaev": "2026-07-25T19:00:44.766176+00:00",
@@ -5240,19 +5240,19 @@
       "ramazan-temirov": "2026-07-25T21:00:57.383215+00:00",
       "rizvan-kuniev": "2026-07-25T21:00:57.383215+00:00",
       "rj-harris": "2026-07-25T15:00:43.367939+00:00",
-      "sam-patterson": "2026-07-25T07:36:28.873669+00:00",
-      "santiago-ponzinibbio": "2026-07-25T07:36:28.873669+00:00",
-      "saygid-izagakhmaev": "2026-07-25T07:36:28.873669+00:00",
+      "sam-patterson": "2026-07-25T21:12:59.876871+00:00",
+      "santiago-ponzinibbio": "2026-07-25T21:12:59.876871+00:00",
+      "saygid-izagakhmaev": "2026-07-25T21:12:59.876871+00:00",
       "seokhyeon-ko": "2026-07-25T15:00:43.367939+00:00",
-      "steve-erceg": "2026-07-25T07:36:28.873669+00:00",
+      "steve-erceg": "2026-07-25T21:12:59.876871+00:00",
       "stewart-nicoll": "2026-07-25T15:00:43.367939+00:00",
       "tabatha-ricci": "2026-07-25T15:00:43.367939+00:00",
-      "thomas-petersen": "2026-07-25T07:36:28.873669+00:00",
+      "thomas-petersen": "2026-07-25T21:12:59.876871+00:00",
       "tommy-mcmillen": "2026-07-25T15:00:43.367939+00:00",
-      "tyrell-fortune": "2026-07-25T07:36:28.873669+00:00",
-      "uran-satybaldiev": "2026-07-25T07:36:28.873669+00:00",
+      "tyrell-fortune": "2026-07-25T21:12:59.876871+00:00",
+      "uran-satybaldiev": "2026-07-25T21:12:59.876871+00:00",
       "usman": "2026-07-25T19:00:44.766176+00:00",
-      "valter-walker": "2026-07-25T07:36:28.873669+00:00",
+      "valter-walker": "2026-07-25T21:12:59.876871+00:00",
       "wellington-turman": "2026-07-25T09:04:06.140754+00:00"
     },
     "odds": {
