@@ -195,7 +195,7 @@
       "win_probability": {
         "fighter_a_pct": 53.07,
         "fighter_b_pct": 46.93,
-        "draw_pct": 0.09,
+        "draw_pct": 0.07,
         "calibration_shrink_applied": 0.1
       },
       "value_flags": {
@@ -208,7 +208,7 @@
       "win_probability": {
         "fighter_a_pct": 53.14,
         "fighter_b_pct": 46.86,
-        "draw_pct": 0.01,
+        "draw_pct": 0.0,
         "calibration_shrink_applied": 0.1
       },
       "value_flags": {
@@ -221,7 +221,7 @@
       "win_probability": {
         "fighter_a_pct": 52.88,
         "fighter_b_pct": 47.12,
-        "draw_pct": 0.01,
+        "draw_pct": 0.0,
         "calibration_shrink_applied": 0.1
       },
       "value_flags": {
@@ -320,9 +320,9 @@
     },
     "Dustin Jacoby vs Muhammad Said": {
       "win_probability": {
-        "fighter_a_pct": 52.69,
-        "fighter_b_pct": 47.31,
-        "draw_pct": 7.0
+        "fighter_a_pct": 52.72,
+        "fighter_b_pct": 47.28,
+        "draw_pct": 6.4
       },
       "value_flags": {
         "fighter_a": false,
