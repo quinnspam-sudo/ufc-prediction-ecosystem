@@ -1,66 +1,6 @@
 {
   "changelog": [
     {
-      "detail": "Chase Hooper vs Mitch Ramirez: consensus -355 / +280 (7 books)",
-      "ts": "2026-07-16T11:01:13+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Jared Cannonier vs Christian Leroy Duncan: consensus +285 / -360 (7 books)",
-      "ts": "2026-07-16T11:01:13+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Du Plessis vs Usman: consensus -250 / +200 (7 books)",
-      "ts": "2026-07-16T11:01:13+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Alberto Montes vs Tommy McMillen: consensus +125 / -150 (7 books)",
-      "ts": "2026-07-16T16:52:21+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Alden Coria vs Stewart Nicoll: consensus -1100 / +700 (7 books)",
-      "ts": "2026-07-16T16:52:21+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Alvin Hines vs RJ Harris: consensus -145 / +117 (7 books)",
-      "ts": "2026-07-16T16:52:21+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Dione Barbosa vs Anna Melisano: consensus -650 / +455 (7 books)",
-      "ts": "2026-07-16T16:52:21+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Tabatha Ricci vs Fatima Kline: consensus +369 / -485 (7 books)",
-      "ts": "2026-07-16T16:52:21+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Chase Hooper vs Mitch Ramirez: consensus -355 / +280 (7 books)",
-      "ts": "2026-07-16T16:52:21+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Jared Cannonier vs Christian Leroy Duncan: consensus +295 / -370 (7 books)",
-      "ts": "2026-07-16T16:52:21+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Du Plessis vs Usman: consensus -250 / +200 (7 books)",
-      "ts": "2026-07-16T16:52:21+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Alberto Montes vs Tommy McMillen: consensus +126 / -150 (7 books)",
-      "ts": "2026-07-16T21:01:01+00:00",
-      "type": "odds_update"
-    },
-    {
       "detail": "Alden Coria vs Stewart Nicoll: consensus -1100 / +700 (7 books)",
       "ts": "2026-07-16T21:01:01+00:00",
       "type": "odds_update"
@@ -2499,6 +2439,66 @@
       "detail": "Chase Hooper: Chase Hooper misses weight for first time at UFC Oklahoma City - Yardbarker",
       "ts": "2026-07-24T21:48:22+00:00",
       "type": "health_missed_weight"
+    },
+    {
+      "detail": "Cody Gibson vs Abdul Hussein: consensus +410 / -560 (7 books)",
+      "ts": "2026-07-25T03:00:44+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Mike Davis vs Nurullo Aliev: consensus +188 / -230 (7 books)",
+      "ts": "2026-07-25T03:00:44+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Brendson Ribeiro vs Magomed Tuchalov: consensus +590 / -900 (7 books)",
+      "ts": "2026-07-25T03:00:44+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Ismael Bonfim vs Axel Sola: consensus +160 / -195 (7 books)",
+      "ts": "2026-07-25T03:00:44+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Santiago Ponzinibbio vs Sam Patterson: consensus +369 / -500 (7 books)",
+      "ts": "2026-07-25T03:00:44+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Dustin Jacoby vs Muhammad Said: consensus -180 / +153 (7 books)",
+      "ts": "2026-07-25T03:00:44+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Abubakar Vagaev vs Saygid Izagakhmaev: consensus -250 / +205 (7 books)",
+      "ts": "2026-07-25T03:00:44+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Rizvan Kuniev vs Tyrell Fortune: consensus -334 / +270 (7 books)",
+      "ts": "2026-07-25T03:00:44+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Magomed Zaynukov vs Damian Rzepecki: consensus -285 / +230 (7 books)",
+      "ts": "2026-07-25T03:00:44+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Wellington Turman vs Islam Dulatov: consensus +675 / -1050 (7 books)",
+      "ts": "2026-07-25T03:00:44+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Magomed Ankalaev vs Bogdan Guskov: consensus -550 / +410 (7 books)",
+      "ts": "2026-07-25T03:00:44+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Thomas Petersen vs Valter Walker: consensus +150 / -182 (7 books)",
+      "ts": "2026-07-25T03:00:44+00:00",
+      "type": "odds_update"
     }
   ],
   "fighters": {
@@ -5062,7 +5062,7 @@
     },
     {
       "a": "mike-davis",
-      "a_ml": 190,
+      "a_ml": 188,
       "b": "nurullo-aliev",
       "b_ml": -230,
       "event": "UFC Fight Night: Ankalaev vs. Guskov",
@@ -5082,7 +5082,7 @@
     },
     {
       "a": "ismael-bonfim",
-      "a_ml": 161,
+      "a_ml": 160,
       "b": "axel-sola",
       "b_ml": -195,
       "event": "UFC Fight Night: Ankalaev vs. Guskov",
@@ -5130,7 +5130,7 @@
     },
     {
       "a": "rizvan-kuniev",
-      "a_ml": -335,
+      "a_ml": -334,
       "b": "tyrell-fortune",
       "b_ml": 270,
       "event": "UFC Fight Night: Ankalaev vs. Guskov",
@@ -5140,9 +5140,9 @@
     },
     {
       "a": "magomed-zaynukov",
-      "a_ml": -295,
+      "a_ml": -285,
       "b": "damian-rzepecki",
-      "b_ml": 240,
+      "b_ml": 230,
       "event": "UFC Fight Night: Ankalaev vs. Guskov",
       "label": "Magomed Zaynukov vs Damian Rzepecki",
       "rounds": 3,
@@ -5168,9 +5168,9 @@
     },
     {
       "a": "magomed-ankalaev",
-      "a_ml": -600,
+      "a_ml": -550,
       "b": "bogdan-guskov",
-      "b_ml": 425,
+      "b_ml": 410,
       "event": "UFC Fight Night: Ankalaev vs. Guskov",
       "label": "Magomed Ankalaev vs Bogdan Guskov",
       "rounds": 5,
@@ -5188,9 +5188,9 @@
     },
     {
       "a": "dustin-jacoby",
-      "a_ml": -177,
+      "a_ml": -180,
       "b": "muhammad-said",
-      "b_ml": 150,
+      "b_ml": 153,
       "event": "UFC Fight Night: Ankalaev vs. Guskov",
       "label": "Dustin Jacoby vs Muhammad Said",
       "rounds": 3,
@@ -5201,7 +5201,7 @@
     "calibration": {
       "shrink": 0.1
     },
-    "last_sync": "2026-07-25T01:03:38+00:00",
+    "last_sync": "2026-07-25T03:00:46+00:00",
     "news_last": {
       "abdul-hussein": "2026-07-24T21:00:46.949316+00:00",
       "abubakar-vagaev": "2026-07-24T15:00:44.313686+00:00",
@@ -5256,8 +5256,8 @@
       "wellington-turman": "2026-07-24T21:00:46.949316+00:00"
     },
     "odds": {
-      "count": 46,
-      "last_call": "2026-07-24T21:48:21.904040+00:00",
+      "count": 47,
+      "last_call": "2026-07-25T03:00:44.306931+00:00",
       "month": "2026-07"
     },
     "ufcstats_last": {
