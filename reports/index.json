@@ -168,9 +168,10 @@
     },
     "Brendson Ribeiro vs Magomed Tuchalov": {
       "win_probability": {
-        "fighter_a_pct": 15.6,
-        "fighter_b_pct": 84.4,
-        "draw_pct": 0.0
+        "fighter_a_pct": 30.73,
+        "fighter_b_pct": 69.27,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.55
       },
       "value_flags": {
         "fighter_a": false,
