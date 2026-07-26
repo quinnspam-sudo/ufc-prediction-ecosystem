@@ -404,17 +404,17 @@
       "label": "Dustin Jacoby vs Uran Satybaldiev",
       "a": "Dustin Jacoby",
       "b": "Uran Satybaldiev",
-      "p_a": 0.5314,
+      "p_a": 0.6713,
       "event": "UFC Fight Night: Ankalaev vs. Guskov",
-      "logged": "2026-07-25T15:52:55+00:00",
+      "logged": "2026-07-26T07:01:01+00:00",
       "resolved": false,
       "actual_a": null,
       "brier": null,
       "resolved_at": null,
-      "p_ko": 0.1827,
-      "p_sub": 0.139,
-      "p_dec": 0.6783,
-      "p_distance": 0.6783
+      "p_ko": 0.1758,
+      "p_sub": 0.141,
+      "p_dec": 0.6826,
+      "p_distance": 0.6832
     },
     {
       "label": "Magomed Ankalaev vs Bogdan Guskov",
@@ -783,6 +783,38 @@
       "p_sub": 0.1582,
       "p_dec": 0.5003,
       "p_distance": 0.568
+    },
+    {
+      "label": "Magomed Ankalaev vs Bogdan Guskov",
+      "a": "Magomed Ankalaev",
+      "b": "Bogdan Guskov",
+      "p_a": 0.4799,
+      "event": "UFC Fight Night: Ankalaev vs. Guskov",
+      "logged": "2026-07-26T07:01:01+00:00",
+      "resolved": false,
+      "actual_a": null,
+      "brier": null,
+      "resolved_at": null,
+      "p_ko": 0.2687,
+      "p_sub": 0.1615,
+      "p_dec": 0.5038,
+      "p_distance": 0.5698
+    },
+    {
+      "label": "Dustin Jacoby vs Muhammad Said",
+      "a": "Dustin Jacoby",
+      "b": "Muhammad Said",
+      "p_a": 0.5046,
+      "event": "UFC Fight Night: Ankalaev vs. Guskov",
+      "logged": "2026-07-26T07:01:01+00:00",
+      "resolved": false,
+      "actual_a": null,
+      "brier": null,
+      "resolved_at": null,
+      "p_ko": 0.1795,
+      "p_sub": 0.0895,
+      "p_dec": 0.6605,
+      "p_distance": 0.731
     }
   ]
 }

@@ -206,10 +206,10 @@
     },
     "Dustin Jacoby vs Uran Satybaldiev": {
       "win_probability": {
-        "fighter_a_pct": 53.14,
-        "fighter_b_pct": 46.86,
-        "draw_pct": 0.0,
-        "calibration_shrink_applied": 0.1
+        "fighter_a_pct": 67.13,
+        "fighter_b_pct": 32.87,
+        "draw_pct": 0.06,
+        "calibration_shrink_applied": 0.55
       },
       "value_flags": {
         "fighter_a": true,
@@ -295,9 +295,9 @@
     },
     "Magomed Ankalaev vs Bogdan Guskov": {
       "win_probability": {
-        "fighter_a_pct": 46.46,
-        "fighter_b_pct": 53.54,
-        "draw_pct": 6.77,
+        "fighter_a_pct": 47.99,
+        "fighter_b_pct": 52.01,
+        "draw_pct": 6.6,
         "calibration_shrink_applied": 0.55
       },
       "value_flags": {
@@ -320,9 +320,9 @@
     },
     "Dustin Jacoby vs Muhammad Said": {
       "win_probability": {
-        "fighter_a_pct": 52.72,
-        "fighter_b_pct": 47.28,
-        "draw_pct": 6.4
+        "fighter_a_pct": 50.46,
+        "fighter_b_pct": 49.54,
+        "draw_pct": 7.05
       },
       "value_flags": {
         "fighter_a": false,
