@@ -1,11 +1,6 @@
 {
   "changelog": [
     {
-      "detail": "Du Plessis vs Usman: consensus -210 / +174 (7 books)",
-      "ts": "2026-07-18T21:00:49+00:00",
-      "type": "odds_update"
-    },
-    {
       "detail": "Dione Barbosa won at UFC Fight Night: Du Plessis vs. Usman (2026-07-18)",
       "ts": "2026-07-18T23:00:49+00:00",
       "type": "fight_result"
@@ -2499,6 +2494,11 @@
       "detail": "Kamaru Usman: Dana White On Dricus Du Plessis, Kamaru Usman, Conor McGregor\u2019s Injury & More - UFC.com",
       "ts": "2026-07-26T21:02:34+00:00",
       "type": "health_injury"
+    },
+    {
+      "detail": "Magomed Ankalaev: Magomed Ankalaev was urged to pull out of Alex Pereira rematch with injury: 'Have to pay for your mistakes' - CBS Sports",
+      "ts": "2026-07-26T21:39:50+00:00",
+      "type": "health_withdrawn"
     }
   ],
   "fighters": {
@@ -3780,7 +3780,7 @@
     },
     "magomed-ankalaev": {
       "_injury_from_news": true,
-      "_updated": "2026-07-26T09:01:07+00:00",
+      "_updated": "2026-07-26T21:39:50+00:00",
       "active_injury": true,
       "age": 30,
       "career_fights": 12,
@@ -5202,7 +5202,7 @@
     "calibration": {
       "shrink": 0.55
     },
-    "last_sync": "2026-07-26T21:02:34+00:00",
+    "last_sync": "2026-07-26T21:39:50+00:00",
     "news_last": {
       "abdul-hussein": "2026-07-26T13:00:42.942455+00:00",
       "abubakar-vagaev": "2026-07-26T21:02:32.029289+00:00",
@@ -5226,20 +5226,20 @@
       "fatima-kline": "2026-07-26T15:02:15.541986+00:00",
       "felipe-franco": "2026-07-26T15:02:15.541986+00:00",
       "islam-dulatov": "2026-07-26T21:02:32.029289+00:00",
-      "ismael-bonfim": "2026-07-26T09:01:05.216430+00:00",
+      "ismael-bonfim": "2026-07-26T21:39:47.396981+00:00",
       "jared-cannonier": "2026-07-26T15:02:15.541986+00:00",
       "jean-paul-lebosnoyani": "2026-07-26T15:49:02.172191+00:00",
       "jose-miguel-delgado": "2026-07-26T15:49:02.172191+00:00",
       "levi-rodrigues-jr": "2026-07-26T15:49:02.172191+00:00",
-      "magomed-ankalaev": "2026-07-26T09:01:05.216430+00:00",
-      "magomed-tuchalov": "2026-07-26T09:01:05.216430+00:00",
-      "magomed-zaynukov": "2026-07-26T09:01:05.216430+00:00",
-      "mike-davis": "2026-07-26T09:01:05.216430+00:00",
+      "magomed-ankalaev": "2026-07-26T21:39:47.396981+00:00",
+      "magomed-tuchalov": "2026-07-26T21:39:47.396981+00:00",
+      "magomed-zaynukov": "2026-07-26T21:39:47.396981+00:00",
+      "mike-davis": "2026-07-26T21:39:47.396981+00:00",
       "mitch-ramirez": "2026-07-26T19:00:44.752468+00:00",
       "muhammad-said": "2026-07-26T15:02:15.541986+00:00",
-      "nurullo-aliev": "2026-07-26T09:01:05.216430+00:00",
-      "ramazan-temirov": "2026-07-26T09:01:05.216430+00:00",
-      "rizvan-kuniev": "2026-07-26T09:01:05.216430+00:00",
+      "nurullo-aliev": "2026-07-26T21:39:47.396981+00:00",
+      "ramazan-temirov": "2026-07-26T21:39:47.396981+00:00",
+      "rizvan-kuniev": "2026-07-26T21:39:47.396981+00:00",
       "rj-harris": "2026-07-26T19:00:44.752468+00:00",
       "sam-patterson": "2026-07-26T11:00:46.241102+00:00",
       "santiago-ponzinibbio": "2026-07-26T11:00:46.241102+00:00",
