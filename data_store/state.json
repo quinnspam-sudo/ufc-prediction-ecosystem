@@ -1,21 +1,6 @@
 {
   "changelog": [
     {
-      "detail": "Alden Coria vs Stewart Nicoll: consensus -1100 / +705 (7 books)",
-      "ts": "2026-07-18T21:00:49+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Damien Anderson vs Ezra Elliott: consensus -124 / +105 (6 books)",
-      "ts": "2026-07-18T21:00:49+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Alberto Montes vs Tommy McMillen: consensus +175 / -205 (7 books)",
-      "ts": "2026-07-18T21:00:49+00:00",
-      "type": "odds_update"
-    },
-    {
       "detail": "Tabatha Ricci vs Fatima Kline: consensus +380 / -500 (7 books)",
       "ts": "2026-07-18T21:00:49+00:00",
       "type": "odds_update"
@@ -2499,6 +2484,21 @@
       "detail": "Magomed Tuchalov beat Brendson Ribeiro (Brier 0.0944)",
       "ts": "2026-07-26T13:00:53+00:00",
       "type": "calibration_resolved"
+    },
+    {
+      "detail": "Chase Hooper: Chase Hooper misses weight for first time at UFC Oklahoma City - Yardbarker",
+      "ts": "2026-07-26T15:02:18+00:00",
+      "type": "health_missed_weight"
+    },
+    {
+      "detail": "Abubakar Vagaev beat Saygid Izagakhmaev (Brier 0.4575)",
+      "ts": "2026-07-26T15:02:18+00:00",
+      "type": "calibration_resolved"
+    },
+    {
+      "detail": "Magomed Zaynukov beat Damian Rzepecki (Brier 0.075)",
+      "ts": "2026-07-26T15:02:18+00:00",
+      "type": "calibration_resolved"
     }
   ],
   "fighters": {
@@ -2983,7 +2983,7 @@
     },
     "chase-hooper": {
       "_injury_from_news": true,
-      "_updated": "2026-07-26T01:00:51+00:00",
+      "_updated": "2026-07-26T15:02:18+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -5202,7 +5202,7 @@
     "calibration": {
       "shrink": 0.55
     },
-    "last_sync": "2026-07-26T13:00:54+00:00",
+    "last_sync": "2026-07-26T15:02:18+00:00",
     "news_last": {
       "abdul-hussein": "2026-07-26T13:00:42.942455+00:00",
       "abubakar-vagaev": "2026-07-26T07:00:54.297733+00:00",
@@ -5214,20 +5214,20 @@
       "axel-sola": "2026-07-26T07:00:54.297733+00:00",
       "bogdan-guskov": "2026-07-26T07:00:54.297733+00:00",
       "brendson-ribeiro": "2026-07-26T07:00:54.297733+00:00",
-      "chase-hooper": "2026-07-26T01:00:49.055187+00:00",
-      "christian-leroy-duncan": "2026-07-26T01:00:49.055187+00:00",
+      "chase-hooper": "2026-07-26T15:02:15.541986+00:00",
+      "christian-leroy-duncan": "2026-07-26T15:02:15.541986+00:00",
       "cody-gibson": "2026-07-26T13:00:42.942455+00:00",
       "damian-rzepecki": "2026-07-26T07:00:54.297733+00:00",
       "damien-anderson": "2026-07-26T05:00:55.821330+00:00",
-      "dione-barbosa": "2026-07-26T01:00:49.055187+00:00",
-      "duplessis": "2026-07-26T01:00:49.055187+00:00",
+      "dione-barbosa": "2026-07-26T15:02:15.541986+00:00",
+      "duplessis": "2026-07-26T15:02:15.541986+00:00",
       "dustin-jacoby": "2026-07-26T07:00:54.297733+00:00",
       "ezra-elliott": "2026-07-26T05:00:55.821330+00:00",
-      "fatima-kline": "2026-07-26T01:00:49.055187+00:00",
-      "felipe-franco": "2026-07-26T01:00:49.055187+00:00",
+      "fatima-kline": "2026-07-26T15:02:15.541986+00:00",
+      "felipe-franco": "2026-07-26T15:02:15.541986+00:00",
       "islam-dulatov": "2026-07-26T07:00:54.297733+00:00",
       "ismael-bonfim": "2026-07-26T09:01:05.216430+00:00",
-      "jared-cannonier": "2026-07-26T01:00:49.055187+00:00",
+      "jared-cannonier": "2026-07-26T15:02:15.541986+00:00",
       "jean-paul-lebosnoyani": "2026-07-26T03:00:41.826398+00:00",
       "jose-miguel-delgado": "2026-07-26T03:00:41.826398+00:00",
       "levi-rodrigues-jr": "2026-07-26T03:00:41.826398+00:00",
@@ -5236,7 +5236,7 @@
       "magomed-zaynukov": "2026-07-26T09:01:05.216430+00:00",
       "mike-davis": "2026-07-26T09:01:05.216430+00:00",
       "mitch-ramirez": "2026-07-26T05:00:55.821330+00:00",
-      "muhammad-said": "2026-07-26T01:00:49.055187+00:00",
+      "muhammad-said": "2026-07-26T15:02:15.541986+00:00",
       "nurullo-aliev": "2026-07-26T09:01:05.216430+00:00",
       "ramazan-temirov": "2026-07-26T09:01:05.216430+00:00",
       "rizvan-kuniev": "2026-07-26T09:01:05.216430+00:00",
