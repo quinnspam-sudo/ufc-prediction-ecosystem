@@ -1,21 +1,6 @@
 {
   "changelog": [
     {
-      "detail": "Tabatha Ricci vs Fatima Kline: consensus +380 / -500 (7 books)",
-      "ts": "2026-07-18T21:00:49+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Chase Hooper vs Mitch Ramirez: consensus -370 / +285 (7 books)",
-      "ts": "2026-07-18T21:00:49+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Jared Cannonier vs Christian Leroy Duncan: consensus +280 / -355 (7 books)",
-      "ts": "2026-07-18T21:00:49+00:00",
-      "type": "odds_update"
-    },
-    {
       "detail": "Du Plessis vs Usman: consensus -210 / +174 (7 books)",
       "ts": "2026-07-18T21:00:49+00:00",
       "type": "odds_update"
@@ -2499,6 +2484,21 @@
       "detail": "Magomed Zaynukov beat Damian Rzepecki (Brier 0.075)",
       "ts": "2026-07-26T15:02:18+00:00",
       "type": "calibration_resolved"
+    },
+    {
+      "detail": "Bogdan Guskov: Rountree injured, Guskov steps in vs. Ankalaev at UFC Abu Dhabi - theScore",
+      "ts": "2026-07-26T21:02:34+00:00",
+      "type": "health_injury"
+    },
+    {
+      "detail": "Dustin Jacoby: Dustin Jacoby Shares Injury Update After UFC Abu Dhabi Loss - heavy.com",
+      "ts": "2026-07-26T21:02:34+00:00",
+      "type": "health_injury"
+    },
+    {
+      "detail": "Kamaru Usman: Dana White On Dricus Du Plessis, Kamaru Usman, Conor McGregor\u2019s Injury & More - UFC.com",
+      "ts": "2026-07-26T21:02:34+00:00",
+      "type": "health_injury"
     }
   ],
   "fighters": {
@@ -2882,7 +2882,7 @@
     },
     "bogdan-guskov": {
       "_injury_from_news": true,
-      "_updated": "2026-07-26T07:00:57+00:00",
+      "_updated": "2026-07-26T21:02:34+00:00",
       "active_injury": true,
       "age": 30,
       "career_fights": 12,
@@ -3311,7 +3311,7 @@
     },
     "dustin-jacoby": {
       "_injury_from_news": true,
-      "_updated": "2026-07-26T07:00:57+00:00",
+      "_updated": "2026-07-26T21:02:34+00:00",
       "active_injury": true,
       "age": 30,
       "career_fights": 12,
@@ -3327,7 +3327,7 @@
       "fight_location_country": "USA",
       "height_in": 70.0,
       "home_country": "USA",
-      "injury_note": "Dustin Jacoby Shares Injury Update After UFC Abu Dhabi Loss - Yahoo Sports",
+      "injury_note": "Dustin Jacoby Shares Injury Update After UFC Abu Dhabi Loss - heavy.com",
       "last_fight_date": "2026-07-25",
       "missed_weight": false,
       "name": "Dustin Jacoby",
@@ -4804,7 +4804,7 @@
     },
     "usman": {
       "_injury_from_news": true,
-      "_updated": "2026-07-26T07:00:57+00:00",
+      "_updated": "2026-07-26T21:02:34+00:00",
       "active_injury": true,
       "age": 38,
       "career_fights": 25,
@@ -5202,30 +5202,30 @@
     "calibration": {
       "shrink": 0.55
     },
-    "last_sync": "2026-07-26T19:00:47+00:00",
+    "last_sync": "2026-07-26T21:02:34+00:00",
     "news_last": {
       "abdul-hussein": "2026-07-26T13:00:42.942455+00:00",
-      "abubakar-vagaev": "2026-07-26T07:00:54.297733+00:00",
+      "abubakar-vagaev": "2026-07-26T21:02:32.029289+00:00",
       "alberto-montes": "2026-07-26T13:00:42.942455+00:00",
       "alden-coria": "2026-07-26T13:00:42.942455+00:00",
       "alvin-hines": "2026-07-26T13:00:42.942455+00:00",
       "anna-melisano": "2026-07-26T13:00:42.942455+00:00",
       "austin-bashi": "2026-07-26T13:00:42.942455+00:00",
-      "axel-sola": "2026-07-26T07:00:54.297733+00:00",
-      "bogdan-guskov": "2026-07-26T07:00:54.297733+00:00",
-      "brendson-ribeiro": "2026-07-26T07:00:54.297733+00:00",
+      "axel-sola": "2026-07-26T21:02:32.029289+00:00",
+      "bogdan-guskov": "2026-07-26T21:02:32.029289+00:00",
+      "brendson-ribeiro": "2026-07-26T21:02:32.029289+00:00",
       "chase-hooper": "2026-07-26T15:02:15.541986+00:00",
       "christian-leroy-duncan": "2026-07-26T15:02:15.541986+00:00",
       "cody-gibson": "2026-07-26T13:00:42.942455+00:00",
-      "damian-rzepecki": "2026-07-26T07:00:54.297733+00:00",
+      "damian-rzepecki": "2026-07-26T21:02:32.029289+00:00",
       "damien-anderson": "2026-07-26T19:00:44.752468+00:00",
       "dione-barbosa": "2026-07-26T15:02:15.541986+00:00",
       "duplessis": "2026-07-26T15:02:15.541986+00:00",
-      "dustin-jacoby": "2026-07-26T07:00:54.297733+00:00",
+      "dustin-jacoby": "2026-07-26T21:02:32.029289+00:00",
       "ezra-elliott": "2026-07-26T19:00:44.752468+00:00",
       "fatima-kline": "2026-07-26T15:02:15.541986+00:00",
       "felipe-franco": "2026-07-26T15:02:15.541986+00:00",
-      "islam-dulatov": "2026-07-26T07:00:54.297733+00:00",
+      "islam-dulatov": "2026-07-26T21:02:32.029289+00:00",
       "ismael-bonfim": "2026-07-26T09:01:05.216430+00:00",
       "jared-cannonier": "2026-07-26T15:02:15.541986+00:00",
       "jean-paul-lebosnoyani": "2026-07-26T15:49:02.172191+00:00",
@@ -5252,13 +5252,13 @@
       "tommy-mcmillen": "2026-07-26T19:00:44.752468+00:00",
       "tyrell-fortune": "2026-07-26T11:00:46.241102+00:00",
       "uran-satybaldiev": "2026-07-26T11:00:46.241102+00:00",
-      "usman": "2026-07-26T07:00:54.297733+00:00",
+      "usman": "2026-07-26T21:02:32.029289+00:00",
       "valter-walker": "2026-07-26T11:00:46.241102+00:00",
       "wellington-turman": "2026-07-26T13:00:42.942455+00:00"
     },
     "odds": {
-      "count": 55,
-      "last_call": "2026-07-26T17:00:46.643960+00:00",
+      "count": 56,
+      "last_call": "2026-07-26T21:02:32.028226+00:00",
       "month": "2026-07"
     },
     "ufcstats_last": {
