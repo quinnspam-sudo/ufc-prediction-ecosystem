@@ -233,13 +233,14 @@
     },
     "Abubakar Vagaev vs Saygid Izagakhmaev": {
       "win_probability": {
-        "fighter_a_pct": 25.81,
-        "fighter_b_pct": 74.19,
-        "draw_pct": 4.5
+        "fighter_a_pct": 32.36,
+        "fighter_b_pct": 67.64,
+        "draw_pct": 3.97,
+        "calibration_shrink_applied": 0.55
       },
       "value_flags": {
         "fighter_a": false,
-        "fighter_b": false
+        "fighter_b": true
       },
       "report_file": "reports/abubakar-vagaev-vs-saygid-izagakhmaev.json"
     },
@@ -258,12 +259,13 @@
     },
     "Magomed Zaynukov vs Damian Rzepecki": {
       "win_probability": {
-        "fighter_a_pct": 84.6,
-        "fighter_b_pct": 15.4,
-        "draw_pct": 0.0
+        "fighter_a_pct": 72.61,
+        "fighter_b_pct": 27.4,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.55
       },
       "value_flags": {
-        "fighter_a": false,
+        "fighter_a": true,
         "fighter_b": false
       },
       "report_file": "reports/magomed-zaynukov-vs-damian-rzepecki.json"
