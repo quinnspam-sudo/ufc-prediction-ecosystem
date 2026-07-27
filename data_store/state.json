@@ -1,31 +1,6 @@
 {
   "changelog": [
     {
-      "detail": "Christian Leroy Duncan beat Jared Cannonier (Brier 0.2496)",
-      "ts": "2026-07-19T05:02:33+00:00",
-      "type": "calibration_resolved"
-    },
-    {
-      "detail": "Dricus Du Plessis beat Kamaru Usman (Brier 0.4039)",
-      "ts": "2026-07-19T05:02:33+00:00",
-      "type": "calibration_resolved"
-    },
-    {
-      "detail": "Dricus Du Plessis beat Kamaru Usman (Brier 0.4136)",
-      "ts": "2026-07-19T07:00:47+00:00",
-      "type": "calibration_resolved"
-    },
-    {
-      "detail": "Chase Hooper: Chase Hooper misses weight for first time at UFC Oklahoma City - Yardbarker",
-      "ts": "2026-07-19T15:00:56+00:00",
-      "type": "health_missed_weight"
-    },
-    {
-      "detail": "Anna Melisano: real stats populated (http://ufcstats.com/fighter-details/40a7ec5d1ad6ffa8)",
-      "ts": "2026-07-20T03:00:59+00:00",
-      "type": "ufcstats_scraped"
-    },
-    {
       "detail": "Mike Davis vs Nurullo Aliev",
       "ts": "2026-07-20T05:00:51+00:00",
       "type": "matchup_discovered"
@@ -2499,6 +2474,31 @@
       "detail": "Magomed Ankalaev: Magomed Ankalaev was urged to pull out of Alex Pereira rematch with injury: 'Have to pay for your mistakes' - CBS Sports",
       "ts": "2026-07-27T15:00:53+00:00",
       "type": "health_withdrawn"
+    },
+    {
+      "detail": "Hailey Cowan vs Nina Milo\u0161evi\u0107: consensus +298 / -390 (6 books)",
+      "ts": "2026-07-27T17:00:58+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Marcin Tybura vs Aleksandar Rakic: consensus +276 / -345 (7 books)",
+      "ts": "2026-07-27T17:00:58+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Dennis Buzukja vs Bogdan Grad: consensus +164 / -196 (7 books)",
+      "ts": "2026-07-27T17:00:58+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Jan Blachowicz vs Navajo Stirling: consensus +256 / -315 (7 books)",
+      "ts": "2026-07-27T17:00:58+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Oban Elliott vs Michael Oliveira: consensus +275 / -345 (7 books)",
+      "ts": "2026-07-27T17:00:58+00:00",
+      "type": "odds_update"
     }
   ],
   "fighters": {
@@ -6407,9 +6407,9 @@
     },
     {
       "a": "hailey-cowan",
-      "a_ml": 300,
+      "a_ml": 298,
       "b": "nina-milo-evi",
-      "b_ml": -400,
+      "b_ml": -390,
       "event": "UFC Fight Night: Medi\u0107 vs. Rodriguez",
       "label": "Hailey Cowan vs Nina Milo\u0161evi\u0107",
       "rounds": 3,
@@ -6425,9 +6425,9 @@
     },
     {
       "a": "dennis-buzukja",
-      "a_ml": 165,
+      "a_ml": 164,
       "b": "bogdan-grad",
-      "b_ml": -198,
+      "b_ml": -196,
       "event": "UFC Fight Night: Medi\u0107 vs. Rodriguez",
       "label": "Dennis Buzukja vs Bogdan Grad",
       "rounds": 3,
@@ -6443,9 +6443,9 @@
     },
     {
       "a": "oban-elliott",
-      "a_ml": 279,
+      "a_ml": 275,
       "b": "michael-oliveira",
-      "b_ml": -350,
+      "b_ml": -345,
       "event": "UFC Fight Night: Medi\u0107 vs. Rodriguez",
       "label": "Oban Elliott vs Michael Oliveira",
       "rounds": 3,
@@ -6508,7 +6508,7 @@
     "calibration": {
       "shrink": 0.55
     },
-    "last_sync": "2026-07-27T15:00:53+00:00",
+    "last_sync": "2026-07-27T17:01:08+00:00",
     "news_last": {
       "abdul-hussein": "2026-07-27T01:00:50.876646+00:00",
       "abubakar-vagaev": "2026-07-27T13:00:55.903109+00:00",
@@ -6562,20 +6562,20 @@
       "muhammad-said": "2026-07-27T11:00:53.208285+00:00",
       "navajo-stirling": "2026-07-27T09:00:47.234710+00:00",
       "nina-milo-evi": "2026-07-27T09:00:47.234710+00:00",
-      "nurullo-aliev": "2026-07-26T21:39:47.396981+00:00",
+      "nurullo-aliev": "2026-07-27T17:00:58.399526+00:00",
       "oban-elliott": "2026-07-27T09:00:47.234710+00:00",
-      "ramazan-temirov": "2026-07-26T21:39:47.396981+00:00",
-      "rizvan-kuniev": "2026-07-26T21:39:47.396981+00:00",
+      "ramazan-temirov": "2026-07-27T17:00:58.399526+00:00",
+      "rizvan-kuniev": "2026-07-27T17:00:58.399526+00:00",
       "rj-harris": "2026-07-27T12:43:10.082501+00:00",
       "robert-valentin": "2026-07-27T09:00:47.234710+00:00",
-      "sam-patterson": "2026-07-26T23:02:35.263848+00:00",
-      "santiago-ponzinibbio": "2026-07-26T23:02:35.263848+00:00",
-      "saygid-izagakhmaev": "2026-07-26T23:02:35.263848+00:00",
+      "sam-patterson": "2026-07-27T17:00:58.399526+00:00",
+      "santiago-ponzinibbio": "2026-07-27T17:00:58.399526+00:00",
+      "saygid-izagakhmaev": "2026-07-27T17:00:58.399526+00:00",
       "seokhyeon-ko": "2026-07-27T12:43:10.082501+00:00",
-      "steve-erceg": "2026-07-26T23:02:35.263848+00:00",
+      "steve-erceg": "2026-07-27T17:00:58.399526+00:00",
       "stewart-nicoll": "2026-07-27T13:00:55.903109+00:00",
       "tabatha-ricci": "2026-07-27T13:00:55.903109+00:00",
-      "thomas-petersen": "2026-07-26T23:02:35.263848+00:00",
+      "thomas-petersen": "2026-07-27T17:00:58.399526+00:00",
       "tofiq-musayev": "2026-07-27T09:00:47.234710+00:00",
       "tommy-mcmillen": "2026-07-27T13:00:55.903109+00:00",
       "tyrell-fortune": "2026-07-26T23:02:35.263848+00:00",
@@ -6587,8 +6587,8 @@
       "wellington-turman": "2026-07-27T01:00:50.876646+00:00"
     },
     "odds": {
-      "count": 59,
-      "last_call": "2026-07-27T12:43:10.080867+00:00",
+      "count": 60,
+      "last_call": "2026-07-27T17:00:58.397714+00:00",
       "month": "2026-07"
     },
     "ufcstats_last": {
@@ -6624,7 +6624,7 @@
       "jan-blachowicz": "2026-07-27T09:00:48.864437+00:00",
       "jared-cannonier": "2026-07-15T23:01:08.574882+00:00",
       "jean-paul-lebosnoyani": "2026-07-15T23:01:08.574882+00:00",
-      "jose-miguel-delgado": "2026-07-26T17:00:46.645411+00:00",
+      "jose-miguel-delgado": "2026-07-27T17:01:01.232576+00:00",
       "josias-musasa": "2026-07-27T09:00:48.864437+00:00",
       "jovan-leka": "2026-07-27T05:00:50.055887+00:00",
       "kyle-prepolec": "2026-07-27T05:00:50.055887+00:00",
@@ -6652,7 +6652,7 @@
       "sam-patterson": "2026-07-20T09:00:53.524154+00:00",
       "santiago-ponzinibbio": "2026-07-20T09:00:53.524154+00:00",
       "saygid-izagakhmaev": "2026-07-20T09:00:53.524154+00:00",
-      "seokhyeon-ko": "2026-07-26T17:00:46.645411+00:00",
+      "seokhyeon-ko": "2026-07-27T17:01:01.232576+00:00",
       "steve-erceg": "2026-07-20T11:00:58.429873+00:00",
       "stewart-nicoll": "2026-07-16T01:01:10.349922+00:00",
       "tabatha-ricci": "2026-07-16T03:01:20.534247+00:00",
