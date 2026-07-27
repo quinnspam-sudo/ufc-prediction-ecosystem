@@ -374,13 +374,14 @@
     },
     "Dennis Buzukja vs Bogdan Grad": {
       "win_probability": {
-        "fighter_a_pct": 49.68,
-        "fighter_b_pct": 50.32,
-        "draw_pct": 6.2
+        "fighter_a_pct": 28.92,
+        "fighter_b_pct": 71.08,
+        "draw_pct": 0.17,
+        "calibration_shrink_applied": 0.55
       },
       "value_flags": {
         "fighter_a": false,
-        "fighter_b": false
+        "fighter_b": true
       },
       "report_file": "reports/dennis-buzukja-vs-bogdan-grad.json"
     },
@@ -422,9 +423,9 @@
     },
     "Gilbert Urbina vs Vlasto \u010cepo": {
       "win_probability": {
-        "fighter_a_pct": 49.63,
-        "fighter_b_pct": 50.37,
-        "draw_pct": 6.4
+        "fighter_a_pct": 35.22,
+        "fighter_b_pct": 64.78,
+        "draw_pct": 6.15
       },
       "value_flags": {
         "fighter_a": false,
@@ -434,9 +435,9 @@
     },
     "Du\u0161ko Todorovi\u0107 vs Robert Valentin": {
       "win_probability": {
-        "fighter_a_pct": 49.63,
-        "fighter_b_pct": 50.37,
-        "draw_pct": 6.4
+        "fighter_a_pct": 39.2,
+        "fighter_b_pct": 60.8,
+        "draw_pct": 6.75
       },
       "value_flags": {
         "fighter_a": false,
@@ -446,9 +447,9 @@
     },
     "Marcin Tybura vs Aleksandar Rakic": {
       "win_probability": {
-        "fighter_a_pct": 49.97,
-        "fighter_b_pct": 50.03,
-        "draw_pct": 6.85
+        "fighter_a_pct": 51.69,
+        "fighter_b_pct": 48.31,
+        "draw_pct": 6.75
       },
       "value_flags": {
         "fighter_a": false,
@@ -470,9 +471,9 @@
     },
     "Daniel Rodriguez vs Uro\u0161 Medi\u0107": {
       "win_probability": {
-        "fighter_a_pct": 50.87,
-        "fighter_b_pct": 49.13,
-        "draw_pct": 5.35
+        "fighter_a_pct": 77.04,
+        "fighter_b_pct": 22.96,
+        "draw_pct": 0.5
       },
       "value_flags": {
         "fighter_a": false,
