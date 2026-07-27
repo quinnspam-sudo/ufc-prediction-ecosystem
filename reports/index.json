@@ -311,9 +311,10 @@
     },
     "Cody Gibson vs Abdul Hussein": {
       "win_probability": {
-        "fighter_a_pct": 60.5,
-        "fighter_b_pct": 39.5,
-        "draw_pct": 6.2
+        "fighter_a_pct": 33.32,
+        "fighter_b_pct": 66.68,
+        "draw_pct": 2.74,
+        "calibration_shrink_applied": 0.55
       },
       "value_flags": {
         "fighter_a": false,

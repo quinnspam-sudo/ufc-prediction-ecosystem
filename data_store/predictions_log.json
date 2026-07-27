@@ -863,6 +863,22 @@
       "p_sub": 0.0409,
       "p_dec": 0.7394,
       "p_distance": 0.7394
+    },
+    {
+      "label": "Cody Gibson vs Abdul Hussein",
+      "a": "Cody Gibson",
+      "b": "Abdul Hussein",
+      "p_a": 0.3332,
+      "event": "UFC Fight Night: Ankalaev vs. Guskov",
+      "logged": "2026-07-27T03:00:55+00:00",
+      "resolved": false,
+      "actual_a": null,
+      "brier": null,
+      "resolved_at": null,
+      "p_ko": 0.1443,
+      "p_sub": 0.2403,
+      "p_dec": 0.588,
+      "p_distance": 0.6154
     }
   ]
 }
