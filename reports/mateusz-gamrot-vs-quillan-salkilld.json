@@ -1,0 +1,105 @@
+{
+  "matchup": {
+    "fighter_a": "Mateusz Gamrot",
+    "fighter_b": "Quillan Salkilld",
+    "scheduled_rounds": 5,
+    "is_title_fight": false,
+    "iterations": 2000,
+    "avg_rounds_simulated": 3.832,
+    "fighter_a_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": true,
+      "needs_real_stats": true
+    },
+    "fighter_b_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": true,
+      "needs_real_stats": true
+    }
+  },
+  "win_probability": {
+    "fighter_a_pct": 50.29,
+    "fighter_b_pct": 49.71,
+    "draw_pct": 4.45
+  },
+  "consensus_forecast": {
+    "applied": false,
+    "model_weight": 1.0,
+    "fighter_a_pct": 50.29,
+    "fighter_b_pct": 49.71,
+    "market_devig_a_pct": null
+  },
+  "method_of_victory_matrix": {
+    "fighter_a": {
+      "KO/TKO": 13.15,
+      "Submission": 14.1,
+      "Unanimous Decision": 14.5,
+      "Split/Majority Decision": 6.3
+    },
+    "fighter_b": {
+      "KO/TKO": 12.8,
+      "Submission": 13.7,
+      "Unanimous Decision": 13.9,
+      "Split/Majority Decision": 7.1
+    }
+  },
+  "fight_level": {
+    "ko_tko_pct": 25.95,
+    "submission_pct": 27.8,
+    "decision_pct": 41.8,
+    "goes_the_distance_pct": 46.25,
+    "expected_fight_minutes": 17.82
+  },
+  "finish_round_distribution": {
+    "fighter_a": {
+      "round_1": 117,
+      "round_2": 120,
+      "round_3": 123,
+      "round_4": 98,
+      "round_5": 87
+    },
+    "fighter_b": {
+      "round_1": 125,
+      "round_2": 108,
+      "round_3": 120,
+      "round_4": 100,
+      "round_5": 77
+    }
+  },
+  "value_betting": {
+    "fighter_a": {
+      "market_moneyline": -110,
+      "market_decimal_odds": 1.909,
+      "market_implied_prob_pct": 52.38,
+      "model_win_prob_pct": 50.29,
+      "edge_pct": -2.09,
+      "consensus_edge_pct": -2.09,
+      "kelly_fraction_full": -0.044,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
+      "value_bet": false
+    },
+    "fighter_b": {
+      "market_moneyline": -110,
+      "market_decimal_odds": 1.909,
+      "market_implied_prob_pct": 52.38,
+      "model_win_prob_pct": 49.71,
+      "edge_pct": -2.67,
+      "consensus_edge_pct": -2.67,
+      "kelly_fraction_full": -0.056,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
+      "value_bet": false
+    },
+    "insufficient_data": true,
+    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+  }
+}

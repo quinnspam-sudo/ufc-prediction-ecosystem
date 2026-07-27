@@ -1,0 +1,100 @@
+{
+  "matchup": {
+    "fighter_a": "Amanda Lemos",
+    "fighter_b": "Alexia Thainara",
+    "scheduled_rounds": 3,
+    "is_title_fight": false,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.369,
+    "fighter_a_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": false,
+      "needs_real_stats": false
+    },
+    "fighter_b_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": false,
+      "needs_real_stats": false
+    }
+  },
+  "win_probability": {
+    "fighter_a_pct": 26.0,
+    "fighter_b_pct": 74.0,
+    "draw_pct": 0.0,
+    "calibration_shrink_applied": 0.7
+  },
+  "consensus_forecast": {
+    "applied": false,
+    "model_weight": 1.0,
+    "fighter_a_pct": 15.71,
+    "fighter_b_pct": 84.29,
+    "market_devig_a_pct": null
+  },
+  "method_of_victory_matrix": {
+    "fighter_a": {
+      "KO/TKO": 5.01,
+      "Submission": 10.7,
+      "Unanimous Decision": 0.0,
+      "Split/Majority Decision": 0.0
+    },
+    "fighter_b": {
+      "KO/TKO": 4.31,
+      "Submission": 34.74,
+      "Unanimous Decision": 45.24,
+      "Split/Majority Decision": 0.0
+    }
+  },
+  "fight_level": {
+    "ko_tko_pct": 9.32,
+    "submission_pct": 45.44,
+    "decision_pct": 45.24,
+    "goes_the_distance_pct": 45.24,
+    "expected_fight_minutes": 10.47
+  },
+  "finish_round_distribution": {
+    "fighter_a": {
+      "round_1": 632,
+      "round_2": 532,
+      "round_3": 407
+    },
+    "fighter_b": {
+      "round_1": 1633,
+      "round_2": 1252,
+      "round_3": 1020
+    }
+  },
+  "value_betting": {
+    "fighter_a": {
+      "market_moneyline": -110,
+      "market_decimal_odds": 1.909,
+      "market_implied_prob_pct": 52.38,
+      "model_win_prob_pct": 26.0,
+      "edge_pct": -26.38,
+      "consensus_edge_pct": -36.67,
+      "kelly_fraction_full": -0.5541,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
+      "value_bet": false
+    },
+    "fighter_b": {
+      "market_moneyline": -110,
+      "market_decimal_odds": 1.909,
+      "market_implied_prob_pct": 52.38,
+      "model_win_prob_pct": 74.0,
+      "edge_pct": 21.62,
+      "consensus_edge_pct": 31.91,
+      "kelly_fraction_full": 0.4541,
+      "kelly_fraction_half": 0.227,
+      "model_sees_value": true,
+      "consensus_agrees": true,
+      "value_bet": true
+    }
+  }
+}

@@ -486,6 +486,200 @@
         "fighter_b": false
       },
       "report_file": "reports/daniel-rodriguez-vs-uro-medi.json"
+    },
+    "Amanda Lemos vs Alexia Thainara": {
+      "win_probability": {
+        "fighter_a_pct": 26.0,
+        "fighter_b_pct": 74.0,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.7
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": true
+      },
+      "report_file": "reports/amanda-lemos-vs-alexia-thainara.json"
+    },
+    "Steven Asplund vs Guilherme Pat": {
+      "win_probability": {
+        "fighter_a_pct": 74.79,
+        "fighter_b_pct": 25.21,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.7
+      },
+      "value_flags": {
+        "fighter_a": true,
+        "fighter_b": false
+      },
+      "report_file": "reports/steven-asplund-vs-guilherme-pat.json"
+    },
+    "Henrique da Silva Lopes vs Louie Sutherland": {
+      "win_probability": {
+        "fighter_a_pct": 83.25,
+        "fighter_b_pct": 16.75,
+        "draw_pct": 0.0
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/henrique-da-silva-lopes-vs-louie-sutherland.json"
+    },
+    "Diego Ferreira vs Billy Quarantillo": {
+      "win_probability": {
+        "fighter_a_pct": 50.87,
+        "fighter_b_pct": 49.13,
+        "draw_pct": 5.45
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/diego-ferreira-vs-billy-quarantillo.json"
+    },
+    "Bruno Lopes vs Diyar Nurgozhay": {
+      "win_probability": {
+        "fighter_a_pct": 50.91,
+        "fighter_b_pct": 49.09,
+        "draw_pct": 6.1
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/bruno-lopes-vs-diyar-nurgozhay.json"
+    },
+    "Mateusz Gamrot vs Quillan Salkilld": {
+      "win_probability": {
+        "fighter_a_pct": 50.29,
+        "fighter_b_pct": 49.71,
+        "draw_pct": 4.45
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/mateusz-gamrot-vs-quillan-salkilld.json"
+    },
+    "TBA vs Opponent TBA": {
+      "win_probability": {
+        "fighter_a_pct": 50.87,
+        "fighter_b_pct": 49.13,
+        "draw_pct": 5.45
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/tba-vs-opponent-tba.json"
+    },
+    "Neil Magny vs Ramiz Brahimaj": {
+      "win_probability": {
+        "fighter_a_pct": 49.71,
+        "fighter_b_pct": 50.29,
+        "draw_pct": 5.85
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/neil-magny-vs-ramiz-brahimaj.json"
+    },
+    "Vicente Luque vs Tresean Gore": {
+      "win_probability": {
+        "fighter_a_pct": 49.33,
+        "fighter_b_pct": 50.67,
+        "draw_pct": 6.05
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/vicente-luque-vs-tresean-gore.json"
+    },
+    "Chidi Njokuani vs Geoff Neal": {
+      "win_probability": {
+        "fighter_a_pct": 49.71,
+        "fighter_b_pct": 50.29,
+        "draw_pct": 5.85
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/chidi-njokuani-vs-geoff-neal.json"
+    },
+    "Jeremiah Wells vs Myktybek Orolbai": {
+      "win_probability": {
+        "fighter_a_pct": 49.71,
+        "fighter_b_pct": 50.29,
+        "draw_pct": 5.85
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/jeremiah-wells-vs-myktybek-orolbai.json"
+    },
+    "Edson Barboza vs Esteban Ribovics": {
+      "win_probability": {
+        "fighter_a_pct": 50.87,
+        "fighter_b_pct": 49.13,
+        "draw_pct": 5.45
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/edson-barboza-vs-esteban-ribovics.json"
+    },
+    "Dustin Stoltzfus vs Mansur Abdul-Malik": {
+      "win_probability": {
+        "fighter_a_pct": 49.33,
+        "fighter_b_pct": 50.67,
+        "draw_pct": 6.05
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/dustin-stoltzfus-vs-mansur-abdul-malik.json"
+    },
+    "Jalin Turner vs Kau\u00ea Fernandes": {
+      "win_probability": {
+        "fighter_a_pct": 50.87,
+        "fighter_b_pct": 49.13,
+        "draw_pct": 5.45
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/jalin-turner-vs-kau-fernandes.json"
+    },
+    "Mackenzie Dern vs Gillian Robertson": {
+      "win_probability": {
+        "fighter_a_pct": 51.32,
+        "fighter_b_pct": 48.68,
+        "draw_pct": 5.5
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/mackenzie-dern-vs-gillian-robertson.json"
+    },
+    "Islam Makhachev vs Ian Machado Garry": {
+      "win_probability": {
+        "fighter_a_pct": 49.24,
+        "fighter_b_pct": 50.76,
+        "draw_pct": 4.65
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/islam-makhachev-vs-ian-machado-garry.json"
     }
   }
 }

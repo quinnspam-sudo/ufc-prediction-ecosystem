@@ -1,0 +1,101 @@
+{
+  "matchup": {
+    "fighter_a": "Neil Magny",
+    "fighter_b": "Ramiz Brahimaj",
+    "scheduled_rounds": 3,
+    "is_title_fight": false,
+    "iterations": 2000,
+    "avg_rounds_simulated": 2.626,
+    "fighter_a_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": true,
+      "needs_real_stats": true
+    },
+    "fighter_b_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": true,
+      "needs_real_stats": true
+    }
+  },
+  "win_probability": {
+    "fighter_a_pct": 49.71,
+    "fighter_b_pct": 50.29,
+    "draw_pct": 5.85
+  },
+  "consensus_forecast": {
+    "applied": false,
+    "model_weight": 1.0,
+    "fighter_a_pct": 49.71,
+    "fighter_b_pct": 50.29,
+    "market_devig_a_pct": null
+  },
+  "method_of_victory_matrix": {
+    "fighter_a": {
+      "KO/TKO": 9.9,
+      "Submission": 8.65,
+      "Unanimous Decision": 20.3,
+      "Split/Majority Decision": 7.95
+    },
+    "fighter_b": {
+      "KO/TKO": 9.65,
+      "Submission": 8.7,
+      "Unanimous Decision": 20.25,
+      "Split/Majority Decision": 8.75
+    }
+  },
+  "fight_level": {
+    "ko_tko_pct": 19.55,
+    "submission_pct": 17.35,
+    "decision_pct": 57.25,
+    "goes_the_distance_pct": 63.1,
+    "expected_fight_minutes": 12.21
+  },
+  "finish_round_distribution": {
+    "fighter_a": {
+      "round_1": 114,
+      "round_2": 138,
+      "round_3": 119
+    },
+    "fighter_b": {
+      "round_1": 138,
+      "round_2": 106,
+      "round_3": 123
+    }
+  },
+  "value_betting": {
+    "fighter_a": {
+      "market_moneyline": -110,
+      "market_decimal_odds": 1.909,
+      "market_implied_prob_pct": 52.38,
+      "model_win_prob_pct": 49.71,
+      "edge_pct": -2.67,
+      "consensus_edge_pct": -2.67,
+      "kelly_fraction_full": -0.0561,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
+      "value_bet": false
+    },
+    "fighter_b": {
+      "market_moneyline": -110,
+      "market_decimal_odds": 1.909,
+      "market_implied_prob_pct": 52.38,
+      "model_win_prob_pct": 50.29,
+      "edge_pct": -2.09,
+      "consensus_edge_pct": -2.09,
+      "kelly_fraction_full": -0.0439,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
+      "value_bet": false
+    },
+    "insufficient_data": true,
+    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "matchup": {
+    "fighter_a": "Steven Asplund",
+    "fighter_b": "Guilherme Pat",
+    "scheduled_rounds": 3,
+    "is_title_fight": false,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.466,
+    "fighter_a_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": false,
+      "needs_real_stats": false
+    },
+    "fighter_b_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": false,
+      "needs_real_stats": false
+    }
+  },
+  "win_probability": {
+    "fighter_a_pct": 74.79,
+    "fighter_b_pct": 25.21,
+    "draw_pct": 0.0,
+    "calibration_shrink_applied": 0.7
+  },
+  "consensus_forecast": {
+    "applied": false,
+    "model_weight": 1.0,
+    "fighter_a_pct": 85.42,
+    "fighter_b_pct": 14.58,
+    "market_devig_a_pct": null
+  },
+  "method_of_victory_matrix": {
+    "fighter_a": {
+      "KO/TKO": 31.92,
+      "Submission": 1.34,
+      "Unanimous Decision": 52.12,
+      "Split/Majority Decision": 0.04
+    },
+    "fighter_b": {
+      "KO/TKO": 13.32,
+      "Submission": 1.26,
+      "Unanimous Decision": 0.0,
+      "Split/Majority Decision": 0.0
+    }
+  },
+  "fight_level": {
+    "ko_tko_pct": 45.24,
+    "submission_pct": 2.6,
+    "decision_pct": 52.16,
+    "goes_the_distance_pct": 52.16,
+    "expected_fight_minutes": 11.13
+  },
+  "finish_round_distribution": {
+    "fighter_a": {
+      "round_1": 1289,
+      "round_2": 1136,
+      "round_3": 901
+    },
+    "fighter_b": {
+      "round_1": 577,
+      "round_2": 477,
+      "round_3": 404
+    }
+  },
+  "value_betting": {
+    "fighter_a": {
+      "market_moneyline": -110,
+      "market_decimal_odds": 1.909,
+      "market_implied_prob_pct": 52.38,
+      "model_win_prob_pct": 74.79,
+      "edge_pct": 22.41,
+      "consensus_edge_pct": 33.04,
+      "kelly_fraction_full": 0.4707,
+      "kelly_fraction_half": 0.2353,
+      "model_sees_value": true,
+      "consensus_agrees": true,
+      "value_bet": true
+    },
+    "fighter_b": {
+      "market_moneyline": -110,
+      "market_decimal_odds": 1.909,
+      "market_implied_prob_pct": 52.38,
+      "model_win_prob_pct": 25.21,
+      "edge_pct": -27.17,
+      "consensus_edge_pct": -37.8,
+      "kelly_fraction_full": -0.5707,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
+      "value_bet": false
+    }
+  }
+}
