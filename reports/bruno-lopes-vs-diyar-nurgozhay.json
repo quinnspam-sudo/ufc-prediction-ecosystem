@@ -4,68 +4,69 @@
     "fighter_b": "Diyar Nurgozhay",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.572,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.585,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     },
     "fighter_b_flags": {
       "active_injury": false,
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 50.91,
-    "fighter_b_pct": 49.09,
-    "draw_pct": 6.1
+    "fighter_a_pct": 26.03,
+    "fighter_b_pct": 73.97,
+    "draw_pct": 0.15,
+    "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
     "applied": false,
     "model_weight": 1.0,
-    "fighter_a_pct": 50.91,
-    "fighter_b_pct": 49.09,
+    "fighter_a_pct": 15.76,
+    "fighter_b_pct": 84.24,
     "market_devig_a_pct": null
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 15.5,
-      "Submission": 6.45,
-      "Unanimous Decision": 18.8,
-      "Split/Majority Decision": 7.05
+      "KO/TKO": 13.99,
+      "Submission": 1.66,
+      "Unanimous Decision": 0.02,
+      "Split/Majority Decision": 0.07
     },
     "fighter_b": {
-      "KO/TKO": 13.1,
-      "Submission": 5.15,
-      "Unanimous Decision": 19.25,
-      "Split/Majority Decision": 8.6
+      "KO/TKO": 22.03,
+      "Submission": 1.31,
+      "Unanimous Decision": 60.37,
+      "Split/Majority Decision": 0.4
     }
   },
   "fight_level": {
-    "ko_tko_pct": 28.6,
-    "submission_pct": 11.6,
-    "decision_pct": 53.7,
-    "goes_the_distance_pct": 59.8,
-    "expected_fight_minutes": 11.86
+    "ko_tko_pct": 36.02,
+    "submission_pct": 2.97,
+    "decision_pct": 60.86,
+    "goes_the_distance_pct": 61.01,
+    "expected_fight_minutes": 11.95
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 153,
-      "round_2": 148,
-      "round_3": 138
+      "round_1": 547,
+      "round_2": 523,
+      "round_3": 495
     },
     "fighter_b": {
-      "round_1": 147,
-      "round_2": 108,
-      "round_3": 110
+      "round_1": 895,
+      "round_2": 740,
+      "round_3": 699
     }
   },
   "value_betting": {
@@ -73,10 +74,10 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 50.91,
-      "edge_pct": -1.48,
-      "consensus_edge_pct": -1.48,
-      "kelly_fraction_full": -0.031,
+      "model_win_prob_pct": 26.03,
+      "edge_pct": -26.35,
+      "consensus_edge_pct": -36.62,
+      "kelly_fraction_full": -0.5533,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
@@ -86,16 +87,14 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 49.09,
-      "edge_pct": -3.29,
-      "consensus_edge_pct": -3.29,
-      "kelly_fraction_full": -0.069,
-      "kelly_fraction_half": 0.0,
-      "model_sees_value": false,
-      "consensus_agrees": false,
-      "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+      "model_win_prob_pct": 73.97,
+      "edge_pct": 21.59,
+      "consensus_edge_pct": 31.86,
+      "kelly_fraction_full": 0.4533,
+      "kelly_fraction_half": 0.2267,
+      "model_sees_value": true,
+      "consensus_agrees": true,
+      "value_bet": true
+    }
   }
 }

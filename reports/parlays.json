@@ -237,12 +237,12 @@
             {
               "matchup": "Dennis Buzukja vs Bogdan Grad",
               "pick": "Bogdan Grad",
-              "moneyline": -196,
-              "decimal_odds": 1.51,
-              "consensus_prob": 0.7349,
-              "model_prob": 0.7108,
+              "moneyline": -200,
+              "decimal_odds": 1.5,
+              "consensus_prob": 0.7285,
+              "model_prob": 0.7535,
               "likely_method": "Unanimous Decision",
-              "likely_method_pct": 77.48,
+              "likely_method_pct": 72.77,
               "modal_finish_round": "round_3"
             },
             {
@@ -269,10 +269,10 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 46.51,
-          "combined_decimal_odds": 2.565,
-          "combined_american": 157,
-          "ev_per_unit": 0.1931,
+          "combined_prob_pct": 46.1,
+          "combined_decimal_odds": 2.548,
+          "combined_american": 155,
+          "ev_per_unit": 0.1748,
           "positive_ev": true
         },
         "5_leg": null

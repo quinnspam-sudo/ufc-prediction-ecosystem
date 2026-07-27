@@ -349,9 +349,9 @@
     },
     "Hailey Cowan vs Nina Milo\u0161evi\u0107": {
       "win_probability": {
-        "fighter_a_pct": 36.73,
-        "fighter_b_pct": 63.27,
-        "draw_pct": 7.15
+        "fighter_a_pct": 32.31,
+        "fighter_b_pct": 67.69,
+        "draw_pct": 7.0
       },
       "value_flags": {
         "fighter_a": false,
@@ -374,10 +374,10 @@
     },
     "Dennis Buzukja vs Bogdan Grad": {
       "win_probability": {
-        "fighter_a_pct": 28.92,
-        "fighter_b_pct": 71.08,
-        "draw_pct": 0.17,
-        "calibration_shrink_applied": 0.55
+        "fighter_a_pct": 24.65,
+        "fighter_b_pct": 75.35,
+        "draw_pct": 0.24,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": false,
@@ -527,25 +527,27 @@
     },
     "Diego Ferreira vs Billy Quarantillo": {
       "win_probability": {
-        "fighter_a_pct": 50.87,
-        "fighter_b_pct": 49.13,
-        "draw_pct": 5.45
+        "fighter_a_pct": 27.95,
+        "fighter_b_pct": 72.05,
+        "draw_pct": 0.63,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": false,
-        "fighter_b": false
+        "fighter_b": true
       },
       "report_file": "reports/diego-ferreira-vs-billy-quarantillo.json"
     },
     "Bruno Lopes vs Diyar Nurgozhay": {
       "win_probability": {
-        "fighter_a_pct": 50.91,
-        "fighter_b_pct": 49.09,
-        "draw_pct": 6.1
+        "fighter_a_pct": 26.03,
+        "fighter_b_pct": 73.97,
+        "draw_pct": 0.15,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": false,
-        "fighter_b": false
+        "fighter_b": true
       },
       "report_file": "reports/bruno-lopes-vs-diyar-nurgozhay.json"
     },
@@ -599,9 +601,9 @@
     },
     "Chidi Njokuani vs Geoff Neal": {
       "win_probability": {
-        "fighter_a_pct": 49.71,
-        "fighter_b_pct": 50.29,
-        "draw_pct": 5.85
+        "fighter_a_pct": 78.78,
+        "fighter_b_pct": 21.22,
+        "draw_pct": 2.45
       },
       "value_flags": {
         "fighter_a": false,
@@ -635,9 +637,9 @@
     },
     "Dustin Stoltzfus vs Mansur Abdul-Malik": {
       "win_probability": {
-        "fighter_a_pct": 49.33,
-        "fighter_b_pct": 50.67,
-        "draw_pct": 6.05
+        "fighter_a_pct": 25.81,
+        "fighter_b_pct": 74.19,
+        "draw_pct": 1.6
       },
       "value_flags": {
         "fighter_a": false,
