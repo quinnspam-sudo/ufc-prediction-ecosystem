@@ -1,0 +1,100 @@
+{
+  "matchup": {
+    "fighter_a": "Kyle Prepolec",
+    "fighter_b": "Mateusz R\u0119becki",
+    "scheduled_rounds": 3,
+    "is_title_fight": false,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.736,
+    "fighter_a_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": false,
+      "needs_real_stats": false
+    },
+    "fighter_b_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": false,
+      "needs_real_stats": false
+    }
+  },
+  "win_probability": {
+    "fighter_a_pct": 27.55,
+    "fighter_b_pct": 72.45,
+    "draw_pct": 0.0,
+    "calibration_shrink_applied": 0.55
+  },
+  "consensus_forecast": {
+    "applied": false,
+    "model_weight": 1.0,
+    "fighter_a_pct": 9.19,
+    "fighter_b_pct": 90.81,
+    "market_devig_a_pct": null
+  },
+  "method_of_victory_matrix": {
+    "fighter_a": {
+      "KO/TKO": 6.93,
+      "Submission": 2.26,
+      "Unanimous Decision": 0.0,
+      "Split/Majority Decision": 0.0
+    },
+    "fighter_b": {
+      "KO/TKO": 7.45,
+      "Submission": 10.0,
+      "Unanimous Decision": 73.36,
+      "Split/Majority Decision": 0.0
+    }
+  },
+  "fight_level": {
+    "ko_tko_pct": 14.38,
+    "submission_pct": 12.26,
+    "decision_pct": 73.36,
+    "goes_the_distance_pct": 73.36,
+    "expected_fight_minutes": 13.01
+  },
+  "finish_round_distribution": {
+    "fighter_a": {
+      "round_1": 290,
+      "round_2": 314,
+      "round_3": 315
+    },
+    "fighter_b": {
+      "round_1": 598,
+      "round_2": 551,
+      "round_3": 596
+    }
+  },
+  "value_betting": {
+    "fighter_a": {
+      "market_moneyline": -110,
+      "market_decimal_odds": 1.909,
+      "market_implied_prob_pct": 52.38,
+      "model_win_prob_pct": 27.55,
+      "edge_pct": -24.83,
+      "consensus_edge_pct": -43.19,
+      "kelly_fraction_full": -0.5214,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
+      "value_bet": false
+    },
+    "fighter_b": {
+      "market_moneyline": -110,
+      "market_decimal_odds": 1.909,
+      "market_implied_prob_pct": 52.38,
+      "model_win_prob_pct": 72.45,
+      "edge_pct": 20.06,
+      "consensus_edge_pct": 38.43,
+      "kelly_fraction_full": 0.4214,
+      "kelly_fraction_half": 0.2107,
+      "model_sees_value": true,
+      "consensus_agrees": true,
+      "value_bet": true
+    }
+  }
+}

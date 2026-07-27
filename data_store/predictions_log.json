@@ -879,6 +879,54 @@
       "p_sub": 0.2403,
       "p_dec": 0.588,
       "p_distance": 0.6154
+    },
+    {
+      "label": "Jovan Leka vs Max Gimenis",
+      "a": "Jovan Leka",
+      "b": "Max Gimenis",
+      "p_a": 0.7173,
+      "event": "UFC Fight Night: Medi\u0107 vs. Rodriguez",
+      "logged": "2026-07-27T05:01:17+00:00",
+      "resolved": false,
+      "actual_a": null,
+      "brier": null,
+      "resolved_at": null,
+      "p_ko": 0.1664,
+      "p_sub": 0.1462,
+      "p_dec": 0.6874,
+      "p_distance": 0.6874
+    },
+    {
+      "label": "Hailey Cowan vs Nina Milo\u0161evi\u0107",
+      "a": "Hailey Cowan",
+      "b": "Nina Milo\u0161evi\u0107",
+      "p_a": 0.3673,
+      "event": "UFC Fight Night: Medi\u0107 vs. Rodriguez",
+      "logged": "2026-07-27T05:01:17+00:00",
+      "resolved": false,
+      "actual_a": null,
+      "brier": null,
+      "resolved_at": null,
+      "p_ko": 0.1435,
+      "p_sub": 0.0835,
+      "p_dec": 0.7015,
+      "p_distance": 0.773
+    },
+    {
+      "label": "Kyle Prepolec vs Mateusz R\u0119becki",
+      "a": "Kyle Prepolec",
+      "b": "Mateusz R\u0119becki",
+      "p_a": 0.2755,
+      "event": "UFC Fight Night: Medi\u0107 vs. Rodriguez",
+      "logged": "2026-07-27T05:01:18+00:00",
+      "resolved": false,
+      "actual_a": null,
+      "brier": null,
+      "resolved_at": null,
+      "p_ko": 0.1438,
+      "p_sub": 0.1226,
+      "p_dec": 0.7336,
+      "p_distance": 0.7336
     }
   ]
 }

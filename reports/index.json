@@ -333,6 +333,152 @@
         "fighter_b": false
       },
       "report_file": "reports/dustin-jacoby-vs-muhammad-said.json"
+    },
+    "Jovan Leka vs Max Gimenis": {
+      "win_probability": {
+        "fighter_a_pct": 71.73,
+        "fighter_b_pct": 28.27,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.55
+      },
+      "value_flags": {
+        "fighter_a": true,
+        "fighter_b": false
+      },
+      "report_file": "reports/jovan-leka-vs-max-gimenis.json"
+    },
+    "Hailey Cowan vs Nina Milo\u0161evi\u0107": {
+      "win_probability": {
+        "fighter_a_pct": 36.73,
+        "fighter_b_pct": 63.27,
+        "draw_pct": 7.15
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/hailey-cowan-vs-nina-milo-evi.json"
+    },
+    "Kyle Prepolec vs Mateusz R\u0119becki": {
+      "win_probability": {
+        "fighter_a_pct": 27.55,
+        "fighter_b_pct": 72.45,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.55
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": true
+      },
+      "report_file": "reports/kyle-prepolec-vs-mateusz-r-becki.json"
+    },
+    "Dennis Buzukja vs Bogdan Grad": {
+      "win_probability": {
+        "fighter_a_pct": 49.68,
+        "fighter_b_pct": 50.32,
+        "draw_pct": 6.2
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/dennis-buzukja-vs-bogdan-grad.json"
+    },
+    "Josias Musasa vs Mark Vologdin": {
+      "win_probability": {
+        "fighter_a_pct": 50.45,
+        "fighter_b_pct": 49.55,
+        "draw_pct": 6.55
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/josias-musasa-vs-mark-vologdin.json"
+    },
+    "Oban Elliott vs Michael Oliveira": {
+      "win_probability": {
+        "fighter_a_pct": 49.52,
+        "fighter_b_pct": 50.48,
+        "draw_pct": 6.3
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/oban-elliott-vs-michael-oliveira.json"
+    },
+    "Ludovit Klein vs Tofiq Musayev": {
+      "win_probability": {
+        "fighter_a_pct": 49.25,
+        "fighter_b_pct": 50.75,
+        "draw_pct": 6.4
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/ludovit-klein-vs-tofiq-musayev.json"
+    },
+    "Gilbert Urbina vs Vlasto \u010cepo": {
+      "win_probability": {
+        "fighter_a_pct": 49.63,
+        "fighter_b_pct": 50.37,
+        "draw_pct": 6.4
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/gilbert-urbina-vs-vlasto-epo.json"
+    },
+    "Du\u0161ko Todorovi\u0107 vs Robert Valentin": {
+      "win_probability": {
+        "fighter_a_pct": 49.63,
+        "fighter_b_pct": 50.37,
+        "draw_pct": 6.4
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/du-ko-todorovi-vs-robert-valentin.json"
+    },
+    "Marcin Tybura vs Aleksandar Rakic": {
+      "win_probability": {
+        "fighter_a_pct": 49.97,
+        "fighter_b_pct": 50.03,
+        "draw_pct": 6.85
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/marcin-tybura-vs-aleksandar-rakic.json"
+    },
+    "Jan Blachowicz vs Navajo Stirling": {
+      "win_probability": {
+        "fighter_a_pct": 50.0,
+        "fighter_b_pct": 50.0,
+        "draw_pct": 6.6
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/jan-blachowicz-vs-navajo-stirling.json"
+    },
+    "Daniel Rodriguez vs Uro\u0161 Medi\u0107": {
+      "win_probability": {
+        "fighter_a_pct": 50.87,
+        "fighter_b_pct": 49.13,
+        "draw_pct": 5.35
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/daniel-rodriguez-vs-uro-medi.json"
     }
   }
 }
