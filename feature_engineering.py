@@ -102,6 +102,15 @@ class FighterProfile:
     cardio_pool: float           # starting stamina units (100 = elite baseline)
     cardio_slope: float          # per-round intrinsic decay fraction [0..~0.15]
 
+    # --- Divisional finish scaling ----------------------------------------
+    # Real UFC finish rates vary ~3x across divisions (heavyweights KO far more
+    # than flyweights). These multipliers, normalized to the league-average
+    # division (~1.0), scale the sim's per-round KO/sub base so a heavyweight
+    # bout finishes more and a flyweight bout goes to the judges more, WITHOUT
+    # moving the league-wide finish rate. See _division_finish_mults.
+    division_ko_mult: float = 1.0
+    division_sub_mult: float = 1.0
+
     # --- Matchup modifiers (filled during build_matchup) ------------------
     reach_advantage: float = 0.0     # normalized reach edge vs opponent [-~0.15..0.15]
     ape_index: float = 0.0           # reach - height, inches
@@ -314,6 +323,25 @@ def _submission_defense(s: FighterRawStats) -> float:
     return s.sub_def / 0.65
 
 
+# League-average method-of-victory base rates across all divisions, used to
+# normalize the divisional finish multipliers so the LEAGUE-wide finish rate is
+# unchanged and only the divisional *distribution* shifts.
+_LEAGUE_KO_BASE = sum(w["ko_base"] for w in WEIGHT_CLASSES.values()) / len(WEIGHT_CLASSES)
+_LEAGUE_SUB_BASE = sum(w["sub_base"] for w in WEIGHT_CLASSES.values()) / len(WEIGHT_CLASSES)
+
+
+def _division_finish_mults(s: FighterRawStats) -> Tuple[float, float]:
+    """
+    Returns (ko_mult, sub_mult): the bout division's KO/sub base rate expressed
+    relative to the league average. Heavyweight KOs ~1.55x the league average;
+    flyweight ~0.50x. Submissions run the opposite way (lighter divisions submit
+    more). These scale the sim's per-round finish base so finishes land in the
+    right divisions without changing the overall finish rate.
+    """
+    wc = WEIGHT_CLASSES[s.weight_class]
+    return wc["ko_base"] / _LEAGUE_KO_BASE, wc["sub_base"] / _LEAGUE_SUB_BASE
+
+
 # ---------------------------------------------------------------------------
 # Matchup-relative modifiers (need both fighters)
 # ---------------------------------------------------------------------------
@@ -379,11 +407,11 @@ def _stance_edge(a: FighterRawStats, b: FighterRawStats) -> float:
     """
     a_st, b_st = a.stance.lower(), b.stance.lower()
     if a_st == "switch":
-        return 0.03
+        return 0.02
     if a_st == "southpaw" and b_st == "orthodox":
-        return 0.05
+        return 0.025
     if a_st == "orthodox" and b_st == "southpaw":
-        return -0.02   # orthodox mildly disadvantaged vs southpaw
+        return -0.01   # orthodox mildly disadvantaged vs southpaw
     return 0.0
 
 
@@ -465,6 +493,9 @@ def build_profile(s: FighterRawStats, scheduled_rounds: int) -> FighterProfile:
     # the underlying career data is old.
     trust = _staleness_trust(s)
 
+    # Divisional finish scaling (heavyweights KO more, flyweights decision more).
+    div_ko_mult, div_sub_mult = _division_finish_mults(s)
+
     return FighterProfile(
         name=s.name,
         scheduled_rounds=scheduled_rounds,
@@ -483,6 +514,8 @@ def build_profile(s: FighterRawStats, scheduled_rounds: int) -> FighterProfile:
         cardio_slope=cardio_slope,
         division_power_adj=power_adj,
         division_cardio_adj=cardio_adj,
+        division_ko_mult=div_ko_mult,
+        division_sub_mult=div_sub_mult,
     )
 
 

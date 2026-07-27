@@ -1,0 +1,58 @@
+name: UFC Weekly Backfill + Recalibration
+
+# Runs every Monday. Two jobs, in order:
+#   1. Backfill sweep — rerun the normal sync cycle as a safety net in case the
+#      2h cron missed a card (e.g. a run failed, or a card briefly aged out of
+#      the ESPN scoreboard's date window before scoring).
+#   2. Recalibration — rerun backtest.py against the full historical fight
+#      cache and commit a refreshed reports/backtest.json so drift in
+#      winner-accuracy / method-of-victory calibration (finish_scale away from
+#      ~1.0, lambda_shrink drift) is visible for the next manual tuning pass.
+#      This does NOT auto-edit simulation_engine.py/config.py constants —
+#      that requires a human read of the fitted numbers (see backtest.py's
+#      docstring and the tuning-lever comments in simulation_engine.py).
+on:
+  schedule:
+    - cron: "0 12 * * 1"   # every Monday at 12:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ufc-auto-update
+  cancel-in-progress: false
+
+jobs:
+  weekly:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Install Playwright browser
+        run: playwright install --with-deps chromium
+
+      - name: Backfill sweep
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+        run: python sync.py --push --iterations 10000
+
+      - name: Recalibration backtest
+        run: python backtest.py --since 2024-04-13 --iterations 5000
+
+      - name: Commit refreshed backtest report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add reports/backtest.json
+          git diff --cached --quiet || git commit -m "weekly recalibration: refresh backtest report"
+          git push

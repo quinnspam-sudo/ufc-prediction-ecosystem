@@ -9,12 +9,20 @@ and guarantees the two sources see a consistent snapshot.
 
 from __future__ import annotations
 
-from datetime import date
+from datetime import date, timedelta
 from typing import Any, Dict, Optional
 
 from .base import http_get
 
 SCOREBOARD = "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard"
+
+# ESPN's scoreboard endpoint with no `dates` param only returns the single
+# nearest upcoming event — a card rolls off that default window (and becomes
+# unscorable) within a day or two of finishing. Request an explicit range that
+# reaches back far enough to still catch last week's results and forward far
+# enough to keep discovering upcoming cards.
+DAYS_BACK = 10
+DAYS_FORWARD = 21
 
 _cache: Dict[str, Any] = {"fetched": False, "data": None}
 
@@ -23,7 +31,10 @@ def get_scoreboard(force: bool = False) -> Optional[Dict[str, Any]]:
     """Return the parsed scoreboard JSON, fetching at most once per process."""
     if _cache["fetched"] and not force:
         return _cache["data"]
-    r = http_get(SCOREBOARD)
+    today = date.today()
+    start = (today - timedelta(days=DAYS_BACK)).strftime("%Y%m%d")
+    end = (today + timedelta(days=DAYS_FORWARD)).strftime("%Y%m%d")
+    r = http_get(f"{SCOREBOARD}?dates={start}-{end}")
     data = None
     if r is not None and r.status_code == 200:
         try:

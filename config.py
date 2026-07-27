@@ -88,7 +88,9 @@ MARKET_BLEND_MODEL_WEIGHT = _float("MARKET_BLEND_MODEL_WEIGHT", 0.4)
 # ── Calibration prior ─────────────────────────────────────────────────────
 # Confidence-shrink λ to use BEFORE the live ledger has enough resolved
 # fights to fit its own (and as the fallback when a live fit fails holdout
-# validation). Fitted on a 1,152-fight backtest since UFC 300 (2026-07-16):
-# raw sim probabilities were badly overconfident (Brier 0.2435 ~ coin-flip);
-# λ=0.55 improved backtest Brier to 0.2242. 1.0 disables the prior.
-CALIBRATION_PRIOR_SHRINK = _float("CALIBRATION_PRIOR_SHRINK", 0.55)
+# validation). Re-fitted on the 1,152-fight backtest since UFC 300 after the
+# 2026-07-21 finish/divisional/TDD recalibration and the 2026-07-27 KO/SUB
+# base correction (which also brought the method-of-victory finish_scale fit
+# to 1.0, i.e. calibrated): optimal prior shrink is 0.7, backtest Brier@λ
+# ~0.209. 1.0 disables the prior.
+CALIBRATION_PRIOR_SHRINK = _float("CALIBRATION_PRIOR_SHRINK", 0.7)
