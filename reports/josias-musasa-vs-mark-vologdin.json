@@ -4,68 +4,69 @@
     "fighter_b": "Mark Vologdin",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.73,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.764,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     },
     "fighter_b_flags": {
       "active_injury": false,
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 50.45,
-    "fighter_b_pct": 49.55,
-    "draw_pct": 6.55
+    "fighter_a_pct": 29.95,
+    "fighter_b_pct": 70.05,
+    "draw_pct": 1.2,
+    "calibration_shrink_applied": 0.55
   },
   "consensus_forecast": {
     "applied": false,
     "model_weight": 1.0,
-    "fighter_a_pct": 50.45,
-    "fighter_b_pct": 49.55,
+    "fighter_a_pct": 13.55,
+    "fighter_b_pct": 86.45,
     "market_devig_a_pct": null
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 7.4,
-      "Submission": 6.3,
-      "Unanimous Decision": 25.05,
-      "Split/Majority Decision": 8.4
+      "KO/TKO": 6.2,
+      "Submission": 6.19,
+      "Unanimous Decision": 0.4,
+      "Split/Majority Decision": 0.6
     },
     "fighter_b": {
-      "KO/TKO": 6.85,
-      "Submission": 6.25,
-      "Unanimous Decision": 23.3,
-      "Split/Majority Decision": 9.9
+      "KO/TKO": 9.05,
+      "Submission": 2.16,
+      "Unanimous Decision": 72.19,
+      "Split/Majority Decision": 2.01
     }
   },
   "fight_level": {
-    "ko_tko_pct": 14.25,
-    "submission_pct": 12.55,
-    "decision_pct": 66.65,
-    "goes_the_distance_pct": 73.2,
-    "expected_fight_minutes": 12.98
+    "ko_tko_pct": 15.25,
+    "submission_pct": 8.35,
+    "decision_pct": 75.2,
+    "goes_the_distance_pct": 76.4,
+    "expected_fight_minutes": 13.23
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 79,
-      "round_2": 107,
-      "round_3": 88
+      "round_1": 392,
+      "round_2": 454,
+      "round_3": 393
     },
     "fighter_b": {
-      "round_1": 101,
-      "round_2": 73,
-      "round_3": 88
+      "round_1": 390,
+      "round_2": 339,
+      "round_3": 392
     }
   },
   "value_betting": {
@@ -73,10 +74,10 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 50.45,
-      "edge_pct": -1.93,
-      "consensus_edge_pct": -1.93,
-      "kelly_fraction_full": -0.0404,
+      "model_win_prob_pct": 29.95,
+      "edge_pct": -22.43,
+      "consensus_edge_pct": -38.83,
+      "kelly_fraction_full": -0.471,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
@@ -86,16 +87,14 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 49.55,
-      "edge_pct": -2.84,
-      "consensus_edge_pct": -2.84,
-      "kelly_fraction_full": -0.0596,
-      "kelly_fraction_half": 0.0,
-      "model_sees_value": false,
-      "consensus_agrees": false,
-      "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+      "model_win_prob_pct": 70.05,
+      "edge_pct": 17.67,
+      "consensus_edge_pct": 34.07,
+      "kelly_fraction_full": 0.371,
+      "kelly_fraction_half": 0.1855,
+      "model_sees_value": true,
+      "consensus_agrees": true,
+      "value_bet": true
+    }
   }
 }

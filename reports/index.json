@@ -387,21 +387,22 @@
     },
     "Josias Musasa vs Mark Vologdin": {
       "win_probability": {
-        "fighter_a_pct": 50.45,
-        "fighter_b_pct": 49.55,
-        "draw_pct": 6.55
+        "fighter_a_pct": 29.95,
+        "fighter_b_pct": 70.05,
+        "draw_pct": 1.2,
+        "calibration_shrink_applied": 0.55
       },
       "value_flags": {
         "fighter_a": false,
-        "fighter_b": false
+        "fighter_b": true
       },
       "report_file": "reports/josias-musasa-vs-mark-vologdin.json"
     },
     "Oban Elliott vs Michael Oliveira": {
       "win_probability": {
-        "fighter_a_pct": 49.52,
-        "fighter_b_pct": 50.48,
-        "draw_pct": 6.3
+        "fighter_a_pct": 14.35,
+        "fighter_b_pct": 85.65,
+        "draw_pct": 0.0
       },
       "value_flags": {
         "fighter_a": false,
@@ -411,9 +412,9 @@
     },
     "Ludovit Klein vs Tofiq Musayev": {
       "win_probability": {
-        "fighter_a_pct": 49.25,
-        "fighter_b_pct": 50.75,
-        "draw_pct": 6.4
+        "fighter_a_pct": 61.82,
+        "fighter_b_pct": 38.18,
+        "draw_pct": 6.1
       },
       "value_flags": {
         "fighter_a": false,
@@ -447,20 +448,21 @@
     },
     "Marcin Tybura vs Aleksandar Rakic": {
       "win_probability": {
-        "fighter_a_pct": 51.69,
-        "fighter_b_pct": 48.31,
-        "draw_pct": 6.75
+        "fighter_a_pct": 43.03,
+        "fighter_b_pct": 56.97,
+        "draw_pct": 7.32,
+        "calibration_shrink_applied": 0.55
       },
       "value_flags": {
-        "fighter_a": false,
+        "fighter_a": true,
         "fighter_b": false
       },
       "report_file": "reports/marcin-tybura-vs-aleksandar-rakic.json"
     },
     "Jan Blachowicz vs Navajo Stirling": {
       "win_probability": {
-        "fighter_a_pct": 50.0,
-        "fighter_b_pct": 50.0,
+        "fighter_a_pct": 36.3,
+        "fighter_b_pct": 63.7,
         "draw_pct": 6.6
       },
       "value_flags": {
