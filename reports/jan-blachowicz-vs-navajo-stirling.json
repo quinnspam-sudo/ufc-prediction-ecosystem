@@ -4,8 +4,8 @@
     "fighter_b": "Navajo Stirling",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.708,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.748,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -19,53 +19,54 @@
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 36.3,
-    "fighter_b_pct": 63.7,
-    "draw_pct": 6.6
+    "fighter_a_pct": 30.43,
+    "fighter_b_pct": 69.57,
+    "draw_pct": 0.73,
+    "calibration_shrink_applied": 0.55
   },
   "consensus_forecast": {
     "applied": true,
     "model_weight": 0.4,
-    "fighter_a_pct": 30.72,
-    "fighter_b_pct": 69.28,
+    "fighter_a_pct": 21.97,
+    "fighter_b_pct": 78.03,
     "market_devig_a_pct": 27.01
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 7.8,
-      "Submission": 5.9,
-      "Unanimous Decision": 13.65,
-      "Split/Majority Decision": 6.55
+      "KO/TKO": 7.63,
+      "Submission": 6.25,
+      "Unanimous Decision": 0.13,
+      "Split/Majority Decision": 0.29
     },
     "fighter_b": {
-      "KO/TKO": 8.6,
-      "Submission": 6.2,
-      "Unanimous Decision": 36.65,
-      "Split/Majority Decision": 8.05
+      "KO/TKO": 9.92,
+      "Submission": 1.53,
+      "Unanimous Decision": 72.13,
+      "Split/Majority Decision": 1.39
     }
   },
   "fight_level": {
-    "ko_tko_pct": 16.4,
-    "submission_pct": 12.1,
-    "decision_pct": 64.9,
-    "goes_the_distance_pct": 71.5,
-    "expected_fight_minutes": 12.83
+    "ko_tko_pct": 17.55,
+    "submission_pct": 7.78,
+    "decision_pct": 73.94,
+    "goes_the_distance_pct": 74.67,
+    "expected_fight_minutes": 13.1
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 91,
-      "round_2": 102,
-      "round_3": 81
+      "round_1": 443,
+      "round_2": 498,
+      "round_3": 447
     },
     "fighter_b": {
-      "round_1": 105,
-      "round_2": 90,
-      "round_3": 101
+      "round_1": 388,
+      "round_2": 364,
+      "round_3": 393
     }
   },
   "value_betting": {
@@ -73,29 +74,27 @@
       "market_moneyline": 256,
       "market_decimal_odds": 3.56,
       "market_implied_prob_pct": 28.09,
-      "model_win_prob_pct": 36.3,
-      "edge_pct": 8.21,
-      "consensus_edge_pct": 2.64,
-      "kelly_fraction_full": 0.1141,
-      "kelly_fraction_half": 0.0571,
+      "model_win_prob_pct": 30.43,
+      "edge_pct": 2.34,
+      "consensus_edge_pct": -6.12,
+      "kelly_fraction_full": 0.0325,
+      "kelly_fraction_half": 0.0162,
       "model_sees_value": true,
-      "consensus_agrees": true,
+      "consensus_agrees": false,
       "value_bet": false
     },
     "fighter_b": {
       "market_moneyline": -315,
       "market_decimal_odds": 1.317,
       "market_implied_prob_pct": 75.9,
-      "model_win_prob_pct": 63.7,
-      "edge_pct": -12.2,
-      "consensus_edge_pct": -6.63,
-      "kelly_fraction_full": -0.5063,
+      "model_win_prob_pct": 69.57,
+      "edge_pct": -6.33,
+      "consensus_edge_pct": 2.13,
+      "kelly_fraction_full": -0.2627,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
-      "consensus_agrees": false,
+      "consensus_agrees": true,
       "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+    }
   }
 }

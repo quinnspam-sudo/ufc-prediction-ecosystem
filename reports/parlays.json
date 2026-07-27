@@ -230,12 +230,54 @@
     },
     "UFC Fight Night: Medi\u0107 vs. Rodriguez": {
       "card_type": "fight_night",
-      "eligible_legs": 2,
+      "eligible_legs": 4,
       "parlays": {
-        "3_leg": null,
+        "3_leg": {
+          "legs": [
+            {
+              "matchup": "Dennis Buzukja vs Bogdan Grad",
+              "pick": "Bogdan Grad",
+              "moneyline": -196,
+              "decimal_odds": 1.51,
+              "consensus_prob": 0.7344,
+              "model_prob": 0.7108,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 77.48,
+              "modal_finish_round": "round_3"
+            },
+            {
+              "matchup": "Oban Elliott vs Michael Oliveira",
+              "pick": "Michael Oliveira",
+              "moneyline": -345,
+              "decimal_odds": 1.29,
+              "consensus_prob": 0.8063,
+              "model_prob": 0.7263,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 76.67,
+              "modal_finish_round": "round_3"
+            },
+            {
+              "matchup": "Jan Blachowicz vs Navajo Stirling",
+              "pick": "Navajo Stirling",
+              "moneyline": -315,
+              "decimal_odds": 1.317,
+              "consensus_prob": 0.7803,
+              "model_prob": 0.6957,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 72.13,
+              "modal_finish_round": "round_3"
+            }
+          ],
+          "leg_count": 3,
+          "combined_prob_pct": 46.21,
+          "combined_decimal_odds": 2.565,
+          "combined_american": 157,
+          "ev_per_unit": 0.1853,
+          "positive_ev": true
+        },
         "5_leg": null
       },
-      "note": "Only 2 eligible legs; 3_leg, 5_leg not buildable."
+      "note": "Only 4 eligible legs; 5_leg not buildable."
     }
   },
   "min_leg_consensus_prob": 0.6

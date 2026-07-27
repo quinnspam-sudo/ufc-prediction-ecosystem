@@ -4,15 +4,15 @@
     "fighter_b": "Michael Oliveira",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.703,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.764,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     },
     "fighter_b_flags": {
       "active_injury": false,
@@ -24,48 +24,49 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 14.35,
-    "fighter_b_pct": 85.65,
-    "draw_pct": 0.0
+    "fighter_a_pct": 27.37,
+    "fighter_b_pct": 72.63,
+    "draw_pct": 0.02,
+    "calibration_shrink_applied": 0.55
   },
   "consensus_forecast": {
     "applied": true,
     "model_weight": 0.4,
-    "fighter_a_pct": 21.57,
-    "fighter_b_pct": 78.43,
+    "fighter_a_pct": 19.37,
+    "fighter_b_pct": 80.63,
     "market_devig_a_pct": 26.38
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 8.1,
-      "Submission": 6.25,
+      "KO/TKO": 7.08,
+      "Submission": 1.78,
       "Unanimous Decision": 0.0,
       "Split/Majority Decision": 0.0
     },
     "fighter_b": {
-      "KO/TKO": 11.45,
-      "Submission": 1.9,
-      "Unanimous Decision": 72.3,
+      "KO/TKO": 12.73,
+      "Submission": 1.72,
+      "Unanimous Decision": 76.67,
       "Split/Majority Decision": 0.0
     }
   },
   "fight_level": {
-    "ko_tko_pct": 19.55,
-    "submission_pct": 8.15,
-    "decision_pct": 72.3,
-    "goes_the_distance_pct": 72.3,
-    "expected_fight_minutes": 12.82
+    "ko_tko_pct": 19.81,
+    "submission_pct": 3.5,
+    "decision_pct": 76.67,
+    "goes_the_distance_pct": 76.69,
+    "expected_fight_minutes": 13.23
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 102,
-      "round_2": 99,
-      "round_3": 86
+      "round_1": 312,
+      "round_2": 299,
+      "round_3": 275
     },
     "fighter_b": {
-      "round_1": 103,
-      "round_2": 86,
-      "round_3": 78
+      "round_1": 482,
+      "round_2": 478,
+      "round_3": 485
     }
   },
   "value_betting": {
@@ -73,10 +74,10 @@
       "market_moneyline": 260,
       "market_decimal_odds": 3.6,
       "market_implied_prob_pct": 27.78,
-      "model_win_prob_pct": 14.35,
-      "edge_pct": -13.43,
-      "consensus_edge_pct": -6.21,
-      "kelly_fraction_full": -0.1859,
+      "model_win_prob_pct": 27.37,
+      "edge_pct": -0.4,
+      "consensus_edge_pct": -8.41,
+      "kelly_fraction_full": -0.0056,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
@@ -86,16 +87,14 @@
       "market_moneyline": -345,
       "market_decimal_odds": 1.29,
       "market_implied_prob_pct": 77.53,
-      "model_win_prob_pct": 85.65,
-      "edge_pct": 8.12,
-      "consensus_edge_pct": 0.9,
-      "kelly_fraction_full": 0.3614,
-      "kelly_fraction_half": 0.1807,
-      "model_sees_value": true,
+      "model_win_prob_pct": 72.63,
+      "edge_pct": -4.9,
+      "consensus_edge_pct": 3.1,
+      "kelly_fraction_full": -0.2181,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
       "consensus_agrees": true,
       "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+    }
   }
 }

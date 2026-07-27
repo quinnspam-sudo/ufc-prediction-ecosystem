@@ -4,8 +4,8 @@
     "fighter_b": "Tofiq Musayev",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.773,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.814,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -19,53 +19,54 @@
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 61.82,
-    "fighter_b_pct": 38.18,
-    "draw_pct": 6.1
+    "fighter_a_pct": 71.88,
+    "fighter_b_pct": 28.12,
+    "draw_pct": 1.5,
+    "calibration_shrink_applied": 0.55
   },
   "consensus_forecast": {
     "applied": false,
     "model_weight": 1.0,
-    "fighter_a_pct": 61.82,
-    "fighter_b_pct": 38.18,
+    "fighter_a_pct": 89.79,
+    "fighter_b_pct": 10.21,
     "market_devig_a_pct": null
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 7.05,
-      "Submission": 1.7,
-      "Unanimous Decision": 39.25,
-      "Split/Majority Decision": 10.05
+      "KO/TKO": 8.32,
+      "Submission": 1.87,
+      "Unanimous Decision": 75.5,
+      "Split/Majority Decision": 2.75
     },
     "fighter_b": {
-      "KO/TKO": 7.7,
-      "Submission": 6.4,
-      "Unanimous Decision": 14.05,
-      "Split/Majority Decision": 7.7
+      "KO/TKO": 7.06,
+      "Submission": 1.89,
+      "Unanimous Decision": 0.45,
+      "Split/Majority Decision": 0.66
     }
   },
   "fight_level": {
-    "ko_tko_pct": 14.75,
-    "submission_pct": 8.1,
-    "decision_pct": 71.05,
-    "goes_the_distance_pct": 77.15,
-    "expected_fight_minutes": 13.29
+    "ko_tko_pct": 15.38,
+    "submission_pct": 3.76,
+    "decision_pct": 79.36,
+    "goes_the_distance_pct": 80.86,
+    "expected_fight_minutes": 13.59
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 57,
-      "round_2": 60,
-      "round_3": 58
+      "round_1": 314,
+      "round_2": 349,
+      "round_3": 356
     },
     "fighter_b": {
-      "round_1": 95,
-      "round_2": 90,
-      "round_3": 97
+      "round_1": 298,
+      "round_2": 287,
+      "round_3": 310
     }
   },
   "value_betting": {
@@ -73,29 +74,27 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 61.82,
-      "edge_pct": 9.44,
-      "consensus_edge_pct": 9.44,
-      "kelly_fraction_full": 0.1982,
-      "kelly_fraction_half": 0.0991,
+      "model_win_prob_pct": 71.88,
+      "edge_pct": 19.5,
+      "consensus_edge_pct": 37.41,
+      "kelly_fraction_full": 0.4096,
+      "kelly_fraction_half": 0.2048,
       "model_sees_value": true,
       "consensus_agrees": true,
-      "value_bet": false
+      "value_bet": true
     },
     "fighter_b": {
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 38.18,
-      "edge_pct": -14.2,
-      "consensus_edge_pct": -14.2,
-      "kelly_fraction_full": -0.2982,
+      "model_win_prob_pct": 28.12,
+      "edge_pct": -24.27,
+      "consensus_edge_pct": -42.17,
+      "kelly_fraction_full": -0.5096,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
       "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+    }
   }
 }

@@ -400,9 +400,10 @@
     },
     "Oban Elliott vs Michael Oliveira": {
       "win_probability": {
-        "fighter_a_pct": 14.35,
-        "fighter_b_pct": 85.65,
-        "draw_pct": 0.0
+        "fighter_a_pct": 27.37,
+        "fighter_b_pct": 72.63,
+        "draw_pct": 0.02,
+        "calibration_shrink_applied": 0.55
       },
       "value_flags": {
         "fighter_a": false,
@@ -412,12 +413,13 @@
     },
     "Ludovit Klein vs Tofiq Musayev": {
       "win_probability": {
-        "fighter_a_pct": 61.82,
-        "fighter_b_pct": 38.18,
-        "draw_pct": 6.1
+        "fighter_a_pct": 71.88,
+        "fighter_b_pct": 28.12,
+        "draw_pct": 1.5,
+        "calibration_shrink_applied": 0.55
       },
       "value_flags": {
-        "fighter_a": false,
+        "fighter_a": true,
         "fighter_b": false
       },
       "report_file": "reports/ludovit-klein-vs-tofiq-musayev.json"
@@ -436,12 +438,13 @@
     },
     "Du\u0161ko Todorovi\u0107 vs Robert Valentin": {
       "win_probability": {
-        "fighter_a_pct": 39.2,
-        "fighter_b_pct": 60.8,
-        "draw_pct": 6.75
+        "fighter_a_pct": 66.69,
+        "fighter_b_pct": 33.31,
+        "draw_pct": 0.05,
+        "calibration_shrink_applied": 0.55
       },
       "value_flags": {
-        "fighter_a": false,
+        "fighter_a": true,
         "fighter_b": false
       },
       "report_file": "reports/du-ko-todorovi-vs-robert-valentin.json"
@@ -461,9 +464,10 @@
     },
     "Jan Blachowicz vs Navajo Stirling": {
       "win_probability": {
-        "fighter_a_pct": 36.3,
-        "fighter_b_pct": 63.7,
-        "draw_pct": 6.6
+        "fighter_a_pct": 30.43,
+        "fighter_b_pct": 69.57,
+        "draw_pct": 0.73,
+        "calibration_shrink_applied": 0.55
       },
       "value_flags": {
         "fighter_a": false,
