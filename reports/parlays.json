@@ -237,9 +237,9 @@
             {
               "matchup": "Dennis Buzukja vs Bogdan Grad",
               "pick": "Bogdan Grad",
-              "moneyline": -196,
-              "decimal_odds": 1.51,
-              "consensus_prob": 0.7344,
+              "moneyline": -198,
+              "decimal_odds": 1.505,
+              "consensus_prob": 0.7359,
               "model_prob": 0.7108,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 77.48,
@@ -248,9 +248,9 @@
             {
               "matchup": "Oban Elliott vs Michael Oliveira",
               "pick": "Michael Oliveira",
-              "moneyline": -345,
-              "decimal_odds": 1.29,
-              "consensus_prob": 0.8063,
+              "moneyline": -350,
+              "decimal_odds": 1.286,
+              "consensus_prob": 0.8126,
               "model_prob": 0.7263,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 76.67,
@@ -269,10 +269,10 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 46.21,
-          "combined_decimal_odds": 2.565,
-          "combined_american": 157,
-          "ev_per_unit": 0.1853,
+          "combined_prob_pct": 46.66,
+          "combined_decimal_odds": 2.549,
+          "combined_american": 155,
+          "ev_per_unit": 0.1894,
           "positive_ev": true
         },
         "5_leg": null

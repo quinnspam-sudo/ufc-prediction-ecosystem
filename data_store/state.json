@@ -1,31 +1,6 @@
 {
   "changelog": [
     {
-      "detail": "Tommy McMillen beat Alberto Montes (Brier 0.1439)",
-      "ts": "2026-07-19T03:07:35+00:00",
-      "type": "calibration_resolved"
-    },
-    {
-      "detail": "Fatima Kline beat Tabatha Ricci (Brier 0.1817)",
-      "ts": "2026-07-19T03:07:35+00:00",
-      "type": "calibration_resolved"
-    },
-    {
-      "detail": "Chase Hooper beat Mitch Ramirez (Brier 0.0762)",
-      "ts": "2026-07-19T03:07:35+00:00",
-      "type": "calibration_resolved"
-    },
-    {
-      "detail": "Christian Leroy Duncan beat Jared Cannonier (Brier 0.2476)",
-      "ts": "2026-07-19T03:07:35+00:00",
-      "type": "calibration_resolved"
-    },
-    {
-      "detail": "Kamaru Usman did not win at UFC Fight Night: Du Plessis vs. Usman (2026-07-18)",
-      "ts": "2026-07-19T05:02:31+00:00",
-      "type": "fight_result"
-    },
-    {
       "detail": "Dricus Du Plessis won at UFC Fight Night: Du Plessis vs. Usman (2026-07-18)",
       "ts": "2026-07-19T05:02:31+00:00",
       "type": "fight_result"
@@ -2499,6 +2474,31 @@
       "detail": "Tofiq Musayev: real stats populated (http://ufcstats.com/fighter-details/ae81a3ac7b260411)",
       "ts": "2026-07-27T11:01:20+00:00",
       "type": "ufcstats_scraped"
+    },
+    {
+      "detail": "Hailey Cowan vs Nina Milo\u0161evi\u0107: consensus +300 / -400 (6 books)",
+      "ts": "2026-07-27T12:43:10+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Marcin Tybura vs Aleksandar Rakic: consensus +276 / -345 (7 books)",
+      "ts": "2026-07-27T12:43:10+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Dennis Buzukja vs Bogdan Grad: consensus +165 / -198 (7 books)",
+      "ts": "2026-07-27T12:43:10+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Jan Blachowicz vs Navajo Stirling: consensus +256 / -315 (7 books)",
+      "ts": "2026-07-27T12:43:10+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Oban Elliott vs Michael Oliveira: consensus +279 / -350 (7 books)",
+      "ts": "2026-07-27T12:43:10+00:00",
+      "type": "odds_update"
     }
   ],
   "fighters": {
@@ -6425,9 +6425,9 @@
     },
     {
       "a": "dennis-buzukja",
-      "a_ml": 163,
+      "a_ml": 165,
       "b": "bogdan-grad",
-      "b_ml": -196,
+      "b_ml": -198,
       "event": "UFC Fight Night: Medi\u0107 vs. Rodriguez",
       "label": "Dennis Buzukja vs Bogdan Grad",
       "rounds": 3,
@@ -6443,9 +6443,9 @@
     },
     {
       "a": "oban-elliott",
-      "a_ml": 260,
+      "a_ml": 279,
       "b": "michael-oliveira",
-      "b_ml": -345,
+      "b_ml": -350,
       "event": "UFC Fight Night: Medi\u0107 vs. Rodriguez",
       "label": "Oban Elliott vs Michael Oliveira",
       "rounds": 3,
@@ -6477,7 +6477,7 @@
     },
     {
       "a": "marcin-tybura",
-      "a_ml": 275,
+      "a_ml": 276,
       "b": "aleksandar-rakic",
       "b_ml": -345,
       "event": "UFC Fight Night: Medi\u0107 vs. Rodriguez",
@@ -6508,7 +6508,7 @@
     "calibration": {
       "shrink": 0.55
     },
-    "last_sync": "2026-07-27T11:01:22+00:00",
+    "last_sync": "2026-07-27T12:43:21+00:00",
     "news_last": {
       "abdul-hussein": "2026-07-27T01:00:50.876646+00:00",
       "abubakar-vagaev": "2026-07-26T21:02:32.029289+00:00",
@@ -6526,14 +6526,14 @@
       "christian-leroy-duncan": "2026-07-27T11:00:53.208285+00:00",
       "cody-gibson": "2026-07-27T01:00:50.876646+00:00",
       "damian-rzepecki": "2026-07-26T21:02:32.029289+00:00",
-      "damien-anderson": "2026-07-26T19:00:44.752468+00:00",
+      "damien-anderson": "2026-07-27T12:43:10.082501+00:00",
       "daniel-rodriguez": "2026-07-27T05:00:48.154103+00:00",
       "dennis-buzukja": "2026-07-27T05:00:48.154103+00:00",
       "dione-barbosa": "2026-07-27T11:00:53.208285+00:00",
       "du-ko-todorovi": "2026-07-27T05:00:48.154103+00:00",
       "duplessis": "2026-07-27T11:00:53.208285+00:00",
       "dustin-jacoby": "2026-07-26T21:02:32.029289+00:00",
-      "ezra-elliott": "2026-07-26T19:00:44.752468+00:00",
+      "ezra-elliott": "2026-07-27T12:43:10.082501+00:00",
       "fatima-kline": "2026-07-27T11:00:53.208285+00:00",
       "felipe-franco": "2026-07-27T11:00:53.208285+00:00",
       "gilbert-urbina": "2026-07-27T05:00:48.154103+00:00",
@@ -6542,12 +6542,12 @@
       "ismael-bonfim": "2026-07-26T21:39:47.396981+00:00",
       "jan-blachowicz": "2026-07-27T05:00:48.154103+00:00",
       "jared-cannonier": "2026-07-27T11:00:53.208285+00:00",
-      "jean-paul-lebosnoyani": "2026-07-26T15:49:02.172191+00:00",
-      "jose-miguel-delgado": "2026-07-26T15:49:02.172191+00:00",
+      "jean-paul-lebosnoyani": "2026-07-27T12:43:10.082501+00:00",
+      "jose-miguel-delgado": "2026-07-27T12:43:10.082501+00:00",
       "josias-musasa": "2026-07-27T07:01:01.208431+00:00",
       "jovan-leka": "2026-07-27T07:01:01.208431+00:00",
       "kyle-prepolec": "2026-07-27T07:01:01.208431+00:00",
-      "levi-rodrigues-jr": "2026-07-26T15:49:02.172191+00:00",
+      "levi-rodrigues-jr": "2026-07-27T12:43:10.082501+00:00",
       "ludovit-klein": "2026-07-27T07:01:01.208431+00:00",
       "magomed-ankalaev": "2026-07-26T21:39:47.396981+00:00",
       "magomed-tuchalov": "2026-07-26T21:39:47.396981+00:00",
@@ -6558,7 +6558,7 @@
       "max-gimenis": "2026-07-27T07:01:01.208431+00:00",
       "michael-oliveira": "2026-07-27T09:00:47.234710+00:00",
       "mike-davis": "2026-07-26T21:39:47.396981+00:00",
-      "mitch-ramirez": "2026-07-26T19:00:44.752468+00:00",
+      "mitch-ramirez": "2026-07-27T12:43:10.082501+00:00",
       "muhammad-said": "2026-07-27T11:00:53.208285+00:00",
       "navajo-stirling": "2026-07-27T09:00:47.234710+00:00",
       "nina-milo-evi": "2026-07-27T09:00:47.234710+00:00",
@@ -6566,12 +6566,12 @@
       "oban-elliott": "2026-07-27T09:00:47.234710+00:00",
       "ramazan-temirov": "2026-07-26T21:39:47.396981+00:00",
       "rizvan-kuniev": "2026-07-26T21:39:47.396981+00:00",
-      "rj-harris": "2026-07-26T19:00:44.752468+00:00",
+      "rj-harris": "2026-07-27T12:43:10.082501+00:00",
       "robert-valentin": "2026-07-27T09:00:47.234710+00:00",
       "sam-patterson": "2026-07-26T23:02:35.263848+00:00",
       "santiago-ponzinibbio": "2026-07-26T23:02:35.263848+00:00",
       "saygid-izagakhmaev": "2026-07-26T23:02:35.263848+00:00",
-      "seokhyeon-ko": "2026-07-26T19:00:44.752468+00:00",
+      "seokhyeon-ko": "2026-07-27T12:43:10.082501+00:00",
       "steve-erceg": "2026-07-26T23:02:35.263848+00:00",
       "stewart-nicoll": "2026-07-26T19:00:44.752468+00:00",
       "tabatha-ricci": "2026-07-26T19:00:44.752468+00:00",
@@ -6587,8 +6587,8 @@
       "wellington-turman": "2026-07-27T01:00:50.876646+00:00"
     },
     "odds": {
-      "count": 58,
-      "last_call": "2026-07-27T07:01:01.206822+00:00",
+      "count": 59,
+      "last_call": "2026-07-27T12:43:10.080867+00:00",
       "month": "2026-07"
     },
     "ufcstats_last": {
@@ -6638,9 +6638,9 @@
       "mateusz-r-becki": "2026-07-27T05:00:50.055887+00:00",
       "max-gimenis": "2026-07-27T05:00:50.055887+00:00",
       "michael-oliveira": "2026-07-27T09:00:48.864437+00:00",
-      "mike-davis": "2026-07-26T11:00:48.450829+00:00",
+      "mike-davis": "2026-07-27T12:43:12.119656+00:00",
       "mitch-ramirez": "2026-07-16T01:01:10.349922+00:00",
-      "muhammad-said": "2026-07-26T07:00:57.243357+00:00",
+      "muhammad-said": "2026-07-27T12:43:12.119656+00:00",
       "navajo-stirling": "2026-07-27T11:00:55.584805+00:00",
       "nina-milo-evi": "2026-07-27T05:00:50.055887+00:00",
       "nurullo-aliev": "2026-07-20T05:00:53.211847+00:00",
