@@ -601,12 +601,13 @@
     },
     "Chidi Njokuani vs Geoff Neal": {
       "win_probability": {
-        "fighter_a_pct": 78.78,
-        "fighter_b_pct": 21.22,
-        "draw_pct": 2.45
+        "fighter_a_pct": 69.8,
+        "fighter_b_pct": 30.2,
+        "draw_pct": 3.79,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
-        "fighter_a": false,
+        "fighter_a": true,
         "fighter_b": false
       },
       "report_file": "reports/chidi-njokuani-vs-geoff-neal.json"
@@ -625,13 +626,14 @@
     },
     "Edson Barboza vs Esteban Ribovics": {
       "win_probability": {
-        "fighter_a_pct": 50.87,
-        "fighter_b_pct": 49.13,
-        "draw_pct": 5.45
+        "fighter_a_pct": 25.03,
+        "fighter_b_pct": 74.97,
+        "draw_pct": 0.3,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": false,
-        "fighter_b": false
+        "fighter_b": true
       },
       "report_file": "reports/edson-barboza-vs-esteban-ribovics.json"
     },
@@ -661,9 +663,9 @@
     },
     "Mackenzie Dern vs Gillian Robertson": {
       "win_probability": {
-        "fighter_a_pct": 51.32,
-        "fighter_b_pct": 48.68,
-        "draw_pct": 5.5
+        "fighter_a_pct": 68.64,
+        "fighter_b_pct": 31.36,
+        "draw_pct": 0.2
       },
       "value_flags": {
         "fighter_a": false,
@@ -673,12 +675,13 @@
     },
     "Islam Makhachev vs Ian Machado Garry": {
       "win_probability": {
-        "fighter_a_pct": 49.24,
-        "fighter_b_pct": 50.76,
-        "draw_pct": 4.65
+        "fighter_a_pct": 69.1,
+        "fighter_b_pct": 30.9,
+        "draw_pct": 0.84,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
-        "fighter_a": false,
+        "fighter_a": true,
         "fighter_b": false
       },
       "report_file": "reports/islam-makhachev-vs-ian-machado-garry.json"

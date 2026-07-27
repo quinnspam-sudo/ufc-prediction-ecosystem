@@ -1156,17 +1156,17 @@
       "label": "Chidi Njokuani vs Geoff Neal",
       "a": "Chidi Njokuani",
       "b": "Geoff Neal",
-      "p_a": 0.7878,
+      "p_a": 0.698,
       "event": "UFC 330: Makhachev vs. Machado Garry",
-      "logged": "2026-07-27T22:17:25+00:00",
+      "logged": "2026-07-27T23:01:12+00:00",
       "resolved": false,
       "actual_a": null,
       "brier": null,
       "resolved_at": null,
-      "p_ko": 0.278,
-      "p_sub": 0.122,
-      "p_dec": 0.5755,
-      "p_distance": 0.6
+      "p_ko": 0.2856,
+      "p_sub": 0.0658,
+      "p_dec": 0.6107,
+      "p_distance": 0.6486
     },
     {
       "label": "Dustin Stoltzfus vs Mansur Abdul-Malik",
@@ -1183,6 +1183,38 @@
       "p_sub": 0.185,
       "p_dec": 0.5495,
       "p_distance": 0.5655
+    },
+    {
+      "label": "Edson Barboza vs Esteban Ribovics",
+      "a": "Edson Barboza",
+      "b": "Esteban Ribovics",
+      "p_a": 0.2503,
+      "event": "UFC 330: Makhachev vs. Machado Garry",
+      "logged": "2026-07-27T23:01:13+00:00",
+      "resolved": false,
+      "actual_a": null,
+      "brier": null,
+      "resolved_at": null,
+      "p_ko": 0.2308,
+      "p_sub": 0.0769,
+      "p_dec": 0.6893,
+      "p_distance": 0.6923
+    },
+    {
+      "label": "Islam Makhachev vs Ian Machado Garry",
+      "a": "Islam Makhachev",
+      "b": "Ian Machado Garry",
+      "p_a": 0.691,
+      "event": "UFC 330: Makhachev vs. Machado Garry",
+      "logged": "2026-07-27T23:01:14+00:00",
+      "resolved": false,
+      "actual_a": null,
+      "brier": null,
+      "resolved_at": null,
+      "p_ko": 0.2672,
+      "p_sub": 0.3319,
+      "p_dec": 0.3925,
+      "p_distance": 0.4009
     }
   ]
 }

@@ -4,8 +4,8 @@
     "fighter_b": "Geoff Neal",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.575,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.637,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -19,53 +19,54 @@
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 78.78,
-    "fighter_b_pct": 21.22,
-    "draw_pct": 2.45
+    "fighter_a_pct": 69.8,
+    "fighter_b_pct": 30.2,
+    "draw_pct": 3.79,
+    "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
     "applied": false,
     "model_weight": 1.0,
-    "fighter_a_pct": 78.78,
-    "fighter_b_pct": 21.22,
+    "fighter_a_pct": 78.29,
+    "fighter_b_pct": 21.71,
     "market_devig_a_pct": null
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 18.75,
-      "Submission": 3.3,
-      "Unanimous Decision": 51.1,
-      "Split/Majority Decision": 3.7
+      "KO/TKO": 16.6,
+      "Submission": 3.18,
+      "Unanimous Decision": 50.07,
+      "Split/Majority Decision": 5.47
     },
     "fighter_b": {
-      "KO/TKO": 9.05,
-      "Submission": 8.9,
-      "Unanimous Decision": 1.35,
-      "Split/Majority Decision": 1.4
+      "KO/TKO": 11.96,
+      "Submission": 3.4,
+      "Unanimous Decision": 2.77,
+      "Split/Majority Decision": 2.76
     }
   },
   "fight_level": {
-    "ko_tko_pct": 27.8,
-    "submission_pct": 12.2,
-    "decision_pct": 57.55,
-    "goes_the_distance_pct": 60.0,
-    "expected_fight_minutes": 11.88
+    "ko_tko_pct": 28.56,
+    "submission_pct": 6.58,
+    "decision_pct": 61.07,
+    "goes_the_distance_pct": 64.86,
+    "expected_fight_minutes": 12.31
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 162,
-      "round_2": 147,
-      "round_3": 132
+      "round_1": 699,
+      "round_2": 665,
+      "round_3": 614
     },
     "fighter_b": {
-      "round_1": 132,
-      "round_2": 114,
-      "round_3": 113
+      "round_1": 523,
+      "round_2": 521,
+      "round_3": 492
     }
   },
   "value_betting": {
@@ -73,29 +74,27 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 78.78,
-      "edge_pct": 26.4,
-      "consensus_edge_pct": 26.4,
-      "kelly_fraction_full": 0.5544,
-      "kelly_fraction_half": 0.2772,
+      "model_win_prob_pct": 69.8,
+      "edge_pct": 17.42,
+      "consensus_edge_pct": 25.91,
+      "kelly_fraction_full": 0.3659,
+      "kelly_fraction_half": 0.1829,
       "model_sees_value": true,
       "consensus_agrees": true,
-      "value_bet": false
+      "value_bet": true
     },
     "fighter_b": {
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 21.22,
-      "edge_pct": -31.16,
-      "consensus_edge_pct": -31.16,
-      "kelly_fraction_full": -0.6544,
+      "model_win_prob_pct": 30.2,
+      "edge_pct": -22.18,
+      "consensus_edge_pct": -30.67,
+      "kelly_fraction_full": -0.4659,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
       "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+    }
   }
 }
