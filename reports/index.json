@@ -553,9 +553,9 @@
     },
     "Mateusz Gamrot vs Quillan Salkilld": {
       "win_probability": {
-        "fighter_a_pct": 50.29,
-        "fighter_b_pct": 49.71,
-        "draw_pct": 4.45
+        "fighter_a_pct": 73.85,
+        "fighter_b_pct": 26.15,
+        "draw_pct": 0.0
       },
       "value_flags": {
         "fighter_a": false,
@@ -614,9 +614,9 @@
     },
     "Jeremiah Wells vs Myktybek Orolbai": {
       "win_probability": {
-        "fighter_a_pct": 49.71,
-        "fighter_b_pct": 50.29,
-        "draw_pct": 5.85
+        "fighter_a_pct": 66.7,
+        "fighter_b_pct": 33.3,
+        "draw_pct": 4.95
       },
       "value_flags": {
         "fighter_a": false,
@@ -639,21 +639,22 @@
     },
     "Dustin Stoltzfus vs Mansur Abdul-Malik": {
       "win_probability": {
-        "fighter_a_pct": 25.81,
-        "fighter_b_pct": 74.19,
-        "draw_pct": 1.6
+        "fighter_a_pct": 34.14,
+        "fighter_b_pct": 65.86,
+        "draw_pct": 2.56,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": false,
-        "fighter_b": false
+        "fighter_b": true
       },
       "report_file": "reports/dustin-stoltzfus-vs-mansur-abdul-malik.json"
     },
     "Jalin Turner vs Kau\u00ea Fernandes": {
       "win_probability": {
-        "fighter_a_pct": 50.87,
-        "fighter_b_pct": 49.13,
-        "draw_pct": 5.45
+        "fighter_a_pct": 73.86,
+        "fighter_b_pct": 26.14,
+        "draw_pct": 3.8
       },
       "value_flags": {
         "fighter_a": false,
@@ -663,13 +664,14 @@
     },
     "Mackenzie Dern vs Gillian Robertson": {
       "win_probability": {
-        "fighter_a_pct": 68.64,
-        "fighter_b_pct": 31.36,
-        "draw_pct": 0.2
+        "fighter_a_pct": 35.22,
+        "fighter_b_pct": 64.78,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": false,
-        "fighter_b": false
+        "fighter_b": true
       },
       "report_file": "reports/mackenzie-dern-vs-gillian-robertson.json"
     },
