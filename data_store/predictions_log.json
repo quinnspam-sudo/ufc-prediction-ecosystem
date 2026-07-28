@@ -1295,6 +1295,22 @@
       "p_sub": 0.2226,
       "p_dec": 0.5877,
       "p_distance": 0.5892
+    },
+    {
+      "label": "Vicente Luque vs Tresean Gore",
+      "a": "Vicente Luque",
+      "b": "Tresean Gore",
+      "p_a": 0.6345,
+      "event": "UFC 330: Makhachev vs. Machado Garry",
+      "logged": "2026-07-28T05:01:05+00:00",
+      "resolved": false,
+      "actual_a": null,
+      "brier": null,
+      "resolved_at": null,
+      "p_ko": 0.2796,
+      "p_sub": 0.2321,
+      "p_dec": 0.4568,
+      "p_distance": 0.4883
     }
   ]
 }
