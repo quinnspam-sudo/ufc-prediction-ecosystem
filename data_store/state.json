@@ -1,36 +1,6 @@
 {
   "changelog": [
     {
-      "detail": "Rizvan Kuniev vs Tyrell Fortune: consensus -285 / +230 (7 books)",
-      "ts": "2026-07-20T23:00:50+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Santiago Ponzinibbio vs Sam Patterson: consensus +310 / -410 (7 books)",
-      "ts": "2026-07-20T23:00:50+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Thomas Petersen vs Valter Walker: consensus +160 / -190 (7 books)",
-      "ts": "2026-07-20T23:00:50+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Cody Gibson vs Abdul Hussein: consensus +309 / -405 (6 books)",
-      "ts": "2026-07-20T23:00:50+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Brendson Ribeiro vs Magomed Tuchalov: consensus +500 / -715 (7 books)",
-      "ts": "2026-07-20T23:00:50+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Cody Gibson: real stats populated (http://ufcstats.com/fighter-details/700a674c042b7a96)",
-      "ts": "2026-07-20T23:01:01+00:00",
-      "type": "ufcstats_scraped"
-    },
-    {
       "detail": "Dustin Jacoby vs Muhammad Said",
       "ts": "2026-07-21T01:00:52+00:00",
       "type": "matchup_discovered"
@@ -2499,6 +2469,36 @@
       "detail": "Mackenzie Dern vs Gillian Robertson: consensus -232 / +180 (4 books)",
       "ts": "2026-07-28T17:00:51+00:00",
       "type": "odds_update"
+    },
+    {
+      "detail": "Hailey Cowan vs Nina Milo\u0161evi\u0107: consensus +334 / -432 (6 books)",
+      "ts": "2026-07-28T21:52:20+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Marcin Tybura vs Aleksandar Rakic: consensus +279 / -350 (7 books)",
+      "ts": "2026-07-28T21:52:20+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Dennis Buzukja vs Bogdan Grad: consensus +170 / -205 (7 books)",
+      "ts": "2026-07-28T21:52:20+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Jan Blachowicz vs Navajo Stirling: consensus +260 / -325 (7 books)",
+      "ts": "2026-07-28T21:52:20+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Oban Elliott vs Michael Oliveira: consensus +275 / -350 (7 books)",
+      "ts": "2026-07-28T21:52:20+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Mackenzie Dern vs Gillian Robertson: consensus -232 / +180 (4 books)",
+      "ts": "2026-07-28T21:52:20+00:00",
+      "type": "odds_update"
     }
   ],
   "fighters": {
@@ -2743,7 +2743,7 @@
       "withdrawn": false
     },
     "alexia-thainara": {
-      "_updated": "2026-07-28T21:00:43+00:00",
+      "_updated": "2026-07-28T21:52:20+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -2838,7 +2838,7 @@
       "withdrawn": false
     },
     "amanda-lemos": {
-      "_updated": "2026-07-28T21:00:43+00:00",
+      "_updated": "2026-07-28T21:52:20+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -3031,7 +3031,7 @@
       "withdrawn": false
     },
     "billy-quarantillo": {
-      "_updated": "2026-07-28T21:00:43+00:00",
+      "_updated": "2026-07-28T21:52:20+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -3232,7 +3232,7 @@
       "withdrawn": false
     },
     "bruno-lopes": {
-      "_updated": "2026-07-28T21:00:43+00:00",
+      "_updated": "2026-07-28T21:52:20+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -3671,7 +3671,7 @@
       "withdrawn": false
     },
     "diego-ferreira": {
-      "_updated": "2026-07-28T21:00:43+00:00",
+      "_updated": "2026-07-28T21:52:20+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -3766,7 +3766,7 @@
       "withdrawn": false
     },
     "diyar-nurgozhay": {
-      "_updated": "2026-07-28T21:00:43+00:00",
+      "_updated": "2026-07-28T21:52:20+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -4399,7 +4399,7 @@
       "withdrawn": false
     },
     "guilherme-pat": {
-      "_updated": "2026-07-28T21:00:43+00:00",
+      "_updated": "2026-07-28T21:52:20+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -4499,7 +4499,7 @@
       "withdrawn": false
     },
     "henrique-da-silva-lopes": {
-      "_updated": "2026-07-28T21:00:43+00:00",
+      "_updated": "2026-07-28T21:52:20+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -5279,7 +5279,7 @@
       "withdrawn": false
     },
     "louie-sutherland": {
-      "_updated": "2026-07-28T21:00:43+00:00",
+      "_updated": "2026-07-28T21:52:20+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -5730,7 +5730,7 @@
       "withdrawn": false
     },
     "mateusz-gamrot": {
-      "_updated": "2026-07-28T21:00:43+00:00",
+      "_updated": "2026-07-28T21:52:20+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -6375,7 +6375,7 @@
       "withdrawn": false
     },
     "opponent-tba": {
-      "_updated": "2026-07-28T21:00:43+00:00",
+      "_updated": "2026-07-28T21:52:20+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -6425,7 +6425,7 @@
       "withdrawn": false
     },
     "quillan-salkilld": {
-      "_updated": "2026-07-28T21:00:43+00:00",
+      "_updated": "2026-07-28T21:52:20+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -6968,7 +6968,7 @@
       "withdrawn": false
     },
     "steven-asplund": {
-      "_updated": "2026-07-28T21:00:43+00:00",
+      "_updated": "2026-07-28T21:52:20+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -7108,7 +7108,7 @@
       "withdrawn": false
     },
     "tba": {
-      "_updated": "2026-07-28T21:00:43+00:00",
+      "_updated": "2026-07-28T21:52:20+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -8007,7 +8007,7 @@
     },
     {
       "a": "hailey-cowan",
-      "a_ml": 331,
+      "a_ml": 334,
       "b": "nina-milo-evi",
       "b_ml": -432,
       "event": "UFC Fight Night: Medi\u0107 vs. Rodriguez",
@@ -8025,9 +8025,9 @@
     },
     {
       "a": "dennis-buzukja",
-      "a_ml": 166,
+      "a_ml": 170,
       "b": "bogdan-grad",
-      "b_ml": -200,
+      "b_ml": -205,
       "event": "UFC Fight Night: Medi\u0107 vs. Rodriguez",
       "label": "Dennis Buzukja vs Bogdan Grad",
       "rounds": 3,
@@ -8077,9 +8077,9 @@
     },
     {
       "a": "marcin-tybura",
-      "a_ml": 276,
+      "a_ml": 279,
       "b": "aleksandar-rakic",
-      "b_ml": -345,
+      "b_ml": -350,
       "event": "UFC Fight Night: Medi\u0107 vs. Rodriguez",
       "label": "Marcin Tybura vs Aleksandar Rakic",
       "rounds": 3,
@@ -8087,7 +8087,7 @@
     },
     {
       "a": "jan-blachowicz",
-      "a_ml": 258,
+      "a_ml": 260,
       "b": "navajo-stirling",
       "b_ml": -325,
       "event": "UFC Fight Night: Medi\u0107 vs. Rodriguez",
@@ -8238,7 +8238,7 @@
     "calibration": {
       "shrink": 0.7
     },
-    "last_sync": "2026-07-28T21:00:45+00:00",
+    "last_sync": "2026-07-28T21:52:29+00:00",
     "news_last": {
       "abdul-hussein": "2026-07-28T17:00:51.542235+00:00",
       "abubakar-vagaev": "2026-07-28T11:00:47.137651+00:00",
@@ -8303,26 +8303,26 @@
       "magomed-ankalaev": "2026-07-28T13:00:50.578151+00:00",
       "magomed-tuchalov": "2026-07-28T13:00:50.578151+00:00",
       "magomed-zaynukov": "2026-07-28T15:00:54.374779+00:00",
-      "mansur-abdul-malik": "2026-07-27T23:00:45.911837+00:00",
+      "mansur-abdul-malik": "2026-07-28T21:52:20.227880+00:00",
       "marcin-tybura": "2026-07-28T05:00:50.514691+00:00",
       "mark-vologdin": "2026-07-28T07:00:43.538939+00:00",
-      "mateusz-gamrot": "2026-07-27T23:00:45.911837+00:00",
+      "mateusz-gamrot": "2026-07-28T21:52:20.227880+00:00",
       "mateusz-r-becki": "2026-07-28T07:00:43.538939+00:00",
       "max-gimenis": "2026-07-28T07:00:43.538939+00:00",
       "michael-oliveira": "2026-07-28T07:00:43.538939+00:00",
       "mike-davis": "2026-07-28T15:00:54.374779+00:00",
       "mitch-ramirez": "2026-07-28T11:00:47.137651+00:00",
       "muhammad-said": "2026-07-28T10:13:46.568275+00:00",
-      "myktybek-orolbai": "2026-07-27T23:00:45.911837+00:00",
+      "myktybek-orolbai": "2026-07-28T21:52:20.227880+00:00",
       "navajo-stirling": "2026-07-28T07:00:43.538939+00:00",
-      "neil-magny": "2026-07-28T01:01:02.307352+00:00",
+      "neil-magny": "2026-07-28T21:52:20.227880+00:00",
       "nina-milo-evi": "2026-07-28T07:00:43.538939+00:00",
       "nurullo-aliev": "2026-07-28T15:00:54.374779+00:00",
       "oban-elliott": "2026-07-28T07:00:43.538939+00:00",
-      "opponent-tba": "2026-07-28T01:01:02.307352+00:00",
-      "quillan-salkilld": "2026-07-28T01:01:02.307352+00:00",
+      "opponent-tba": "2026-07-28T21:52:20.227880+00:00",
+      "quillan-salkilld": "2026-07-28T21:52:20.227880+00:00",
       "ramazan-temirov": "2026-07-28T15:00:54.374779+00:00",
-      "ramiz-brahimaj": "2026-07-28T01:01:02.307352+00:00",
+      "ramiz-brahimaj": "2026-07-28T21:52:20.227880+00:00",
       "rizvan-kuniev": "2026-07-28T15:00:54.374779+00:00",
       "rj-harris": "2026-07-28T11:00:47.137651+00:00",
       "robert-valentin": "2026-07-28T07:00:43.538939+00:00",
@@ -8331,7 +8331,7 @@
       "saygid-izagakhmaev": "2026-07-28T17:00:51.542235+00:00",
       "seokhyeon-ko": "2026-07-28T11:00:47.137651+00:00",
       "steve-erceg": "2026-07-28T17:00:51.542235+00:00",
-      "steven-asplund": "2026-07-28T01:01:02.307352+00:00",
+      "steven-asplund": "2026-07-28T21:52:20.227880+00:00",
       "stewart-nicoll": "2026-07-28T13:00:50.578151+00:00",
       "tabatha-ricci": "2026-07-28T13:00:50.578151+00:00",
       "tba": "2026-07-28T01:01:02.307352+00:00",
@@ -8349,8 +8349,8 @@
       "wellington-turman": "2026-07-28T03:00:45.327358+00:00"
     },
     "odds": {
-      "count": 65,
-      "last_call": "2026-07-28T17:00:51.540057+00:00",
+      "count": 66,
+      "last_call": "2026-07-28T21:52:20.226451+00:00",
       "month": "2026-07"
     },
     "ufcstats_last": {
@@ -8394,7 +8394,7 @@
       "gillian-robertson": "2026-07-27T23:00:48.289679+00:00",
       "guilherme-pat": "2026-07-27T21:00:49.625123+00:00",
       "hailey-cowan": "2026-07-27T05:00:50.055887+00:00",
-      "henrique-da-silva-lopes": "2026-07-27T21:00:49.625123+00:00",
+      "henrique-da-silva-lopes": "2026-07-28T21:52:22.430209+00:00",
       "ian-machado-garry": "2026-07-27T23:00:48.289679+00:00",
       "islam-dulatov": "2026-07-20T07:00:58.503645+00:00",
       "islam-makhachev": "2026-07-27T23:00:48.289679+00:00",

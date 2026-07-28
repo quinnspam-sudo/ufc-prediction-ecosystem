@@ -237,9 +237,9 @@
             {
               "matchup": "Dennis Buzukja vs Bogdan Grad",
               "pick": "Bogdan Grad",
-              "moneyline": -200,
-              "decimal_odds": 1.5,
-              "consensus_prob": 0.7285,
+              "moneyline": -205,
+              "decimal_odds": 1.488,
+              "consensus_prob": 0.7317,
               "model_prob": 0.7535,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 72.77,
@@ -261,7 +261,7 @@
               "pick": "Navajo Stirling",
               "moneyline": -325,
               "decimal_odds": 1.308,
-              "consensus_prob": 0.7654,
+              "consensus_prob": 0.7661,
               "model_prob": 0.7204,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 57.91,
@@ -269,10 +269,10 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 44.7,
-          "combined_decimal_odds": 2.523,
-          "combined_american": 152,
-          "ev_per_unit": 0.1278,
+          "combined_prob_pct": 44.93,
+          "combined_decimal_odds": 2.503,
+          "combined_american": 150,
+          "ev_per_unit": 0.1247,
           "positive_ev": true
         },
         "5_leg": null

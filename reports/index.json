@@ -451,10 +451,10 @@
     },
     "Marcin Tybura vs Aleksandar Rakic": {
       "win_probability": {
-        "fighter_a_pct": 43.03,
-        "fighter_b_pct": 56.97,
-        "draw_pct": 7.32,
-        "calibration_shrink_applied": 0.55
+        "fighter_a_pct": 38.89,
+        "fighter_b_pct": 61.11,
+        "draw_pct": 5.65,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": true,
