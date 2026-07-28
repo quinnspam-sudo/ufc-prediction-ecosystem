@@ -1060,17 +1060,17 @@
       "label": "Oban Elliott vs Michael Oliveira",
       "a": "Oban Elliott",
       "b": "Michael Oliveira",
-      "p_a": 0.2737,
+      "p_a": 0.229,
       "event": "UFC Fight Night: Medi\u0107 vs. Rodriguez",
-      "logged": "2026-07-27T17:01:08+00:00",
+      "logged": "2026-07-28T03:01:08+00:00",
       "resolved": false,
       "actual_a": null,
       "brier": null,
       "resolved_at": null,
-      "p_ko": 0.1981,
-      "p_sub": 0.035,
-      "p_dec": 0.7667,
-      "p_distance": 0.7669
+      "p_ko": 0.2796,
+      "p_sub": 0.0475,
+      "p_dec": 0.6725,
+      "p_distance": 0.6729
     },
     {
       "label": "Magomed Ankalaev vs Bogdan Guskov",
@@ -1220,33 +1220,33 @@
       "label": "Mateusz Gamrot vs Quillan Salkilld",
       "a": "Mateusz Gamrot",
       "b": "Quillan Salkilld",
-      "p_a": 0.7385,
+      "p_a": 0.3055,
       "event": "UFC Fight Night: Gamrot vs Salkilld",
-      "logged": "2026-07-28T01:01:28+00:00",
+      "logged": "2026-07-28T03:01:09+00:00",
       "resolved": false,
       "actual_a": null,
       "brier": null,
       "resolved_at": null,
-      "p_ko": 0.2615,
-      "p_sub": 0.2875,
-      "p_dec": 0.451,
-      "p_distance": 0.451
+      "p_ko": 0.3094,
+      "p_sub": 0.2541,
+      "p_dec": 0.4337,
+      "p_distance": 0.4365
     },
     {
       "label": "Jeremiah Wells vs Myktybek Orolbai",
       "a": "Jeremiah Wells",
       "b": "Myktybek Orolbai",
-      "p_a": 0.667,
+      "p_a": 0.297,
       "event": "UFC 330: Makhachev vs. Machado Garry",
-      "logged": "2026-07-28T01:01:28+00:00",
+      "logged": "2026-07-28T03:01:10+00:00",
       "resolved": false,
       "actual_a": null,
       "brier": null,
       "resolved_at": null,
-      "p_ko": 0.1995,
-      "p_sub": 0.207,
-      "p_dec": 0.544,
-      "p_distance": 0.5935
+      "p_ko": 0.1787,
+      "p_sub": 0.3601,
+      "p_dec": 0.4612,
+      "p_distance": 0.4612
     },
     {
       "label": "Jalin Turner vs Kau\u00ea Fernandes",
@@ -1279,6 +1279,22 @@
       "p_sub": 0.6028,
       "p_dec": 0.2848,
       "p_distance": 0.2848
+    },
+    {
+      "label": "Neil Magny vs Ramiz Brahimaj",
+      "a": "Neil Magny",
+      "b": "Ramiz Brahimaj",
+      "p_a": 0.682,
+      "event": "UFC 330: Makhachev vs. Machado Garry",
+      "logged": "2026-07-28T03:01:09+00:00",
+      "resolved": false,
+      "actual_a": null,
+      "brier": null,
+      "resolved_at": null,
+      "p_ko": 0.1882,
+      "p_sub": 0.2226,
+      "p_dec": 0.5877,
+      "p_distance": 0.5892
     }
   ]
 }

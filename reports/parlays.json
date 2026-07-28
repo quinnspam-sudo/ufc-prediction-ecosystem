@@ -248,13 +248,13 @@
             {
               "matchup": "Oban Elliott vs Michael Oliveira",
               "pick": "Michael Oliveira",
-              "moneyline": -345,
-              "decimal_odds": 1.29,
-              "consensus_prob": 0.811,
-              "model_prob": 0.7263,
+              "moneyline": -355,
+              "decimal_odds": 1.282,
+              "consensus_prob": 0.8035,
+              "model_prob": 0.771,
               "likely_method": "Unanimous Decision",
-              "likely_method_pct": 76.67,
-              "modal_finish_round": "round_3"
+              "likely_method_pct": 67.13,
+              "modal_finish_round": "round_1"
             },
             {
               "matchup": "Jan Blachowicz vs Navajo Stirling",
@@ -269,10 +269,10 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 46.1,
-          "combined_decimal_odds": 2.548,
-          "combined_american": 155,
-          "ev_per_unit": 0.1748,
+          "combined_prob_pct": 45.67,
+          "combined_decimal_odds": 2.533,
+          "combined_american": 153,
+          "ev_per_unit": 0.1568,
           "positive_ev": true
         },
         "5_leg": null

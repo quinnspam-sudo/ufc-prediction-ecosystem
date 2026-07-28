@@ -4,8 +4,8 @@
     "fighter_b": "Myktybek Orolbai",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.587,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.376,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -19,53 +19,54 @@
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 66.7,
-    "fighter_b_pct": 33.3,
-    "draw_pct": 4.95
+    "fighter_a_pct": 29.7,
+    "fighter_b_pct": 70.3,
+    "draw_pct": 0.0,
+    "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
     "applied": false,
     "model_weight": 1.0,
-    "fighter_a_pct": 66.7,
-    "fighter_b_pct": 33.3,
+    "fighter_a_pct": 21.0,
+    "fighter_b_pct": 79.0,
     "market_devig_a_pct": null
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 10.3,
-      "Submission": 12.65,
-      "Unanimous Decision": 33.05,
-      "Split/Majority Decision": 7.4
+      "KO/TKO": 9.84,
+      "Submission": 11.16,
+      "Unanimous Decision": 0.0,
+      "Split/Majority Decision": 0.0
     },
     "fighter_b": {
-      "KO/TKO": 9.65,
-      "Submission": 8.05,
-      "Unanimous Decision": 8.75,
-      "Split/Majority Decision": 5.2
+      "KO/TKO": 8.03,
+      "Submission": 24.85,
+      "Unanimous Decision": 46.12,
+      "Split/Majority Decision": 0.0
     }
   },
   "fight_level": {
-    "ko_tko_pct": 19.95,
-    "submission_pct": 20.7,
-    "decision_pct": 54.4,
-    "goes_the_distance_pct": 59.35,
-    "expected_fight_minutes": 11.92
+    "ko_tko_pct": 17.87,
+    "submission_pct": 36.01,
+    "decision_pct": 46.12,
+    "goes_the_distance_pct": 46.12,
+    "expected_fight_minutes": 10.53
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 148,
-      "round_2": 170,
-      "round_3": 141
+      "round_1": 836,
+      "round_2": 722,
+      "round_3": 542
     },
     "fighter_b": {
-      "round_1": 129,
-      "round_2": 102,
-      "round_3": 123
+      "round_1": 1396,
+      "round_2": 1059,
+      "round_3": 833
     }
   },
   "value_betting": {
@@ -73,29 +74,27 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 66.7,
-      "edge_pct": 14.32,
-      "consensus_edge_pct": 14.32,
-      "kelly_fraction_full": 0.3007,
-      "kelly_fraction_half": 0.1504,
-      "model_sees_value": true,
-      "consensus_agrees": true,
+      "model_win_prob_pct": 29.7,
+      "edge_pct": -22.68,
+      "consensus_edge_pct": -31.38,
+      "kelly_fraction_full": -0.4763,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
       "value_bet": false
     },
     "fighter_b": {
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 33.3,
-      "edge_pct": -19.08,
-      "consensus_edge_pct": -19.08,
-      "kelly_fraction_full": -0.4007,
-      "kelly_fraction_half": 0.0,
-      "model_sees_value": false,
-      "consensus_agrees": false,
-      "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+      "model_win_prob_pct": 70.3,
+      "edge_pct": 17.92,
+      "consensus_edge_pct": 26.62,
+      "kelly_fraction_full": 0.3763,
+      "kelly_fraction_half": 0.1882,
+      "model_sees_value": true,
+      "consensus_agrees": true,
+      "value_bet": true
+    }
   }
 }

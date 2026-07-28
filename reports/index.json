@@ -400,10 +400,10 @@
     },
     "Oban Elliott vs Michael Oliveira": {
       "win_probability": {
-        "fighter_a_pct": 27.37,
-        "fighter_b_pct": 72.63,
-        "draw_pct": 0.02,
-        "calibration_shrink_applied": 0.55
+        "fighter_a_pct": 22.9,
+        "fighter_b_pct": 77.1,
+        "draw_pct": 0.04,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": false,
@@ -553,13 +553,14 @@
     },
     "Mateusz Gamrot vs Quillan Salkilld": {
       "win_probability": {
-        "fighter_a_pct": 73.85,
-        "fighter_b_pct": 26.15,
-        "draw_pct": 0.0
+        "fighter_a_pct": 30.55,
+        "fighter_b_pct": 69.45,
+        "draw_pct": 0.28,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": false,
-        "fighter_b": false
+        "fighter_b": true
       },
       "report_file": "reports/mateusz-gamrot-vs-quillan-salkilld.json"
     },
@@ -577,12 +578,13 @@
     },
     "Neil Magny vs Ramiz Brahimaj": {
       "win_probability": {
-        "fighter_a_pct": 49.71,
-        "fighter_b_pct": 50.29,
-        "draw_pct": 5.85
+        "fighter_a_pct": 68.2,
+        "fighter_b_pct": 31.8,
+        "draw_pct": 0.15,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
-        "fighter_a": false,
+        "fighter_a": true,
         "fighter_b": false
       },
       "report_file": "reports/neil-magny-vs-ramiz-brahimaj.json"
@@ -614,13 +616,14 @@
     },
     "Jeremiah Wells vs Myktybek Orolbai": {
       "win_probability": {
-        "fighter_a_pct": 66.7,
-        "fighter_b_pct": 33.3,
-        "draw_pct": 4.95
+        "fighter_a_pct": 29.7,
+        "fighter_b_pct": 70.3,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": false,
-        "fighter_b": false
+        "fighter_b": true
       },
       "report_file": "reports/jeremiah-wells-vs-myktybek-orolbai.json"
     },
