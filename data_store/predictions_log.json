@@ -1044,17 +1044,17 @@
       "label": "Jan Blachowicz vs Navajo Stirling",
       "a": "Jan Blachowicz",
       "b": "Navajo Stirling",
-      "p_a": 0.3043,
+      "p_a": 0.2796,
       "event": "UFC Fight Night: Medi\u0107 vs. Rodriguez",
-      "logged": "2026-07-27T11:01:22+00:00",
+      "logged": "2026-07-28T17:00:54+00:00",
       "resolved": false,
       "actual_a": null,
       "brier": null,
       "resolved_at": null,
-      "p_ko": 0.1755,
-      "p_sub": 0.0778,
-      "p_dec": 0.7394,
-      "p_distance": 0.7467
+      "p_ko": 0.3538,
+      "p_sub": 0.0644,
+      "p_dec": 0.5814,
+      "p_distance": 0.5818
     },
     {
       "label": "Oban Elliott vs Michael Oliveira",

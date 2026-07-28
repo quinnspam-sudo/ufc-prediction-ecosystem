@@ -464,10 +464,10 @@
     },
     "Jan Blachowicz vs Navajo Stirling": {
       "win_probability": {
-        "fighter_a_pct": 30.43,
-        "fighter_b_pct": 69.57,
-        "draw_pct": 0.73,
-        "calibration_shrink_applied": 0.55
+        "fighter_a_pct": 27.96,
+        "fighter_b_pct": 72.04,
+        "draw_pct": 0.04,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": false,
