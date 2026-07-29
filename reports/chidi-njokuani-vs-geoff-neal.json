@@ -5,7 +5,7 @@
     "scheduled_rounds": 3,
     "is_title_fight": false,
     "iterations": 10000,
-    "avg_rounds_simulated": 2.644,
+    "avg_rounds_simulated": 2.651,
     "fighter_a_flags": {
       "active_injury": true,
       "missed_weight": false,
@@ -15,58 +15,58 @@
       "needs_real_stats": false
     },
     "fighter_b_flags": {
-      "active_injury": false,
+      "active_injury": true,
       "missed_weight": false,
-      "withdrawn": false,
-      "injury_note": "",
+      "withdrawn": true,
+      "injury_note": "Geoff Neal out of UFC 330; Chidi Njokuani seeks new opponent - Yahoo Sports",
       "stats_approx": false,
       "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 67.61,
-    "fighter_b_pct": 32.39,
-    "draw_pct": 4.98,
+    "fighter_a_pct": 67.69,
+    "fighter_b_pct": 32.31,
+    "draw_pct": 5.25,
     "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
     "applied": false,
     "model_weight": 1.0,
-    "fighter_a_pct": 75.15,
-    "fighter_b_pct": 24.85,
+    "fighter_a_pct": 75.27,
+    "fighter_b_pct": 24.73,
     "market_devig_a_pct": null
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 15.58,
-      "Submission": 3.11,
-      "Unanimous Decision": 46.97,
-      "Split/Majority Decision": 5.75
+      "KO/TKO": 16.16,
+      "Submission": 3.18,
+      "Unanimous Decision": 46.53,
+      "Split/Majority Decision": 5.45
     },
     "fighter_b": {
-      "KO/TKO": 12.07,
-      "Submission": 3.46,
-      "Unanimous Decision": 4.98,
-      "Split/Majority Decision": 3.1
+      "KO/TKO": 11.26,
+      "Submission": 3.44,
+      "Unanimous Decision": 5.73,
+      "Split/Majority Decision": 3.0
     }
   },
   "fight_level": {
-    "ko_tko_pct": 27.65,
-    "submission_pct": 6.57,
-    "decision_pct": 60.8,
-    "goes_the_distance_pct": 65.78,
-    "expected_fight_minutes": 12.37
+    "ko_tko_pct": 27.42,
+    "submission_pct": 6.62,
+    "decision_pct": 60.71,
+    "goes_the_distance_pct": 65.96,
+    "expected_fight_minutes": 12.41
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 667,
-      "round_2": 625,
-      "round_3": 577
+      "round_1": 677,
+      "round_2": 643,
+      "round_3": 614
     },
     "fighter_b": {
-      "round_1": 538,
-      "round_2": 523,
-      "round_3": 492
+      "round_1": 494,
+      "round_2": 500,
+      "round_3": 476
     }
   },
   "value_betting": {
@@ -74,11 +74,11 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 67.61,
-      "edge_pct": 15.22,
-      "consensus_edge_pct": 22.77,
-      "kelly_fraction_full": 0.3197,
-      "kelly_fraction_half": 0.1599,
+      "model_win_prob_pct": 67.69,
+      "edge_pct": 15.31,
+      "consensus_edge_pct": 22.89,
+      "kelly_fraction_full": 0.3215,
+      "kelly_fraction_half": 0.1607,
       "model_sees_value": true,
       "consensus_agrees": true,
       "value_bet": true
@@ -87,10 +87,10 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 32.39,
-      "edge_pct": -19.99,
-      "consensus_edge_pct": -27.53,
-      "kelly_fraction_full": -0.4197,
+      "model_win_prob_pct": 32.31,
+      "edge_pct": -20.07,
+      "consensus_edge_pct": -27.65,
+      "kelly_fraction_full": -0.4215,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,

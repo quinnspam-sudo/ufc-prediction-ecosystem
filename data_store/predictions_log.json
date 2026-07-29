@@ -1156,17 +1156,17 @@
       "label": "Chidi Njokuani vs Geoff Neal",
       "a": "Chidi Njokuani",
       "b": "Geoff Neal",
-      "p_a": 0.6761,
+      "p_a": 0.6769,
       "event": "UFC 330: Makhachev vs. Machado Garry",
-      "logged": "2026-07-29T16:56:35+00:00",
+      "logged": "2026-07-29T17:00:51+00:00",
       "resolved": false,
       "actual_a": null,
       "brier": null,
       "resolved_at": null,
-      "p_ko": 0.2765,
-      "p_sub": 0.0657,
-      "p_dec": 0.608,
-      "p_distance": 0.6578
+      "p_ko": 0.2742,
+      "p_sub": 0.0662,
+      "p_dec": 0.6071,
+      "p_distance": 0.6596
     },
     {
       "label": "Dustin Stoltzfus vs Mansur Abdul-Malik",
