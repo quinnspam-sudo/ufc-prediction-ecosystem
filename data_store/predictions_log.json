@@ -1062,7 +1062,7 @@
       "b": "Michael Oliveira",
       "p_a": 0.229,
       "event": "UFC Fight Night: Medi\u0107 vs. Rodriguez",
-      "logged": "2026-07-29T03:00:56+00:00",
+      "logged": "2026-07-29T09:01:13+00:00",
       "resolved": false,
       "actual_a": null,
       "brier": null,
@@ -1270,7 +1270,7 @@
       "b": "Gillian Robertson",
       "p_a": 0.3522,
       "event": "UFC 330: Makhachev vs. Machado Garry",
-      "logged": "2026-07-28T01:01:29+00:00",
+      "logged": "2026-07-29T09:01:14+00:00",
       "resolved": false,
       "actual_a": null,
       "brier": null,
@@ -1311,6 +1311,38 @@
       "p_sub": 0.2321,
       "p_dec": 0.4568,
       "p_distance": 0.4883
+    },
+    {
+      "label": "Stephanie Luciano vs Marina Spasi\u0107",
+      "a": "Stephanie Luciano",
+      "b": "Marina Spasi\u0107",
+      "p_a": 0.837,
+      "event": "UFC Fight Night: Medi\u0107 vs. Rodriguez",
+      "logged": "2026-07-29T09:01:14+00:00",
+      "resolved": false,
+      "actual_a": null,
+      "brier": null,
+      "resolved_at": null,
+      "p_ko": 0.0985,
+      "p_sub": 0.215,
+      "p_dec": 0.6805,
+      "p_distance": 0.6865
+    },
+    {
+      "label": "Alexander Poppeck vs Jovan Leka",
+      "a": "Alexander Poppeck",
+      "b": "Jovan Leka",
+      "p_a": 0.2759,
+      "event": "UFC Fight Night: Medi\u0107 vs. Rodriguez",
+      "logged": "2026-07-29T09:01:14+00:00",
+      "resolved": false,
+      "actual_a": null,
+      "brier": null,
+      "resolved_at": null,
+      "p_ko": 0.3799,
+      "p_sub": 0.1626,
+      "p_dec": 0.4575,
+      "p_distance": 0.4575
     }
   ]
 }

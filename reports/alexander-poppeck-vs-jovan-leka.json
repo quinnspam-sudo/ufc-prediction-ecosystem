@@ -1,0 +1,100 @@
+{
+  "matchup": {
+    "fighter_a": "Alexander Poppeck",
+    "fighter_b": "Jovan Leka",
+    "scheduled_rounds": 3,
+    "is_title_fight": false,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.382,
+    "fighter_a_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": false,
+      "needs_real_stats": false
+    },
+    "fighter_b_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": false,
+      "needs_real_stats": false
+    }
+  },
+  "win_probability": {
+    "fighter_a_pct": 27.59,
+    "fighter_b_pct": 72.41,
+    "draw_pct": 0.0,
+    "calibration_shrink_applied": 0.7
+  },
+  "consensus_forecast": {
+    "applied": true,
+    "model_weight": 0.4,
+    "fighter_a_pct": 27.89,
+    "fighter_b_pct": 72.11,
+    "market_devig_a_pct": 34.5
+  },
+  "method_of_victory_matrix": {
+    "fighter_a": {
+      "KO/TKO": 16.44,
+      "Submission": 1.54,
+      "Unanimous Decision": 0.0,
+      "Split/Majority Decision": 0.0
+    },
+    "fighter_b": {
+      "KO/TKO": 21.55,
+      "Submission": 14.72,
+      "Unanimous Decision": 45.75,
+      "Split/Majority Decision": 0.0
+    }
+  },
+  "fight_level": {
+    "ko_tko_pct": 37.99,
+    "submission_pct": 16.26,
+    "decision_pct": 45.75,
+    "goes_the_distance_pct": 45.75,
+    "expected_fight_minutes": 10.56
+  },
+  "finish_round_distribution": {
+    "fighter_a": {
+      "round_1": 708,
+      "round_2": 613,
+      "round_3": 477
+    },
+    "fighter_b": {
+      "round_1": 1493,
+      "round_2": 1161,
+      "round_3": 973
+    }
+  },
+  "value_betting": {
+    "fighter_a": {
+      "market_moneyline": 177,
+      "market_decimal_odds": 2.77,
+      "market_implied_prob_pct": 36.1,
+      "model_win_prob_pct": 27.59,
+      "edge_pct": -8.52,
+      "consensus_edge_pct": -8.21,
+      "kelly_fraction_full": -0.1333,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
+      "value_bet": false
+    },
+    "fighter_b": {
+      "market_moneyline": -218,
+      "market_decimal_odds": 1.459,
+      "market_implied_prob_pct": 68.55,
+      "model_win_prob_pct": 72.41,
+      "edge_pct": 3.86,
+      "consensus_edge_pct": 3.56,
+      "kelly_fraction_full": 0.1228,
+      "kelly_fraction_half": 0.0614,
+      "model_sees_value": true,
+      "consensus_agrees": true,
+      "value_bet": true
+    }
+  }
+}

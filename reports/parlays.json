@@ -230,7 +230,7 @@
     },
     "UFC Fight Night: Medi\u0107 vs. Rodriguez": {
       "card_type": "fight_night",
-      "eligible_legs": 4,
+      "eligible_legs": 5,
       "parlays": {
         "3_leg": {
           "legs": [
@@ -246,11 +246,65 @@
               "modal_finish_round": "round_3"
             },
             {
+              "matchup": "Alexander Poppeck vs Jovan Leka",
+              "pick": "Jovan Leka",
+              "moneyline": -218,
+              "decimal_odds": 1.459,
+              "consensus_prob": 0.7211,
+              "model_prob": 0.7241,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 45.75,
+              "modal_finish_round": "round_1"
+            },
+            {
               "matchup": "Oban Elliott vs Michael Oliveira",
               "pick": "Michael Oliveira",
-              "moneyline": -340,
-              "decimal_odds": 1.294,
-              "consensus_prob": 0.8003,
+              "moneyline": -345,
+              "decimal_odds": 1.29,
+              "consensus_prob": 0.8013,
+              "model_prob": 0.771,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 67.13,
+              "modal_finish_round": "round_1"
+            }
+          ],
+          "leg_count": 3,
+          "combined_prob_pct": 42.28,
+          "combined_decimal_odds": 2.801,
+          "combined_american": 180,
+          "ev_per_unit": 0.1841,
+          "positive_ev": true
+        },
+        "5_leg": {
+          "legs": [
+            {
+              "matchup": "Dennis Buzukja vs Bogdan Grad",
+              "pick": "Bogdan Grad",
+              "moneyline": -205,
+              "decimal_odds": 1.488,
+              "consensus_prob": 0.7317,
+              "model_prob": 0.7535,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 72.77,
+              "modal_finish_round": "round_3"
+            },
+            {
+              "matchup": "Alexander Poppeck vs Jovan Leka",
+              "pick": "Jovan Leka",
+              "moneyline": -218,
+              "decimal_odds": 1.459,
+              "consensus_prob": 0.7211,
+              "model_prob": 0.7241,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 45.75,
+              "modal_finish_round": "round_1"
+            },
+            {
+              "matchup": "Oban Elliott vs Michael Oliveira",
+              "pick": "Michael Oliveira",
+              "moneyline": -345,
+              "decimal_odds": 1.29,
+              "consensus_prob": 0.8013,
               "model_prob": 0.771,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 67.13,
@@ -266,18 +320,27 @@
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 57.91,
               "modal_finish_round": "round_1"
+            },
+            {
+              "matchup": "Marcin Tybura vs Aleksandar Rakic",
+              "pick": "Aleksandar Rakic",
+              "moneyline": -350,
+              "decimal_odds": 1.286,
+              "consensus_prob": 0.7115,
+              "model_prob": 0.6111,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 36.8,
+              "modal_finish_round": "round_1"
             }
           ],
-          "leg_count": 3,
-          "combined_prob_pct": 44.86,
-          "combined_decimal_odds": 2.519,
-          "combined_american": 152,
-          "ev_per_unit": 0.1298,
+          "leg_count": 5,
+          "combined_prob_pct": 23.05,
+          "combined_decimal_odds": 4.711,
+          "combined_american": 371,
+          "ev_per_unit": 0.0856,
           "positive_ev": true
-        },
-        "5_leg": null
-      },
-      "note": "Only 4 eligible legs; 5_leg not buildable."
+        }
+      }
     }
   },
   "min_leg_consensus_prob": 0.6

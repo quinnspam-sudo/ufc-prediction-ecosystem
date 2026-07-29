@@ -691,6 +691,55 @@
         "fighter_b": false
       },
       "report_file": "reports/islam-makhachev-vs-ian-machado-garry.json"
+    },
+    "Stephanie Luciano vs Marina Spasi\u0107": {
+      "win_probability": {
+        "fighter_a_pct": 83.7,
+        "fighter_b_pct": 16.3,
+        "draw_pct": 0.6
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/stephanie-luciano-vs-marina-spasi.json"
+    },
+    "Alexander Poppeck vs Jovan Leka": {
+      "win_probability": {
+        "fighter_a_pct": 27.59,
+        "fighter_b_pct": 72.41,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.7
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": true
+      },
+      "report_file": "reports/alexander-poppeck-vs-jovan-leka.json"
+    },
+    "Borislav Nikolic vs Mark Vologdin": {
+      "win_probability": {
+        "fighter_a_pct": 80.61,
+        "fighter_b_pct": 19.39,
+        "draw_pct": 3.3
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/borislav-nikolic-vs-mark-vologdin.json"
+    },
+    "Milos Janicic vs Noah Gugnon": {
+      "win_probability": {
+        "fighter_a_pct": 50.87,
+        "fighter_b_pct": 49.13,
+        "draw_pct": 5.45
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/milos-janicic-vs-noah-gugnon.json"
     }
   }
 }
