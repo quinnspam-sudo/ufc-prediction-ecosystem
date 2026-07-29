@@ -604,9 +604,9 @@
     },
     "Chidi Njokuani vs Geoff Neal": {
       "win_probability": {
-        "fighter_a_pct": 69.8,
-        "fighter_b_pct": 30.2,
-        "draw_pct": 3.79,
+        "fighter_a_pct": 67.61,
+        "fighter_b_pct": 32.39,
+        "draw_pct": 4.98,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
