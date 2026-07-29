@@ -1,16 +1,6 @@
 {
   "changelog": [
     {
-      "detail": "Santiago Ponzinibbio vs Sam Patterson: consensus +310 / -410 (7 books)",
-      "ts": "2026-07-21T09:00:55+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Thomas Petersen vs Valter Walker: consensus +155 / -185 (7 books)",
-      "ts": "2026-07-21T09:00:55+00:00",
-      "type": "odds_update"
-    },
-    {
       "detail": "Cody Gibson vs Abdul Hussein: consensus +340 / -445 (6 books)",
       "ts": "2026-07-21T09:00:55+00:00",
       "type": "odds_update"
@@ -2499,6 +2489,16 @@
       "detail": "Alexander Poppeck: real stats populated (http://ufcstats.com/fighter-details/56bf3ed155bd0fcd)",
       "ts": "2026-07-29T09:01:12+00:00",
       "type": "ufcstats_scraped"
+    },
+    {
+      "detail": "Dustin Jacoby: Dustin Jacoby Shares Injury Update After UFC Abu Dhabi Loss - heavy.com",
+      "ts": "2026-07-29T11:00:53+00:00",
+      "type": "health_injury"
+    },
+    {
+      "detail": "Magomed Ankalaev: Magomed Ankalaev was urged to pull out of Alex Pereira rematch with injury: 'Have to pay for your mistakes' - CBS Sports",
+      "ts": "2026-07-29T11:00:53+00:00",
+      "type": "health_withdrawn"
     }
   ],
   "fighters": {
@@ -2793,7 +2793,7 @@
       "withdrawn": false
     },
     "alexia-thainara": {
-      "_updated": "2026-07-29T10:17:12+00:00",
+      "_updated": "2026-07-29T11:00:50+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -2888,7 +2888,7 @@
       "withdrawn": false
     },
     "amanda-lemos": {
-      "_updated": "2026-07-29T10:17:12+00:00",
+      "_updated": "2026-07-29T11:00:50+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -3081,7 +3081,7 @@
       "withdrawn": false
     },
     "billy-quarantillo": {
-      "_updated": "2026-07-29T10:17:12+00:00",
+      "_updated": "2026-07-29T11:00:50+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -3332,7 +3332,7 @@
       "withdrawn": false
     },
     "bruno-lopes": {
-      "_updated": "2026-07-29T10:17:12+00:00",
+      "_updated": "2026-07-29T11:00:50+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -3771,7 +3771,7 @@
       "withdrawn": false
     },
     "diego-ferreira": {
-      "_updated": "2026-07-29T10:17:12+00:00",
+      "_updated": "2026-07-29T11:00:50+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -3866,7 +3866,7 @@
       "withdrawn": false
     },
     "diyar-nurgozhay": {
-      "_updated": "2026-07-29T10:17:12+00:00",
+      "_updated": "2026-07-29T11:00:50+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -4011,7 +4011,7 @@
     },
     "dustin-jacoby": {
       "_injury_from_news": true,
-      "_updated": "2026-07-28T13:00:53+00:00",
+      "_updated": "2026-07-29T11:00:53+00:00",
       "active_injury": true,
       "age": 30,
       "career_fights": 12,
@@ -4499,7 +4499,7 @@
       "withdrawn": false
     },
     "guilherme-pat": {
-      "_updated": "2026-07-29T10:17:12+00:00",
+      "_updated": "2026-07-29T11:00:50+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -4599,7 +4599,7 @@
       "withdrawn": false
     },
     "henrique-da-silva-lopes": {
-      "_updated": "2026-07-29T10:17:12+00:00",
+      "_updated": "2026-07-29T11:00:50+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -5379,7 +5379,7 @@
       "withdrawn": false
     },
     "louie-sutherland": {
-      "_updated": "2026-07-29T10:17:12+00:00",
+      "_updated": "2026-07-29T11:00:50+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -5530,7 +5530,7 @@
     },
     "magomed-ankalaev": {
       "_injury_from_news": true,
-      "_updated": "2026-07-28T13:00:53+00:00",
+      "_updated": "2026-07-29T11:00:53+00:00",
       "active_injury": true,
       "age": 30,
       "career_fights": 12,
@@ -5880,7 +5880,7 @@
       "withdrawn": false
     },
     "mateusz-gamrot": {
-      "_updated": "2026-07-29T10:17:12+00:00",
+      "_updated": "2026-07-29T11:00:50+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -6625,7 +6625,7 @@
       "withdrawn": false
     },
     "opponent-tba": {
-      "_updated": "2026-07-29T10:17:12+00:00",
+      "_updated": "2026-07-29T11:00:50+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -6675,7 +6675,7 @@
       "withdrawn": false
     },
     "quillan-salkilld": {
-      "_updated": "2026-07-29T10:17:12+00:00",
+      "_updated": "2026-07-29T11:00:50+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -7268,7 +7268,7 @@
       "withdrawn": false
     },
     "steven-asplund": {
-      "_updated": "2026-07-29T10:17:12+00:00",
+      "_updated": "2026-07-29T11:00:50+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -7408,7 +7408,7 @@
       "withdrawn": false
     },
     "tba": {
-      "_updated": "2026-07-29T10:17:12+00:00",
+      "_updated": "2026-07-29T11:00:50+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -8574,7 +8574,7 @@
     "calibration": {
       "shrink": 0.7
     },
-    "last_sync": "2026-07-29T10:17:14+00:00",
+    "last_sync": "2026-07-29T11:00:53+00:00",
     "news_last": {
       "abdul-hussein": "2026-07-28T17:00:51.542235+00:00",
       "abubakar-vagaev": "2026-07-29T10:17:12.049433+00:00",
@@ -8607,7 +8607,7 @@
       "diyar-nurgozhay": "2026-07-28T19:00:58.977180+00:00",
       "du-ko-todorovi": "2026-07-29T01:01:11.127601+00:00",
       "duplessis": "2026-07-29T05:00:51.552520+00:00",
-      "dustin-jacoby": "2026-07-28T13:00:50.578151+00:00",
+      "dustin-jacoby": "2026-07-29T11:00:50.749966+00:00",
       "dustin-stoltzfus": "2026-07-28T19:00:58.977180+00:00",
       "edson-barboza": "2026-07-28T19:00:58.977180+00:00",
       "esteban-ribovics": "2026-07-28T19:00:58.977180+00:00",
@@ -8621,9 +8621,9 @@
       "hailey-cowan": "2026-07-29T01:01:11.127601+00:00",
       "henrique-da-silva-lopes": "2026-07-28T21:00:43.466042+00:00",
       "ian-machado-garry": "2026-07-28T21:00:43.466042+00:00",
-      "islam-dulatov": "2026-07-28T13:00:50.578151+00:00",
+      "islam-dulatov": "2026-07-29T11:00:50.749966+00:00",
       "islam-makhachev": "2026-07-28T21:00:43.466042+00:00",
-      "ismael-bonfim": "2026-07-28T13:00:50.578151+00:00",
+      "ismael-bonfim": "2026-07-29T11:00:50.749966+00:00",
       "jalin-turner": "2026-07-28T21:00:43.466042+00:00",
       "jan-blachowicz": "2026-07-29T01:01:11.127601+00:00",
       "jared-cannonier": "2026-07-29T07:00:45.306131+00:00",
@@ -8638,8 +8638,8 @@
       "louie-sutherland": "2026-07-28T21:00:43.466042+00:00",
       "ludovit-klein": "2026-07-29T03:00:48.137841+00:00",
       "mackenzie-dern": "2026-07-28T21:00:43.466042+00:00",
-      "magomed-ankalaev": "2026-07-28T13:00:50.578151+00:00",
-      "magomed-tuchalov": "2026-07-28T13:00:50.578151+00:00",
+      "magomed-ankalaev": "2026-07-29T11:00:50.749966+00:00",
+      "magomed-tuchalov": "2026-07-29T11:00:50.749966+00:00",
       "magomed-zaynukov": "2026-07-28T15:00:54.374779+00:00",
       "mansur-abdul-malik": "2026-07-28T21:52:20.227880+00:00",
       "marcin-tybura": "2026-07-29T03:00:48.137841+00:00",
@@ -8670,12 +8670,12 @@
       "sam-patterson": "2026-07-28T15:00:54.374779+00:00",
       "santiago-ponzinibbio": "2026-07-28T15:00:54.374779+00:00",
       "saygid-izagakhmaev": "2026-07-28T17:00:51.542235+00:00",
-      "seokhyeon-ko": "2026-07-28T11:00:47.137651+00:00",
+      "seokhyeon-ko": "2026-07-29T11:00:50.749966+00:00",
       "stephanie-luciano": "2026-07-29T09:00:52.102727+00:00",
       "steve-erceg": "2026-07-28T17:00:51.542235+00:00",
       "steven-asplund": "2026-07-28T21:52:20.227880+00:00",
-      "stewart-nicoll": "2026-07-28T13:00:50.578151+00:00",
-      "tabatha-ricci": "2026-07-28T13:00:50.578151+00:00",
+      "stewart-nicoll": "2026-07-29T11:00:50.749966+00:00",
+      "tabatha-ricci": "2026-07-29T11:00:50.749966+00:00",
       "tba": "2026-07-28T23:00:45.627424+00:00",
       "thomas-petersen": "2026-07-28T17:00:51.542235+00:00",
       "tofiq-musayev": "2026-07-29T07:00:45.306131+00:00",
