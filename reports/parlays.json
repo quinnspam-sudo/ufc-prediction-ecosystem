@@ -248,9 +248,9 @@
             {
               "matchup": "Oban Elliott vs Michael Oliveira",
               "pick": "Michael Oliveira",
-              "moneyline": -350,
-              "decimal_odds": 1.286,
-              "consensus_prob": 0.8016,
+              "moneyline": -340,
+              "decimal_odds": 1.294,
+              "consensus_prob": 0.8003,
               "model_prob": 0.771,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 67.13,
@@ -269,10 +269,10 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 44.93,
-          "combined_decimal_odds": 2.503,
-          "combined_american": 150,
-          "ev_per_unit": 0.1247,
+          "combined_prob_pct": 44.86,
+          "combined_decimal_odds": 2.519,
+          "combined_american": 152,
+          "ev_per_unit": 0.1298,
           "positive_ev": true
         },
         "5_leg": null
