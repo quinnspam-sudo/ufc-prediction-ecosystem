@@ -239,7 +239,7 @@
               "pick": "Bogdan Grad",
               "moneyline": -205,
               "decimal_odds": 1.488,
-              "consensus_prob": 0.7286,
+              "consensus_prob": 0.7291,
               "model_prob": 0.7535,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 72.77,
@@ -261,7 +261,7 @@
               "pick": "Michael Oliveira",
               "moneyline": -350,
               "decimal_odds": 1.286,
-              "consensus_prob": 0.8028,
+              "consensus_prob": 0.8016,
               "model_prob": 0.771,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 67.13,
@@ -269,10 +269,10 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 42.51,
+          "combined_prob_pct": 42.47,
           "combined_decimal_odds": 2.763,
           "combined_american": 176,
-          "ev_per_unit": 0.1745,
+          "ev_per_unit": 0.1736,
           "positive_ev": true
         },
         "5_leg": {
@@ -282,7 +282,7 @@
               "pick": "Bogdan Grad",
               "moneyline": -205,
               "decimal_odds": 1.488,
-              "consensus_prob": 0.7286,
+              "consensus_prob": 0.7291,
               "model_prob": 0.7535,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 72.77,
@@ -304,7 +304,7 @@
               "pick": "Michael Oliveira",
               "moneyline": -350,
               "decimal_odds": 1.286,
-              "consensus_prob": 0.8028,
+              "consensus_prob": 0.8016,
               "model_prob": 0.771,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 67.13,
@@ -334,10 +334,10 @@
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 23.02,
+          "combined_prob_pct": 23.0,
           "combined_decimal_odds": 4.662,
           "combined_american": 366,
-          "ev_per_unit": 0.073,
+          "ev_per_unit": 0.0721,
           "positive_ev": true
         }
       }
