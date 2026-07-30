@@ -1343,6 +1343,54 @@
       "p_sub": 0.1626,
       "p_dec": 0.4575,
       "p_distance": 0.4575
+    },
+    {
+      "label": "Darren Elkins vs Yadier del Valle",
+      "a": "Darren Elkins",
+      "b": "Yadier del Valle",
+      "p_a": 0.3471,
+      "event": "UFC Fight Night: Gamrot vs Salkilld",
+      "logged": "2026-07-30T01:01:19+00:00",
+      "resolved": false,
+      "actual_a": null,
+      "brier": null,
+      "resolved_at": null,
+      "p_ko": 0.1408,
+      "p_sub": 0.3112,
+      "p_dec": 0.5118,
+      "p_distance": 0.548
+    },
+    {
+      "label": "Billy Ray Goff vs Ty Miller",
+      "a": "Billy Ray Goff",
+      "b": "Ty Miller",
+      "p_a": 0.7,
+      "event": "UFC Fight Night: Gamrot vs Salkilld",
+      "logged": "2026-07-30T01:01:20+00:00",
+      "resolved": false,
+      "actual_a": null,
+      "brier": null,
+      "resolved_at": null,
+      "p_ko": 0.2347,
+      "p_sub": 0.0502,
+      "p_dec": 0.6706,
+      "p_distance": 0.7151
+    },
+    {
+      "label": "Juliana Miller vs Ravena Oliveira",
+      "a": "Juliana Miller",
+      "b": "Ravena Oliveira",
+      "p_a": 0.7793,
+      "event": "UFC Fight Night: Gamrot vs Salkilld",
+      "logged": "2026-07-30T01:01:20+00:00",
+      "resolved": false,
+      "actual_a": null,
+      "brier": null,
+      "resolved_at": null,
+      "p_ko": 0.1049,
+      "p_sub": 0.1813,
+      "p_dec": 0.6957,
+      "p_distance": 0.7138
     }
   ]
 }

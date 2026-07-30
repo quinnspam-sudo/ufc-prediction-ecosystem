@@ -740,6 +740,57 @@
         "fighter_b": false
       },
       "report_file": "reports/milos-janicic-vs-noah-gugnon.json"
+    },
+    "Darren Elkins vs Yadier del Valle": {
+      "win_probability": {
+        "fighter_a_pct": 34.71,
+        "fighter_b_pct": 65.29,
+        "draw_pct": 3.62,
+        "calibration_shrink_applied": 0.7
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": true
+      },
+      "report_file": "reports/darren-elkins-vs-yadier-del-valle.json"
+    },
+    "Billy Ray Goff vs Ty Miller": {
+      "win_probability": {
+        "fighter_a_pct": 70.0,
+        "fighter_b_pct": 30.0,
+        "draw_pct": 4.45,
+        "calibration_shrink_applied": 0.7
+      },
+      "value_flags": {
+        "fighter_a": true,
+        "fighter_b": false
+      },
+      "report_file": "reports/billy-ray-goff-vs-ty-miller.json"
+    },
+    "Juliana Miller vs Ravena Oliveira": {
+      "win_probability": {
+        "fighter_a_pct": 77.93,
+        "fighter_b_pct": 22.07,
+        "draw_pct": 1.81,
+        "calibration_shrink_applied": 0.7
+      },
+      "value_flags": {
+        "fighter_a": true,
+        "fighter_b": false
+      },
+      "report_file": "reports/juliana-miller-vs-ravena-oliveira.json"
+    },
+    "Eric McConico vs Donte Johnson": {
+      "win_probability": {
+        "fighter_a_pct": 49.33,
+        "fighter_b_pct": 50.67,
+        "draw_pct": 6.05
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/eric-mcconico-vs-donte-johnson.json"
     }
   }
 }

@@ -1,0 +1,100 @@
+{
+  "matchup": {
+    "fighter_a": "Darren Elkins",
+    "fighter_b": "Yadier del Valle",
+    "scheduled_rounds": 3,
+    "is_title_fight": false,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.501,
+    "fighter_a_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": false,
+      "needs_real_stats": false
+    },
+    "fighter_b_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": false,
+      "needs_real_stats": false
+    }
+  },
+  "win_probability": {
+    "fighter_a_pct": 34.71,
+    "fighter_b_pct": 65.29,
+    "draw_pct": 3.62,
+    "calibration_shrink_applied": 0.7
+  },
+  "consensus_forecast": {
+    "applied": false,
+    "model_weight": 1.0,
+    "fighter_a_pct": 28.16,
+    "fighter_b_pct": 71.84,
+    "market_devig_a_pct": null
+  },
+  "method_of_victory_matrix": {
+    "fighter_a": {
+      "KO/TKO": 5.75,
+      "Submission": 12.94,
+      "Unanimous Decision": 4.79,
+      "Split/Majority Decision": 3.66
+    },
+    "fighter_b": {
+      "KO/TKO": 8.33,
+      "Submission": 18.18,
+      "Unanimous Decision": 37.1,
+      "Split/Majority Decision": 5.63
+    }
+  },
+  "fight_level": {
+    "ko_tko_pct": 14.08,
+    "submission_pct": 31.12,
+    "decision_pct": 51.18,
+    "goes_the_distance_pct": 54.8,
+    "expected_fight_minutes": 11.37
+  },
+  "finish_round_distribution": {
+    "fighter_a": {
+      "round_1": 726,
+      "round_2": 634,
+      "round_3": 509
+    },
+    "fighter_b": {
+      "round_1": 1032,
+      "round_2": 845,
+      "round_3": 774
+    }
+  },
+  "value_betting": {
+    "fighter_a": {
+      "market_moneyline": -110,
+      "market_decimal_odds": 1.909,
+      "market_implied_prob_pct": 52.38,
+      "model_win_prob_pct": 34.71,
+      "edge_pct": -17.67,
+      "consensus_edge_pct": -24.22,
+      "kelly_fraction_full": -0.371,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
+      "value_bet": false
+    },
+    "fighter_b": {
+      "market_moneyline": -110,
+      "market_decimal_odds": 1.909,
+      "market_implied_prob_pct": 52.38,
+      "model_win_prob_pct": 65.29,
+      "edge_pct": 12.91,
+      "consensus_edge_pct": 19.46,
+      "kelly_fraction_full": 0.271,
+      "kelly_fraction_half": 0.1355,
+      "model_sees_value": true,
+      "consensus_agrees": true,
+      "value_bet": true
+    }
+  }
+}

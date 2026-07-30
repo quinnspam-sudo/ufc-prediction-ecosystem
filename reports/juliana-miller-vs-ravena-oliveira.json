@@ -1,0 +1,100 @@
+{
+  "matchup": {
+    "fighter_a": "Juliana Miller",
+    "fighter_b": "Ravena Oliveira",
+    "scheduled_rounds": 3,
+    "is_title_fight": false,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.707,
+    "fighter_a_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": false,
+      "needs_real_stats": false
+    },
+    "fighter_b_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": false,
+      "needs_real_stats": false
+    }
+  },
+  "win_probability": {
+    "fighter_a_pct": 77.93,
+    "fighter_b_pct": 22.07,
+    "draw_pct": 1.81,
+    "calibration_shrink_applied": 0.7
+  },
+  "consensus_forecast": {
+    "applied": false,
+    "model_weight": 1.0,
+    "fighter_a_pct": 89.9,
+    "fighter_b_pct": 10.1,
+    "market_devig_a_pct": null
+  },
+  "method_of_victory_matrix": {
+    "fighter_a": {
+      "KO/TKO": 5.98,
+      "Submission": 14.66,
+      "Unanimous Decision": 64.31,
+      "Split/Majority Decision": 3.32
+    },
+    "fighter_b": {
+      "KO/TKO": 4.51,
+      "Submission": 3.47,
+      "Unanimous Decision": 0.84,
+      "Split/Majority Decision": 1.1
+    }
+  },
+  "fight_level": {
+    "ko_tko_pct": 10.49,
+    "submission_pct": 18.13,
+    "decision_pct": 69.57,
+    "goes_the_distance_pct": 71.38,
+    "expected_fight_minutes": 12.82
+  },
+  "finish_round_distribution": {
+    "fighter_a": {
+      "round_1": 700,
+      "round_2": 710,
+      "round_3": 654
+    },
+    "fighter_b": {
+      "round_1": 275,
+      "round_2": 267,
+      "round_3": 256
+    }
+  },
+  "value_betting": {
+    "fighter_a": {
+      "market_moneyline": -110,
+      "market_decimal_odds": 1.909,
+      "market_implied_prob_pct": 52.38,
+      "model_win_prob_pct": 77.93,
+      "edge_pct": 25.55,
+      "consensus_edge_pct": 37.52,
+      "kelly_fraction_full": 0.5365,
+      "kelly_fraction_half": 0.2683,
+      "model_sees_value": true,
+      "consensus_agrees": true,
+      "value_bet": true
+    },
+    "fighter_b": {
+      "market_moneyline": -110,
+      "market_decimal_odds": 1.909,
+      "market_implied_prob_pct": 52.38,
+      "model_win_prob_pct": 22.07,
+      "edge_pct": -30.31,
+      "consensus_edge_pct": -42.28,
+      "kelly_fraction_full": -0.6365,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
+      "value_bet": false
+    }
+  }
+}
