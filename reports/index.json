@@ -782,13 +782,14 @@
     },
     "Eric McConico vs Donte Johnson": {
       "win_probability": {
-        "fighter_a_pct": 49.33,
-        "fighter_b_pct": 50.67,
-        "draw_pct": 6.05
+        "fighter_a_pct": 23.73,
+        "fighter_b_pct": 76.27,
+        "draw_pct": 0.04,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": false,
-        "fighter_b": false
+        "fighter_b": true
       },
       "report_file": "reports/eric-mcconico-vs-donte-johnson.json"
     }
