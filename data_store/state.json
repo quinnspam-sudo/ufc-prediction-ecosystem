@@ -1,16 +1,6 @@
 {
   "changelog": [
     {
-      "detail": "Mike Davis vs Nurullo Aliev: consensus +180 / -220 (7 books)",
-      "ts": "2026-07-22T09:38:49+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Rizvan Kuniev vs Tyrell Fortune: consensus -335 / +260 (7 books)",
-      "ts": "2026-07-22T09:38:49+00:00",
-      "type": "odds_update"
-    },
-    {
       "detail": "Santiago Ponzinibbio vs Sam Patterson: consensus +320 / -415 (7 books)",
       "ts": "2026-07-22T09:38:49+00:00",
       "type": "odds_update"
@@ -2499,6 +2489,16 @@
       "detail": "Mackenzie Dern vs Gillian Robertson: consensus -232 / +182 (4 books)",
       "ts": "2026-07-30T13:00:51+00:00",
       "type": "odds_update"
+    },
+    {
+      "detail": "Kamaru Usman: Dana White On Dricus Du Plessis, Kamaru Usman, Conor McGregor\u2019s Injury & More - UFC.com",
+      "ts": "2026-07-30T17:00:51+00:00",
+      "type": "health_injury"
+    },
+    {
+      "detail": "Chidi Njokuani: Geoff Neal out of UFC 330; Chidi Njokuani seeks new opponent - Central Oregon Daily",
+      "ts": "2026-07-30T17:00:51+00:00",
+      "type": "health_withdrawn"
     }
   ],
   "fighters": {
@@ -2793,7 +2793,7 @@
       "withdrawn": false
     },
     "alexia-thainara": {
-      "_updated": "2026-07-30T15:00:51+00:00",
+      "_updated": "2026-07-30T17:00:48+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -2888,7 +2888,7 @@
       "withdrawn": false
     },
     "amanda-lemos": {
-      "_updated": "2026-07-30T15:00:51+00:00",
+      "_updated": "2026-07-30T17:00:48+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -3081,7 +3081,7 @@
       "withdrawn": false
     },
     "billy-quarantillo": {
-      "_updated": "2026-07-30T15:00:51+00:00",
+      "_updated": "2026-07-30T17:00:48+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -3131,7 +3131,7 @@
       "withdrawn": false
     },
     "billy-ray-goff": {
-      "_updated": "2026-07-30T15:00:51+00:00",
+      "_updated": "2026-07-30T17:00:48+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -3382,7 +3382,7 @@
       "withdrawn": false
     },
     "bruno-lopes": {
-      "_updated": "2026-07-30T15:00:51+00:00",
+      "_updated": "2026-07-30T17:00:48+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -3479,7 +3479,7 @@
     },
     "chidi-njokuani": {
       "_injury_from_news": true,
-      "_updated": "2026-07-29T16:56:35+00:00",
+      "_updated": "2026-07-30T17:00:51+00:00",
       "active_injury": true,
       "age": 30,
       "career_fights": 12,
@@ -3495,7 +3495,7 @@
       "fight_location_country": "USA",
       "height_in": 70.0,
       "home_country": "USA",
-      "injury_note": "Geoff Neal out of UFC 330; Chidi Njokuani seeks new opponent - Yahoo Sports",
+      "injury_note": "Geoff Neal out of UFC 330; Chidi Njokuani seeks new opponent - Central Oregon Daily",
       "last_fight_date": "2025-06-01",
       "missed_weight": false,
       "name": "Chidi Njokuani",
@@ -3772,7 +3772,7 @@
       "withdrawn": false
     },
     "darren-elkins": {
-      "_updated": "2026-07-30T15:00:51+00:00",
+      "_updated": "2026-07-30T17:00:48+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -3872,7 +3872,7 @@
       "withdrawn": false
     },
     "diego-ferreira": {
-      "_updated": "2026-07-30T15:00:51+00:00",
+      "_updated": "2026-07-30T17:00:48+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -3967,7 +3967,7 @@
       "withdrawn": false
     },
     "diyar-nurgozhay": {
-      "_updated": "2026-07-30T15:00:51+00:00",
+      "_updated": "2026-07-30T17:00:48+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -4701,7 +4701,7 @@
       "withdrawn": false
     },
     "guilherme-pat": {
-      "_updated": "2026-07-30T15:00:51+00:00",
+      "_updated": "2026-07-30T17:00:48+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -4801,7 +4801,7 @@
       "withdrawn": false
     },
     "henrique-da-silva-lopes": {
-      "_updated": "2026-07-30T15:00:51+00:00",
+      "_updated": "2026-07-30T17:00:48+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -5437,7 +5437,7 @@
       "withdrawn": false
     },
     "juliana-miller": {
-      "_updated": "2026-07-30T15:00:51+00:00",
+      "_updated": "2026-07-30T17:00:48+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -5632,7 +5632,7 @@
       "withdrawn": false
     },
     "louie-sutherland": {
-      "_updated": "2026-07-30T15:00:51+00:00",
+      "_updated": "2026-07-30T17:00:48+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -6133,7 +6133,7 @@
       "withdrawn": false
     },
     "mateusz-gamrot": {
-      "_updated": "2026-07-30T15:00:51+00:00",
+      "_updated": "2026-07-30T17:00:48+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -6878,7 +6878,7 @@
       "withdrawn": false
     },
     "opponent-tba": {
-      "_updated": "2026-07-30T15:00:51+00:00",
+      "_updated": "2026-07-30T17:00:48+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -6928,7 +6928,7 @@
       "withdrawn": false
     },
     "quillan-salkilld": {
-      "_updated": "2026-07-30T15:00:51+00:00",
+      "_updated": "2026-07-30T17:00:48+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -7078,7 +7078,7 @@
       "withdrawn": false
     },
     "ravena-oliveira": {
-      "_updated": "2026-07-30T15:00:51+00:00",
+      "_updated": "2026-07-30T17:00:48+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -7571,7 +7571,7 @@
       "withdrawn": false
     },
     "steven-asplund": {
-      "_updated": "2026-07-30T15:00:51+00:00",
+      "_updated": "2026-07-30T17:00:48+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -7711,7 +7711,7 @@
       "withdrawn": false
     },
     "tba": {
-      "_updated": "2026-07-30T15:00:51+00:00",
+      "_updated": "2026-07-30T17:00:48+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -7956,7 +7956,7 @@
       "withdrawn": false
     },
     "ty-miller": {
-      "_updated": "2026-07-30T15:00:51+00:00",
+      "_updated": "2026-07-30T17:00:48+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -8157,7 +8157,7 @@
     },
     "usman": {
       "_injury_from_news": true,
-      "_updated": "2026-07-29T15:00:54+00:00",
+      "_updated": "2026-07-30T17:00:51+00:00",
       "active_injury": true,
       "age": 38,
       "career_fights": 25,
@@ -8401,7 +8401,7 @@
       "withdrawn": false
     },
     "yadier-del-valle": {
-      "_updated": "2026-07-30T15:00:51+00:00",
+      "_updated": "2026-07-30T17:00:48+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -9009,7 +9009,7 @@
     "calibration": {
       "shrink": 0.7
     },
-    "last_sync": "2026-07-30T15:01:07+00:00",
+    "last_sync": "2026-07-30T17:00:51+00:00",
     "news_last": {
       "abdul-hussein": "2026-07-30T15:00:51.950664+00:00",
       "abubakar-vagaev": "2026-07-30T09:44:48.190111+00:00",
@@ -9017,21 +9017,21 @@
       "alden-coria": "2026-07-30T15:00:51.950664+00:00",
       "aleksandar-rakic": "2026-07-29T21:32:38.601799+00:00",
       "alexander-poppeck": "2026-07-30T09:00:43.005990+00:00",
-      "alexia-thainara": "2026-07-29T16:56:32.562315+00:00",
+      "alexia-thainara": "2026-07-30T17:00:48.972575+00:00",
       "alvin-hines": "2026-07-30T15:00:51.950664+00:00",
-      "amanda-lemos": "2026-07-29T16:56:32.562315+00:00",
+      "amanda-lemos": "2026-07-30T17:00:48.972575+00:00",
       "anna-melisano": "2026-07-30T15:00:51.950664+00:00",
       "austin-bashi": "2026-07-29T21:32:38.601799+00:00",
       "axel-sola": "2026-07-30T09:44:48.190111+00:00",
-      "billy-quarantillo": "2026-07-29T16:56:32.562315+00:00",
+      "billy-quarantillo": "2026-07-30T17:00:48.972575+00:00",
       "billy-ray-goff": "2026-07-30T01:00:49.332292+00:00",
       "bogdan-grad": "2026-07-29T21:32:38.601799+00:00",
       "bogdan-guskov": "2026-07-30T09:44:48.190111+00:00",
       "borislav-nikolic": "2026-07-30T09:00:43.005990+00:00",
       "brendson-ribeiro": "2026-07-30T09:44:48.190111+00:00",
-      "bruno-lopes": "2026-07-29T16:56:32.562315+00:00",
+      "bruno-lopes": "2026-07-30T17:00:48.972575+00:00",
       "chase-hooper": "2026-07-30T05:00:47.288955+00:00",
-      "chidi-njokuani": "2026-07-29T16:56:32.562315+00:00",
+      "chidi-njokuani": "2026-07-30T17:00:48.972575+00:00",
       "christian-leroy-duncan": "2026-07-30T05:00:47.288955+00:00",
       "cody-gibson": "2026-07-29T21:32:38.601799+00:00",
       "damian-rzepecki": "2026-07-30T09:44:48.190111+00:00",
@@ -9118,15 +9118,15 @@
       "stewart-nicoll": "2026-07-30T11:00:44.481279+00:00",
       "tabatha-ricci": "2026-07-30T13:00:51.899624+00:00",
       "tba": "2026-07-29T21:32:38.601799+00:00",
-      "thomas-petersen": "2026-07-29T16:56:32.562315+00:00",
+      "thomas-petersen": "2026-07-30T17:00:48.972575+00:00",
       "tofiq-musayev": "2026-07-30T07:00:57.270546+00:00",
       "tommy-mcmillen": "2026-07-30T15:00:51.950664+00:00",
       "tresean-gore": "2026-07-29T21:32:38.601799+00:00",
       "ty-miller": "2026-07-30T01:00:49.332292+00:00",
-      "tyrell-fortune": "2026-07-29T16:56:32.562315+00:00",
+      "tyrell-fortune": "2026-07-30T17:00:48.972575+00:00",
       "uran-satybaldiev": "2026-07-29T16:56:32.562315+00:00",
       "uro-medi": "2026-07-30T07:00:57.270546+00:00",
-      "usman": "2026-07-29T15:00:51.297417+00:00",
+      "usman": "2026-07-30T17:00:48.972575+00:00",
       "valter-walker": "2026-07-29T17:00:49.072803+00:00",
       "vicente-luque": "2026-07-29T23:00:45.595568+00:00",
       "vlasto-epo": "2026-07-30T09:00:43.005990+00:00",
