@@ -5,7 +5,7 @@
     "scheduled_rounds": 3,
     "is_title_fight": false,
     "iterations": 10000,
-    "avg_rounds_simulated": 2.67,
+    "avg_rounds_simulated": 2.402,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -15,58 +15,58 @@
       "needs_real_stats": false
     },
     "fighter_b_flags": {
-      "active_injury": false,
+      "active_injury": true,
       "missed_weight": false,
-      "withdrawn": false,
-      "injury_note": "",
+      "withdrawn": true,
+      "injury_note": "Dulatov pulls out of tonight's fight duo to an infection - MMA Sucka",
       "stats_approx": false,
       "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 46.38,
-    "fighter_b_pct": 53.62,
+    "fighter_a_pct": 26.7,
+    "fighter_b_pct": 73.3,
     "draw_pct": 0.0,
-    "calibration_shrink_applied": 0.1
+    "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
     "applied": true,
     "model_weight": 0.4,
-    "fighter_a_pct": 13.29,
-    "fighter_b_pct": 86.71,
+    "fighter_a_pct": 14.45,
+    "fighter_b_pct": 85.55,
     "market_devig_a_pct": 12.94
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 5.67,
-      "Submission": 8.15,
+      "KO/TKO": 7.61,
+      "Submission": 9.11,
       "Unanimous Decision": 0.0,
       "Split/Majority Decision": 0.0
     },
     "fighter_b": {
-      "KO/TKO": 14.53,
-      "Submission": 2.85,
-      "Unanimous Decision": 68.8,
+      "KO/TKO": 30.16,
+      "Submission": 5.29,
+      "Unanimous Decision": 47.83,
       "Split/Majority Decision": 0.0
     }
   },
   "fight_level": {
-    "ko_tko_pct": 20.2,
-    "submission_pct": 11.0,
-    "decision_pct": 68.8,
-    "goes_the_distance_pct": 68.8,
-    "expected_fight_minutes": 12.57
+    "ko_tko_pct": 37.77,
+    "submission_pct": 14.4,
+    "decision_pct": 47.83,
+    "goes_the_distance_pct": 47.83,
+    "expected_fight_minutes": 10.71
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 483,
-      "round_2": 469,
-      "round_3": 430
+      "round_1": 627,
+      "round_2": 584,
+      "round_3": 461
     },
     "fighter_b": {
-      "round_1": 651,
-      "round_2": 563,
-      "round_3": 524
+      "round_1": 1516,
+      "round_2": 1108,
+      "round_3": 921
     }
   },
   "value_betting": {
@@ -74,23 +74,23 @@
       "market_moneyline": 640,
       "market_decimal_odds": 7.4,
       "market_implied_prob_pct": 13.51,
-      "model_win_prob_pct": 46.38,
-      "edge_pct": 32.87,
-      "consensus_edge_pct": -0.22,
-      "kelly_fraction_full": 0.38,
-      "kelly_fraction_half": 0.19,
+      "model_win_prob_pct": 26.7,
+      "edge_pct": 13.19,
+      "consensus_edge_pct": 0.94,
+      "kelly_fraction_full": 0.1525,
+      "kelly_fraction_half": 0.0763,
       "model_sees_value": true,
-      "consensus_agrees": false,
-      "value_bet": false
+      "consensus_agrees": true,
+      "value_bet": true
     },
     "fighter_b": {
       "market_moneyline": -1000,
       "market_decimal_odds": 1.1,
       "market_implied_prob_pct": 90.91,
-      "model_win_prob_pct": 53.62,
-      "edge_pct": -37.29,
-      "consensus_edge_pct": -4.2,
-      "kelly_fraction_full": -4.102,
+      "model_win_prob_pct": 73.3,
+      "edge_pct": -17.61,
+      "consensus_edge_pct": -5.36,
+      "kelly_fraction_full": -1.9374,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,

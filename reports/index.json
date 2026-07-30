@@ -272,13 +272,13 @@
     },
     "Wellington Turman vs Islam Dulatov": {
       "win_probability": {
-        "fighter_a_pct": 46.38,
-        "fighter_b_pct": 53.62,
+        "fighter_a_pct": 26.7,
+        "fighter_b_pct": 73.3,
         "draw_pct": 0.0,
-        "calibration_shrink_applied": 0.1
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
-        "fighter_a": false,
+        "fighter_a": true,
         "fighter_b": false
       },
       "report_file": "reports/wellington-turman-vs-islam-dulatov.json"

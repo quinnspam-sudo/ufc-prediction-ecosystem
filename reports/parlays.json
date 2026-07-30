@@ -132,17 +132,6 @@
               "modal_finish_round": "round_3"
             },
             {
-              "matchup": "Wellington Turman vs Islam Dulatov",
-              "pick": "Islam Dulatov",
-              "moneyline": -1000,
-              "decimal_odds": 1.1,
-              "consensus_prob": 0.8671,
-              "model_prob": 0.5362,
-              "likely_method": "Unanimous Decision",
-              "likely_method_pct": 68.8,
-              "modal_finish_round": "round_1"
-            },
-            {
               "matchup": "Brendson Ribeiro vs Magomed Tuchalov",
               "pick": "Magomed Tuchalov",
               "moneyline": -900,
@@ -152,13 +141,24 @@
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 63.54,
               "modal_finish_round": "round_1"
+            },
+            {
+              "matchup": "Cody Gibson vs Abdul Hussein",
+              "pick": "Abdul Hussein",
+              "moneyline": -575,
+              "decimal_odds": 1.174,
+              "consensus_prob": 0.8117,
+              "model_prob": 0.6668,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 48.49,
+              "modal_finish_round": "round_1"
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 58.26,
-          "combined_decimal_odds": 1.683,
-          "combined_american": 68,
-          "ev_per_unit": -0.0196,
+          "combined_prob_pct": 54.54,
+          "combined_decimal_odds": 1.796,
+          "combined_american": 80,
+          "ev_per_unit": -0.0205,
           "positive_ev": false
         },
         "5_leg": {
@@ -173,17 +173,6 @@
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 73.94,
               "modal_finish_round": "round_3"
-            },
-            {
-              "matchup": "Wellington Turman vs Islam Dulatov",
-              "pick": "Islam Dulatov",
-              "moneyline": -1000,
-              "decimal_odds": 1.1,
-              "consensus_prob": 0.8671,
-              "model_prob": 0.5362,
-              "likely_method": "Unanimous Decision",
-              "likely_method_pct": 68.8,
-              "modal_finish_round": "round_1"
             },
             {
               "matchup": "Brendson Ribeiro vs Magomed Tuchalov",
@@ -208,6 +197,17 @@
               "modal_finish_round": "round_1"
             },
             {
+              "matchup": "Wellington Turman vs Islam Dulatov",
+              "pick": "Islam Dulatov",
+              "moneyline": -1000,
+              "decimal_odds": 1.1,
+              "consensus_prob": 0.8555,
+              "model_prob": 0.733,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 47.83,
+              "modal_finish_round": "round_1"
+            },
+            {
               "matchup": "Rizvan Kuniev vs Tyrell Fortune",
               "pick": "Rizvan Kuniev",
               "moneyline": -330,
@@ -220,10 +220,10 @@
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 32.74,
+          "combined_prob_pct": 32.3,
           "combined_decimal_odds": 2.574,
           "combined_american": 157,
-          "ev_per_unit": -0.1572,
+          "ev_per_unit": -0.1685,
           "positive_ev": false
         }
       }
