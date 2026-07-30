@@ -237,9 +237,9 @@
             {
               "matchup": "Dennis Buzukja vs Bogdan Grad",
               "pick": "Bogdan Grad",
-              "moneyline": -198,
-              "decimal_odds": 1.505,
-              "consensus_prob": 0.727,
+              "moneyline": -205,
+              "decimal_odds": 1.488,
+              "consensus_prob": 0.7286,
               "model_prob": 0.7535,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 72.77,
@@ -261,7 +261,7 @@
               "pick": "Michael Oliveira",
               "moneyline": -350,
               "decimal_odds": 1.286,
-              "consensus_prob": 0.8016,
+              "consensus_prob": 0.8028,
               "model_prob": 0.771,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 67.13,
@@ -269,10 +269,10 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 42.35,
-          "combined_decimal_odds": 2.795,
-          "combined_american": 179,
-          "ev_per_unit": 0.1836,
+          "combined_prob_pct": 42.51,
+          "combined_decimal_odds": 2.763,
+          "combined_american": 176,
+          "ev_per_unit": 0.1745,
           "positive_ev": true
         },
         "5_leg": {
@@ -280,9 +280,9 @@
             {
               "matchup": "Dennis Buzukja vs Bogdan Grad",
               "pick": "Bogdan Grad",
-              "moneyline": -198,
-              "decimal_odds": 1.505,
-              "consensus_prob": 0.727,
+              "moneyline": -205,
+              "decimal_odds": 1.488,
+              "consensus_prob": 0.7286,
               "model_prob": 0.7535,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 72.77,
@@ -304,7 +304,7 @@
               "pick": "Michael Oliveira",
               "moneyline": -350,
               "decimal_odds": 1.286,
-              "consensus_prob": 0.8016,
+              "consensus_prob": 0.8028,
               "model_prob": 0.771,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 67.13,
@@ -315,7 +315,7 @@
               "pick": "Navajo Stirling",
               "moneyline": -320,
               "decimal_odds": 1.312,
-              "consensus_prob": 0.764,
+              "consensus_prob": 0.7623,
               "model_prob": 0.7204,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 57.91,
@@ -334,10 +334,10 @@
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 22.98,
-          "combined_decimal_odds": 4.715,
-          "combined_american": 372,
-          "ev_per_unit": 0.0837,
+          "combined_prob_pct": 23.02,
+          "combined_decimal_odds": 4.662,
+          "combined_american": 366,
+          "ev_per_unit": 0.073,
           "positive_ev": true
         }
       }
