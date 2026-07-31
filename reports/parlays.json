@@ -313,9 +313,9 @@
             {
               "matchup": "Jan Blachowicz vs Navajo Stirling",
               "pick": "Navajo Stirling",
-              "moneyline": -320,
-              "decimal_odds": 1.312,
-              "consensus_prob": 0.764,
+              "moneyline": -335,
+              "decimal_odds": 1.299,
+              "consensus_prob": 0.7685,
               "model_prob": 0.7204,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 57.91,
@@ -324,9 +324,9 @@
             {
               "matchup": "Marcin Tybura vs Aleksandar Rakic",
               "pick": "Aleksandar Rakic",
-              "moneyline": -355,
-              "decimal_odds": 1.282,
-              "consensus_prob": 0.7122,
+              "moneyline": -360,
+              "decimal_odds": 1.278,
+              "consensus_prob": 0.7125,
               "model_prob": 0.6111,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 36.8,
@@ -334,10 +334,10 @@
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 23.61,
-          "combined_decimal_odds": 4.466,
-          "combined_american": 347,
-          "ev_per_unit": 0.0546,
+          "combined_prob_pct": 23.76,
+          "combined_decimal_odds": 4.408,
+          "combined_american": 341,
+          "ev_per_unit": 0.0474,
           "positive_ev": true
         }
       }
@@ -362,9 +362,9 @@
             {
               "matchup": "Mateusz Gamrot vs Quillan Salkilld",
               "pick": "Quillan Salkilld",
-              "moneyline": -133,
-              "decimal_odds": 1.752,
-              "consensus_prob": 0.6404,
+              "moneyline": -130,
+              "decimal_odds": 1.769,
+              "consensus_prob": 0.6368,
               "model_prob": 0.6945,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 42.57,
@@ -383,10 +383,10 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 33.51,
-          "combined_decimal_odds": 4.165,
-          "combined_american": 316,
-          "ev_per_unit": 0.3956,
+          "combined_prob_pct": 33.32,
+          "combined_decimal_odds": 4.205,
+          "combined_american": 321,
+          "ev_per_unit": 0.4012,
           "positive_ev": true
         },
         "5_leg": {
@@ -405,9 +405,9 @@
             {
               "matchup": "Mateusz Gamrot vs Quillan Salkilld",
               "pick": "Quillan Salkilld",
-              "moneyline": -133,
-              "decimal_odds": 1.752,
-              "consensus_prob": 0.6404,
+              "moneyline": -130,
+              "decimal_odds": 1.769,
+              "consensus_prob": 0.6368,
               "model_prob": 0.6945,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 42.57,
@@ -425,6 +425,17 @@
               "modal_finish_round": "round_2"
             },
             {
+              "matchup": "Amanda Lemos vs Alexia Thainara",
+              "pick": "Alexia Thainara",
+              "moneyline": -205,
+              "decimal_odds": 1.488,
+              "consensus_prob": 0.7275,
+              "model_prob": 0.74,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 45.24,
+              "modal_finish_round": "round_1"
+            },
+            {
               "matchup": "Steven Asplund vs Guilherme Pat",
               "pick": "Steven Asplund",
               "moneyline": -230,
@@ -434,24 +445,13 @@
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 52.12,
               "modal_finish_round": "round_1"
-            },
-            {
-              "matchup": "Amanda Lemos vs Alexia Thainara",
-              "pick": "Alexia Thainara",
-              "moneyline": -225,
-              "decimal_odds": 1.444,
-              "consensus_prob": 0.7372,
-              "model_prob": 0.74,
-              "likely_method": "Unanimous Decision",
-              "likely_method_pct": 45.24,
-              "modal_finish_round": "round_1"
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 18.38,
-          "combined_decimal_odds": 8.63,
-          "combined_american": 763,
-          "ev_per_unit": 0.5861,
+          "combined_prob_pct": 18.04,
+          "combined_decimal_odds": 8.979,
+          "combined_american": 798,
+          "ev_per_unit": 0.6194,
           "positive_ev": true
         }
       }
