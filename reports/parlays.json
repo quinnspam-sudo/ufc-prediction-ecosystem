@@ -248,9 +248,9 @@
             {
               "matchup": "Alexander Poppeck vs Jovan Leka",
               "pick": "Jovan Leka",
-              "moneyline": -255,
-              "decimal_odds": 1.392,
-              "consensus_prob": 0.7421,
+              "moneyline": -265,
+              "decimal_odds": 1.377,
+              "consensus_prob": 0.7467,
               "model_prob": 0.7241,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 45.75,
@@ -259,9 +259,9 @@
             {
               "matchup": "Oban Elliott vs Michael Oliveira",
               "pick": "Michael Oliveira",
-              "moneyline": -355,
-              "decimal_odds": 1.282,
-              "consensus_prob": 0.802,
+              "moneyline": -360,
+              "decimal_odds": 1.278,
+              "consensus_prob": 0.8044,
               "model_prob": 0.771,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 67.13,
@@ -269,10 +269,10 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 43.39,
-          "combined_decimal_odds": 2.655,
-          "combined_american": 166,
-          "ev_per_unit": 0.1523,
+          "combined_prob_pct": 43.79,
+          "combined_decimal_odds": 2.619,
+          "combined_american": 162,
+          "ev_per_unit": 0.1468,
           "positive_ev": true
         },
         "5_leg": {
@@ -291,9 +291,9 @@
             {
               "matchup": "Alexander Poppeck vs Jovan Leka",
               "pick": "Jovan Leka",
-              "moneyline": -255,
-              "decimal_odds": 1.392,
-              "consensus_prob": 0.7421,
+              "moneyline": -265,
+              "decimal_odds": 1.377,
+              "consensus_prob": 0.7467,
               "model_prob": 0.7241,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 45.75,
@@ -302,9 +302,9 @@
             {
               "matchup": "Oban Elliott vs Michael Oliveira",
               "pick": "Michael Oliveira",
-              "moneyline": -355,
-              "decimal_odds": 1.282,
-              "consensus_prob": 0.802,
+              "moneyline": -360,
+              "decimal_odds": 1.278,
+              "consensus_prob": 0.8044,
               "model_prob": 0.771,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 67.13,
@@ -334,10 +334,10 @@
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 23.76,
-          "combined_decimal_odds": 4.408,
-          "combined_american": 341,
-          "ev_per_unit": 0.0474,
+          "combined_prob_pct": 23.98,
+          "combined_decimal_odds": 4.347,
+          "combined_american": 335,
+          "ev_per_unit": 0.0424,
           "positive_ev": true
         }
       }
@@ -427,9 +427,9 @@
             {
               "matchup": "Amanda Lemos vs Alexia Thainara",
               "pick": "Alexia Thainara",
-              "moneyline": -205,
-              "decimal_odds": 1.488,
-              "consensus_prob": 0.7275,
+              "moneyline": -215,
+              "decimal_odds": 1.465,
+              "consensus_prob": 0.7325,
               "model_prob": 0.74,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 45.24,
@@ -448,10 +448,10 @@
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 18.04,
-          "combined_decimal_odds": 8.979,
-          "combined_american": 798,
-          "ev_per_unit": 0.6194,
+          "combined_prob_pct": 18.16,
+          "combined_decimal_odds": 8.84,
+          "combined_american": 784,
+          "ev_per_unit": 0.6054,
           "positive_ev": true
         }
       }
