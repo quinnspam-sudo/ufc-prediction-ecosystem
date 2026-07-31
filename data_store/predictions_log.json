@@ -980,17 +980,17 @@
       "label": "Daniel Rodriguez vs Uro\u0161 Medi\u0107",
       "a": "Daniel Rodriguez",
       "b": "Uro\u0161 Medi\u0107",
-      "p_a": 0.6923,
+      "p_a": 0.7079,
       "event": "UFC Fight Night: Medi\u0107 vs. Rodriguez",
-      "logged": "2026-07-30T22:19:15+00:00",
+      "logged": "2026-07-31T21:00:48+00:00",
       "resolved": false,
       "actual_a": null,
       "brier": null,
       "resolved_at": null,
-      "p_ko": 0.3625,
-      "p_sub": 0.198,
-      "p_dec": 0.4355,
-      "p_distance": 0.4395
+      "p_ko": 0.371,
+      "p_sub": 0.1925,
+      "p_dec": 0.436,
+      "p_distance": 0.4365
     },
     {
       "label": "Josias Musasa vs Mark Vologdin",
