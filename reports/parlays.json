@@ -237,9 +237,9 @@
             {
               "matchup": "Dennis Buzukja vs Bogdan Grad",
               "pick": "Bogdan Grad",
-              "moneyline": -205,
-              "decimal_odds": 1.488,
-              "consensus_prob": 0.7291,
+              "moneyline": -195,
+              "decimal_odds": 1.513,
+              "consensus_prob": 0.7268,
               "model_prob": 0.7535,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 72.77,
@@ -269,10 +269,10 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 43.79,
-          "combined_decimal_odds": 2.619,
-          "combined_american": 162,
-          "ev_per_unit": 0.1468,
+          "combined_prob_pct": 43.65,
+          "combined_decimal_odds": 2.663,
+          "combined_american": 166,
+          "ev_per_unit": 0.1623,
           "positive_ev": true
         },
         "5_leg": {
@@ -280,9 +280,9 @@
             {
               "matchup": "Dennis Buzukja vs Bogdan Grad",
               "pick": "Bogdan Grad",
-              "moneyline": -205,
-              "decimal_odds": 1.488,
-              "consensus_prob": 0.7291,
+              "moneyline": -195,
+              "decimal_odds": 1.513,
+              "consensus_prob": 0.7268,
               "model_prob": 0.7535,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 72.77,
@@ -313,9 +313,9 @@
             {
               "matchup": "Jan Blachowicz vs Navajo Stirling",
               "pick": "Navajo Stirling",
-              "moneyline": -335,
-              "decimal_odds": 1.299,
-              "consensus_prob": 0.7685,
+              "moneyline": -325,
+              "decimal_odds": 1.308,
+              "consensus_prob": 0.7661,
               "model_prob": 0.7204,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 57.91,
@@ -326,7 +326,7 @@
               "pick": "Aleksandar Rakic",
               "moneyline": -360,
               "decimal_odds": 1.278,
-              "consensus_prob": 0.7125,
+              "consensus_prob": 0.714,
               "model_prob": 0.6111,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 36.8,
@@ -334,10 +334,10 @@
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 23.98,
-          "combined_decimal_odds": 4.347,
-          "combined_american": 335,
-          "ev_per_unit": 0.0424,
+          "combined_prob_pct": 23.88,
+          "combined_decimal_odds": 4.451,
+          "combined_american": 345,
+          "ev_per_unit": 0.0628,
           "positive_ev": true
         }
       }
@@ -349,17 +349,6 @@
         "3_leg": {
           "legs": [
             {
-              "matchup": "Bruno Lopes vs Diyar Nurgozhay",
-              "pick": "Diyar Nurgozhay",
-              "moneyline": -150,
-              "decimal_odds": 1.667,
-              "consensus_prob": 0.6848,
-              "model_prob": 0.7397,
-              "likely_method": "Unanimous Decision",
-              "likely_method_pct": 60.37,
-              "modal_finish_round": "round_1"
-            },
-            {
               "matchup": "Mateusz Gamrot vs Quillan Salkilld",
               "pick": "Quillan Salkilld",
               "moneyline": -130,
@@ -371,11 +360,22 @@
               "modal_finish_round": "round_1"
             },
             {
+              "matchup": "Bruno Lopes vs Diyar Nurgozhay",
+              "pick": "Diyar Nurgozhay",
+              "moneyline": -165,
+              "decimal_odds": 1.606,
+              "consensus_prob": 0.697,
+              "model_prob": 0.7397,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 60.37,
+              "modal_finish_round": "round_1"
+            },
+            {
               "matchup": "Juliana Miller vs Ravena Oliveira",
               "pick": "Juliana Miller",
               "moneyline": -235,
               "decimal_odds": 1.426,
-              "consensus_prob": 0.7641,
+              "consensus_prob": 0.7637,
               "model_prob": 0.7793,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 64.31,
@@ -383,25 +383,14 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 33.32,
-          "combined_decimal_odds": 4.205,
-          "combined_american": 321,
-          "ev_per_unit": 0.4012,
+          "combined_prob_pct": 33.9,
+          "combined_decimal_odds": 4.051,
+          "combined_american": 305,
+          "ev_per_unit": 0.3733,
           "positive_ev": true
         },
         "5_leg": {
           "legs": [
-            {
-              "matchup": "Bruno Lopes vs Diyar Nurgozhay",
-              "pick": "Diyar Nurgozhay",
-              "moneyline": -150,
-              "decimal_odds": 1.667,
-              "consensus_prob": 0.6848,
-              "model_prob": 0.7397,
-              "likely_method": "Unanimous Decision",
-              "likely_method_pct": 60.37,
-              "modal_finish_round": "round_1"
-            },
             {
               "matchup": "Mateusz Gamrot vs Quillan Salkilld",
               "pick": "Quillan Salkilld",
@@ -414,11 +403,22 @@
               "modal_finish_round": "round_1"
             },
             {
+              "matchup": "Bruno Lopes vs Diyar Nurgozhay",
+              "pick": "Diyar Nurgozhay",
+              "moneyline": -165,
+              "decimal_odds": 1.606,
+              "consensus_prob": 0.697,
+              "model_prob": 0.7397,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 60.37,
+              "modal_finish_round": "round_1"
+            },
+            {
               "matchup": "Juliana Miller vs Ravena Oliveira",
               "pick": "Juliana Miller",
               "moneyline": -235,
               "decimal_odds": 1.426,
-              "consensus_prob": 0.7641,
+              "consensus_prob": 0.7637,
               "model_prob": 0.7793,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 64.31,
@@ -429,7 +429,7 @@
               "pick": "Alexia Thainara",
               "moneyline": -215,
               "decimal_odds": 1.465,
-              "consensus_prob": 0.7325,
+              "consensus_prob": 0.7311,
               "model_prob": 0.74,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 45.24,
@@ -440,7 +440,7 @@
               "pick": "Steven Asplund",
               "moneyline": -230,
               "decimal_odds": 1.435,
-              "consensus_prob": 0.744,
+              "consensus_prob": 0.7435,
               "model_prob": 0.7479,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 52.12,
@@ -448,10 +448,10 @@
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 18.16,
-          "combined_decimal_odds": 8.84,
-          "combined_american": 784,
-          "ev_per_unit": 0.6054,
+          "combined_prob_pct": 18.43,
+          "combined_decimal_odds": 8.517,
+          "combined_american": 752,
+          "ev_per_unit": 0.5693,
           "positive_ev": true
         }
       }
