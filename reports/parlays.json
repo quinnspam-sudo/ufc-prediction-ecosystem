@@ -248,9 +248,9 @@
             {
               "matchup": "Alexander Poppeck vs Jovan Leka",
               "pick": "Jovan Leka",
-              "moneyline": -245,
-              "decimal_odds": 1.408,
-              "consensus_prob": 0.7364,
+              "moneyline": -255,
+              "decimal_odds": 1.392,
+              "consensus_prob": 0.7421,
               "model_prob": 0.7241,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 45.75,
@@ -269,10 +269,10 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 43.06,
-          "combined_decimal_odds": 2.686,
-          "combined_american": 169,
-          "ev_per_unit": 0.1566,
+          "combined_prob_pct": 43.39,
+          "combined_decimal_odds": 2.655,
+          "combined_american": 166,
+          "ev_per_unit": 0.1523,
           "positive_ev": true
         },
         "5_leg": {
@@ -291,9 +291,9 @@
             {
               "matchup": "Alexander Poppeck vs Jovan Leka",
               "pick": "Jovan Leka",
-              "moneyline": -245,
-              "decimal_odds": 1.408,
-              "consensus_prob": 0.7364,
+              "moneyline": -255,
+              "decimal_odds": 1.392,
+              "consensus_prob": 0.7421,
               "model_prob": 0.7241,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 45.75,
@@ -315,7 +315,7 @@
               "pick": "Navajo Stirling",
               "moneyline": -320,
               "decimal_odds": 1.312,
-              "consensus_prob": 0.7623,
+              "consensus_prob": 0.764,
               "model_prob": 0.7204,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 57.91,
@@ -334,10 +334,124 @@
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 23.38,
-          "combined_decimal_odds": 4.518,
-          "combined_american": 352,
-          "ev_per_unit": 0.0561,
+          "combined_prob_pct": 23.61,
+          "combined_decimal_odds": 4.466,
+          "combined_american": 347,
+          "ev_per_unit": 0.0546,
+          "positive_ev": true
+        }
+      }
+    },
+    "UFC Fight Night: Gamrot vs Salkilld": {
+      "card_type": "fight_night",
+      "eligible_legs": 5,
+      "parlays": {
+        "3_leg": {
+          "legs": [
+            {
+              "matchup": "Bruno Lopes vs Diyar Nurgozhay",
+              "pick": "Diyar Nurgozhay",
+              "moneyline": -150,
+              "decimal_odds": 1.667,
+              "consensus_prob": 0.6848,
+              "model_prob": 0.7397,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 60.37,
+              "modal_finish_round": "round_1"
+            },
+            {
+              "matchup": "Mateusz Gamrot vs Quillan Salkilld",
+              "pick": "Quillan Salkilld",
+              "moneyline": -133,
+              "decimal_odds": 1.752,
+              "consensus_prob": 0.6404,
+              "model_prob": 0.6945,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 42.57,
+              "modal_finish_round": "round_1"
+            },
+            {
+              "matchup": "Juliana Miller vs Ravena Oliveira",
+              "pick": "Juliana Miller",
+              "moneyline": -235,
+              "decimal_odds": 1.426,
+              "consensus_prob": 0.7641,
+              "model_prob": 0.7793,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 64.31,
+              "modal_finish_round": "round_2"
+            }
+          ],
+          "leg_count": 3,
+          "combined_prob_pct": 33.51,
+          "combined_decimal_odds": 4.165,
+          "combined_american": 316,
+          "ev_per_unit": 0.3956,
+          "positive_ev": true
+        },
+        "5_leg": {
+          "legs": [
+            {
+              "matchup": "Bruno Lopes vs Diyar Nurgozhay",
+              "pick": "Diyar Nurgozhay",
+              "moneyline": -150,
+              "decimal_odds": 1.667,
+              "consensus_prob": 0.6848,
+              "model_prob": 0.7397,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 60.37,
+              "modal_finish_round": "round_1"
+            },
+            {
+              "matchup": "Mateusz Gamrot vs Quillan Salkilld",
+              "pick": "Quillan Salkilld",
+              "moneyline": -133,
+              "decimal_odds": 1.752,
+              "consensus_prob": 0.6404,
+              "model_prob": 0.6945,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 42.57,
+              "modal_finish_round": "round_1"
+            },
+            {
+              "matchup": "Juliana Miller vs Ravena Oliveira",
+              "pick": "Juliana Miller",
+              "moneyline": -235,
+              "decimal_odds": 1.426,
+              "consensus_prob": 0.7641,
+              "model_prob": 0.7793,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 64.31,
+              "modal_finish_round": "round_2"
+            },
+            {
+              "matchup": "Steven Asplund vs Guilherme Pat",
+              "pick": "Steven Asplund",
+              "moneyline": -230,
+              "decimal_odds": 1.435,
+              "consensus_prob": 0.744,
+              "model_prob": 0.7479,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 52.12,
+              "modal_finish_round": "round_1"
+            },
+            {
+              "matchup": "Amanda Lemos vs Alexia Thainara",
+              "pick": "Alexia Thainara",
+              "moneyline": -225,
+              "decimal_odds": 1.444,
+              "consensus_prob": 0.7372,
+              "model_prob": 0.74,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 45.24,
+              "modal_finish_round": "round_1"
+            }
+          ],
+          "leg_count": 5,
+          "combined_prob_pct": 18.38,
+          "combined_decimal_odds": 8.63,
+          "combined_american": 763,
+          "ev_per_unit": 0.5861,
           "positive_ev": true
         }
       }
