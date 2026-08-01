@@ -4,68 +4,69 @@
     "fighter_b": "Vitor Petrino",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.557,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.567,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     },
     "fighter_b_flags": {
       "active_injury": false,
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 50.56,
-    "fighter_b_pct": 49.44,
-    "draw_pct": 6.15
+    "fighter_a_pct": 49.54,
+    "fighter_b_pct": 50.46,
+    "draw_pct": 5.4,
+    "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
     "applied": false,
     "model_weight": 1.0,
-    "fighter_a_pct": 50.56,
-    "fighter_b_pct": 49.44,
+    "fighter_a_pct": 49.34,
+    "fighter_b_pct": 50.66,
     "market_devig_a_pct": null
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 16.55,
-      "Submission": 5.35,
-      "Unanimous Decision": 19.05,
-      "Split/Majority Decision": 6.5
+      "KO/TKO": 14.22,
+      "Submission": 5.99,
+      "Unanimous Decision": 19.19,
+      "Split/Majority Decision": 7.28
     },
     "fighter_b": {
-      "KO/TKO": 15.5,
-      "Submission": 4.1,
-      "Unanimous Decision": 19.05,
-      "Split/Majority Decision": 7.75
+      "KO/TKO": 14.32,
+      "Submission": 6.06,
+      "Unanimous Decision": 20.35,
+      "Split/Majority Decision": 7.19
     }
   },
   "fight_level": {
-    "ko_tko_pct": 32.05,
-    "submission_pct": 9.45,
-    "decision_pct": 52.35,
-    "goes_the_distance_pct": 58.5,
-    "expected_fight_minutes": 11.74
+    "ko_tko_pct": 28.54,
+    "submission_pct": 12.05,
+    "decision_pct": 54.01,
+    "goes_the_distance_pct": 59.41,
+    "expected_fight_minutes": 11.82
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 149,
-      "round_2": 156,
-      "round_3": 133
+      "round_1": 722,
+      "round_2": 683,
+      "round_3": 616
     },
     "fighter_b": {
-      "round_1": 155,
-      "round_2": 123,
-      "round_3": 114
+      "round_1": 792,
+      "round_2": 624,
+      "round_3": 622
     }
   },
   "value_betting": {
@@ -73,10 +74,10 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 50.56,
-      "edge_pct": -1.82,
-      "consensus_edge_pct": -1.82,
-      "kelly_fraction_full": -0.0383,
+      "model_win_prob_pct": 49.54,
+      "edge_pct": -2.84,
+      "consensus_edge_pct": -3.04,
+      "kelly_fraction_full": -0.0597,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
@@ -86,16 +87,14 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 49.44,
-      "edge_pct": -2.94,
-      "consensus_edge_pct": -2.94,
-      "kelly_fraction_full": -0.0617,
+      "model_win_prob_pct": 50.46,
+      "edge_pct": -1.92,
+      "consensus_edge_pct": -1.73,
+      "kelly_fraction_full": -0.0403,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
       "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+    }
   }
 }

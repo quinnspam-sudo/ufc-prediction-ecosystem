@@ -847,21 +847,23 @@
     },
     "Kennedy Nzechukwu vs Shamil Gaziev": {
       "win_probability": {
-        "fighter_a_pct": 59.09,
-        "fighter_b_pct": 40.91,
-        "draw_pct": 5.65
+        "fighter_a_pct": 72.48,
+        "fighter_b_pct": 27.52,
+        "draw_pct": 0.37,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
-        "fighter_a": false,
+        "fighter_a": true,
         "fighter_b": false
       },
       "report_file": "reports/kennedy-nzechukwu-vs-shamil-gaziev.json"
     },
     "Serghei Spivac vs Vitor Petrino": {
       "win_probability": {
-        "fighter_a_pct": 50.56,
-        "fighter_b_pct": 49.44,
-        "draw_pct": 6.15
+        "fighter_a_pct": 49.54,
+        "fighter_b_pct": 50.46,
+        "draw_pct": 5.4,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": false,
@@ -871,13 +873,14 @@
     },
     "Roman Dolidze vs Reinier de Ridder": {
       "win_probability": {
-        "fighter_a_pct": 81.96,
-        "fighter_b_pct": 18.04,
-        "draw_pct": 0.5
+        "fighter_a_pct": 28.34,
+        "fighter_b_pct": 71.67,
+        "draw_pct": 0.02,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": false,
-        "fighter_b": false
+        "fighter_b": true
       },
       "report_file": "reports/roman-dolidze-vs-reinier-de-ridder.json"
     },
