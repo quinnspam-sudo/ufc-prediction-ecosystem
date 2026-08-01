@@ -246,17 +246,6 @@
               "modal_finish_round": "round_3"
             },
             {
-              "matchup": "Alexander Poppeck vs Jovan Leka",
-              "pick": "Jovan Leka",
-              "moneyline": -265,
-              "decimal_odds": 1.377,
-              "consensus_prob": 0.7471,
-              "model_prob": 0.7241,
-              "likely_method": "Unanimous Decision",
-              "likely_method_pct": 45.75,
-              "modal_finish_round": "round_1"
-            },
-            {
               "matchup": "Oban Elliott vs Michael Oliveira",
               "pick": "Michael Oliveira",
               "moneyline": -360,
@@ -266,13 +255,24 @@
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 67.13,
               "modal_finish_round": "round_1"
+            },
+            {
+              "matchup": "Alexander Poppeck vs Jovan Leka",
+              "pick": "Jovan Leka",
+              "moneyline": -275,
+              "decimal_odds": 1.364,
+              "consensus_prob": 0.7488,
+              "model_prob": 0.7241,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 45.75,
+              "modal_finish_round": "round_1"
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 43.68,
-          "combined_decimal_odds": 2.663,
-          "combined_american": 166,
-          "ev_per_unit": 0.163,
+          "combined_prob_pct": 43.78,
+          "combined_decimal_odds": 2.637,
+          "combined_american": 164,
+          "ev_per_unit": 0.1546,
           "positive_ev": true
         },
         "5_leg": {
@@ -289,17 +289,6 @@
               "modal_finish_round": "round_3"
             },
             {
-              "matchup": "Alexander Poppeck vs Jovan Leka",
-              "pick": "Jovan Leka",
-              "moneyline": -265,
-              "decimal_odds": 1.377,
-              "consensus_prob": 0.7471,
-              "model_prob": 0.7241,
-              "likely_method": "Unanimous Decision",
-              "likely_method_pct": 45.75,
-              "modal_finish_round": "round_1"
-            },
-            {
               "matchup": "Oban Elliott vs Michael Oliveira",
               "pick": "Michael Oliveira",
               "moneyline": -360,
@@ -308,6 +297,17 @@
               "model_prob": 0.771,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 67.13,
+              "modal_finish_round": "round_1"
+            },
+            {
+              "matchup": "Alexander Poppeck vs Jovan Leka",
+              "pick": "Jovan Leka",
+              "moneyline": -275,
+              "decimal_odds": 1.364,
+              "consensus_prob": 0.7488,
+              "model_prob": 0.7241,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 45.75,
               "modal_finish_round": "round_1"
             },
             {
@@ -334,10 +334,10 @@
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 23.89,
-          "combined_decimal_odds": 4.451,
-          "combined_american": 345,
-          "ev_per_unit": 0.0634,
+          "combined_prob_pct": 23.95,
+          "combined_decimal_odds": 4.409,
+          "combined_american": 341,
+          "ev_per_unit": 0.0557,
           "positive_ev": true
         }
       }
@@ -349,25 +349,25 @@
         "3_leg": {
           "legs": [
             {
-              "matchup": "Mateusz Gamrot vs Quillan Salkilld",
-              "pick": "Quillan Salkilld",
-              "moneyline": -130,
-              "decimal_odds": 1.769,
-              "consensus_prob": 0.6368,
-              "model_prob": 0.6945,
-              "likely_method": "Unanimous Decision",
-              "likely_method_pct": 42.57,
-              "modal_finish_round": "round_1"
-            },
-            {
               "matchup": "Bruno Lopes vs Diyar Nurgozhay",
               "pick": "Diyar Nurgozhay",
-              "moneyline": -165,
-              "decimal_odds": 1.606,
-              "consensus_prob": 0.697,
+              "moneyline": -160,
+              "decimal_odds": 1.625,
+              "consensus_prob": 0.6923,
               "model_prob": 0.7397,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 60.37,
+              "modal_finish_round": "round_1"
+            },
+            {
+              "matchup": "Mateusz Gamrot vs Quillan Salkilld",
+              "pick": "Quillan Salkilld",
+              "moneyline": -132,
+              "decimal_odds": 1.758,
+              "consensus_prob": 0.6392,
+              "model_prob": 0.6945,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 42.57,
               "modal_finish_round": "round_1"
             },
             {
@@ -375,7 +375,7 @@
               "pick": "Juliana Miller",
               "moneyline": -235,
               "decimal_odds": 1.426,
-              "consensus_prob": 0.7637,
+              "consensus_prob": 0.7641,
               "model_prob": 0.7793,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 64.31,
@@ -383,34 +383,34 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 33.9,
-          "combined_decimal_odds": 4.051,
-          "combined_american": 305,
-          "ev_per_unit": 0.3733,
+          "combined_prob_pct": 33.81,
+          "combined_decimal_odds": 4.074,
+          "combined_american": 307,
+          "ev_per_unit": 0.3774,
           "positive_ev": true
         },
         "5_leg": {
           "legs": [
             {
-              "matchup": "Mateusz Gamrot vs Quillan Salkilld",
-              "pick": "Quillan Salkilld",
-              "moneyline": -130,
-              "decimal_odds": 1.769,
-              "consensus_prob": 0.6368,
-              "model_prob": 0.6945,
-              "likely_method": "Unanimous Decision",
-              "likely_method_pct": 42.57,
-              "modal_finish_round": "round_1"
-            },
-            {
               "matchup": "Bruno Lopes vs Diyar Nurgozhay",
               "pick": "Diyar Nurgozhay",
-              "moneyline": -165,
-              "decimal_odds": 1.606,
-              "consensus_prob": 0.697,
+              "moneyline": -160,
+              "decimal_odds": 1.625,
+              "consensus_prob": 0.6923,
               "model_prob": 0.7397,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 60.37,
+              "modal_finish_round": "round_1"
+            },
+            {
+              "matchup": "Mateusz Gamrot vs Quillan Salkilld",
+              "pick": "Quillan Salkilld",
+              "moneyline": -132,
+              "decimal_odds": 1.758,
+              "consensus_prob": 0.6392,
+              "model_prob": 0.6945,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 42.57,
               "modal_finish_round": "round_1"
             },
             {
@@ -418,7 +418,7 @@
               "pick": "Juliana Miller",
               "moneyline": -235,
               "decimal_odds": 1.426,
-              "consensus_prob": 0.7637,
+              "consensus_prob": 0.7641,
               "model_prob": 0.7793,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 64.31,
@@ -429,7 +429,7 @@
               "pick": "Steven Asplund",
               "moneyline": -230,
               "decimal_odds": 1.435,
-              "consensus_prob": 0.7435,
+              "consensus_prob": 0.7431,
               "model_prob": 0.7479,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 52.12,
@@ -438,9 +438,9 @@
             {
               "matchup": "Amanda Lemos vs Alexia Thainara",
               "pick": "Alexia Thainara",
-              "moneyline": -240,
-              "decimal_odds": 1.417,
-              "consensus_prob": 0.7443,
+              "moneyline": -235,
+              "decimal_odds": 1.426,
+              "consensus_prob": 0.7417,
               "model_prob": 0.74,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 45.24,
@@ -448,10 +448,10 @@
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 18.76,
-          "combined_decimal_odds": 8.238,
-          "combined_american": 724,
-          "ev_per_unit": 0.5453,
+          "combined_prob_pct": 18.64,
+          "combined_decimal_odds": 8.336,
+          "combined_american": 734,
+          "ev_per_unit": 0.5535,
           "positive_ev": true
         }
       }

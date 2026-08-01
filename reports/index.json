@@ -834,21 +834,22 @@
     },
     "Carli Judice vs Jeisla Chaves": {
       "win_probability": {
-        "fighter_a_pct": 50.05,
-        "fighter_b_pct": 49.95,
-        "draw_pct": 6.5
+        "fighter_a_pct": 76.31,
+        "fighter_b_pct": 23.69,
+        "draw_pct": 0.02,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
-        "fighter_a": false,
+        "fighter_a": true,
         "fighter_b": false
       },
       "report_file": "reports/carli-judice-vs-jeisla-chaves.json"
     },
     "Kennedy Nzechukwu vs Shamil Gaziev": {
       "win_probability": {
-        "fighter_a_pct": 50.56,
-        "fighter_b_pct": 49.44,
-        "draw_pct": 6.15
+        "fighter_a_pct": 59.09,
+        "fighter_b_pct": 40.91,
+        "draw_pct": 5.65
       },
       "value_flags": {
         "fighter_a": false,
@@ -870,9 +871,9 @@
     },
     "Roman Dolidze vs Reinier de Ridder": {
       "win_probability": {
-        "fighter_a_pct": 50.91,
-        "fighter_b_pct": 49.09,
-        "draw_pct": 6.1
+        "fighter_a_pct": 81.96,
+        "fighter_b_pct": 18.04,
+        "draw_pct": 0.5
       },
       "value_flags": {
         "fighter_a": false,
@@ -882,12 +883,13 @@
     },
     "Anthony Hernandez vs Gregory Rodrigues": {
       "win_probability": {
-        "fighter_a_pct": 50.92,
-        "fighter_b_pct": 49.08,
-        "draw_pct": 4.45
+        "fighter_a_pct": 67.07,
+        "fighter_b_pct": 32.93,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
-        "fighter_a": false,
+        "fighter_a": true,
         "fighter_b": false
       },
       "report_file": "reports/anthony-hernandez-vs-gregory-rodrigues.json"
