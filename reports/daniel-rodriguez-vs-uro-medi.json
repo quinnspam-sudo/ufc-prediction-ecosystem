@@ -5,12 +5,12 @@
     "scheduled_rounds": 5,
     "is_title_fight": false,
     "iterations": 2000,
-    "avg_rounds_simulated": 3.769,
+    "avg_rounds_simulated": 3.772,
     "fighter_a_flags": {
-      "active_injury": false,
+      "active_injury": true,
       "missed_weight": false,
-      "withdrawn": false,
-      "injury_note": "",
+      "withdrawn": true,
+      "injury_note": "\u2018They need to make a movie out of this, bro\u2019: Daniel Rodriguez grateful to get UFC Belgrade headline spot after 8 months in Mexican prison - MMA Fighting",
       "stats_approx": false,
       "needs_real_stats": false
     },
@@ -24,52 +24,52 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 70.79,
-    "fighter_b_pct": 29.21,
-    "draw_pct": 0.05
+    "fighter_a_pct": 69.34,
+    "fighter_b_pct": 30.66,
+    "draw_pct": 0.2
   },
   "consensus_forecast": {
     "applied": false,
     "model_weight": 1.0,
-    "fighter_a_pct": 70.79,
-    "fighter_b_pct": 29.21,
+    "fighter_a_pct": 69.34,
+    "fighter_b_pct": 30.66,
     "market_devig_a_pct": null
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 22.25,
-      "Submission": 5.1,
-      "Unanimous Decision": 43.1,
-      "Split/Majority Decision": 0.3
+      "KO/TKO": 20.95,
+      "Submission": 5.0,
+      "Unanimous Decision": 42.05,
+      "Split/Majority Decision": 1.2
     },
     "fighter_b": {
-      "KO/TKO": 14.85,
-      "Submission": 14.15,
-      "Unanimous Decision": 0.0,
-      "Split/Majority Decision": 0.2
+      "KO/TKO": 15.3,
+      "Submission": 14.8,
+      "Unanimous Decision": 0.25,
+      "Split/Majority Decision": 0.25
     }
   },
   "fight_level": {
-    "ko_tko_pct": 37.1,
-    "submission_pct": 19.25,
-    "decision_pct": 43.6,
-    "goes_the_distance_pct": 43.65,
-    "expected_fight_minutes": 17.44
+    "ko_tko_pct": 36.25,
+    "submission_pct": 19.8,
+    "decision_pct": 43.75,
+    "goes_the_distance_pct": 43.95,
+    "expected_fight_minutes": 17.46
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 136,
-      "round_2": 113,
-      "round_3": 107,
+      "round_1": 130,
+      "round_2": 109,
+      "round_3": 99,
       "round_4": 86,
-      "round_5": 105
+      "round_5": 95
     },
     "fighter_b": {
-      "round_1": 138,
-      "round_2": 128,
-      "round_3": 119,
-      "round_4": 104,
-      "round_5": 91
+      "round_1": 145,
+      "round_2": 129,
+      "round_3": 127,
+      "round_4": 105,
+      "round_5": 96
     }
   },
   "value_betting": {
@@ -77,11 +77,11 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 70.79,
-      "edge_pct": 18.4,
-      "consensus_edge_pct": 18.4,
-      "kelly_fraction_full": 0.3865,
-      "kelly_fraction_half": 0.1932,
+      "model_win_prob_pct": 69.34,
+      "edge_pct": 16.96,
+      "consensus_edge_pct": 16.96,
+      "kelly_fraction_full": 0.3561,
+      "kelly_fraction_half": 0.1781,
       "model_sees_value": true,
       "consensus_agrees": true,
       "value_bet": false
@@ -90,10 +90,10 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 29.21,
-      "edge_pct": -23.17,
-      "consensus_edge_pct": -23.17,
-      "kelly_fraction_full": -0.4865,
+      "model_win_prob_pct": 30.66,
+      "edge_pct": -21.72,
+      "consensus_edge_pct": -21.72,
+      "kelly_fraction_full": -0.4561,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,

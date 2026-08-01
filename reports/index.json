@@ -466,7 +466,7 @@
       "win_probability": {
         "fighter_a_pct": 27.96,
         "fighter_b_pct": 72.04,
-        "draw_pct": 0.04,
+        "draw_pct": 0.02,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -477,9 +477,9 @@
     },
     "Daniel Rodriguez vs Uro\u0161 Medi\u0107": {
       "win_probability": {
-        "fighter_a_pct": 70.79,
-        "fighter_b_pct": 29.21,
-        "draw_pct": 0.05
+        "fighter_a_pct": 69.34,
+        "fighter_b_pct": 30.66,
+        "draw_pct": 0.2
       },
       "value_flags": {
         "fighter_a": false,
