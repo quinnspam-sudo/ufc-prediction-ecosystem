@@ -336,10 +336,10 @@
     },
     "Jovan Leka vs Max Gimenis": {
       "win_probability": {
-        "fighter_a_pct": 71.73,
-        "fighter_b_pct": 28.27,
+        "fighter_a_pct": 74.23,
+        "fighter_b_pct": 25.77,
         "draw_pct": 0.0,
-        "calibration_shrink_applied": 0.55
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": true,
@@ -349,9 +349,9 @@
     },
     "Hailey Cowan vs Nina Milo\u0161evi\u0107": {
       "win_probability": {
-        "fighter_a_pct": 32.31,
-        "fighter_b_pct": 67.69,
-        "draw_pct": 7.0
+        "fighter_a_pct": 31.89,
+        "fighter_b_pct": 68.11,
+        "draw_pct": 6.7
       },
       "value_flags": {
         "fighter_a": false,
@@ -361,10 +361,10 @@
     },
     "Kyle Prepolec vs Mateusz R\u0119becki": {
       "win_probability": {
-        "fighter_a_pct": 27.55,
-        "fighter_b_pct": 72.45,
+        "fighter_a_pct": 22.62,
+        "fighter_b_pct": 77.38,
         "draw_pct": 0.0,
-        "calibration_shrink_applied": 0.55
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": false,
@@ -374,9 +374,9 @@
     },
     "Dennis Buzukja vs Bogdan Grad": {
       "win_probability": {
-        "fighter_a_pct": 24.65,
-        "fighter_b_pct": 75.35,
-        "draw_pct": 0.24,
+        "fighter_a_pct": 24.64,
+        "fighter_b_pct": 75.36,
+        "draw_pct": 0.17,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -387,10 +387,10 @@
     },
     "Josias Musasa vs Mark Vologdin": {
       "win_probability": {
-        "fighter_a_pct": 29.95,
-        "fighter_b_pct": 70.05,
-        "draw_pct": 1.2,
-        "calibration_shrink_applied": 0.55
+        "fighter_a_pct": 26.0,
+        "fighter_b_pct": 74.0,
+        "draw_pct": 0.27,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": false,
@@ -402,7 +402,7 @@
       "win_probability": {
         "fighter_a_pct": 22.9,
         "fighter_b_pct": 77.1,
-        "draw_pct": 0.04,
+        "draw_pct": 0.03,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -413,10 +413,10 @@
     },
     "Ludovit Klein vs Tofiq Musayev": {
       "win_probability": {
-        "fighter_a_pct": 71.88,
-        "fighter_b_pct": 28.12,
-        "draw_pct": 1.5,
-        "calibration_shrink_applied": 0.55
+        "fighter_a_pct": 75.17,
+        "fighter_b_pct": 24.83,
+        "draw_pct": 2.54,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": true,
@@ -426,9 +426,9 @@
     },
     "Gilbert Urbina vs Vlasto \u010cepo": {
       "win_probability": {
-        "fighter_a_pct": 35.22,
-        "fighter_b_pct": 64.78,
-        "draw_pct": 6.15
+        "fighter_a_pct": 23.85,
+        "fighter_b_pct": 76.15,
+        "draw_pct": 0.0
       },
       "value_flags": {
         "fighter_a": false,
@@ -438,10 +438,10 @@
     },
     "Du\u0161ko Todorovi\u0107 vs Robert Valentin": {
       "win_probability": {
-        "fighter_a_pct": 66.69,
-        "fighter_b_pct": 33.31,
-        "draw_pct": 0.05,
-        "calibration_shrink_applied": 0.55
+        "fighter_a_pct": 68.8,
+        "fighter_b_pct": 31.2,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": true,
@@ -451,9 +451,9 @@
     },
     "Marcin Tybura vs Aleksandar Rakic": {
       "win_probability": {
-        "fighter_a_pct": 38.89,
-        "fighter_b_pct": 61.11,
-        "draw_pct": 5.65,
+        "fighter_a_pct": 38.48,
+        "fighter_b_pct": 61.52,
+        "draw_pct": 5.25,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -694,9 +694,9 @@
     },
     "Stephanie Luciano vs Marina Spasi\u0107": {
       "win_probability": {
-        "fighter_a_pct": 83.7,
-        "fighter_b_pct": 16.3,
-        "draw_pct": 0.6
+        "fighter_a_pct": 83.83,
+        "fighter_b_pct": 16.17,
+        "draw_pct": 0.45
       },
       "value_flags": {
         "fighter_a": false,
@@ -719,9 +719,9 @@
     },
     "Borislav Nikolic vs Mark Vologdin": {
       "win_probability": {
-        "fighter_a_pct": 80.61,
-        "fighter_b_pct": 19.39,
-        "draw_pct": 3.3
+        "fighter_a_pct": 81.47,
+        "fighter_b_pct": 18.53,
+        "draw_pct": 3.4
       },
       "value_flags": {
         "fighter_a": false,
@@ -731,9 +731,9 @@
     },
     "Milos Janicic vs Noah Gugnon": {
       "win_probability": {
-        "fighter_a_pct": 50.87,
-        "fighter_b_pct": 49.13,
-        "draw_pct": 5.45
+        "fighter_a_pct": 50.58,
+        "fighter_b_pct": 49.42,
+        "draw_pct": 5.3
       },
       "value_flags": {
         "fighter_a": false,

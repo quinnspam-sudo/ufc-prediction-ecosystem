@@ -24,35 +24,35 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 83.7,
-    "fighter_b_pct": 16.3,
-    "draw_pct": 0.6
+    "fighter_a_pct": 83.83,
+    "fighter_b_pct": 16.17,
+    "draw_pct": 0.45
   },
   "consensus_forecast": {
     "applied": true,
     "model_weight": 0.4,
-    "fighter_a_pct": 77.78,
-    "fighter_b_pct": 22.22,
+    "fighter_a_pct": 77.83,
+    "fighter_b_pct": 22.17,
     "market_devig_a_pct": 73.83
   },
   "method_of_victory_matrix": {
     "fighter_a": {
       "KO/TKO": 4.75,
       "Submission": 10.65,
-      "Unanimous Decision": 66.9,
-      "Split/Majority Decision": 0.9
+      "Unanimous Decision": 67.35,
+      "Split/Majority Decision": 0.7
     },
     "fighter_b": {
       "KO/TKO": 5.1,
       "Submission": 10.85,
       "Unanimous Decision": 0.05,
-      "Split/Majority Decision": 0.2
+      "Split/Majority Decision": 0.1
     }
   },
   "fight_level": {
     "ko_tko_pct": 9.85,
     "submission_pct": 21.5,
-    "decision_pct": 68.05,
+    "decision_pct": 68.2,
     "goes_the_distance_pct": 68.65,
     "expected_fight_minutes": 12.56
   },
@@ -73,11 +73,11 @@
       "market_moneyline": -332,
       "market_decimal_odds": 1.301,
       "market_implied_prob_pct": 76.85,
-      "model_win_prob_pct": 83.7,
-      "edge_pct": 6.85,
-      "consensus_edge_pct": 0.92,
-      "kelly_fraction_full": 0.2959,
-      "kelly_fraction_half": 0.148,
+      "model_win_prob_pct": 83.83,
+      "edge_pct": 6.98,
+      "consensus_edge_pct": 0.97,
+      "kelly_fraction_full": 0.3013,
+      "kelly_fraction_half": 0.1507,
       "model_sees_value": true,
       "consensus_agrees": true,
       "value_bet": false
@@ -86,10 +86,10 @@
       "market_moneyline": 267,
       "market_decimal_odds": 3.67,
       "market_implied_prob_pct": 27.25,
-      "model_win_prob_pct": 16.3,
-      "edge_pct": -10.95,
-      "consensus_edge_pct": -5.02,
-      "kelly_fraction_full": -0.1505,
+      "model_win_prob_pct": 16.17,
+      "edge_pct": -11.08,
+      "consensus_edge_pct": -5.07,
+      "kelly_fraction_full": -0.1522,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,

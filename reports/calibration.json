@@ -5,14 +5,14 @@
     "method_brier_mean": null,
     "distance_brier_mean": null
   },
-  "resolved_fights": 54,
+  "resolved_fights": 64,
   "open_predictions": 43,
-  "brier_raw": 0.2648,
-  "brier_calibrated": 0.2537,
-  "accuracy_pct": 48.1,
+  "brier_raw": 0.2536,
+  "brier_calibrated": 0.2452,
+  "accuracy_pct": 51.6,
   "baseline_brier": 0.25,
   "shrink_factor": 0.7,
   "min_resolved_before_adapt": 15,
-  "beating_coinflip": false,
+  "beating_coinflip": true,
   "shrink_validation": "walk-forward (fit on first 80% chronologically, applied only if it beats no-shrink on the held-out final 20%)"
 }

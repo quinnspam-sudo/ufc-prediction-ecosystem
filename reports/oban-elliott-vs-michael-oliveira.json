@@ -26,7 +26,7 @@
   "win_probability": {
     "fighter_a_pct": 22.9,
     "fighter_b_pct": 77.1,
-    "draw_pct": 0.04,
+    "draw_pct": 0.03,
     "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
@@ -38,35 +38,35 @@
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 9.15,
-      "Submission": 2.14,
+      "KO/TKO": 9.14,
+      "Submission": 2.15,
       "Unanimous Decision": 0.0,
       "Split/Majority Decision": 0.0
     },
     "fighter_b": {
       "KO/TKO": 18.81,
       "Submission": 2.61,
-      "Unanimous Decision": 67.13,
-      "Split/Majority Decision": 0.12
+      "Unanimous Decision": 67.19,
+      "Split/Majority Decision": 0.07
     }
   },
   "fight_level": {
-    "ko_tko_pct": 27.96,
-    "submission_pct": 4.75,
-    "decision_pct": 67.25,
+    "ko_tko_pct": 27.95,
+    "submission_pct": 4.76,
+    "decision_pct": 67.26,
     "goes_the_distance_pct": 67.29,
     "expected_fight_minutes": 12.47
   },
   "finish_round_distribution": {
     "fighter_a": {
       "round_1": 400,
-      "round_2": 383,
-      "round_3": 346
+      "round_2": 384,
+      "round_3": 345
     },
     "fighter_b": {
       "round_1": 778,
-      "round_2": 686,
-      "round_3": 678
+      "round_2": 685,
+      "round_3": 679
     }
   },
   "value_betting": {
