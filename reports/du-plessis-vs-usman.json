@@ -5,12 +5,12 @@
     "scheduled_rounds": 5,
     "is_title_fight": false,
     "iterations": 10000,
-    "avg_rounds_simulated": 4.139,
+    "avg_rounds_simulated": 3.802,
     "fighter_a_flags": {
-      "active_injury": false,
+      "active_injury": true,
       "missed_weight": false,
       "withdrawn": false,
-      "injury_note": "",
+      "injury_note": "Henry Cejudo awkwardly reveals Kamaru Usman fought Dricus Du Plessis with torn pec - MMA Junkie",
       "stats_approx": true,
       "needs_real_stats": false
     },
@@ -24,53 +24,53 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 47.63,
-    "fighter_b_pct": 52.37,
-    "draw_pct": 2.07,
-    "calibration_shrink_applied": 0.1
+    "fighter_a_pct": 34.96,
+    "fighter_b_pct": 65.04,
+    "draw_pct": 0.15,
+    "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
     "applied": true,
     "model_weight": 0.4,
-    "fighter_a_pct": 49.81,
-    "fighter_b_pct": 50.19,
+    "fighter_a_pct": 50.69,
+    "fighter_b_pct": 49.31,
     "market_devig_a_pct": 65.48
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 12.46,
-      "Submission": 11.21,
-      "Unanimous Decision": 0.98,
-      "Split/Majority Decision": 1.12
+      "KO/TKO": 16.72,
+      "Submission": 11.66,
+      "Unanimous Decision": 0.02,
+      "Split/Majority Decision": 0.07
     },
     "fighter_b": {
-      "KO/TKO": 11.17,
-      "Submission": 6.93,
-      "Unanimous Decision": 50.41,
-      "Split/Majority Decision": 3.65
+      "KO/TKO": 17.58,
+      "Submission": 8.88,
+      "Unanimous Decision": 44.66,
+      "Split/Majority Decision": 0.26
     }
   },
   "fight_level": {
-    "ko_tko_pct": 23.63,
-    "submission_pct": 18.14,
-    "decision_pct": 56.16,
-    "goes_the_distance_pct": 58.23,
-    "expected_fight_minutes": 19.65
+    "ko_tko_pct": 34.3,
+    "submission_pct": 20.54,
+    "decision_pct": 45.01,
+    "goes_the_distance_pct": 45.16,
+    "expected_fight_minutes": 17.64
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 469,
-      "round_2": 481,
-      "round_3": 486,
-      "round_4": 479,
-      "round_5": 452
+      "round_1": 661,
+      "round_2": 601,
+      "round_3": 562,
+      "round_4": 531,
+      "round_5": 483
     },
     "fighter_b": {
-      "round_1": 387,
-      "round_2": 392,
-      "round_3": 380,
-      "round_4": 356,
-      "round_5": 295
+      "round_1": 649,
+      "round_2": 593,
+      "round_3": 514,
+      "round_4": 472,
+      "round_5": 418
     }
   },
   "value_betting": {
@@ -78,10 +78,10 @@
       "market_moneyline": -210,
       "market_decimal_odds": 1.476,
       "market_implied_prob_pct": 67.74,
-      "model_win_prob_pct": 47.63,
-      "edge_pct": -20.11,
-      "consensus_edge_pct": -17.93,
-      "kelly_fraction_full": -0.6234,
+      "model_win_prob_pct": 34.96,
+      "edge_pct": -32.78,
+      "consensus_edge_pct": -17.05,
+      "kelly_fraction_full": -1.0163,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
@@ -91,11 +91,11 @@
       "market_moneyline": 180,
       "market_decimal_odds": 2.8,
       "market_implied_prob_pct": 35.71,
-      "model_win_prob_pct": 52.37,
-      "edge_pct": 16.65,
-      "consensus_edge_pct": 14.47,
-      "kelly_fraction_full": 0.2591,
-      "kelly_fraction_half": 0.1295,
+      "model_win_prob_pct": 65.04,
+      "edge_pct": 29.33,
+      "consensus_edge_pct": 13.59,
+      "kelly_fraction_full": 0.4562,
+      "kelly_fraction_half": 0.2281,
       "model_sees_value": true,
       "consensus_agrees": true,
       "value_bet": true
