@@ -1,21 +1,6 @@
 {
   "changelog": [
     {
-      "detail": "Mike Davis did not win at UFC Fight Night: Ankalaev vs. Guskov (2026-07-25)",
-      "ts": "2026-07-25T15:00:43+00:00",
-      "type": "fight_result"
-    },
-    {
-      "detail": "Nurullo Aliev won at UFC Fight Night: Ankalaev vs. Guskov (2026-07-25)",
-      "ts": "2026-07-25T15:00:43+00:00",
-      "type": "fight_result"
-    },
-    {
-      "detail": "Brendson Ribeiro did not win at UFC Fight Night: Ankalaev vs. Guskov (2026-07-25)",
-      "ts": "2026-07-25T15:00:43+00:00",
-      "type": "fight_result"
-    },
-    {
       "detail": "Magomed Tuchalov won at UFC Fight Night: Ankalaev vs. Guskov (2026-07-25)",
       "ts": "2026-07-25T15:00:43+00:00",
       "type": "fight_result"
@@ -2499,6 +2484,21 @@
       "detail": "Tofiq Musayev beat Ludovit Klein (Brier 0.5651)",
       "ts": "2026-08-01T19:36:46+00:00",
       "type": "calibration_resolved"
+    },
+    {
+      "detail": "Gilbert Urbina beat Vlasto \u010cepo (Brier 0.5799)",
+      "ts": "2026-08-01T21:00:51+00:00",
+      "type": "calibration_resolved"
+    },
+    {
+      "detail": "Robert Valentin beat Du\u0161ko Todorovi\u0107 (Brier 0.4733)",
+      "ts": "2026-08-01T21:00:51+00:00",
+      "type": "calibration_resolved"
+    },
+    {
+      "detail": "Aleksandar Rakic beat Marcin Tybura (Brier 0.1481)",
+      "ts": "2026-08-01T21:00:51+00:00",
+      "type": "calibration_resolved"
     }
   ],
   "fighters": {
@@ -2793,7 +2793,7 @@
       "withdrawn": false
     },
     "alexia-thainara": {
-      "_updated": "2026-08-01T19:36:44+00:00",
+      "_updated": "2026-08-01T21:00:49+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -2888,7 +2888,7 @@
       "withdrawn": false
     },
     "amanda-lemos": {
-      "_updated": "2026-08-01T19:36:44+00:00",
+      "_updated": "2026-08-01T21:00:49+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -3131,7 +3131,7 @@
       "withdrawn": false
     },
     "billy-quarantillo": {
-      "_updated": "2026-08-01T19:36:44+00:00",
+      "_updated": "2026-08-01T21:00:49+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -3181,7 +3181,7 @@
       "withdrawn": false
     },
     "billy-ray-goff": {
-      "_updated": "2026-08-01T19:36:44+00:00",
+      "_updated": "2026-08-01T21:00:49+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -3432,7 +3432,7 @@
       "withdrawn": false
     },
     "bruno-lopes": {
-      "_updated": "2026-08-01T19:36:44+00:00",
+      "_updated": "2026-08-01T21:00:49+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -3873,7 +3873,7 @@
       "withdrawn": false
     },
     "darren-elkins": {
-      "_updated": "2026-08-01T19:36:44+00:00",
+      "_updated": "2026-08-01T21:00:49+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -3973,7 +3973,7 @@
       "withdrawn": false
     },
     "diego-ferreira": {
-      "_updated": "2026-08-01T19:36:44+00:00",
+      "_updated": "2026-08-01T21:00:49+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -4068,7 +4068,7 @@
       "withdrawn": false
     },
     "diyar-nurgozhay": {
-      "_updated": "2026-08-01T19:36:44+00:00",
+      "_updated": "2026-08-01T21:00:49+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -4953,7 +4953,7 @@
       "withdrawn": false
     },
     "guilherme-pat": {
-      "_updated": "2026-08-01T19:36:44+00:00",
+      "_updated": "2026-08-01T21:00:49+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -5053,7 +5053,7 @@
       "withdrawn": false
     },
     "henrique-da-silva-lopes": {
-      "_updated": "2026-08-01T19:36:44+00:00",
+      "_updated": "2026-08-01T21:00:49+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -5790,7 +5790,7 @@
       "withdrawn": false
     },
     "juliana-miller": {
-      "_updated": "2026-08-01T19:36:44+00:00",
+      "_updated": "2026-08-01T21:00:49+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -6085,7 +6085,7 @@
       "withdrawn": false
     },
     "louie-sutherland": {
-      "_updated": "2026-08-01T19:36:44+00:00",
+      "_updated": "2026-08-01T21:00:49+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -6586,7 +6586,7 @@
       "withdrawn": false
     },
     "mateusz-gamrot": {
-      "_updated": "2026-08-01T19:36:44+00:00",
+      "_updated": "2026-08-01T21:00:49+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -7331,7 +7331,7 @@
       "withdrawn": false
     },
     "opponent-tba": {
-      "_updated": "2026-08-01T19:36:44+00:00",
+      "_updated": "2026-08-01T21:00:49+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -7381,7 +7381,7 @@
       "withdrawn": false
     },
     "quillan-salkilld": {
-      "_updated": "2026-08-01T19:36:44+00:00",
+      "_updated": "2026-08-01T21:00:49+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -7531,7 +7531,7 @@
       "withdrawn": false
     },
     "ravena-oliveira": {
-      "_updated": "2026-08-01T19:36:44+00:00",
+      "_updated": "2026-08-01T21:00:49+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -8274,7 +8274,7 @@
       "withdrawn": false
     },
     "steven-asplund": {
-      "_updated": "2026-08-01T19:36:44+00:00",
+      "_updated": "2026-08-01T21:00:49+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -8414,7 +8414,7 @@
       "withdrawn": false
     },
     "tba": {
-      "_updated": "2026-08-01T19:36:44+00:00",
+      "_updated": "2026-08-01T21:00:49+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -8659,7 +8659,7 @@
       "withdrawn": false
     },
     "ty-miller": {
-      "_updated": "2026-08-01T19:36:44+00:00",
+      "_updated": "2026-08-01T21:00:49+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -9204,7 +9204,7 @@
       "withdrawn": false
     },
     "yadier-del-valle": {
-      "_updated": "2026-08-01T19:36:44+00:00",
+      "_updated": "2026-08-01T21:00:49+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -9886,7 +9886,7 @@
     "calibration": {
       "shrink": 0.7
     },
-    "last_sync": "2026-08-01T19:36:46+00:00",
+    "last_sync": "2026-08-01T21:00:51+00:00",
     "news_last": {
       "abdul-hussein": "2026-08-01T15:00:46.101143+00:00",
       "abubakar-vagaev": "2026-08-01T11:00:54.445536+00:00",
@@ -9961,17 +9961,17 @@
       "kody-steele": "2026-08-01T03:00:54.947675+00:00",
       "kyle-prepolec": "2026-08-01T05:00:48.635309+00:00",
       "levi-rodrigues-jr": "2026-08-01T09:00:48.522043+00:00",
-      "louie-sutherland": "2026-07-31T19:54:56.647545+00:00",
+      "louie-sutherland": "2026-08-01T21:00:49.159927+00:00",
       "ludovit-klein": "2026-08-01T05:00:48.635309+00:00",
-      "mackenzie-dern": "2026-07-31T19:54:56.647545+00:00",
+      "mackenzie-dern": "2026-08-01T21:00:49.159927+00:00",
       "magomed-ankalaev": "2026-08-01T13:00:57.228269+00:00",
       "magomed-tuchalov": "2026-08-01T13:00:57.228269+00:00",
       "magomed-zaynukov": "2026-08-01T13:58:08.898423+00:00",
-      "mansur-abdul-malik": "2026-07-31T19:54:56.647545+00:00",
+      "mansur-abdul-malik": "2026-08-01T21:00:49.159927+00:00",
       "marcin-tybura": "2026-08-01T05:00:48.635309+00:00",
       "marina-spasi": "2026-08-01T09:00:48.522043+00:00",
       "mark-vologdin": "2026-08-01T05:00:48.635309+00:00",
-      "mateusz-gamrot": "2026-07-31T19:54:56.647545+00:00",
+      "mateusz-gamrot": "2026-08-01T21:00:49.159927+00:00",
       "mateusz-r-becki": "2026-08-01T05:00:48.635309+00:00",
       "max-gimenis": "2026-08-01T05:00:48.635309+00:00",
       "michael-oliveira": "2026-08-01T05:00:48.635309+00:00",
@@ -9979,14 +9979,14 @@
       "milos-janicic": "2026-08-01T09:00:48.522043+00:00",
       "mitch-ramirez": "2026-08-01T11:00:54.445536+00:00",
       "muhammad-said": "2026-08-01T11:00:54.445536+00:00",
-      "myktybek-orolbai": "2026-07-31T19:54:56.647545+00:00",
+      "myktybek-orolbai": "2026-08-01T21:00:49.159927+00:00",
       "navajo-stirling": "2026-08-01T07:00:59.928999+00:00",
-      "neil-magny": "2026-07-31T19:54:56.647545+00:00",
+      "neil-magny": "2026-08-01T21:00:49.159927+00:00",
       "nina-milo-evi": "2026-08-01T07:00:59.928999+00:00",
       "noah-gugnon": "2026-08-01T09:00:48.522043+00:00",
       "nurullo-aliev": "2026-08-01T13:58:08.898423+00:00",
       "oban-elliott": "2026-08-01T08:35:37.652166+00:00",
-      "opponent-tba": "2026-07-31T19:54:56.647545+00:00",
+      "opponent-tba": "2026-08-01T21:00:49.159927+00:00",
       "quillan-salkilld": "2026-07-31T21:00:45.757070+00:00",
       "ramazan-temirov": "2026-08-01T13:58:08.898423+00:00",
       "ramiz-brahimaj": "2026-07-31T21:00:45.757070+00:00",
@@ -10015,7 +10015,7 @@
       "tresean-gore": "2026-08-01T03:53:26.493724+00:00",
       "ty-miller": "2026-08-01T03:53:26.493724+00:00",
       "tyrell-fortune": "2026-08-01T19:01:08.383144+00:00",
-      "uran-satybaldiev": "2026-07-31T19:00:47.645184+00:00",
+      "uran-satybaldiev": "2026-08-01T21:00:49.159927+00:00",
       "uro-medi": "2026-08-01T11:00:54.445536+00:00",
       "usman": "2026-08-01T19:36:44.553983+00:00",
       "valter-walker": "2026-07-31T19:54:56.647545+00:00",
