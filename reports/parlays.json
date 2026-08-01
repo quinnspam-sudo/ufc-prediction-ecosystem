@@ -237,9 +237,9 @@
             {
               "matchup": "Dennis Buzukja vs Bogdan Grad",
               "pick": "Bogdan Grad",
-              "moneyline": -195,
-              "decimal_odds": 1.513,
-              "consensus_prob": 0.7268,
+              "moneyline": -198,
+              "decimal_odds": 1.505,
+              "consensus_prob": 0.7275,
               "model_prob": 0.7535,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 72.77,
@@ -248,9 +248,9 @@
             {
               "matchup": "Oban Elliott vs Michael Oliveira",
               "pick": "Michael Oliveira",
-              "moneyline": -360,
-              "decimal_odds": 1.278,
-              "consensus_prob": 0.8053,
+              "moneyline": -375,
+              "decimal_odds": 1.267,
+              "consensus_prob": 0.8094,
               "model_prob": 0.771,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 67.13,
@@ -259,9 +259,9 @@
             {
               "matchup": "Alexander Poppeck vs Jovan Leka",
               "pick": "Jovan Leka",
-              "moneyline": -275,
-              "decimal_odds": 1.364,
-              "consensus_prob": 0.7488,
+              "moneyline": -295,
+              "decimal_odds": 1.339,
+              "consensus_prob": 0.7586,
               "model_prob": 0.7241,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 45.75,
@@ -269,10 +269,10 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 43.83,
-          "combined_decimal_odds": 2.637,
-          "combined_american": 164,
-          "ev_per_unit": 0.1559,
+          "combined_prob_pct": 44.67,
+          "combined_decimal_odds": 2.553,
+          "combined_american": 155,
+          "ev_per_unit": 0.1405,
           "positive_ev": true
         },
         "5_leg": {
@@ -280,9 +280,9 @@
             {
               "matchup": "Dennis Buzukja vs Bogdan Grad",
               "pick": "Bogdan Grad",
-              "moneyline": -195,
-              "decimal_odds": 1.513,
-              "consensus_prob": 0.7268,
+              "moneyline": -198,
+              "decimal_odds": 1.505,
+              "consensus_prob": 0.7275,
               "model_prob": 0.7535,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 72.77,
@@ -291,9 +291,9 @@
             {
               "matchup": "Oban Elliott vs Michael Oliveira",
               "pick": "Michael Oliveira",
-              "moneyline": -360,
-              "decimal_odds": 1.278,
-              "consensus_prob": 0.8053,
+              "moneyline": -375,
+              "decimal_odds": 1.267,
+              "consensus_prob": 0.8094,
               "model_prob": 0.771,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 67.13,
@@ -302,9 +302,9 @@
             {
               "matchup": "Alexander Poppeck vs Jovan Leka",
               "pick": "Jovan Leka",
-              "moneyline": -275,
-              "decimal_odds": 1.364,
-              "consensus_prob": 0.7488,
+              "moneyline": -295,
+              "decimal_odds": 1.339,
+              "consensus_prob": 0.7586,
               "model_prob": 0.7241,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 45.75,
@@ -313,9 +313,9 @@
             {
               "matchup": "Jan Blachowicz vs Navajo Stirling",
               "pick": "Navajo Stirling",
-              "moneyline": -320,
-              "decimal_odds": 1.312,
-              "consensus_prob": 0.7657,
+              "moneyline": -325,
+              "decimal_odds": 1.308,
+              "consensus_prob": 0.7661,
               "model_prob": 0.7204,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 57.91,
@@ -324,9 +324,9 @@
             {
               "matchup": "Marcin Tybura vs Aleksandar Rakic",
               "pick": "Aleksandar Rakic",
-              "moneyline": -360,
-              "decimal_odds": 1.278,
-              "consensus_prob": 0.714,
+              "moneyline": -400,
+              "decimal_odds": 1.25,
+              "consensus_prob": 0.7233,
               "model_prob": 0.6111,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 36.8,
@@ -334,10 +334,10 @@
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 23.96,
-          "combined_decimal_odds": 4.422,
-          "combined_american": 342,
-          "ev_per_unit": 0.0596,
+          "combined_prob_pct": 24.75,
+          "combined_decimal_odds": 4.175,
+          "combined_american": 317,
+          "ev_per_unit": 0.0333,
           "positive_ev": true
         }
       }
@@ -364,7 +364,7 @@
               "pick": "Quillan Salkilld",
               "moneyline": -132,
               "decimal_odds": 1.758,
-              "consensus_prob": 0.6392,
+              "consensus_prob": 0.6385,
               "model_prob": 0.6945,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 42.57,
@@ -383,10 +383,10 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 33.81,
+          "combined_prob_pct": 33.78,
           "combined_decimal_odds": 4.074,
           "combined_american": 307,
-          "ev_per_unit": 0.3774,
+          "ev_per_unit": 0.3759,
           "positive_ev": true
         },
         "5_leg": {
@@ -407,7 +407,7 @@
               "pick": "Quillan Salkilld",
               "moneyline": -132,
               "decimal_odds": 1.758,
-              "consensus_prob": 0.6392,
+              "consensus_prob": 0.6385,
               "model_prob": 0.6945,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 42.57,
@@ -448,10 +448,10 @@
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 18.64,
+          "combined_prob_pct": 18.62,
           "combined_decimal_odds": 8.336,
           "combined_american": 734,
-          "ev_per_unit": 0.5535,
+          "ev_per_unit": 0.5518,
           "positive_ev": true
         }
       }
