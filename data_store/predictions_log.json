@@ -1407,6 +1407,54 @@
       "p_sub": 0.1487,
       "p_dec": 0.6197,
       "p_distance": 0.6201
+    },
+    {
+      "label": "Gauge Young vs Kody Steele",
+      "a": "Gauge Young",
+      "b": "Kody Steele",
+      "p_a": 0.7216,
+      "event": "UFC Fight Night: Hernandez vs. Rodrigues",
+      "logged": "2026-08-01T01:01:24+00:00",
+      "resolved": false,
+      "actual_a": null,
+      "brier": null,
+      "resolved_at": null,
+      "p_ko": 0.2212,
+      "p_sub": 0.1262,
+      "p_dec": 0.6525,
+      "p_distance": 0.6526
+    },
+    {
+      "label": "Elise Reed vs Shanelle Dyer",
+      "a": "Elise Reed",
+      "b": "Shanelle Dyer",
+      "p_a": 0.1999,
+      "event": "UFC Fight Night: Hernandez vs. Rodrigues",
+      "logged": "2026-08-01T01:01:24+00:00",
+      "resolved": false,
+      "actual_a": null,
+      "brier": null,
+      "resolved_at": null,
+      "p_ko": 0.13,
+      "p_sub": 0.0716,
+      "p_dec": 0.7984,
+      "p_distance": 0.7984
+    },
+    {
+      "label": "Wes Schultz vs Jackson McVey",
+      "a": "Wes Schultz",
+      "b": "Jackson McVey",
+      "p_a": 0.6407,
+      "event": "UFC Fight Night: Hernandez vs. Rodrigues",
+      "logged": "2026-08-01T01:01:25+00:00",
+      "resolved": false,
+      "actual_a": null,
+      "brier": null,
+      "resolved_at": null,
+      "p_ko": 0.2587,
+      "p_sub": 0.468,
+      "p_dec": 0.253,
+      "p_distance": 0.2733
     }
   ]
 }

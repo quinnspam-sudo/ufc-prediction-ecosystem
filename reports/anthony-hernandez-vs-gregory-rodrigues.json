@@ -1,0 +1,105 @@
+{
+  "matchup": {
+    "fighter_a": "Anthony Hernandez",
+    "fighter_b": "Gregory Rodrigues",
+    "scheduled_rounds": 5,
+    "is_title_fight": false,
+    "iterations": 2000,
+    "avg_rounds_simulated": 3.685,
+    "fighter_a_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": true,
+      "needs_real_stats": true
+    },
+    "fighter_b_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": true,
+      "needs_real_stats": true
+    }
+  },
+  "win_probability": {
+    "fighter_a_pct": 50.92,
+    "fighter_b_pct": 49.08,
+    "draw_pct": 4.45
+  },
+  "consensus_forecast": {
+    "applied": false,
+    "model_weight": 1.0,
+    "fighter_a_pct": 50.92,
+    "fighter_b_pct": 49.08,
+    "market_devig_a_pct": null
+  },
+  "method_of_victory_matrix": {
+    "fighter_a": {
+      "KO/TKO": 18.85,
+      "Submission": 11.5,
+      "Unanimous Decision": 13.3,
+      "Split/Majority Decision": 5.0
+    },
+    "fighter_b": {
+      "KO/TKO": 17.65,
+      "Submission": 10.95,
+      "Unanimous Decision": 12.75,
+      "Split/Majority Decision": 5.55
+    }
+  },
+  "fight_level": {
+    "ko_tko_pct": 36.5,
+    "submission_pct": 22.45,
+    "decision_pct": 36.6,
+    "goes_the_distance_pct": 41.05,
+    "expected_fight_minutes": 16.95
+  },
+  "finish_round_distribution": {
+    "fighter_a": {
+      "round_1": 147,
+      "round_2": 121,
+      "round_3": 141,
+      "round_4": 103,
+      "round_5": 95
+    },
+    "fighter_b": {
+      "round_1": 146,
+      "round_2": 125,
+      "round_3": 118,
+      "round_4": 99,
+      "round_5": 84
+    }
+  },
+  "value_betting": {
+    "fighter_a": {
+      "market_moneyline": -110,
+      "market_decimal_odds": 1.909,
+      "market_implied_prob_pct": 52.38,
+      "model_win_prob_pct": 50.92,
+      "edge_pct": -1.47,
+      "consensus_edge_pct": -1.47,
+      "kelly_fraction_full": -0.0308,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
+      "value_bet": false
+    },
+    "fighter_b": {
+      "market_moneyline": -110,
+      "market_decimal_odds": 1.909,
+      "market_implied_prob_pct": 52.38,
+      "model_win_prob_pct": 49.08,
+      "edge_pct": -3.3,
+      "consensus_edge_pct": -3.3,
+      "kelly_fraction_full": -0.0692,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
+      "value_bet": false
+    },
+    "insufficient_data": true,
+    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+  }
+}

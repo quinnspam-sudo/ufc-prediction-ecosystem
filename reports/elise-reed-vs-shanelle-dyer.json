@@ -1,0 +1,100 @@
+{
+  "matchup": {
+    "fighter_a": "Elise Reed",
+    "fighter_b": "Shanelle Dyer",
+    "scheduled_rounds": 3,
+    "is_title_fight": false,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.805,
+    "fighter_a_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": false,
+      "needs_real_stats": false
+    },
+    "fighter_b_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": false,
+      "needs_real_stats": false
+    }
+  },
+  "win_probability": {
+    "fighter_a_pct": 19.99,
+    "fighter_b_pct": 80.01,
+    "draw_pct": 0.0,
+    "calibration_shrink_applied": 0.7
+  },
+  "consensus_forecast": {
+    "applied": false,
+    "model_weight": 1.0,
+    "fighter_a_pct": 7.13,
+    "fighter_b_pct": 92.87,
+    "market_devig_a_pct": null
+  },
+  "method_of_victory_matrix": {
+    "fighter_a": {
+      "KO/TKO": 4.1,
+      "Submission": 3.03,
+      "Unanimous Decision": 0.0,
+      "Split/Majority Decision": 0.0
+    },
+    "fighter_b": {
+      "KO/TKO": 8.9,
+      "Submission": 4.13,
+      "Unanimous Decision": 79.83,
+      "Split/Majority Decision": 0.01
+    }
+  },
+  "fight_level": {
+    "ko_tko_pct": 13.0,
+    "submission_pct": 7.16,
+    "decision_pct": 79.84,
+    "goes_the_distance_pct": 79.84,
+    "expected_fight_minutes": 13.52
+  },
+  "finish_round_distribution": {
+    "fighter_a": {
+      "round_1": 216,
+      "round_2": 231,
+      "round_3": 266
+    },
+    "fighter_b": {
+      "round_1": 432,
+      "round_2": 427,
+      "round_3": 444
+    }
+  },
+  "value_betting": {
+    "fighter_a": {
+      "market_moneyline": -110,
+      "market_decimal_odds": 1.909,
+      "market_implied_prob_pct": 52.38,
+      "model_win_prob_pct": 19.99,
+      "edge_pct": -32.39,
+      "consensus_edge_pct": -45.25,
+      "kelly_fraction_full": -0.6802,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
+      "value_bet": false
+    },
+    "fighter_b": {
+      "market_moneyline": -110,
+      "market_decimal_odds": 1.909,
+      "market_implied_prob_pct": 52.38,
+      "model_win_prob_pct": 80.01,
+      "edge_pct": 27.63,
+      "consensus_edge_pct": 40.49,
+      "kelly_fraction_full": 0.5802,
+      "kelly_fraction_half": 0.2901,
+      "model_sees_value": true,
+      "consensus_agrees": true,
+      "value_bet": true
+    }
+  }
+}

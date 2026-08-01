@@ -1,0 +1,100 @@
+{
+  "matchup": {
+    "fighter_a": "Wes Schultz",
+    "fighter_b": "Jackson McVey",
+    "scheduled_rounds": 3,
+    "is_title_fight": false,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.097,
+    "fighter_a_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": false,
+      "needs_real_stats": false
+    },
+    "fighter_b_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": false,
+      "needs_real_stats": false
+    }
+  },
+  "win_probability": {
+    "fighter_a_pct": 64.07,
+    "fighter_b_pct": 35.93,
+    "draw_pct": 2.03,
+    "calibration_shrink_applied": 0.7
+  },
+  "consensus_forecast": {
+    "applied": false,
+    "model_weight": 1.0,
+    "fighter_a_pct": 70.1,
+    "fighter_b_pct": 29.9,
+    "market_devig_a_pct": null
+  },
+  "method_of_victory_matrix": {
+    "fighter_a": {
+      "KO/TKO": 8.01,
+      "Submission": 39.23,
+      "Unanimous Decision": 18.25,
+      "Split/Majority Decision": 3.19
+    },
+    "fighter_b": {
+      "KO/TKO": 17.86,
+      "Submission": 7.57,
+      "Unanimous Decision": 2.21,
+      "Split/Majority Decision": 1.65
+    }
+  },
+  "fight_level": {
+    "ko_tko_pct": 25.87,
+    "submission_pct": 46.8,
+    "decision_pct": 25.3,
+    "goes_the_distance_pct": 27.33,
+    "expected_fight_minutes": 8.67
+  },
+  "finish_round_distribution": {
+    "fighter_a": {
+      "round_1": 2170,
+      "round_2": 1536,
+      "round_3": 1018
+    },
+    "fighter_b": {
+      "round_1": 1177,
+      "round_2": 803,
+      "round_3": 563
+    }
+  },
+  "value_betting": {
+    "fighter_a": {
+      "market_moneyline": -110,
+      "market_decimal_odds": 1.909,
+      "market_implied_prob_pct": 52.38,
+      "model_win_prob_pct": 64.07,
+      "edge_pct": 11.69,
+      "consensus_edge_pct": 17.72,
+      "kelly_fraction_full": 0.2455,
+      "kelly_fraction_half": 0.1227,
+      "model_sees_value": true,
+      "consensus_agrees": true,
+      "value_bet": true
+    },
+    "fighter_b": {
+      "market_moneyline": -110,
+      "market_decimal_odds": 1.909,
+      "market_implied_prob_pct": 52.38,
+      "model_win_prob_pct": 35.93,
+      "edge_pct": -16.45,
+      "consensus_edge_pct": -22.48,
+      "kelly_fraction_full": -0.3455,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
+      "value_bet": false
+    }
+  }
+}

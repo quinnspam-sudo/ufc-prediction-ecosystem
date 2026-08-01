@@ -792,6 +792,105 @@
         "fighter_b": true
       },
       "report_file": "reports/eric-mcconico-vs-donte-johnson.json"
+    },
+    "Gauge Young vs Kody Steele": {
+      "win_probability": {
+        "fighter_a_pct": 72.16,
+        "fighter_b_pct": 27.84,
+        "draw_pct": 0.01,
+        "calibration_shrink_applied": 0.7
+      },
+      "value_flags": {
+        "fighter_a": true,
+        "fighter_b": false
+      },
+      "report_file": "reports/gauge-young-vs-kody-steele.json"
+    },
+    "Elise Reed vs Shanelle Dyer": {
+      "win_probability": {
+        "fighter_a_pct": 19.99,
+        "fighter_b_pct": 80.01,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.7
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": true
+      },
+      "report_file": "reports/elise-reed-vs-shanelle-dyer.json"
+    },
+    "Wes Schultz vs Jackson McVey": {
+      "win_probability": {
+        "fighter_a_pct": 64.07,
+        "fighter_b_pct": 35.93,
+        "draw_pct": 2.03,
+        "calibration_shrink_applied": 0.7
+      },
+      "value_flags": {
+        "fighter_a": true,
+        "fighter_b": false
+      },
+      "report_file": "reports/wes-schultz-vs-jackson-mcvey.json"
+    },
+    "Carli Judice vs Jeisla Chaves": {
+      "win_probability": {
+        "fighter_a_pct": 50.05,
+        "fighter_b_pct": 49.95,
+        "draw_pct": 6.5
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/carli-judice-vs-jeisla-chaves.json"
+    },
+    "Kennedy Nzechukwu vs Shamil Gaziev": {
+      "win_probability": {
+        "fighter_a_pct": 50.56,
+        "fighter_b_pct": 49.44,
+        "draw_pct": 6.15
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/kennedy-nzechukwu-vs-shamil-gaziev.json"
+    },
+    "Serghei Spivac vs Vitor Petrino": {
+      "win_probability": {
+        "fighter_a_pct": 50.56,
+        "fighter_b_pct": 49.44,
+        "draw_pct": 6.15
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/serghei-spivac-vs-vitor-petrino.json"
+    },
+    "Roman Dolidze vs Reinier de Ridder": {
+      "win_probability": {
+        "fighter_a_pct": 50.91,
+        "fighter_b_pct": 49.09,
+        "draw_pct": 6.1
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/roman-dolidze-vs-reinier-de-ridder.json"
+    },
+    "Anthony Hernandez vs Gregory Rodrigues": {
+      "win_probability": {
+        "fighter_a_pct": 50.92,
+        "fighter_b_pct": 49.08,
+        "draw_pct": 4.45
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/anthony-hernandez-vs-gregory-rodrigues.json"
     }
   }
 }
