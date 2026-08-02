@@ -362,9 +362,9 @@
             {
               "matchup": "Mateusz Gamrot vs Quillan Salkilld",
               "pick": "Quillan Salkilld",
-              "moneyline": -140,
-              "decimal_odds": 1.714,
-              "consensus_prob": 0.647,
+              "moneyline": -142,
+              "decimal_odds": 1.704,
+              "consensus_prob": 0.6492,
               "model_prob": 0.6945,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 42.57,
@@ -383,10 +383,10 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 34.19,
-          "combined_decimal_odds": 3.979,
-          "combined_american": 298,
-          "ev_per_unit": 0.3603,
+          "combined_prob_pct": 34.31,
+          "combined_decimal_odds": 3.955,
+          "combined_american": 296,
+          "ev_per_unit": 0.357,
           "positive_ev": true
         },
         "5_leg": {
@@ -405,9 +405,9 @@
             {
               "matchup": "Mateusz Gamrot vs Quillan Salkilld",
               "pick": "Quillan Salkilld",
-              "moneyline": -140,
-              "decimal_odds": 1.714,
-              "consensus_prob": 0.647,
+              "moneyline": -142,
+              "decimal_odds": 1.704,
+              "consensus_prob": 0.6492,
               "model_prob": 0.6945,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 42.57,
@@ -448,10 +448,10 @@
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 19.08,
-          "combined_decimal_odds": 7.842,
-          "combined_american": 684,
-          "ev_per_unit": 0.4965,
+          "combined_prob_pct": 19.15,
+          "combined_decimal_odds": 7.797,
+          "combined_american": 680,
+          "ev_per_unit": 0.4928,
           "positive_ev": true
         }
       }
