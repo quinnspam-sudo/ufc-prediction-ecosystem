@@ -1791,6 +1791,38 @@
       "p_sub": 0.2385,
       "p_dec": 0.558,
       "p_distance": 0.5585
+    },
+    {
+      "label": "Miles Johns vs Jessie Rosas",
+      "a": "Miles Johns",
+      "b": "Jessie Rosas",
+      "p_a": 0.5161,
+      "event": "UFC Fight Night: Gamrot vs Salkilld",
+      "logged": "2026-08-02T05:01:09+00:00",
+      "resolved": false,
+      "actual_a": null,
+      "brier": null,
+      "resolved_at": null,
+      "p_ko": 0.151,
+      "p_sub": 0.125,
+      "p_dec": 0.657,
+      "p_distance": 0.724
+    },
+    {
+      "label": "Trent Miller vs Douglas Rodrigues",
+      "a": "Trent Miller",
+      "b": "Douglas Rodrigues",
+      "p_a": 0.132,
+      "event": "Dana White's Contender Series: Season 10, Week 2",
+      "logged": "2026-08-02T05:01:09+00:00",
+      "resolved": false,
+      "actual_a": null,
+      "brier": null,
+      "resolved_at": null,
+      "p_ko": 0.3005,
+      "p_sub": 0.208,
+      "p_dec": 0.4915,
+      "p_distance": 0.4915
     }
   ]
 }

@@ -996,9 +996,9 @@
     },
     "Miles Johns vs Jessie Rosas": {
       "win_probability": {
-        "fighter_a_pct": 51.41,
-        "fighter_b_pct": 48.59,
-        "draw_pct": 5.85
+        "fighter_a_pct": 51.61,
+        "fighter_b_pct": 48.39,
+        "draw_pct": 6.7
       },
       "value_flags": {
         "fighter_a": false,
@@ -1032,9 +1032,9 @@
     },
     "Trent Miller vs Douglas Rodrigues": {
       "win_probability": {
-        "fighter_a_pct": 49.33,
-        "fighter_b_pct": 50.67,
-        "draw_pct": 6.05
+        "fighter_a_pct": 13.2,
+        "fighter_b_pct": 86.8,
+        "draw_pct": 0.0
       },
       "value_flags": {
         "fighter_a": false,
