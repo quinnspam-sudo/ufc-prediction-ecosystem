@@ -351,9 +351,9 @@
             {
               "matchup": "Bruno Lopes vs Diyar Nurgozhay",
               "pick": "Diyar Nurgozhay",
-              "moneyline": -143,
-              "decimal_odds": 1.699,
-              "consensus_prob": 0.6761,
+              "moneyline": -155,
+              "decimal_odds": 1.645,
+              "consensus_prob": 0.6867,
               "model_prob": 0.7397,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 60.37,
@@ -362,9 +362,9 @@
             {
               "matchup": "Mateusz Gamrot vs Quillan Salkilld",
               "pick": "Quillan Salkilld",
-              "moneyline": -142,
-              "decimal_odds": 1.704,
-              "consensus_prob": 0.6492,
+              "moneyline": -148,
+              "decimal_odds": 1.676,
+              "consensus_prob": 0.6531,
               "model_prob": 0.6945,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 42.57,
@@ -383,10 +383,10 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 34.06,
-          "combined_decimal_odds": 4.01,
-          "combined_american": 301,
-          "ev_per_unit": 0.3657,
+          "combined_prob_pct": 34.8,
+          "combined_decimal_odds": 3.818,
+          "combined_american": 282,
+          "ev_per_unit": 0.3289,
           "positive_ev": true
         },
         "5_leg": {
@@ -394,9 +394,9 @@
             {
               "matchup": "Bruno Lopes vs Diyar Nurgozhay",
               "pick": "Diyar Nurgozhay",
-              "moneyline": -143,
-              "decimal_odds": 1.699,
-              "consensus_prob": 0.6761,
+              "moneyline": -155,
+              "decimal_odds": 1.645,
+              "consensus_prob": 0.6867,
               "model_prob": 0.7397,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 60.37,
@@ -405,9 +405,9 @@
             {
               "matchup": "Mateusz Gamrot vs Quillan Salkilld",
               "pick": "Quillan Salkilld",
-              "moneyline": -142,
-              "decimal_odds": 1.704,
-              "consensus_prob": 0.6492,
+              "moneyline": -148,
+              "decimal_odds": 1.676,
+              "consensus_prob": 0.6531,
               "model_prob": 0.6945,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 42.57,
@@ -425,6 +425,17 @@
               "modal_finish_round": "round_2"
             },
             {
+              "matchup": "Amanda Lemos vs Alexia Thainara",
+              "pick": "Alexia Thainara",
+              "moneyline": -245,
+              "decimal_odds": 1.408,
+              "consensus_prob": 0.7455,
+              "model_prob": 0.74,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 45.24,
+              "modal_finish_round": "round_1"
+            },
+            {
               "matchup": "Steven Asplund vs Guilherme Pat",
               "pick": "Steven Asplund",
               "moneyline": -265,
@@ -434,24 +445,13 @@
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 52.12,
               "modal_finish_round": "round_1"
-            },
-            {
-              "matchup": "Amanda Lemos vs Alexia Thainara",
-              "pick": "Alexia Thainara",
-              "moneyline": -250,
-              "decimal_odds": 1.4,
-              "consensus_prob": 0.7463,
-              "model_prob": 0.74,
-              "likely_method": "Unanimous Decision",
-              "likely_method_pct": 45.24,
-              "modal_finish_round": "round_1"
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 19.3,
-          "combined_decimal_odds": 7.73,
-          "combined_american": 673,
-          "ev_per_unit": 0.4916,
+          "combined_prob_pct": 19.69,
+          "combined_decimal_odds": 7.403,
+          "combined_american": 640,
+          "ev_per_unit": 0.4581,
           "positive_ev": true
         }
       }
