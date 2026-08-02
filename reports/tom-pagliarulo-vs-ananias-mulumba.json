@@ -1,0 +1,101 @@
+{
+  "matchup": {
+    "fighter_a": "Tom Pagliarulo",
+    "fighter_b": "Ananias Mulumba",
+    "scheduled_rounds": 3,
+    "is_title_fight": false,
+    "iterations": 2000,
+    "avg_rounds_simulated": 2.579,
+    "fighter_a_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": true,
+      "needs_real_stats": true
+    },
+    "fighter_b_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": false,
+      "needs_real_stats": false
+    }
+  },
+  "win_probability": {
+    "fighter_a_pct": 23.9,
+    "fighter_b_pct": 76.1,
+    "draw_pct": 3.15
+  },
+  "consensus_forecast": {
+    "applied": false,
+    "model_weight": 1.0,
+    "fighter_a_pct": 23.9,
+    "fighter_b_pct": 76.1,
+    "market_devig_a_pct": null
+  },
+  "method_of_victory_matrix": {
+    "fighter_a": {
+      "KO/TKO": 7.25,
+      "Submission": 8.6,
+      "Unanimous Decision": 4.4,
+      "Split/Majority Decision": 2.9
+    },
+    "fighter_b": {
+      "KO/TKO": 9.25,
+      "Submission": 15.5,
+      "Unanimous Decision": 43.55,
+      "Split/Majority Decision": 5.4
+    }
+  },
+  "fight_level": {
+    "ko_tko_pct": 16.5,
+    "submission_pct": 24.1,
+    "decision_pct": 56.25,
+    "goes_the_distance_pct": 59.4,
+    "expected_fight_minutes": 11.88
+  },
+  "finish_round_distribution": {
+    "fighter_a": {
+      "round_1": 102,
+      "round_2": 127,
+      "round_3": 88
+    },
+    "fighter_b": {
+      "round_1": 169,
+      "round_2": 174,
+      "round_3": 152
+    }
+  },
+  "value_betting": {
+    "fighter_a": {
+      "market_moneyline": -110,
+      "market_decimal_odds": 1.909,
+      "market_implied_prob_pct": 52.38,
+      "model_win_prob_pct": 23.9,
+      "edge_pct": -28.48,
+      "consensus_edge_pct": -28.48,
+      "kelly_fraction_full": -0.598,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
+      "value_bet": false
+    },
+    "fighter_b": {
+      "market_moneyline": -110,
+      "market_decimal_odds": 1.909,
+      "market_implied_prob_pct": 52.38,
+      "model_win_prob_pct": 76.1,
+      "edge_pct": 23.72,
+      "consensus_edge_pct": 23.72,
+      "kelly_fraction_full": 0.498,
+      "kelly_fraction_half": 0.249,
+      "model_sees_value": true,
+      "consensus_agrees": true,
+      "value_bet": false
+    },
+    "insufficient_data": true,
+    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+  }
+}

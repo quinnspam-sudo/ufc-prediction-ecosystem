@@ -896,6 +896,102 @@
         "fighter_b": false
       },
       "report_file": "reports/anthony-hernandez-vs-gregory-rodrigues.json"
+    },
+    "Joe Kropschot vs Jon Kunneman": {
+      "win_probability": {
+        "fighter_a_pct": 49.33,
+        "fighter_b_pct": 50.67,
+        "draw_pct": 6.05
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/joe-kropschot-vs-jon-kunneman.json"
+    },
+    "Tom Pagliarulo vs Ananias Mulumba": {
+      "win_probability": {
+        "fighter_a_pct": 23.9,
+        "fighter_b_pct": 76.1,
+        "draw_pct": 3.15
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/tom-pagliarulo-vs-ananias-mulumba.json"
+    },
+    "Bilal Hasan vs Mridul Saikia": {
+      "win_probability": {
+        "fighter_a_pct": 92.45,
+        "fighter_b_pct": 7.55,
+        "draw_pct": 0.0
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/bilal-hasan-vs-mridul-saikia.json"
+    },
+    "Abe Alsaghir vs Fabrizio Escarrega": {
+      "win_probability": {
+        "fighter_a_pct": 50.87,
+        "fighter_b_pct": 49.13,
+        "draw_pct": 5.45
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/abe-alsaghir-vs-fabrizio-escarrega.json"
+    },
+    "Anthony Wint vs Matt Adams": {
+      "win_probability": {
+        "fighter_a_pct": 50.56,
+        "fighter_b_pct": 49.44,
+        "draw_pct": 6.15
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/anthony-wint-vs-matt-adams.json"
+    },
+    "Logan Paxton vs Cristian Perez": {
+      "win_probability": {
+        "fighter_a_pct": 50.87,
+        "fighter_b_pct": 49.13,
+        "draw_pct": 5.45
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/logan-paxton-vs-cristian-perez.json"
+    },
+    "Alik Lorenz vs Mahamed Aly": {
+      "win_probability": {
+        "fighter_a_pct": 50.91,
+        "fighter_b_pct": 49.09,
+        "draw_pct": 6.1
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/alik-lorenz-vs-mahamed-aly.json"
+    },
+    "Roman Puga vs Taner Trembley": {
+      "win_probability": {
+        "fighter_a_pct": 51.41,
+        "fighter_b_pct": 48.59,
+        "draw_pct": 5.85
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/roman-puga-vs-taner-trembley.json"
     }
   }
 }
