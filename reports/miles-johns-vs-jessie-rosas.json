@@ -1,11 +1,11 @@
 {
   "matchup": {
-    "fighter_a": "Logan Paxton",
-    "fighter_b": "Cristian Perez",
+    "fighter_a": "Miles Johns",
+    "fighter_b": "Jessie Rosas",
     "scheduled_rounds": 3,
     "is_title_fight": false,
     "iterations": 2000,
-    "avg_rounds_simulated": 2.514,
+    "avg_rounds_simulated": 2.662,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -19,53 +19,53 @@
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": false,
-      "needs_real_stats": false
+      "stats_approx": true,
+      "needs_real_stats": true
     }
   },
   "win_probability": {
-    "fighter_a_pct": 55.07,
-    "fighter_b_pct": 44.93,
-    "draw_pct": 5.4
+    "fighter_a_pct": 51.41,
+    "fighter_b_pct": 48.59,
+    "draw_pct": 5.85
   },
   "consensus_forecast": {
     "applied": false,
     "model_weight": 1.0,
-    "fighter_a_pct": 55.07,
-    "fighter_b_pct": 44.93,
+    "fighter_a_pct": 51.41,
+    "fighter_b_pct": 48.59,
     "market_devig_a_pct": null
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 12.2,
-      "Submission": 8.3,
-      "Unanimous Decision": 24.45,
-      "Split/Majority Decision": 7.15
+      "KO/TKO": 7.75,
+      "Submission": 9.45,
+      "Unanimous Decision": 22.45,
+      "Split/Majority Decision": 8.75
     },
     "fighter_b": {
-      "KO/TKO": 8.6,
-      "Submission": 15.8,
-      "Unanimous Decision": 11.75,
-      "Split/Majority Decision": 6.35
+      "KO/TKO": 7.4,
+      "Submission": 9.7,
+      "Unanimous Decision": 20.2,
+      "Split/Majority Decision": 8.45
     }
   },
   "fight_level": {
-    "ko_tko_pct": 20.8,
-    "submission_pct": 24.1,
-    "decision_pct": 49.7,
-    "goes_the_distance_pct": 55.1,
-    "expected_fight_minutes": 11.45
+    "ko_tko_pct": 15.15,
+    "submission_pct": 19.15,
+    "decision_pct": 59.85,
+    "goes_the_distance_pct": 65.7,
+    "expected_fight_minutes": 12.45
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 149,
-      "round_2": 151,
-      "round_3": 110
+      "round_1": 98,
+      "round_2": 139,
+      "round_3": 107
     },
     "fighter_b": {
-      "round_1": 181,
-      "round_2": 161,
-      "round_3": 146
+      "round_1": 116,
+      "round_2": 109,
+      "round_3": 117
     }
   },
   "value_betting": {
@@ -73,23 +73,23 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 55.07,
-      "edge_pct": 2.69,
-      "consensus_edge_pct": 2.69,
-      "kelly_fraction_full": 0.0566,
-      "kelly_fraction_half": 0.0283,
-      "model_sees_value": true,
-      "consensus_agrees": true,
+      "model_win_prob_pct": 51.41,
+      "edge_pct": -0.97,
+      "consensus_edge_pct": -0.97,
+      "kelly_fraction_full": -0.0204,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
       "value_bet": false
     },
     "fighter_b": {
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 44.93,
-      "edge_pct": -7.45,
-      "consensus_edge_pct": -7.45,
-      "kelly_fraction_full": -0.1566,
+      "model_win_prob_pct": 48.59,
+      "edge_pct": -3.79,
+      "consensus_edge_pct": -3.79,
+      "kelly_fraction_full": -0.0796,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,

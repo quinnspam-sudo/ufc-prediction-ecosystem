@@ -1743,6 +1743,22 @@
       "p_sub": 0.198,
       "p_dec": 0.4375,
       "p_distance": 0.4395
+    },
+    {
+      "label": "Alik Lorenz vs Mahamed Aly",
+      "a": "Alik Lorenz",
+      "b": "Mahamed Aly",
+      "p_a": 0.1425,
+      "event": "Dana White's Contender Series: Season 10, Week 2",
+      "logged": "2026-08-02T03:01:15+00:00",
+      "resolved": false,
+      "actual_a": null,
+      "brier": null,
+      "resolved_at": null,
+      "p_ko": 0.4175,
+      "p_sub": 0.152,
+      "p_dec": 0.4305,
+      "p_distance": 0.4305
     }
   ]
 }

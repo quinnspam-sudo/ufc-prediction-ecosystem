@@ -959,9 +959,9 @@
     },
     "Logan Paxton vs Cristian Perez": {
       "win_probability": {
-        "fighter_a_pct": 50.87,
-        "fighter_b_pct": 49.13,
-        "draw_pct": 5.45
+        "fighter_a_pct": 55.07,
+        "fighter_b_pct": 44.93,
+        "draw_pct": 5.4
       },
       "value_flags": {
         "fighter_a": false,
@@ -971,9 +971,9 @@
     },
     "Alik Lorenz vs Mahamed Aly": {
       "win_probability": {
-        "fighter_a_pct": 50.91,
-        "fighter_b_pct": 49.09,
-        "draw_pct": 6.1
+        "fighter_a_pct": 14.25,
+        "fighter_b_pct": 85.75,
+        "draw_pct": 0.0
       },
       "value_flags": {
         "fighter_a": false,
@@ -992,6 +992,54 @@
         "fighter_b": false
       },
       "report_file": "reports/roman-puga-vs-taner-trembley.json"
+    },
+    "Miles Johns vs Jessie Rosas": {
+      "win_probability": {
+        "fighter_a_pct": 51.41,
+        "fighter_b_pct": 48.59,
+        "draw_pct": 5.85
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/miles-johns-vs-jessie-rosas.json"
+    },
+    "Manoel Sousa vs Richie Miranda": {
+      "win_probability": {
+        "fighter_a_pct": 50.87,
+        "fighter_b_pct": 49.13,
+        "draw_pct": 5.45
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/manoel-sousa-vs-richie-miranda.json"
+    },
+    "Kaik Brito vs Namo Fazil": {
+      "win_probability": {
+        "fighter_a_pct": 49.71,
+        "fighter_b_pct": 50.29,
+        "draw_pct": 5.85
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/kaik-brito-vs-namo-fazil.json"
+    },
+    "Trent Miller vs Douglas Rodrigues": {
+      "win_probability": {
+        "fighter_a_pct": 49.33,
+        "fighter_b_pct": 50.67,
+        "draw_pct": 6.05
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/trent-miller-vs-douglas-rodrigues.json"
     }
   }
 }
