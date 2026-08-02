@@ -427,12 +427,13 @@
     },
     "Gilbert Urbina vs Vlasto \u010cepo": {
       "win_probability": {
-        "fighter_a_pct": 23.85,
-        "fighter_b_pct": 76.15,
-        "draw_pct": 0.0
+        "fighter_a_pct": 77.34,
+        "fighter_b_pct": 22.66,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
-        "fighter_a": false,
+        "fighter_a": true,
         "fighter_b": false
       },
       "report_file": "reports/gilbert-urbina-vs-vlasto-epo.json"
