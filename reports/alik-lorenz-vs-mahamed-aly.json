@@ -4,8 +4,8 @@
     "fighter_b": "Mahamed Aly",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.33,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.386,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -19,53 +19,54 @@
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 14.25,
-    "fighter_b_pct": 85.75,
-    "draw_pct": 0.0
+    "fighter_a_pct": 24.61,
+    "fighter_b_pct": 75.39,
+    "draw_pct": 0.0,
+    "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
     "applied": false,
     "model_weight": 1.0,
-    "fighter_a_pct": 14.25,
-    "fighter_b_pct": 85.75,
+    "fighter_a_pct": 13.73,
+    "fighter_b_pct": 86.27,
     "market_devig_a_pct": null
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 12.25,
-      "Submission": 2.0,
+      "KO/TKO": 12.22,
+      "Submission": 1.51,
       "Unanimous Decision": 0.0,
       "Split/Majority Decision": 0.0
     },
     "fighter_b": {
-      "KO/TKO": 29.5,
-      "Submission": 13.2,
-      "Unanimous Decision": 43.05,
+      "KO/TKO": 40.82,
+      "Submission": 1.72,
+      "Unanimous Decision": 43.73,
       "Split/Majority Decision": 0.0
     }
   },
   "fight_level": {
-    "ko_tko_pct": 41.75,
-    "submission_pct": 15.2,
-    "decision_pct": 43.05,
-    "goes_the_distance_pct": 43.05,
-    "expected_fight_minutes": 10.23
+    "ko_tko_pct": 53.04,
+    "submission_pct": 3.23,
+    "decision_pct": 43.73,
+    "goes_the_distance_pct": 43.73,
+    "expected_fight_minutes": 10.52
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 115,
-      "round_2": 93,
-      "round_3": 77
+      "round_1": 563,
+      "round_2": 449,
+      "round_3": 361
     },
     "fighter_b": {
-      "round_1": 373,
-      "round_2": 271,
-      "round_3": 210
+      "round_1": 1596,
+      "round_2": 1375,
+      "round_3": 1283
     }
   },
   "value_betting": {
@@ -73,10 +74,10 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 14.25,
-      "edge_pct": -38.13,
-      "consensus_edge_pct": -38.13,
-      "kelly_fraction_full": -0.8007,
+      "model_win_prob_pct": 24.61,
+      "edge_pct": -27.77,
+      "consensus_edge_pct": -38.65,
+      "kelly_fraction_full": -0.5832,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
@@ -86,16 +87,14 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 85.75,
-      "edge_pct": 33.37,
-      "consensus_edge_pct": 33.37,
-      "kelly_fraction_full": 0.7008,
-      "kelly_fraction_half": 0.3504,
+      "model_win_prob_pct": 75.39,
+      "edge_pct": 23.01,
+      "consensus_edge_pct": 33.89,
+      "kelly_fraction_full": 0.4832,
+      "kelly_fraction_half": 0.2416,
       "model_sees_value": true,
       "consensus_agrees": true,
-      "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+      "value_bet": true
+    }
   }
 }
