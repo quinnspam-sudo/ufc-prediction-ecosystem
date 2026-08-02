@@ -349,9 +349,10 @@
     },
     "Hailey Cowan vs Nina Milo\u0161evi\u0107": {
       "win_probability": {
-        "fighter_a_pct": 31.89,
-        "fighter_b_pct": 68.11,
-        "draw_pct": 6.7
+        "fighter_a_pct": 21.25,
+        "fighter_b_pct": 78.75,
+        "draw_pct": 0.02,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": false,
@@ -694,12 +695,13 @@
     },
     "Stephanie Luciano vs Marina Spasi\u0107": {
       "win_probability": {
-        "fighter_a_pct": 83.83,
-        "fighter_b_pct": 16.17,
-        "draw_pct": 0.45
+        "fighter_a_pct": 78.54,
+        "fighter_b_pct": 21.46,
+        "draw_pct": 0.51,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
-        "fighter_a": false,
+        "fighter_a": true,
         "fighter_b": false
       },
       "report_file": "reports/stephanie-luciano-vs-marina-spasi.json"
@@ -719,25 +721,27 @@
     },
     "Borislav Nikolic vs Mark Vologdin": {
       "win_probability": {
-        "fighter_a_pct": 81.47,
-        "fighter_b_pct": 18.53,
-        "draw_pct": 3.4
+        "fighter_a_pct": 76.71,
+        "fighter_b_pct": 23.29,
+        "draw_pct": 1.8,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
-        "fighter_a": false,
+        "fighter_a": true,
         "fighter_b": false
       },
       "report_file": "reports/borislav-nikolic-vs-mark-vologdin.json"
     },
     "Milos Janicic vs Noah Gugnon": {
       "win_probability": {
-        "fighter_a_pct": 50.58,
-        "fighter_b_pct": 49.42,
-        "draw_pct": 5.3
+        "fighter_a_pct": 32.57,
+        "fighter_b_pct": 67.43,
+        "draw_pct": 3.34,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": false,
-        "fighter_b": false
+        "fighter_b": true
       },
       "report_file": "reports/milos-janicic-vs-noah-gugnon.json"
     },

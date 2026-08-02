@@ -4,68 +4,69 @@
     "fighter_b": "Noah Gugnon",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.638,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.297,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     },
     "fighter_b_flags": {
       "active_injury": false,
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 50.58,
-    "fighter_b_pct": 49.42,
-    "draw_pct": 5.3
+    "fighter_a_pct": 32.57,
+    "fighter_b_pct": 67.43,
+    "draw_pct": 3.34,
+    "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
     "applied": false,
     "model_weight": 1.0,
-    "fighter_a_pct": 50.58,
-    "fighter_b_pct": 49.42,
+    "fighter_a_pct": 25.1,
+    "fighter_b_pct": 74.9,
     "market_devig_a_pct": null
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 8.55,
-      "Submission": 9.65,
-      "Unanimous Decision": 21.45,
-      "Split/Majority Decision": 8.25
+      "KO/TKO": 6.81,
+      "Submission": 2.83,
+      "Unanimous Decision": 10.11,
+      "Split/Majority Decision": 4.51
     },
     "fighter_b": {
-      "KO/TKO": 8.35,
-      "Submission": 9.75,
-      "Unanimous Decision": 19.65,
-      "Split/Majority Decision": 9.05
+      "KO/TKO": 6.85,
+      "Submission": 44.61,
+      "Unanimous Decision": 15.57,
+      "Split/Majority Decision": 5.37
     }
   },
   "fight_level": {
-    "ko_tko_pct": 16.9,
-    "submission_pct": 19.4,
-    "decision_pct": 58.4,
-    "goes_the_distance_pct": 63.7,
-    "expected_fight_minutes": 12.28
+    "ko_tko_pct": 13.66,
+    "submission_pct": 47.44,
+    "decision_pct": 35.56,
+    "goes_the_distance_pct": 38.9,
+    "expected_fight_minutes": 9.96
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 113,
-      "round_2": 142,
-      "round_3": 109
+      "round_1": 405,
+      "round_2": 313,
+      "round_3": 246
     },
     "fighter_b": {
-      "round_1": 121,
-      "round_2": 114,
-      "round_3": 127
+      "round_1": 2113,
+      "round_2": 1678,
+      "round_3": 1355
     }
   },
   "value_betting": {
@@ -73,10 +74,10 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 50.58,
-      "edge_pct": -1.8,
-      "consensus_edge_pct": -1.8,
-      "kelly_fraction_full": -0.0378,
+      "model_win_prob_pct": 32.57,
+      "edge_pct": -19.81,
+      "consensus_edge_pct": -27.28,
+      "kelly_fraction_full": -0.416,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
@@ -86,16 +87,14 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 49.42,
-      "edge_pct": -2.96,
-      "consensus_edge_pct": -2.96,
-      "kelly_fraction_full": -0.0622,
-      "kelly_fraction_half": 0.0,
-      "model_sees_value": false,
-      "consensus_agrees": false,
-      "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+      "model_win_prob_pct": 67.43,
+      "edge_pct": 15.05,
+      "consensus_edge_pct": 22.52,
+      "kelly_fraction_full": 0.316,
+      "kelly_fraction_half": 0.158,
+      "model_sees_value": true,
+      "consensus_agrees": true,
+      "value_bet": true
+    }
   }
 }

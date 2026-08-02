@@ -4,8 +4,8 @@
     "fighter_b": "Nina Milo\u0161evi\u0107",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.727,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.735,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -19,53 +19,54 @@
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 31.89,
-    "fighter_b_pct": 68.11,
-    "draw_pct": 6.7
+    "fighter_a_pct": 21.25,
+    "fighter_b_pct": 78.75,
+    "draw_pct": 0.02,
+    "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
     "applied": true,
     "model_weight": 0.4,
-    "fighter_a_pct": 24.33,
-    "fighter_b_pct": 75.67,
+    "fighter_a_pct": 15.15,
+    "fighter_b_pct": 84.85,
     "market_devig_a_pct": 19.29
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 6.0,
-      "Submission": 4.1,
-      "Unanimous Decision": 12.15,
-      "Split/Majority Decision": 7.5
+      "KO/TKO": 5.57,
+      "Submission": 3.36,
+      "Unanimous Decision": 0.0,
+      "Split/Majority Decision": 0.0
     },
     "fighter_b": {
-      "KO/TKO": 7.15,
-      "Submission": 9.8,
-      "Unanimous Decision": 37.9,
-      "Split/Majority Decision": 8.7
+      "KO/TKO": 14.06,
+      "Submission": 2.8,
+      "Unanimous Decision": 74.05,
+      "Split/Majority Decision": 0.14
     }
   },
   "fight_level": {
-    "ko_tko_pct": 13.15,
-    "submission_pct": 13.9,
-    "decision_pct": 66.25,
-    "goes_the_distance_pct": 72.95,
-    "expected_fight_minutes": 12.96
+    "ko_tko_pct": 19.63,
+    "submission_pct": 6.16,
+    "decision_pct": 74.19,
+    "goes_the_distance_pct": 74.21,
+    "expected_fight_minutes": 13.03
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 60,
-      "round_2": 76,
-      "round_3": 66
+      "round_1": 307,
+      "round_2": 303,
+      "round_3": 283
     },
     "fighter_b": {
-      "round_1": 120,
-      "round_2": 111,
-      "round_3": 108
+      "round_1": 588,
+      "round_2": 559,
+      "round_3": 539
     }
   },
   "value_betting": {
@@ -73,29 +74,27 @@
       "market_moneyline": 397,
       "market_decimal_odds": 4.97,
       "market_implied_prob_pct": 20.12,
-      "model_win_prob_pct": 31.89,
-      "edge_pct": 11.77,
-      "consensus_edge_pct": 4.21,
-      "kelly_fraction_full": 0.1473,
-      "kelly_fraction_half": 0.0736,
+      "model_win_prob_pct": 21.25,
+      "edge_pct": 1.13,
+      "consensus_edge_pct": -4.97,
+      "kelly_fraction_full": 0.0141,
+      "kelly_fraction_half": 0.0071,
       "model_sees_value": true,
-      "consensus_agrees": true,
+      "consensus_agrees": false,
       "value_bet": false
     },
     "fighter_b": {
       "market_moneyline": -532,
       "market_decimal_odds": 1.188,
       "market_implied_prob_pct": 84.18,
-      "model_win_prob_pct": 68.11,
-      "edge_pct": -16.06,
-      "consensus_edge_pct": -8.51,
-      "kelly_fraction_full": -1.0152,
+      "model_win_prob_pct": 78.75,
+      "edge_pct": -5.43,
+      "consensus_edge_pct": 0.68,
+      "kelly_fraction_full": -0.3431,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
-      "consensus_agrees": false,
+      "consensus_agrees": true,
       "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+    }
   }
 }

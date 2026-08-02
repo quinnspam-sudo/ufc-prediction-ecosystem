@@ -4,8 +4,8 @@
     "fighter_b": "Marina Spasi\u0107",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.669,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.716,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -19,53 +19,54 @@
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 83.83,
-    "fighter_b_pct": 16.17,
-    "draw_pct": 0.45
+    "fighter_a_pct": 78.54,
+    "fighter_b_pct": 21.46,
+    "draw_pct": 0.51,
+    "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
     "applied": true,
     "model_weight": 0.4,
-    "fighter_a_pct": 77.83,
-    "fighter_b_pct": 22.17,
+    "fighter_a_pct": 80.6,
+    "fighter_b_pct": 19.4,
     "market_devig_a_pct": 73.83
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 4.75,
-      "Submission": 10.65,
-      "Unanimous Decision": 67.35,
-      "Split/Majority Decision": 0.7
+      "KO/TKO": 3.74,
+      "Submission": 15.07,
+      "Unanimous Decision": 70.4,
+      "Split/Majority Decision": 1.1
     },
     "fighter_b": {
-      "KO/TKO": 5.1,
-      "Submission": 10.85,
-      "Unanimous Decision": 0.05,
-      "Split/Majority Decision": 0.1
+      "KO/TKO": 5.32,
+      "Submission": 3.55,
+      "Unanimous Decision": 0.13,
+      "Split/Majority Decision": 0.18
     }
   },
   "fight_level": {
-    "ko_tko_pct": 9.85,
-    "submission_pct": 21.5,
-    "decision_pct": 68.2,
-    "goes_the_distance_pct": 68.65,
-    "expected_fight_minutes": 12.56
+    "ko_tko_pct": 9.06,
+    "submission_pct": 18.62,
+    "decision_pct": 71.81,
+    "goes_the_distance_pct": 72.32,
+    "expected_fight_minutes": 12.89
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 110,
-      "round_2": 107,
-      "round_3": 91
+      "round_1": 665,
+      "round_2": 611,
+      "round_3": 605
     },
     "fighter_b": {
-      "round_1": 121,
-      "round_2": 93,
-      "round_3": 105
+      "round_1": 315,
+      "round_2": 272,
+      "round_3": 300
     }
   },
   "value_betting": {
@@ -73,29 +74,27 @@
       "market_moneyline": -332,
       "market_decimal_odds": 1.301,
       "market_implied_prob_pct": 76.85,
-      "model_win_prob_pct": 83.83,
-      "edge_pct": 6.98,
-      "consensus_edge_pct": 0.97,
-      "kelly_fraction_full": 0.3013,
-      "kelly_fraction_half": 0.1507,
+      "model_win_prob_pct": 78.54,
+      "edge_pct": 1.69,
+      "consensus_edge_pct": 3.75,
+      "kelly_fraction_full": 0.0729,
+      "kelly_fraction_half": 0.0364,
       "model_sees_value": true,
       "consensus_agrees": true,
-      "value_bet": false
+      "value_bet": true
     },
     "fighter_b": {
       "market_moneyline": 267,
       "market_decimal_odds": 3.67,
       "market_implied_prob_pct": 27.25,
-      "model_win_prob_pct": 16.17,
-      "edge_pct": -11.08,
-      "consensus_edge_pct": -5.07,
-      "kelly_fraction_full": -0.1522,
+      "model_win_prob_pct": 21.46,
+      "edge_pct": -5.79,
+      "consensus_edge_pct": -7.85,
+      "kelly_fraction_full": -0.0795,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
       "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+    }
   }
 }

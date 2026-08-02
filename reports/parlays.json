@@ -230,7 +230,7 @@
     },
     "UFC Fight Night: Medi\u0107 vs. Rodriguez": {
       "card_type": "fight_night",
-      "eligible_legs": 5,
+      "eligible_legs": 7,
       "parlays": {
         "3_leg": {
           "legs": [
@@ -246,6 +246,17 @@
               "modal_finish_round": "round_3"
             },
             {
+              "matchup": "Stephanie Luciano vs Marina Spasi\u0107",
+              "pick": "Stephanie Luciano",
+              "moneyline": -332,
+              "decimal_odds": 1.301,
+              "consensus_prob": 0.806,
+              "model_prob": 0.7854,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 70.4,
+              "modal_finish_round": "round_1"
+            },
+            {
               "matchup": "Oban Elliott vs Michael Oliveira",
               "pick": "Michael Oliveira",
               "moneyline": -375,
@@ -255,24 +266,13 @@
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 67.19,
               "modal_finish_round": "round_1"
-            },
-            {
-              "matchup": "Alexander Poppeck vs Jovan Leka",
-              "pick": "Jovan Leka",
-              "moneyline": -295,
-              "decimal_odds": 1.339,
-              "consensus_prob": 0.7586,
-              "model_prob": 0.7241,
-              "likely_method": "Unanimous Decision",
-              "likely_method_pct": 45.75,
-              "modal_finish_round": "round_1"
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 44.68,
-          "combined_decimal_odds": 2.553,
-          "combined_american": 155,
-          "ev_per_unit": 0.1407,
+          "combined_prob_pct": 47.47,
+          "combined_decimal_odds": 2.481,
+          "combined_american": 148,
+          "ev_per_unit": 0.1776,
           "positive_ev": true
         },
         "5_leg": {
@@ -289,6 +289,17 @@
               "modal_finish_round": "round_3"
             },
             {
+              "matchup": "Stephanie Luciano vs Marina Spasi\u0107",
+              "pick": "Stephanie Luciano",
+              "moneyline": -332,
+              "decimal_odds": 1.301,
+              "consensus_prob": 0.806,
+              "model_prob": 0.7854,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 70.4,
+              "modal_finish_round": "round_1"
+            },
+            {
               "matchup": "Oban Elliott vs Michael Oliveira",
               "pick": "Michael Oliveira",
               "moneyline": -375,
@@ -311,33 +322,22 @@
               "modal_finish_round": "round_1"
             },
             {
-              "matchup": "Jan Blachowicz vs Navajo Stirling",
-              "pick": "Navajo Stirling",
-              "moneyline": -355,
-              "decimal_odds": 1.282,
-              "consensus_prob": 0.7746,
-              "model_prob": 0.7204,
+              "matchup": "Hailey Cowan vs Nina Milo\u0161evi\u0107",
+              "pick": "Nina Milo\u0161evi\u0107",
+              "moneyline": -532,
+              "decimal_odds": 1.188,
+              "consensus_prob": 0.8485,
+              "model_prob": 0.7875,
               "likely_method": "Unanimous Decision",
-              "likely_method_pct": 57.98,
-              "modal_finish_round": "round_1"
-            },
-            {
-              "matchup": "Marcin Tybura vs Aleksandar Rakic",
-              "pick": "Aleksandar Rakic",
-              "moneyline": -400,
-              "decimal_odds": 1.25,
-              "consensus_prob": 0.7256,
-              "model_prob": 0.6152,
-              "likely_method": "Unanimous Decision",
-              "likely_method_pct": 37.28,
+              "likely_method_pct": 74.05,
               "modal_finish_round": "round_1"
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 25.11,
-          "combined_decimal_odds": 4.092,
-          "combined_american": 309,
-          "ev_per_unit": 0.0274,
+          "combined_prob_pct": 30.55,
+          "combined_decimal_odds": 3.946,
+          "combined_american": 295,
+          "ev_per_unit": 0.2057,
           "positive_ev": true
         }
       }
