@@ -427,9 +427,9 @@
             {
               "matchup": "Amanda Lemos vs Alexia Thainara",
               "pick": "Alexia Thainara",
-              "moneyline": -240,
-              "decimal_odds": 1.417,
-              "consensus_prob": 0.7425,
+              "moneyline": -238,
+              "decimal_odds": 1.42,
+              "consensus_prob": 0.7422,
               "model_prob": 0.74,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 45.24,
@@ -440,7 +440,7 @@
               "pick": "Steven Asplund",
               "moneyline": -270,
               "decimal_odds": 1.37,
-              "consensus_prob": 0.7598,
+              "consensus_prob": 0.7618,
               "model_prob": 0.7479,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 52.12,
@@ -448,10 +448,10 @@
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 19.37,
-          "combined_decimal_odds": 7.616,
-          "combined_american": 662,
-          "ev_per_unit": 0.4752,
+          "combined_prob_pct": 19.41,
+          "combined_decimal_odds": 7.632,
+          "combined_american": 663,
+          "ev_per_unit": 0.4816,
           "positive_ev": true
         }
       }
