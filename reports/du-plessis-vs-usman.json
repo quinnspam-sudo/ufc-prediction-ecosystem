@@ -5,7 +5,7 @@
     "scheduled_rounds": 5,
     "is_title_fight": false,
     "iterations": 10000,
-    "avg_rounds_simulated": 3.802,
+    "avg_rounds_simulated": 3.783,
     "fighter_a_flags": {
       "active_injury": true,
       "missed_weight": false,
@@ -15,62 +15,62 @@
       "needs_real_stats": false
     },
     "fighter_b_flags": {
-      "active_injury": true,
+      "active_injury": false,
       "missed_weight": false,
       "withdrawn": false,
-      "injury_note": "Dana White On Dricus Du Plessis, Kamaru Usman, Conor McGregor\u2019s Injury & More - UFC.com",
+      "injury_note": "",
       "stats_approx": true,
       "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 34.96,
-    "fighter_b_pct": 65.04,
-    "draw_pct": 0.15,
+    "fighter_a_pct": 34.45,
+    "fighter_b_pct": 65.55,
+    "draw_pct": 0.06,
     "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
     "applied": true,
     "model_weight": 0.4,
-    "fighter_a_pct": 50.69,
-    "fighter_b_pct": 49.31,
+    "fighter_a_pct": 50.4,
+    "fighter_b_pct": 49.6,
     "market_devig_a_pct": 65.48
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 16.72,
-      "Submission": 11.66,
-      "Unanimous Decision": 0.02,
-      "Split/Majority Decision": 0.07
+      "KO/TKO": 16.34,
+      "Submission": 11.41,
+      "Unanimous Decision": 0.0,
+      "Split/Majority Decision": 0.01
     },
     "fighter_b": {
-      "KO/TKO": 17.58,
-      "Submission": 8.88,
-      "Unanimous Decision": 44.66,
-      "Split/Majority Decision": 0.26
+      "KO/TKO": 18.98,
+      "Submission": 8.93,
+      "Unanimous Decision": 44.18,
+      "Split/Majority Decision": 0.09
     }
   },
   "fight_level": {
-    "ko_tko_pct": 34.3,
-    "submission_pct": 20.54,
-    "decision_pct": 45.01,
-    "goes_the_distance_pct": 45.16,
-    "expected_fight_minutes": 17.64
+    "ko_tko_pct": 35.32,
+    "submission_pct": 20.34,
+    "decision_pct": 44.28,
+    "goes_the_distance_pct": 44.34,
+    "expected_fight_minutes": 17.52
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 661,
-      "round_2": 601,
-      "round_3": 562,
-      "round_4": 531,
-      "round_5": 483
+      "round_1": 654,
+      "round_2": 596,
+      "round_3": 551,
+      "round_4": 514,
+      "round_5": 460
     },
     "fighter_b": {
-      "round_1": 649,
-      "round_2": 593,
-      "round_3": 514,
-      "round_4": 472,
-      "round_5": 418
+      "round_1": 674,
+      "round_2": 632,
+      "round_3": 531,
+      "round_4": 500,
+      "round_5": 454
     }
   },
   "value_betting": {
@@ -78,10 +78,10 @@
       "market_moneyline": -210,
       "market_decimal_odds": 1.476,
       "market_implied_prob_pct": 67.74,
-      "model_win_prob_pct": 34.96,
-      "edge_pct": -32.78,
-      "consensus_edge_pct": -17.05,
-      "kelly_fraction_full": -1.0163,
+      "model_win_prob_pct": 34.45,
+      "edge_pct": -33.3,
+      "consensus_edge_pct": -17.34,
+      "kelly_fraction_full": -1.0322,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
@@ -91,11 +91,11 @@
       "market_moneyline": 180,
       "market_decimal_odds": 2.8,
       "market_implied_prob_pct": 35.71,
-      "model_win_prob_pct": 65.04,
-      "edge_pct": 29.33,
-      "consensus_edge_pct": 13.59,
-      "kelly_fraction_full": 0.4562,
-      "kelly_fraction_half": 0.2281,
+      "model_win_prob_pct": 65.55,
+      "edge_pct": 29.84,
+      "consensus_edge_pct": 13.89,
+      "kelly_fraction_full": 0.4642,
+      "kelly_fraction_half": 0.2321,
       "model_sees_value": true,
       "consensus_agrees": true,
       "value_bet": true
