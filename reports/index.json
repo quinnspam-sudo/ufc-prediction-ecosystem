@@ -1046,6 +1046,18 @@
         "fighter_b": false
       },
       "report_file": "reports/trent-miller-vs-douglas-rodrigues.json"
+    },
+    "Louie Sutherland vs Jos\u00e9 Montanha": {
+      "win_probability": {
+        "fighter_a_pct": 17.91,
+        "fighter_b_pct": 82.09,
+        "draw_pct": 0.05
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/louie-sutherland-vs-jos-montanha.json"
     }
   }
 }

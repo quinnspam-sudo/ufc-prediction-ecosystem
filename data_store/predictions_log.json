@@ -1903,6 +1903,22 @@
       "p_sub": 0.2072,
       "p_dec": 0.4136,
       "p_distance": 0.4136
+    },
+    {
+      "label": "Louie Sutherland vs Jos\u00e9 Montanha",
+      "a": "Louie Sutherland",
+      "b": "Jos\u00e9 Montanha",
+      "p_a": 0.1791,
+      "event": "UFC Fight Night: Gamrot vs Salkilld",
+      "logged": "2026-08-03T07:01:31+00:00",
+      "resolved": false,
+      "actual_a": null,
+      "brier": null,
+      "resolved_at": null,
+      "p_ko": 0.352,
+      "p_sub": 0.0825,
+      "p_dec": 0.565,
+      "p_distance": 0.5655
     }
   ]
 }
