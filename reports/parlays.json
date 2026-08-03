@@ -201,10 +201,10 @@
               "pick": "Islam Dulatov",
               "moneyline": -1000,
               "decimal_odds": 1.1,
-              "consensus_prob": 0.8555,
-              "model_prob": 0.733,
+              "consensus_prob": 0.8572,
+              "model_prob": 0.736,
               "likely_method": "Unanimous Decision",
-              "likely_method_pct": 47.83,
+              "likely_method_pct": 46.46,
               "modal_finish_round": "round_1"
             },
             {
@@ -220,10 +220,10 @@
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 32.3,
+          "combined_prob_pct": 32.37,
           "combined_decimal_odds": 2.574,
           "combined_american": 157,
-          "ev_per_unit": -0.1685,
+          "ev_per_unit": -0.1668,
           "positive_ev": false
         }
       }
@@ -351,9 +351,9 @@
             {
               "matchup": "Bruno Lopes vs Diyar Nurgozhay",
               "pick": "Diyar Nurgozhay",
-              "moneyline": -148,
-              "decimal_odds": 1.676,
-              "consensus_prob": 0.6802,
+              "moneyline": -150,
+              "decimal_odds": 1.667,
+              "consensus_prob": 0.6823,
               "model_prob": 0.7397,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 60.37,
@@ -373,9 +373,9 @@
             {
               "matchup": "Juliana Miller vs Ravena Oliveira",
               "pick": "Juliana Miller",
-              "moneyline": -260,
-              "decimal_odds": 1.385,
-              "consensus_prob": 0.776,
+              "moneyline": -270,
+              "decimal_odds": 1.37,
+              "consensus_prob": 0.7797,
               "model_prob": 0.7793,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 64.31,
@@ -383,10 +383,10 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 34.34,
-          "combined_decimal_odds": 3.923,
-          "combined_american": 292,
-          "ev_per_unit": 0.347,
+          "combined_prob_pct": 34.61,
+          "combined_decimal_odds": 3.86,
+          "combined_american": 286,
+          "ev_per_unit": 0.3357,
           "positive_ev": true
         },
         "5_leg": {
@@ -394,9 +394,9 @@
             {
               "matchup": "Bruno Lopes vs Diyar Nurgozhay",
               "pick": "Diyar Nurgozhay",
-              "moneyline": -148,
-              "decimal_odds": 1.676,
-              "consensus_prob": 0.6802,
+              "moneyline": -150,
+              "decimal_odds": 1.667,
+              "consensus_prob": 0.6823,
               "model_prob": 0.7397,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 60.37,
@@ -416,9 +416,9 @@
             {
               "matchup": "Juliana Miller vs Ravena Oliveira",
               "pick": "Juliana Miller",
-              "moneyline": -260,
-              "decimal_odds": 1.385,
-              "consensus_prob": 0.776,
+              "moneyline": -270,
+              "decimal_odds": 1.37,
+              "consensus_prob": 0.7797,
               "model_prob": 0.7793,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 64.31,
@@ -427,9 +427,9 @@
             {
               "matchup": "Amanda Lemos vs Alexia Thainara",
               "pick": "Alexia Thainara",
-              "moneyline": -238,
-              "decimal_odds": 1.42,
-              "consensus_prob": 0.7422,
+              "moneyline": -240,
+              "decimal_odds": 1.417,
+              "consensus_prob": 0.7425,
               "model_prob": 0.74,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 45.24,
@@ -448,10 +448,10 @@
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 19.41,
-          "combined_decimal_odds": 7.632,
-          "combined_american": 663,
-          "ev_per_unit": 0.4816,
+          "combined_prob_pct": 19.57,
+          "combined_decimal_odds": 7.493,
+          "combined_american": 649,
+          "ev_per_unit": 0.4666,
           "positive_ev": true
         }
       }

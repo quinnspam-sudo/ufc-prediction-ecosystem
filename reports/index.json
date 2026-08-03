@@ -272,8 +272,8 @@
     },
     "Wellington Turman vs Islam Dulatov": {
       "win_probability": {
-        "fighter_a_pct": 26.7,
-        "fighter_b_pct": 73.3,
+        "fighter_a_pct": 26.4,
+        "fighter_b_pct": 73.6,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
