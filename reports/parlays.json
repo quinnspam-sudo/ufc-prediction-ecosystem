@@ -351,9 +351,9 @@
             {
               "matchup": "Bruno Lopes vs Diyar Nurgozhay",
               "pick": "Diyar Nurgozhay",
-              "moneyline": -150,
-              "decimal_odds": 1.667,
-              "consensus_prob": 0.6823,
+              "moneyline": -152,
+              "decimal_odds": 1.658,
+              "consensus_prob": 0.6843,
               "model_prob": 0.7397,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 60.37,
@@ -383,10 +383,10 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 34.61,
-          "combined_decimal_odds": 3.86,
-          "combined_american": 286,
-          "ev_per_unit": 0.3357,
+          "combined_prob_pct": 34.71,
+          "combined_decimal_odds": 3.839,
+          "combined_american": 284,
+          "ev_per_unit": 0.3323,
           "positive_ev": true
         },
         "5_leg": {
@@ -394,9 +394,9 @@
             {
               "matchup": "Bruno Lopes vs Diyar Nurgozhay",
               "pick": "Diyar Nurgozhay",
-              "moneyline": -150,
-              "decimal_odds": 1.667,
-              "consensus_prob": 0.6823,
+              "moneyline": -152,
+              "decimal_odds": 1.658,
+              "consensus_prob": 0.6843,
               "model_prob": 0.7397,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 60.37,
@@ -438,9 +438,9 @@
             {
               "matchup": "Steven Asplund vs Guilherme Pat",
               "pick": "Steven Asplund",
-              "moneyline": -270,
-              "decimal_odds": 1.37,
-              "consensus_prob": 0.7618,
+              "moneyline": -275,
+              "decimal_odds": 1.364,
+              "consensus_prob": 0.7624,
               "model_prob": 0.7479,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 52.12,
@@ -448,10 +448,10 @@
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 19.63,
-          "combined_decimal_odds": 7.493,
-          "combined_american": 649,
-          "ev_per_unit": 0.471,
+          "combined_prob_pct": 19.71,
+          "combined_decimal_odds": 7.42,
+          "combined_american": 642,
+          "ev_per_unit": 0.462,
           "positive_ev": true
         }
       }
