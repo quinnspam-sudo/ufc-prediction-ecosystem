@@ -626,7 +626,7 @@
       },
       "value_flags": {
         "fighter_a": false,
-        "fighter_b": true
+        "fighter_b": false
       },
       "report_file": "reports/jeremiah-wells-vs-myktybek-orolbai.json"
     },
@@ -639,7 +639,7 @@
       },
       "value_flags": {
         "fighter_a": false,
-        "fighter_b": true
+        "fighter_b": false
       },
       "report_file": "reports/edson-barboza-vs-esteban-ribovics.json"
     },
@@ -651,8 +651,8 @@
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
-        "fighter_a": false,
-        "fighter_b": true
+        "fighter_a": true,
+        "fighter_b": false
       },
       "report_file": "reports/dustin-stoltzfus-vs-mansur-abdul-malik.json"
     },
