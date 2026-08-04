@@ -429,7 +429,7 @@
               "pick": "Alexia Thainara",
               "moneyline": -240,
               "decimal_odds": 1.417,
-              "consensus_prob": 0.7425,
+              "consensus_prob": 0.7447,
               "model_prob": 0.74,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 45.24,
@@ -448,10 +448,10 @@
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 19.57,
+          "combined_prob_pct": 19.63,
           "combined_decimal_odds": 7.493,
           "combined_american": 649,
-          "ev_per_unit": 0.4666,
+          "ev_per_unit": 0.471,
           "positive_ev": true
         }
       }
