@@ -373,9 +373,9 @@
             {
               "matchup": "Juliana Miller vs Ravena Oliveira",
               "pick": "Juliana Miller",
-              "moneyline": -285,
-              "decimal_odds": 1.351,
-              "consensus_prob": 0.7853,
+              "moneyline": -290,
+              "decimal_odds": 1.345,
+              "consensus_prob": 0.7859,
               "model_prob": 0.7793,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 64.31,
@@ -383,10 +383,10 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 34.87,
-          "combined_decimal_odds": 3.826,
-          "combined_american": 283,
-          "ev_per_unit": 0.3342,
+          "combined_prob_pct": 34.9,
+          "combined_decimal_odds": 3.809,
+          "combined_american": 281,
+          "ev_per_unit": 0.3293,
           "positive_ev": true
         },
         "5_leg": {
@@ -416,9 +416,9 @@
             {
               "matchup": "Juliana Miller vs Ravena Oliveira",
               "pick": "Juliana Miller",
-              "moneyline": -285,
-              "decimal_odds": 1.351,
-              "consensus_prob": 0.7853,
+              "moneyline": -290,
+              "decimal_odds": 1.345,
+              "consensus_prob": 0.7859,
               "model_prob": 0.7793,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 64.31,
@@ -448,10 +448,10 @@
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 19.93,
-          "combined_decimal_odds": 7.31,
-          "combined_american": 631,
-          "ev_per_unit": 0.4573,
+          "combined_prob_pct": 19.95,
+          "combined_decimal_odds": 7.278,
+          "combined_american": 628,
+          "ev_per_unit": 0.4519,
           "positive_ev": true
         }
       }
@@ -476,9 +476,9 @@
             {
               "matchup": "Eric McConico vs Donte Johnson",
               "pick": "Donte Johnson",
-              "moneyline": -250,
-              "decimal_odds": 1.4,
-              "consensus_prob": 0.7622,
+              "moneyline": -220,
+              "decimal_odds": 1.455,
+              "consensus_prob": 0.7478,
               "model_prob": 0.7627,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 61.82,
@@ -498,9 +498,9 @@
             {
               "matchup": "Jeremiah Wells vs Myktybek Orolbai",
               "pick": "Myktybek Orolbai",
-              "moneyline": -500,
-              "decimal_odds": 1.2,
-              "consensus_prob": 0.7966,
+              "moneyline": -600,
+              "decimal_odds": 1.167,
+              "consensus_prob": 0.8104,
               "model_prob": 0.703,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 46.12,
@@ -519,10 +519,10 @@
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 22.96,
-          "combined_decimal_odds": 4.739,
-          "combined_american": 374,
-          "ev_per_unit": 0.088,
+          "combined_prob_pct": 22.92,
+          "combined_decimal_odds": 4.789,
+          "combined_american": 379,
+          "ev_per_unit": 0.0975,
           "positive_ev": true
         }
       }
