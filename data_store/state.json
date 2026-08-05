@@ -1,11 +1,6 @@
 {
   "changelog": [
     {
-      "detail": "Chidi Njokuani: Geoff Neal out of UFC 330; Chidi Njokuani seeks new opponent - Yahoo Sports",
-      "ts": "2026-07-29T16:56:35+00:00",
-      "type": "health_withdrawn"
-    },
-    {
       "detail": "Geoff Neal: Geoff Neal out of UFC 330; Chidi Njokuani seeks new opponent - Yahoo Sports",
       "ts": "2026-07-29T17:00:51+00:00",
       "type": "health_withdrawn"
@@ -2499,6 +2494,11 @@
       "detail": "Mackenzie Dern vs Gillian Robertson: consensus -235 / +189 (4 books)",
       "ts": "2026-08-05T14:36:27+00:00",
       "type": "odds_update"
+    },
+    {
+      "detail": "Daniel Rodriguez: \u2018They need to make a movie out of this, bro\u2019: Daniel Rodriguez grateful to get UFC Belgrade headline spot after 8 months",
+      "ts": "2026-08-05T15:12:28+00:00",
+      "type": "health_withdrawn"
     }
   ],
   "fighters": {
@@ -4123,7 +4123,7 @@
     },
     "daniel-rodriguez": {
       "_injury_from_news": true,
-      "_updated": "2026-08-04T09:10:52+00:00",
+      "_updated": "2026-08-05T15:12:28+00:00",
       "active_injury": true,
       "age": 30,
       "career_fights": 12,
@@ -11259,14 +11259,14 @@
     "calibration": {
       "shrink": 0.7
     },
-    "last_sync": "2026-08-05T14:36:33+00:00",
+    "last_sync": "2026-08-05T15:12:28+00:00",
     "news_last": {
       "abdul-hussein": "2026-08-05T09:00:53.543038+00:00",
       "abe-alsaghir": "2026-08-04T11:01:03.651210+00:00",
       "abubakar-vagaev": "2026-08-05T03:35:50.985837+00:00",
       "alberto-montes": "2026-08-05T09:00:53.543038+00:00",
       "alden-coria": "2026-08-05T09:00:53.543038+00:00",
-      "aleksandar-rakic": "2026-08-04T09:10:50.915786+00:00",
+      "aleksandar-rakic": "2026-08-05T15:12:26.099403+00:00",
       "alexander-poppeck": "2026-08-05T03:01:02.613275+00:00",
       "alexia-thainara": "2026-08-05T09:08:32.189342+00:00",
       "alik-lorenz": "2026-08-04T11:01:03.651210+00:00",
@@ -11276,12 +11276,12 @@
       "anna-melisano": "2026-08-05T09:00:53.543038+00:00",
       "anthony-hernandez": "2026-08-04T17:00:56.080924+00:00",
       "anthony-wint": "2026-08-04T11:01:03.651210+00:00",
-      "austin-bashi": "2026-08-04T09:10:50.915786+00:00",
+      "austin-bashi": "2026-08-05T15:12:26.099403+00:00",
       "axel-sola": "2026-08-05T03:35:50.985837+00:00",
       "bilal-hasan": "2026-08-04T11:01:03.651210+00:00",
       "billy-quarantillo": "2026-08-05T09:08:32.189342+00:00",
       "billy-ray-goff": "2026-08-04T19:59:22.614807+00:00",
-      "bogdan-grad": "2026-08-04T09:10:50.915786+00:00",
+      "bogdan-grad": "2026-08-05T15:12:26.099403+00:00",
       "bogdan-guskov": "2026-08-05T03:35:50.985837+00:00",
       "borislav-nikolic": "2026-08-05T03:01:02.613275+00:00",
       "brendson-ribeiro": "2026-08-05T03:35:50.985837+00:00",
@@ -11290,11 +11290,11 @@
       "chase-hooper": "2026-08-04T23:00:40.930256+00:00",
       "chidi-njokuani": "2026-08-05T09:08:32.189342+00:00",
       "christian-leroy-duncan": "2026-08-04T23:00:40.930256+00:00",
-      "cody-gibson": "2026-08-04T09:10:50.915786+00:00",
+      "cody-gibson": "2026-08-05T15:12:26.099403+00:00",
       "cristian-perez": "2026-08-04T11:01:03.651210+00:00",
       "damian-rzepecki": "2026-08-05T03:35:50.985837+00:00",
       "damien-anderson": "2026-08-05T01:00:51.242669+00:00",
-      "daniel-rodriguez": "2026-08-04T09:10:50.915786+00:00",
+      "daniel-rodriguez": "2026-08-05T15:12:26.099403+00:00",
       "darren-elkins": "2026-08-04T19:59:22.614807+00:00",
       "dennis-buzukja": "2026-08-04T15:00:53.378846+00:00",
       "diego-ferreira": "2026-08-05T11:00:44.784003+00:00",
@@ -11374,12 +11374,12 @@
       "myktybek-orolbai": "2026-08-05T14:36:27.125113+00:00",
       "namo-fazil": "2026-08-04T14:41:50.097041+00:00",
       "navajo-stirling": "2026-08-05T01:00:51.242669+00:00",
-      "neil-magny": "2026-08-04T09:00:51.515405+00:00",
+      "neil-magny": "2026-08-05T15:12:26.099403+00:00",
       "nina-milo-evi": "2026-08-05T01:00:51.242669+00:00",
       "noah-gugnon": "2026-08-05T05:01:00.740353+00:00",
       "nurullo-aliev": "2026-08-05T07:00:53.317714+00:00",
       "oban-elliott": "2026-08-05T03:01:02.613275+00:00",
-      "opponent-tba": "2026-08-04T09:10:50.915786+00:00",
+      "opponent-tba": "2026-08-05T15:12:26.099403+00:00",
       "quillan-salkilld": "2026-08-04T09:10:50.915786+00:00",
       "ramazan-temirov": "2026-08-05T07:00:53.317714+00:00",
       "ramiz-brahimaj": "2026-08-04T11:01:03.651210+00:00",
@@ -11412,7 +11412,7 @@
       "trent-miller": "2026-08-04T17:00:56.080924+00:00",
       "tresean-gore": "2026-08-04T23:00:40.930256+00:00",
       "ty-miller": "2026-08-05T01:00:51.242669+00:00",
-      "tyrell-fortune": "2026-08-04T09:00:51.515405+00:00",
+      "tyrell-fortune": "2026-08-05T15:12:26.099403+00:00",
       "uran-satybaldiev": "2026-08-04T11:01:03.651210+00:00",
       "uro-medi": "2026-08-05T09:00:53.543038+00:00",
       "usman": "2026-08-04T09:10:50.915786+00:00",
