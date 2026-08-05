@@ -201,10 +201,10 @@
               "pick": "Islam Dulatov",
               "moneyline": -1000,
               "decimal_odds": 1.1,
-              "consensus_prob": 0.8572,
-              "model_prob": 0.736,
+              "consensus_prob": 0.8576,
+              "model_prob": 0.7367,
               "likely_method": "Unanimous Decision",
-              "likely_method_pct": 46.46,
+              "likely_method_pct": 47.54,
               "modal_finish_round": "round_1"
             },
             {
@@ -220,10 +220,10 @@
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 32.37,
+          "combined_prob_pct": 32.38,
           "combined_decimal_odds": 2.574,
           "combined_american": 157,
-          "ev_per_unit": -0.1668,
+          "ev_per_unit": -0.1664,
           "positive_ev": false
         }
       }
