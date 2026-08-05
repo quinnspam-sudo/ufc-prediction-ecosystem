@@ -1,11 +1,6 @@
 {
   "changelog": [
     {
-      "detail": "Jan Blachowicz vs Navajo Stirling: consensus +260 / -325 (7 books)",
-      "ts": "2026-07-29T09:00:52+00:00",
-      "type": "odds_update"
-    },
-    {
       "detail": "Oban Elliott vs Michael Oliveira: consensus +275 / -345 (7 books)",
       "ts": "2026-07-29T09:00:52+00:00",
       "type": "odds_update"
@@ -2498,6 +2493,11 @@
     {
       "detail": "Geoff Neal: Geoff Neal OUT Of UFC 330 Bout Against Chidi Njokuani, Promotion Seeking Replacement - LowKickMMA.com",
       "ts": "2026-08-05T11:00:46+00:00",
+      "type": "health_withdrawn"
+    },
+    {
+      "detail": "Islam Makhachev: UFC 330 suffers blow as fighter withdraws weeks out from Islam Makhachev vs Ian Machado Garry card - talkSPORT",
+      "ts": "2026-08-05T13:00:45+00:00",
       "type": "health_withdrawn"
     }
   ],
@@ -5605,7 +5605,7 @@
     },
     "islam-makhachev": {
       "_injury_from_news": true,
-      "_updated": "2026-08-04T07:00:53+00:00",
+      "_updated": "2026-08-05T13:00:45+00:00",
       "active_injury": true,
       "age": 30,
       "career_fights": 12,
@@ -11259,7 +11259,7 @@
     "calibration": {
       "shrink": 0.7
     },
-    "last_sync": "2026-08-05T11:00:49+00:00",
+    "last_sync": "2026-08-05T13:00:45+00:00",
     "news_last": {
       "abdul-hussein": "2026-08-05T09:00:53.543038+00:00",
       "abe-alsaghir": "2026-08-04T11:01:03.651210+00:00",
@@ -11317,17 +11317,17 @@
       "gauge-young": "2026-08-04T17:00:56.080924+00:00",
       "geoff-neal": "2026-08-05T11:00:44.784003+00:00",
       "gilbert-urbina": "2026-08-04T15:00:53.378846+00:00",
-      "gillian-robertson": "2026-08-04T07:00:50.676630+00:00",
+      "gillian-robertson": "2026-08-05T13:00:43.315528+00:00",
       "gregory-rodrigues": "2026-08-04T17:00:56.080924+00:00",
-      "guilherme-pat": "2026-08-04T07:00:50.676630+00:00",
+      "guilherme-pat": "2026-08-05T13:00:43.315528+00:00",
       "hailey-cowan": "2026-08-04T15:00:53.378846+00:00",
-      "henrique-da-silva-lopes": "2026-08-04T07:00:50.676630+00:00",
-      "ian-machado-garry": "2026-08-04T07:00:50.676630+00:00",
+      "henrique-da-silva-lopes": "2026-08-05T13:00:43.315528+00:00",
+      "ian-machado-garry": "2026-08-05T13:00:43.315528+00:00",
       "islam-dulatov": "2026-08-05T05:01:00.740353+00:00",
-      "islam-makhachev": "2026-08-04T07:00:50.676630+00:00",
+      "islam-makhachev": "2026-08-05T13:00:43.315528+00:00",
       "ismael-bonfim": "2026-08-05T05:01:00.740353+00:00",
       "jackson-mcvey": "2026-08-04T17:00:56.080924+00:00",
-      "jalin-turner": "2026-08-04T07:00:50.676630+00:00",
+      "jalin-turner": "2026-08-05T13:00:43.315528+00:00",
       "jan-blachowicz": "2026-08-04T15:00:53.378846+00:00",
       "jared-cannonier": "2026-08-05T01:00:51.242669+00:00",
       "jean-paul-lebosnoyani": "2026-08-05T01:00:51.242669+00:00",
@@ -11402,10 +11402,10 @@
       "steve-erceg": "2026-08-05T11:00:44.784003+00:00",
       "steven-asplund": "2026-08-04T19:00:54.067716+00:00",
       "stewart-nicoll": "2026-08-05T11:00:44.784003+00:00",
-      "tabatha-ricci": "2026-08-04T05:00:54.232963+00:00",
+      "tabatha-ricci": "2026-08-05T13:00:43.315528+00:00",
       "taner-trembley": "2026-08-04T15:00:53.378846+00:00",
       "tba": "2026-08-04T19:59:22.614807+00:00",
-      "thomas-petersen": "2026-08-04T05:00:54.232963+00:00",
+      "thomas-petersen": "2026-08-05T13:00:43.315528+00:00",
       "tofiq-musayev": "2026-08-05T07:00:53.317714+00:00",
       "tom-pagliarulo": "2026-08-04T17:00:56.080924+00:00",
       "tommy-mcmillen": "2026-08-04T07:00:50.676630+00:00",
