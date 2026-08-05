@@ -373,9 +373,9 @@
             {
               "matchup": "Juliana Miller vs Ravena Oliveira",
               "pick": "Juliana Miller",
-              "moneyline": -290,
-              "decimal_odds": 1.345,
-              "consensus_prob": 0.7884,
+              "moneyline": -300,
+              "decimal_odds": 1.333,
+              "consensus_prob": 0.7906,
               "model_prob": 0.7793,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 64.31,
@@ -383,10 +383,10 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 34.98,
-          "combined_decimal_odds": 3.77,
-          "combined_american": 277,
-          "ev_per_unit": 0.3188,
+          "combined_prob_pct": 35.08,
+          "combined_decimal_odds": 3.737,
+          "combined_american": 274,
+          "ev_per_unit": 0.3107,
           "positive_ev": true
         },
         "5_leg": {
@@ -416,9 +416,9 @@
             {
               "matchup": "Juliana Miller vs Ravena Oliveira",
               "pick": "Juliana Miller",
-              "moneyline": -290,
-              "decimal_odds": 1.345,
-              "consensus_prob": 0.7884,
+              "moneyline": -300,
+              "decimal_odds": 1.333,
+              "consensus_prob": 0.7906,
               "model_prob": 0.7793,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 64.31,
@@ -427,9 +427,9 @@
             {
               "matchup": "Amanda Lemos vs Alexia Thainara",
               "pick": "Alexia Thainara",
-              "moneyline": -245,
-              "decimal_odds": 1.408,
-              "consensus_prob": 0.7455,
+              "moneyline": -265,
+              "decimal_odds": 1.377,
+              "consensus_prob": 0.7526,
               "model_prob": 0.74,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 45.24,
@@ -438,9 +438,9 @@
             {
               "matchup": "Steven Asplund vs Guilherme Pat",
               "pick": "Steven Asplund",
-              "moneyline": -285,
-              "decimal_odds": 1.351,
-              "consensus_prob": 0.7674,
+              "moneyline": -290,
+              "decimal_odds": 1.345,
+              "consensus_prob": 0.768,
               "model_prob": 0.7479,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 52.12,
@@ -448,10 +448,10 @@
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 20.01,
-          "combined_decimal_odds": 7.172,
-          "combined_american": 617,
-          "ev_per_unit": 0.4352,
+          "combined_prob_pct": 20.27,
+          "combined_decimal_odds": 6.92,
+          "combined_american": 592,
+          "ev_per_unit": 0.4031,
           "positive_ev": true
         }
       }
