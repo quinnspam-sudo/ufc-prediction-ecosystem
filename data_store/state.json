@@ -1,11 +1,6 @@
 {
   "changelog": [
     {
-      "detail": "Dennis Buzukja vs Bogdan Grad: consensus +170 / -205 (7 books)",
-      "ts": "2026-07-29T09:00:52+00:00",
-      "type": "odds_update"
-    },
-    {
       "detail": "Jan Blachowicz vs Navajo Stirling: consensus +260 / -325 (7 books)",
       "ts": "2026-07-29T09:00:52+00:00",
       "type": "odds_update"
@@ -2498,6 +2493,11 @@
     {
       "detail": "Chidi Njokuani: Geoff Neal out of UFC 330; Chidi Njokuani seeks new opponent - Central Oregon Daily",
       "ts": "2026-08-05T09:08:33+00:00",
+      "type": "health_withdrawn"
+    },
+    {
+      "detail": "Geoff Neal: Geoff Neal OUT Of UFC 330 Bout Against Chidi Njokuani, Promotion Seeking Replacement - LowKickMMA.com",
+      "ts": "2026-08-05T11:00:46+00:00",
       "type": "health_withdrawn"
     }
   ],
@@ -5153,7 +5153,7 @@
     },
     "geoff-neal": {
       "_injury_from_news": true,
-      "_updated": "2026-08-04T05:00:56+00:00",
+      "_updated": "2026-08-05T11:00:46+00:00",
       "active_injury": true,
       "age": 30,
       "career_fights": 12,
@@ -5169,7 +5169,7 @@
       "fight_location_country": "USA",
       "height_in": 70.0,
       "home_country": "USA",
-      "injury_note": "Geoff Neal Out of UFC 330 Due to Injury, Njokuani Minus Foe - MMA Sucka",
+      "injury_note": "Geoff Neal OUT Of UFC 330 Bout Against Chidi Njokuani, Promotion Seeking Replacement - LowKickMMA.com",
       "last_fight_date": "2025-06-01",
       "missed_weight": false,
       "name": "Geoff Neal",
@@ -11259,7 +11259,7 @@
     "calibration": {
       "shrink": 0.7
     },
-    "last_sync": "2026-08-05T09:08:34+00:00",
+    "last_sync": "2026-08-05T11:00:49+00:00",
     "news_last": {
       "abdul-hussein": "2026-08-05T09:00:53.543038+00:00",
       "abe-alsaghir": "2026-08-04T11:01:03.651210+00:00",
@@ -11297,25 +11297,25 @@
       "daniel-rodriguez": "2026-08-04T09:10:50.915786+00:00",
       "darren-elkins": "2026-08-04T19:59:22.614807+00:00",
       "dennis-buzukja": "2026-08-04T15:00:53.378846+00:00",
-      "diego-ferreira": "2026-08-04T05:00:54.232963+00:00",
+      "diego-ferreira": "2026-08-05T11:00:44.784003+00:00",
       "dione-barbosa": "2026-08-04T23:00:40.930256+00:00",
-      "diyar-nurgozhay": "2026-08-04T05:00:54.232963+00:00",
+      "diyar-nurgozhay": "2026-08-05T11:00:44.784003+00:00",
       "donte-johnson": "2026-08-04T19:59:22.614807+00:00",
       "douglas-rodrigues": "2026-08-04T13:00:49.431374+00:00",
       "du-ko-todorovi": "2026-08-04T15:00:53.378846+00:00",
       "duplessis": "2026-08-04T23:00:40.930256+00:00",
       "dustin-jacoby": "2026-08-05T05:01:00.740353+00:00",
-      "dustin-stoltzfus": "2026-08-04T05:00:54.232963+00:00",
-      "edson-barboza": "2026-08-04T05:00:54.232963+00:00",
+      "dustin-stoltzfus": "2026-08-05T11:00:44.784003+00:00",
+      "edson-barboza": "2026-08-05T11:00:44.784003+00:00",
       "elise-reed": "2026-08-04T17:00:56.080924+00:00",
       "eric-mcconico": "2026-08-04T19:59:22.614807+00:00",
-      "esteban-ribovics": "2026-08-04T05:00:54.232963+00:00",
+      "esteban-ribovics": "2026-08-05T11:00:44.784003+00:00",
       "ezra-elliott": "2026-08-05T01:00:51.242669+00:00",
       "fabrizio-escarrega": "2026-08-04T13:00:49.431374+00:00",
       "fatima-kline": "2026-08-04T23:00:40.930256+00:00",
       "felipe-franco": "2026-08-05T01:00:51.242669+00:00",
       "gauge-young": "2026-08-04T17:00:56.080924+00:00",
-      "geoff-neal": "2026-08-04T05:00:54.232963+00:00",
+      "geoff-neal": "2026-08-05T11:00:44.784003+00:00",
       "gilbert-urbina": "2026-08-04T15:00:53.378846+00:00",
       "gillian-robertson": "2026-08-04T07:00:50.676630+00:00",
       "gregory-rodrigues": "2026-08-04T17:00:56.080924+00:00",
@@ -11399,9 +11399,9 @@
       "shamil-gaziev": "2026-08-04T19:59:22.614807+00:00",
       "shanelle-dyer": "2026-08-04T21:00:47.330243+00:00",
       "stephanie-luciano": "2026-08-05T09:08:32.189342+00:00",
-      "steve-erceg": "2026-08-04T03:41:17.701453+00:00",
+      "steve-erceg": "2026-08-05T11:00:44.784003+00:00",
       "steven-asplund": "2026-08-04T19:00:54.067716+00:00",
-      "stewart-nicoll": "2026-08-04T03:41:17.701453+00:00",
+      "stewart-nicoll": "2026-08-05T11:00:44.784003+00:00",
       "tabatha-ricci": "2026-08-04T05:00:54.232963+00:00",
       "taner-trembley": "2026-08-04T15:00:53.378846+00:00",
       "tba": "2026-08-04T19:59:22.614807+00:00",
@@ -11572,7 +11572,7 @@
       "stewart-nicoll": "2026-07-16T01:01:10.349922+00:00",
       "tabatha-ricci": "2026-07-16T03:01:20.534247+00:00",
       "taner-trembley": "2026-08-05T07:00:55.511182+00:00",
-      "tba": "2026-08-04T09:10:52.891320+00:00",
+      "tba": "2026-08-05T11:00:46.803976+00:00",
       "thomas-petersen": "2026-07-20T11:00:58.429873+00:00",
       "tofiq-musayev": "2026-07-27T11:00:55.584805+00:00",
       "tom-pagliarulo": "2026-08-05T03:01:06.191518+00:00",
