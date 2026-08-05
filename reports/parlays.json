@@ -351,9 +351,9 @@
             {
               "matchup": "Bruno Lopes vs Diyar Nurgozhay",
               "pick": "Diyar Nurgozhay",
-              "moneyline": -151,
-              "decimal_odds": 1.662,
-              "consensus_prob": 0.684,
+              "moneyline": -155,
+              "decimal_odds": 1.645,
+              "consensus_prob": 0.6867,
               "model_prob": 0.7397,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 60.37,
@@ -383,10 +383,10 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 34.9,
-          "combined_decimal_odds": 3.809,
-          "combined_american": 281,
-          "ev_per_unit": 0.3293,
+          "combined_prob_pct": 35.04,
+          "combined_decimal_odds": 3.77,
+          "combined_american": 277,
+          "ev_per_unit": 0.3209,
           "positive_ev": true
         },
         "5_leg": {
@@ -394,9 +394,9 @@
             {
               "matchup": "Bruno Lopes vs Diyar Nurgozhay",
               "pick": "Diyar Nurgozhay",
-              "moneyline": -151,
-              "decimal_odds": 1.662,
-              "consensus_prob": 0.684,
+              "moneyline": -155,
+              "decimal_odds": 1.645,
+              "consensus_prob": 0.6867,
               "model_prob": 0.7397,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 60.37,
@@ -448,10 +448,10 @@
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 19.95,
-          "combined_decimal_odds": 7.278,
-          "combined_american": 628,
-          "ev_per_unit": 0.4519,
+          "combined_prob_pct": 20.03,
+          "combined_decimal_odds": 7.203,
+          "combined_american": 620,
+          "ev_per_unit": 0.4427,
           "positive_ev": true
         }
       }
@@ -476,9 +476,9 @@
             {
               "matchup": "Eric McConico vs Donte Johnson",
               "pick": "Donte Johnson",
-              "moneyline": -220,
-              "decimal_odds": 1.455,
-              "consensus_prob": 0.7478,
+              "moneyline": -235,
+              "decimal_odds": 1.426,
+              "consensus_prob": 0.7546,
               "model_prob": 0.7627,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 61.82,
@@ -487,9 +487,9 @@
             {
               "matchup": "Edson Barboza vs Esteban Ribovics",
               "pick": "Esteban Ribovics",
-              "moneyline": -400,
-              "decimal_odds": 1.25,
-              "consensus_prob": 0.804,
+              "moneyline": -397,
+              "decimal_odds": 1.252,
+              "consensus_prob": 0.8031,
               "model_prob": 0.7497,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 67.86,
@@ -498,9 +498,9 @@
             {
               "matchup": "Jeremiah Wells vs Myktybek Orolbai",
               "pick": "Myktybek Orolbai",
-              "moneyline": -600,
-              "decimal_odds": 1.167,
-              "consensus_prob": 0.8104,
+              "moneyline": -575,
+              "decimal_odds": 1.174,
+              "consensus_prob": 0.8069,
               "model_prob": 0.703,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 46.12,
@@ -511,7 +511,7 @@
               "pick": "Mansur Abdul-Malik",
               "moneyline": -550,
               "decimal_odds": 1.182,
-              "consensus_prob": 0.7787,
+              "consensus_prob": 0.7781,
               "model_prob": 0.6586,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 46.04,
@@ -519,10 +519,10 @@
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 22.92,
-          "combined_decimal_odds": 4.789,
-          "combined_american": 379,
-          "ev_per_unit": 0.0975,
+          "combined_prob_pct": 22.98,
+          "combined_decimal_odds": 4.73,
+          "combined_american": 373,
+          "ev_per_unit": 0.0869,
           "positive_ev": true
         }
       }
