@@ -375,7 +375,7 @@
               "pick": "Juliana Miller",
               "moneyline": -290,
               "decimal_odds": 1.345,
-              "consensus_prob": 0.7859,
+              "consensus_prob": 0.7884,
               "model_prob": 0.7793,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 64.31,
@@ -383,10 +383,10 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 35.04,
+          "combined_prob_pct": 35.15,
           "combined_decimal_odds": 3.77,
           "combined_american": 277,
-          "ev_per_unit": 0.3209,
+          "ev_per_unit": 0.3251,
           "positive_ev": true
         },
         "5_leg": {
@@ -418,7 +418,7 @@
               "pick": "Juliana Miller",
               "moneyline": -290,
               "decimal_odds": 1.345,
-              "consensus_prob": 0.7859,
+              "consensus_prob": 0.7884,
               "model_prob": 0.7793,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 64.31,
@@ -427,9 +427,9 @@
             {
               "matchup": "Amanda Lemos vs Alexia Thainara",
               "pick": "Alexia Thainara",
-              "moneyline": -245,
-              "decimal_odds": 1.408,
-              "consensus_prob": 0.7455,
+              "moneyline": -255,
+              "decimal_odds": 1.392,
+              "consensus_prob": 0.7491,
               "model_prob": 0.74,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 45.24,
@@ -438,9 +438,9 @@
             {
               "matchup": "Steven Asplund vs Guilherme Pat",
               "pick": "Steven Asplund",
-              "moneyline": -280,
-              "decimal_odds": 1.357,
-              "consensus_prob": 0.7668,
+              "moneyline": -285,
+              "decimal_odds": 1.351,
+              "consensus_prob": 0.7674,
               "model_prob": 0.7479,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 52.12,
@@ -448,10 +448,10 @@
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 20.03,
-          "combined_decimal_odds": 7.203,
-          "combined_american": 620,
-          "ev_per_unit": 0.4427,
+          "combined_prob_pct": 20.2,
+          "combined_decimal_odds": 7.09,
+          "combined_american": 609,
+          "ev_per_unit": 0.4325,
           "positive_ev": true
         }
       }
@@ -476,9 +476,9 @@
             {
               "matchup": "Eric McConico vs Donte Johnson",
               "pick": "Donte Johnson",
-              "moneyline": -235,
-              "decimal_odds": 1.426,
-              "consensus_prob": 0.7546,
+              "moneyline": -242,
+              "decimal_odds": 1.413,
+              "consensus_prob": 0.758,
               "model_prob": 0.7627,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 61.82,
@@ -498,9 +498,9 @@
             {
               "matchup": "Jeremiah Wells vs Myktybek Orolbai",
               "pick": "Myktybek Orolbai",
-              "moneyline": -575,
-              "decimal_odds": 1.174,
-              "consensus_prob": 0.8069,
+              "moneyline": -600,
+              "decimal_odds": 1.167,
+              "consensus_prob": 0.8099,
               "model_prob": 0.703,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 46.12,
@@ -519,10 +519,10 @@
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 22.98,
-          "combined_decimal_odds": 4.73,
-          "combined_american": 373,
-          "ev_per_unit": 0.0869,
+          "combined_prob_pct": 23.17,
+          "combined_decimal_odds": 4.658,
+          "combined_american": 366,
+          "ev_per_unit": 0.0794,
           "positive_ev": true
         }
       }
