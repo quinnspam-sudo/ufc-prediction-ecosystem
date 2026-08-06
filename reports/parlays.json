@@ -362,9 +362,9 @@
             {
               "matchup": "Mateusz Gamrot vs Quillan Salkilld",
               "pick": "Quillan Salkilld",
-              "moneyline": -142,
-              "decimal_odds": 1.704,
-              "consensus_prob": 0.6479,
+              "moneyline": -148,
+              "decimal_odds": 1.676,
+              "consensus_prob": 0.6544,
               "model_prob": 0.6945,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 42.57,
@@ -373,9 +373,9 @@
             {
               "matchup": "Juliana Miller vs Ravena Oliveira",
               "pick": "Juliana Miller",
-              "moneyline": -300,
-              "decimal_odds": 1.333,
-              "consensus_prob": 0.7906,
+              "moneyline": -305,
+              "decimal_odds": 1.328,
+              "consensus_prob": 0.7911,
               "model_prob": 0.7793,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 64.31,
@@ -383,10 +383,10 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 35.08,
-          "combined_decimal_odds": 3.737,
-          "combined_american": 274,
-          "ev_per_unit": 0.3107,
+          "combined_prob_pct": 35.45,
+          "combined_decimal_odds": 3.661,
+          "combined_american": 266,
+          "ev_per_unit": 0.298,
           "positive_ev": true
         },
         "5_leg": {
@@ -405,9 +405,9 @@
             {
               "matchup": "Mateusz Gamrot vs Quillan Salkilld",
               "pick": "Quillan Salkilld",
-              "moneyline": -142,
-              "decimal_odds": 1.704,
-              "consensus_prob": 0.6479,
+              "moneyline": -148,
+              "decimal_odds": 1.676,
+              "consensus_prob": 0.6544,
               "model_prob": 0.6945,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 42.57,
@@ -416,9 +416,9 @@
             {
               "matchup": "Juliana Miller vs Ravena Oliveira",
               "pick": "Juliana Miller",
-              "moneyline": -300,
-              "decimal_odds": 1.333,
-              "consensus_prob": 0.7906,
+              "moneyline": -305,
+              "decimal_odds": 1.328,
+              "consensus_prob": 0.7911,
               "model_prob": 0.7793,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 64.31,
@@ -448,10 +448,10 @@
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 20.35,
-          "combined_decimal_odds": 6.96,
-          "combined_american": 596,
-          "ev_per_unit": 0.4162,
+          "combined_prob_pct": 20.56,
+          "combined_decimal_odds": 6.82,
+          "combined_american": 582,
+          "ev_per_unit": 0.4025,
           "positive_ev": true
         }
       }
