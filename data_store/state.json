@@ -1,11 +1,6 @@
 {
   "changelog": [
     {
-      "detail": "Jan Blachowicz vs Navajo Stirling: consensus +250 / -320 (7 books)",
-      "ts": "2026-07-30T13:00:51+00:00",
-      "type": "odds_update"
-    },
-    {
       "detail": "Oban Elliott vs Michael Oliveira: consensus +279 / -350 (7 books)",
       "ts": "2026-07-30T13:00:51+00:00",
       "type": "odds_update"
@@ -2499,6 +2494,11 @@
       "detail": "Mackenzie Dern vs Gillian Robertson: consensus -235 / +189 (4 books)",
       "ts": "2026-08-06T03:42:26+00:00",
       "type": "odds_update"
+    },
+    {
+      "detail": "Dricus du Plessis: Henry Cejudo awkwardly reveals Kamaru Usman fought Dricus Du Plessis with torn pec - MMA Junkie",
+      "ts": "2026-08-06T05:00:45+00:00",
+      "type": "health_injury"
     }
   ],
   "fighters": {
@@ -4569,7 +4569,7 @@
     },
     "duplessis": {
       "_injury_from_news": true,
-      "_updated": "2026-08-04T23:00:43+00:00",
+      "_updated": "2026-08-06T05:00:45+00:00",
       "active_injury": true,
       "age": 31,
       "career_fights": 24,
@@ -4582,7 +4582,7 @@
       "fight_location_country": "USA",
       "height_in": 73.0,
       "home_country": "South Africa",
-      "injury_note": "Henry Cejudo awkwardly reveals Kamaru Usman fought Dricus Du Plessis with torn pec - mmajunkie.usatoday.com",
+      "injury_note": "Henry Cejudo awkwardly reveals Kamaru Usman fought Dricus Du Plessis with torn pec - MMA Junkie",
       "last_fight_date": "2026-07-18",
       "missed_weight": false,
       "name": "Dricus du Plessis",
@@ -11259,7 +11259,7 @@
     "calibration": {
       "shrink": 0.7
     },
-    "last_sync": "2026-08-06T03:42:44+00:00",
+    "last_sync": "2026-08-06T05:00:45+00:00",
     "news_last": {
       "abdul-hussein": "2026-08-05T09:00:53.543038+00:00",
       "abe-alsaghir": "2026-08-05T17:00:46.309691+00:00",
@@ -11287,9 +11287,9 @@
       "brendson-ribeiro": "2026-08-05T03:35:50.985837+00:00",
       "bruno-lopes": "2026-08-05T09:08:32.189342+00:00",
       "carli-judice": "2026-08-05T23:00:53.205942+00:00",
-      "chase-hooper": "2026-08-04T23:00:40.930256+00:00",
+      "chase-hooper": "2026-08-06T05:00:43.127432+00:00",
       "chidi-njokuani": "2026-08-05T09:08:32.189342+00:00",
-      "christian-leroy-duncan": "2026-08-04T23:00:40.930256+00:00",
+      "christian-leroy-duncan": "2026-08-06T05:00:43.127432+00:00",
       "cody-gibson": "2026-08-05T15:12:26.099403+00:00",
       "cristian-perez": "2026-08-05T17:00:46.309691+00:00",
       "damian-rzepecki": "2026-08-05T03:35:50.985837+00:00",
@@ -11298,12 +11298,12 @@
       "darren-elkins": "2026-08-06T03:00:43.407870+00:00",
       "dennis-buzukja": "2026-08-05T21:00:57.491579+00:00",
       "diego-ferreira": "2026-08-05T11:00:44.784003+00:00",
-      "dione-barbosa": "2026-08-04T23:00:40.930256+00:00",
+      "dione-barbosa": "2026-08-06T05:00:43.127432+00:00",
       "diyar-nurgozhay": "2026-08-05T11:00:44.784003+00:00",
       "donte-johnson": "2026-08-06T03:00:43.407870+00:00",
       "douglas-rodrigues": "2026-08-05T19:00:50.160605+00:00",
       "du-ko-todorovi": "2026-08-05T21:00:57.491579+00:00",
-      "duplessis": "2026-08-04T23:00:40.930256+00:00",
+      "duplessis": "2026-08-06T05:00:43.127432+00:00",
       "dustin-jacoby": "2026-08-05T05:01:00.740353+00:00",
       "dustin-stoltzfus": "2026-08-05T11:00:44.784003+00:00",
       "edson-barboza": "2026-08-05T11:00:44.784003+00:00",
@@ -11312,7 +11312,7 @@
       "esteban-ribovics": "2026-08-05T11:00:44.784003+00:00",
       "ezra-elliott": "2026-08-05T01:00:51.242669+00:00",
       "fabrizio-escarrega": "2026-08-05T19:00:50.160605+00:00",
-      "fatima-kline": "2026-08-04T23:00:40.930256+00:00",
+      "fatima-kline": "2026-08-06T05:00:43.127432+00:00",
       "felipe-franco": "2026-08-05T01:00:51.242669+00:00",
       "gauge-young": "2026-08-05T23:00:53.205942+00:00",
       "geoff-neal": "2026-08-05T11:00:44.784003+00:00",
@@ -11364,7 +11364,7 @@
       "mateusz-r-becki": "2026-08-06T03:42:26.506795+00:00",
       "matt-adams": "2026-08-05T19:57:28.649294+00:00",
       "max-gimenis": "2026-08-06T03:42:26.506795+00:00",
-      "michael-oliveira": "2026-08-04T23:00:40.930256+00:00",
+      "michael-oliveira": "2026-08-06T05:00:43.127432+00:00",
       "mike-davis": "2026-08-05T07:00:53.317714+00:00",
       "miles-johns": "2026-08-05T19:57:28.649294+00:00",
       "milos-janicic": "2026-08-05T03:01:02.613275+00:00",
@@ -11397,7 +11397,7 @@
       "seokhyeon-ko": "2026-08-05T09:00:53.543038+00:00",
       "serghei-spivac": "2026-08-06T03:00:43.407870+00:00",
       "shamil-gaziev": "2026-08-06T03:42:26.506795+00:00",
-      "shanelle-dyer": "2026-08-04T21:00:47.330243+00:00",
+      "shanelle-dyer": "2026-08-06T05:00:43.127432+00:00",
       "stephanie-luciano": "2026-08-05T09:08:32.189342+00:00",
       "steve-erceg": "2026-08-05T11:00:44.784003+00:00",
       "steven-asplund": "2026-08-06T03:00:43.407870+00:00",
@@ -11418,7 +11418,7 @@
       "usman": "2026-08-05T17:00:46.309691+00:00",
       "valter-walker": "2026-08-05T19:57:28.649294+00:00",
       "vicente-luque": "2026-08-05T03:01:02.613275+00:00",
-      "vitor-petrino": "2026-08-04T21:00:47.330243+00:00",
+      "vitor-petrino": "2026-08-06T05:00:43.127432+00:00",
       "vlasto-epo": "2026-08-05T09:08:32.189342+00:00",
       "wellington-turman": "2026-08-05T05:01:00.740353+00:00",
       "wes-schultz": "2026-08-04T23:00:40.930256+00:00",
