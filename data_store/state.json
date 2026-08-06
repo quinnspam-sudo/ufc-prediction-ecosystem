@@ -1,21 +1,6 @@
 {
   "changelog": [
     {
-      "detail": "Marcin Tybura vs Aleksandar Rakic: consensus +280 / -355 (7 books)",
-      "ts": "2026-07-30T22:19:11+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Alexander Poppeck vs Jovan Leka: consensus +200 / -245 (7 books)",
-      "ts": "2026-07-30T22:19:11+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Dennis Buzukja vs Bogdan Grad: consensus +165 / -205 (7 books)",
-      "ts": "2026-07-30T22:19:11+00:00",
-      "type": "odds_update"
-    },
-    {
       "detail": "Jan Blachowicz vs Navajo Stirling: consensus +250 / -320 (7 books)",
       "ts": "2026-07-30T22:19:11+00:00",
       "type": "odds_update"
@@ -2499,6 +2484,21 @@
       "detail": "Mackenzie Dern vs Gillian Robertson: consensus -235 / +189 (4 books)",
       "ts": "2026-08-06T09:00:48+00:00",
       "type": "odds_update"
+    },
+    {
+      "detail": "Dustin Jacoby: Dustin Jacoby Shares Injury Update After UFC Abu Dhabi Loss - heavy.com",
+      "ts": "2026-08-06T11:00:59+00:00",
+      "type": "health_injury"
+    },
+    {
+      "detail": "Islam Dulatov: Dulatov pulls out of tonight's fight duo to an infection - MMA Sucka",
+      "ts": "2026-08-06T11:00:59+00:00",
+      "type": "health_withdrawn"
+    },
+    {
+      "detail": "Magomed Ankalaev: John Wood gives update on Khalil Rountree Jr. injury, pullout from Magomed Ankalaev fight at UFC Abu Dhabi - MMA Sucka",
+      "ts": "2026-08-06T11:00:59+00:00",
+      "type": "health_injury"
     }
   ],
   "fighters": {
@@ -4614,7 +4614,7 @@
     },
     "dustin-jacoby": {
       "_injury_from_news": true,
-      "_updated": "2026-08-05T05:01:02+00:00",
+      "_updated": "2026-08-06T11:00:59+00:00",
       "active_injury": true,
       "age": 30,
       "career_fights": 12,
@@ -5554,7 +5554,7 @@
     },
     "islam-dulatov": {
       "_injury_from_news": true,
-      "_updated": "2026-08-05T05:01:02+00:00",
+      "_updated": "2026-08-06T11:00:59+00:00",
       "active_injury": true,
       "age": 30,
       "career_fights": 12,
@@ -5570,7 +5570,7 @@
       "fight_location_country": "USA",
       "height_in": 70.0,
       "home_country": "USA",
-      "injury_note": "Islam Dulatov Out Of UFC Abu Dhabi Fight With Wellington Turman Due To Illness - MiddleEasy",
+      "injury_note": "Dulatov pulls out of tonight's fight duo to an infection - MMA Sucka",
       "last_fight_date": "2025-06-01",
       "missed_weight": false,
       "name": "Islam Dulatov",
@@ -6936,7 +6936,7 @@
     },
     "magomed-ankalaev": {
       "_injury_from_news": true,
-      "_updated": "2026-08-05T05:01:02+00:00",
+      "_updated": "2026-08-06T11:00:59+00:00",
       "active_injury": true,
       "age": 30,
       "career_fights": 12,
@@ -6952,7 +6952,7 @@
       "fight_location_country": "USA",
       "height_in": 70.0,
       "home_country": "USA",
-      "injury_note": "Magomed Ankalaev was urged to pull out of Alex Pereira rematch with injury: 'Have to pay for your mistakes' - CBS Sports",
+      "injury_note": "John Wood gives update on Khalil Rountree Jr. injury, pullout from Magomed Ankalaev fight at UFC Abu Dhabi - MMA Sucka",
       "last_fight_date": "2026-07-25",
       "missed_weight": false,
       "name": "Magomed Ankalaev",
@@ -11259,7 +11259,7 @@
     "calibration": {
       "shrink": 0.7
     },
-    "last_sync": "2026-08-06T09:08:50+00:00",
+    "last_sync": "2026-08-06T11:01:02+00:00",
     "news_last": {
       "abdul-hussein": "2026-08-05T09:00:53.543038+00:00",
       "abe-alsaghir": "2026-08-05T17:00:46.309691+00:00",
@@ -11304,7 +11304,7 @@
       "douglas-rodrigues": "2026-08-05T19:00:50.160605+00:00",
       "du-ko-todorovi": "2026-08-05T21:00:57.491579+00:00",
       "duplessis": "2026-08-06T05:00:43.127432+00:00",
-      "dustin-jacoby": "2026-08-05T05:01:00.740353+00:00",
+      "dustin-jacoby": "2026-08-06T11:00:57.891417+00:00",
       "dustin-stoltzfus": "2026-08-05T11:00:44.784003+00:00",
       "edson-barboza": "2026-08-05T11:00:44.784003+00:00",
       "elise-reed": "2026-08-05T23:00:53.205942+00:00",
@@ -11323,9 +11323,9 @@
       "hailey-cowan": "2026-08-05T21:00:57.491579+00:00",
       "henrique-da-silva-lopes": "2026-08-05T13:00:43.315528+00:00",
       "ian-machado-garry": "2026-08-05T13:00:43.315528+00:00",
-      "islam-dulatov": "2026-08-05T05:01:00.740353+00:00",
+      "islam-dulatov": "2026-08-06T11:00:57.891417+00:00",
       "islam-makhachev": "2026-08-05T13:00:43.315528+00:00",
-      "ismael-bonfim": "2026-08-05T05:01:00.740353+00:00",
+      "ismael-bonfim": "2026-08-06T11:00:57.891417+00:00",
       "jackson-mcvey": "2026-08-05T23:00:53.205942+00:00",
       "jalin-turner": "2026-08-05T13:00:43.315528+00:00",
       "jan-blachowicz": "2026-08-05T21:00:57.491579+00:00",
@@ -11351,8 +11351,8 @@
       "louie-sutherland": "2026-08-05T14:36:27.125113+00:00",
       "ludovit-klein": "2026-08-06T03:42:26.506795+00:00",
       "mackenzie-dern": "2026-08-05T14:36:27.125113+00:00",
-      "magomed-ankalaev": "2026-08-05T05:01:00.740353+00:00",
-      "magomed-tuchalov": "2026-08-05T05:01:00.740353+00:00",
+      "magomed-ankalaev": "2026-08-06T11:00:57.891417+00:00",
+      "magomed-tuchalov": "2026-08-06T11:00:57.891417+00:00",
       "magomed-zaynukov": "2026-08-05T07:00:53.317714+00:00",
       "mahamed-aly": "2026-08-05T19:57:28.649294+00:00",
       "manoel-sousa": "2026-08-05T19:57:28.649294+00:00",
@@ -11370,7 +11370,7 @@
       "milos-janicic": "2026-08-06T09:00:48.537994+00:00",
       "mitch-ramirez": "2026-08-06T09:08:34.367322+00:00",
       "mridul-saikia": "2026-08-05T19:57:28.649294+00:00",
-      "muhammad-said": "2026-08-05T05:01:00.740353+00:00",
+      "muhammad-said": "2026-08-06T11:00:57.891417+00:00",
       "myktybek-orolbai": "2026-08-05T14:36:27.125113+00:00",
       "namo-fazil": "2026-08-05T21:00:57.491579+00:00",
       "navajo-stirling": "2026-08-06T07:00:53.431631+00:00",
@@ -11388,7 +11388,7 @@
       "richie-miranda": "2026-08-05T21:00:57.491579+00:00",
       "rizvan-kuniev": "2026-08-05T07:00:53.317714+00:00",
       "rj-harris": "2026-08-05T07:00:53.317714+00:00",
-      "robert-valentin": "2026-08-05T03:35:50.985837+00:00",
+      "robert-valentin": "2026-08-06T11:00:57.891417+00:00",
       "roman-dolidze": "2026-08-06T01:01:03.719191+00:00",
       "roman-puga": "2026-08-05T23:00:53.205942+00:00",
       "sam-patterson": "2026-08-05T07:00:53.317714+00:00",
@@ -11422,7 +11422,7 @@
       "vlasto-epo": "2026-08-05T09:08:32.189342+00:00",
       "wellington-turman": "2026-08-05T05:01:00.740353+00:00",
       "wes-schultz": "2026-08-06T07:00:53.431631+00:00",
-      "yadier-del-valle": "2026-08-05T03:35:50.985837+00:00"
+      "yadier-del-valle": "2026-08-06T11:00:57.891417+00:00"
     },
     "odds": {
       "count": 26,
@@ -11572,7 +11572,7 @@
       "stewart-nicoll": "2026-07-16T01:01:10.349922+00:00",
       "tabatha-ricci": "2026-07-16T03:01:20.534247+00:00",
       "taner-trembley": "2026-08-06T09:00:50.416414+00:00",
-      "tba": "2026-08-05T11:00:46.803976+00:00",
+      "tba": "2026-08-06T11:00:59.844064+00:00",
       "thomas-petersen": "2026-07-20T11:00:58.429873+00:00",
       "tofiq-musayev": "2026-07-27T11:00:55.584805+00:00",
       "tom-pagliarulo": "2026-08-06T03:42:28.477770+00:00",
