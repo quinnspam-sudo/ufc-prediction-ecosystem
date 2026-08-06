@@ -5,12 +5,12 @@
     "scheduled_rounds": 3,
     "is_title_fight": false,
     "iterations": 10000,
-    "avg_rounds_simulated": 2.401,
+    "avg_rounds_simulated": 2.402,
     "fighter_a_flags": {
-      "active_injury": true,
+      "active_injury": false,
       "missed_weight": false,
-      "withdrawn": true,
-      "injury_note": "UFC Abu Dhabi fight cancellation: Islam Dulatov pulls out vs Wellington Turman after hospitalization - Jang",
+      "withdrawn": false,
+      "injury_note": "",
       "stats_approx": false,
       "needs_real_stats": false
     },
@@ -18,55 +18,55 @@
       "active_injury": true,
       "missed_weight": false,
       "withdrawn": true,
-      "injury_note": "Islam Dulatov Out Of UFC Abu Dhabi Fight With Wellington Turman Due To Illness - MiddleEasy",
+      "injury_note": "Dulatov pulls out of tonight's fight duo to an infection - MMA Sucka",
       "stats_approx": false,
       "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 26.33,
-    "fighter_b_pct": 73.67,
+    "fighter_a_pct": 26.7,
+    "fighter_b_pct": 73.3,
     "draw_pct": 0.0,
     "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
     "applied": true,
     "model_weight": 0.4,
-    "fighter_a_pct": 14.24,
-    "fighter_b_pct": 85.76,
+    "fighter_a_pct": 14.45,
+    "fighter_b_pct": 85.55,
     "market_devig_a_pct": 12.94
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 7.09,
-      "Submission": 9.1,
+      "KO/TKO": 7.61,
+      "Submission": 9.11,
       "Unanimous Decision": 0.0,
       "Split/Majority Decision": 0.0
     },
     "fighter_b": {
-      "KO/TKO": 30.84,
-      "Submission": 5.43,
-      "Unanimous Decision": 47.54,
+      "KO/TKO": 30.16,
+      "Submission": 5.29,
+      "Unanimous Decision": 47.83,
       "Split/Majority Decision": 0.0
     }
   },
   "fight_level": {
-    "ko_tko_pct": 37.93,
-    "submission_pct": 14.53,
-    "decision_pct": 47.54,
-    "goes_the_distance_pct": 47.54,
-    "expected_fight_minutes": 10.69
+    "ko_tko_pct": 37.77,
+    "submission_pct": 14.4,
+    "decision_pct": 47.83,
+    "goes_the_distance_pct": 47.83,
+    "expected_fight_minutes": 10.71
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 609,
-      "round_2": 563,
-      "round_3": 447
+      "round_1": 627,
+      "round_2": 584,
+      "round_3": 461
     },
     "fighter_b": {
-      "round_1": 1531,
-      "round_2": 1145,
-      "round_3": 951
+      "round_1": 1516,
+      "round_2": 1108,
+      "round_3": 921
     }
   },
   "value_betting": {
@@ -74,11 +74,11 @@
       "market_moneyline": 640,
       "market_decimal_odds": 7.4,
       "market_implied_prob_pct": 13.51,
-      "model_win_prob_pct": 26.33,
-      "edge_pct": 12.82,
-      "consensus_edge_pct": 0.73,
-      "kelly_fraction_full": 0.1482,
-      "kelly_fraction_half": 0.0741,
+      "model_win_prob_pct": 26.7,
+      "edge_pct": 13.19,
+      "consensus_edge_pct": 0.94,
+      "kelly_fraction_full": 0.1525,
+      "kelly_fraction_half": 0.0763,
       "model_sees_value": true,
       "consensus_agrees": true,
       "value_bet": true
@@ -87,10 +87,10 @@
       "market_moneyline": -1000,
       "market_decimal_odds": 1.1,
       "market_implied_prob_pct": 90.91,
-      "model_win_prob_pct": 73.67,
-      "edge_pct": -17.24,
-      "consensus_edge_pct": -5.15,
-      "kelly_fraction_full": -1.8966,
+      "model_win_prob_pct": 73.3,
+      "edge_pct": -17.61,
+      "consensus_edge_pct": -5.36,
+      "kelly_fraction_full": -1.9374,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,

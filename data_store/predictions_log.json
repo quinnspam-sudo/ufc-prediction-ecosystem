@@ -516,17 +516,17 @@
       "label": "Wellington Turman vs Islam Dulatov",
       "a": "Wellington Turman",
       "b": "Islam Dulatov",
-      "p_a": 0.2633,
+      "p_a": 0.267,
       "event": "UFC Fight Night: Ankalaev vs. Guskov",
-      "logged": "2026-08-05T05:01:29+00:00",
+      "logged": "2026-08-06T13:00:49+00:00",
       "resolved": false,
       "actual_a": null,
       "brier": null,
       "resolved_at": null,
-      "p_ko": 0.3793,
-      "p_sub": 0.1453,
-      "p_dec": 0.4754,
-      "p_distance": 0.4754
+      "p_ko": 0.3777,
+      "p_sub": 0.144,
+      "p_dec": 0.4783,
+      "p_distance": 0.4783
     },
     {
       "label": "Alvin Hines vs RJ Harris",
