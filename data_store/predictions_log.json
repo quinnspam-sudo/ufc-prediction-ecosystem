@@ -1540,17 +1540,17 @@
       "label": "Du Plessis vs Usman",
       "a": "Dricus du Plessis",
       "b": "Kamaru Usman",
-      "p_a": 0.3445,
+      "p_a": 0.3519,
       "event": "",
-      "logged": "2026-08-03T03:57:49+00:00",
+      "logged": "2026-08-07T15:00:51+00:00",
       "resolved": false,
       "actual_a": null,
       "brier": null,
       "resolved_at": null,
-      "p_ko": 0.3532,
-      "p_sub": 0.2034,
-      "p_dec": 0.4428,
-      "p_distance": 0.4434
+      "p_ko": 0.3566,
+      "p_sub": 0.2003,
+      "p_dec": 0.443,
+      "p_distance": 0.4431
     },
     {
       "label": "Hailey Cowan vs Nina Milo\u0161evi\u0107",
