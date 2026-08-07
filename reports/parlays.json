@@ -373,9 +373,9 @@
             {
               "matchup": "Juliana Miller vs Ravena Oliveira",
               "pick": "Juliana Miller",
-              "moneyline": -307,
-              "decimal_odds": 1.326,
-              "consensus_prob": 0.7944,
+              "moneyline": -305,
+              "decimal_odds": 1.328,
+              "consensus_prob": 0.7925,
               "model_prob": 0.7793,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 64.31,
@@ -383,10 +383,10 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 35.0,
-          "combined_decimal_odds": 3.807,
+          "combined_prob_pct": 34.92,
+          "combined_decimal_odds": 3.813,
           "combined_american": 281,
-          "ev_per_unit": 0.3326,
+          "ev_per_unit": 0.3314,
           "positive_ev": true
         },
         "5_leg": {
@@ -416,9 +416,9 @@
             {
               "matchup": "Juliana Miller vs Ravena Oliveira",
               "pick": "Juliana Miller",
-              "moneyline": -307,
-              "decimal_odds": 1.326,
-              "consensus_prob": 0.7944,
+              "moneyline": -305,
+              "decimal_odds": 1.328,
+              "consensus_prob": 0.7925,
               "model_prob": 0.7793,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 64.31,
@@ -448,10 +448,10 @@
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 20.37,
-          "combined_decimal_odds": 7.034,
-          "combined_american": 603,
-          "ev_per_unit": 0.4326,
+          "combined_prob_pct": 20.32,
+          "combined_decimal_odds": 7.045,
+          "combined_american": 604,
+          "ev_per_unit": 0.4313,
           "positive_ev": true
         }
       }
