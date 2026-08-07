@@ -351,9 +351,9 @@
             {
               "matchup": "Bruno Lopes vs Diyar Nurgozhay",
               "pick": "Diyar Nurgozhay",
-              "moneyline": -146,
-              "decimal_odds": 1.685,
-              "consensus_prob": 0.6787,
+              "moneyline": -151,
+              "decimal_odds": 1.662,
+              "consensus_prob": 0.684,
               "model_prob": 0.7397,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 60.37,
@@ -364,7 +364,7 @@
               "pick": "Quillan Salkilld",
               "moneyline": -142,
               "decimal_odds": 1.704,
-              "consensus_prob": 0.6492,
+              "consensus_prob": 0.6486,
               "model_prob": 0.6945,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 42.57,
@@ -383,10 +383,10 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 34.92,
-          "combined_decimal_odds": 3.813,
-          "combined_american": 281,
-          "ev_per_unit": 0.3314,
+          "combined_prob_pct": 35.16,
+          "combined_decimal_odds": 3.761,
+          "combined_american": 276,
+          "ev_per_unit": 0.3223,
           "positive_ev": true
         },
         "5_leg": {
@@ -394,9 +394,9 @@
             {
               "matchup": "Bruno Lopes vs Diyar Nurgozhay",
               "pick": "Diyar Nurgozhay",
-              "moneyline": -146,
-              "decimal_odds": 1.685,
-              "consensus_prob": 0.6787,
+              "moneyline": -151,
+              "decimal_odds": 1.662,
+              "consensus_prob": 0.684,
               "model_prob": 0.7397,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 60.37,
@@ -407,7 +407,7 @@
               "pick": "Quillan Salkilld",
               "moneyline": -142,
               "decimal_odds": 1.704,
-              "consensus_prob": 0.6492,
+              "consensus_prob": 0.6486,
               "model_prob": 0.6945,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 42.57,
@@ -438,9 +438,9 @@
             {
               "matchup": "Steven Asplund vs Guilherme Pat",
               "pick": "Steven Asplund",
-              "moneyline": -299,
-              "decimal_odds": 1.334,
-              "consensus_prob": 0.7722,
+              "moneyline": -305,
+              "decimal_odds": 1.328,
+              "consensus_prob": 0.7753,
               "model_prob": 0.7479,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 52.12,
@@ -448,10 +448,10 @@
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 20.32,
-          "combined_decimal_odds": 7.045,
-          "combined_american": 604,
-          "ev_per_unit": 0.4313,
+          "combined_prob_pct": 20.54,
+          "combined_decimal_odds": 6.917,
+          "combined_american": 592,
+          "ev_per_unit": 0.4208,
           "positive_ev": true
         }
       }
