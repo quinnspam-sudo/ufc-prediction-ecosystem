@@ -5,7 +5,7 @@
     "scheduled_rounds": 3,
     "is_title_fight": false,
     "iterations": 2000,
-    "avg_rounds_simulated": 2.722,
+    "avg_rounds_simulated": 2.72,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -15,57 +15,57 @@
       "needs_real_stats": false
     },
     "fighter_b_flags": {
-      "active_injury": false,
+      "active_injury": true,
       "missed_weight": false,
-      "withdrawn": false,
-      "injury_note": "",
+      "withdrawn": true,
+      "injury_note": "Jessie Rosas Out Of His Debut At UFC Vegas 120 As Former UFC Fighter Gets Surprise Second Short-Notice Opportunity - MMANews.com",
       "stats_approx": true,
       "needs_real_stats": true
     }
   },
   "win_probability": {
-    "fighter_a_pct": 51.61,
-    "fighter_b_pct": 48.39,
-    "draw_pct": 6.7
+    "fighter_a_pct": 52.91,
+    "fighter_b_pct": 47.09,
+    "draw_pct": 8.05
   },
   "consensus_forecast": {
     "applied": true,
     "model_weight": 0.4,
-    "fighter_a_pct": 54.91,
-    "fighter_b_pct": 45.09,
+    "fighter_a_pct": 55.43,
+    "fighter_b_pct": 44.57,
     "market_devig_a_pct": 57.11
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 7.9,
-      "Submission": 2.85,
-      "Unanimous Decision": 27.25,
-      "Split/Majority Decision": 10.15
+      "KO/TKO": 8.05,
+      "Submission": 2.75,
+      "Unanimous Decision": 28.2,
+      "Split/Majority Decision": 9.65
     },
     "fighter_b": {
-      "KO/TKO": 7.2,
-      "Submission": 9.65,
-      "Unanimous Decision": 18.95,
-      "Split/Majority Decision": 9.35
+      "KO/TKO": 7.1,
+      "Submission": 9.8,
+      "Unanimous Decision": 19.55,
+      "Split/Majority Decision": 6.85
     }
   },
   "fight_level": {
-    "ko_tko_pct": 15.1,
-    "submission_pct": 12.5,
-    "decision_pct": 65.7,
-    "goes_the_distance_pct": 72.4,
-    "expected_fight_minutes": 12.92
+    "ko_tko_pct": 15.15,
+    "submission_pct": 12.55,
+    "decision_pct": 64.25,
+    "goes_the_distance_pct": 72.3,
+    "expected_fight_minutes": 12.91
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 69,
+      "round_1": 70,
       "round_2": 84,
       "round_3": 62
     },
     "fighter_b": {
-      "round_1": 113,
-      "round_2": 108,
-      "round_3": 116
+      "round_1": 116,
+      "round_2": 104,
+      "round_3": 118
     }
   },
   "value_betting": {
@@ -73,10 +73,10 @@
       "market_moneyline": -145,
       "market_decimal_odds": 1.69,
       "market_implied_prob_pct": 59.18,
-      "model_win_prob_pct": 51.61,
-      "edge_pct": -7.58,
-      "consensus_edge_pct": -4.27,
-      "kelly_fraction_full": -0.1856,
+      "model_win_prob_pct": 52.91,
+      "edge_pct": -6.27,
+      "consensus_edge_pct": -3.75,
+      "kelly_fraction_full": -0.1537,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
@@ -86,11 +86,11 @@
       "market_moneyline": 125,
       "market_decimal_odds": 2.25,
       "market_implied_prob_pct": 44.44,
-      "model_win_prob_pct": 48.39,
-      "edge_pct": 3.95,
-      "consensus_edge_pct": 0.65,
-      "kelly_fraction_full": 0.0711,
-      "kelly_fraction_half": 0.0355,
+      "model_win_prob_pct": 47.09,
+      "edge_pct": 2.65,
+      "consensus_edge_pct": 0.12,
+      "kelly_fraction_full": 0.0476,
+      "kelly_fraction_half": 0.0238,
       "model_sees_value": true,
       "consensus_agrees": true,
       "value_bet": false
