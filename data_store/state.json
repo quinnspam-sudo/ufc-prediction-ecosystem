@@ -1,16 +1,6 @@
 {
   "changelog": [
     {
-      "detail": "Stephanie Luciano vs Marina Spasi\u0107: consensus -332 / +267 (6 books)",
-      "ts": "2026-08-01T07:00:59+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Alexander Poppeck vs Jovan Leka: consensus +220 / -275 (7 books)",
-      "ts": "2026-08-01T07:00:59+00:00",
-      "type": "odds_update"
-    },
-    {
       "detail": "Hailey Cowan vs Nina Milo\u0161evi\u0107: consensus +383 / -525 (6 books)",
       "ts": "2026-08-01T07:00:59+00:00",
       "type": "odds_update"
@@ -2499,6 +2489,16 @@
       "detail": "Mackenzie Dern vs Gillian Robertson: consensus -247 / +200 (4 books)",
       "ts": "2026-08-07T23:00:47+00:00",
       "type": "odds_update"
+    },
+    {
+      "detail": "Billy Quarantillo: Quarantillo Reveals Knee Surgery Behind 19-Month UFC Absence - boxingnews.com",
+      "ts": "2026-08-08T02:23:34+00:00",
+      "type": "health_injury"
+    },
+    {
+      "detail": "Chidi Njokuani: Geoff Neal Out of UFC 330 Due to Injury, Njokuani Minus Foe - MMA Sucka",
+      "ts": "2026-08-08T02:23:34+00:00",
+      "type": "health_withdrawn"
     }
   ],
   "fighters": {
@@ -3382,7 +3382,7 @@
     },
     "billy-quarantillo": {
       "_injury_from_news": true,
-      "_updated": "2026-08-06T15:00:53+00:00",
+      "_updated": "2026-08-08T02:23:34+00:00",
       "active_injury": true,
       "age": 30,
       "career_fights": 12,
@@ -3830,7 +3830,7 @@
     },
     "chidi-njokuani": {
       "_injury_from_news": true,
-      "_updated": "2026-08-06T15:00:53+00:00",
+      "_updated": "2026-08-08T02:23:34+00:00",
       "active_injury": true,
       "age": 30,
       "career_fights": 12,
@@ -11263,7 +11263,7 @@
     "calibration": {
       "shrink": 0.7
     },
-    "last_sync": "2026-08-08T01:01:03+00:00",
+    "last_sync": "2026-08-08T02:23:34+00:00",
     "news_last": {
       "abdul-hussein": "2026-08-08T01:00:50.895740+00:00",
       "abe-alsaghir": "2026-08-07T03:21:53.920112+00:00",
@@ -11272,10 +11272,10 @@
       "alden-coria": "2026-08-08T01:00:50.895740+00:00",
       "aleksandar-rakic": "2026-08-07T03:00:41.515062+00:00",
       "alexander-poppeck": "2026-08-07T19:00:44.774980+00:00",
-      "alexia-thainara": "2026-08-06T15:00:51.184280+00:00",
+      "alexia-thainara": "2026-08-08T02:23:32.686276+00:00",
       "alik-lorenz": "2026-08-07T03:21:53.920112+00:00",
       "alvin-hines": "2026-08-08T01:00:50.895740+00:00",
-      "amanda-lemos": "2026-08-06T15:00:51.184280+00:00",
+      "amanda-lemos": "2026-08-08T02:23:32.686276+00:00",
       "ananias-mulumba": "2026-08-07T03:21:53.920112+00:00",
       "anna-melisano": "2026-08-08T01:00:50.895740+00:00",
       "anthony-hernandez": "2026-08-07T09:00:59.535025+00:00",
@@ -11283,16 +11283,16 @@
       "austin-bashi": "2026-08-07T03:00:41.515062+00:00",
       "axel-sola": "2026-08-07T19:18:20.532945+00:00",
       "bilal-hasan": "2026-08-07T03:21:53.920112+00:00",
-      "billy-quarantillo": "2026-08-06T15:00:51.184280+00:00",
+      "billy-quarantillo": "2026-08-08T02:23:32.686276+00:00",
       "billy-ray-goff": "2026-08-07T13:00:49.873135+00:00",
       "bogdan-grad": "2026-08-07T03:00:41.515062+00:00",
       "bogdan-guskov": "2026-08-07T19:18:20.532945+00:00",
       "borislav-nikolic": "2026-08-07T19:00:44.774980+00:00",
       "brendson-ribeiro": "2026-08-07T19:18:20.532945+00:00",
-      "bruno-lopes": "2026-08-06T15:00:51.184280+00:00",
+      "bruno-lopes": "2026-08-08T02:23:32.686276+00:00",
       "carli-judice": "2026-08-07T09:00:59.535025+00:00",
       "chase-hooper": "2026-08-07T15:00:48.564526+00:00",
-      "chidi-njokuani": "2026-08-06T15:00:51.184280+00:00",
+      "chidi-njokuani": "2026-08-08T02:23:32.686276+00:00",
       "christian-leroy-duncan": "2026-08-07T15:00:48.564526+00:00",
       "cody-gibson": "2026-08-07T03:00:41.515062+00:00",
       "cristian-perez": "2026-08-07T03:21:53.920112+00:00",
@@ -11396,8 +11396,8 @@
       "roman-dolidze": "2026-08-07T11:00:49.067654+00:00",
       "roman-puga": "2026-08-07T11:00:49.067654+00:00",
       "sam-patterson": "2026-08-08T01:00:50.895740+00:00",
-      "santiago-ponzinibbio": "2026-08-06T14:37:20.364618+00:00",
-      "saygid-izagakhmaev": "2026-08-06T15:00:51.184280+00:00",
+      "santiago-ponzinibbio": "2026-08-08T02:23:32.686276+00:00",
+      "saygid-izagakhmaev": "2026-08-08T02:23:32.686276+00:00",
       "seokhyeon-ko": "2026-08-06T15:00:51.184280+00:00",
       "serghei-spivac": "2026-08-07T13:41:43.419522+00:00",
       "shamil-gaziev": "2026-08-07T15:00:48.564526+00:00",
@@ -11410,7 +11410,7 @@
       "taner-trembley": "2026-08-07T11:00:49.067654+00:00",
       "tba": "2026-08-07T15:00:48.564526+00:00",
       "thomas-petersen": "2026-08-07T01:00:51.270844+00:00",
-      "tofiq-musayev": "2026-08-06T14:37:20.364618+00:00",
+      "tofiq-musayev": "2026-08-08T02:23:32.686276+00:00",
       "tom-pagliarulo": "2026-08-07T13:00:49.873135+00:00",
       "tommy-mcmillen": "2026-08-07T03:00:41.515062+00:00",
       "trent-miller": "2026-08-07T13:00:49.873135+00:00",
