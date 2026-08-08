@@ -375,7 +375,7 @@
               "pick": "Juliana Miller",
               "moneyline": -305,
               "decimal_odds": 1.328,
-              "consensus_prob": 0.7935,
+              "consensus_prob": 0.7942,
               "model_prob": 0.7793,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 64.31,
@@ -383,10 +383,10 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 35.05,
+          "combined_prob_pct": 35.08,
           "combined_decimal_odds": 3.79,
           "combined_american": 279,
-          "ev_per_unit": 0.3284,
+          "ev_per_unit": 0.3296,
           "positive_ev": true
         },
         "5_leg": {
@@ -418,7 +418,7 @@
               "pick": "Juliana Miller",
               "moneyline": -305,
               "decimal_odds": 1.328,
-              "consensus_prob": 0.7935,
+              "consensus_prob": 0.7942,
               "model_prob": 0.7793,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 64.31,
@@ -448,10 +448,10 @@
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 20.49,
+          "combined_prob_pct": 20.51,
           "combined_decimal_odds": 6.945,
           "combined_american": 595,
-          "ev_per_unit": 0.4229,
+          "ev_per_unit": 0.4241,
           "positive_ev": true
         }
       }
