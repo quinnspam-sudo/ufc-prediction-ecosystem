@@ -498,7 +498,7 @@
       },
       "value_flags": {
         "fighter_a": false,
-        "fighter_b": true
+        "fighter_b": false
       },
       "report_file": "reports/amanda-lemos-vs-alexia-thainara.json"
     },
@@ -510,7 +510,7 @@
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
-        "fighter_a": false,
+        "fighter_a": true,
         "fighter_b": false
       },
       "report_file": "reports/steven-asplund-vs-guilherme-pat.json"
