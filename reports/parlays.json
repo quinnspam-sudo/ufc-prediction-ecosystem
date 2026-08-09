@@ -465,9 +465,9 @@
             {
               "matchup": "Neil Magny vs Ramiz Brahimaj",
               "pick": "Neil Magny",
-              "moneyline": -111,
-              "decimal_odds": 1.901,
-              "consensus_prob": 0.6047,
+              "moneyline": -110,
+              "decimal_odds": 1.909,
+              "consensus_prob": 0.604,
               "model_prob": 0.682,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 58.49,
@@ -487,9 +487,9 @@
             {
               "matchup": "Edson Barboza vs Esteban Ribovics",
               "pick": "Esteban Ribovics",
-              "moneyline": -427,
-              "decimal_odds": 1.234,
-              "consensus_prob": 0.8076,
+              "moneyline": -445,
+              "decimal_odds": 1.225,
+              "consensus_prob": 0.8101,
               "model_prob": 0.7497,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 67.86,
@@ -498,9 +498,9 @@
             {
               "matchup": "Jeremiah Wells vs Myktybek Orolbai",
               "pick": "Myktybek Orolbai",
-              "moneyline": -612,
-              "decimal_odds": 1.163,
-              "consensus_prob": 0.8088,
+              "moneyline": -600,
+              "decimal_odds": 1.167,
+              "consensus_prob": 0.8086,
               "model_prob": 0.703,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 46.12,
@@ -519,10 +519,10 @@
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 22.99,
-          "combined_decimal_odds": 4.657,
+          "combined_prob_pct": 23.03,
+          "combined_decimal_odds": 4.658,
           "combined_american": 366,
-          "ev_per_unit": 0.0705,
+          "ev_per_unit": 0.0726,
           "positive_ev": true
         }
       }
