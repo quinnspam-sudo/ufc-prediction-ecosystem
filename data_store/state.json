@@ -1,16 +1,6 @@
 {
   "changelog": [
     {
-      "detail": "Navajo Stirling beat Jan Blachowicz (Brier 0.0782)",
-      "ts": "2026-08-01T23:00:48+00:00",
-      "type": "calibration_resolved"
-    },
-    {
-      "detail": "Uro\u0161 Medi\u0107 beat Daniel Rodriguez (Brier 0.5011)",
-      "ts": "2026-08-01T23:00:48+00:00",
-      "type": "calibration_resolved"
-    },
-    {
       "detail": "Joe Kropschot vs Jon Kunneman",
       "ts": "2026-08-02T01:02:05+00:00",
       "type": "matchup_discovered"
@@ -2499,6 +2489,16 @@
       "detail": "Magomed Ankalaev: Khalil Rountree Jr\u2019s Coach Details Decision To Withdraw From Ankalaev Bout - Cageside Press",
       "ts": "2026-08-09T05:00:55+00:00",
       "type": "health_withdrawn"
+    },
+    {
+      "detail": "Billy Quarantillo: Quarantillo Reveals Knee Surgery Behind 19-Month UFC Absence - boxingnews.com",
+      "ts": "2026-08-09T09:00:47+00:00",
+      "type": "health_injury"
+    },
+    {
+      "detail": "Chidi Njokuani: Geoff Neal out of UFC 330; Chidi Njokuani seeks new opponent - Central Oregon Daily",
+      "ts": "2026-08-09T09:00:47+00:00",
+      "type": "health_withdrawn"
     }
   ],
   "fighters": {
@@ -3382,7 +3382,7 @@
     },
     "billy-quarantillo": {
       "_injury_from_news": true,
-      "_updated": "2026-08-08T02:23:34+00:00",
+      "_updated": "2026-08-09T09:00:47+00:00",
       "active_injury": true,
       "age": 30,
       "career_fights": 12,
@@ -3830,7 +3830,7 @@
     },
     "chidi-njokuani": {
       "_injury_from_news": true,
-      "_updated": "2026-08-08T02:23:34+00:00",
+      "_updated": "2026-08-09T09:00:47+00:00",
       "active_injury": true,
       "age": 30,
       "career_fights": 12,
@@ -3846,7 +3846,7 @@
       "fight_location_country": "USA",
       "height_in": 70.0,
       "home_country": "USA",
-      "injury_note": "Geoff Neal Out of UFC 330 Due to Injury, Njokuani Minus Foe - MMA Sucka",
+      "injury_note": "Geoff Neal out of UFC 330; Chidi Njokuani seeks new opponent - Central Oregon Daily",
       "last_fight_date": "2025-06-01",
       "missed_weight": false,
       "name": "Chidi Njokuani",
@@ -11263,7 +11263,7 @@
     "calibration": {
       "shrink": 0.7
     },
-    "last_sync": "2026-08-09T07:18:47+00:00",
+    "last_sync": "2026-08-09T09:01:11+00:00",
     "news_last": {
       "abdul-hussein": "2026-08-09T07:18:45.408349+00:00",
       "abe-alsaghir": "2026-08-08T09:00:44.517990+00:00",
@@ -11272,10 +11272,10 @@
       "alden-coria": "2026-08-09T07:18:45.408349+00:00",
       "aleksandar-rakic": "2026-08-08T07:18:03.524856+00:00",
       "alexander-poppeck": "2026-08-09T02:31:06.340450+00:00",
-      "alexia-thainara": "2026-08-08T02:23:32.686276+00:00",
+      "alexia-thainara": "2026-08-09T09:00:45.421498+00:00",
       "alik-lorenz": "2026-08-08T09:00:44.517990+00:00",
       "alvin-hines": "2026-08-09T07:18:45.408349+00:00",
-      "amanda-lemos": "2026-08-08T02:23:32.686276+00:00",
+      "amanda-lemos": "2026-08-09T09:00:45.421498+00:00",
       "ananias-mulumba": "2026-08-08T09:00:44.517990+00:00",
       "anna-melisano": "2026-08-09T07:18:45.408349+00:00",
       "anthony-hernandez": "2026-08-08T15:00:42.714593+00:00",
@@ -11283,16 +11283,16 @@
       "austin-bashi": "2026-08-08T07:18:03.524856+00:00",
       "axel-sola": "2026-08-09T03:00:40.909185+00:00",
       "bilal-hasan": "2026-08-08T09:00:44.517990+00:00",
-      "billy-quarantillo": "2026-08-08T02:23:32.686276+00:00",
+      "billy-quarantillo": "2026-08-09T09:00:45.421498+00:00",
       "billy-ray-goff": "2026-08-08T19:00:46.000653+00:00",
       "bogdan-grad": "2026-08-08T07:18:03.524856+00:00",
       "bogdan-guskov": "2026-08-09T03:00:40.909185+00:00",
       "borislav-nikolic": "2026-08-09T02:31:06.340450+00:00",
       "brendson-ribeiro": "2026-08-09T03:00:40.909185+00:00",
-      "bruno-lopes": "2026-08-08T02:23:32.686276+00:00",
+      "bruno-lopes": "2026-08-09T09:00:45.421498+00:00",
       "carli-judice": "2026-08-08T15:00:42.714593+00:00",
       "chase-hooper": "2026-08-08T23:00:53.370619+00:00",
-      "chidi-njokuani": "2026-08-08T02:23:32.686276+00:00",
+      "chidi-njokuani": "2026-08-09T09:00:45.421498+00:00",
       "christian-leroy-duncan": "2026-08-08T23:00:53.370619+00:00",
       "cody-gibson": "2026-08-08T07:18:03.524856+00:00",
       "cristian-perez": "2026-08-08T09:00:44.517990+00:00",
@@ -11395,8 +11395,8 @@
       "robert-valentin": "2026-08-09T07:18:45.408349+00:00",
       "roman-dolidze": "2026-08-08T17:00:49.023204+00:00",
       "roman-puga": "2026-08-08T19:00:46.000653+00:00",
-      "sam-patterson": "2026-08-08T01:00:50.895740+00:00",
-      "santiago-ponzinibbio": "2026-08-08T02:23:32.686276+00:00",
+      "sam-patterson": "2026-08-09T09:00:45.421498+00:00",
+      "santiago-ponzinibbio": "2026-08-09T09:00:45.421498+00:00",
       "saygid-izagakhmaev": "2026-08-08T02:23:32.686276+00:00",
       "seokhyeon-ko": "2026-08-08T03:00:48.198777+00:00",
       "serghei-spivac": "2026-08-08T23:00:53.370619+00:00",
@@ -11424,7 +11424,7 @@
       "vicente-luque": "2026-08-09T07:00:45.418523+00:00",
       "vitor-petrino": "2026-08-09T02:31:06.340450+00:00",
       "vlasto-epo": "2026-08-08T05:00:50.129997+00:00",
-      "wellington-turman": "2026-08-08T01:00:50.895740+00:00",
+      "wellington-turman": "2026-08-09T09:00:45.421498+00:00",
       "wes-schultz": "2026-08-09T03:00:40.909185+00:00",
       "yadier-del-valle": "2026-08-09T07:18:45.408349+00:00"
     },
@@ -11435,7 +11435,7 @@
     },
     "ufcstats_last": {
       "abdul-hussein": "2026-07-27T03:00:49.105444+00:00",
-      "abe-alsaghir": "2026-08-08T09:00:46.149379+00:00",
+      "abe-alsaghir": "2026-08-09T09:00:47.810175+00:00",
       "abubakar-vagaev": "2026-07-26T13:00:45.223146+00:00",
       "alberto-montes": "2026-07-15T21:38:27.127905+00:00",
       "alden-coria": "2026-07-15T21:38:27.127905+00:00",
@@ -11448,7 +11448,7 @@
       "ananias-mulumba": "2026-08-02T01:02:07.115172+00:00",
       "anna-melisano": "2026-07-20T03:00:53.884653+00:00",
       "anthony-hernandez": "2026-08-01T03:00:56.954564+00:00",
-      "anthony-wint": "2026-08-08T09:00:46.149379+00:00",
+      "anthony-wint": "2026-08-09T09:00:47.810175+00:00",
       "austin-bashi": "2026-07-15T21:38:27.127905+00:00",
       "axel-sola": "2026-07-20T05:00:53.211847+00:00",
       "bilal-hasan": "2026-08-09T05:00:55.298322+00:00",
@@ -11474,7 +11474,7 @@
       "dione-barbosa": "2026-07-15T23:01:08.574882+00:00",
       "diyar-nurgozhay": "2026-07-27T22:16:59.977367+00:00",
       "donte-johnson": "2026-07-30T03:00:51.151273+00:00",
-      "douglas-rodrigues": "2026-08-08T09:00:46.149379+00:00",
+      "douglas-rodrigues": "2026-08-09T09:00:47.810175+00:00",
       "du-ko-todorovi": "2026-07-27T07:01:02.840969+00:00",
       "dustin-jacoby": "2026-07-20T07:00:58.503645+00:00",
       "dustin-stoltzfus": "2026-07-27T22:16:59.977367+00:00",
@@ -11483,7 +11483,7 @@
       "eric-mcconico": "2026-07-30T03:00:51.151273+00:00",
       "esteban-ribovics": "2026-07-27T23:00:48.289679+00:00",
       "ezra-elliott": "2026-07-20T11:24:36.395771+00:00",
-      "fabrizio-escarrega": "2026-08-08T09:00:46.149379+00:00",
+      "fabrizio-escarrega": "2026-08-09T09:00:47.810175+00:00",
       "fatima-kline": "2026-07-15T23:01:08.574882+00:00",
       "felipe-franco": "2026-07-15T23:01:08.574882+00:00",
       "gauge-young": "2026-08-01T01:00:56.539022+00:00",
@@ -11505,7 +11505,7 @@
       "jean-paul-lebosnoyani": "2026-07-15T23:01:08.574882+00:00",
       "jeisla-chaves": "2026-08-01T03:00:56.954564+00:00",
       "jeremiah-wells": "2026-07-28T01:01:04.151800+00:00",
-      "jessie-rosas": "2026-08-08T09:00:46.149379+00:00",
+      "jessie-rosas": "2026-08-09T09:00:47.810175+00:00",
       "joe-kropschot": "2026-08-09T05:00:55.298322+00:00",
       "jon-kunneman": "2026-08-09T05:00:55.298322+00:00",
       "jos-montanha": "2026-08-08T13:00:48.021288+00:00",
@@ -11519,7 +11519,7 @@
       "kody-steele": "2026-08-01T01:00:56.539022+00:00",
       "kyle-prepolec": "2026-07-27T05:00:50.055887+00:00",
       "levi-rodrigues-jr": "2026-07-16T01:01:10.349922+00:00",
-      "logan-paxton": "2026-08-08T09:00:46.149379+00:00",
+      "logan-paxton": "2026-08-09T09:00:47.810175+00:00",
       "louie-sutherland": "2026-07-27T21:00:49.625123+00:00",
       "ludovit-klein": "2026-07-27T09:00:48.864437+00:00",
       "mackenzie-dern": "2026-07-28T01:01:04.151800+00:00",
