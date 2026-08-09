@@ -5,12 +5,12 @@
     "scheduled_rounds": 3,
     "is_title_fight": false,
     "iterations": 2000,
-    "avg_rounds_simulated": 2.732,
+    "avg_rounds_simulated": 2.554,
     "fighter_a_flags": {
-      "active_injury": true,
+      "active_injury": false,
       "missed_weight": false,
       "withdrawn": false,
-      "injury_note": "Dustin Jacoby Shares Injury Update After UFC Abu Dhabi Loss - Yahoo Sports",
+      "injury_note": "",
       "stats_approx": false,
       "needs_real_stats": false
     },
@@ -24,47 +24,47 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 50.46,
-    "fighter_b_pct": 49.54,
-    "draw_pct": 7.05
+    "fighter_a_pct": 61.08,
+    "fighter_b_pct": 38.92,
+    "draw_pct": 4.55
   },
   "consensus_forecast": {
     "applied": true,
     "model_weight": 0.4,
-    "fighter_a_pct": 56.91,
-    "fighter_b_pct": 43.09,
+    "fighter_a_pct": 61.16,
+    "fighter_b_pct": 38.84,
     "market_devig_a_pct": 61.21
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 9.65,
-      "Submission": 1.9,
-      "Unanimous Decision": 26.05,
-      "Split/Majority Decision": 9.3
+      "KO/TKO": 19.4,
+      "Submission": 1.55,
+      "Unanimous Decision": 29.8,
+      "Split/Majority Decision": 7.55
     },
     "fighter_b": {
-      "KO/TKO": 8.3,
-      "Submission": 7.05,
-      "Unanimous Decision": 22.7,
-      "Split/Majority Decision": 8.0
+      "KO/TKO": 13.3,
+      "Submission": 6.9,
+      "Unanimous Decision": 10.35,
+      "Split/Majority Decision": 6.6
     }
   },
   "fight_level": {
-    "ko_tko_pct": 17.95,
-    "submission_pct": 8.95,
-    "decision_pct": 66.05,
-    "goes_the_distance_pct": 73.1,
-    "expected_fight_minutes": 12.99
+    "ko_tko_pct": 32.7,
+    "submission_pct": 8.45,
+    "decision_pct": 54.3,
+    "goes_the_distance_pct": 58.85,
+    "expected_fight_minutes": 11.74
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 77,
-      "round_2": 82,
-      "round_3": 72
+      "round_1": 145,
+      "round_2": 142,
+      "round_3": 132
     },
     "fighter_b": {
-      "round_1": 102,
-      "round_2": 96,
+      "round_1": 164,
+      "round_2": 131,
       "round_3": 109
     }
   },
@@ -73,10 +73,10 @@
       "market_moneyline": -177,
       "market_decimal_odds": 1.565,
       "market_implied_prob_pct": 63.9,
-      "model_win_prob_pct": 50.46,
-      "edge_pct": -13.44,
-      "consensus_edge_pct": -6.99,
-      "kelly_fraction_full": -0.3723,
+      "model_win_prob_pct": 61.08,
+      "edge_pct": -2.82,
+      "consensus_edge_pct": -2.74,
+      "kelly_fraction_full": -0.0781,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
@@ -86,13 +86,13 @@
       "market_moneyline": 147,
       "market_decimal_odds": 2.47,
       "market_implied_prob_pct": 40.49,
-      "model_win_prob_pct": 49.54,
-      "edge_pct": 9.06,
-      "consensus_edge_pct": 2.6,
-      "kelly_fraction_full": 0.1522,
-      "kelly_fraction_half": 0.0761,
-      "model_sees_value": true,
-      "consensus_agrees": true,
+      "model_win_prob_pct": 38.92,
+      "edge_pct": -1.56,
+      "consensus_edge_pct": -1.65,
+      "kelly_fraction_full": -0.0263,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
       "value_bet": false
     },
     "insufficient_data": true,

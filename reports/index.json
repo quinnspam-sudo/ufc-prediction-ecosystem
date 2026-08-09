@@ -207,10 +207,10 @@
     },
     "Dustin Jacoby vs Uran Satybaldiev": {
       "win_probability": {
-        "fighter_a_pct": 67.13,
-        "fighter_b_pct": 32.87,
-        "draw_pct": 0.06,
-        "calibration_shrink_applied": 0.55
+        "fighter_a_pct": 71.04,
+        "fighter_b_pct": 28.96,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": true,
@@ -324,9 +324,9 @@
     },
     "Dustin Jacoby vs Muhammad Said": {
       "win_probability": {
-        "fighter_a_pct": 50.46,
-        "fighter_b_pct": 49.54,
-        "draw_pct": 7.05
+        "fighter_a_pct": 61.08,
+        "fighter_b_pct": 38.92,
+        "draw_pct": 4.55
       },
       "value_flags": {
         "fighter_a": false,
