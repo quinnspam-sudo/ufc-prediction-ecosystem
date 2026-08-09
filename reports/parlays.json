@@ -458,27 +458,16 @@
     },
     "UFC 330: Makhachev vs. Machado Garry": {
       "card_type": "numbered/PPV",
-      "eligible_legs": 5,
+      "eligible_legs": 4,
       "parlays": {
         "main_card_parlay": {
           "legs": [
             {
-              "matchup": "Neil Magny vs Ramiz Brahimaj",
-              "pick": "Neil Magny",
-              "moneyline": -111,
-              "decimal_odds": 1.901,
-              "consensus_prob": 0.6047,
-              "model_prob": 0.682,
-              "likely_method": "Unanimous Decision",
-              "likely_method_pct": 58.49,
-              "modal_finish_round": "round_1"
-            },
-            {
               "matchup": "Eric McConico vs Donte Johnson",
               "pick": "Donte Johnson",
-              "moneyline": -225,
-              "decimal_odds": 1.444,
-              "consensus_prob": 0.7483,
+              "moneyline": -210,
+              "decimal_odds": 1.476,
+              "consensus_prob": 0.741,
               "model_prob": 0.7627,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 61.82,
@@ -487,9 +476,9 @@
             {
               "matchup": "Edson Barboza vs Esteban Ribovics",
               "pick": "Esteban Ribovics",
-              "moneyline": -467,
-              "decimal_odds": 1.214,
-              "consensus_prob": 0.8174,
+              "moneyline": -475,
+              "decimal_odds": 1.211,
+              "consensus_prob": 0.8187,
               "model_prob": 0.7497,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 67.86,
@@ -498,9 +487,9 @@
             {
               "matchup": "Jeremiah Wells vs Myktybek Orolbai",
               "pick": "Myktybek Orolbai",
-              "moneyline": -637,
-              "decimal_odds": 1.157,
-              "consensus_prob": 0.8117,
+              "moneyline": -687,
+              "decimal_odds": 1.146,
+              "consensus_prob": 0.8191,
               "model_prob": 0.703,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 46.12,
@@ -518,12 +507,12 @@
               "modal_finish_round": "round_1"
             }
           ],
-          "leg_count": 5,
-          "combined_prob_pct": 23.35,
-          "combined_decimal_odds": 4.557,
-          "combined_american": 356,
-          "ev_per_unit": 0.0642,
-          "positive_ev": true
+          "leg_count": 4,
+          "combined_prob_pct": 38.65,
+          "combined_decimal_odds": 2.421,
+          "combined_american": 142,
+          "ev_per_unit": -0.0642,
+          "positive_ev": false
         }
       }
     }
