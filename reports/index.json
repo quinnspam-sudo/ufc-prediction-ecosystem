@@ -555,9 +555,9 @@
     },
     "Mateusz Gamrot vs Quillan Salkilld": {
       "win_probability": {
-        "fighter_a_pct": 30.55,
-        "fighter_b_pct": 69.45,
-        "draw_pct": 0.28,
+        "fighter_a_pct": 30.25,
+        "fighter_b_pct": 69.75,
+        "draw_pct": 0.38,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {

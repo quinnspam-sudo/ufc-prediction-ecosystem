@@ -5,12 +5,12 @@
     "scheduled_rounds": 5,
     "is_title_fight": false,
     "iterations": 10000,
-    "avg_rounds_simulated": 3.763,
+    "avg_rounds_simulated": 3.76,
     "fighter_a_flags": {
-      "active_injury": false,
+      "active_injury": true,
       "missed_weight": false,
       "withdrawn": false,
-      "injury_note": "",
+      "injury_note": "Quillan Salkilld reveals he may have suffered knee injury in win over Mateusz Gamrot: \u2018I heard a little pop\u2019 - MMA Fighting",
       "stats_approx": false,
       "needs_real_stats": false
     },
@@ -24,53 +24,53 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 30.55,
-    "fighter_b_pct": 69.45,
-    "draw_pct": 0.28,
+    "fighter_a_pct": 30.25,
+    "fighter_b_pct": 69.75,
+    "draw_pct": 0.38,
     "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
     "applied": true,
     "model_weight": 0.4,
-    "fighter_a_pct": 35.08,
-    "fighter_b_pct": 64.92,
+    "fighter_a_pct": 34.9,
+    "fighter_b_pct": 65.1,
     "market_devig_a_pct": 43.65
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 13.0,
-      "Submission": 9.0,
-      "Unanimous Decision": 0.05,
+      "KO/TKO": 12.42,
+      "Submission": 9.09,
+      "Unanimous Decision": 0.09,
       "Split/Majority Decision": 0.1
     },
     "fighter_b": {
-      "KO/TKO": 17.94,
-      "Submission": 16.41,
-      "Unanimous Decision": 42.57,
-      "Split/Majority Decision": 0.65
+      "KO/TKO": 18.23,
+      "Submission": 16.94,
+      "Unanimous Decision": 41.96,
+      "Split/Majority Decision": 0.79
     }
   },
   "fight_level": {
-    "ko_tko_pct": 30.94,
-    "submission_pct": 25.41,
-    "decision_pct": 43.37,
-    "goes_the_distance_pct": 43.65,
-    "expected_fight_minutes": 17.41
+    "ko_tko_pct": 30.65,
+    "submission_pct": 26.03,
+    "decision_pct": 42.94,
+    "goes_the_distance_pct": 43.32,
+    "expected_fight_minutes": 17.38
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 502,
-      "round_2": 468,
-      "round_3": 452,
-      "round_4": 419,
-      "round_5": 359
+      "round_1": 492,
+      "round_2": 459,
+      "round_3": 445,
+      "round_4": 408,
+      "round_5": 347
     },
     "fighter_b": {
       "round_1": 838,
-      "round_2": 757,
-      "round_3": 686,
-      "round_4": 638,
-      "round_5": 516
+      "round_2": 767,
+      "round_3": 714,
+      "round_4": 673,
+      "round_5": 525
     }
   },
   "value_betting": {
@@ -78,10 +78,10 @@
       "market_moneyline": 120,
       "market_decimal_odds": 2.2,
       "market_implied_prob_pct": 45.45,
-      "model_win_prob_pct": 30.55,
-      "edge_pct": -14.91,
-      "consensus_edge_pct": -10.38,
-      "kelly_fraction_full": -0.2733,
+      "model_win_prob_pct": 30.25,
+      "edge_pct": -15.21,
+      "consensus_edge_pct": -10.55,
+      "kelly_fraction_full": -0.2788,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
@@ -91,11 +91,11 @@
       "market_moneyline": -142,
       "market_decimal_odds": 1.704,
       "market_implied_prob_pct": 58.68,
-      "model_win_prob_pct": 69.45,
-      "edge_pct": 10.78,
-      "consensus_edge_pct": 6.25,
-      "kelly_fraction_full": 0.2608,
-      "kelly_fraction_half": 0.1304,
+      "model_win_prob_pct": 69.75,
+      "edge_pct": 11.08,
+      "consensus_edge_pct": 6.42,
+      "kelly_fraction_full": 0.268,
+      "kelly_fraction_half": 0.134,
       "model_sees_value": true,
       "consensus_agrees": true,
       "value_bet": true
