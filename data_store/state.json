@@ -1,11 +1,6 @@
 {
   "changelog": [
     {
-      "detail": "Mackenzie Dern vs Gillian Robertson: consensus -221 / +184 (4 books)",
-      "ts": "2026-08-03T03:57:26+00:00",
-      "type": "odds_update"
-    },
-    {
       "detail": "Daniel Rodriguez: \u2018They need to make a movie out of this, bro\u2019: Daniel Rodriguez grateful to get UFC Belgrade headline spot after 8 months",
       "ts": "2026-08-03T05:00:48+00:00",
       "type": "health_withdrawn"
@@ -2498,6 +2493,11 @@
     {
       "detail": "Chidi Njokuani: Geoff Neal Out of UFC 330 Due to Injury, Njokuani Minus Foe - MMA Sucka",
       "ts": "2026-08-10T13:47:05+00:00",
+      "type": "health_withdrawn"
+    },
+    {
+      "detail": "Geoff Neal: Geoff Neal Out of UFC 330 Due to Injury, Njokuani Minus Foe - MMA Sucka",
+      "ts": "2026-08-10T15:00:45+00:00",
       "type": "health_withdrawn"
     }
   ],
@@ -5154,7 +5154,7 @@
     },
     "geoff-neal": {
       "_injury_from_news": true,
-      "_updated": "2026-08-09T11:00:48+00:00",
+      "_updated": "2026-08-10T15:00:45+00:00",
       "active_injury": true,
       "age": 30,
       "career_fights": 12,
@@ -11269,7 +11269,7 @@
     "calibration": {
       "shrink": 0.7
     },
-    "last_sync": "2026-08-10T13:47:09+00:00",
+    "last_sync": "2026-08-10T15:00:45+00:00",
     "news_last": {
       "abdul-hussein": "2026-08-10T13:15:22.308443+00:00",
       "abe-alsaghir": "2026-08-09T17:00:57.485598+00:00",
@@ -11307,25 +11307,25 @@
       "daniel-rodriguez": "2026-08-09T15:00:43.344965+00:00",
       "darren-elkins": "2026-08-10T02:36:49.820975+00:00",
       "dennis-buzukja": "2026-08-09T21:00:43.222232+00:00",
-      "diego-ferreira": "2026-08-09T11:00:46.652666+00:00",
+      "diego-ferreira": "2026-08-10T15:00:43.707313+00:00",
       "dione-barbosa": "2026-08-10T05:00:47.141485+00:00",
-      "diyar-nurgozhay": "2026-08-09T11:00:46.652666+00:00",
+      "diyar-nurgozhay": "2026-08-10T15:00:43.707313+00:00",
       "donte-johnson": "2026-08-10T02:36:49.820975+00:00",
       "douglas-rodrigues": "2026-08-09T19:00:44.310434+00:00",
       "du-ko-todorovi": "2026-08-09T21:00:43.222232+00:00",
       "duplessis": "2026-08-10T05:00:47.141485+00:00",
       "dustin-jacoby": "2026-08-10T11:00:49.438238+00:00",
-      "dustin-stoltzfus": "2026-08-09T11:00:46.652666+00:00",
-      "edson-barboza": "2026-08-09T11:00:46.652666+00:00",
+      "dustin-stoltzfus": "2026-08-10T15:00:43.707313+00:00",
+      "edson-barboza": "2026-08-10T15:00:43.707313+00:00",
       "elise-reed": "2026-08-09T23:00:43.798962+00:00",
       "eric-mcconico": "2026-08-10T02:36:49.820975+00:00",
-      "esteban-ribovics": "2026-08-09T11:00:46.652666+00:00",
+      "esteban-ribovics": "2026-08-10T15:00:43.707313+00:00",
       "ezra-elliott": "2026-08-10T07:00:54.121126+00:00",
       "fabrizio-escarrega": "2026-08-09T19:00:44.310434+00:00",
       "fatima-kline": "2026-08-10T05:00:47.141485+00:00",
       "felipe-franco": "2026-08-10T07:00:54.121126+00:00",
       "gauge-young": "2026-08-09T23:00:43.798962+00:00",
-      "geoff-neal": "2026-08-09T11:00:46.652666+00:00",
+      "geoff-neal": "2026-08-10T15:00:43.707313+00:00",
       "gilbert-urbina": "2026-08-09T21:00:43.222232+00:00",
       "gillian-robertson": "2026-08-09T13:00:49.348171+00:00",
       "gregory-rodrigues": "2026-08-09T23:00:43.798962+00:00",
@@ -11402,7 +11402,7 @@
       "roman-dolidze": "2026-08-10T02:36:49.820975+00:00",
       "roman-puga": "2026-08-10T03:00:51.744031+00:00",
       "sam-patterson": "2026-08-10T13:47:02.956509+00:00",
-      "santiago-ponzinibbio": "2026-08-09T09:00:45.421498+00:00",
+      "santiago-ponzinibbio": "2026-08-10T15:00:43.707313+00:00",
       "saygid-izagakhmaev": "2026-08-09T11:00:46.652666+00:00",
       "seokhyeon-ko": "2026-08-09T13:00:49.348171+00:00",
       "serghei-spivac": "2026-08-10T07:00:54.121126+00:00",
@@ -11430,7 +11430,7 @@
       "vicente-luque": "2026-08-10T13:15:22.308443+00:00",
       "vitor-petrino": "2026-08-10T09:00:42.743845+00:00",
       "vlasto-epo": "2026-08-09T13:17:32.507680+00:00",
-      "wellington-turman": "2026-08-09T09:00:45.421498+00:00",
+      "wellington-turman": "2026-08-10T15:00:43.707313+00:00",
       "wes-schultz": "2026-08-10T11:00:49.438238+00:00",
       "yadier-del-valle": "2026-08-10T13:47:02.956509+00:00"
     },
