@@ -1,16 +1,6 @@
 {
   "changelog": [
     {
-      "detail": "Manoel Sousa vs Richie Miranda: consensus -250 / +207 (1 books)",
-      "ts": "2026-08-03T03:57:26+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Mateusz Gamrot vs Quillan Salkilld: consensus +122 / -148 (7 books)",
-      "ts": "2026-08-03T03:57:26+00:00",
-      "type": "odds_update"
-    },
-    {
       "detail": "Mackenzie Dern vs Gillian Robertson: consensus -221 / +184 (4 books)",
       "ts": "2026-08-03T03:57:26+00:00",
       "type": "odds_update"
@@ -2499,6 +2489,16 @@
       "detail": "Richie Miranda: real stats populated (http://ufcstats.com/fighter-details/abde3388a589103c)",
       "ts": "2026-08-10T13:01:09+00:00",
       "type": "ufcstats_scraped"
+    },
+    {
+      "detail": "Billy Quarantillo: Quarantillo Reveals Knee Surgery Behind 19-Month UFC Absence - boxingnews.com",
+      "ts": "2026-08-10T13:47:05+00:00",
+      "type": "health_injury"
+    },
+    {
+      "detail": "Chidi Njokuani: Geoff Neal Out of UFC 330 Due to Injury, Njokuani Minus Foe - MMA Sucka",
+      "ts": "2026-08-10T13:47:05+00:00",
+      "type": "health_withdrawn"
     }
   ],
   "fighters": {
@@ -3382,7 +3382,7 @@
     },
     "billy-quarantillo": {
       "_injury_from_news": true,
-      "_updated": "2026-08-09T09:00:47+00:00",
+      "_updated": "2026-08-10T13:47:05+00:00",
       "active_injury": true,
       "age": 30,
       "career_fights": 12,
@@ -3830,7 +3830,7 @@
     },
     "chidi-njokuani": {
       "_injury_from_news": true,
-      "_updated": "2026-08-09T09:00:47+00:00",
+      "_updated": "2026-08-10T13:47:05+00:00",
       "active_injury": true,
       "age": 30,
       "career_fights": 12,
@@ -3846,7 +3846,7 @@
       "fight_location_country": "USA",
       "height_in": 70.0,
       "home_country": "USA",
-      "injury_note": "Geoff Neal out of UFC 330; Chidi Njokuani seeks new opponent - Central Oregon Daily",
+      "injury_note": "Geoff Neal Out of UFC 330 Due to Injury, Njokuani Minus Foe - MMA Sucka",
       "last_fight_date": "2025-06-01",
       "missed_weight": false,
       "name": "Chidi Njokuani",
@@ -11269,7 +11269,7 @@
     "calibration": {
       "shrink": 0.7
     },
-    "last_sync": "2026-08-10T13:15:41+00:00",
+    "last_sync": "2026-08-10T13:47:09+00:00",
     "news_last": {
       "abdul-hussein": "2026-08-10T13:15:22.308443+00:00",
       "abe-alsaghir": "2026-08-09T17:00:57.485598+00:00",
@@ -11278,10 +11278,10 @@
       "alden-coria": "2026-08-10T13:15:22.308443+00:00",
       "aleksandar-rakic": "2026-08-09T15:00:43.344965+00:00",
       "alexander-poppeck": "2026-08-10T08:06:38.048447+00:00",
-      "alexia-thainara": "2026-08-09T09:00:45.421498+00:00",
+      "alexia-thainara": "2026-08-10T13:47:02.956509+00:00",
       "alik-lorenz": "2026-08-09T17:00:57.485598+00:00",
       "alvin-hines": "2026-08-10T13:15:22.308443+00:00",
-      "amanda-lemos": "2026-08-09T09:00:45.421498+00:00",
+      "amanda-lemos": "2026-08-10T13:47:02.956509+00:00",
       "ananias-mulumba": "2026-08-09T17:00:57.485598+00:00",
       "anna-melisano": "2026-08-10T13:15:22.308443+00:00",
       "anthony-hernandez": "2026-08-09T23:00:43.798962+00:00",
@@ -11289,16 +11289,16 @@
       "austin-bashi": "2026-08-09T15:00:43.344965+00:00",
       "axel-sola": "2026-08-10T09:00:42.743845+00:00",
       "bilal-hasan": "2026-08-09T17:00:57.485598+00:00",
-      "billy-quarantillo": "2026-08-09T09:00:45.421498+00:00",
+      "billy-quarantillo": "2026-08-10T13:47:02.956509+00:00",
       "billy-ray-goff": "2026-08-10T02:36:49.820975+00:00",
       "bogdan-grad": "2026-08-09T15:00:43.344965+00:00",
       "bogdan-guskov": "2026-08-10T09:00:42.743845+00:00",
       "borislav-nikolic": "2026-08-10T08:06:38.048447+00:00",
       "brendson-ribeiro": "2026-08-10T09:00:42.743845+00:00",
-      "bruno-lopes": "2026-08-09T09:00:45.421498+00:00",
+      "bruno-lopes": "2026-08-10T13:47:02.956509+00:00",
       "carli-judice": "2026-08-09T23:00:43.798962+00:00",
       "chase-hooper": "2026-08-10T05:00:47.141485+00:00",
-      "chidi-njokuani": "2026-08-09T09:00:45.421498+00:00",
+      "chidi-njokuani": "2026-08-10T13:47:02.956509+00:00",
       "christian-leroy-duncan": "2026-08-10T05:00:47.141485+00:00",
       "cody-gibson": "2026-08-09T15:00:43.344965+00:00",
       "cristian-perez": "2026-08-09T17:00:57.485598+00:00",
@@ -11398,10 +11398,10 @@
       "richie-miranda": "2026-08-10T02:36:49.820975+00:00",
       "rizvan-kuniev": "2026-08-10T13:15:22.308443+00:00",
       "rj-harris": "2026-08-10T13:15:22.308443+00:00",
-      "robert-valentin": "2026-08-09T07:18:45.408349+00:00",
+      "robert-valentin": "2026-08-10T13:47:02.956509+00:00",
       "roman-dolidze": "2026-08-10T02:36:49.820975+00:00",
       "roman-puga": "2026-08-10T03:00:51.744031+00:00",
-      "sam-patterson": "2026-08-09T09:00:45.421498+00:00",
+      "sam-patterson": "2026-08-10T13:47:02.956509+00:00",
       "santiago-ponzinibbio": "2026-08-09T09:00:45.421498+00:00",
       "saygid-izagakhmaev": "2026-08-09T11:00:46.652666+00:00",
       "seokhyeon-ko": "2026-08-09T13:00:49.348171+00:00",
@@ -11432,7 +11432,7 @@
       "vlasto-epo": "2026-08-09T13:17:32.507680+00:00",
       "wellington-turman": "2026-08-09T09:00:45.421498+00:00",
       "wes-schultz": "2026-08-10T11:00:49.438238+00:00",
-      "yadier-del-valle": "2026-08-09T07:18:45.408349+00:00"
+      "yadier-del-valle": "2026-08-10T13:47:02.956509+00:00"
     },
     "odds": {
       "count": 45,
@@ -11582,7 +11582,7 @@
       "stewart-nicoll": "2026-07-16T01:01:10.349922+00:00",
       "tabatha-ricci": "2026-07-16T03:01:20.534247+00:00",
       "taner-trembley": "2026-08-10T13:00:49.230358+00:00",
-      "tba": "2026-08-09T13:17:34.786764+00:00",
+      "tba": "2026-08-10T13:47:05.318780+00:00",
       "thomas-petersen": "2026-07-20T11:00:58.429873+00:00",
       "tofiq-musayev": "2026-07-27T11:00:55.584805+00:00",
       "tom-pagliarulo": "2026-08-10T07:00:56.065517+00:00",
