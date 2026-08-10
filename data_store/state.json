@@ -1,11 +1,6 @@
 {
   "changelog": [
     {
-      "detail": "Juliana Miller vs Ravena Oliveira: consensus -270 / +220 (7 books)",
-      "ts": "2026-08-03T23:01:02+00:00",
-      "type": "odds_update"
-    },
-    {
       "detail": "Manoel Sousa vs Richie Miranda: consensus -257 / +210 (6 books)",
       "ts": "2026-08-03T23:01:02+00:00",
       "type": "odds_update"
@@ -2499,6 +2494,11 @@
       "detail": "Mackenzie Dern vs Gillian Robertson: consensus -247 / +197 (6 books)",
       "ts": "2026-08-10T21:00:52+00:00",
       "type": "odds_update"
+    },
+    {
+      "detail": "Jessie Rosas: Jessie Rosas Pulled From UFC Vegas 120 Hours Prior to Weigh-In, Replacement Found - Cageside Press",
+      "ts": "2026-08-10T23:00:45+00:00",
+      "type": "health_withdrawn"
     }
   ],
   "fighters": {
@@ -6047,7 +6047,7 @@
     },
     "jessie-rosas": {
       "_injury_from_news": true,
-      "_updated": "2026-08-09T19:00:46+00:00",
+      "_updated": "2026-08-10T23:00:45+00:00",
       "active_injury": true,
       "age": 30,
       "career_fights": 12,
@@ -11270,7 +11270,7 @@
     "calibration": {
       "shrink": 0.7
     },
-    "last_sync": "2026-08-10T21:00:57+00:00",
+    "last_sync": "2026-08-10T23:00:45+00:00",
     "news_last": {
       "abdul-hussein": "2026-08-10T13:15:22.308443+00:00",
       "abe-alsaghir": "2026-08-10T21:00:52.060534+00:00",
@@ -11312,7 +11312,7 @@
       "dione-barbosa": "2026-08-10T05:00:47.141485+00:00",
       "diyar-nurgozhay": "2026-08-10T15:00:43.707313+00:00",
       "donte-johnson": "2026-08-10T02:36:49.820975+00:00",
-      "douglas-rodrigues": "2026-08-09T19:00:44.310434+00:00",
+      "douglas-rodrigues": "2026-08-10T23:00:43.975835+00:00",
       "du-ko-todorovi": "2026-08-09T21:00:43.222232+00:00",
       "duplessis": "2026-08-10T05:00:47.141485+00:00",
       "dustin-jacoby": "2026-08-10T11:00:49.438238+00:00",
@@ -11322,7 +11322,7 @@
       "eric-mcconico": "2026-08-10T02:36:49.820975+00:00",
       "esteban-ribovics": "2026-08-10T15:00:43.707313+00:00",
       "ezra-elliott": "2026-08-10T07:00:54.121126+00:00",
-      "fabrizio-escarrega": "2026-08-09T19:00:44.310434+00:00",
+      "fabrizio-escarrega": "2026-08-10T23:00:43.975835+00:00",
       "fatima-kline": "2026-08-10T05:00:47.141485+00:00",
       "felipe-franco": "2026-08-10T07:00:54.121126+00:00",
       "gauge-young": "2026-08-09T23:00:43.798962+00:00",
@@ -11344,10 +11344,10 @@
       "jean-paul-lebosnoyani": "2026-08-10T07:00:54.121126+00:00",
       "jeisla-chaves": "2026-08-10T01:00:49.817630+00:00",
       "jeremiah-wells": "2026-08-10T19:00:48.846648+00:00",
-      "jessie-rosas": "2026-08-09T19:00:44.310434+00:00",
-      "joe-kropschot": "2026-08-09T19:00:44.310434+00:00",
-      "jon-kunneman": "2026-08-09T19:00:44.310434+00:00",
-      "jos-montanha": "2026-08-09T19:00:44.310434+00:00",
+      "jessie-rosas": "2026-08-10T23:00:43.975835+00:00",
+      "joe-kropschot": "2026-08-10T23:00:43.975835+00:00",
+      "jon-kunneman": "2026-08-10T23:00:43.975835+00:00",
+      "jos-montanha": "2026-08-10T23:00:43.975835+00:00",
       "jose-miguel-delgado": "2026-08-10T08:06:38.048447+00:00",
       "josias-musasa": "2026-08-09T21:00:43.222232+00:00",
       "jovan-leka": "2026-08-10T01:00:49.817630+00:00",
@@ -11413,10 +11413,10 @@
       "steve-erceg": "2026-08-10T21:00:52.060534+00:00",
       "steven-asplund": "2026-08-10T07:00:54.121126+00:00",
       "stewart-nicoll": "2026-08-10T21:00:52.060534+00:00",
-      "tabatha-ricci": "2026-08-09T17:00:57.485598+00:00",
+      "tabatha-ricci": "2026-08-10T23:00:43.975835+00:00",
       "taner-trembley": "2026-08-10T03:00:51.744031+00:00",
       "tba": "2026-08-10T08:06:38.048447+00:00",
-      "thomas-petersen": "2026-08-09T17:00:57.485598+00:00",
+      "thomas-petersen": "2026-08-10T23:00:43.975835+00:00",
       "tofiq-musayev": "2026-08-10T17:00:48.372851+00:00",
       "tom-pagliarulo": "2026-08-10T05:00:47.141485+00:00",
       "tommy-mcmillen": "2026-08-09T19:00:44.310434+00:00",
