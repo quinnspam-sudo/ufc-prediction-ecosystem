@@ -465,9 +465,9 @@
             {
               "matchup": "Eric McConico vs Donte Johnson",
               "pick": "Donte Johnson",
-              "moneyline": -210,
-              "decimal_odds": 1.476,
-              "consensus_prob": 0.741,
+              "moneyline": -225,
+              "decimal_odds": 1.444,
+              "consensus_prob": 0.7469,
               "model_prob": 0.7627,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 61.82,
@@ -476,9 +476,9 @@
             {
               "matchup": "Edson Barboza vs Esteban Ribovics",
               "pick": "Esteban Ribovics",
-              "moneyline": -505,
-              "decimal_odds": 1.198,
-              "consensus_prob": 0.821,
+              "moneyline": -515,
+              "decimal_odds": 1.194,
+              "consensus_prob": 0.8215,
               "model_prob": 0.7497,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 67.86,
@@ -487,9 +487,9 @@
             {
               "matchup": "Jeremiah Wells vs Myktybek Orolbai",
               "pick": "Myktybek Orolbai",
-              "moneyline": -712,
-              "decimal_odds": 1.14,
-              "consensus_prob": 0.8218,
+              "moneyline": -775,
+              "decimal_odds": 1.129,
+              "consensus_prob": 0.8257,
               "model_prob": 0.703,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 46.12,
@@ -508,10 +508,10 @@
             }
           ],
           "leg_count": 4,
-          "combined_prob_pct": 39.0,
-          "combined_decimal_odds": 2.367,
-          "combined_american": 137,
-          "ev_per_unit": -0.077,
+          "combined_prob_pct": 39.52,
+          "combined_decimal_odds": 2.285,
+          "combined_american": 129,
+          "ev_per_unit": -0.0968,
           "positive_ev": false
         }
       }
