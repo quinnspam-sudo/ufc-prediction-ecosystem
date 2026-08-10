@@ -272,8 +272,8 @@
     },
     "Wellington Turman vs Islam Dulatov": {
       "win_probability": {
-        "fighter_a_pct": 26.7,
-        "fighter_b_pct": 73.3,
+        "fighter_a_pct": 26.4,
+        "fighter_b_pct": 73.6,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -298,10 +298,10 @@
     },
     "Magomed Ankalaev vs Bogdan Guskov": {
       "win_probability": {
-        "fighter_a_pct": 46.46,
-        "fighter_b_pct": 53.54,
-        "draw_pct": 6.77,
-        "calibration_shrink_applied": 0.55
+        "fighter_a_pct": 61.25,
+        "fighter_b_pct": 38.75,
+        "draw_pct": 0.75,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": false,
