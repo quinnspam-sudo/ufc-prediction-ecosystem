@@ -1013,12 +1013,13 @@
     },
     "Manoel Sousa vs Richie Miranda": {
       "win_probability": {
-        "fighter_a_pct": 26.59,
-        "fighter_b_pct": 73.41,
-        "draw_pct": 2.6
+        "fighter_a_pct": 77.71,
+        "fighter_b_pct": 22.29,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
-        "fighter_a": false,
+        "fighter_a": true,
         "fighter_b": false
       },
       "report_file": "reports/manoel-sousa-vs-richie-miranda.json"

@@ -344,7 +344,7 @@
     },
     "UFC Fight Night: Gamrot vs Salkilld": {
       "card_type": "fight_night",
-      "eligible_legs": 5,
+      "eligible_legs": 6,
       "parlays": {
         "3_leg": {
           "legs": [
@@ -425,6 +425,17 @@
               "modal_finish_round": "round_2"
             },
             {
+              "matchup": "Manoel Sousa vs Richie Miranda",
+              "pick": "Manoel Sousa",
+              "moneyline": -320,
+              "decimal_odds": 1.312,
+              "consensus_prob": 0.7981,
+              "model_prob": 0.7771,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 60.01,
+              "modal_finish_round": "round_1"
+            },
+            {
               "matchup": "Steven Asplund vs Guilherme Pat",
               "pick": "Steven Asplund",
               "moneyline": -295,
@@ -434,24 +445,13 @@
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 52.12,
               "modal_finish_round": "round_1"
-            },
-            {
-              "matchup": "Amanda Lemos vs Alexia Thainara",
-              "pick": "Alexia Thainara",
-              "moneyline": -290,
-              "decimal_odds": 1.345,
-              "consensus_prob": 0.7653,
-              "model_prob": 0.74,
-              "likely_method": "Unanimous Decision",
-              "likely_method_pct": 45.24,
-              "modal_finish_round": "round_1"
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 21.23,
-          "combined_decimal_odds": 6.543,
-          "combined_american": 554,
-          "ev_per_unit": 0.3891,
+          "combined_prob_pct": 22.14,
+          "combined_decimal_odds": 6.382,
+          "combined_american": 538,
+          "ev_per_unit": 0.4131,
           "positive_ev": true
         }
       }
@@ -465,9 +465,9 @@
             {
               "matchup": "Eric McConico vs Donte Johnson",
               "pick": "Donte Johnson",
-              "moneyline": -212,
-              "decimal_odds": 1.472,
-              "consensus_prob": 0.7414,
+              "moneyline": -210,
+              "decimal_odds": 1.476,
+              "consensus_prob": 0.741,
               "model_prob": 0.7627,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 61.82,
@@ -476,9 +476,9 @@
             {
               "matchup": "Edson Barboza vs Esteban Ribovics",
               "pick": "Esteban Ribovics",
-              "moneyline": -490,
-              "decimal_odds": 1.204,
-              "consensus_prob": 0.8193,
+              "moneyline": -505,
+              "decimal_odds": 1.198,
+              "consensus_prob": 0.821,
               "model_prob": 0.7497,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 67.86,
@@ -487,9 +487,9 @@
             {
               "matchup": "Jeremiah Wells vs Myktybek Orolbai",
               "pick": "Myktybek Orolbai",
-              "moneyline": -687,
-              "decimal_odds": 1.146,
-              "consensus_prob": 0.8191,
+              "moneyline": -712,
+              "decimal_odds": 1.14,
+              "consensus_prob": 0.8218,
               "model_prob": 0.703,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 46.12,
@@ -498,9 +498,9 @@
             {
               "matchup": "Dustin Stoltzfus vs Mansur Abdul-Malik",
               "pick": "Mansur Abdul-Malik",
-              "moneyline": -550,
-              "decimal_odds": 1.182,
-              "consensus_prob": 0.7778,
+              "moneyline": -575,
+              "decimal_odds": 1.174,
+              "consensus_prob": 0.7801,
               "model_prob": 0.6586,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 46.04,
@@ -508,10 +508,10 @@
             }
           ],
           "leg_count": 4,
-          "combined_prob_pct": 38.7,
-          "combined_decimal_odds": 2.401,
-          "combined_american": 140,
-          "ev_per_unit": -0.071,
+          "combined_prob_pct": 39.0,
+          "combined_decimal_odds": 2.367,
+          "combined_american": 137,
+          "ev_per_unit": -0.077,
           "positive_ev": false
         }
       }
