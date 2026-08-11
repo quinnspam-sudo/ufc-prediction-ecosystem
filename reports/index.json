@@ -683,9 +683,9 @@
     },
     "Islam Makhachev vs Ian Machado Garry": {
       "win_probability": {
-        "fighter_a_pct": 68.14,
-        "fighter_b_pct": 31.86,
-        "draw_pct": 1.51,
+        "fighter_a_pct": 69.1,
+        "fighter_b_pct": 30.9,
+        "draw_pct": 0.84,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -845,7 +845,7 @@
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
-        "fighter_a": true,
+        "fighter_a": false,
         "fighter_b": false
       },
       "report_file": "reports/carli-judice-vs-jeisla-chaves.json"
@@ -885,7 +885,7 @@
       },
       "value_flags": {
         "fighter_a": false,
-        "fighter_b": true
+        "fighter_b": false
       },
       "report_file": "reports/roman-dolidze-vs-reinier-de-ridder.json"
     },
