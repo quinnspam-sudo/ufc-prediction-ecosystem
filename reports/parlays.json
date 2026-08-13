@@ -465,9 +465,9 @@
             {
               "matchup": "Eric McConico vs Donte Johnson",
               "pick": "Donte Johnson",
-              "moneyline": -250,
-              "decimal_odds": 1.4,
-              "consensus_prob": 0.7601,
+              "moneyline": -259,
+              "decimal_odds": 1.386,
+              "consensus_prob": 0.763,
               "model_prob": 0.7627,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 61.82,
@@ -476,9 +476,9 @@
             {
               "matchup": "Edson Barboza vs Esteban Ribovics",
               "pick": "Esteban Ribovics",
-              "moneyline": -600,
-              "decimal_odds": 1.167,
-              "consensus_prob": 0.8356,
+              "moneyline": -650,
+              "decimal_odds": 1.154,
+              "consensus_prob": 0.842,
               "model_prob": 0.7497,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 67.86,
@@ -508,10 +508,10 @@
             }
           ],
           "leg_count": 4,
-          "combined_prob_pct": 42.2,
-          "combined_decimal_odds": 2.061,
-          "combined_american": 106,
-          "ev_per_unit": -0.1302,
+          "combined_prob_pct": 42.68,
+          "combined_decimal_odds": 2.018,
+          "combined_american": 102,
+          "ev_per_unit": -0.1387,
           "positive_ev": false
         }
       }
@@ -536,9 +536,9 @@
             {
               "matchup": "Anthony Hernandez vs Gregory Rodrigues",
               "pick": "Anthony Hernandez",
-              "moneyline": -180,
-              "decimal_odds": 1.556,
-              "consensus_prob": 0.6674,
+              "moneyline": -170,
+              "decimal_odds": 1.588,
+              "consensus_prob": 0.6615,
               "model_prob": 0.6707,
               "likely_method": "Submission",
               "likely_method_pct": 30.57,
@@ -557,10 +557,10 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 33.42,
-          "combined_decimal_odds": 3.898,
-          "combined_american": 290,
-          "ev_per_unit": 0.3026,
+          "combined_prob_pct": 33.12,
+          "combined_decimal_odds": 3.978,
+          "combined_american": 298,
+          "ev_per_unit": 0.3177,
           "positive_ev": true
         },
         "5_leg": null
