@@ -465,9 +465,9 @@
             {
               "matchup": "Eric McConico vs Donte Johnson",
               "pick": "Donte Johnson",
-              "moneyline": -259,
-              "decimal_odds": 1.386,
-              "consensus_prob": 0.763,
+              "moneyline": -265,
+              "decimal_odds": 1.377,
+              "consensus_prob": 0.7676,
               "model_prob": 0.7627,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 61.82,
@@ -487,9 +487,9 @@
             {
               "matchup": "Jeremiah Wells vs Myktybek Orolbai",
               "pick": "Myktybek Orolbai",
-              "moneyline": -1025,
-              "decimal_odds": 1.098,
-              "consensus_prob": 0.841,
+              "moneyline": -1075,
+              "decimal_odds": 1.093,
+              "consensus_prob": 0.8412,
               "model_prob": 0.703,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 46.12,
@@ -498,9 +498,9 @@
             {
               "matchup": "Dustin Stoltzfus vs Mansur Abdul-Malik",
               "pick": "Mansur Abdul-Malik",
-              "moneyline": -670,
-              "decimal_odds": 1.149,
-              "consensus_prob": 0.79,
+              "moneyline": -675,
+              "decimal_odds": 1.148,
+              "consensus_prob": 0.7908,
               "model_prob": 0.6586,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 46.04,
@@ -508,10 +508,10 @@
             }
           ],
           "leg_count": 4,
-          "combined_prob_pct": 42.68,
-          "combined_decimal_odds": 2.018,
-          "combined_american": 102,
-          "ev_per_unit": -0.1387,
+          "combined_prob_pct": 42.99,
+          "combined_decimal_odds": 1.994,
+          "combined_american": 99,
+          "ev_per_unit": -0.1427,
           "positive_ev": false
         }
       }
@@ -525,9 +525,9 @@
             {
               "matchup": "Kennedy Nzechukwu vs Shamil Gaziev",
               "pick": "Kennedy Nzechukwu",
-              "moneyline": 105,
-              "decimal_odds": 2.05,
-              "consensus_prob": 0.609,
+              "moneyline": 103,
+              "decimal_odds": 2.03,
+              "consensus_prob": 0.6104,
               "model_prob": 0.7248,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 52.67,
@@ -536,9 +536,9 @@
             {
               "matchup": "Anthony Hernandez vs Gregory Rodrigues",
               "pick": "Anthony Hernandez",
-              "moneyline": -170,
-              "decimal_odds": 1.588,
-              "consensus_prob": 0.6615,
+              "moneyline": -172,
+              "decimal_odds": 1.581,
+              "consensus_prob": 0.6616,
               "model_prob": 0.6707,
               "likely_method": "Submission",
               "likely_method_pct": 30.57,
@@ -547,9 +547,9 @@
             {
               "matchup": "Carli Judice vs Jeisla Chaves",
               "pick": "Carli Judice",
-              "moneyline": -450,
-              "decimal_odds": 1.222,
-              "consensus_prob": 0.8222,
+              "moneyline": -452,
+              "decimal_odds": 1.221,
+              "consensus_prob": 0.8209,
               "model_prob": 0.7631,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 73.94,
@@ -557,10 +557,10 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 33.12,
-          "combined_decimal_odds": 3.978,
-          "combined_american": 298,
-          "ev_per_unit": 0.3177,
+          "combined_prob_pct": 33.15,
+          "combined_decimal_odds": 3.919,
+          "combined_american": 292,
+          "ev_per_unit": 0.2991,
           "positive_ev": true
         },
         "5_leg": null
