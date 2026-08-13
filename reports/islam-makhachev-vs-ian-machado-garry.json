@@ -5,12 +5,12 @@
     "scheduled_rounds": 5,
     "is_title_fight": false,
     "iterations": 10000,
-    "avg_rounds_simulated": 3.64,
+    "avg_rounds_simulated": 3.644,
     "fighter_a_flags": {
-      "active_injury": false,
+      "active_injury": true,
       "missed_weight": false,
       "withdrawn": false,
-      "injury_note": "",
+      "injury_note": "Former ranked contender boosted to UFC 330 main card after late injury hit to Islam Makhachev event - Bloody Elbow",
       "stats_approx": false,
       "needs_real_stats": false
     },
@@ -24,53 +24,53 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 69.1,
-    "fighter_b_pct": 30.9,
-    "draw_pct": 0.84,
+    "fighter_a_pct": 68.14,
+    "fighter_b_pct": 31.86,
+    "draw_pct": 1.51,
     "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
     "applied": false,
     "model_weight": 1.0,
-    "fighter_a_pct": 77.29,
-    "fighter_b_pct": 22.71,
+    "fighter_a_pct": 75.92,
+    "fighter_b_pct": 24.08,
     "market_devig_a_pct": null
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 11.94,
-      "Submission": 26.01,
-      "Unanimous Decision": 37.07,
-      "Split/Majority Decision": 1.62
+      "KO/TKO": 11.3,
+      "Submission": 26.17,
+      "Unanimous Decision": 35.11,
+      "Split/Majority Decision": 2.19
     },
     "fighter_b": {
-      "KO/TKO": 14.78,
-      "Submission": 7.18,
-      "Unanimous Decision": 0.26,
-      "Split/Majority Decision": 0.3
+      "KO/TKO": 14.95,
+      "Submission": 7.32,
+      "Unanimous Decision": 0.8,
+      "Split/Majority Decision": 0.65
     }
   },
   "fight_level": {
-    "ko_tko_pct": 26.72,
-    "submission_pct": 33.19,
-    "decision_pct": 39.25,
-    "goes_the_distance_pct": 40.09,
-    "expected_fight_minutes": 16.7
+    "ko_tko_pct": 26.25,
+    "submission_pct": 33.49,
+    "decision_pct": 38.75,
+    "goes_the_distance_pct": 40.26,
+    "expected_fight_minutes": 16.73
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 975,
-      "round_2": 839,
-      "round_3": 774,
-      "round_4": 658,
-      "round_5": 549
+      "round_1": 971,
+      "round_2": 832,
+      "round_3": 757,
+      "round_4": 649,
+      "round_5": 538
     },
     "fighter_b": {
-      "round_1": 541,
-      "round_2": 507,
-      "round_3": 456,
-      "round_4": 380,
-      "round_5": 312
+      "round_1": 537,
+      "round_2": 515,
+      "round_3": 464,
+      "round_4": 392,
+      "round_5": 319
     }
   },
   "value_betting": {
@@ -78,11 +78,11 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 69.1,
-      "edge_pct": 16.72,
-      "consensus_edge_pct": 24.91,
-      "kelly_fraction_full": 0.3512,
-      "kelly_fraction_half": 0.1756,
+      "model_win_prob_pct": 68.14,
+      "edge_pct": 15.76,
+      "consensus_edge_pct": 23.54,
+      "kelly_fraction_full": 0.331,
+      "kelly_fraction_half": 0.1655,
       "model_sees_value": true,
       "consensus_agrees": true,
       "value_bet": true
@@ -91,10 +91,10 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 30.9,
-      "edge_pct": -21.48,
-      "consensus_edge_pct": -29.67,
-      "kelly_fraction_full": -0.4512,
+      "model_win_prob_pct": 31.86,
+      "edge_pct": -20.52,
+      "consensus_edge_pct": -28.3,
+      "kelly_fraction_full": -0.431,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
