@@ -1,11 +1,6 @@
 {
   "changelog": [
     {
-      "detail": "Juliana Miller vs Ravena Oliveira: consensus -300 / +240 (7 books)",
-      "ts": "2026-08-06T03:42:26+00:00",
-      "type": "odds_update"
-    },
-    {
       "detail": "Miles Johns vs Jessie Rosas: consensus -162 / +135 (7 books)",
       "ts": "2026-08-06T03:42:26+00:00",
       "type": "odds_update"
@@ -2499,6 +2494,11 @@
       "detail": "Mateusz Gamrot: Quillan Salkilld reveals he may have suffered knee injury in win over Mateusz Gamrot: \u2018I heard a little pop\u2019 - MMA Fight",
       "ts": "2026-08-13T07:00:53+00:00",
       "type": "health_injury"
+    },
+    {
+      "detail": "Jessie Rosas: Jessie Rosas Pulled From UFC Vegas 120 Hours Prior to Weigh-In, Replacement Found - Cageside Press",
+      "ts": "2026-08-13T11:00:47+00:00",
+      "type": "health_withdrawn"
     }
   ],
   "fighters": {
@@ -6047,7 +6047,7 @@
     },
     "jessie-rosas": {
       "_injury_from_news": true,
-      "_updated": "2026-08-12T05:00:55+00:00",
+      "_updated": "2026-08-13T11:00:47+00:00",
       "active_injury": true,
       "age": 30,
       "career_fights": 12,
@@ -11281,7 +11281,7 @@
     "calibration": {
       "shrink": 0.7
     },
-    "last_sync": "2026-08-13T09:00:48+00:00",
+    "last_sync": "2026-08-13T11:00:47+00:00",
     "news_last": {
       "abdul-hussein": "2026-08-13T01:00:53.538680+00:00",
       "abe-alsaghir": "2026-08-13T09:00:46.403924+00:00",
@@ -11323,7 +11323,7 @@
       "dione-barbosa": "2026-08-12T15:00:43.454350+00:00",
       "diyar-nurgozhay": "2026-08-13T03:00:49.419361+00:00",
       "donte-johnson": "2026-08-12T13:00:51.456405+00:00",
-      "douglas-rodrigues": "2026-08-12T05:00:53.729596+00:00",
+      "douglas-rodrigues": "2026-08-13T11:00:45.480378+00:00",
       "du-ko-todorovi": "2026-08-12T07:54:43.346812+00:00",
       "duplessis": "2026-08-12T15:00:43.454350+00:00",
       "dustin-jacoby": "2026-08-12T21:00:48.524145+00:00",
@@ -11333,7 +11333,7 @@
       "eric-mcconico": "2026-08-12T13:00:51.456405+00:00",
       "esteban-ribovics": "2026-08-13T03:00:49.419361+00:00",
       "ezra-elliott": "2026-08-12T17:00:43.376467+00:00",
-      "fabrizio-escarrega": "2026-08-12T05:00:53.729596+00:00",
+      "fabrizio-escarrega": "2026-08-13T11:00:45.480378+00:00",
       "fatima-kline": "2026-08-12T15:00:43.454350+00:00",
       "felipe-franco": "2026-08-12T17:00:43.376467+00:00",
       "gauge-young": "2026-08-12T09:00:44.401978+00:00",
@@ -11355,10 +11355,10 @@
       "jean-paul-lebosnoyani": "2026-08-12T17:00:43.376467+00:00",
       "jeisla-chaves": "2026-08-12T11:00:46.827796+00:00",
       "jeremiah-wells": "2026-08-13T07:00:51.117255+00:00",
-      "jessie-rosas": "2026-08-12T05:00:53.729596+00:00",
-      "joe-kropschot": "2026-08-12T05:00:53.729596+00:00",
-      "jon-kunneman": "2026-08-12T05:00:53.729596+00:00",
-      "jos-montanha": "2026-08-12T05:00:53.729596+00:00",
+      "jessie-rosas": "2026-08-13T11:00:45.480378+00:00",
+      "joe-kropschot": "2026-08-13T11:00:45.480378+00:00",
+      "jon-kunneman": "2026-08-13T11:00:45.480378+00:00",
+      "jos-montanha": "2026-08-13T11:00:45.480378+00:00",
       "jose-miguel-delgado": "2026-08-12T19:00:43.582084+00:00",
       "josias-musasa": "2026-08-12T07:54:43.346812+00:00",
       "jovan-leka": "2026-08-12T11:00:46.827796+00:00",
@@ -11420,7 +11420,7 @@
       "serghei-spivac": "2026-08-12T19:29:06.134921+00:00",
       "shamil-gaziev": "2026-08-12T21:00:48.524145+00:00",
       "shanelle-dyer": "2026-08-12T23:01:01.575339+00:00",
-      "stephanie-luciano": "2026-08-12T03:00:44.540696+00:00",
+      "stephanie-luciano": "2026-08-13T11:00:45.480378+00:00",
       "steve-erceg": "2026-08-12T05:00:53.729596+00:00",
       "steven-asplund": "2026-08-12T19:29:06.134921+00:00",
       "stewart-nicoll": "2026-08-12T05:00:53.729596+00:00",
@@ -11441,7 +11441,7 @@
       "valter-walker": "2026-08-12T13:50:45.628454+00:00",
       "vicente-luque": "2026-08-13T03:00:49.419361+00:00",
       "vitor-petrino": "2026-08-12T23:01:01.575339+00:00",
-      "vlasto-epo": "2026-08-12T03:00:44.540696+00:00",
+      "vlasto-epo": "2026-08-13T11:00:45.480378+00:00",
       "wellington-turman": "2026-08-13T07:00:51.117255+00:00",
       "wes-schultz": "2026-08-13T01:00:53.538680+00:00",
       "yadier-del-valle": "2026-08-13T05:00:52.235446+00:00"
