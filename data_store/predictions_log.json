@@ -1951,6 +1951,22 @@
       "p_sub": 0.1325,
       "p_dec": 0.4006,
       "p_distance": 0.4081
+    },
+    {
+      "label": "Daniel Rodriguez vs Uro\u0161 Medi\u0107",
+      "a": "Daniel Rodriguez",
+      "b": "Uro\u0161 Medi\u0107",
+      "p_a": 0.7091,
+      "event": "UFC Fight Night: Medi\u0107 vs. Rodriguez",
+      "logged": "2026-08-13T07:56:39+00:00",
+      "resolved": false,
+      "actual_a": null,
+      "brier": null,
+      "resolved_at": null,
+      "p_ko": 0.371,
+      "p_sub": 0.1925,
+      "p_dec": 0.435,
+      "p_distance": 0.4365
     }
   ]
 }
