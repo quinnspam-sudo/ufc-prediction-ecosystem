@@ -5,7 +5,7 @@
     "scheduled_rounds": 3,
     "is_title_fight": false,
     "iterations": 10000,
-    "avg_rounds_simulated": 2.576,
+    "avg_rounds_simulated": 2.571,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -15,58 +15,58 @@
       "needs_real_stats": false
     },
     "fighter_b_flags": {
-      "active_injury": true,
+      "active_injury": false,
       "missed_weight": false,
       "withdrawn": false,
-      "injury_note": "Quarantillo Reveals Knee Surgery Behind 19-Month UFC Absence - boxingnews.com",
+      "injury_note": "",
       "stats_approx": false,
       "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 28.69,
-    "fighter_b_pct": 71.31,
-    "draw_pct": 1.31,
+    "fighter_a_pct": 27.95,
+    "fighter_b_pct": 72.05,
+    "draw_pct": 0.63,
     "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
     "applied": false,
     "model_weight": 1.0,
-    "fighter_a_pct": 19.56,
-    "fighter_b_pct": 80.44,
+    "fighter_a_pct": 18.5,
+    "fighter_b_pct": 81.5,
     "market_devig_a_pct": null
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 9.49,
-      "Submission": 8.59,
-      "Unanimous Decision": 0.72,
-      "Split/Majority Decision": 0.5
+      "KO/TKO": 9.39,
+      "Submission": 8.54,
+      "Unanimous Decision": 0.17,
+      "Split/Majority Decision": 0.28
     },
     "fighter_b": {
-      "KO/TKO": 11.67,
-      "Submission": 10.34,
-      "Unanimous Decision": 55.43,
-      "Split/Majority Decision": 1.95
+      "KO/TKO": 12.39,
+      "Submission": 10.24,
+      "Unanimous Decision": 57.13,
+      "Split/Majority Decision": 1.23
     }
   },
   "fight_level": {
-    "ko_tko_pct": 21.16,
-    "submission_pct": 18.93,
-    "decision_pct": 58.6,
-    "goes_the_distance_pct": 59.91,
-    "expected_fight_minutes": 11.88
+    "ko_tko_pct": 21.78,
+    "submission_pct": 18.78,
+    "decision_pct": 58.81,
+    "goes_the_distance_pct": 59.44,
+    "expected_fight_minutes": 11.84
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 652,
-      "round_2": 612,
-      "round_3": 544
+      "round_1": 643,
+      "round_2": 610,
+      "round_3": 540
     },
     "fighter_b": {
-      "round_1": 809,
-      "round_2": 705,
-      "round_3": 687
+      "round_1": 836,
+      "round_2": 726,
+      "round_3": 701
     }
   },
   "value_betting": {
@@ -74,10 +74,10 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 28.69,
-      "edge_pct": -23.69,
-      "consensus_edge_pct": -32.82,
-      "kelly_fraction_full": -0.4975,
+      "model_win_prob_pct": 27.95,
+      "edge_pct": -24.43,
+      "consensus_edge_pct": -33.88,
+      "kelly_fraction_full": -0.513,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
@@ -87,11 +87,11 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 71.31,
-      "edge_pct": 18.93,
-      "consensus_edge_pct": 28.06,
-      "kelly_fraction_full": 0.3975,
-      "kelly_fraction_half": 0.1987,
+      "model_win_prob_pct": 72.05,
+      "edge_pct": 19.67,
+      "consensus_edge_pct": 29.12,
+      "kelly_fraction_full": 0.413,
+      "kelly_fraction_half": 0.2065,
       "model_sees_value": true,
       "consensus_agrees": true,
       "value_bet": true

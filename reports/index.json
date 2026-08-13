@@ -529,9 +529,9 @@
     },
     "Diego Ferreira vs Billy Quarantillo": {
       "win_probability": {
-        "fighter_a_pct": 28.69,
-        "fighter_b_pct": 71.31,
-        "draw_pct": 1.31,
+        "fighter_a_pct": 27.95,
+        "fighter_b_pct": 72.05,
+        "draw_pct": 0.63,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
