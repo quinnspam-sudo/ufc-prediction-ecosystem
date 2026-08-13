@@ -487,9 +487,9 @@
             {
               "matchup": "Jeremiah Wells vs Myktybek Orolbai",
               "pick": "Myktybek Orolbai",
-              "moneyline": -955,
-              "decimal_odds": 1.105,
-              "consensus_prob": 0.8367,
+              "moneyline": -1000,
+              "decimal_odds": 1.1,
+              "consensus_prob": 0.8397,
               "model_prob": 0.703,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 46.12,
@@ -508,10 +508,10 @@
             }
           ],
           "leg_count": 4,
-          "combined_prob_pct": 41.93,
-          "combined_decimal_odds": 2.083,
-          "combined_american": 108,
-          "ev_per_unit": -0.1264,
+          "combined_prob_pct": 42.08,
+          "combined_decimal_odds": 2.074,
+          "combined_american": 107,
+          "ev_per_unit": -0.1272,
           "positive_ev": false
         }
       }
