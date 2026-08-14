@@ -940,21 +940,22 @@
     },
     "Abe Alsaghir vs Fabrizio Escarrega": {
       "win_probability": {
-        "fighter_a_pct": 50.87,
-        "fighter_b_pct": 49.13,
-        "draw_pct": 5.45
+        "fighter_a_pct": 27.13,
+        "fighter_b_pct": 72.87,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": false,
-        "fighter_b": false
+        "fighter_b": true
       },
       "report_file": "reports/abe-alsaghir-vs-fabrizio-escarrega.json"
     },
     "Anthony Wint vs Matt Adams": {
       "win_probability": {
-        "fighter_a_pct": 50.56,
-        "fighter_b_pct": 49.44,
-        "draw_pct": 6.15
+        "fighter_a_pct": 85.95,
+        "fighter_b_pct": 14.05,
+        "draw_pct": 0.0
       },
       "value_flags": {
         "fighter_a": false,
@@ -983,7 +984,7 @@
       },
       "value_flags": {
         "fighter_a": false,
-        "fighter_b": true
+        "fighter_b": false
       },
       "report_file": "reports/alik-lorenz-vs-mahamed-aly.json"
     },

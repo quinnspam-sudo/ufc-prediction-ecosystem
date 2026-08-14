@@ -465,9 +465,9 @@
             {
               "matchup": "Eric McConico vs Donte Johnson",
               "pick": "Donte Johnson",
-              "moneyline": -280,
-              "decimal_odds": 1.357,
-              "consensus_prob": 0.7734,
+              "moneyline": -294,
+              "decimal_odds": 1.34,
+              "consensus_prob": 0.7797,
               "model_prob": 0.7627,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 61.82,
@@ -487,9 +487,9 @@
             {
               "matchup": "Jeremiah Wells vs Myktybek Orolbai",
               "pick": "Myktybek Orolbai",
-              "moneyline": -1107,
-              "decimal_odds": 1.09,
-              "consensus_prob": 0.844,
+              "moneyline": -1157,
+              "decimal_odds": 1.086,
+              "consensus_prob": 0.8438,
               "model_prob": 0.703,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 46.12,
@@ -508,10 +508,10 @@
             }
           ],
           "leg_count": 4,
-          "combined_prob_pct": 43.54,
-          "combined_decimal_odds": 1.951,
-          "combined_american": 95,
-          "ev_per_unit": -0.1504,
+          "combined_prob_pct": 43.89,
+          "combined_decimal_odds": 1.919,
+          "combined_american": 92,
+          "ev_per_unit": -0.1576,
           "positive_ev": false
         }
       }
@@ -566,6 +566,24 @@
         "5_leg": null
       },
       "note": "Only 4 eligible legs; 5_leg not buildable."
+    },
+    "Dana White's Contender Series: Season 10, Week 1": {
+      "card_type": "fight_night",
+      "eligible_legs": 1,
+      "parlays": {
+        "3_leg": null,
+        "5_leg": null
+      },
+      "note": "Only 1 eligible legs; 3_leg, 5_leg not buildable."
+    },
+    "Dana White's Contender Series: Season 10, Week 2": {
+      "card_type": "fight_night",
+      "eligible_legs": 1,
+      "parlays": {
+        "3_leg": null,
+        "5_leg": null
+      },
+      "note": "Only 1 eligible legs; 3_leg, 5_leg not buildable."
     }
   },
   "min_leg_consensus_prob": 0.6
