@@ -1,71 +1,6 @@
 {
   "changelog": [
     {
-      "detail": "Neil Magny vs Ramiz Brahimaj: consensus -110 / -110 (2 books)",
-      "ts": "2026-08-06T09:00:48+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Vicente Luque vs Tresean Gore: consensus +112 / -132 (2 books)",
-      "ts": "2026-08-06T09:00:48+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Mackenzie Dern vs Gillian Robertson: consensus -235 / +189 (4 books)",
-      "ts": "2026-08-06T09:00:48+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Dustin Jacoby: Dustin Jacoby Shares Injury Update After UFC Abu Dhabi Loss - heavy.com",
-      "ts": "2026-08-06T11:00:59+00:00",
-      "type": "health_injury"
-    },
-    {
-      "detail": "Islam Dulatov: Dulatov pulls out of tonight's fight duo to an infection - MMA Sucka",
-      "ts": "2026-08-06T11:00:59+00:00",
-      "type": "health_withdrawn"
-    },
-    {
-      "detail": "Magomed Ankalaev: John Wood gives update on Khalil Rountree Jr. injury, pullout from Magomed Ankalaev fight at UFC Abu Dhabi - MMA Sucka",
-      "ts": "2026-08-06T11:00:59+00:00",
-      "type": "health_injury"
-    },
-    {
-      "detail": "Juliana Miller vs Ravena Oliveira: consensus -305 / +244 (6 books)",
-      "ts": "2026-08-06T14:37:20+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Miles Johns vs Jessie Rosas: consensus -163 / +135 (6 books)",
-      "ts": "2026-08-06T14:37:20+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Manoel Sousa vs Richie Miranda: consensus -295 / +237 (6 books)",
-      "ts": "2026-08-06T14:37:20+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Bruno Lopes vs Diyar Nurgozhay: consensus +121 / -148 (6 books)",
-      "ts": "2026-08-06T14:37:20+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Steven Asplund vs Guilherme Pat: consensus -293 / +237 (6 books)",
-      "ts": "2026-08-06T14:37:20+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Amanda Lemos vs Alexia Thainara: consensus +212 / -262 (6 books)",
-      "ts": "2026-08-06T14:37:20+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Mateusz Gamrot vs Quillan Salkilld: consensus +120 / -144 (6 books)",
-      "ts": "2026-08-06T14:37:20+00:00",
-      "type": "odds_update"
-    },
-    {
       "detail": "Eric McConico vs Donte Johnson: consensus +200 / -245 (3 books)",
       "ts": "2026-08-06T14:37:20+00:00",
       "type": "odds_update"
@@ -2499,6 +2434,71 @@
       "detail": "Quillan Salkilld: Quillan Salkilld May Have Injured Himself in UFC Vegas 120 Win - heavy.com",
       "ts": "2026-08-13T19:00:50+00:00",
       "type": "health_injury"
+    },
+    {
+      "detail": "Jeremiah Wells vs Myktybek Orolbai: consensus +700 / -1107 (6 books)",
+      "ts": "2026-08-14T01:00:47+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Neil Magny vs Ramiz Brahimaj: consensus +118 / -142 (6 books)",
+      "ts": "2026-08-14T01:00:47+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Eric McConico vs Donte Johnson: consensus +225 / -280 (6 books)",
+      "ts": "2026-08-14T01:00:47+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Vicente Luque vs Tresean Gore: consensus -105 / -115 (6 books)",
+      "ts": "2026-08-14T01:00:47+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Edson Barboza vs Esteban Ribovics: consensus +472 / -650 (6 books)",
+      "ts": "2026-08-14T01:00:47+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Dustin Stoltzfus vs Mansur Abdul-Malik: consensus +475 / -675 (5 books)",
+      "ts": "2026-08-14T01:00:47+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Jalin Turner vs Kau\u00ea Fernandes: consensus -148 / +127 (5 books)",
+      "ts": "2026-08-14T01:00:47+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Mackenzie Dern vs Gillian Robertson: consensus -216 / +176 (6 books)",
+      "ts": "2026-08-14T01:00:47+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Wes Schultz vs Jackson McVey: consensus +152 / -185 (4 books)",
+      "ts": "2026-08-14T01:00:47+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Carli Judice vs Jeisla Chaves: consensus -452 / +344 (4 books)",
+      "ts": "2026-08-14T01:00:47+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Kennedy Nzechukwu vs Shamil Gaziev: consensus +103 / -125 (4 books)",
+      "ts": "2026-08-14T01:00:47+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Roman Dolidze vs Reinier de Ridder: consensus +268 / -335 (4 books)",
+      "ts": "2026-08-14T01:00:47+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Anthony Hernandez vs Gregory Rodrigues: consensus -172 / +144 (4 books)",
+      "ts": "2026-08-14T01:00:47+00:00",
+      "type": "odds_update"
     }
   ],
   "fighters": {
@@ -10930,9 +10930,9 @@
     },
     {
       "a": "neil-magny",
-      "a_ml": 117,
+      "a_ml": 118,
       "b": "ramiz-brahimaj",
-      "b_ml": -143,
+      "b_ml": -142,
       "event": "UFC 330: Makhachev vs. Machado Garry",
       "label": "Neil Magny vs Ramiz Brahimaj",
       "rounds": 3,
@@ -10940,9 +10940,9 @@
     },
     {
       "a": "vicente-luque",
-      "a_ml": -2,
+      "a_ml": -105,
       "b": "tresean-gore",
-      "b_ml": -118,
+      "b_ml": -115,
       "event": "UFC 330: Makhachev vs. Machado Garry",
       "label": "Vicente Luque vs Tresean Gore",
       "rounds": 3,
@@ -10958,9 +10958,9 @@
     },
     {
       "a": "jeremiah-wells",
-      "a_ml": 668,
+      "a_ml": 700,
       "b": "myktybek-orolbai",
-      "b_ml": -1075,
+      "b_ml": -1107,
       "event": "UFC 330: Makhachev vs. Machado Garry",
       "label": "Jeremiah Wells vs Myktybek Orolbai",
       "rounds": 3,
@@ -10988,9 +10988,9 @@
     },
     {
       "a": "jalin-turner",
-      "a_ml": -155,
+      "a_ml": -148,
       "b": "kau-fernandes",
-      "b_ml": 130,
+      "b_ml": 127,
       "event": "UFC 330: Makhachev vs. Machado Garry",
       "label": "Jalin Turner vs Kau\u00ea Fernandes",
       "rounds": 3,
@@ -11078,9 +11078,9 @@
     },
     {
       "a": "eric-mcconico",
-      "a_ml": 215,
+      "a_ml": 225,
       "b": "donte-johnson",
-      "b_ml": -265,
+      "b_ml": -280,
       "event": "UFC 330: Makhachev vs. Machado Garry",
       "label": "Eric McConico vs Donte Johnson",
       "rounds": 3,
@@ -11104,9 +11104,9 @@
     },
     {
       "a": "wes-schultz",
-      "a_ml": 150,
+      "a_ml": 152,
       "b": "jackson-mcvey",
-      "b_ml": -180,
+      "b_ml": -185,
       "event": "UFC Fight Night: Hernandez vs. Rodrigues",
       "label": "Wes Schultz vs Jackson McVey",
       "rounds": 3,
@@ -11281,7 +11281,7 @@
     "calibration": {
       "shrink": 0.7
     },
-    "last_sync": "2026-08-13T23:00:44+00:00",
+    "last_sync": "2026-08-14T01:00:52+00:00",
     "news_last": {
       "abdul-hussein": "2026-08-13T01:00:53.538680+00:00",
       "abe-alsaghir": "2026-08-13T09:00:46.403924+00:00",
@@ -11289,7 +11289,7 @@
       "alberto-montes": "2026-08-13T01:00:53.538680+00:00",
       "alden-coria": "2026-08-13T01:00:53.538680+00:00",
       "aleksandar-rakic": "2026-08-13T07:56:17.869021+00:00",
-      "alexander-poppeck": "2026-08-12T19:00:43.582084+00:00",
+      "alexander-poppeck": "2026-08-14T01:00:47.599387+00:00",
       "alexia-thainara": "2026-08-13T02:49:49.069846+00:00",
       "alik-lorenz": "2026-08-13T09:00:46.403924+00:00",
       "alvin-hines": "2026-08-13T01:00:53.538680+00:00",
@@ -11305,7 +11305,7 @@
       "billy-ray-goff": "2026-08-13T19:00:48.585860+00:00",
       "bogdan-grad": "2026-08-13T07:56:17.869021+00:00",
       "bogdan-guskov": "2026-08-12T19:29:06.134921+00:00",
-      "borislav-nikolic": "2026-08-12T19:00:43.582084+00:00",
+      "borislav-nikolic": "2026-08-14T01:00:47.599387+00:00",
       "brendson-ribeiro": "2026-08-12T19:29:06.134921+00:00",
       "bruno-lopes": "2026-08-13T02:49:49.069846+00:00",
       "carli-judice": "2026-08-13T15:01:02.095104+00:00",
@@ -11359,7 +11359,7 @@
       "joe-kropschot": "2026-08-13T11:00:45.480378+00:00",
       "jon-kunneman": "2026-08-13T11:00:45.480378+00:00",
       "jos-montanha": "2026-08-13T11:00:45.480378+00:00",
-      "jose-miguel-delgado": "2026-08-12T19:00:43.582084+00:00",
+      "jose-miguel-delgado": "2026-08-14T01:00:47.599387+00:00",
       "josias-musasa": "2026-08-13T13:50:40.681625+00:00",
       "jovan-leka": "2026-08-13T17:00:48.661413+00:00",
       "juliana-miller": "2026-08-13T19:00:48.585860+00:00",
@@ -11368,7 +11368,7 @@
       "kennedy-nzechukwu": "2026-08-13T17:00:48.661413+00:00",
       "kody-steele": "2026-08-13T17:00:48.661413+00:00",
       "kyle-prepolec": "2026-08-13T19:28:09.005788+00:00",
-      "levi-rodrigues-jr": "2026-08-12T19:00:43.582084+00:00",
+      "levi-rodrigues-jr": "2026-08-14T01:00:47.599387+00:00",
       "logan-paxton": "2026-08-13T13:01:02.146810+00:00",
       "louie-sutherland": "2026-08-13T07:00:51.117255+00:00",
       "ludovit-klein": "2026-08-13T19:28:09.005788+00:00",
@@ -11380,7 +11380,7 @@
       "manoel-sousa": "2026-08-13T13:01:02.146810+00:00",
       "mansur-abdul-malik": "2026-08-13T07:00:51.117255+00:00",
       "marcin-tybura": "2026-08-13T19:28:09.005788+00:00",
-      "marina-spasi": "2026-08-12T19:00:43.582084+00:00",
+      "marina-spasi": "2026-08-14T01:00:47.599387+00:00",
       "mark-vologdin": "2026-08-13T19:28:09.005788+00:00",
       "mateusz-gamrot": "2026-08-13T07:00:51.117255+00:00",
       "mateusz-r-becki": "2026-08-13T19:28:09.005788+00:00",
@@ -11389,7 +11389,7 @@
       "michael-oliveira": "2026-08-13T21:00:46.878045+00:00",
       "mike-davis": "2026-08-12T23:01:01.575339+00:00",
       "miles-johns": "2026-08-13T13:01:02.146810+00:00",
-      "milos-janicic": "2026-08-12T19:00:43.582084+00:00",
+      "milos-janicic": "2026-08-14T01:00:47.599387+00:00",
       "mitch-ramirez": "2026-08-12T19:29:06.134921+00:00",
       "mridul-saikia": "2026-08-13T17:00:48.661413+00:00",
       "muhammad-said": "2026-08-12T21:00:48.524145+00:00",
@@ -11412,7 +11412,7 @@
       "rj-harris": "2026-08-13T02:49:49.069846+00:00",
       "robert-valentin": "2026-08-13T03:00:49.419361+00:00",
       "roman-dolidze": "2026-08-13T23:00:42.507665+00:00",
-      "roman-puga": "2026-08-12T17:00:43.376467+00:00",
+      "roman-puga": "2026-08-14T01:00:47.599387+00:00",
       "sam-patterson": "2026-08-13T05:00:52.235446+00:00",
       "santiago-ponzinibbio": "2026-08-13T07:00:51.117255+00:00",
       "saygid-izagakhmaev": "2026-08-13T07:56:17.869021+00:00",
@@ -11425,7 +11425,7 @@
       "steven-asplund": "2026-08-12T19:29:06.134921+00:00",
       "stewart-nicoll": "2026-08-13T13:01:02.146810+00:00",
       "tabatha-ricci": "2026-08-13T13:50:40.681625+00:00",
-      "taner-trembley": "2026-08-12T17:00:43.376467+00:00",
+      "taner-trembley": "2026-08-14T01:00:47.599387+00:00",
       "tba": "2026-08-12T21:00:48.524145+00:00",
       "thomas-petersen": "2026-08-13T13:50:40.681625+00:00",
       "tofiq-musayev": "2026-08-13T07:56:17.869021+00:00",
@@ -11447,8 +11447,8 @@
       "yadier-del-valle": "2026-08-13T05:00:52.235446+00:00"
     },
     "odds": {
-      "count": 60,
-      "last_call": "2026-08-13T19:00:48.583834+00:00",
+      "count": 61,
+      "last_call": "2026-08-14T01:00:47.597544+00:00",
       "month": "2026-08"
     },
     "ufcstats_last": {
