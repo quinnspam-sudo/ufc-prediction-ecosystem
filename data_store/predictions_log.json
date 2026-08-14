@@ -1988,17 +1988,17 @@
       "label": "Anthony Wint vs Matt Adams",
       "a": "Anthony Wint",
       "b": "Matt Adams",
-      "p_a": 0.8595,
+      "p_a": 0.7825,
       "event": "Dana White's Contender Series: Season 10, Week 1",
-      "logged": "2026-08-14T13:47:07+00:00",
+      "logged": "2026-08-14T17:01:40+00:00",
       "resolved": false,
       "actual_a": null,
       "brier": null,
       "resolved_at": null,
-      "p_ko": 0.648,
-      "p_sub": 0.044,
-      "p_dec": 0.308,
-      "p_distance": 0.308
+      "p_ko": 0.6316,
+      "p_sub": 0.0291,
+      "p_dec": 0.3393,
+      "p_distance": 0.3393
     }
   ]
 }

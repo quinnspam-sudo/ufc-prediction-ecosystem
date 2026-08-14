@@ -4,8 +4,8 @@
     "fighter_b": "Matt Adams",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.192,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.24,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -19,53 +19,54 @@
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 85.95,
-    "fighter_b_pct": 14.05,
-    "draw_pct": 0.0
+    "fighter_a_pct": 78.25,
+    "fighter_b_pct": 21.76,
+    "draw_pct": 0.0,
+    "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
     "applied": true,
     "model_weight": 0.4,
-    "fighter_a_pct": 88.45,
-    "fighter_b_pct": 11.55,
+    "fighter_a_pct": 90.21,
+    "fighter_b_pct": 9.79,
     "market_devig_a_pct": 90.11
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 53.8,
-      "Submission": 1.35,
-      "Unanimous Decision": 30.8,
+      "KO/TKO": 54.63,
+      "Submission": 1.79,
+      "Unanimous Decision": 33.93,
       "Split/Majority Decision": 0.0
     },
     "fighter_b": {
-      "KO/TKO": 11.0,
-      "Submission": 3.05,
+      "KO/TKO": 8.53,
+      "Submission": 1.12,
       "Unanimous Decision": 0.0,
       "Split/Majority Decision": 0.0
     }
   },
   "fight_level": {
-    "ko_tko_pct": 64.8,
-    "submission_pct": 4.4,
-    "decision_pct": 30.8,
-    "goes_the_distance_pct": 30.8,
-    "expected_fight_minutes": 9.23
+    "ko_tko_pct": 63.16,
+    "submission_pct": 2.91,
+    "decision_pct": 33.93,
+    "goes_the_distance_pct": 33.93,
+    "expected_fight_minutes": 9.55
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 452,
-      "round_2": 378,
-      "round_3": 273
+      "round_1": 2200,
+      "round_2": 1978,
+      "round_3": 1464
     },
     "fighter_b": {
-      "round_1": 130,
-      "round_2": 74,
-      "round_3": 77
+      "round_1": 473,
+      "round_2": 281,
+      "round_3": 211
     }
   },
   "value_betting": {
@@ -73,10 +74,10 @@
       "market_moneyline": -1500,
       "market_decimal_odds": 1.067,
       "market_implied_prob_pct": 93.75,
-      "model_win_prob_pct": 85.95,
-      "edge_pct": -7.8,
-      "consensus_edge_pct": -5.3,
-      "kelly_fraction_full": -1.248,
+      "model_win_prob_pct": 78.25,
+      "edge_pct": -15.51,
+      "consensus_edge_pct": -3.54,
+      "kelly_fraction_full": -2.4808,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
@@ -86,16 +87,14 @@
       "market_moneyline": 872,
       "market_decimal_odds": 9.72,
       "market_implied_prob_pct": 10.29,
-      "model_win_prob_pct": 14.05,
-      "edge_pct": 3.76,
-      "consensus_edge_pct": 1.27,
-      "kelly_fraction_full": 0.0419,
-      "kelly_fraction_half": 0.021,
+      "model_win_prob_pct": 21.76,
+      "edge_pct": 11.47,
+      "consensus_edge_pct": -0.49,
+      "kelly_fraction_full": 0.1278,
+      "kelly_fraction_half": 0.0639,
       "model_sees_value": true,
-      "consensus_agrees": true,
+      "consensus_agrees": false,
       "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+    }
   }
 }

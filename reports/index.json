@@ -953,9 +953,10 @@
     },
     "Anthony Wint vs Matt Adams": {
       "win_probability": {
-        "fighter_a_pct": 85.95,
-        "fighter_b_pct": 14.05,
-        "draw_pct": 0.0
+        "fighter_a_pct": 78.25,
+        "fighter_b_pct": 21.76,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": false,
