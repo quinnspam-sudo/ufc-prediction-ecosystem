@@ -498,9 +498,9 @@
             {
               "matchup": "Dustin Stoltzfus vs Mansur Abdul-Malik",
               "pick": "Mansur Abdul-Malik",
-              "moneyline": -675,
-              "decimal_odds": 1.148,
-              "consensus_prob": 0.7908,
+              "moneyline": -700,
+              "decimal_odds": 1.143,
+              "consensus_prob": 0.7919,
               "model_prob": 0.6586,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 46.04,
@@ -508,10 +508,10 @@
             }
           ],
           "leg_count": 4,
-          "combined_prob_pct": 43.46,
-          "combined_decimal_odds": 1.96,
-          "combined_american": 96,
-          "ev_per_unit": -0.1483,
+          "combined_prob_pct": 43.52,
+          "combined_decimal_odds": 1.951,
+          "combined_american": 95,
+          "ev_per_unit": -0.1508,
           "positive_ev": false
         }
       }
@@ -536,9 +536,9 @@
             {
               "matchup": "Anthony Hernandez vs Gregory Rodrigues",
               "pick": "Anthony Hernandez",
-              "moneyline": -172,
-              "decimal_odds": 1.581,
-              "consensus_prob": 0.6616,
+              "moneyline": -175,
+              "decimal_odds": 1.571,
+              "consensus_prob": 0.6631,
               "model_prob": 0.6707,
               "likely_method": "Submission",
               "likely_method_pct": 30.57,
@@ -557,10 +557,10 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 33.15,
-          "combined_decimal_odds": 3.919,
-          "combined_american": 292,
-          "ev_per_unit": 0.2991,
+          "combined_prob_pct": 33.23,
+          "combined_decimal_odds": 3.894,
+          "combined_american": 289,
+          "ev_per_unit": 0.2938,
           "positive_ev": true
         },
         "5_leg": null
