@@ -4,15 +4,15 @@
     "fighter_b": "Mridul Saikia",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.499,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.691,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     },
     "fighter_b_flags": {
       "active_injury": false,
@@ -24,48 +24,49 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 92.45,
-    "fighter_b_pct": 7.55,
-    "draw_pct": 0.0
+    "fighter_a_pct": 79.78,
+    "fighter_b_pct": 20.22,
+    "draw_pct": 0.0,
+    "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
     "applied": true,
     "model_weight": 0.4,
-    "fighter_a_pct": 93.66,
-    "fighter_b_pct": 6.34,
+    "fighter_a_pct": 93.7,
+    "fighter_b_pct": 6.3,
     "market_devig_a_pct": 94.47
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 7.25,
-      "Submission": 29.4,
-      "Unanimous Decision": 55.8,
+      "KO/TKO": 21.12,
+      "Submission": 3.09,
+      "Unanimous Decision": 68.33,
       "Split/Majority Decision": 0.0
     },
     "fighter_b": {
-      "KO/TKO": 4.3,
-      "Submission": 3.25,
+      "KO/TKO": 3.99,
+      "Submission": 3.47,
       "Unanimous Decision": 0.0,
       "Split/Majority Decision": 0.0
     }
   },
   "fight_level": {
-    "ko_tko_pct": 11.55,
-    "submission_pct": 32.65,
-    "decision_pct": 55.8,
-    "goes_the_distance_pct": 55.8,
-    "expected_fight_minutes": 11.39
+    "ko_tko_pct": 25.11,
+    "submission_pct": 6.56,
+    "decision_pct": 68.33,
+    "goes_the_distance_pct": 68.33,
+    "expected_fight_minutes": 12.66
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 291,
-      "round_2": 240,
-      "round_3": 202
+      "round_1": 761,
+      "round_2": 800,
+      "round_3": 860
     },
     "fighter_b": {
-      "round_1": 68,
-      "round_2": 43,
-      "round_3": 40
+      "round_1": 262,
+      "round_2": 241,
+      "round_3": 243
     }
   },
   "value_betting": {
@@ -73,10 +74,10 @@
       "market_moneyline": -4250,
       "market_decimal_odds": 1.024,
       "market_implied_prob_pct": 97.7,
-      "model_win_prob_pct": 92.45,
-      "edge_pct": -5.25,
-      "consensus_edge_pct": -4.04,
-      "kelly_fraction_full": -2.2843,
+      "model_win_prob_pct": 79.78,
+      "edge_pct": -17.92,
+      "consensus_edge_pct": -4.0,
+      "kelly_fraction_full": -7.7966,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
@@ -86,16 +87,14 @@
       "market_moneyline": 1650,
       "market_decimal_odds": 17.5,
       "market_implied_prob_pct": 5.71,
-      "model_win_prob_pct": 7.55,
-      "edge_pct": 1.84,
-      "consensus_edge_pct": 0.62,
-      "kelly_fraction_full": 0.0195,
-      "kelly_fraction_half": 0.0097,
+      "model_win_prob_pct": 20.22,
+      "edge_pct": 14.51,
+      "consensus_edge_pct": 0.59,
+      "kelly_fraction_full": 0.1539,
+      "kelly_fraction_half": 0.0769,
       "model_sees_value": true,
       "consensus_agrees": true,
-      "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+      "value_bet": true
+    }
   }
 }

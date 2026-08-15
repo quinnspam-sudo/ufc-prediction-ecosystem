@@ -4,68 +4,69 @@
     "fighter_b": "Jon Kunneman",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.595,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.371,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     },
     "fighter_b_flags": {
       "active_injury": false,
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 49.33,
-    "fighter_b_pct": 50.67,
-    "draw_pct": 6.05
+    "fighter_a_pct": 76.93,
+    "fighter_b_pct": 23.07,
+    "draw_pct": 0.0,
+    "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
     "applied": false,
     "model_weight": 1.0,
-    "fighter_a_pct": 49.33,
-    "fighter_b_pct": 50.67,
+    "fighter_a_pct": 88.47,
+    "fighter_b_pct": 11.53,
     "market_devig_a_pct": null
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 12.15,
-      "Submission": 7.7,
-      "Unanimous Decision": 19.25,
-      "Split/Majority Decision": 7.25
+      "KO/TKO": 32.93,
+      "Submission": 11.94,
+      "Unanimous Decision": 43.6,
+      "Split/Majority Decision": 0.0
     },
     "fighter_b": {
-      "KO/TKO": 10.6,
-      "Submission": 7.8,
-      "Unanimous Decision": 20.4,
-      "Split/Majority Decision": 8.8
+      "KO/TKO": 9.36,
+      "Submission": 2.17,
+      "Unanimous Decision": 0.0,
+      "Split/Majority Decision": 0.0
     }
   },
   "fight_level": {
-    "ko_tko_pct": 22.75,
-    "submission_pct": 15.5,
-    "decision_pct": 55.7,
-    "goes_the_distance_pct": 61.75,
-    "expected_fight_minutes": 12.02
+    "ko_tko_pct": 42.29,
+    "submission_pct": 14.11,
+    "decision_pct": 43.6,
+    "goes_the_distance_pct": 43.6,
+    "expected_fight_minutes": 10.45
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 132,
-      "round_2": 138,
-      "round_3": 127
+      "round_1": 1732,
+      "round_2": 1489,
+      "round_3": 1266
     },
     "fighter_b": {
-      "round_1": 150,
-      "round_2": 108,
-      "round_3": 110
+      "round_1": 472,
+      "round_2": 390,
+      "round_3": 291
     }
   },
   "value_betting": {
@@ -73,29 +74,27 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 49.33,
-      "edge_pct": -3.05,
-      "consensus_edge_pct": -3.05,
-      "kelly_fraction_full": -0.064,
-      "kelly_fraction_half": 0.0,
-      "model_sees_value": false,
-      "consensus_agrees": false,
-      "value_bet": false
+      "model_win_prob_pct": 76.93,
+      "edge_pct": 24.55,
+      "consensus_edge_pct": 36.09,
+      "kelly_fraction_full": 0.5155,
+      "kelly_fraction_half": 0.2578,
+      "model_sees_value": true,
+      "consensus_agrees": true,
+      "value_bet": true
     },
     "fighter_b": {
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 50.67,
-      "edge_pct": -1.72,
-      "consensus_edge_pct": -1.72,
-      "kelly_fraction_full": -0.036,
+      "model_win_prob_pct": 23.07,
+      "edge_pct": -29.31,
+      "consensus_edge_pct": -40.85,
+      "kelly_fraction_full": -0.6155,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
       "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+    }
   }
 }

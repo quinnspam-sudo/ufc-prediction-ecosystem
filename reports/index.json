@@ -904,37 +904,40 @@
     },
     "Joe Kropschot vs Jon Kunneman": {
       "win_probability": {
-        "fighter_a_pct": 49.33,
-        "fighter_b_pct": 50.67,
-        "draw_pct": 6.05
+        "fighter_a_pct": 76.93,
+        "fighter_b_pct": 23.07,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
-        "fighter_a": false,
+        "fighter_a": true,
         "fighter_b": false
       },
       "report_file": "reports/joe-kropschot-vs-jon-kunneman.json"
     },
     "Tom Pagliarulo vs Ananias Mulumba": {
       "win_probability": {
-        "fighter_a_pct": 23.9,
-        "fighter_b_pct": 76.1,
-        "draw_pct": 3.15
+        "fighter_a_pct": 59.03,
+        "fighter_b_pct": 40.97,
+        "draw_pct": 4.85,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
-        "fighter_a": false,
+        "fighter_a": true,
         "fighter_b": false
       },
       "report_file": "reports/tom-pagliarulo-vs-ananias-mulumba.json"
     },
     "Bilal Hasan vs Mridul Saikia": {
       "win_probability": {
-        "fighter_a_pct": 92.45,
-        "fighter_b_pct": 7.55,
-        "draw_pct": 0.0
+        "fighter_a_pct": 79.78,
+        "fighter_b_pct": 20.22,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": false,
-        "fighter_b": false
+        "fighter_b": true
       },
       "report_file": "reports/bilal-hasan-vs-mridul-saikia.json"
     },

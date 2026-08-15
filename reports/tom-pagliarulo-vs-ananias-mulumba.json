@@ -4,15 +4,15 @@
     "fighter_b": "Ananias Mulumba",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.579,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.619,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     },
     "fighter_b_flags": {
       "active_injury": false,
@@ -24,48 +24,49 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 23.9,
-    "fighter_b_pct": 76.1,
-    "draw_pct": 3.15
+    "fighter_a_pct": 59.03,
+    "fighter_b_pct": 40.97,
+    "draw_pct": 4.85,
+    "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
     "applied": true,
     "model_weight": 0.4,
-    "fighter_a_pct": 35.36,
-    "fighter_b_pct": 64.64,
+    "fighter_a_pct": 50.96,
+    "fighter_b_pct": 49.04,
     "market_devig_a_pct": 43.0
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 7.25,
-      "Submission": 8.6,
-      "Unanimous Decision": 4.4,
-      "Split/Majority Decision": 2.9
+      "KO/TKO": 9.15,
+      "Submission": 3.27,
+      "Unanimous Decision": 40.07,
+      "Split/Majority Decision": 7.36
     },
     "fighter_b": {
-      "KO/TKO": 9.25,
-      "Submission": 15.5,
-      "Unanimous Decision": 43.55,
-      "Split/Majority Decision": 5.4
+      "KO/TKO": 8.13,
+      "Submission": 15.85,
+      "Unanimous Decision": 6.82,
+      "Split/Majority Decision": 4.5
     }
   },
   "fight_level": {
-    "ko_tko_pct": 16.5,
-    "submission_pct": 24.1,
-    "decision_pct": 56.25,
-    "goes_the_distance_pct": 59.4,
-    "expected_fight_minutes": 11.88
+    "ko_tko_pct": 17.28,
+    "submission_pct": 19.12,
+    "decision_pct": 58.75,
+    "goes_the_distance_pct": 63.6,
+    "expected_fight_minutes": 12.19
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 102,
-      "round_2": 127,
-      "round_3": 88
+      "round_1": 424,
+      "round_2": 427,
+      "round_3": 391
     },
     "fighter_b": {
-      "round_1": 169,
-      "round_2": 174,
-      "round_3": 152
+      "round_1": 868,
+      "round_2": 796,
+      "round_3": 734
     }
   },
   "value_betting": {
@@ -73,29 +74,27 @@
       "market_moneyline": 124,
       "market_decimal_odds": 2.24,
       "market_implied_prob_pct": 44.64,
-      "model_win_prob_pct": 23.9,
-      "edge_pct": -20.74,
-      "consensus_edge_pct": -9.28,
-      "kelly_fraction_full": -0.3747,
-      "kelly_fraction_half": 0.0,
-      "model_sees_value": false,
-      "consensus_agrees": false,
-      "value_bet": false
+      "model_win_prob_pct": 59.03,
+      "edge_pct": 14.39,
+      "consensus_edge_pct": 6.32,
+      "kelly_fraction_full": 0.2599,
+      "kelly_fraction_half": 0.1299,
+      "model_sees_value": true,
+      "consensus_agrees": true,
+      "value_bet": true
     },
     "fighter_b": {
       "market_moneyline": -145,
       "market_decimal_odds": 1.69,
       "market_implied_prob_pct": 59.18,
-      "model_win_prob_pct": 76.1,
-      "edge_pct": 16.91,
-      "consensus_edge_pct": 5.46,
-      "kelly_fraction_full": 0.4144,
-      "kelly_fraction_half": 0.2072,
-      "model_sees_value": true,
-      "consensus_agrees": true,
+      "model_win_prob_pct": 40.97,
+      "edge_pct": -18.21,
+      "consensus_edge_pct": -10.14,
+      "kelly_fraction_full": -0.4462,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
       "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+    }
   }
 }
