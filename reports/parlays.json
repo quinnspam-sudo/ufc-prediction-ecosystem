@@ -487,9 +487,9 @@
             {
               "matchup": "Jeremiah Wells vs Myktybek Orolbai",
               "pick": "Myktybek Orolbai",
-              "moneyline": -1132,
-              "decimal_odds": 1.088,
-              "consensus_prob": 0.8455,
+              "moneyline": -1107,
+              "decimal_odds": 1.09,
+              "consensus_prob": 0.8434,
               "model_prob": 0.703,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 46.12,
@@ -500,7 +500,7 @@
               "pick": "Mansur Abdul-Malik",
               "moneyline": -700,
               "decimal_odds": 1.143,
-              "consensus_prob": 0.7933,
+              "consensus_prob": 0.7946,
               "model_prob": 0.6586,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 46.04,
@@ -508,10 +508,10 @@
             }
           ],
           "leg_count": 4,
-          "combined_prob_pct": 44.4,
-          "combined_decimal_odds": 1.892,
-          "combined_american": 89,
-          "ev_per_unit": -0.16,
+          "combined_prob_pct": 44.36,
+          "combined_decimal_odds": 1.895,
+          "combined_american": 90,
+          "ev_per_unit": -0.1592,
           "positive_ev": false
         }
       }
