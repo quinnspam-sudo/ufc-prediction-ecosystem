@@ -465,9 +465,9 @@
             {
               "matchup": "Eric McConico vs Donte Johnson",
               "pick": "Donte Johnson",
-              "moneyline": -300,
-              "decimal_odds": 1.333,
-              "consensus_prob": 0.7811,
+              "moneyline": -302,
+              "decimal_odds": 1.331,
+              "consensus_prob": 0.7831,
               "model_prob": 0.7627,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 61.82,
@@ -487,9 +487,9 @@
             {
               "matchup": "Jeremiah Wells vs Myktybek Orolbai",
               "pick": "Myktybek Orolbai",
-              "moneyline": -1157,
-              "decimal_odds": 1.086,
-              "consensus_prob": 0.8438,
+              "moneyline": -1132,
+              "decimal_odds": 1.088,
+              "consensus_prob": 0.8455,
               "model_prob": 0.703,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 46.12,
@@ -500,7 +500,7 @@
               "pick": "Mansur Abdul-Malik",
               "moneyline": -700,
               "decimal_odds": 1.143,
-              "consensus_prob": 0.7919,
+              "consensus_prob": 0.7933,
               "model_prob": 0.6586,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 46.04,
@@ -508,17 +508,17 @@
             }
           ],
           "leg_count": 4,
-          "combined_prob_pct": 44.12,
-          "combined_decimal_odds": 1.891,
+          "combined_prob_pct": 44.4,
+          "combined_decimal_odds": 1.892,
           "combined_american": 89,
-          "ev_per_unit": -0.1656,
+          "ev_per_unit": -0.16,
           "positive_ev": false
         }
       }
     },
     "UFC Fight Night: Hernandez vs. Rodrigues": {
       "card_type": "fight_night",
-      "eligible_legs": 3,
+      "eligible_legs": 4,
       "parlays": {
         "3_leg": {
           "legs": [
@@ -534,6 +534,17 @@
               "modal_finish_round": "round_1"
             },
             {
+              "matchup": "Elise Reed vs Shanelle Dyer",
+              "pick": "Shanelle Dyer",
+              "moneyline": -550,
+              "decimal_odds": 1.182,
+              "consensus_prob": 0.8604,
+              "model_prob": 0.8001,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 79.83,
+              "modal_finish_round": "round_3"
+            },
+            {
               "matchup": "Roman Dolidze vs Reinier de Ridder",
               "pick": "Reinier de Ridder",
               "moneyline": -335,
@@ -543,29 +554,18 @@
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 57.26,
               "modal_finish_round": "round_1"
-            },
-            {
-              "matchup": "Carli Judice vs Jeisla Chaves",
-              "pick": "Carli Judice",
-              "moneyline": -490,
-              "decimal_odds": 1.204,
-              "consensus_prob": 0.8267,
-              "model_prob": 0.7631,
-              "likely_method": "Unanimous Decision",
-              "likely_method_pct": 73.94,
-              "modal_finish_round": "round_3"
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 42.06,
-          "combined_decimal_odds": 2.457,
-          "combined_american": 146,
-          "ev_per_unit": 0.0335,
+          "combined_prob_pct": 43.78,
+          "combined_decimal_odds": 2.412,
+          "combined_american": 141,
+          "ev_per_unit": 0.056,
           "positive_ev": true
         },
         "5_leg": null
       },
-      "note": "Only 3 eligible legs; 5_leg not buildable."
+      "note": "Only 4 eligible legs; 5_leg not buildable."
     },
     "Dana White's Contender Series: Season 10, Week 1": {
       "card_type": "fight_night",
