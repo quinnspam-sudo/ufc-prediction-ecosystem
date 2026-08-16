@@ -536,31 +536,31 @@
             {
               "matchup": "Elise Reed vs Shanelle Dyer",
               "pick": "Shanelle Dyer",
-              "moneyline": -570,
-              "decimal_odds": 1.175,
-              "consensus_prob": 0.8582,
+              "moneyline": -600,
+              "decimal_odds": 1.167,
+              "consensus_prob": 0.8624,
               "model_prob": 0.8001,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 79.83,
               "modal_finish_round": "round_3"
             },
             {
-              "matchup": "Roman Dolidze vs Reinier de Ridder",
-              "pick": "Reinier de Ridder",
-              "moneyline": -337,
-              "decimal_odds": 1.297,
-              "consensus_prob": 0.7668,
-              "model_prob": 0.7167,
+              "matchup": "Carli Judice vs Jeisla Chaves",
+              "pick": "Carli Judice",
+              "moneyline": -500,
+              "decimal_odds": 1.2,
+              "consensus_prob": 0.8283,
+              "model_prob": 0.7631,
               "likely_method": "Unanimous Decision",
-              "likely_method_pct": 57.26,
-              "modal_finish_round": "round_1"
+              "likely_method_pct": 73.94,
+              "modal_finish_round": "round_3"
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 43.64,
-          "combined_decimal_odds": 2.394,
-          "combined_american": 139,
-          "ev_per_unit": 0.0447,
+          "combined_prob_pct": 47.37,
+          "combined_decimal_odds": 2.2,
+          "combined_american": 120,
+          "ev_per_unit": 0.0421,
           "positive_ev": true
         },
         "5_leg": null
