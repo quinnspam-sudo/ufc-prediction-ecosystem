@@ -988,7 +988,7 @@
       },
       "value_flags": {
         "fighter_a": false,
-        "fighter_b": false
+        "fighter_b": true
       },
       "report_file": "reports/alik-lorenz-vs-mahamed-aly.json"
     },
