@@ -525,9 +525,9 @@
             {
               "matchup": "Anthony Hernandez vs Gregory Rodrigues",
               "pick": "Anthony Hernandez",
-              "moneyline": -177,
-              "decimal_odds": 1.565,
-              "consensus_prob": 0.6636,
+              "moneyline": -180,
+              "decimal_odds": 1.556,
+              "consensus_prob": 0.6639,
               "model_prob": 0.6707,
               "likely_method": "Submission",
               "likely_method_pct": 30.57,
@@ -557,10 +557,10 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 47.8,
-          "combined_decimal_odds": 2.143,
-          "combined_american": 114,
-          "ev_per_unit": 0.0245,
+          "combined_prob_pct": 47.82,
+          "combined_decimal_odds": 2.131,
+          "combined_american": 113,
+          "ev_per_unit": 0.0191,
           "positive_ev": true
         },
         "5_leg": null
