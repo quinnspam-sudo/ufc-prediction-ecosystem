@@ -5,7 +5,7 @@
     "scheduled_rounds": 3,
     "is_title_fight": false,
     "iterations": 10000,
-    "avg_rounds_simulated": 2.643,
+    "avg_rounds_simulated": 2.637,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -15,58 +15,58 @@
       "needs_real_stats": false
     },
     "fighter_b_flags": {
-      "active_injury": true,
+      "active_injury": false,
       "missed_weight": false,
-      "withdrawn": true,
-      "injury_note": "Joel Alvarez steps in on short notice for UFC 330 after Geoff Neal injury - Sherdog",
+      "withdrawn": false,
+      "injury_note": "",
       "stats_approx": false,
       "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 69.72,
-    "fighter_b_pct": 30.28,
-    "draw_pct": 4.49,
+    "fighter_a_pct": 69.8,
+    "fighter_b_pct": 30.2,
+    "draw_pct": 3.79,
     "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
     "applied": false,
     "model_weight": 1.0,
-    "fighter_a_pct": 78.17,
-    "fighter_b_pct": 21.83,
+    "fighter_a_pct": 78.29,
+    "fighter_b_pct": 21.71,
     "market_devig_a_pct": null
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 17.25,
-      "Submission": 3.27,
-      "Unanimous Decision": 48.86,
-      "Split/Majority Decision": 5.28
+      "KO/TKO": 16.6,
+      "Submission": 3.18,
+      "Unanimous Decision": 50.07,
+      "Split/Majority Decision": 5.47
     },
     "fighter_b": {
-      "KO/TKO": 11.18,
-      "Submission": 3.34,
-      "Unanimous Decision": 3.66,
-      "Split/Majority Decision": 2.67
+      "KO/TKO": 11.96,
+      "Submission": 3.4,
+      "Unanimous Decision": 2.77,
+      "Split/Majority Decision": 2.76
     }
   },
   "fight_level": {
-    "ko_tko_pct": 28.43,
-    "submission_pct": 6.61,
-    "decision_pct": 60.47,
-    "goes_the_distance_pct": 64.96,
-    "expected_fight_minutes": 12.34
+    "ko_tko_pct": 28.56,
+    "submission_pct": 6.58,
+    "decision_pct": 61.07,
+    "goes_the_distance_pct": 64.86,
+    "expected_fight_minutes": 12.31
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 709,
-      "round_2": 684,
-      "round_3": 659
+      "round_1": 699,
+      "round_2": 665,
+      "round_3": 614
     },
     "fighter_b": {
-      "round_1": 492,
-      "round_2": 483,
-      "round_3": 477
+      "round_1": 523,
+      "round_2": 521,
+      "round_3": 492
     }
   },
   "value_betting": {
@@ -74,11 +74,11 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 69.72,
-      "edge_pct": 17.34,
-      "consensus_edge_pct": 25.79,
-      "kelly_fraction_full": 0.3641,
-      "kelly_fraction_half": 0.182,
+      "model_win_prob_pct": 69.8,
+      "edge_pct": 17.42,
+      "consensus_edge_pct": 25.91,
+      "kelly_fraction_full": 0.3659,
+      "kelly_fraction_half": 0.1829,
       "model_sees_value": true,
       "consensus_agrees": true,
       "value_bet": true
@@ -87,10 +87,10 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 30.28,
-      "edge_pct": -22.1,
-      "consensus_edge_pct": -30.55,
-      "kelly_fraction_full": -0.4641,
+      "model_win_prob_pct": 30.2,
+      "edge_pct": -22.18,
+      "consensus_edge_pct": -30.67,
+      "kelly_fraction_full": -0.4659,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
