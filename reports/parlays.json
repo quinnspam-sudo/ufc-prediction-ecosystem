@@ -525,9 +525,9 @@
             {
               "matchup": "Anthony Hernandez vs Gregory Rodrigues",
               "pick": "Anthony Hernandez",
-              "moneyline": -163,
-              "decimal_odds": 1.613,
-              "consensus_prob": 0.6551,
+              "moneyline": -165,
+              "decimal_odds": 1.606,
+              "consensus_prob": 0.657,
               "model_prob": 0.6707,
               "likely_method": "Submission",
               "likely_method_pct": 30.57,
@@ -536,9 +536,9 @@
             {
               "matchup": "Elise Reed vs Shanelle Dyer",
               "pick": "Shanelle Dyer",
-              "moneyline": -715,
-              "decimal_odds": 1.14,
-              "consensus_prob": 0.8764,
+              "moneyline": -750,
+              "decimal_odds": 1.133,
+              "consensus_prob": 0.8794,
               "model_prob": 0.8001,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 79.83,
@@ -547,9 +547,9 @@
             {
               "matchup": "Carli Judice vs Jeisla Chaves",
               "pick": "Carli Judice",
-              "moneyline": -525,
-              "decimal_odds": 1.19,
-              "consensus_prob": 0.835,
+              "moneyline": -535,
+              "decimal_odds": 1.187,
+              "consensus_prob": 0.8352,
               "model_prob": 0.7631,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 73.94,
@@ -557,10 +557,10 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 47.94,
-          "combined_decimal_odds": 2.188,
-          "combined_american": 119,
-          "ev_per_unit": 0.049,
+          "combined_prob_pct": 48.25,
+          "combined_decimal_odds": 2.16,
+          "combined_american": 116,
+          "ev_per_unit": 0.0422,
           "positive_ev": true
         },
         "5_leg": null
