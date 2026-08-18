@@ -547,9 +547,9 @@
             {
               "matchup": "Carli Judice vs Jeisla Chaves",
               "pick": "Carli Judice",
-              "moneyline": -535,
-              "decimal_odds": 1.187,
-              "consensus_prob": 0.8352,
+              "moneyline": -550,
+              "decimal_odds": 1.182,
+              "consensus_prob": 0.8356,
               "model_prob": 0.7631,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 73.94,
@@ -557,10 +557,10 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 48.25,
-          "combined_decimal_odds": 2.16,
-          "combined_american": 116,
-          "ev_per_unit": 0.0422,
+          "combined_prob_pct": 48.28,
+          "combined_decimal_odds": 2.151,
+          "combined_american": 115,
+          "ev_per_unit": 0.0383,
           "positive_ev": true
         },
         "5_leg": null

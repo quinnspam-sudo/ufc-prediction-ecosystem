@@ -5,12 +5,12 @@
     "scheduled_rounds": 3,
     "is_title_fight": false,
     "iterations": 10000,
-    "avg_rounds_simulated": 2.434,
+    "avg_rounds_simulated": 2.447,
     "fighter_a_flags": {
-      "active_injury": false,
+      "active_injury": true,
       "missed_weight": false,
       "withdrawn": false,
-      "injury_note": "",
+      "injury_note": "\"That b**tard\" - Tresean Gore and MMA fans react to his injury, win over Vicente Luque at UFC 330 - MMA Sucka",
       "stats_approx": false,
       "needs_real_stats": false
     },
@@ -24,49 +24,49 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 63.69,
-    "fighter_b_pct": 36.31,
-    "draw_pct": 3.72,
+    "fighter_a_pct": 61.38,
+    "fighter_b_pct": 38.62,
+    "draw_pct": 4.56,
     "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
     "applied": true,
     "model_weight": 0.4,
-    "fighter_a_pct": 57.36,
-    "fighter_b_pct": 42.64,
+    "fighter_a_pct": 56.05,
+    "fighter_b_pct": 43.95,
     "market_devig_a_pct": 49.24
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 19.75,
-      "Submission": 8.81,
-      "Unanimous Decision": 33.84,
-      "Split/Majority Decision": 4.56
+      "KO/TKO": 18.19,
+      "Submission": 8.85,
+      "Unanimous Decision": 31.97,
+      "Split/Majority Decision": 4.23
     },
     "fighter_b": {
-      "KO/TKO": 8.23,
-      "Submission": 14.34,
-      "Unanimous Decision": 4.26,
-      "Split/Majority Decision": 2.49
+      "KO/TKO": 8.28,
+      "Submission": 14.77,
+      "Unanimous Decision": 6.08,
+      "Split/Majority Decision": 3.07
     }
   },
   "fight_level": {
-    "ko_tko_pct": 27.98,
-    "submission_pct": 23.15,
-    "decision_pct": 45.15,
-    "goes_the_distance_pct": 48.87,
-    "expected_fight_minutes": 10.89
+    "ko_tko_pct": 26.47,
+    "submission_pct": 23.62,
+    "decision_pct": 45.35,
+    "goes_the_distance_pct": 49.91,
+    "expected_fight_minutes": 10.98
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 1054,
-      "round_2": 999,
-      "round_3": 803
+      "round_1": 1007,
+      "round_2": 931,
+      "round_3": 766
     },
     "fighter_b": {
-      "round_1": 903,
-      "round_2": 745,
-      "round_3": 609
+      "round_1": 912,
+      "round_2": 761,
+      "round_3": 632
     }
   },
   "value_betting": {
@@ -74,11 +74,11 @@
       "market_moneyline": -106,
       "market_decimal_odds": 1.943,
       "market_implied_prob_pct": 51.46,
-      "model_win_prob_pct": 63.69,
-      "edge_pct": 12.23,
-      "consensus_edge_pct": 5.9,
-      "kelly_fraction_full": 0.2519,
-      "kelly_fraction_half": 0.126,
+      "model_win_prob_pct": 61.38,
+      "edge_pct": 9.93,
+      "consensus_edge_pct": 4.59,
+      "kelly_fraction_full": 0.2045,
+      "kelly_fraction_half": 0.1022,
       "model_sees_value": true,
       "consensus_agrees": true,
       "value_bet": true
@@ -87,10 +87,10 @@
       "market_moneyline": -113,
       "market_decimal_odds": 1.885,
       "market_implied_prob_pct": 53.05,
-      "model_win_prob_pct": 36.31,
-      "edge_pct": -16.74,
-      "consensus_edge_pct": -10.41,
-      "kelly_fraction_full": -0.3565,
+      "model_win_prob_pct": 38.62,
+      "edge_pct": -14.43,
+      "consensus_edge_pct": -9.1,
+      "kelly_fraction_full": -0.3074,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
