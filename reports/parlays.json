@@ -527,7 +527,7 @@
               "pick": "Anthony Hernandez",
               "moneyline": -180,
               "decimal_odds": 1.556,
-              "consensus_prob": 0.6633,
+              "consensus_prob": 0.6628,
               "model_prob": 0.6707,
               "likely_method": "Submission",
               "likely_method_pct": 30.57,
@@ -557,10 +557,10 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 48.71,
+          "combined_prob_pct": 48.68,
           "combined_decimal_odds": 2.096,
           "combined_american": 110,
-          "ev_per_unit": 0.0211,
+          "ev_per_unit": 0.0203,
           "positive_ev": true
         },
         "5_leg": null
