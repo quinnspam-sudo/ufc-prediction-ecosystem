@@ -536,9 +536,9 @@
             {
               "matchup": "Elise Reed vs Shanelle Dyer",
               "pick": "Shanelle Dyer",
-              "moneyline": -750,
-              "decimal_odds": 1.133,
-              "consensus_prob": 0.8794,
+              "moneyline": -800,
+              "decimal_odds": 1.125,
+              "consensus_prob": 0.88,
               "model_prob": 0.8001,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 79.83,
@@ -547,9 +547,9 @@
             {
               "matchup": "Carli Judice vs Jeisla Chaves",
               "pick": "Carli Judice",
-              "moneyline": -530,
-              "decimal_odds": 1.189,
-              "consensus_prob": 0.8351,
+              "moneyline": -575,
+              "decimal_odds": 1.174,
+              "consensus_prob": 0.8363,
               "model_prob": 0.7631,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 73.94,
@@ -557,10 +557,10 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 48.45,
-          "combined_decimal_odds": 2.139,
-          "combined_american": 114,
-          "ev_per_unit": 0.0366,
+          "combined_prob_pct": 48.56,
+          "combined_decimal_odds": 2.097,
+          "combined_american": 110,
+          "ev_per_unit": 0.0184,
           "positive_ev": true
         },
         "5_leg": null
