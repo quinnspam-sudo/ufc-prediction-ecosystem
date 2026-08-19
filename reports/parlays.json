@@ -525,9 +525,9 @@
             {
               "matchup": "Anthony Hernandez vs Gregory Rodrigues",
               "pick": "Anthony Hernandez",
-              "moneyline": -180,
-              "decimal_odds": 1.556,
-              "consensus_prob": 0.6628,
+              "moneyline": -170,
+              "decimal_odds": 1.588,
+              "consensus_prob": 0.6598,
               "model_prob": 0.6707,
               "likely_method": "Submission",
               "likely_method_pct": 30.57,
@@ -557,10 +557,10 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 48.68,
-          "combined_decimal_odds": 2.096,
-          "combined_american": 110,
-          "ev_per_unit": 0.0203,
+          "combined_prob_pct": 48.45,
+          "combined_decimal_odds": 2.139,
+          "combined_american": 114,
+          "ev_per_unit": 0.0366,
           "positive_ev": true
         },
         "5_leg": null
@@ -620,12 +620,12 @@
     },
     "Dana White's Contender Series: Season 10, Week 2": {
       "card_type": "fight_night",
-      "eligible_legs": 1,
+      "eligible_legs": 2,
       "parlays": {
         "3_leg": null,
         "5_leg": null
       },
-      "note": "Only 1 eligible legs; 3_leg, 5_leg not buildable."
+      "note": "Only 2 eligible legs; 3_leg, 5_leg not buildable."
     }
   },
   "min_leg_consensus_prob": 0.6

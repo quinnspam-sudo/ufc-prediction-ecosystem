@@ -994,12 +994,13 @@
     },
     "Roman Puga vs Taner Trembley": {
       "win_probability": {
-        "fighter_a_pct": 51.41,
-        "fighter_b_pct": 48.59,
-        "draw_pct": 5.85
+        "fighter_a_pct": 78.21,
+        "fighter_b_pct": 21.79,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
-        "fighter_a": false,
+        "fighter_a": true,
         "fighter_b": false
       },
       "report_file": "reports/roman-puga-vs-taner-trembley.json"

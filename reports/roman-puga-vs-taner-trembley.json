@@ -4,68 +4,69 @@
     "fighter_b": "Taner Trembley",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.662,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.632,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     },
     "fighter_b_flags": {
       "active_injury": false,
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 51.41,
-    "fighter_b_pct": 48.59,
-    "draw_pct": 5.85
+    "fighter_a_pct": 78.21,
+    "fighter_b_pct": 21.79,
+    "draw_pct": 0.0,
+    "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
     "applied": true,
     "model_weight": 0.4,
-    "fighter_a_pct": 55.39,
-    "fighter_b_pct": 44.61,
+    "fighter_a_pct": 70.95,
+    "fighter_b_pct": 29.05,
     "market_devig_a_pct": 58.05
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 7.75,
-      "Submission": 9.45,
-      "Unanimous Decision": 22.45,
-      "Split/Majority Decision": 8.75
+      "KO/TKO": 22.46,
+      "Submission": 4.01,
+      "Unanimous Decision": 63.83,
+      "Split/Majority Decision": 0.0
     },
     "fighter_b": {
-      "KO/TKO": 7.4,
-      "Submission": 9.7,
-      "Unanimous Decision": 20.2,
-      "Split/Majority Decision": 8.45
+      "KO/TKO": 7.1,
+      "Submission": 2.6,
+      "Unanimous Decision": 0.0,
+      "Split/Majority Decision": 0.0
     }
   },
   "fight_level": {
-    "ko_tko_pct": 15.15,
-    "submission_pct": 19.15,
-    "decision_pct": 59.85,
-    "goes_the_distance_pct": 65.7,
-    "expected_fight_minutes": 12.45
+    "ko_tko_pct": 29.56,
+    "submission_pct": 6.61,
+    "decision_pct": 63.83,
+    "goes_the_distance_pct": 63.83,
+    "expected_fight_minutes": 12.26
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 98,
-      "round_2": 139,
-      "round_3": 107
+      "round_1": 858,
+      "round_2": 935,
+      "round_3": 854
     },
     "fighter_b": {
-      "round_1": 116,
-      "round_2": 109,
-      "round_3": 117
+      "round_1": 364,
+      "round_2": 296,
+      "round_3": 310
     }
   },
   "value_betting": {
@@ -73,29 +74,27 @@
       "market_moneyline": -151,
       "market_decimal_odds": 1.662,
       "market_implied_prob_pct": 60.16,
-      "model_win_prob_pct": 51.41,
-      "edge_pct": -8.75,
-      "consensus_edge_pct": -4.77,
-      "kelly_fraction_full": -0.2197,
-      "kelly_fraction_half": 0.0,
-      "model_sees_value": false,
-      "consensus_agrees": false,
-      "value_bet": false
+      "model_win_prob_pct": 78.21,
+      "edge_pct": 18.05,
+      "consensus_edge_pct": 10.79,
+      "kelly_fraction_full": 0.4531,
+      "kelly_fraction_half": 0.2265,
+      "model_sees_value": true,
+      "consensus_agrees": true,
+      "value_bet": true
     },
     "fighter_b": {
       "market_moneyline": 130,
       "market_decimal_odds": 2.3,
       "market_implied_prob_pct": 43.48,
-      "model_win_prob_pct": 48.59,
-      "edge_pct": 5.11,
-      "consensus_edge_pct": 1.13,
-      "kelly_fraction_full": 0.0905,
-      "kelly_fraction_half": 0.0452,
-      "model_sees_value": true,
-      "consensus_agrees": true,
+      "model_win_prob_pct": 21.79,
+      "edge_pct": -21.69,
+      "consensus_edge_pct": -14.43,
+      "kelly_fraction_full": -0.3837,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
       "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+    }
   }
 }

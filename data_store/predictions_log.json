@@ -1494,7 +1494,7 @@
       "b": "Gregory Rodrigues",
       "p_a": 0.6707,
       "event": "UFC Fight Night: Hernandez vs. Rodrigues",
-      "logged": "2026-08-19T07:09:29+00:00",
+      "logged": "2026-08-19T13:12:22+00:00",
       "resolved": false,
       "actual_a": null,
       "brier": null,
@@ -2047,6 +2047,22 @@
       "p_sub": 0.0656,
       "p_dec": 0.6833,
       "p_distance": 0.6833
+    },
+    {
+      "label": "Roman Puga vs Taner Trembley",
+      "a": "Roman Puga",
+      "b": "Taner Trembley",
+      "p_a": 0.7821,
+      "event": "Dana White's Contender Series: Season 10, Week 2",
+      "logged": "2026-08-19T13:12:23+00:00",
+      "resolved": false,
+      "actual_a": null,
+      "brier": null,
+      "resolved_at": null,
+      "p_ko": 0.2956,
+      "p_sub": 0.0661,
+      "p_dec": 0.6383,
+      "p_distance": 0.6383
     }
   ]
 }
