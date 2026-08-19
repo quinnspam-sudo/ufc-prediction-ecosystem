@@ -525,9 +525,9 @@
             {
               "matchup": "Anthony Hernandez vs Gregory Rodrigues",
               "pick": "Anthony Hernandez",
-              "moneyline": -165,
-              "decimal_odds": 1.606,
-              "consensus_prob": 0.657,
+              "moneyline": -180,
+              "decimal_odds": 1.556,
+              "consensus_prob": 0.6633,
               "model_prob": 0.6707,
               "likely_method": "Submission",
               "likely_method_pct": 30.57,
@@ -547,9 +547,9 @@
             {
               "matchup": "Carli Judice vs Jeisla Chaves",
               "pick": "Carli Judice",
-              "moneyline": -550,
-              "decimal_odds": 1.182,
-              "consensus_prob": 0.8356,
+              "moneyline": -530,
+              "decimal_odds": 1.189,
+              "consensus_prob": 0.8351,
               "model_prob": 0.7631,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 73.94,
@@ -557,10 +557,10 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 48.28,
-          "combined_decimal_odds": 2.151,
-          "combined_american": 115,
-          "ev_per_unit": 0.0383,
+          "combined_prob_pct": 48.71,
+          "combined_decimal_odds": 2.096,
+          "combined_american": 110,
+          "ev_per_unit": 0.0211,
           "positive_ev": true
         },
         "5_leg": null
