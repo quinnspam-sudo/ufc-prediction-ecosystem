@@ -1,36 +1,6 @@
 {
   "changelog": [
     {
-      "detail": "Islam Makhachev: UFC 330 suffers blow as fighter withdraws weeks out from Islam Makhachev vs Ian Machado Garry card - talkSPORT",
-      "ts": "2026-08-10T17:00:50+00:00",
-      "type": "health_withdrawn"
-    },
-    {
-      "detail": "Mateusz Gamrot: Quillan Salkilld reveals he may have suffered knee injury in win over Mateusz Gamrot: \u2018I heard a little pop\u2019 - MMA Fight",
-      "ts": "2026-08-10T19:00:51+00:00",
-      "type": "health_injury"
-    },
-    {
-      "detail": "Daniel Rodriguez: \u2018They need to make a movie out of this, bro\u2019: Daniel Rodriguez grateful to get UFC Belgrade headline spot after 8 months",
-      "ts": "2026-08-10T19:19:21+00:00",
-      "type": "health_withdrawn"
-    },
-    {
-      "detail": "Abe Alsaghir vs Fabrizio Escarrega: consensus +112 / -134 (2 books)",
-      "ts": "2026-08-10T21:00:52+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Tom Pagliarulo vs Ananias Mulumba: consensus +9 / -143 (2 books)",
-      "ts": "2026-08-10T21:00:52+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Anthony Wint vs Matt Adams: consensus -875 / +520 (2 books)",
-      "ts": "2026-08-10T21:00:52+00:00",
-      "type": "odds_update"
-    },
-    {
       "detail": "Bilal Hasan vs Mridul Saikia: consensus -1900 / +790 (2 books)",
       "ts": "2026-08-10T21:00:52+00:00",
       "type": "odds_update"
@@ -2498,6 +2468,36 @@
     {
       "detail": "Anthony Hernandez vs Gregory Rodrigues: consensus -170 / +142 (7 books)",
       "ts": "2026-08-19T19:12:54+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Wes Schultz vs Jackson McVey: consensus +147 / -175 (7 books)",
+      "ts": "2026-08-20T01:53:45+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Kennedy Nzechukwu vs Shamil Gaziev: consensus +116 / -142 (7 books)",
+      "ts": "2026-08-20T01:53:45+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Elise Reed vs Shanelle Dyer: consensus +534 / -835 (7 books)",
+      "ts": "2026-08-20T01:53:45+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Carli Judice vs Jeisla Chaves: consensus -575 / +400 (7 books)",
+      "ts": "2026-08-20T01:53:45+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Roman Dolidze vs Reinier de Ridder: consensus +303 / -400 (7 books)",
+      "ts": "2026-08-20T01:53:45+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Anthony Hernandez vs Gregory Rodrigues: consensus -180 / +147 (7 books)",
+      "ts": "2026-08-20T01:53:45+00:00",
       "type": "odds_update"
     }
   ],
@@ -11098,9 +11098,9 @@
     },
     {
       "a": "elise-reed",
-      "a_ml": 525,
+      "a_ml": 534,
       "b": "shanelle-dyer",
-      "b_ml": -800,
+      "b_ml": -835,
       "event": "UFC Fight Night: Hernandez vs. Rodrigues",
       "label": "Elise Reed vs Shanelle Dyer",
       "rounds": 3,
@@ -11108,9 +11108,9 @@
     },
     {
       "a": "wes-schultz",
-      "a_ml": 150,
+      "a_ml": 147,
       "b": "jackson-mcvey",
-      "b_ml": -185,
+      "b_ml": -175,
       "event": "UFC Fight Night: Hernandez vs. Rodrigues",
       "label": "Wes Schultz vs Jackson McVey",
       "rounds": 3,
@@ -11128,9 +11128,9 @@
     },
     {
       "a": "kennedy-nzechukwu",
-      "a_ml": 115,
+      "a_ml": 116,
       "b": "shamil-gaziev",
-      "b_ml": -138,
+      "b_ml": -142,
       "event": "UFC Fight Night: Hernandez vs. Rodrigues",
       "label": "Kennedy Nzechukwu vs Shamil Gaziev",
       "rounds": 3,
@@ -11146,7 +11146,7 @@
     },
     {
       "a": "roman-dolidze",
-      "a_ml": 310,
+      "a_ml": 303,
       "b": "reinier-de-ridder",
       "b_ml": -400,
       "event": "UFC Fight Night: Hernandez vs. Rodrigues",
@@ -11156,9 +11156,9 @@
     },
     {
       "a": "anthony-hernandez",
-      "a_ml": -170,
+      "a_ml": -180,
       "b": "gregory-rodrigues",
-      "b_ml": 142,
+      "b_ml": 147,
       "event": "UFC Fight Night: Hernandez vs. Rodrigues",
       "label": "Anthony Hernandez vs Gregory Rodrigues",
       "rounds": 5,
@@ -11293,7 +11293,7 @@
     "calibration": {
       "shrink": 0.7
     },
-    "last_sync": "2026-08-19T19:13:09+00:00",
+    "last_sync": "2026-08-20T01:53:50+00:00",
     "news_last": {
       "abdul-hussein": "2026-08-17T19:00:02.547959+00:00",
       "abe-alsaghir": "2026-08-19T07:09:06.741809+00:00",
@@ -11330,13 +11330,13 @@
       "damien-anderson": "2026-08-16T18:48:55.454975+00:00",
       "daniel-rodriguez": "2026-08-19T01:54:45.128990+00:00",
       "darren-elkins": "2026-08-16T01:59:12.283554+00:00",
-      "dennis-buzukja": "2026-08-15T07:00:13.477722+00:00",
+      "dennis-buzukja": "2026-08-20T01:53:45.619504+00:00",
       "diego-ferreira": "2026-08-18T07:06:44.825054+00:00",
       "dione-barbosa": "2026-08-16T13:03:02.410913+00:00",
       "diyar-nurgozhay": "2026-08-18T07:06:44.825054+00:00",
       "donte-johnson": "2026-08-16T01:59:12.283554+00:00",
       "douglas-rodrigues": "2026-08-19T13:11:59.936346+00:00",
-      "du-ko-todorovi": "2026-08-15T07:00:13.477722+00:00",
+      "du-ko-todorovi": "2026-08-20T01:53:45.619504+00:00",
       "duplessis": "2026-08-16T13:03:02.410913+00:00",
       "dustin-jacoby": "2026-08-17T12:49:44.166729+00:00",
       "dustin-stoltzfus": "2026-08-18T07:06:44.825054+00:00",
@@ -11350,11 +11350,11 @@
       "felipe-franco": "2026-08-16T18:48:55.454975+00:00",
       "gauge-young": "2026-08-15T13:01:19.233058+00:00",
       "geoff-neal": "2026-08-18T07:06:44.825054+00:00",
-      "gilbert-urbina": "2026-08-15T07:00:13.477722+00:00",
+      "gilbert-urbina": "2026-08-20T01:53:45.619504+00:00",
       "gillian-robertson": "2026-08-18T13:10:57.289959+00:00",
       "gregory-rodrigues": "2026-08-15T13:01:19.233058+00:00",
       "guilherme-pat": "2026-08-18T13:10:57.289959+00:00",
-      "hailey-cowan": "2026-08-15T07:00:13.477722+00:00",
+      "hailey-cowan": "2026-08-20T01:53:45.619504+00:00",
       "henrique-da-silva-lopes": "2026-08-18T13:10:57.289959+00:00",
       "ian-machado-garry": "2026-08-18T13:10:57.289959+00:00",
       "islam-dulatov": "2026-08-17T12:49:44.166729+00:00",
@@ -11362,7 +11362,7 @@
       "ismael-bonfim": "2026-08-17T12:49:44.166729+00:00",
       "jackson-mcvey": "2026-08-15T13:01:19.233058+00:00",
       "jalin-turner": "2026-08-18T13:10:57.289959+00:00",
-      "jan-blachowicz": "2026-08-15T07:00:13.477722+00:00",
+      "jan-blachowicz": "2026-08-20T01:53:45.619504+00:00",
       "jared-cannonier": "2026-08-16T18:48:55.454975+00:00",
       "jean-paul-lebosnoyani": "2026-08-16T18:48:55.454975+00:00",
       "jeisla-chaves": "2026-08-15T18:49:27.171836+00:00",
@@ -11372,7 +11372,7 @@
       "jon-kunneman": "2026-08-19T13:11:59.936346+00:00",
       "jos-montanha": "2026-08-19T13:11:59.936346+00:00",
       "jose-miguel-delgado": "2026-08-17T01:57:00.011811+00:00",
-      "josias-musasa": "2026-08-15T07:00:13.477722+00:00",
+      "josias-musasa": "2026-08-20T01:53:45.619504+00:00",
       "jovan-leka": "2026-08-15T18:49:27.171836+00:00",
       "juliana-miller": "2026-08-16T01:59:12.283554+00:00",
       "kaik-brito": "2026-08-19T19:12:54.557426+00:00",
@@ -11432,7 +11432,7 @@
       "serghei-spivac": "2026-08-17T13:08:28.202230+00:00",
       "shamil-gaziev": "2026-08-17T19:00:02.547959+00:00",
       "shanelle-dyer": "2026-08-18T01:55:40.146405+00:00",
-      "stephanie-luciano": "2026-08-15T01:51:39.565353+00:00",
+      "stephanie-luciano": "2026-08-20T01:53:45.619504+00:00",
       "steve-erceg": "2026-08-15T07:00:13.477722+00:00",
       "steven-asplund": "2026-08-17T13:08:28.202230+00:00",
       "stewart-nicoll": "2026-08-15T07:00:13.477722+00:00",
@@ -11453,14 +11453,14 @@
       "valter-walker": "2026-08-16T18:48:55.454975+00:00",
       "vicente-luque": "2026-08-18T18:59:44.293426+00:00",
       "vitor-petrino": "2026-08-18T01:55:40.146405+00:00",
-      "vlasto-epo": "2026-08-15T01:51:39.565353+00:00",
+      "vlasto-epo": "2026-08-20T01:53:45.619504+00:00",
       "wellington-turman": "2026-08-19T07:09:06.741809+00:00",
       "wes-schultz": "2026-08-18T07:06:44.825054+00:00",
       "yadier-del-valle": "2026-08-19T01:54:45.128990+00:00"
     },
     "odds": {
-      "count": 85,
-      "last_call": "2026-08-19T19:12:54.554506+00:00",
+      "count": 86,
+      "last_call": "2026-08-20T01:53:45.617241+00:00",
       "month": "2026-08"
     },
     "ufcstats_last": {
