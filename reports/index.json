@@ -969,12 +969,13 @@
     },
     "Logan Paxton vs Cristian Perez": {
       "win_probability": {
-        "fighter_a_pct": 55.07,
-        "fighter_b_pct": 44.93,
-        "draw_pct": 5.4
+        "fighter_a_pct": 72.18,
+        "fighter_b_pct": 27.82,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
-        "fighter_a": false,
+        "fighter_a": true,
         "fighter_b": false
       },
       "report_file": "reports/logan-paxton-vs-cristian-perez.json"
@@ -1032,13 +1033,14 @@
     },
     "Kaik Brito vs Namo Fazil": {
       "win_probability": {
-        "fighter_a_pct": 23.01,
-        "fighter_b_pct": 76.99,
-        "draw_pct": 0.05
+        "fighter_a_pct": 30.65,
+        "fighter_b_pct": 69.35,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": false,
-        "fighter_b": false
+        "fighter_b": true
       },
       "report_file": "reports/kaik-brito-vs-namo-fazil.json"
     },

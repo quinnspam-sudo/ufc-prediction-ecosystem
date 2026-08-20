@@ -4,15 +4,15 @@
     "fighter_b": "Cristian Perez",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.514,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.493,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     },
     "fighter_b_flags": {
       "active_injury": false,
@@ -24,48 +24,49 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 55.07,
-    "fighter_b_pct": 44.93,
-    "draw_pct": 5.4
+    "fighter_a_pct": 72.18,
+    "fighter_b_pct": 27.82,
+    "draw_pct": 0.0,
+    "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
     "applied": false,
     "model_weight": 1.0,
-    "fighter_a_pct": 55.07,
-    "fighter_b_pct": 44.93,
+    "fighter_a_pct": 81.68,
+    "fighter_b_pct": 18.32,
     "market_devig_a_pct": null
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 12.2,
-      "Submission": 8.3,
-      "Unanimous Decision": 24.45,
-      "Split/Majority Decision": 7.15
+      "KO/TKO": 25.67,
+      "Submission": 2.86,
+      "Unanimous Decision": 53.15,
+      "Split/Majority Decision": 0.0
     },
     "fighter_b": {
-      "KO/TKO": 8.6,
-      "Submission": 15.8,
-      "Unanimous Decision": 11.75,
-      "Split/Majority Decision": 6.35
+      "KO/TKO": 7.23,
+      "Submission": 11.09,
+      "Unanimous Decision": 0.0,
+      "Split/Majority Decision": 0.0
     }
   },
   "fight_level": {
-    "ko_tko_pct": 20.8,
-    "submission_pct": 24.1,
-    "decision_pct": 49.7,
-    "goes_the_distance_pct": 55.1,
-    "expected_fight_minutes": 11.45
+    "ko_tko_pct": 32.9,
+    "submission_pct": 13.95,
+    "decision_pct": 53.15,
+    "goes_the_distance_pct": 53.15,
+    "expected_fight_minutes": 11.29
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 149,
-      "round_2": 151,
-      "round_3": 110
+      "round_1": 1050,
+      "round_2": 975,
+      "round_3": 828
     },
     "fighter_b": {
-      "round_1": 181,
-      "round_2": 161,
-      "round_3": 146
+      "round_1": 698,
+      "round_2": 604,
+      "round_3": 530
     }
   },
   "value_betting": {
@@ -73,29 +74,27 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 55.07,
-      "edge_pct": 2.69,
-      "consensus_edge_pct": 2.69,
-      "kelly_fraction_full": 0.0566,
-      "kelly_fraction_half": 0.0283,
+      "model_win_prob_pct": 72.18,
+      "edge_pct": 19.8,
+      "consensus_edge_pct": 29.3,
+      "kelly_fraction_full": 0.4157,
+      "kelly_fraction_half": 0.2078,
       "model_sees_value": true,
       "consensus_agrees": true,
-      "value_bet": false
+      "value_bet": true
     },
     "fighter_b": {
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 44.93,
-      "edge_pct": -7.45,
-      "consensus_edge_pct": -7.45,
-      "kelly_fraction_full": -0.1566,
+      "model_win_prob_pct": 27.82,
+      "edge_pct": -24.56,
+      "consensus_edge_pct": -34.06,
+      "kelly_fraction_full": -0.5157,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
       "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+    }
   }
 }

@@ -4,8 +4,8 @@
     "fighter_b": "Namo Fazil",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.538,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.511,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -19,53 +19,54 @@
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 23.01,
-    "fighter_b_pct": 76.99,
-    "draw_pct": 0.05
+    "fighter_a_pct": 30.65,
+    "fighter_b_pct": 69.35,
+    "draw_pct": 0.0,
+    "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
     "applied": true,
     "model_weight": 0.4,
-    "fighter_a_pct": 31.72,
-    "fighter_b_pct": 68.28,
+    "fighter_a_pct": 31.46,
+    "fighter_b_pct": 68.54,
     "market_devig_a_pct": 37.52
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 9.1,
-      "Submission": 13.9,
+      "KO/TKO": 9.08,
+      "Submission": 13.28,
       "Unanimous Decision": 0.0,
       "Split/Majority Decision": 0.0
     },
     "fighter_b": {
-      "KO/TKO": 11.2,
-      "Submission": 9.95,
-      "Unanimous Decision": 55.8,
+      "KO/TKO": 19.89,
+      "Submission": 2.41,
+      "Unanimous Decision": 55.34,
       "Split/Majority Decision": 0.0
     }
   },
   "fight_level": {
-    "ko_tko_pct": 20.3,
-    "submission_pct": 23.85,
-    "decision_pct": 55.8,
-    "goes_the_distance_pct": 55.85,
-    "expected_fight_minutes": 11.59
+    "ko_tko_pct": 28.97,
+    "submission_pct": 15.69,
+    "decision_pct": 55.34,
+    "goes_the_distance_pct": 55.34,
+    "expected_fight_minutes": 11.44
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 146,
-      "round_2": 175,
-      "round_3": 139
+      "round_1": 829,
+      "round_2": 737,
+      "round_3": 670
     },
     "fighter_b": {
-      "round_1": 163,
-      "round_2": 131,
-      "round_3": 129
+      "round_1": 920,
+      "round_2": 653,
+      "round_3": 657
     }
   },
   "value_betting": {
@@ -73,10 +74,10 @@
       "market_moneyline": 157,
       "market_decimal_odds": 2.57,
       "market_implied_prob_pct": 38.91,
-      "model_win_prob_pct": 23.01,
-      "edge_pct": -15.9,
-      "consensus_edge_pct": -7.19,
-      "kelly_fraction_full": -0.2603,
+      "model_win_prob_pct": 30.65,
+      "edge_pct": -8.26,
+      "consensus_edge_pct": -7.45,
+      "kelly_fraction_full": -0.1352,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
@@ -86,16 +87,14 @@
       "market_moneyline": -184,
       "market_decimal_odds": 1.543,
       "market_implied_prob_pct": 64.79,
-      "model_win_prob_pct": 76.99,
-      "edge_pct": 12.2,
-      "consensus_edge_pct": 3.49,
-      "kelly_fraction_full": 0.3465,
-      "kelly_fraction_half": 0.1732,
+      "model_win_prob_pct": 69.35,
+      "edge_pct": 4.56,
+      "consensus_edge_pct": 3.75,
+      "kelly_fraction_full": 0.1295,
+      "kelly_fraction_half": 0.0647,
       "model_sees_value": true,
       "consensus_agrees": true,
-      "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+      "value_bet": true
+    }
   }
 }

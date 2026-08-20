@@ -527,7 +527,7 @@
               "pick": "Anthony Hernandez",
               "moneyline": -180,
               "decimal_odds": 1.556,
-              "consensus_prob": 0.6657,
+              "consensus_prob": 0.6674,
               "model_prob": 0.6707,
               "likely_method": "Submission",
               "likely_method_pct": 30.57,
@@ -557,10 +557,10 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 49.07,
+          "combined_prob_pct": 49.2,
           "combined_decimal_odds": 2.046,
           "combined_american": 105,
-          "ev_per_unit": 0.0039,
+          "ev_per_unit": 0.0065,
           "positive_ev": true
         },
         "5_leg": null
@@ -620,12 +620,54 @@
     },
     "Dana White's Contender Series: Season 10, Week 2": {
       "card_type": "fight_night",
-      "eligible_legs": 2,
+      "eligible_legs": 3,
       "parlays": {
-        "3_leg": null,
+        "3_leg": {
+          "legs": [
+            {
+              "matchup": "Roman Puga vs Taner Trembley",
+              "pick": "Roman Puga",
+              "moneyline": -151,
+              "decimal_odds": 1.662,
+              "consensus_prob": 0.7095,
+              "model_prob": 0.7821,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 63.83,
+              "modal_finish_round": "round_2"
+            },
+            {
+              "matchup": "Kaik Brito vs Namo Fazil",
+              "pick": "Namo Fazil",
+              "moneyline": -184,
+              "decimal_odds": 1.543,
+              "consensus_prob": 0.6854,
+              "model_prob": 0.6935,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 55.34,
+              "modal_finish_round": "round_1"
+            },
+            {
+              "matchup": "Alik Lorenz vs Mahamed Aly",
+              "pick": "Mahamed Aly",
+              "moneyline": -320,
+              "decimal_odds": 1.312,
+              "consensus_prob": 0.7848,
+              "model_prob": 0.7539,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 43.73,
+              "modal_finish_round": "round_1"
+            }
+          ],
+          "leg_count": 3,
+          "combined_prob_pct": 38.16,
+          "combined_decimal_odds": 3.365,
+          "combined_american": 236,
+          "ev_per_unit": 0.2841,
+          "positive_ev": true
+        },
         "5_leg": null
       },
-      "note": "Only 2 eligible legs; 3_leg, 5_leg not buildable."
+      "note": "Only 3 eligible legs; 5_leg not buildable."
     }
   },
   "min_leg_consensus_prob": 0.6

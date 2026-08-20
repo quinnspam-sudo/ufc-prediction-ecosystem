@@ -1494,7 +1494,7 @@
       "b": "Gregory Rodrigues",
       "p_a": 0.6707,
       "event": "UFC Fight Night: Hernandez vs. Rodrigues",
-      "logged": "2026-08-20T01:53:50+00:00",
+      "logged": "2026-08-20T07:09:47+00:00",
       "resolved": false,
       "actual_a": null,
       "brier": null,
@@ -1526,7 +1526,7 @@
       "b": "Reinier de Ridder",
       "p_a": 0.2834,
       "event": "UFC Fight Night: Hernandez vs. Rodrigues",
-      "logged": "2026-08-20T01:53:49+00:00",
+      "logged": "2026-08-20T07:09:46+00:00",
       "resolved": false,
       "actual_a": null,
       "brier": null,
@@ -1780,17 +1780,17 @@
       "label": "Kaik Brito vs Namo Fazil",
       "a": "Kaik Brito",
       "b": "Namo Fazil",
-      "p_a": 0.2301,
+      "p_a": 0.3065,
       "event": "Dana White's Contender Series: Season 10, Week 2",
-      "logged": "2026-08-18T19:00:01+00:00",
+      "logged": "2026-08-20T07:09:47+00:00",
       "resolved": false,
       "actual_a": null,
       "brier": null,
       "resolved_at": null,
-      "p_ko": 0.203,
-      "p_sub": 0.2385,
-      "p_dec": 0.558,
-      "p_distance": 0.5585
+      "p_ko": 0.2897,
+      "p_sub": 0.1569,
+      "p_dec": 0.5534,
+      "p_distance": 0.5534
     },
     {
       "label": "Miles Johns vs Jessie Rosas",
@@ -2063,6 +2063,22 @@
       "p_sub": 0.0661,
       "p_dec": 0.6383,
       "p_distance": 0.6383
+    },
+    {
+      "label": "Logan Paxton vs Cristian Perez",
+      "a": "Logan Paxton",
+      "b": "Cristian Perez",
+      "p_a": 0.7218,
+      "event": "Dana White's Contender Series: Season 10, Week 2",
+      "logged": "2026-08-20T07:09:47+00:00",
+      "resolved": false,
+      "actual_a": null,
+      "brier": null,
+      "resolved_at": null,
+      "p_ko": 0.329,
+      "p_sub": 0.1395,
+      "p_dec": 0.5315,
+      "p_distance": 0.5315
     }
   ]
 }
