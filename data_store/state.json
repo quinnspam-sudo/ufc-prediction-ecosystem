@@ -1,41 +1,6 @@
 {
   "changelog": [
     {
-      "detail": "Eric McConico vs Donte Johnson: consensus +184 / -222 (6 books)",
-      "ts": "2026-08-11T13:00:46+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Dustin Stoltzfus vs Mansur Abdul-Malik: consensus +450 / -625 (5 books)",
-      "ts": "2026-08-11T13:00:46+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Edson Barboza vs Esteban Ribovics: consensus +397 / -532 (6 books)",
-      "ts": "2026-08-11T13:00:46+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Jalin Turner vs Kau\u00ea Fernandes: consensus -165 / +136 (5 books)",
-      "ts": "2026-08-11T13:00:46+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Jeremiah Wells vs Myktybek Orolbai: consensus +600 / -900 (6 books)",
-      "ts": "2026-08-11T13:00:46+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Neil Magny vs Ramiz Brahimaj: consensus +103 / -125 (6 books)",
-      "ts": "2026-08-11T13:00:46+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Vicente Luque vs Tresean Gore: consensus +115 / -135 (6 books)",
-      "ts": "2026-08-11T13:00:46+00:00",
-      "type": "odds_update"
-    },
-    {
       "detail": "Mackenzie Dern vs Gillian Robertson: consensus -227 / +185 (6 books)",
       "ts": "2026-08-11T13:00:46+00:00",
       "type": "odds_update"
@@ -2499,6 +2464,41 @@
       "detail": "Anthony Hernandez vs Gregory Rodrigues: consensus -190 / +158 (7 books)",
       "ts": "2026-08-21T13:13:03+00:00",
       "type": "odds_update"
+    },
+    {
+      "detail": "Elise Reed vs Shanelle Dyer: consensus +575 / -850 (7 books)",
+      "ts": "2026-08-21T18:58:52+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Wes Schultz vs Jackson McVey: consensus +149 / -180 (7 books)",
+      "ts": "2026-08-21T18:58:52+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Kennedy Nzechukwu vs Shamil Gaziev: consensus +115 / -138 (7 books)",
+      "ts": "2026-08-21T18:58:52+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Carli Judice vs Jeisla Chaves: consensus -590 / +425 (7 books)",
+      "ts": "2026-08-21T18:58:52+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Roman Dolidze vs Reinier de Ridder: consensus +309 / -400 (7 books)",
+      "ts": "2026-08-21T18:58:52+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Anthony Hernandez vs Gregory Rodrigues: consensus -190 / +163 (7 books)",
+      "ts": "2026-08-21T18:58:52+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Reinier de Ridder: Five weight cuts in one year broke UFC Sacramento\u2019s Reinier de Ridder \u2014 \u2018Took all the fun out of fighting\u2019 - Yahoo Sport",
+      "ts": "2026-08-21T18:58:54+00:00",
+      "type": "health_withdrawn"
     }
   ],
   "fighters": {
@@ -8585,8 +8585,9 @@
       "withdrawn": false
     },
     "reinier-de-ridder": {
-      "_updated": "2026-08-01T03:01:24+00:00",
-      "active_injury": false,
+      "_injury_from_news": true,
+      "_updated": "2026-08-21T18:58:54+00:00",
+      "active_injury": true,
       "age": 30,
       "career_fights": 12,
       "career_knockdowns_suffered": 2,
@@ -8601,7 +8602,7 @@
       "fight_location_country": "USA",
       "height_in": 70.0,
       "home_country": "USA",
-      "injury_note": "",
+      "injury_note": "Five weight cuts in one year broke UFC Sacramento\u2019s Reinier de Ridder \u2014 \u2018Took all the fun out of fighting\u2019 - Yahoo Sports",
       "last_fight_date": "2025-06-01",
       "missed_weight": false,
       "name": "Reinier de Ridder",
@@ -8632,7 +8633,7 @@
       "trains_at_altitude": false,
       "venue_elevation_ft": 0.0,
       "weight_class": "Light Heavyweight",
-      "withdrawn": false
+      "withdrawn": true
     },
     "richie-miranda": {
       "_updated": "2026-08-10T13:01:09+00:00",
@@ -11118,9 +11119,9 @@
     },
     {
       "a": "carli-judice",
-      "a_ml": -600,
+      "a_ml": -590,
       "b": "jeisla-chaves",
-      "b_ml": 440,
+      "b_ml": 425,
       "event": "UFC Fight Night: Hernandez vs. Rodrigues",
       "label": "Carli Judice vs Jeisla Chaves",
       "rounds": 3,
@@ -11128,9 +11129,9 @@
     },
     {
       "a": "kennedy-nzechukwu",
-      "a_ml": 114,
+      "a_ml": 115,
       "b": "shamil-gaziev",
-      "b_ml": -135,
+      "b_ml": -138,
       "event": "UFC Fight Night: Hernandez vs. Rodrigues",
       "label": "Kennedy Nzechukwu vs Shamil Gaziev",
       "rounds": 3,
@@ -11158,7 +11159,7 @@
       "a": "anthony-hernandez",
       "a_ml": -190,
       "b": "gregory-rodrigues",
-      "b_ml": 158,
+      "b_ml": 163,
       "event": "UFC Fight Night: Hernandez vs. Rodrigues",
       "label": "Anthony Hernandez vs Gregory Rodrigues",
       "rounds": 5,
@@ -11293,7 +11294,7 @@
     "calibration": {
       "shrink": 0.7
     },
-    "last_sync": "2026-08-21T13:13:06+00:00",
+    "last_sync": "2026-08-21T18:59:05+00:00",
     "news_last": {
       "abdul-hussein": "2026-08-17T19:00:02.547959+00:00",
       "abe-alsaghir": "2026-08-19T07:09:06.741809+00:00",
@@ -11301,7 +11302,7 @@
       "alberto-montes": "2026-08-17T19:00:02.547959+00:00",
       "alden-coria": "2026-08-17T19:00:02.547959+00:00",
       "aleksandar-rakic": "2026-08-19T01:54:45.128990+00:00",
-      "alexander-poppeck": "2026-08-17T01:57:00.011811+00:00",
+      "alexander-poppeck": "2026-08-21T18:58:52.679975+00:00",
       "alexia-thainara": "2026-08-18T01:55:40.146405+00:00",
       "alik-lorenz": "2026-08-19T07:09:06.741809+00:00",
       "alvin-hines": "2026-08-17T19:00:02.547959+00:00",
@@ -11317,7 +11318,7 @@
       "billy-ray-goff": "2026-08-20T19:02:14.407806+00:00",
       "bogdan-grad": "2026-08-19T01:54:45.128990+00:00",
       "bogdan-guskov": "2026-08-17T07:18:05.135300+00:00",
-      "borislav-nikolic": "2026-08-17T01:57:00.011811+00:00",
+      "borislav-nikolic": "2026-08-21T18:58:52.679975+00:00",
       "brendson-ribeiro": "2026-08-17T07:18:05.135300+00:00",
       "bruno-lopes": "2026-08-18T01:55:40.146405+00:00",
       "carli-judice": "2026-08-20T07:09:23.565065+00:00",
@@ -11371,7 +11372,7 @@
       "joe-kropschot": "2026-08-19T13:11:59.936346+00:00",
       "jon-kunneman": "2026-08-19T13:11:59.936346+00:00",
       "jos-montanha": "2026-08-19T13:11:59.936346+00:00",
-      "jose-miguel-delgado": "2026-08-17T01:57:00.011811+00:00",
+      "jose-miguel-delgado": "2026-08-21T18:58:52.679975+00:00",
       "josias-musasa": "2026-08-20T01:53:45.619504+00:00",
       "jovan-leka": "2026-08-20T13:13:47.400025+00:00",
       "juliana-miller": "2026-08-20T19:02:14.407806+00:00",
@@ -11380,7 +11381,7 @@
       "kennedy-nzechukwu": "2026-08-20T13:13:47.400025+00:00",
       "kody-steele": "2026-08-20T13:13:47.400025+00:00",
       "kyle-prepolec": "2026-08-21T01:59:53.818644+00:00",
-      "levi-rodrigues-jr": "2026-08-17T01:57:00.011811+00:00",
+      "levi-rodrigues-jr": "2026-08-21T18:58:52.679975+00:00",
       "logan-paxton": "2026-08-19T19:12:54.557426+00:00",
       "louie-sutherland": "2026-08-18T18:59:44.293426+00:00",
       "ludovit-klein": "2026-08-21T01:59:53.818644+00:00",
@@ -11392,7 +11393,7 @@
       "manoel-sousa": "2026-08-19T19:12:54.557426+00:00",
       "mansur-abdul-malik": "2026-08-18T18:59:44.293426+00:00",
       "marcin-tybura": "2026-08-21T01:59:53.818644+00:00",
-      "marina-spasi": "2026-08-17T01:57:00.011811+00:00",
+      "marina-spasi": "2026-08-21T18:58:52.679975+00:00",
       "mark-vologdin": "2026-08-21T01:59:53.818644+00:00",
       "mateusz-gamrot": "2026-08-18T18:59:44.293426+00:00",
       "mateusz-r-becki": "2026-08-21T01:59:53.818644+00:00",
@@ -11401,7 +11402,7 @@
       "michael-oliveira": "2026-08-21T07:09:45.435898+00:00",
       "mike-davis": "2026-08-17T13:08:28.202230+00:00",
       "miles-johns": "2026-08-19T19:12:54.557426+00:00",
-      "milos-janicic": "2026-08-17T01:57:00.011811+00:00",
+      "milos-janicic": "2026-08-21T18:58:52.679975+00:00",
       "mitch-ramirez": "2026-08-17T07:18:05.135300+00:00",
       "mridul-saikia": "2026-08-20T13:13:47.400025+00:00",
       "muhammad-said": "2026-08-17T12:49:44.166729+00:00",
@@ -11418,7 +11419,7 @@
       "ramazan-temirov": "2026-08-17T19:00:02.547959+00:00",
       "ramiz-brahimaj": "2026-08-21T07:09:45.435898+00:00",
       "ravena-oliveira": "2026-08-21T13:13:03.967536+00:00",
-      "reinier-de-ridder": "2026-08-16T18:48:55.454975+00:00",
+      "reinier-de-ridder": "2026-08-21T18:58:52.679975+00:00",
       "richie-miranda": "2026-08-17T01:57:00.011811+00:00",
       "rizvan-kuniev": "2026-08-18T01:55:40.146405+00:00",
       "rj-harris": "2026-08-18T13:10:57.289959+00:00",
@@ -11450,7 +11451,7 @@
       "uran-satybaldiev": "2026-08-21T13:13:03.967536+00:00",
       "uro-medi": "2026-08-19T19:12:54.557426+00:00",
       "usman": "2026-08-21T07:09:45.435898+00:00",
-      "valter-walker": "2026-08-16T18:48:55.454975+00:00",
+      "valter-walker": "2026-08-21T18:58:52.679975+00:00",
       "vicente-luque": "2026-08-18T18:59:44.293426+00:00",
       "vitor-petrino": "2026-08-18T01:55:40.146405+00:00",
       "vlasto-epo": "2026-08-20T01:53:45.619504+00:00",
@@ -11459,8 +11460,8 @@
       "yadier-del-valle": "2026-08-19T01:54:45.128990+00:00"
     },
     "odds": {
-      "count": 92,
-      "last_call": "2026-08-21T13:13:03.965377+00:00",
+      "count": 93,
+      "last_call": "2026-08-21T18:58:52.677754+00:00",
       "month": "2026-08"
     },
     "ufcstats_last": {
@@ -11539,12 +11540,12 @@
       "joe-kropschot": "2026-08-15T13:01:20.988980+00:00",
       "jon-kunneman": "2026-08-15T13:01:20.988980+00:00",
       "jos-montanha": "2026-08-21T07:09:47.330695+00:00",
-      "jose-miguel-delgado": "2026-08-20T13:13:49.485481+00:00",
+      "jose-miguel-delgado": "2026-08-21T18:58:54.544311+00:00",
       "josias-musasa": "2026-07-27T09:00:48.864437+00:00",
       "jovan-leka": "2026-07-27T05:00:50.055887+00:00",
       "juliana-miller": "2026-07-30T01:00:51.274192+00:00",
       "kaik-brito": "2026-08-02T03:56:07.528077+00:00",
-      "kau-fernandes": "2026-08-20T13:13:49.485481+00:00",
+      "kau-fernandes": "2026-08-21T18:58:54.544311+00:00",
       "kennedy-nzechukwu": "2026-08-01T03:00:56.954564+00:00",
       "kody-steele": "2026-08-01T01:00:56.539022+00:00",
       "kyle-prepolec": "2026-07-27T05:00:50.055887+00:00",
@@ -11581,7 +11582,7 @@
       "noah-gugnon": "2026-08-02T13:00:46.955267+00:00",
       "nurullo-aliev": "2026-07-20T05:00:53.211847+00:00",
       "oban-elliott": "2026-07-27T11:00:55.584805+00:00",
-      "opponent-tba": "2026-08-20T13:13:49.485481+00:00",
+      "opponent-tba": "2026-08-21T18:58:54.544311+00:00",
       "quillan-salkilld": "2026-07-28T03:00:47.803012+00:00",
       "ramazan-temirov": "2026-07-20T09:00:53.524154+00:00",
       "ramiz-brahimaj": "2026-07-28T03:00:47.803012+00:00",
@@ -11596,7 +11597,7 @@
       "sam-patterson": "2026-07-20T09:00:53.524154+00:00",
       "santiago-ponzinibbio": "2026-07-20T09:00:53.524154+00:00",
       "saygid-izagakhmaev": "2026-07-20T09:00:53.524154+00:00",
-      "seokhyeon-ko": "2026-08-20T13:13:49.485481+00:00",
+      "seokhyeon-ko": "2026-08-21T18:58:54.544311+00:00",
       "serghei-spivac": "2026-08-01T03:53:28.493679+00:00",
       "shamil-gaziev": "2026-08-01T03:53:28.493679+00:00",
       "shanelle-dyer": "2026-08-01T01:00:56.539022+00:00",
