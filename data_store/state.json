@@ -1,36 +1,6 @@
 {
   "changelog": [
     {
-      "detail": "Eric McConico vs Donte Johnson: consensus +185 / -227 (6 books)",
-      "ts": "2026-08-11T07:00:51+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Dustin Stoltzfus vs Mansur Abdul-Malik: consensus +425 / -575 (5 books)",
-      "ts": "2026-08-11T07:00:51+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Edson Barboza vs Esteban Ribovics: consensus +392 / -527 (6 books)",
-      "ts": "2026-08-11T07:00:51+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Jalin Turner vs Kau\u00ea Fernandes: consensus -168 / +140 (5 books)",
-      "ts": "2026-08-11T07:00:51+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Jeremiah Wells vs Myktybek Orolbai: consensus +587 / -900 (6 books)",
-      "ts": "2026-08-11T07:00:51+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Neil Magny vs Ramiz Brahimaj: consensus +103 / -125 (6 books)",
-      "ts": "2026-08-11T07:00:51+00:00",
-      "type": "odds_update"
-    },
-    {
       "detail": "Vicente Luque vs Tresean Gore: consensus +116 / -136 (6 books)",
       "ts": "2026-08-11T07:00:51+00:00",
       "type": "odds_update"
@@ -2499,6 +2469,36 @@
       "detail": "Quillan Salkilld: Quillan Salkilld May Have Injured Himself in UFC Vegas 120 Win - Yahoo Sports",
       "ts": "2026-08-21T01:59:56+00:00",
       "type": "health_injury"
+    },
+    {
+      "detail": "Wes Schultz vs Jackson McVey: consensus +147 / -175 (7 books)",
+      "ts": "2026-08-21T07:09:45+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Kennedy Nzechukwu vs Shamil Gaziev: consensus +114 / -135 (7 books)",
+      "ts": "2026-08-21T07:09:45+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Elise Reed vs Shanelle Dyer: consensus +575 / -850 (7 books)",
+      "ts": "2026-08-21T07:09:45+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Carli Judice vs Jeisla Chaves: consensus -600 / +440 (7 books)",
+      "ts": "2026-08-21T07:09:45+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Roman Dolidze vs Reinier de Ridder: consensus +309 / -400 (7 books)",
+      "ts": "2026-08-21T07:09:45+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Anthony Hernandez vs Gregory Rodrigues: consensus -190 / +158 (7 books)",
+      "ts": "2026-08-21T07:09:45+00:00",
+      "type": "odds_update"
     }
   ],
   "fighters": {
@@ -11098,7 +11098,7 @@
     },
     {
       "a": "elise-reed",
-      "a_ml": 570,
+      "a_ml": 575,
       "b": "shanelle-dyer",
       "b_ml": -850,
       "event": "UFC Fight Night: Hernandez vs. Rodrigues",
@@ -11293,7 +11293,7 @@
     "calibration": {
       "shrink": 0.7
     },
-    "last_sync": "2026-08-21T02:00:09+00:00",
+    "last_sync": "2026-08-21T07:10:01+00:00",
     "news_last": {
       "abdul-hussein": "2026-08-17T19:00:02.547959+00:00",
       "abe-alsaghir": "2026-08-19T07:09:06.741809+00:00",
@@ -11321,9 +11321,9 @@
       "brendson-ribeiro": "2026-08-17T07:18:05.135300+00:00",
       "bruno-lopes": "2026-08-18T01:55:40.146405+00:00",
       "carli-judice": "2026-08-20T07:09:23.565065+00:00",
-      "chase-hooper": "2026-08-16T13:03:02.410913+00:00",
+      "chase-hooper": "2026-08-21T07:09:45.435898+00:00",
       "chidi-njokuani": "2026-08-18T01:55:40.146405+00:00",
-      "christian-leroy-duncan": "2026-08-16T13:03:02.410913+00:00",
+      "christian-leroy-duncan": "2026-08-21T07:09:45.435898+00:00",
       "cody-gibson": "2026-08-19T01:54:45.128990+00:00",
       "cristian-perez": "2026-08-19T07:09:06.741809+00:00",
       "damian-rzepecki": "2026-08-17T07:18:05.135300+00:00",
@@ -11332,12 +11332,12 @@
       "darren-elkins": "2026-08-20T19:02:14.407806+00:00",
       "dennis-buzukja": "2026-08-20T01:53:45.619504+00:00",
       "diego-ferreira": "2026-08-18T07:06:44.825054+00:00",
-      "dione-barbosa": "2026-08-16T13:03:02.410913+00:00",
+      "dione-barbosa": "2026-08-21T07:09:45.435898+00:00",
       "diyar-nurgozhay": "2026-08-18T07:06:44.825054+00:00",
       "donte-johnson": "2026-08-20T19:02:14.407806+00:00",
       "douglas-rodrigues": "2026-08-19T13:11:59.936346+00:00",
       "du-ko-todorovi": "2026-08-20T01:53:45.619504+00:00",
-      "duplessis": "2026-08-16T13:03:02.410913+00:00",
+      "duplessis": "2026-08-21T07:09:45.435898+00:00",
       "dustin-jacoby": "2026-08-17T12:49:44.166729+00:00",
       "dustin-stoltzfus": "2026-08-18T07:06:44.825054+00:00",
       "edson-barboza": "2026-08-18T07:06:44.825054+00:00",
@@ -11346,7 +11346,7 @@
       "esteban-ribovics": "2026-08-18T07:06:44.825054+00:00",
       "ezra-elliott": "2026-08-16T18:48:55.454975+00:00",
       "fabrizio-escarrega": "2026-08-19T13:11:59.936346+00:00",
-      "fatima-kline": "2026-08-16T13:03:02.410913+00:00",
+      "fatima-kline": "2026-08-21T07:09:45.435898+00:00",
       "felipe-franco": "2026-08-16T18:48:55.454975+00:00",
       "gauge-young": "2026-08-20T07:09:23.565065+00:00",
       "geoff-neal": "2026-08-18T07:06:44.825054+00:00",
@@ -11398,7 +11398,7 @@
       "mateusz-r-becki": "2026-08-21T01:59:53.818644+00:00",
       "matt-adams": "2026-08-19T19:12:54.557426+00:00",
       "max-gimenis": "2026-08-21T01:59:53.818644+00:00",
-      "michael-oliveira": "2026-08-16T13:03:02.410913+00:00",
+      "michael-oliveira": "2026-08-21T07:09:45.435898+00:00",
       "mike-davis": "2026-08-17T13:08:28.202230+00:00",
       "miles-johns": "2026-08-19T19:12:54.557426+00:00",
       "milos-janicic": "2026-08-17T01:57:00.011811+00:00",
@@ -11416,7 +11416,7 @@
       "opponent-tba": "2026-08-20T19:02:14.407806+00:00",
       "quillan-salkilld": "2026-08-21T01:59:53.818644+00:00",
       "ramazan-temirov": "2026-08-17T19:00:02.547959+00:00",
-      "ramiz-brahimaj": "2026-08-16T07:01:43.078674+00:00",
+      "ramiz-brahimaj": "2026-08-21T07:09:45.435898+00:00",
       "ravena-oliveira": "2026-08-16T13:03:02.410913+00:00",
       "reinier-de-ridder": "2026-08-16T18:48:55.454975+00:00",
       "richie-miranda": "2026-08-17T01:57:00.011811+00:00",
@@ -11449,7 +11449,7 @@
       "tyrell-fortune": "2026-08-21T01:59:53.818644+00:00",
       "uran-satybaldiev": "2026-08-16T13:03:02.410913+00:00",
       "uro-medi": "2026-08-19T19:12:54.557426+00:00",
-      "usman": "2026-08-16T07:01:43.078674+00:00",
+      "usman": "2026-08-21T07:09:45.435898+00:00",
       "valter-walker": "2026-08-16T18:48:55.454975+00:00",
       "vicente-luque": "2026-08-18T18:59:44.293426+00:00",
       "vitor-petrino": "2026-08-18T01:55:40.146405+00:00",
@@ -11459,8 +11459,8 @@
       "yadier-del-valle": "2026-08-19T01:54:45.128990+00:00"
     },
     "odds": {
-      "count": 90,
-      "last_call": "2026-08-21T01:59:53.816754+00:00",
+      "count": 91,
+      "last_call": "2026-08-21T07:09:45.433951+00:00",
       "month": "2026-08"
     },
     "ufcstats_last": {
@@ -11504,7 +11504,7 @@
       "dione-barbosa": "2026-07-15T23:01:08.574882+00:00",
       "diyar-nurgozhay": "2026-07-27T22:16:59.977367+00:00",
       "donte-johnson": "2026-07-30T03:00:51.151273+00:00",
-      "douglas-rodrigues": "2026-08-20T07:09:25.873302+00:00",
+      "douglas-rodrigues": "2026-08-21T07:09:47.330695+00:00",
       "du-ko-todorovi": "2026-07-27T07:01:02.840969+00:00",
       "dustin-jacoby": "2026-07-20T07:00:58.503645+00:00",
       "dustin-stoltzfus": "2026-07-27T22:16:59.977367+00:00",
@@ -11523,7 +11523,7 @@
       "gregory-rodrigues": "2026-08-01T03:00:56.954564+00:00",
       "guilherme-pat": "2026-07-27T21:00:49.625123+00:00",
       "hailey-cowan": "2026-07-27T05:00:50.055887+00:00",
-      "henrique-da-silva-lopes": "2026-08-20T07:09:25.873302+00:00",
+      "henrique-da-silva-lopes": "2026-08-21T07:09:47.330695+00:00",
       "ian-machado-garry": "2026-07-27T23:00:48.289679+00:00",
       "islam-dulatov": "2026-07-20T07:00:58.503645+00:00",
       "islam-makhachev": "2026-07-27T23:00:48.289679+00:00",
@@ -11535,10 +11535,10 @@
       "jean-paul-lebosnoyani": "2026-07-15T23:01:08.574882+00:00",
       "jeisla-chaves": "2026-08-01T03:00:56.954564+00:00",
       "jeremiah-wells": "2026-07-28T01:01:04.151800+00:00",
-      "jessie-rosas": "2026-08-20T07:09:25.873302+00:00",
+      "jessie-rosas": "2026-08-21T07:09:47.330695+00:00",
       "joe-kropschot": "2026-08-15T13:01:20.988980+00:00",
       "jon-kunneman": "2026-08-15T13:01:20.988980+00:00",
-      "jos-montanha": "2026-08-20T07:09:25.873302+00:00",
+      "jos-montanha": "2026-08-21T07:09:47.330695+00:00",
       "jose-miguel-delgado": "2026-08-20T13:13:49.485481+00:00",
       "josias-musasa": "2026-07-27T09:00:48.864437+00:00",
       "jovan-leka": "2026-07-27T05:00:50.055887+00:00",
