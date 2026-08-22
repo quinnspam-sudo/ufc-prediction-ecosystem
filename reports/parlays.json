@@ -525,9 +525,9 @@
             {
               "matchup": "Kennedy Nzechukwu vs Shamil Gaziev",
               "pick": "Kennedy Nzechukwu",
-              "moneyline": 106,
-              "decimal_odds": 2.06,
-              "consensus_prob": 0.6082,
+              "moneyline": 105,
+              "decimal_odds": 2.05,
+              "consensus_prob": 0.6095,
               "model_prob": 0.7248,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 52.67,
@@ -538,7 +538,7 @@
               "pick": "Anthony Hernandez",
               "moneyline": -215,
               "decimal_odds": 1.465,
-              "consensus_prob": 0.688,
+              "consensus_prob": 0.6885,
               "model_prob": 0.6707,
               "likely_method": "Submission",
               "likely_method_pct": 30.57,
@@ -547,9 +547,9 @@
             {
               "matchup": "Elise Reed vs Shanelle Dyer",
               "pick": "Shanelle Dyer",
-              "moneyline": -900,
-              "decimal_odds": 1.111,
-              "consensus_prob": 0.8893,
+              "moneyline": -860,
+              "decimal_odds": 1.116,
+              "consensus_prob": 0.8879,
               "model_prob": 0.8001,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 79.83,
@@ -557,10 +557,10 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 37.21,
-          "combined_decimal_odds": 3.353,
+          "combined_prob_pct": 37.26,
+          "combined_decimal_odds": 3.352,
           "combined_american": 235,
-          "ev_per_unit": 0.2477,
+          "ev_per_unit": 0.2488,
           "positive_ev": true
         },
         "5_leg": {
@@ -568,9 +568,9 @@
             {
               "matchup": "Kennedy Nzechukwu vs Shamil Gaziev",
               "pick": "Kennedy Nzechukwu",
-              "moneyline": 106,
-              "decimal_odds": 2.06,
-              "consensus_prob": 0.6082,
+              "moneyline": 105,
+              "decimal_odds": 2.05,
+              "consensus_prob": 0.6095,
               "model_prob": 0.7248,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 52.67,
@@ -581,7 +581,7 @@
               "pick": "Anthony Hernandez",
               "moneyline": -215,
               "decimal_odds": 1.465,
-              "consensus_prob": 0.688,
+              "consensus_prob": 0.6885,
               "model_prob": 0.6707,
               "likely_method": "Submission",
               "likely_method_pct": 30.57,
@@ -590,9 +590,9 @@
             {
               "matchup": "Elise Reed vs Shanelle Dyer",
               "pick": "Shanelle Dyer",
-              "moneyline": -900,
-              "decimal_odds": 1.111,
-              "consensus_prob": 0.8893,
+              "moneyline": -860,
+              "decimal_odds": 1.116,
+              "consensus_prob": 0.8879,
               "model_prob": 0.8001,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 79.83,
@@ -622,10 +622,10 @@
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 24.53,
-          "combined_decimal_odds": 4.891,
+          "combined_prob_pct": 24.56,
+          "combined_decimal_odds": 4.889,
           "combined_american": 389,
-          "ev_per_unit": 0.1995,
+          "ev_per_unit": 0.2006,
           "positive_ev": true
         }
       }
