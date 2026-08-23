@@ -5,12 +5,12 @@
     "scheduled_rounds": 3,
     "is_title_fight": false,
     "iterations": 10000,
-    "avg_rounds_simulated": 2.682,
+    "avg_rounds_simulated": 2.687,
     "fighter_a_flags": {
-      "active_injury": false,
+      "active_injury": true,
       "missed_weight": false,
       "withdrawn": false,
-      "injury_note": "",
+      "injury_note": "Edson Barboza Reveals Gruesome Eye Injury Led to His Retirement After UFC 330 Loss - Yahoo Sports",
       "stats_approx": false,
       "needs_real_stats": false
     },
@@ -24,49 +24,49 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 25.03,
-    "fighter_b_pct": 74.97,
-    "draw_pct": 0.3,
+    "fighter_a_pct": 24.62,
+    "fighter_b_pct": 75.38,
+    "draw_pct": 0.69,
     "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
     "applied": true,
     "model_weight": 0.4,
-    "fighter_a_pct": 15.07,
-    "fighter_b_pct": 84.93,
+    "fighter_a_pct": 14.83,
+    "fighter_b_pct": 85.17,
     "market_devig_a_pct": 15.56
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 10.53,
-      "Submission": 3.61,
-      "Unanimous Decision": 0.04,
-      "Split/Majority Decision": 0.11
+      "KO/TKO": 9.69,
+      "Submission": 3.6,
+      "Unanimous Decision": 0.13,
+      "Split/Majority Decision": 0.23
     },
     "fighter_b": {
-      "KO/TKO": 12.55,
-      "Submission": 4.08,
-      "Unanimous Decision": 67.86,
-      "Split/Majority Decision": 0.92
+      "KO/TKO": 12.98,
+      "Submission": 4.12,
+      "Unanimous Decision": 67.48,
+      "Split/Majority Decision": 1.08
     }
   },
   "fight_level": {
-    "ko_tko_pct": 23.08,
-    "submission_pct": 7.69,
-    "decision_pct": 68.93,
-    "goes_the_distance_pct": 69.23,
-    "expected_fight_minutes": 12.64
+    "ko_tko_pct": 22.67,
+    "submission_pct": 7.72,
+    "decision_pct": 68.92,
+    "goes_the_distance_pct": 69.61,
+    "expected_fight_minutes": 12.67
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 481,
-      "round_2": 477,
-      "round_3": 456
+      "round_1": 470,
+      "round_2": 436,
+      "round_3": 423
     },
     "fighter_b": {
-      "round_1": 596,
-      "round_2": 545,
-      "round_3": 522
+      "round_1": 598,
+      "round_2": 563,
+      "round_3": 549
     }
   },
   "value_betting": {
@@ -74,11 +74,11 @@
       "market_moneyline": 515,
       "market_decimal_odds": 6.15,
       "market_implied_prob_pct": 16.26,
-      "model_win_prob_pct": 25.03,
-      "edge_pct": 8.77,
-      "consensus_edge_pct": -1.19,
-      "kelly_fraction_full": 0.1047,
-      "kelly_fraction_half": 0.0524,
+      "model_win_prob_pct": 24.62,
+      "edge_pct": 8.36,
+      "consensus_edge_pct": -1.43,
+      "kelly_fraction_full": 0.0998,
+      "kelly_fraction_half": 0.0499,
       "model_sees_value": true,
       "consensus_agrees": false,
       "value_bet": false
@@ -87,10 +87,10 @@
       "market_moneyline": -750,
       "market_decimal_odds": 1.133,
       "market_implied_prob_pct": 88.24,
-      "model_win_prob_pct": 74.97,
-      "edge_pct": -13.27,
-      "consensus_edge_pct": -3.3,
-      "kelly_fraction_full": -1.1276,
+      "model_win_prob_pct": 75.38,
+      "edge_pct": -12.85,
+      "consensus_edge_pct": -3.07,
+      "kelly_fraction_full": -1.0925,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,

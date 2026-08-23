@@ -1188,17 +1188,17 @@
       "label": "Edson Barboza vs Esteban Ribovics",
       "a": "Edson Barboza",
       "b": "Esteban Ribovics",
-      "p_a": 0.2503,
+      "p_a": 0.2462,
       "event": "UFC 330: Makhachev vs. Machado Garry",
-      "logged": "2026-08-15T18:50:11+00:00",
+      "logged": "2026-08-23T07:04:06+00:00",
       "resolved": false,
       "actual_a": null,
       "brier": null,
       "resolved_at": null,
-      "p_ko": 0.2308,
-      "p_sub": 0.0769,
-      "p_dec": 0.6893,
-      "p_distance": 0.6923
+      "p_ko": 0.2267,
+      "p_sub": 0.0772,
+      "p_dec": 0.6892,
+      "p_distance": 0.6961
     },
     {
       "label": "Islam Makhachev vs Ian Machado Garry",
