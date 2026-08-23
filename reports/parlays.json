@@ -538,7 +538,7 @@
               "pick": "Anthony Hernandez",
               "moneyline": -215,
               "decimal_odds": 1.465,
-              "consensus_prob": 0.6885,
+              "consensus_prob": 0.6914,
               "model_prob": 0.6707,
               "likely_method": "Submission",
               "likely_method_pct": 30.57,
@@ -557,10 +557,10 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 37.26,
+          "combined_prob_pct": 37.42,
           "combined_decimal_odds": 3.352,
           "combined_american": 235,
-          "ev_per_unit": 0.2488,
+          "ev_per_unit": 0.2541,
           "positive_ev": true
         },
         "5_leg": {
@@ -581,7 +581,7 @@
               "pick": "Anthony Hernandez",
               "moneyline": -215,
               "decimal_odds": 1.465,
-              "consensus_prob": 0.6885,
+              "consensus_prob": 0.6914,
               "model_prob": 0.6707,
               "likely_method": "Submission",
               "likely_method_pct": 30.57,
@@ -622,10 +622,10 @@
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 24.56,
+          "combined_prob_pct": 24.66,
           "combined_decimal_odds": 4.889,
           "combined_american": 389,
-          "ev_per_unit": 0.2006,
+          "ev_per_unit": 0.2057,
           "positive_ev": true
         }
       }
