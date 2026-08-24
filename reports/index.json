@@ -1008,9 +1008,9 @@
     },
     "Miles Johns vs Jessie Rosas": {
       "win_probability": {
-        "fighter_a_pct": 52.91,
-        "fighter_b_pct": 47.09,
-        "draw_pct": 8.05
+        "fighter_a_pct": 51.61,
+        "fighter_b_pct": 48.39,
+        "draw_pct": 6.7
       },
       "value_flags": {
         "fighter_a": false,
