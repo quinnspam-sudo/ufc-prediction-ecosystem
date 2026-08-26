@@ -1,11 +1,6 @@
 {
   "changelog": [
     {
-      "detail": "Anthony Hernandez vs Gregory Rodrigues: consensus -150 / +130 (1 books)",
-      "ts": "2026-08-11T23:00:56+00:00",
-      "type": "odds_update"
-    },
-    {
       "detail": "Carli Judice vs Jeisla Chaves: consensus -450 / +350 (1 books)",
       "ts": "2026-08-11T23:00:56+00:00",
       "type": "odds_update"
@@ -2498,6 +2493,11 @@
     {
       "detail": "Vicente Luque: \"That b**tard\" - Tresean Gore and MMA fans react to his injury, win over Vicente Luque at UFC 330 - MMA Sucka",
       "ts": "2026-08-24T01:59:38+00:00",
+      "type": "health_injury"
+    },
+    {
+      "detail": "Quillan Salkilld: Quillan Salkilld Reveals Extent of Knee Injury a Week After Submission Win Over Gamrot at UFC Vegas 120 - EssentiallySpo",
+      "ts": "2026-08-26T02:00:31+00:00",
       "type": "health_injury"
     }
   ],
@@ -8386,7 +8386,7 @@
     },
     "quillan-salkilld": {
       "_injury_from_news": true,
-      "_updated": "2026-08-21T01:59:56+00:00",
+      "_updated": "2026-08-26T02:00:31+00:00",
       "active_injury": true,
       "age": 30,
       "career_fights": 12,
@@ -8402,7 +8402,7 @@
       "fight_location_country": "USA",
       "height_in": 70.0,
       "home_country": "USA",
-      "injury_note": "Quillan Salkilld May Have Injured Himself in UFC Vegas 120 Win - Yahoo Sports",
+      "injury_note": "Quillan Salkilld Reveals Extent of Knee Injury a Week After Submission Win Over Gamrot at UFC Vegas 120 - EssentiallySports",
       "last_fight_date": "2025-06-01",
       "missed_weight": false,
       "name": "Quillan Salkilld",
@@ -11295,7 +11295,7 @@
     "calibration": {
       "shrink": 0.7
     },
-    "last_sync": "2026-08-25T19:01:51+00:00",
+    "last_sync": "2026-08-26T02:00:31+00:00",
     "news_last": {
       "abdul-hussein": "2026-08-22T18:50:54.577437+00:00",
       "abe-alsaghir": "2026-08-24T07:30:49.234876+00:00",
@@ -11323,9 +11323,9 @@
       "brendson-ribeiro": "2026-08-22T01:52:38.238118+00:00",
       "bruno-lopes": "2026-08-23T02:01:32.876029+00:00",
       "carli-judice": "2026-08-25T01:54:48.731496+00:00",
-      "chase-hooper": "2026-08-21T07:09:45.435898+00:00",
+      "chase-hooper": "2026-08-26T02:00:29.877717+00:00",
       "chidi-njokuani": "2026-08-23T02:01:32.876029+00:00",
-      "christian-leroy-duncan": "2026-08-21T07:09:45.435898+00:00",
+      "christian-leroy-duncan": "2026-08-26T02:00:29.877717+00:00",
       "cody-gibson": "2026-08-24T01:59:36.396792+00:00",
       "cristian-perez": "2026-08-24T07:30:49.234876+00:00",
       "damian-rzepecki": "2026-08-22T01:52:38.238118+00:00",
@@ -11334,12 +11334,12 @@
       "darren-elkins": "2026-08-25T13:13:57.350085+00:00",
       "dennis-buzukja": "2026-08-24T19:02:07.941350+00:00",
       "diego-ferreira": "2026-08-23T07:03:52.079401+00:00",
-      "dione-barbosa": "2026-08-21T07:09:45.435898+00:00",
+      "dione-barbosa": "2026-08-26T02:00:29.877717+00:00",
       "diyar-nurgozhay": "2026-08-23T07:03:52.079401+00:00",
       "donte-johnson": "2026-08-25T13:13:57.350085+00:00",
       "douglas-rodrigues": "2026-08-24T12:55:22.307870+00:00",
       "du-ko-todorovi": "2026-08-24T19:02:07.941350+00:00",
-      "duplessis": "2026-08-21T07:09:45.435898+00:00",
+      "duplessis": "2026-08-26T02:00:29.877717+00:00",
       "dustin-jacoby": "2026-08-22T07:01:31.991197+00:00",
       "dustin-stoltzfus": "2026-08-23T07:03:52.079401+00:00",
       "edson-barboza": "2026-08-23T07:03:52.079401+00:00",
@@ -11348,7 +11348,7 @@
       "esteban-ribovics": "2026-08-23T07:03:52.079401+00:00",
       "ezra-elliott": "2026-08-21T13:13:03.967536+00:00",
       "fabrizio-escarrega": "2026-08-24T12:55:22.307870+00:00",
-      "fatima-kline": "2026-08-21T07:09:45.435898+00:00",
+      "fatima-kline": "2026-08-26T02:00:29.877717+00:00",
       "felipe-franco": "2026-08-21T13:13:03.967536+00:00",
       "gauge-young": "2026-08-25T01:54:48.731496+00:00",
       "geoff-neal": "2026-08-23T07:03:52.079401+00:00",
@@ -11400,7 +11400,7 @@
       "mateusz-r-becki": "2026-08-25T19:00:00.640593+00:00",
       "matt-adams": "2026-08-24T13:15:47.221882+00:00",
       "max-gimenis": "2026-08-25T19:00:00.640593+00:00",
-      "michael-oliveira": "2026-08-21T07:09:45.435898+00:00",
+      "michael-oliveira": "2026-08-26T02:00:29.877717+00:00",
       "mike-davis": "2026-08-22T13:02:56.828700+00:00",
       "miles-johns": "2026-08-24T13:15:47.221882+00:00",
       "milos-janicic": "2026-08-21T18:58:52.679975+00:00",
@@ -11416,7 +11416,7 @@
       "nurullo-aliev": "2026-08-22T13:02:56.828700+00:00",
       "oban-elliott": "2026-08-22T13:02:56.828700+00:00",
       "opponent-tba": "2026-08-25T19:00:00.640593+00:00",
-      "quillan-salkilld": "2026-08-21T01:59:53.818644+00:00",
+      "quillan-salkilld": "2026-08-26T02:00:29.877717+00:00",
       "ramazan-temirov": "2026-08-22T18:50:54.577437+00:00",
       "ramiz-brahimaj": "2026-08-21T07:09:45.435898+00:00",
       "ravena-oliveira": "2026-08-21T13:13:03.967536+00:00",
@@ -11448,7 +11448,7 @@
       "trent-miller": "2026-08-22T13:02:56.828700+00:00",
       "tresean-gore": "2026-08-23T13:04:10.958020+00:00",
       "ty-miller": "2026-08-23T18:50:10.868471+00:00",
-      "tyrell-fortune": "2026-08-21T01:59:53.818644+00:00",
+      "tyrell-fortune": "2026-08-26T02:00:29.877717+00:00",
       "uran-satybaldiev": "2026-08-21T13:13:03.967536+00:00",
       "uro-medi": "2026-08-24T19:02:07.941350+00:00",
       "usman": "2026-08-21T07:09:45.435898+00:00",
@@ -11461,8 +11461,8 @@
       "yadier-del-valle": "2026-08-24T07:30:49.234876+00:00"
     },
     "odds": {
-      "count": 109,
-      "last_call": "2026-08-25T19:00:00.638338+00:00",
+      "count": 110,
+      "last_call": "2026-08-26T02:00:29.875343+00:00",
       "month": "2026-08"
     },
     "ufcstats_last": {
