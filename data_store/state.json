@@ -1,11 +1,6 @@
 {
   "changelog": [
     {
-      "detail": "Wes Schultz vs Jackson McVey: consensus +145 / -170 (1 books)",
-      "ts": "2026-08-11T23:00:56+00:00",
-      "type": "odds_update"
-    },
-    {
       "detail": "Kennedy Nzechukwu vs Shamil Gaziev: consensus +105 / -125 (1 books)",
       "ts": "2026-08-11T23:00:56+00:00",
       "type": "odds_update"
@@ -2499,6 +2494,11 @@
       "detail": "Reinier de Ridder: Five weight cuts in one year broke UFC Sacramento\u2019s Reinier de Ridder \u2014 \u2018Took all the fun out of fighting\u2019 - Yahoo Sport",
       "ts": "2026-08-26T20:05:49+00:00",
       "type": "health_withdrawn"
+    },
+    {
+      "detail": "Edson Barboza: Edson Barboza Reveals Gruesome Eye Injury Led to His Retirement After UFC 330 Loss - Yahoo Sports",
+      "ts": "2026-08-29T07:08:01+00:00",
+      "type": "health_injury"
     }
   ],
   "fighters": {
@@ -4716,7 +4716,7 @@
     },
     "edson-barboza": {
       "_injury_from_news": true,
-      "_updated": "2026-08-23T07:03:54+00:00",
+      "_updated": "2026-08-29T07:08:01+00:00",
       "active_injury": true,
       "age": 30,
       "career_fights": 12,
@@ -11295,7 +11295,7 @@
     "calibration": {
       "shrink": 0.7
     },
-    "last_sync": "2026-08-28T22:24:33+00:00",
+    "last_sync": "2026-08-29T07:08:01+00:00",
     "news_last": {
       "abdul-hussein": "2026-08-28T11:28:22.385415+00:00",
       "abe-alsaghir": "2026-08-24T07:30:49.234876+00:00",
@@ -11333,25 +11333,25 @@
       "daniel-rodriguez": "2026-08-24T01:59:36.396792+00:00",
       "darren-elkins": "2026-08-25T13:13:57.350085+00:00",
       "dennis-buzukja": "2026-08-24T19:02:07.941350+00:00",
-      "diego-ferreira": "2026-08-23T07:03:52.079401+00:00",
+      "diego-ferreira": "2026-08-29T07:07:59.166950+00:00",
       "dione-barbosa": "2026-08-26T02:00:29.877717+00:00",
-      "diyar-nurgozhay": "2026-08-23T07:03:52.079401+00:00",
+      "diyar-nurgozhay": "2026-08-29T07:07:59.166950+00:00",
       "donte-johnson": "2026-08-25T13:13:57.350085+00:00",
       "douglas-rodrigues": "2026-08-24T12:55:22.307870+00:00",
       "du-ko-todorovi": "2026-08-24T19:02:07.941350+00:00",
       "duplessis": "2026-08-26T02:00:29.877717+00:00",
       "dustin-jacoby": "2026-08-27T09:54:30.793923+00:00",
-      "dustin-stoltzfus": "2026-08-23T07:03:52.079401+00:00",
-      "edson-barboza": "2026-08-23T07:03:52.079401+00:00",
+      "dustin-stoltzfus": "2026-08-29T07:07:59.166950+00:00",
+      "edson-barboza": "2026-08-29T07:07:59.166950+00:00",
       "elise-reed": "2026-08-25T01:54:48.731496+00:00",
       "eric-mcconico": "2026-08-25T13:13:57.350085+00:00",
-      "esteban-ribovics": "2026-08-23T07:03:52.079401+00:00",
+      "esteban-ribovics": "2026-08-29T07:07:59.166950+00:00",
       "ezra-elliott": "2026-08-26T07:11:13.839949+00:00",
       "fabrizio-escarrega": "2026-08-24T12:55:22.307870+00:00",
       "fatima-kline": "2026-08-26T02:00:29.877717+00:00",
       "felipe-franco": "2026-08-26T07:11:13.839949+00:00",
       "gauge-young": "2026-08-25T01:54:48.731496+00:00",
-      "geoff-neal": "2026-08-23T07:03:52.079401+00:00",
+      "geoff-neal": "2026-08-29T07:07:59.166950+00:00",
       "gilbert-urbina": "2026-08-24T19:02:07.941350+00:00",
       "gillian-robertson": "2026-08-23T13:04:10.958020+00:00",
       "gregory-rodrigues": "2026-08-25T01:54:48.731496+00:00",
@@ -11432,7 +11432,7 @@
       "saygid-izagakhmaev": "2026-08-24T13:15:47.221882+00:00",
       "seokhyeon-ko": "2026-08-24T19:02:07.941350+00:00",
       "serghei-spivac": "2026-08-28T22:24:07.730608+00:00",
-      "shamil-gaziev": "2026-08-23T02:01:32.876029+00:00",
+      "shamil-gaziev": "2026-08-29T07:07:59.166950+00:00",
       "shanelle-dyer": "2026-08-23T07:03:52.079401+00:00",
       "stephanie-luciano": "2026-08-25T01:54:48.731496+00:00",
       "steve-erceg": "2026-08-25T07:10:51.174347+00:00",
@@ -11440,7 +11440,7 @@
       "stewart-nicoll": "2026-08-25T07:10:51.174347+00:00",
       "tabatha-ricci": "2026-08-25T13:13:57.350085+00:00",
       "taner-trembley": "2026-08-27T22:18:24.975076+00:00",
-      "tba": "2026-08-23T02:01:32.876029+00:00",
+      "tba": "2026-08-29T07:07:59.166950+00:00",
       "thomas-petersen": "2026-08-25T13:13:57.350085+00:00",
       "tofiq-musayev": "2026-08-24T13:15:47.221882+00:00",
       "tom-pagliarulo": "2026-08-28T11:28:22.385415+00:00",
@@ -11461,8 +11461,8 @@
       "yadier-del-valle": "2026-08-24T07:30:49.234876+00:00"
     },
     "odds": {
-      "count": 117,
-      "last_call": "2026-08-28T22:24:07.728201+00:00",
+      "count": 118,
+      "last_call": "2026-08-29T07:07:59.164675+00:00",
       "month": "2026-08"
     },
     "ufcstats_last": {
