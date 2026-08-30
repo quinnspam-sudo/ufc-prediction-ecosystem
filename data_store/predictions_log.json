@@ -1300,17 +1300,17 @@
       "label": "Vicente Luque vs Tresean Gore",
       "a": "Vicente Luque",
       "b": "Tresean Gore",
-      "p_a": 0.6138,
+      "p_a": 0.6369,
       "event": "UFC 330: Makhachev vs. Machado Garry",
-      "logged": "2026-08-18T18:59:59+00:00",
+      "logged": "2026-08-30T11:58:02+00:00",
       "resolved": false,
       "actual_a": null,
       "brier": null,
       "resolved_at": null,
-      "p_ko": 0.2647,
-      "p_sub": 0.2362,
-      "p_dec": 0.4535,
-      "p_distance": 0.4991
+      "p_ko": 0.2798,
+      "p_sub": 0.2315,
+      "p_dec": 0.4515,
+      "p_distance": 0.4887
     },
     {
       "label": "Stephanie Luciano vs Marina Spasi\u0107",
