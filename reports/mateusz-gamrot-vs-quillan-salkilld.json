@@ -5,7 +5,7 @@
     "scheduled_rounds": 5,
     "is_title_fight": false,
     "iterations": 10000,
-    "avg_rounds_simulated": 3.783,
+    "avg_rounds_simulated": 3.763,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -15,62 +15,62 @@
       "needs_real_stats": false
     },
     "fighter_b_flags": {
-      "active_injury": true,
+      "active_injury": false,
       "missed_weight": false,
       "withdrawn": false,
-      "injury_note": "Quillan Salkilld May Have Injured Himself in UFC Vegas 120 Win - Yahoo Sports",
+      "injury_note": "",
       "stats_approx": false,
       "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 31.58,
-    "fighter_b_pct": 68.42,
-    "draw_pct": 0.9,
+    "fighter_a_pct": 30.55,
+    "fighter_b_pct": 69.45,
+    "draw_pct": 0.28,
     "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
     "applied": true,
     "model_weight": 0.4,
-    "fighter_a_pct": 35.67,
-    "fighter_b_pct": 64.33,
+    "fighter_a_pct": 35.08,
+    "fighter_b_pct": 64.92,
     "market_devig_a_pct": 43.65
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 13.36,
-      "Submission": 9.39,
-      "Unanimous Decision": 0.35,
-      "Split/Majority Decision": 0.38
+      "KO/TKO": 13.0,
+      "Submission": 9.0,
+      "Unanimous Decision": 0.05,
+      "Split/Majority Decision": 0.1
     },
     "fighter_b": {
-      "KO/TKO": 16.87,
-      "Submission": 16.06,
-      "Unanimous Decision": 40.95,
-      "Split/Majority Decision": 1.74
+      "KO/TKO": 17.94,
+      "Submission": 16.41,
+      "Unanimous Decision": 42.57,
+      "Split/Majority Decision": 0.65
     }
   },
   "fight_level": {
-    "ko_tko_pct": 30.23,
-    "submission_pct": 25.45,
-    "decision_pct": 43.42,
-    "goes_the_distance_pct": 44.32,
-    "expected_fight_minutes": 17.52
+    "ko_tko_pct": 30.94,
+    "submission_pct": 25.41,
+    "decision_pct": 43.37,
+    "goes_the_distance_pct": 43.65,
+    "expected_fight_minutes": 17.41
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 499,
-      "round_2": 482,
-      "round_3": 471,
-      "round_4": 446,
-      "round_5": 377
+      "round_1": 502,
+      "round_2": 468,
+      "round_3": 452,
+      "round_4": 419,
+      "round_5": 359
     },
     "fighter_b": {
-      "round_1": 811,
-      "round_2": 719,
-      "round_3": 672,
-      "round_4": 600,
-      "round_5": 491
+      "round_1": 838,
+      "round_2": 757,
+      "round_3": 686,
+      "round_4": 638,
+      "round_5": 516
     }
   },
   "value_betting": {
@@ -78,10 +78,10 @@
       "market_moneyline": 120,
       "market_decimal_odds": 2.2,
       "market_implied_prob_pct": 45.45,
-      "model_win_prob_pct": 31.58,
-      "edge_pct": -13.87,
-      "consensus_edge_pct": -9.79,
-      "kelly_fraction_full": -0.2543,
+      "model_win_prob_pct": 30.55,
+      "edge_pct": -14.91,
+      "consensus_edge_pct": -10.38,
+      "kelly_fraction_full": -0.2733,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
@@ -91,11 +91,11 @@
       "market_moneyline": -142,
       "market_decimal_odds": 1.704,
       "market_implied_prob_pct": 58.68,
-      "model_win_prob_pct": 68.42,
-      "edge_pct": 9.74,
-      "consensus_edge_pct": 5.65,
-      "kelly_fraction_full": 0.2357,
-      "kelly_fraction_half": 0.1178,
+      "model_win_prob_pct": 69.45,
+      "edge_pct": 10.78,
+      "consensus_edge_pct": 6.25,
+      "kelly_fraction_full": 0.2608,
+      "kelly_fraction_half": 0.1304,
       "model_sees_value": true,
       "consensus_agrees": true,
       "value_bet": true

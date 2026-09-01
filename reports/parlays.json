@@ -364,10 +364,10 @@
               "pick": "Quillan Salkilld",
               "moneyline": -142,
               "decimal_odds": 1.704,
-              "consensus_prob": 0.6433,
-              "model_prob": 0.6842,
+              "consensus_prob": 0.6492,
+              "model_prob": 0.6945,
               "likely_method": "Unanimous Decision",
-              "likely_method_pct": 40.95,
+              "likely_method_pct": 42.57,
               "modal_finish_round": "round_1"
             },
             {
@@ -383,10 +383,10 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 35.57,
+          "combined_prob_pct": 35.89,
           "combined_decimal_odds": 3.633,
           "combined_american": 263,
-          "ev_per_unit": 0.2921,
+          "ev_per_unit": 0.304,
           "positive_ev": true
         },
         "5_leg": {
@@ -407,10 +407,10 @@
               "pick": "Quillan Salkilld",
               "moneyline": -142,
               "decimal_odds": 1.704,
-              "consensus_prob": 0.6433,
-              "model_prob": 0.6842,
+              "consensus_prob": 0.6492,
+              "model_prob": 0.6945,
               "likely_method": "Unanimous Decision",
-              "likely_method_pct": 40.95,
+              "likely_method_pct": 42.57,
               "modal_finish_round": "round_1"
             },
             {
@@ -448,10 +448,10 @@
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 21.94,
+          "combined_prob_pct": 22.14,
           "combined_decimal_odds": 6.382,
           "combined_american": 538,
-          "ev_per_unit": 0.4002,
+          "ev_per_unit": 0.4131,
           "positive_ev": true
         }
       }

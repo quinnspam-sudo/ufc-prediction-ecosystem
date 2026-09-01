@@ -1220,17 +1220,17 @@
       "label": "Mateusz Gamrot vs Quillan Salkilld",
       "a": "Mateusz Gamrot",
       "b": "Quillan Salkilld",
-      "p_a": 0.3158,
+      "p_a": 0.3055,
       "event": "UFC Fight Night: Gamrot vs Salkilld",
-      "logged": "2026-08-23T18:50:13+00:00",
+      "logged": "2026-09-01T16:42:44+00:00",
       "resolved": false,
       "actual_a": null,
       "brier": null,
       "resolved_at": null,
-      "p_ko": 0.3023,
-      "p_sub": 0.2545,
-      "p_dec": 0.4342,
-      "p_distance": 0.4432
+      "p_ko": 0.3094,
+      "p_sub": 0.2541,
+      "p_dec": 0.4337,
+      "p_distance": 0.4365
     },
     {
       "label": "Jeremiah Wells vs Myktybek Orolbai",
