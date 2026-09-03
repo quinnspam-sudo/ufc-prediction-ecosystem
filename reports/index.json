@@ -632,9 +632,9 @@
     },
     "Edson Barboza vs Esteban Ribovics": {
       "win_probability": {
-        "fighter_a_pct": 24.62,
-        "fighter_b_pct": 75.38,
-        "draw_pct": 0.69,
+        "fighter_a_pct": 25.03,
+        "fighter_b_pct": 74.97,
+        "draw_pct": 0.3,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {

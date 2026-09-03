@@ -478,10 +478,10 @@
               "pick": "Esteban Ribovics",
               "moneyline": -750,
               "decimal_odds": 1.133,
-              "consensus_prob": 0.8517,
-              "model_prob": 0.7538,
+              "consensus_prob": 0.8493,
+              "model_prob": 0.7497,
               "likely_method": "Unanimous Decision",
-              "likely_method_pct": 67.48,
+              "likely_method_pct": 67.86,
               "modal_finish_round": "round_1"
             },
             {
@@ -508,10 +508,10 @@
             }
           ],
           "leg_count": 4,
-          "combined_prob_pct": 44.86,
+          "combined_prob_pct": 44.73,
           "combined_decimal_odds": 1.87,
           "combined_american": 87,
-          "ev_per_unit": -0.161,
+          "ev_per_unit": -0.1634,
           "positive_ev": false
         }
       }
