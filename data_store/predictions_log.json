@@ -1476,17 +1476,17 @@
       "label": "Kennedy Nzechukwu vs Shamil Gaziev",
       "a": "Kennedy Nzechukwu",
       "b": "Shamil Gaziev",
-      "p_a": 0.7248,
+      "p_a": 0.7267,
       "event": "UFC Fight Night: Hernandez vs. Rodrigues",
-      "logged": "2026-08-22T18:50:58+00:00",
+      "logged": "2026-09-03T16:28:54+00:00",
       "resolved": false,
       "actual_a": null,
       "brier": null,
       "resolved_at": null,
-      "p_ko": 0.3923,
-      "p_sub": 0.0695,
-      "p_dec": 0.5345,
-      "p_distance": 0.5382
+      "p_ko": 0.3908,
+      "p_sub": 0.0712,
+      "p_dec": 0.5324,
+      "p_distance": 0.538
     },
     {
       "label": "Anthony Hernandez vs Gregory Rodrigues",

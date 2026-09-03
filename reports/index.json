@@ -852,9 +852,9 @@
     },
     "Kennedy Nzechukwu vs Shamil Gaziev": {
       "win_probability": {
-        "fighter_a_pct": 72.48,
-        "fighter_b_pct": 27.52,
-        "draw_pct": 0.37,
+        "fighter_a_pct": 72.67,
+        "fighter_b_pct": 27.33,
+        "draw_pct": 0.56,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
