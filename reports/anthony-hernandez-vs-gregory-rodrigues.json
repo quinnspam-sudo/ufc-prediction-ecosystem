@@ -5,12 +5,12 @@
     "scheduled_rounds": 5,
     "is_title_fight": false,
     "iterations": 10000,
-    "avg_rounds_simulated": 3.341,
+    "avg_rounds_simulated": 3.357,
     "fighter_a_flags": {
-      "active_injury": false,
+      "active_injury": true,
       "missed_weight": false,
       "withdrawn": false,
-      "injury_note": "",
+      "injury_note": "Hernandez On Injury Claims After UFC Sacramento Loss - boxingnews.com",
       "stats_approx": false,
       "needs_real_stats": false
     },
@@ -24,53 +24,53 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 67.07,
-    "fighter_b_pct": 32.93,
-    "draw_pct": 0.0,
+    "fighter_a_pct": 66.58,
+    "fighter_b_pct": 33.42,
+    "draw_pct": 0.02,
     "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
     "applied": true,
     "model_weight": 0.4,
-    "fighter_a_pct": 69.14,
-    "fighter_b_pct": 30.86,
+    "fighter_a_pct": 68.86,
+    "fighter_b_pct": 31.14,
     "market_devig_a_pct": 65.65
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 14.97,
-      "Submission": 30.57,
-      "Unanimous Decision": 28.83,
-      "Split/Majority Decision": 0.01
+      "KO/TKO": 13.91,
+      "Submission": 30.43,
+      "Unanimous Decision": 29.28,
+      "Split/Majority Decision": 0.05
     },
     "fighter_b": {
-      "KO/TKO": 20.35,
-      "Submission": 5.27,
+      "KO/TKO": 20.85,
+      "Submission": 5.46,
       "Unanimous Decision": 0.0,
       "Split/Majority Decision": 0.0
     }
   },
   "fight_level": {
-    "ko_tko_pct": 35.32,
-    "submission_pct": 35.84,
-    "decision_pct": 28.84,
-    "goes_the_distance_pct": 28.84,
-    "expected_fight_minutes": 14.93
+    "ko_tko_pct": 34.76,
+    "submission_pct": 35.89,
+    "decision_pct": 29.33,
+    "goes_the_distance_pct": 29.35,
+    "expected_fight_minutes": 15.02
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 1251,
-      "round_2": 1057,
-      "round_3": 883,
-      "round_4": 759,
-      "round_5": 604
+      "round_1": 1228,
+      "round_2": 1037,
+      "round_3": 867,
+      "round_4": 718,
+      "round_5": 584
     },
     "fighter_b": {
-      "round_1": 682,
-      "round_2": 563,
-      "round_3": 508,
-      "round_4": 457,
-      "round_5": 352
+      "round_1": 678,
+      "round_2": 569,
+      "round_3": 525,
+      "round_4": 486,
+      "round_5": 373
     }
   },
   "value_betting": {
@@ -78,10 +78,10 @@
       "market_moneyline": -215,
       "market_decimal_odds": 1.465,
       "market_implied_prob_pct": 68.25,
-      "model_win_prob_pct": 67.07,
-      "edge_pct": -1.19,
-      "consensus_edge_pct": 0.89,
-      "kelly_fraction_full": -0.0374,
+      "model_win_prob_pct": 66.58,
+      "edge_pct": -1.68,
+      "consensus_edge_pct": 0.61,
+      "kelly_fraction_full": -0.0529,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": true,
@@ -91,10 +91,10 @@
       "market_moneyline": 180,
       "market_decimal_odds": 2.8,
       "market_implied_prob_pct": 35.71,
-      "model_win_prob_pct": 32.93,
-      "edge_pct": -2.78,
-      "consensus_edge_pct": -4.86,
-      "kelly_fraction_full": -0.0432,
+      "model_win_prob_pct": 33.42,
+      "edge_pct": -2.29,
+      "consensus_edge_pct": -4.58,
+      "kelly_fraction_full": -0.0356,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,

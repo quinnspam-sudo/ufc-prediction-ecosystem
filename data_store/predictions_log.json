@@ -1492,17 +1492,17 @@
       "label": "Anthony Hernandez vs Gregory Rodrigues",
       "a": "Anthony Hernandez",
       "b": "Gregory Rodrigues",
-      "p_a": 0.6707,
+      "p_a": 0.6658,
       "event": "UFC Fight Night: Hernandez vs. Rodrigues",
-      "logged": "2026-08-23T02:01:43+00:00",
+      "logged": "2026-09-05T10:39:49+00:00",
       "resolved": false,
       "actual_a": null,
       "brier": null,
       "resolved_at": null,
-      "p_ko": 0.3532,
-      "p_sub": 0.3584,
-      "p_dec": 0.2884,
-      "p_distance": 0.2884
+      "p_ko": 0.3476,
+      "p_sub": 0.3589,
+      "p_dec": 0.2933,
+      "p_distance": 0.2935
     },
     {
       "label": "Serghei Spivac vs Vitor Petrino",

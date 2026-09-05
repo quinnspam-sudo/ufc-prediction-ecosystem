@@ -891,9 +891,9 @@
     },
     "Anthony Hernandez vs Gregory Rodrigues": {
       "win_probability": {
-        "fighter_a_pct": 67.07,
-        "fighter_b_pct": 32.93,
-        "draw_pct": 0.0,
+        "fighter_a_pct": 66.58,
+        "fighter_b_pct": 33.42,
+        "draw_pct": 0.02,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
