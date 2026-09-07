@@ -614,18 +614,18 @@
               "pick": "Reinier de Ridder",
               "moneyline": -400,
               "decimal_odds": 1.25,
-              "consensus_prob": 0.7834,
-              "model_prob": 0.7162,
+              "consensus_prob": 0.7836,
+              "model_prob": 0.7167,
               "likely_method": "Unanimous Decision",
-              "likely_method_pct": 57.58,
+              "likely_method_pct": 57.26,
               "modal_finish_round": "round_1"
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 24.6,
+          "combined_prob_pct": 24.61,
           "combined_decimal_odds": 4.889,
           "combined_american": 389,
-          "ev_per_unit": 0.203,
+          "ev_per_unit": 0.2033,
           "positive_ev": true
         }
       }
