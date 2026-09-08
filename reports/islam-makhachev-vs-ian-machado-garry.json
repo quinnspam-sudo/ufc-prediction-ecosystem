@@ -5,72 +5,72 @@
     "scheduled_rounds": 5,
     "is_title_fight": false,
     "iterations": 10000,
-    "avg_rounds_simulated": 3.64,
+    "avg_rounds_simulated": 3.659,
     "fighter_a_flags": {
-      "active_injury": false,
+      "active_injury": true,
       "missed_weight": false,
       "withdrawn": false,
-      "injury_note": "",
+      "injury_note": "Shavkat Rakhmonov on fighting Ian Machado Garry injured: \u2018Khabib or Islam Makhachev, they definitely would\u2019ve refused\u2019 - MMA Fighting",
       "stats_approx": false,
       "needs_real_stats": false
     },
     "fighter_b_flags": {
-      "active_injury": false,
+      "active_injury": true,
       "missed_weight": false,
       "withdrawn": false,
-      "injury_note": "",
+      "injury_note": "Shavkat Rakhmonov on fighting Ian Machado Garry injured: \u2018Khabib or Islam Makhachev, they definitely would\u2019ve refused\u2019 - MMA Fighting",
       "stats_approx": false,
       "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 69.1,
-    "fighter_b_pct": 30.9,
-    "draw_pct": 0.84,
+    "fighter_a_pct": 68.42,
+    "fighter_b_pct": 31.58,
+    "draw_pct": 1.68,
     "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
     "applied": false,
     "model_weight": 1.0,
-    "fighter_a_pct": 77.29,
-    "fighter_b_pct": 22.71,
+    "fighter_a_pct": 76.32,
+    "fighter_b_pct": 23.68,
     "market_devig_a_pct": null
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 11.94,
-      "Submission": 26.01,
-      "Unanimous Decision": 37.07,
-      "Split/Majority Decision": 1.62
+      "KO/TKO": 11.38,
+      "Submission": 26.72,
+      "Unanimous Decision": 34.78,
+      "Split/Majority Decision": 2.16
     },
     "fighter_b": {
-      "KO/TKO": 14.78,
-      "Submission": 7.18,
-      "Unanimous Decision": 0.26,
-      "Split/Majority Decision": 0.3
+      "KO/TKO": 14.1,
+      "Submission": 7.42,
+      "Unanimous Decision": 0.95,
+      "Split/Majority Decision": 0.81
     }
   },
   "fight_level": {
-    "ko_tko_pct": 26.72,
-    "submission_pct": 33.19,
-    "decision_pct": 39.25,
-    "goes_the_distance_pct": 40.09,
-    "expected_fight_minutes": 16.7
+    "ko_tko_pct": 25.48,
+    "submission_pct": 34.14,
+    "decision_pct": 38.7,
+    "goes_the_distance_pct": 40.38,
+    "expected_fight_minutes": 16.8
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 975,
-      "round_2": 839,
-      "round_3": 774,
-      "round_4": 658,
-      "round_5": 549
+      "round_1": 961,
+      "round_2": 842,
+      "round_3": 765,
+      "round_4": 675,
+      "round_5": 567
     },
     "fighter_b": {
-      "round_1": 541,
-      "round_2": 507,
-      "round_3": 456,
-      "round_4": 380,
-      "round_5": 312
+      "round_1": 530,
+      "round_2": 482,
+      "round_3": 447,
+      "round_4": 378,
+      "round_5": 315
     }
   },
   "value_betting": {
@@ -78,11 +78,11 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 69.1,
-      "edge_pct": 16.72,
-      "consensus_edge_pct": 24.91,
-      "kelly_fraction_full": 0.3512,
-      "kelly_fraction_half": 0.1756,
+      "model_win_prob_pct": 68.42,
+      "edge_pct": 16.04,
+      "consensus_edge_pct": 23.94,
+      "kelly_fraction_full": 0.3369,
+      "kelly_fraction_half": 0.1685,
       "model_sees_value": true,
       "consensus_agrees": true,
       "value_bet": true
@@ -91,10 +91,10 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 30.9,
-      "edge_pct": -21.48,
-      "consensus_edge_pct": -29.67,
-      "kelly_fraction_full": -0.4512,
+      "model_win_prob_pct": 31.58,
+      "edge_pct": -20.8,
+      "consensus_edge_pct": -28.7,
+      "kelly_fraction_full": -0.4369,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,

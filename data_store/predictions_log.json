@@ -1204,17 +1204,17 @@
       "label": "Islam Makhachev vs Ian Machado Garry",
       "a": "Islam Makhachev",
       "b": "Ian Machado Garry",
-      "p_a": 0.691,
+      "p_a": 0.6842,
       "event": "UFC 330: Makhachev vs. Machado Garry",
-      "logged": "2026-08-18T13:11:20+00:00",
+      "logged": "2026-09-08T16:41:23+00:00",
       "resolved": false,
       "actual_a": null,
       "brier": null,
       "resolved_at": null,
-      "p_ko": 0.2672,
-      "p_sub": 0.3319,
-      "p_dec": 0.3925,
-      "p_distance": 0.4009
+      "p_ko": 0.2548,
+      "p_sub": 0.3414,
+      "p_dec": 0.387,
+      "p_distance": 0.4038
     },
     {
       "label": "Mateusz Gamrot vs Quillan Salkilld",
