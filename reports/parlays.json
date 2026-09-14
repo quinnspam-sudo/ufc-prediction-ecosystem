@@ -344,10 +344,21 @@
     },
     "UFC Fight Night: Gamrot vs Salkilld": {
       "card_type": "fight_night",
-      "eligible_legs": 6,
+      "eligible_legs": 7,
       "parlays": {
         "3_leg": {
           "legs": [
+            {
+              "matchup": "Miles Johns vs Jessie Rosas",
+              "pick": "Miles Johns",
+              "moneyline": -142,
+              "decimal_odds": 1.704,
+              "consensus_prob": 0.6951,
+              "model_prob": 0.7724,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 73.94,
+              "modal_finish_round": "round_2"
+            },
             {
               "matchup": "Bruno Lopes vs Diyar Nurgozhay",
               "pick": "Diyar Nurgozhay",
@@ -369,28 +380,28 @@
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 42.57,
               "modal_finish_round": "round_1"
-            },
-            {
-              "matchup": "Juliana Miller vs Ravena Oliveira",
-              "pick": "Juliana Miller",
-              "moneyline": -320,
-              "decimal_odds": 1.312,
-              "consensus_prob": 0.7993,
-              "model_prob": 0.7793,
-              "likely_method": "Unanimous Decision",
-              "likely_method_pct": 64.31,
-              "modal_finish_round": "round_2"
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 35.89,
-          "combined_decimal_odds": 3.633,
-          "combined_american": 263,
-          "ev_per_unit": 0.304,
+          "combined_prob_pct": 31.21,
+          "combined_decimal_odds": 4.718,
+          "combined_american": 372,
+          "ev_per_unit": 0.4728,
           "positive_ev": true
         },
         "5_leg": {
           "legs": [
+            {
+              "matchup": "Miles Johns vs Jessie Rosas",
+              "pick": "Miles Johns",
+              "moneyline": -142,
+              "decimal_odds": 1.704,
+              "consensus_prob": 0.6951,
+              "model_prob": 0.7724,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 73.94,
+              "modal_finish_round": "round_2"
+            },
             {
               "matchup": "Bruno Lopes vs Diyar Nurgozhay",
               "pick": "Diyar Nurgozhay",
@@ -434,24 +445,13 @@
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 60.01,
               "modal_finish_round": "round_1"
-            },
-            {
-              "matchup": "Steven Asplund vs Guilherme Pat",
-              "pick": "Steven Asplund",
-              "moneyline": -295,
-              "decimal_odds": 1.339,
-              "consensus_prob": 0.7729,
-              "model_prob": 0.7479,
-              "likely_method": "Unanimous Decision",
-              "likely_method_pct": 52.12,
-              "modal_finish_round": "round_1"
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 22.14,
-          "combined_decimal_odds": 6.382,
-          "combined_american": 538,
-          "ev_per_unit": 0.4131,
+          "combined_prob_pct": 19.91,
+          "combined_decimal_odds": 8.122,
+          "combined_american": 712,
+          "ev_per_unit": 0.6172,
           "positive_ev": true
         }
       }

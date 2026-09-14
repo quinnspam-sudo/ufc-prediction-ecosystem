@@ -1008,12 +1008,13 @@
     },
     "Miles Johns vs Jessie Rosas": {
       "win_probability": {
-        "fighter_a_pct": 51.61,
-        "fighter_b_pct": 48.39,
-        "draw_pct": 6.7
+        "fighter_a_pct": 77.24,
+        "fighter_b_pct": 22.76,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
-        "fighter_a": false,
+        "fighter_a": true,
         "fighter_b": false
       },
       "report_file": "reports/miles-johns-vs-jessie-rosas.json"

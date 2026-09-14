@@ -1,11 +1,6 @@
 {
   "changelog": [
     {
-      "detail": "Carli Judice vs Jeisla Chaves: consensus -450 / +344 (2 books)",
-      "ts": "2026-08-12T05:00:53+00:00",
-      "type": "odds_update"
-    },
-    {
       "detail": "Wes Schultz vs Jackson McVey: consensus +143 / -170 (2 books)",
       "ts": "2026-08-12T05:00:53+00:00",
       "type": "odds_update"
@@ -2499,6 +2494,11 @@
       "detail": "Islam Makhachev: Shavkat Rakhmonov on fighting Ian Machado Garry injured: \u2018Khabib or Islam Makhachev, they definitely would\u2019ve refused\u2019 -",
       "ts": "2026-09-13T16:22:17+00:00",
       "type": "health_injury"
+    },
+    {
+      "detail": "Jessie Rosas: real stats populated (http://ufcstats.com/fighter-details/d1026588fa65693f)",
+      "ts": "2026-09-14T17:54:59+00:00",
+      "type": "ufcstats_scraped"
     }
   ],
   "fighters": {
@@ -6050,7 +6050,7 @@
     },
     "jessie-rosas": {
       "_injury_from_news": false,
-      "_updated": "2026-08-24T12:55:24+00:00",
+      "_updated": "2026-09-14T17:54:59+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -6070,7 +6070,7 @@
       "last_fight_date": "2025-06-01",
       "missed_weight": false,
       "name": "Jessie Rosas",
-      "needs_stats": true,
+      "needs_stats": false,
       "reach_in": 72.0,
       "round_strike_output": [
         60,
@@ -6079,21 +6079,21 @@
         54,
         52
       ],
-      "sapm": 4.0,
-      "slpm": 4.0,
+      "sapm": 11.67,
+      "slpm": 5.0,
       "stance": "Orthodox",
-      "stats_approx": true,
-      "strike_acc": 0.45,
+      "stats_approx": false,
+      "strike_acc": 0.5,
       "strike_acc_body": 0.5175,
       "strike_acc_head": 0.45,
       "strike_acc_leg": 0.5625,
-      "strike_def": 0.55,
-      "sub_avg": 0.6,
+      "strike_def": 0.46,
+      "sub_avg": 0.0,
       "sub_def": 0.65,
       "sweep_rate": 0.2,
-      "td_acc": 0.4,
-      "td_avg": 1.5,
-      "td_def": 0.65,
+      "td_acc": 0.0,
+      "td_avg": 0.0,
+      "td_def": 0.0,
       "trains_at_altitude": false,
       "venue_elevation_ft": 2001,
       "weight_class": "Featherweight",
@@ -11299,7 +11299,7 @@
     "calibration": {
       "shrink": 0.7
     },
-    "last_sync": "2026-09-14T12:54:36+00:00",
+    "last_sync": "2026-09-14T17:55:00+00:00",
     "news_last": {
       "abdul-hussein": "2026-09-12T20:36:09.048945+00:00",
       "abe-alsaghir": "2026-09-14T12:54:34.232414+00:00",
@@ -11341,7 +11341,7 @@
       "dione-barbosa": "2026-09-11T11:26:49.048627+00:00",
       "diyar-nurgozhay": "2026-09-13T11:57:30.701765+00:00",
       "donte-johnson": "2026-09-10T20:55:04.542199+00:00",
-      "douglas-rodrigues": "2026-09-09T16:41:52.685371+00:00",
+      "douglas-rodrigues": "2026-09-14T17:54:39.480903+00:00",
       "du-ko-todorovi": "2026-09-10T04:48:10.707629+00:00",
       "duplessis": "2026-09-11T11:26:49.048627+00:00",
       "dustin-jacoby": "2026-09-12T10:51:46.737649+00:00",
@@ -11351,7 +11351,7 @@
       "eric-mcconico": "2026-09-10T20:55:04.542199+00:00",
       "esteban-ribovics": "2026-09-13T11:57:30.701765+00:00",
       "ezra-elliott": "2026-09-11T16:32:16.787525+00:00",
-      "fabrizio-escarrega": "2026-09-09T16:41:52.685371+00:00",
+      "fabrizio-escarrega": "2026-09-14T17:54:39.480903+00:00",
       "fatima-kline": "2026-09-11T11:26:49.048627+00:00",
       "felipe-franco": "2026-09-11T16:32:16.787525+00:00",
       "gauge-young": "2026-09-10T11:25:07.206048+00:00",
@@ -11373,10 +11373,10 @@
       "jean-paul-lebosnoyani": "2026-09-11T16:32:16.787525+00:00",
       "jeisla-chaves": "2026-09-10T16:27:31.714798+00:00",
       "jeremiah-wells": "2026-09-13T20:53:12.888233+00:00",
-      "jessie-rosas": "2026-09-09T16:41:52.685371+00:00",
-      "joe-kropschot": "2026-09-09T16:41:52.685371+00:00",
-      "jon-kunneman": "2026-09-09T16:41:52.685371+00:00",
-      "jos-montanha": "2026-09-09T16:41:52.685371+00:00",
+      "jessie-rosas": "2026-09-14T17:54:39.480903+00:00",
+      "joe-kropschot": "2026-09-14T17:54:39.480903+00:00",
+      "jon-kunneman": "2026-09-14T17:54:39.480903+00:00",
+      "jos-montanha": "2026-09-14T17:54:39.480903+00:00",
       "jose-miguel-delgado": "2026-09-11T21:00:22.600020+00:00",
       "josias-musasa": "2026-09-10T04:48:10.707629+00:00",
       "jovan-leka": "2026-09-10T16:27:31.714798+00:00",
@@ -11450,7 +11450,7 @@
       "tom-pagliarulo": "2026-09-13T16:22:15.153518+00:00",
       "tommy-mcmillen": "2026-09-11T21:00:22.600020+00:00",
       "trent-miller": "2026-09-13T16:22:15.153518+00:00",
-      "tresean-gore": "2026-09-09T11:28:35.100788+00:00",
+      "tresean-gore": "2026-09-14T17:54:39.480903+00:00",
       "ty-miller": "2026-09-09T16:41:52.685371+00:00",
       "tyrell-fortune": "2026-09-12T04:40:05.254084+00:00",
       "uran-satybaldiev": "2026-09-12T15:34:55.900534+00:00",
@@ -11461,12 +11461,12 @@
       "vitor-petrino": "2026-09-14T12:54:34.232414+00:00",
       "vlasto-epo": "2026-09-11T04:45:57.065832+00:00",
       "wellington-turman": "2026-09-10T11:25:07.206048+00:00",
-      "wes-schultz": "2026-09-09T11:28:35.100788+00:00",
+      "wes-schultz": "2026-09-14T17:54:39.480903+00:00",
       "yadier-del-valle": "2026-09-10T04:48:10.707629+00:00"
     },
     "odds": {
-      "count": 54,
-      "last_call": "2026-09-14T12:54:34.230886+00:00",
+      "count": 55,
+      "last_call": "2026-09-14T17:54:39.478650+00:00",
       "month": "2026-09"
     },
     "ufcstats_last": {
@@ -11510,7 +11510,7 @@
       "dione-barbosa": "2026-07-15T23:01:08.574882+00:00",
       "diyar-nurgozhay": "2026-07-27T22:16:59.977367+00:00",
       "donte-johnson": "2026-07-30T03:00:51.151273+00:00",
-      "douglas-rodrigues": "2026-09-13T16:22:17.035187+00:00",
+      "douglas-rodrigues": "2026-09-14T17:54:41.448882+00:00",
       "du-ko-todorovi": "2026-07-27T07:01:02.840969+00:00",
       "dustin-jacoby": "2026-07-20T07:00:58.503645+00:00",
       "dustin-stoltzfus": "2026-07-27T22:16:59.977367+00:00",
@@ -11529,7 +11529,7 @@
       "gregory-rodrigues": "2026-08-01T03:00:56.954564+00:00",
       "guilherme-pat": "2026-07-27T21:00:49.625123+00:00",
       "hailey-cowan": "2026-07-27T05:00:50.055887+00:00",
-      "henrique-da-silva-lopes": "2026-09-13T16:22:17.035187+00:00",
+      "henrique-da-silva-lopes": "2026-09-14T17:54:41.448882+00:00",
       "ian-machado-garry": "2026-07-27T23:00:48.289679+00:00",
       "islam-dulatov": "2026-07-20T07:00:58.503645+00:00",
       "islam-makhachev": "2026-07-27T23:00:48.289679+00:00",
@@ -11541,10 +11541,10 @@
       "jean-paul-lebosnoyani": "2026-07-15T23:01:08.574882+00:00",
       "jeisla-chaves": "2026-08-01T03:00:56.954564+00:00",
       "jeremiah-wells": "2026-07-28T01:01:04.151800+00:00",
-      "jessie-rosas": "2026-09-13T16:22:17.035187+00:00",
+      "jessie-rosas": "2026-09-14T17:54:41.448882+00:00",
       "joe-kropschot": "2026-08-15T13:01:20.988980+00:00",
       "jon-kunneman": "2026-08-15T13:01:20.988980+00:00",
-      "jos-montanha": "2026-09-13T16:22:17.035187+00:00",
+      "jos-montanha": "2026-09-14T17:54:41.448882+00:00",
       "jose-miguel-delgado": "2026-09-13T20:53:14.869603+00:00",
       "josias-musasa": "2026-07-27T09:00:48.864437+00:00",
       "jovan-leka": "2026-07-27T05:00:50.055887+00:00",
@@ -11612,7 +11612,7 @@
       "stewart-nicoll": "2026-07-16T01:01:10.349922+00:00",
       "tabatha-ricci": "2026-07-16T03:01:20.534247+00:00",
       "taner-trembley": "2026-08-19T13:12:01.856497+00:00",
-      "tba": "2026-09-13T16:22:17.035187+00:00",
+      "tba": "2026-09-14T17:54:41.448882+00:00",
       "thomas-petersen": "2026-07-20T11:00:58.429873+00:00",
       "tofiq-musayev": "2026-07-27T11:00:55.584805+00:00",
       "tom-pagliarulo": "2026-08-15T13:01:20.988980+00:00",
@@ -11622,7 +11622,7 @@
       "ty-miller": "2026-07-30T01:00:51.274192+00:00",
       "tyrell-fortune": "2026-07-20T11:00:58.429873+00:00",
       "uran-satybaldiev": "2026-07-20T11:00:58.429873+00:00",
-      "uro-medi": "2026-09-13T16:22:17.035187+00:00",
+      "uro-medi": "2026-09-14T17:54:41.448882+00:00",
       "valter-walker": "2026-07-20T11:00:58.429873+00:00",
       "vicente-luque": "2026-07-28T05:00:52.608943+00:00",
       "vitor-petrino": "2026-08-01T03:53:28.493679+00:00",

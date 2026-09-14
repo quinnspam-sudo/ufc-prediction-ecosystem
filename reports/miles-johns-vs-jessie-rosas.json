@@ -4,8 +4,8 @@
     "fighter_b": "Jessie Rosas",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.722,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.735,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -19,53 +19,54 @@
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 51.61,
-    "fighter_b_pct": 48.39,
-    "draw_pct": 6.7
+    "fighter_a_pct": 77.24,
+    "fighter_b_pct": 22.76,
+    "draw_pct": 0.0,
+    "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
     "applied": true,
     "model_weight": 0.4,
-    "fighter_a_pct": 54.59,
-    "fighter_b_pct": 45.41,
+    "fighter_a_pct": 69.51,
+    "fighter_b_pct": 30.49,
     "market_devig_a_pct": 56.57
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 7.9,
-      "Submission": 2.85,
-      "Unanimous Decision": 27.25,
-      "Split/Majority Decision": 10.15
+      "KO/TKO": 8.82,
+      "Submission": 6.16,
+      "Unanimous Decision": 73.94,
+      "Split/Majority Decision": 0.0
     },
     "fighter_b": {
-      "KO/TKO": 7.2,
-      "Submission": 9.65,
-      "Unanimous Decision": 18.95,
-      "Split/Majority Decision": 9.35
+      "KO/TKO": 7.89,
+      "Submission": 3.19,
+      "Unanimous Decision": 0.0,
+      "Split/Majority Decision": 0.0
     }
   },
   "fight_level": {
-    "ko_tko_pct": 15.1,
-    "submission_pct": 12.5,
-    "decision_pct": 65.7,
-    "goes_the_distance_pct": 72.4,
-    "expected_fight_minutes": 12.92
+    "ko_tko_pct": 16.71,
+    "submission_pct": 9.35,
+    "decision_pct": 73.94,
+    "goes_the_distance_pct": 73.94,
+    "expected_fight_minutes": 13.03
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 69,
-      "round_2": 84,
-      "round_3": 62
+      "round_1": 484,
+      "round_2": 529,
+      "round_3": 485
     },
     "fighter_b": {
-      "round_1": 113,
-      "round_2": 108,
-      "round_3": 116
+      "round_1": 403,
+      "round_2": 343,
+      "round_3": 362
     }
   },
   "value_betting": {
@@ -73,29 +74,27 @@
       "market_moneyline": -142,
       "market_decimal_odds": 1.704,
       "market_implied_prob_pct": 58.68,
-      "model_win_prob_pct": 51.61,
-      "edge_pct": -7.07,
-      "consensus_edge_pct": -4.09,
-      "kelly_fraction_full": -0.1711,
-      "kelly_fraction_half": 0.0,
-      "model_sees_value": false,
-      "consensus_agrees": false,
-      "value_bet": false
+      "model_win_prob_pct": 77.24,
+      "edge_pct": 18.57,
+      "consensus_edge_pct": 10.83,
+      "kelly_fraction_full": 0.4493,
+      "kelly_fraction_half": 0.2247,
+      "model_sees_value": true,
+      "consensus_agrees": true,
+      "value_bet": true
     },
     "fighter_b": {
       "market_moneyline": 122,
       "market_decimal_odds": 2.22,
       "market_implied_prob_pct": 45.05,
-      "model_win_prob_pct": 48.39,
-      "edge_pct": 3.35,
-      "consensus_edge_pct": 0.37,
-      "kelly_fraction_full": 0.0609,
-      "kelly_fraction_half": 0.0305,
-      "model_sees_value": true,
-      "consensus_agrees": true,
+      "model_win_prob_pct": 22.76,
+      "edge_pct": -22.29,
+      "consensus_edge_pct": -14.56,
+      "kelly_fraction_full": -0.4056,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
       "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+    }
   }
 }
