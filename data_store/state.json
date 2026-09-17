@@ -1,11 +1,6 @@
 {
   "changelog": [
     {
-      "detail": "Wes Schultz vs Jackson McVey: consensus +143 / -170 (2 books)",
-      "ts": "2026-08-12T05:00:53+00:00",
-      "type": "odds_update"
-    },
-    {
       "detail": "Kennedy Nzechukwu vs Shamil Gaziev: consensus +105 / -125 (2 books)",
       "ts": "2026-08-12T05:00:53+00:00",
       "type": "odds_update"
@@ -2499,6 +2494,11 @@
       "detail": "Jessie Rosas: real stats populated (http://ufcstats.com/fighter-details/d1026588fa65693f)",
       "ts": "2026-09-14T17:54:59+00:00",
       "type": "ufcstats_scraped"
+    },
+    {
+      "detail": "Mike Davis: MIKE DAVIS: The Trump DOJ should withdraw its statement of interest in the OpenAI lawsuit - Fox News",
+      "ts": "2026-09-17T17:03:22+00:00",
+      "type": "health_withdrawn"
     }
   ],
   "fighters": {
@@ -7643,7 +7643,7 @@
     },
     "mike-davis": {
       "_injury_from_news": true,
-      "_updated": "2026-09-12T15:34:57+00:00",
+      "_updated": "2026-09-17T17:03:22+00:00",
       "active_injury": true,
       "age": 30,
       "career_fights": 12,
@@ -11299,7 +11299,7 @@
     "calibration": {
       "shrink": 0.7
     },
-    "last_sync": "2026-09-17T11:46:49+00:00",
+    "last_sync": "2026-09-17T17:03:22+00:00",
     "news_last": {
       "abdul-hussein": "2026-09-12T20:36:09.048945+00:00",
       "abe-alsaghir": "2026-09-14T12:54:34.232414+00:00",
@@ -11393,7 +11393,7 @@
       "mackenzie-dern": "2026-09-13T20:53:12.888233+00:00",
       "magomed-ankalaev": "2026-09-17T11:46:34.232808+00:00",
       "magomed-tuchalov": "2026-09-17T11:46:34.232808+00:00",
-      "magomed-zaynukov": "2026-09-12T15:34:55.900534+00:00",
+      "magomed-zaynukov": "2026-09-17T17:03:20.351644+00:00",
       "mahamed-aly": "2026-09-14T21:52:23.641642+00:00",
       "manoel-sousa": "2026-09-14T21:52:23.641642+00:00",
       "mansur-abdul-malik": "2026-09-13T20:53:12.888233+00:00",
@@ -11405,7 +11405,7 @@
       "matt-adams": "2026-09-14T21:52:23.641642+00:00",
       "max-gimenis": "2026-09-16T04:53:44.741322+00:00",
       "michael-oliveira": "2026-09-16T11:41:30.401920+00:00",
-      "mike-davis": "2026-09-12T15:34:55.900534+00:00",
+      "mike-davis": "2026-09-17T17:03:20.351644+00:00",
       "miles-johns": "2026-09-14T21:52:23.641642+00:00",
       "milos-janicic": "2026-09-16T21:21:18.834413+00:00",
       "mitch-ramirez": "2026-09-17T04:56:55.570766+00:00",
@@ -11415,14 +11415,14 @@
       "namo-fazil": "2026-09-15T17:03:20.142434+00:00",
       "navajo-stirling": "2026-09-16T17:02:26.235373+00:00",
       "neil-magny": "2026-09-15T21:24:48.319738+00:00",
-      "nina-milo-evi": "2026-09-12T15:34:55.900534+00:00",
-      "noah-gugnon": "2026-09-12T15:34:55.900534+00:00",
-      "nurullo-aliev": "2026-09-12T15:34:55.900534+00:00",
-      "oban-elliott": "2026-09-12T15:34:55.900534+00:00",
+      "nina-milo-evi": "2026-09-17T17:03:20.351644+00:00",
+      "noah-gugnon": "2026-09-17T17:03:20.351644+00:00",
+      "nurullo-aliev": "2026-09-17T17:03:20.351644+00:00",
+      "oban-elliott": "2026-09-17T17:03:20.351644+00:00",
       "opponent-tba": "2026-09-17T04:56:55.570766+00:00",
       "quillan-salkilld": "2026-09-17T11:46:34.232808+00:00",
       "ramazan-temirov": "2026-09-12T20:36:09.048945+00:00",
-      "ramiz-brahimaj": "2026-09-12T10:51:46.737649+00:00",
+      "ramiz-brahimaj": "2026-09-17T17:03:20.351644+00:00",
       "ravena-oliveira": "2026-09-12T15:34:55.900534+00:00",
       "reinier-de-ridder": "2026-09-12T20:36:09.048945+00:00",
       "richie-miranda": "2026-09-13T04:53:10.752399+00:00",
@@ -11455,7 +11455,7 @@
       "tyrell-fortune": "2026-09-17T11:46:34.232808+00:00",
       "uran-satybaldiev": "2026-09-12T15:34:55.900534+00:00",
       "uro-medi": "2026-09-16T04:53:44.741322+00:00",
-      "usman": "2026-09-12T10:51:46.737649+00:00",
+      "usman": "2026-09-17T17:03:20.351644+00:00",
       "valter-walker": "2026-09-12T20:36:09.048945+00:00",
       "vicente-luque": "2026-09-15T04:59:03.717533+00:00",
       "vitor-petrino": "2026-09-14T12:54:34.232414+00:00",
@@ -11465,8 +11465,8 @@
       "yadier-del-valle": "2026-09-15T11:49:08.538613+00:00"
     },
     "odds": {
-      "count": 65,
-      "last_call": "2026-09-17T11:46:34.230864+00:00",
+      "count": 66,
+      "last_call": "2026-09-17T17:03:20.349972+00:00",
       "month": "2026-09"
     },
     "ufcstats_last": {
