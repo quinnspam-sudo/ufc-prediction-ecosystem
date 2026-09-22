@@ -156,9 +156,9 @@
     },
     "Mike Davis vs Nurullo Aliev": {
       "win_probability": {
-        "fighter_a_pct": 23.87,
-        "fighter_b_pct": 76.13,
-        "draw_pct": 3.0
+        "fighter_a_pct": 22.71,
+        "fighter_b_pct": 77.29,
+        "draw_pct": 2.45
       },
       "value_flags": {
         "fighter_a": false,

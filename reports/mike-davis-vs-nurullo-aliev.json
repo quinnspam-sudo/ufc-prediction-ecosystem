@@ -5,12 +5,12 @@
     "scheduled_rounds": 3,
     "is_title_fight": false,
     "iterations": 2000,
-    "avg_rounds_simulated": 2.666,
+    "avg_rounds_simulated": 2.656,
     "fighter_a_flags": {
-      "active_injury": true,
+      "active_injury": false,
       "missed_weight": false,
-      "withdrawn": true,
-      "injury_note": "MIKE DAVIS: The Trump DOJ should withdraw its statement of interest in the OpenAI lawsuit - Fox News",
+      "withdrawn": false,
+      "injury_note": "",
       "stats_approx": true,
       "needs_real_stats": true
     },
@@ -24,48 +24,48 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 23.87,
-    "fighter_b_pct": 76.13,
-    "draw_pct": 3.0
+    "fighter_a_pct": 22.71,
+    "fighter_b_pct": 77.29,
+    "draw_pct": 2.45
   },
   "consensus_forecast": {
     "applied": true,
     "model_weight": 0.4,
-    "fighter_a_pct": 29.73,
-    "fighter_b_pct": 70.27,
+    "fighter_a_pct": 29.26,
+    "fighter_b_pct": 70.74,
     "market_devig_a_pct": 33.64
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 7.9,
-      "Submission": 9.3,
-      "Unanimous Decision": 3.55,
-      "Split/Majority Decision": 2.4
+      "KO/TKO": 8.3,
+      "Submission": 9.5,
+      "Unanimous Decision": 2.35,
+      "Split/Majority Decision": 2.0
     },
     "fighter_b": {
-      "KO/TKO": 8.35,
-      "Submission": 6.5,
-      "Unanimous Decision": 54.6,
-      "Split/Majority Decision": 4.4
+      "KO/TKO": 8.05,
+      "Submission": 6.85,
+      "Unanimous Decision": 55.6,
+      "Split/Majority Decision": 4.9
     }
   },
   "fight_level": {
-    "ko_tko_pct": 16.25,
-    "submission_pct": 15.8,
-    "decision_pct": 64.95,
-    "goes_the_distance_pct": 67.95,
-    "expected_fight_minutes": 12.53
+    "ko_tko_pct": 16.35,
+    "submission_pct": 16.35,
+    "decision_pct": 64.85,
+    "goes_the_distance_pct": 67.3,
+    "expected_fight_minutes": 12.46
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 112,
-      "round_2": 131,
-      "round_3": 101
+      "round_1": 118,
+      "round_2": 136,
+      "round_3": 102
     },
     "fighter_b": {
       "round_1": 118,
-      "round_2": 77,
-      "round_3": 102
+      "round_2": 80,
+      "round_3": 100
     }
   },
   "value_betting": {
@@ -73,10 +73,10 @@
       "market_moneyline": 185,
       "market_decimal_odds": 2.85,
       "market_implied_prob_pct": 35.09,
-      "model_win_prob_pct": 23.87,
-      "edge_pct": -11.22,
-      "consensus_edge_pct": -5.36,
-      "kelly_fraction_full": -0.1729,
+      "model_win_prob_pct": 22.71,
+      "edge_pct": -12.38,
+      "consensus_edge_pct": -5.82,
+      "kelly_fraction_full": -0.1907,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
@@ -86,11 +86,11 @@
       "market_moneyline": -225,
       "market_decimal_odds": 1.444,
       "market_implied_prob_pct": 69.23,
-      "model_win_prob_pct": 76.13,
-      "edge_pct": 6.9,
-      "consensus_edge_pct": 1.04,
-      "kelly_fraction_full": 0.2244,
-      "kelly_fraction_half": 0.1122,
+      "model_win_prob_pct": 77.29,
+      "edge_pct": 8.06,
+      "consensus_edge_pct": 1.51,
+      "kelly_fraction_full": 0.262,
+      "kelly_fraction_half": 0.131,
       "model_sees_value": true,
       "consensus_agrees": true,
       "value_bet": false
