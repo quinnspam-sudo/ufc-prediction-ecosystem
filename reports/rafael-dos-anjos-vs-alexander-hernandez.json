@@ -1,0 +1,100 @@
+{
+  "matchup": {
+    "fighter_a": "Rafael Dos Anjos",
+    "fighter_b": "Alexander Hernandez",
+    "scheduled_rounds": 3,
+    "is_title_fight": false,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.695,
+    "fighter_a_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": false,
+      "needs_real_stats": false
+    },
+    "fighter_b_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": false,
+      "needs_real_stats": false
+    }
+  },
+  "win_probability": {
+    "fighter_a_pct": 53.15,
+    "fighter_b_pct": 46.85,
+    "draw_pct": 6.55,
+    "calibration_shrink_applied": 0.7
+  },
+  "consensus_forecast": {
+    "applied": false,
+    "model_weight": 1.0,
+    "fighter_a_pct": 54.5,
+    "fighter_b_pct": 45.5,
+    "market_devig_a_pct": null
+  },
+  "method_of_victory_matrix": {
+    "fighter_a": {
+      "KO/TKO": 6.9,
+      "Submission": 10.31,
+      "Unanimous Decision": 24.69,
+      "Split/Majority Decision": 9.03
+    },
+    "fighter_b": {
+      "KO/TKO": 9.59,
+      "Submission": 3.32,
+      "Unanimous Decision": 21.41,
+      "Split/Majority Decision": 8.2
+    }
+  },
+  "fight_level": {
+    "ko_tko_pct": 16.49,
+    "submission_pct": 13.63,
+    "decision_pct": 63.33,
+    "goes_the_distance_pct": 69.88,
+    "expected_fight_minutes": 12.72
+  },
+  "finish_round_distribution": {
+    "fighter_a": {
+      "round_1": 575,
+      "round_2": 597,
+      "round_3": 549
+    },
+    "fighter_b": {
+      "round_1": 432,
+      "round_2": 437,
+      "round_3": 422
+    }
+  },
+  "value_betting": {
+    "fighter_a": {
+      "market_moneyline": -110,
+      "market_decimal_odds": 1.909,
+      "market_implied_prob_pct": 52.38,
+      "model_win_prob_pct": 53.15,
+      "edge_pct": 0.77,
+      "consensus_edge_pct": 2.12,
+      "kelly_fraction_full": 0.0162,
+      "kelly_fraction_half": 0.0081,
+      "model_sees_value": true,
+      "consensus_agrees": true,
+      "value_bet": true
+    },
+    "fighter_b": {
+      "market_moneyline": -110,
+      "market_decimal_odds": 1.909,
+      "market_implied_prob_pct": 52.38,
+      "model_win_prob_pct": 46.85,
+      "edge_pct": -5.53,
+      "consensus_edge_pct": -6.88,
+      "kelly_fraction_full": -0.1162,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
+      "value_bet": false
+    }
+  }
+}

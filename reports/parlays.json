@@ -731,6 +731,14 @@
         "5_leg": null
       },
       "note": "Only 3 eligible legs; 5_leg not buildable."
+    },
+    "UFC 332: Silva vs. Wang": {
+      "card_type": "numbered/PPV",
+      "eligible_legs": 1,
+      "parlays": {
+        "main_card_parlay": null
+      },
+      "note": "Only 1 eligible legs (need >=4 for a numbered-card parlay)."
     }
   },
   "min_leg_consensus_prob": 0.6

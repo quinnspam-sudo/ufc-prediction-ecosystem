@@ -1,0 +1,101 @@
+{
+  "matchup": {
+    "fighter_a": "Deiveson Figueiredo",
+    "fighter_b": "Payton Talbott",
+    "scheduled_rounds": 3,
+    "is_title_fight": false,
+    "iterations": 2000,
+    "avg_rounds_simulated": 2.679,
+    "fighter_a_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": true,
+      "needs_real_stats": true
+    },
+    "fighter_b_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": true,
+      "needs_real_stats": true
+    }
+  },
+  "win_probability": {
+    "fighter_a_pct": 51.21,
+    "fighter_b_pct": 48.79,
+    "draw_pct": 6.75
+  },
+  "consensus_forecast": {
+    "applied": true,
+    "model_weight": 0.4,
+    "fighter_a_pct": 29.69,
+    "fighter_b_pct": 70.31,
+    "market_devig_a_pct": 15.35
+  },
+  "method_of_victory_matrix": {
+    "fighter_a": {
+      "KO/TKO": 6.9,
+      "Submission": 9.8,
+      "Unanimous Decision": 22.3,
+      "Split/Majority Decision": 8.75
+    },
+    "fighter_b": {
+      "KO/TKO": 6.35,
+      "Submission": 9.1,
+      "Unanimous Decision": 21.45,
+      "Split/Majority Decision": 8.6
+    }
+  },
+  "fight_level": {
+    "ko_tko_pct": 13.25,
+    "submission_pct": 18.9,
+    "decision_pct": 61.1,
+    "goes_the_distance_pct": 67.85,
+    "expected_fight_minutes": 12.59
+  },
+  "finish_round_distribution": {
+    "fighter_a": {
+      "round_1": 96,
+      "round_2": 136,
+      "round_3": 102
+    },
+    "fighter_b": {
+      "round_1": 110,
+      "round_2": 95,
+      "round_3": 104
+    }
+  },
+  "value_betting": {
+    "fighter_a": {
+      "market_moneyline": 525,
+      "market_decimal_odds": 6.25,
+      "market_implied_prob_pct": 16.0,
+      "model_win_prob_pct": 51.21,
+      "edge_pct": 35.21,
+      "consensus_edge_pct": 13.69,
+      "kelly_fraction_full": 0.4191,
+      "kelly_fraction_half": 0.2096,
+      "model_sees_value": true,
+      "consensus_agrees": true,
+      "value_bet": false
+    },
+    "fighter_b": {
+      "market_moneyline": -750,
+      "market_decimal_odds": 1.133,
+      "market_implied_prob_pct": 88.24,
+      "model_win_prob_pct": 48.79,
+      "edge_pct": -39.44,
+      "consensus_edge_pct": -17.93,
+      "kelly_fraction_full": -3.3525,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
+      "value_bet": false
+    },
+    "insufficient_data": true,
+    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+  }
+}

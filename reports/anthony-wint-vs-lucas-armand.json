@@ -1,0 +1,101 @@
+{
+  "matchup": {
+    "fighter_a": "Anthony Wint",
+    "fighter_b": "Lucas Armand",
+    "scheduled_rounds": 3,
+    "is_title_fight": false,
+    "iterations": 2000,
+    "avg_rounds_simulated": 2.194,
+    "fighter_a_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": false,
+      "needs_real_stats": false
+    },
+    "fighter_b_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": true,
+      "needs_real_stats": true
+    }
+  },
+  "win_probability": {
+    "fighter_a_pct": 85.95,
+    "fighter_b_pct": 14.05,
+    "draw_pct": 0.0
+  },
+  "consensus_forecast": {
+    "applied": true,
+    "model_weight": 0.4,
+    "fighter_a_pct": 82.72,
+    "fighter_b_pct": 17.28,
+    "market_devig_a_pct": 80.57
+  },
+  "method_of_victory_matrix": {
+    "fighter_a": {
+      "KO/TKO": 53.95,
+      "Submission": 1.35,
+      "Unanimous Decision": 30.65,
+      "Split/Majority Decision": 0.0
+    },
+    "fighter_b": {
+      "KO/TKO": 10.9,
+      "Submission": 3.15,
+      "Unanimous Decision": 0.0,
+      "Split/Majority Decision": 0.0
+    }
+  },
+  "fight_level": {
+    "ko_tko_pct": 64.85,
+    "submission_pct": 4.5,
+    "decision_pct": 30.65,
+    "goes_the_distance_pct": 30.65,
+    "expected_fight_minutes": 9.24
+  },
+  "finish_round_distribution": {
+    "fighter_a": {
+      "round_1": 449,
+      "round_2": 382,
+      "round_3": 275
+    },
+    "fighter_b": {
+      "round_1": 129,
+      "round_2": 74,
+      "round_3": 78
+    }
+  },
+  "value_betting": {
+    "fighter_a": {
+      "market_moneyline": -550,
+      "market_decimal_odds": 1.182,
+      "market_implied_prob_pct": 84.62,
+      "model_win_prob_pct": 85.95,
+      "edge_pct": 1.33,
+      "consensus_edge_pct": -1.89,
+      "kelly_fraction_full": 0.0868,
+      "kelly_fraction_half": 0.0434,
+      "model_sees_value": true,
+      "consensus_agrees": false,
+      "value_bet": false
+    },
+    "fighter_b": {
+      "market_moneyline": 390,
+      "market_decimal_odds": 4.9,
+      "market_implied_prob_pct": 20.41,
+      "model_win_prob_pct": 14.05,
+      "edge_pct": -6.36,
+      "consensus_edge_pct": -3.13,
+      "kelly_fraction_full": -0.0799,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
+      "value_bet": false
+    },
+    "insufficient_data": true,
+    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+  }
+}

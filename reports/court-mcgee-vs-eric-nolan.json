@@ -1,0 +1,100 @@
+{
+  "matchup": {
+    "fighter_a": "Court McGee",
+    "fighter_b": "Eric Nolan",
+    "scheduled_rounds": 3,
+    "is_title_fight": false,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.621,
+    "fighter_a_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": false,
+      "needs_real_stats": false
+    },
+    "fighter_b_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": false,
+      "needs_real_stats": false
+    }
+  },
+  "win_probability": {
+    "fighter_a_pct": 76.92,
+    "fighter_b_pct": 23.09,
+    "draw_pct": 0.0,
+    "calibration_shrink_applied": 0.7
+  },
+  "consensus_forecast": {
+    "applied": true,
+    "model_weight": 0.4,
+    "fighter_a_pct": 55.37,
+    "fighter_b_pct": 44.63,
+    "market_devig_a_pct": 33.32
+  },
+  "method_of_victory_matrix": {
+    "fighter_a": {
+      "KO/TKO": 10.45,
+      "Submission": 13.99,
+      "Unanimous Decision": 64.01,
+      "Split/Majority Decision": 0.0
+    },
+    "fighter_b": {
+      "KO/TKO": 9.05,
+      "Submission": 2.5,
+      "Unanimous Decision": 0.0,
+      "Split/Majority Decision": 0.0
+    }
+  },
+  "fight_level": {
+    "ko_tko_pct": 19.5,
+    "submission_pct": 16.49,
+    "decision_pct": 64.01,
+    "goes_the_distance_pct": 64.01,
+    "expected_fight_minutes": 12.21
+  },
+  "finish_round_distribution": {
+    "fighter_a": {
+      "round_1": 870,
+      "round_2": 839,
+      "round_3": 735
+    },
+    "fighter_b": {
+      "round_1": 426,
+      "round_2": 359,
+      "round_3": 370
+    }
+  },
+  "value_betting": {
+    "fighter_a": {
+      "market_moneyline": 189,
+      "market_decimal_odds": 2.89,
+      "market_implied_prob_pct": 34.6,
+      "model_win_prob_pct": 76.92,
+      "edge_pct": 42.31,
+      "consensus_edge_pct": 20.77,
+      "kelly_fraction_full": 0.647,
+      "kelly_fraction_half": 0.3235,
+      "model_sees_value": true,
+      "consensus_agrees": true,
+      "value_bet": true
+    },
+    "fighter_b": {
+      "market_moneyline": -225,
+      "market_decimal_odds": 1.444,
+      "market_implied_prob_pct": 69.23,
+      "model_win_prob_pct": 23.09,
+      "edge_pct": -46.15,
+      "consensus_edge_pct": -24.61,
+      "kelly_fraction_full": -1.4997,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
+      "value_bet": false
+    }
+  }
+}

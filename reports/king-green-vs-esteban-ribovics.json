@@ -1,0 +1,101 @@
+{
+  "matchup": {
+    "fighter_a": "King Green",
+    "fighter_b": "Esteban Ribovics",
+    "scheduled_rounds": 3,
+    "is_title_fight": false,
+    "iterations": 2000,
+    "avg_rounds_simulated": 2.621,
+    "fighter_a_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": true,
+      "needs_real_stats": true
+    },
+    "fighter_b_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": false,
+      "needs_real_stats": false
+    }
+  },
+  "win_probability": {
+    "fighter_a_pct": 22.15,
+    "fighter_b_pct": 77.85,
+    "draw_pct": 1.35
+  },
+  "consensus_forecast": {
+    "applied": true,
+    "model_weight": 0.4,
+    "fighter_a_pct": 28.33,
+    "fighter_b_pct": 71.67,
+    "market_devig_a_pct": 32.44
+  },
+  "method_of_victory_matrix": {
+    "fighter_a": {
+      "KO/TKO": 8.65,
+      "Submission": 10.25,
+      "Unanimous Decision": 1.55,
+      "Split/Majority Decision": 1.4
+    },
+    "fighter_b": {
+      "KO/TKO": 11.9,
+      "Submission": 4.8,
+      "Unanimous Decision": 56.2,
+      "Split/Majority Decision": 3.9
+    }
+  },
+  "fight_level": {
+    "ko_tko_pct": 20.55,
+    "submission_pct": 15.05,
+    "decision_pct": 63.05,
+    "goes_the_distance_pct": 64.4,
+    "expected_fight_minutes": 12.21
+  },
+  "finish_round_distribution": {
+    "fighter_a": {
+      "round_1": 137,
+      "round_2": 122,
+      "round_3": 119
+    },
+    "fighter_b": {
+      "round_1": 131,
+      "round_2": 100,
+      "round_3": 103
+    }
+  },
+  "value_betting": {
+    "fighter_a": {
+      "market_moneyline": 195,
+      "market_decimal_odds": 2.95,
+      "market_implied_prob_pct": 33.9,
+      "model_win_prob_pct": 22.15,
+      "edge_pct": -11.75,
+      "consensus_edge_pct": -5.57,
+      "kelly_fraction_full": -0.1777,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
+      "value_bet": false
+    },
+    "fighter_b": {
+      "market_moneyline": -240,
+      "market_decimal_odds": 1.417,
+      "market_implied_prob_pct": 70.59,
+      "model_win_prob_pct": 77.85,
+      "edge_pct": 7.26,
+      "consensus_edge_pct": 1.09,
+      "kelly_fraction_full": 0.2469,
+      "kelly_fraction_half": 0.1235,
+      "model_sees_value": true,
+      "consensus_agrees": true,
+      "value_bet": false
+    },
+    "insufficient_data": true,
+    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+  }
+}

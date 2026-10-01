@@ -1,0 +1,101 @@
+{
+  "matchup": {
+    "fighter_a": "Ismael Bonfim",
+    "fighter_b": "Francisco Prado",
+    "scheduled_rounds": 3,
+    "is_title_fight": false,
+    "iterations": 2000,
+    "avg_rounds_simulated": 2.656,
+    "fighter_a_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": false,
+      "needs_real_stats": false
+    },
+    "fighter_b_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": true,
+      "needs_real_stats": true
+    }
+  },
+  "win_probability": {
+    "fighter_a_pct": 81.45,
+    "fighter_b_pct": 18.55,
+    "draw_pct": 0.55
+  },
+  "consensus_forecast": {
+    "applied": true,
+    "model_weight": 0.4,
+    "fighter_a_pct": 65.73,
+    "fighter_b_pct": 34.27,
+    "market_devig_a_pct": 55.26
+  },
+  "method_of_victory_matrix": {
+    "fighter_a": {
+      "KO/TKO": 11.85,
+      "Submission": 2.6,
+      "Unanimous Decision": 65.55,
+      "Split/Majority Decision": 1.0
+    },
+    "fighter_b": {
+      "KO/TKO": 9.95,
+      "Submission": 8.25,
+      "Unanimous Decision": 0.1,
+      "Split/Majority Decision": 0.15
+    }
+  },
+  "fight_level": {
+    "ko_tko_pct": 21.8,
+    "submission_pct": 10.85,
+    "decision_pct": 66.8,
+    "goes_the_distance_pct": 67.35,
+    "expected_fight_minutes": 12.47
+  },
+  "finish_round_distribution": {
+    "fighter_a": {
+      "round_1": 109,
+      "round_2": 99,
+      "round_3": 81
+    },
+    "fighter_b": {
+      "round_1": 133,
+      "round_2": 104,
+      "round_3": 127
+    }
+  },
+  "value_betting": {
+    "fighter_a": {
+      "market_moneyline": -135,
+      "market_decimal_odds": 1.741,
+      "market_implied_prob_pct": 57.45,
+      "model_win_prob_pct": 81.45,
+      "edge_pct": 24.0,
+      "consensus_edge_pct": 8.29,
+      "kelly_fraction_full": 0.564,
+      "kelly_fraction_half": 0.282,
+      "model_sees_value": true,
+      "consensus_agrees": true,
+      "value_bet": false
+    },
+    "fighter_b": {
+      "market_moneyline": 115,
+      "market_decimal_odds": 2.15,
+      "market_implied_prob_pct": 46.51,
+      "model_win_prob_pct": 18.55,
+      "edge_pct": -27.96,
+      "consensus_edge_pct": -12.25,
+      "kelly_fraction_full": -0.5227,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
+      "value_bet": false
+    },
+    "insufficient_data": true,
+    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+  }
+}
