@@ -4,8 +4,8 @@
     "fighter_b": "Jasmine Jasudavicius",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.609,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.628,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -19,53 +19,54 @@
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 82.96,
-    "fighter_b_pct": 17.04,
-    "draw_pct": 1.1
+    "fighter_a_pct": 69.33,
+    "fighter_b_pct": 30.67,
+    "draw_pct": 3.77,
+    "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
     "applied": false,
     "model_weight": 1.0,
-    "fighter_a_pct": 82.96,
-    "fighter_b_pct": 17.04,
+    "fighter_a_pct": 77.62,
+    "fighter_b_pct": 22.38,
     "market_devig_a_pct": null
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 4.35,
-      "Submission": 18.25,
-      "Unanimous Decision": 57.3,
-      "Split/Majority Decision": 2.15
+      "KO/TKO": 4.22,
+      "Submission": 16.43,
+      "Unanimous Decision": 48.2,
+      "Split/Majority Decision": 5.84
     },
     "fighter_b": {
-      "KO/TKO": 5.4,
-      "Submission": 10.4,
-      "Unanimous Decision": 0.4,
-      "Split/Majority Decision": 0.65
+      "KO/TKO": 3.84,
+      "Submission": 11.01,
+      "Unanimous Decision": 3.82,
+      "Split/Majority Decision": 2.87
     }
   },
   "fight_level": {
-    "ko_tko_pct": 9.75,
-    "submission_pct": 28.65,
-    "decision_pct": 60.5,
-    "goes_the_distance_pct": 61.6,
-    "expected_fight_minutes": 12.09
+    "ko_tko_pct": 8.06,
+    "submission_pct": 27.44,
+    "decision_pct": 60.73,
+    "goes_the_distance_pct": 64.5,
+    "expected_fight_minutes": 12.25
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 146,
-      "round_2": 165,
-      "round_3": 141
+      "round_1": 712,
+      "round_2": 705,
+      "round_3": 648
     },
     "fighter_b": {
-      "round_1": 122,
-      "round_2": 81,
-      "round_3": 113
+      "round_1": 551,
+      "round_2": 491,
+      "round_3": 443
     }
   },
   "value_betting": {
@@ -73,29 +74,27 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 82.96,
-      "edge_pct": 30.58,
-      "consensus_edge_pct": 30.58,
-      "kelly_fraction_full": 0.6422,
-      "kelly_fraction_half": 0.3211,
+      "model_win_prob_pct": 69.33,
+      "edge_pct": 16.95,
+      "consensus_edge_pct": 25.24,
+      "kelly_fraction_full": 0.356,
+      "kelly_fraction_half": 0.178,
       "model_sees_value": true,
       "consensus_agrees": true,
-      "value_bet": false
+      "value_bet": true
     },
     "fighter_b": {
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 17.04,
-      "edge_pct": -35.34,
-      "consensus_edge_pct": -35.34,
-      "kelly_fraction_full": -0.7422,
+      "model_win_prob_pct": 30.67,
+      "edge_pct": -21.71,
+      "consensus_edge_pct": -30.0,
+      "kelly_fraction_full": -0.456,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
       "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+    }
   }
 }

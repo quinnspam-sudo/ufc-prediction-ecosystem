@@ -734,11 +734,11 @@
     },
     "UFC 332: Silva vs. Wang": {
       "card_type": "numbered/PPV",
-      "eligible_legs": 2,
+      "eligible_legs": 3,
       "parlays": {
         "main_card_parlay": null
       },
-      "note": "Only 2 eligible legs (need >=4 for a numbered-card parlay)."
+      "note": "Only 3 eligible legs (need >=4 for a numbered-card parlay)."
     },
     "UFC Fight Night: Allen vs. Duncan": {
       "card_type": "fight_night",
