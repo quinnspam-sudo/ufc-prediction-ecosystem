@@ -4,15 +4,15 @@
     "fighter_b": "Christian Leroy Duncan",
     "scheduled_rounds": 5,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 3.736,
+    "iterations": 10000,
+    "avg_rounds_simulated": 3.606,
     "fighter_a_flags": {
       "active_injury": true,
       "missed_weight": false,
       "withdrawn": true,
       "injury_note": "Michael Page Out Of RAF 14, Brendan Allen Replaces Him Against Alexander Shlemenko - MiddleEasy",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     },
     "fighter_b_flags": {
       "active_injury": false,
@@ -24,52 +24,53 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 42.66,
-    "fighter_b_pct": 57.34,
-    "draw_pct": 4.6
+    "fighter_a_pct": 41.9,
+    "fighter_b_pct": 58.1,
+    "draw_pct": 2.54,
+    "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
     "applied": true,
     "model_weight": 0.4,
-    "fighter_a_pct": 51.33,
-    "fighter_b_pct": 48.67,
+    "fighter_a_pct": 49.64,
+    "fighter_b_pct": 50.36,
     "market_devig_a_pct": 57.11
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 18.1,
-      "Submission": 13.15,
-      "Unanimous Decision": 6.4,
-      "Split/Majority Decision": 3.05
+      "KO/TKO": 13.73,
+      "Submission": 20.1,
+      "Unanimous Decision": 1.95,
+      "Split/Majority Decision": 1.67
     },
     "fighter_b": {
-      "KO/TKO": 22.75,
-      "Submission": 3.75,
-      "Unanimous Decision": 22.95,
-      "Split/Majority Decision": 5.25
+      "KO/TKO": 25.08,
+      "Submission": 3.14,
+      "Unanimous Decision": 28.19,
+      "Split/Majority Decision": 3.6
     }
   },
   "fight_level": {
-    "ko_tko_pct": 40.85,
-    "submission_pct": 16.9,
-    "decision_pct": 37.65,
-    "goes_the_distance_pct": 42.25,
-    "expected_fight_minutes": 17.24
+    "ko_tko_pct": 38.81,
+    "submission_pct": 23.24,
+    "decision_pct": 35.41,
+    "goes_the_distance_pct": 37.95,
+    "expected_fight_minutes": 16.48
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 141,
-      "round_2": 134,
-      "round_3": 129,
-      "round_4": 106,
-      "round_5": 115
+      "round_1": 839,
+      "round_2": 756,
+      "round_3": 674,
+      "round_4": 608,
+      "round_5": 506
     },
     "fighter_b": {
-      "round_1": 145,
-      "round_2": 114,
-      "round_3": 88,
-      "round_4": 99,
-      "round_5": 84
+      "round_1": 696,
+      "round_2": 651,
+      "round_3": 550,
+      "round_4": 520,
+      "round_5": 405
     }
   },
   "value_betting": {
@@ -77,10 +78,10 @@
       "market_moneyline": -145,
       "market_decimal_odds": 1.69,
       "market_implied_prob_pct": 59.18,
-      "model_win_prob_pct": 42.66,
-      "edge_pct": -16.52,
-      "consensus_edge_pct": -7.85,
-      "kelly_fraction_full": -0.4048,
+      "model_win_prob_pct": 41.9,
+      "edge_pct": -17.28,
+      "consensus_edge_pct": -9.55,
+      "kelly_fraction_full": -0.4234,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
@@ -90,16 +91,14 @@
       "market_moneyline": 125,
       "market_decimal_odds": 2.25,
       "market_implied_prob_pct": 44.44,
-      "model_win_prob_pct": 57.34,
-      "edge_pct": 12.89,
-      "consensus_edge_pct": 4.22,
-      "kelly_fraction_full": 0.2321,
-      "kelly_fraction_half": 0.116,
+      "model_win_prob_pct": 58.1,
+      "edge_pct": 13.65,
+      "consensus_edge_pct": 5.92,
+      "kelly_fraction_full": 0.2458,
+      "kelly_fraction_half": 0.1229,
       "model_sees_value": true,
       "consensus_agrees": true,
-      "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+      "value_bet": true
+    }
   }
 }

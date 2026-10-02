@@ -1146,9 +1146,9 @@
     },
     "Andrey Pulyaev vs Damian Pinas": {
       "win_probability": {
-        "fighter_a_pct": 49.23,
-        "fighter_b_pct": 50.77,
-        "draw_pct": 6.05
+        "fighter_a_pct": 23.97,
+        "fighter_b_pct": 76.03,
+        "draw_pct": 2.8
       },
       "value_flags": {
         "fighter_a": false,
@@ -1170,9 +1170,9 @@
     },
     "Roman Kopylov vs Ateba Gautier": {
       "win_probability": {
-        "fighter_a_pct": 49.23,
-        "fighter_b_pct": 50.77,
-        "draw_pct": 6.05
+        "fighter_a_pct": 27.17,
+        "fighter_b_pct": 72.83,
+        "draw_pct": 3.2
       },
       "value_flags": {
         "fighter_a": false,
@@ -1242,13 +1242,14 @@
     },
     "Brendan Allen vs Christian Leroy Duncan": {
       "win_probability": {
-        "fighter_a_pct": 42.66,
-        "fighter_b_pct": 57.34,
-        "draw_pct": 4.6
+        "fighter_a_pct": 41.9,
+        "fighter_b_pct": 58.1,
+        "draw_pct": 2.54,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": false,
-        "fighter_b": false
+        "fighter_b": true
       },
       "report_file": "reports/brendan-allen-vs-christian-leroy-duncan.json"
     },
@@ -1266,9 +1267,9 @@
     },
     "Chelsea Chandler vs Melissa Croden": {
       "win_probability": {
-        "fighter_a_pct": 51.21,
-        "fighter_b_pct": 48.79,
-        "draw_pct": 6.75
+        "fighter_a_pct": 14.3,
+        "fighter_b_pct": 85.7,
+        "draw_pct": 0.0
       },
       "value_flags": {
         "fighter_a": false,
@@ -1278,9 +1279,9 @@
     },
     "Chad Anheliger vs Steven Koslow": {
       "win_probability": {
-        "fighter_a_pct": 51.21,
-        "fighter_b_pct": 48.79,
-        "draw_pct": 6.75
+        "fighter_a_pct": 14.05,
+        "fighter_b_pct": 85.95,
+        "draw_pct": 0.0
       },
       "value_flags": {
         "fighter_a": false,
@@ -1395,6 +1396,30 @@
         "fighter_b": false
       },
       "report_file": "reports/mike-malott-vs-joaquin-buckley.json"
+    },
+    "Marcus McGhee vs Anthony Romero": {
+      "win_probability": {
+        "fighter_a_pct": 51.38,
+        "fighter_b_pct": 48.62,
+        "draw_pct": 5.8
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/marcus-mcghee-vs-anthony-romero.json"
+    },
+    "Julien LeBlanc vs Nick Galanti": {
+      "win_probability": {
+        "fighter_a_pct": 49.33,
+        "fighter_b_pct": 50.67,
+        "draw_pct": 6.05
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/julien-leblanc-vs-nick-galanti.json"
     }
   }
 }
