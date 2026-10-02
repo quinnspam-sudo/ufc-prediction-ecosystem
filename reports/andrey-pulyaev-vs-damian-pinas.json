@@ -4,8 +4,8 @@
     "fighter_b": "Damian Pinas",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.616,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.639,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -19,83 +19,82 @@
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 23.97,
-    "fighter_b_pct": 76.03,
-    "draw_pct": 2.8
+    "fighter_a_pct": 29.41,
+    "fighter_b_pct": 70.59,
+    "draw_pct": 2.47,
+    "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
     "applied": true,
     "model_weight": 0.4,
-    "fighter_a_pct": 20.82,
-    "fighter_b_pct": 79.18,
-    "market_devig_a_pct": 18.71
+    "fighter_a_pct": 19.32,
+    "fighter_b_pct": 80.68,
+    "market_devig_a_pct": 18.48
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 14.25,
-      "Submission": 2.6,
-      "Unanimous Decision": 3.85,
-      "Split/Majority Decision": 2.6
+      "KO/TKO": 13.38,
+      "Submission": 2.04,
+      "Unanimous Decision": 2.26,
+      "Split/Majority Decision": 2.4
     },
     "fighter_b": {
-      "KO/TKO": 11.45,
-      "Submission": 9.15,
-      "Unanimous Decision": 46.65,
-      "Split/Majority Decision": 6.65
+      "KO/TKO": 17.55,
+      "Submission": 1.78,
+      "Unanimous Decision": 53.27,
+      "Split/Majority Decision": 4.85
     }
   },
   "fight_level": {
-    "ko_tko_pct": 25.7,
-    "submission_pct": 11.75,
-    "decision_pct": 59.75,
-    "goes_the_distance_pct": 62.55,
-    "expected_fight_minutes": 12.15
+    "ko_tko_pct": 30.93,
+    "submission_pct": 3.82,
+    "decision_pct": 62.78,
+    "goes_the_distance_pct": 65.25,
+    "expected_fight_minutes": 12.32
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 120,
-      "round_2": 110,
-      "round_3": 107
+      "round_1": 549,
+      "round_2": 500,
+      "round_3": 493
     },
     "fighter_b": {
-      "round_1": 141,
-      "round_2": 135,
-      "round_3": 136
+      "round_1": 697,
+      "round_2": 622,
+      "round_3": 614
     }
   },
   "value_betting": {
     "fighter_a": {
-      "market_moneyline": 410,
-      "market_decimal_odds": 5.1,
-      "market_implied_prob_pct": 19.61,
-      "model_win_prob_pct": 23.97,
-      "edge_pct": 4.36,
-      "consensus_edge_pct": 1.21,
-      "kelly_fraction_full": 0.0543,
-      "kelly_fraction_half": 0.0271,
+      "market_moneyline": 417,
+      "market_decimal_odds": 5.17,
+      "market_implied_prob_pct": 19.34,
+      "model_win_prob_pct": 29.41,
+      "edge_pct": 10.07,
+      "consensus_edge_pct": -0.02,
+      "kelly_fraction_full": 0.1249,
+      "kelly_fraction_half": 0.0624,
       "model_sees_value": true,
-      "consensus_agrees": true,
+      "consensus_agrees": false,
       "value_bet": false
     },
     "fighter_b": {
-      "market_moneyline": -575,
-      "market_decimal_odds": 1.174,
-      "market_implied_prob_pct": 85.19,
-      "model_win_prob_pct": 76.03,
-      "edge_pct": -9.16,
-      "consensus_edge_pct": -6.0,
-      "kelly_fraction_full": -0.6181,
+      "market_moneyline": -582,
+      "market_decimal_odds": 1.172,
+      "market_implied_prob_pct": 85.34,
+      "model_win_prob_pct": 70.59,
+      "edge_pct": -14.75,
+      "consensus_edge_pct": -4.66,
+      "kelly_fraction_full": -1.006,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
       "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+    }
   }
 }

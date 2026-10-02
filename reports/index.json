@@ -1146,9 +1146,10 @@
     },
     "Andrey Pulyaev vs Damian Pinas": {
       "win_probability": {
-        "fighter_a_pct": 23.97,
-        "fighter_b_pct": 76.03,
-        "draw_pct": 2.8
+        "fighter_a_pct": 29.41,
+        "fighter_b_pct": 70.59,
+        "draw_pct": 2.47,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": false,
@@ -1206,9 +1207,9 @@
     },
     "Deiveson Figueiredo vs Payton Talbott": {
       "win_probability": {
-        "fighter_a_pct": 51.21,
-        "fighter_b_pct": 48.79,
-        "draw_pct": 6.75
+        "fighter_a_pct": 25.18,
+        "fighter_b_pct": 74.82,
+        "draw_pct": 1.7
       },
       "value_flags": {
         "fighter_a": false,
@@ -1230,12 +1231,13 @@
     },
     "Ismael Bonfim vs Francisco Prado": {
       "win_probability": {
-        "fighter_a_pct": 81.45,
-        "fighter_b_pct": 18.55,
-        "draw_pct": 0.55
+        "fighter_a_pct": 71.93,
+        "fighter_b_pct": 28.07,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
-        "fighter_a": false,
+        "fighter_a": true,
         "fighter_b": false
       },
       "report_file": "reports/ismael-bonfim-vs-francisco-prado.json"
@@ -1255,9 +1257,9 @@
     },
     "SuYoung You vs Cody Chovancek": {
       "win_probability": {
-        "fighter_a_pct": 51.21,
-        "fighter_b_pct": 48.79,
-        "draw_pct": 6.75
+        "fighter_a_pct": 77.27,
+        "fighter_b_pct": 22.73,
+        "draw_pct": 4.1
       },
       "value_flags": {
         "fighter_a": false,
@@ -1375,9 +1377,9 @@
     },
     "Erin Blanchfield vs Jasmine Jasudavicius": {
       "win_probability": {
-        "fighter_a_pct": 50.05,
-        "fighter_b_pct": 49.95,
-        "draw_pct": 6.5
+        "fighter_a_pct": 82.96,
+        "fighter_b_pct": 17.04,
+        "draw_pct": 1.1
       },
       "value_flags": {
         "fighter_a": false,
@@ -1399,9 +1401,9 @@
     },
     "Marcus McGhee vs Anthony Romero": {
       "win_probability": {
-        "fighter_a_pct": 51.38,
-        "fighter_b_pct": 48.62,
-        "draw_pct": 5.8
+        "fighter_a_pct": 17.05,
+        "fighter_b_pct": 82.95,
+        "draw_pct": 0.0
       },
       "value_flags": {
         "fighter_a": false,
