@@ -4,15 +4,15 @@
     "fighter_b": "Anthony Romero",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.674,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.739,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     },
     "fighter_b_flags": {
       "active_injury": false,
@@ -24,48 +24,49 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 17.05,
-    "fighter_b_pct": 82.95,
-    "draw_pct": 0.0
+    "fighter_a_pct": 25.98,
+    "fighter_b_pct": 74.02,
+    "draw_pct": 1.26,
+    "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
     "applied": true,
     "model_weight": 0.4,
-    "fighter_a_pct": 55.24,
-    "fighter_b_pct": 44.76,
+    "fighter_a_pct": 54.69,
+    "fighter_b_pct": 45.31,
     "market_devig_a_pct": 80.7
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 7.85,
-      "Submission": 9.2,
-      "Unanimous Decision": 0.0,
-      "Split/Majority Decision": 0.0
+      "KO/TKO": 8.46,
+      "Submission": 6.08,
+      "Unanimous Decision": 0.37,
+      "Split/Majority Decision": 0.58
     },
     "fighter_b": {
-      "KO/TKO": 10.5,
-      "Submission": 3.3,
-      "Unanimous Decision": 69.15,
-      "Split/Majority Decision": 0.0
+      "KO/TKO": 8.58,
+      "Submission": 3.26,
+      "Unanimous Decision": 69.47,
+      "Split/Majority Decision": 1.94
     }
   },
   "fight_level": {
-    "ko_tko_pct": 18.35,
-    "submission_pct": 12.5,
-    "decision_pct": 69.15,
-    "goes_the_distance_pct": 69.15,
-    "expected_fight_minutes": 12.6
+    "ko_tko_pct": 17.04,
+    "submission_pct": 9.34,
+    "decision_pct": 72.36,
+    "goes_the_distance_pct": 73.62,
+    "expected_fight_minutes": 13.04
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 116,
-      "round_2": 116,
-      "round_3": 109
+      "round_1": 443,
+      "round_2": 513,
+      "round_3": 498
     },
     "fighter_b": {
-      "round_1": 115,
-      "round_2": 75,
-      "round_3": 86
+      "round_1": 414,
+      "round_2": 379,
+      "round_3": 391
     }
   },
   "value_betting": {
@@ -73,10 +74,10 @@
       "market_moneyline": -530,
       "market_decimal_odds": 1.189,
       "market_implied_prob_pct": 84.13,
-      "model_win_prob_pct": 17.05,
-      "edge_pct": -67.08,
-      "consensus_edge_pct": -28.89,
-      "kelly_fraction_full": -4.2259,
+      "model_win_prob_pct": 25.98,
+      "edge_pct": -58.14,
+      "consensus_edge_pct": -29.43,
+      "kelly_fraction_full": -3.6631,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
@@ -86,16 +87,14 @@
       "market_moneyline": 397,
       "market_decimal_odds": 4.97,
       "market_implied_prob_pct": 20.12,
-      "model_win_prob_pct": 82.95,
-      "edge_pct": 62.83,
-      "consensus_edge_pct": 24.64,
-      "kelly_fraction_full": 0.7866,
-      "kelly_fraction_half": 0.3933,
+      "model_win_prob_pct": 74.02,
+      "edge_pct": 53.9,
+      "consensus_edge_pct": 25.18,
+      "kelly_fraction_full": 0.6747,
+      "kelly_fraction_half": 0.3374,
       "model_sees_value": true,
       "consensus_agrees": true,
-      "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+      "value_bet": true
+    }
   }
 }

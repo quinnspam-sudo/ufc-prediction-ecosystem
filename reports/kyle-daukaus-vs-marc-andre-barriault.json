@@ -4,68 +4,69 @@
     "fighter_b": "Marc-Andre Barriault",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.595,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.493,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     },
     "fighter_b_flags": {
       "active_injury": false,
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 49.33,
-    "fighter_b_pct": 50.67,
-    "draw_pct": 6.05
+    "fighter_a_pct": 50.85,
+    "fighter_b_pct": 49.15,
+    "draw_pct": 5.13,
+    "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
     "applied": false,
     "model_weight": 1.0,
-    "fighter_a_pct": 49.33,
-    "fighter_b_pct": 50.67,
+    "fighter_a_pct": 51.22,
+    "fighter_b_pct": 48.78,
     "market_devig_a_pct": null
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 12.15,
-      "Submission": 7.7,
-      "Unanimous Decision": 19.25,
-      "Split/Majority Decision": 7.25
+      "KO/TKO": 9.86,
+      "Submission": 18.82,
+      "Unanimous Decision": 14.08,
+      "Split/Majority Decision": 5.83
     },
     "fighter_b": {
-      "KO/TKO": 10.6,
-      "Submission": 7.8,
-      "Unanimous Decision": 20.4,
-      "Split/Majority Decision": 8.8
+      "KO/TKO": 15.18,
+      "Submission": 2.89,
+      "Unanimous Decision": 21.41,
+      "Split/Majority Decision": 6.8
     }
   },
   "fight_level": {
-    "ko_tko_pct": 22.75,
-    "submission_pct": 15.5,
-    "decision_pct": 55.7,
-    "goes_the_distance_pct": 61.75,
-    "expected_fight_minutes": 12.02
+    "ko_tko_pct": 25.04,
+    "submission_pct": 21.71,
+    "decision_pct": 48.12,
+    "goes_the_distance_pct": 53.25,
+    "expected_fight_minutes": 11.3
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 132,
-      "round_2": 138,
-      "round_3": 127
+      "round_1": 1069,
+      "round_2": 981,
+      "round_3": 818
     },
     "fighter_b": {
-      "round_1": 150,
-      "round_2": 108,
-      "round_3": 110
+      "round_1": 705,
+      "round_2": 539,
+      "round_3": 563
     }
   },
   "value_betting": {
@@ -73,10 +74,10 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 49.33,
-      "edge_pct": -3.05,
-      "consensus_edge_pct": -3.05,
-      "kelly_fraction_full": -0.064,
+      "model_win_prob_pct": 50.85,
+      "edge_pct": -1.53,
+      "consensus_edge_pct": -1.16,
+      "kelly_fraction_full": -0.0321,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
@@ -86,16 +87,14 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 50.67,
-      "edge_pct": -1.72,
-      "consensus_edge_pct": -1.72,
-      "kelly_fraction_full": -0.036,
+      "model_win_prob_pct": 49.15,
+      "edge_pct": -3.23,
+      "consensus_edge_pct": -3.6,
+      "kelly_fraction_full": -0.0679,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
       "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+    }
   }
 }
