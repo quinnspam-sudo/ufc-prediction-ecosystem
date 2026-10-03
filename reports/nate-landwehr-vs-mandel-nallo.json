@@ -4,15 +4,15 @@
     "fighter_b": "Mandel Nallo",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.568,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.544,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     },
     "fighter_b_flags": {
       "active_injury": false,
@@ -24,48 +24,49 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 17.45,
-    "fighter_b_pct": 82.55,
-    "draw_pct": 0.0
+    "fighter_a_pct": 27.7,
+    "fighter_b_pct": 72.3,
+    "draw_pct": 0.0,
+    "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
     "applied": false,
     "model_weight": 1.0,
-    "fighter_a_pct": 17.45,
-    "fighter_b_pct": 82.55,
+    "fighter_a_pct": 18.14,
+    "fighter_b_pct": 81.86,
     "market_devig_a_pct": null
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 8.85,
-      "Submission": 8.6,
+      "KO/TKO": 7.15,
+      "Submission": 10.99,
       "Unanimous Decision": 0.0,
       "Split/Majority Decision": 0.0
     },
     "fighter_b": {
-      "KO/TKO": 20.55,
-      "Submission": 3.0,
-      "Unanimous Decision": 59.0,
+      "KO/TKO": 21.57,
+      "Submission": 2.33,
+      "Unanimous Decision": 57.96,
       "Split/Majority Decision": 0.0
     }
   },
   "fight_level": {
-    "ko_tko_pct": 29.4,
-    "submission_pct": 11.6,
-    "decision_pct": 59.0,
-    "goes_the_distance_pct": 59.0,
-    "expected_fight_minutes": 11.81
+    "ko_tko_pct": 28.72,
+    "submission_pct": 13.32,
+    "decision_pct": 57.96,
+    "goes_the_distance_pct": 57.96,
+    "expected_fight_minutes": 11.67
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 114,
-      "round_2": 131,
-      "round_3": 104
+      "round_1": 665,
+      "round_2": 610,
+      "round_3": 539
     },
     "fighter_b": {
-      "round_1": 187,
-      "round_2": 131,
-      "round_3": 153
+      "round_1": 946,
+      "round_2": 725,
+      "round_3": 719
     }
   },
   "value_betting": {
@@ -73,10 +74,10 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 17.45,
-      "edge_pct": -34.93,
-      "consensus_edge_pct": -34.93,
-      "kelly_fraction_full": -0.7336,
+      "model_win_prob_pct": 27.7,
+      "edge_pct": -24.68,
+      "consensus_edge_pct": -34.24,
+      "kelly_fraction_full": -0.5183,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
@@ -86,16 +87,14 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 82.55,
-      "edge_pct": 30.17,
-      "consensus_edge_pct": 30.17,
-      "kelly_fraction_full": 0.6335,
-      "kelly_fraction_half": 0.3168,
+      "model_win_prob_pct": 72.3,
+      "edge_pct": 19.92,
+      "consensus_edge_pct": 29.48,
+      "kelly_fraction_full": 0.4183,
+      "kelly_fraction_half": 0.2092,
       "model_sees_value": true,
       "consensus_agrees": true,
-      "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+      "value_bet": true
+    }
   }
 }

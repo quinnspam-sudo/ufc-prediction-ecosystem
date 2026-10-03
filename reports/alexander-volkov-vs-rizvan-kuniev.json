@@ -1,0 +1,101 @@
+{
+  "matchup": {
+    "fighter_a": "Alexander Volkov",
+    "fighter_b": "Rizvan Kuniev",
+    "scheduled_rounds": 3,
+    "is_title_fight": false,
+    "iterations": 2000,
+    "avg_rounds_simulated": 2.538,
+    "fighter_a_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": true,
+      "needs_real_stats": true
+    },
+    "fighter_b_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": false,
+      "needs_real_stats": false
+    }
+  },
+  "win_probability": {
+    "fighter_a_pct": 23.44,
+    "fighter_b_pct": 76.56,
+    "draw_pct": 0.8
+  },
+  "consensus_forecast": {
+    "applied": false,
+    "model_weight": 1.0,
+    "fighter_a_pct": 23.44,
+    "fighter_b_pct": 76.56,
+    "market_devig_a_pct": null
+  },
+  "method_of_victory_matrix": {
+    "fighter_a": {
+      "KO/TKO": 16.55,
+      "Submission": 5.35,
+      "Unanimous Decision": 0.6,
+      "Split/Majority Decision": 0.75
+    },
+    "fighter_b": {
+      "KO/TKO": 19.9,
+      "Submission": 1.05,
+      "Unanimous Decision": 53.35,
+      "Split/Majority Decision": 1.65
+    }
+  },
+  "fight_level": {
+    "ko_tko_pct": 36.45,
+    "submission_pct": 6.4,
+    "decision_pct": 56.35,
+    "goes_the_distance_pct": 57.15,
+    "expected_fight_minutes": 11.62
+  },
+  "finish_round_distribution": {
+    "fighter_a": {
+      "round_1": 149,
+      "round_2": 156,
+      "round_3": 133
+    },
+    "fighter_b": {
+      "round_1": 174,
+      "round_2": 121,
+      "round_3": 124
+    }
+  },
+  "value_betting": {
+    "fighter_a": {
+      "market_moneyline": -110,
+      "market_decimal_odds": 1.909,
+      "market_implied_prob_pct": 52.38,
+      "model_win_prob_pct": 23.44,
+      "edge_pct": -28.94,
+      "consensus_edge_pct": -28.94,
+      "kelly_fraction_full": -0.6078,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
+      "value_bet": false
+    },
+    "fighter_b": {
+      "market_moneyline": -110,
+      "market_decimal_odds": 1.909,
+      "market_implied_prob_pct": 52.38,
+      "model_win_prob_pct": 76.56,
+      "edge_pct": 24.18,
+      "consensus_edge_pct": 24.18,
+      "kelly_fraction_full": 0.5078,
+      "kelly_fraction_half": 0.2539,
+      "model_sees_value": true,
+      "consensus_agrees": true,
+      "value_bet": false
+    },
+    "insufficient_data": true,
+    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+  }
+}

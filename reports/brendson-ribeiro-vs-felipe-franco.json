@@ -1,0 +1,100 @@
+{
+  "matchup": {
+    "fighter_a": "Brendson Ribeiro",
+    "fighter_b": "Felipe Franco",
+    "scheduled_rounds": 3,
+    "is_title_fight": false,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.557,
+    "fighter_a_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": false,
+      "needs_real_stats": false
+    },
+    "fighter_b_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": false,
+      "needs_real_stats": false
+    }
+  },
+  "win_probability": {
+    "fighter_a_pct": 30.37,
+    "fighter_b_pct": 69.63,
+    "draw_pct": 0.0,
+    "calibration_shrink_applied": 0.7
+  },
+  "consensus_forecast": {
+    "applied": true,
+    "model_weight": 0.4,
+    "fighter_a_pct": 25.9,
+    "fighter_b_pct": 74.1,
+    "market_devig_a_pct": 28.52
+  },
+  "method_of_victory_matrix": {
+    "fighter_a": {
+      "KO/TKO": 14.8,
+      "Submission": 7.16,
+      "Unanimous Decision": 0.0,
+      "Split/Majority Decision": 0.0
+    },
+    "fighter_b": {
+      "KO/TKO": 13.52,
+      "Submission": 5.77,
+      "Unanimous Decision": 58.75,
+      "Split/Majority Decision": 0.0
+    }
+  },
+  "fight_level": {
+    "ko_tko_pct": 28.32,
+    "submission_pct": 12.93,
+    "decision_pct": 58.75,
+    "goes_the_distance_pct": 58.75,
+    "expected_fight_minutes": 11.75
+  },
+  "finish_round_distribution": {
+    "fighter_a": {
+      "round_1": 802,
+      "round_2": 728,
+      "round_3": 666
+    },
+    "fighter_b": {
+      "round_1": 745,
+      "round_2": 606,
+      "round_3": 578
+    }
+  },
+  "value_betting": {
+    "fighter_a": {
+      "market_moneyline": 237,
+      "market_decimal_odds": 3.37,
+      "market_implied_prob_pct": 29.67,
+      "model_win_prob_pct": 30.37,
+      "edge_pct": 0.7,
+      "consensus_edge_pct": -3.78,
+      "kelly_fraction_full": 0.0099,
+      "kelly_fraction_half": 0.005,
+      "model_sees_value": true,
+      "consensus_agrees": false,
+      "value_bet": false
+    },
+    "fighter_b": {
+      "market_moneyline": -290,
+      "market_decimal_odds": 1.345,
+      "market_implied_prob_pct": 74.36,
+      "model_win_prob_pct": 69.63,
+      "edge_pct": -4.73,
+      "consensus_edge_pct": -0.26,
+      "kelly_fraction_full": -0.1845,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
+      "value_bet": false
+    }
+  }
+}

@@ -4,8 +4,8 @@
     "fighter_b": "Nick Galanti",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.445,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.369,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -19,53 +19,54 @@
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 16.3,
-    "fighter_b_pct": 83.7,
-    "draw_pct": 0.0
+    "fighter_a_pct": 25.09,
+    "fighter_b_pct": 74.91,
+    "draw_pct": 0.0,
+    "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
     "applied": false,
     "model_weight": 1.0,
-    "fighter_a_pct": 16.3,
-    "fighter_b_pct": 83.7,
+    "fighter_a_pct": 14.42,
+    "fighter_b_pct": 85.58,
     "market_devig_a_pct": null
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 13.45,
-      "Submission": 2.85,
+      "KO/TKO": 12.36,
+      "Submission": 2.06,
       "Unanimous Decision": 0.0,
       "Split/Majority Decision": 0.0
     },
     "fighter_b": {
-      "KO/TKO": 13.5,
-      "Submission": 18.35,
-      "Unanimous Decision": 51.85,
+      "KO/TKO": 41.23,
+      "Submission": 1.76,
+      "Unanimous Decision": 42.59,
       "Split/Majority Decision": 0.0
     }
   },
   "fight_level": {
-    "ko_tko_pct": 26.95,
-    "submission_pct": 21.2,
-    "decision_pct": 51.85,
-    "goes_the_distance_pct": 51.85,
-    "expected_fight_minutes": 11.02
+    "ko_tko_pct": 53.59,
+    "submission_pct": 3.82,
+    "decision_pct": 42.59,
+    "goes_the_distance_pct": 42.59,
+    "expected_fight_minutes": 10.41
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 125,
-      "round_2": 112,
-      "round_3": 89
+      "round_1": 587,
+      "round_2": 466,
+      "round_3": 389
     },
     "fighter_b": {
-      "round_1": 270,
-      "round_2": 209,
-      "round_3": 158
+      "round_1": 1596,
+      "round_2": 1474,
+      "round_3": 1229
     }
   },
   "value_betting": {
@@ -73,10 +74,10 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 16.3,
-      "edge_pct": -36.08,
-      "consensus_edge_pct": -36.08,
-      "kelly_fraction_full": -0.7577,
+      "model_win_prob_pct": 25.09,
+      "edge_pct": -27.29,
+      "consensus_edge_pct": -37.96,
+      "kelly_fraction_full": -0.573,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
@@ -86,16 +87,14 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 83.7,
-      "edge_pct": 31.32,
-      "consensus_edge_pct": 31.32,
-      "kelly_fraction_full": 0.6577,
-      "kelly_fraction_half": 0.3288,
+      "model_win_prob_pct": 74.91,
+      "edge_pct": 22.53,
+      "consensus_edge_pct": 33.2,
+      "kelly_fraction_full": 0.473,
+      "kelly_fraction_half": 0.2365,
       "model_sees_value": true,
       "consensus_agrees": true,
-      "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+      "value_bet": true
+    }
   }
 }

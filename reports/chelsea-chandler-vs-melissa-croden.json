@@ -4,8 +4,8 @@
     "fighter_b": "Melissa Croden",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.513,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.558,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -19,53 +19,54 @@
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 14.3,
-    "fighter_b_pct": 85.7,
-    "draw_pct": 0.0
+    "fighter_a_pct": 24.54,
+    "fighter_b_pct": 75.46,
+    "draw_pct": 0.0,
+    "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
     "applied": false,
     "model_weight": 1.0,
-    "fighter_a_pct": 14.3,
-    "fighter_b_pct": 85.7,
+    "fighter_a_pct": 13.63,
+    "fighter_b_pct": 86.37,
     "market_devig_a_pct": null
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 5.9,
-      "Submission": 8.4,
+      "KO/TKO": 6.37,
+      "Submission": 7.26,
       "Unanimous Decision": 0.0,
       "Split/Majority Decision": 0.0
     },
     "fighter_b": {
-      "KO/TKO": 8.0,
-      "Submission": 21.7,
-      "Unanimous Decision": 56.0,
+      "KO/TKO": 10.14,
+      "Submission": 17.34,
+      "Unanimous Decision": 58.89,
       "Split/Majority Decision": 0.0
     }
   },
   "fight_level": {
-    "ko_tko_pct": 13.9,
-    "submission_pct": 30.1,
-    "decision_pct": 56.0,
-    "goes_the_distance_pct": 56.0,
-    "expected_fight_minutes": 11.46
+    "ko_tko_pct": 16.51,
+    "submission_pct": 24.6,
+    "decision_pct": 58.89,
+    "goes_the_distance_pct": 58.89,
+    "expected_fight_minutes": 11.76
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 100,
-      "round_2": 109,
-      "round_3": 77
+      "round_1": 495,
+      "round_2": 453,
+      "round_3": 415
     },
     "fighter_b": {
-      "round_1": 234,
-      "round_2": 198,
-      "round_3": 162
+      "round_1": 1025,
+      "round_2": 923,
+      "round_3": 800
     }
   },
   "value_betting": {
@@ -73,10 +74,10 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 14.3,
-      "edge_pct": -38.08,
-      "consensus_edge_pct": -38.08,
-      "kelly_fraction_full": -0.7997,
+      "model_win_prob_pct": 24.54,
+      "edge_pct": -27.84,
+      "consensus_edge_pct": -38.75,
+      "kelly_fraction_full": -0.5846,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
@@ -86,16 +87,14 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 85.7,
-      "edge_pct": 33.32,
-      "consensus_edge_pct": 33.32,
-      "kelly_fraction_full": 0.6997,
-      "kelly_fraction_half": 0.3498,
+      "model_win_prob_pct": 75.46,
+      "edge_pct": 23.08,
+      "consensus_edge_pct": 33.99,
+      "kelly_fraction_full": 0.4846,
+      "kelly_fraction_half": 0.2423,
       "model_sees_value": true,
       "consensus_agrees": true,
-      "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+      "value_bet": true
+    }
   }
 }

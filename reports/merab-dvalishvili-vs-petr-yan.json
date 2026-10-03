@@ -1,0 +1,105 @@
+{
+  "matchup": {
+    "fighter_a": "Merab Dvalishvili",
+    "fighter_b": "Petr Yan",
+    "scheduled_rounds": 5,
+    "is_title_fight": false,
+    "iterations": 2000,
+    "avg_rounds_simulated": 3.922,
+    "fighter_a_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": true,
+      "needs_real_stats": true
+    },
+    "fighter_b_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": true,
+      "needs_real_stats": true
+    }
+  },
+  "win_probability": {
+    "fighter_a_pct": 52.16,
+    "fighter_b_pct": 47.84,
+    "draw_pct": 4.9
+  },
+  "consensus_forecast": {
+    "applied": true,
+    "model_weight": 0.4,
+    "fighter_a_pct": 44.45,
+    "fighter_b_pct": 55.55,
+    "market_devig_a_pct": 39.32
+  },
+  "method_of_victory_matrix": {
+    "fighter_a": {
+      "KO/TKO": 10.75,
+      "Submission": 15.4,
+      "Unanimous Decision": 17.15,
+      "Split/Majority Decision": 6.3
+    },
+    "fighter_b": {
+      "KO/TKO": 9.95,
+      "Submission": 14.25,
+      "Unanimous Decision": 14.45,
+      "Split/Majority Decision": 6.85
+    }
+  },
+  "fight_level": {
+    "ko_tko_pct": 20.7,
+    "submission_pct": 29.65,
+    "decision_pct": 44.75,
+    "goes_the_distance_pct": 49.65,
+    "expected_fight_minutes": 18.35
+  },
+  "finish_round_distribution": {
+    "fighter_a": {
+      "round_1": 100,
+      "round_2": 128,
+      "round_3": 111,
+      "round_4": 96,
+      "round_5": 88
+    },
+    "fighter_b": {
+      "round_1": 111,
+      "round_2": 106,
+      "round_3": 96,
+      "round_4": 99,
+      "round_5": 72
+    }
+  },
+  "value_betting": {
+    "fighter_a": {
+      "market_moneyline": 142,
+      "market_decimal_odds": 2.42,
+      "market_implied_prob_pct": 41.32,
+      "model_win_prob_pct": 52.16,
+      "edge_pct": 10.83,
+      "consensus_edge_pct": 3.13,
+      "kelly_fraction_full": 0.1846,
+      "kelly_fraction_half": 0.0923,
+      "model_sees_value": true,
+      "consensus_agrees": true,
+      "value_bet": false
+    },
+    "fighter_b": {
+      "market_moneyline": -176,
+      "market_decimal_odds": 1.568,
+      "market_implied_prob_pct": 63.77,
+      "model_win_prob_pct": 47.84,
+      "edge_pct": -15.92,
+      "consensus_edge_pct": -8.22,
+      "kelly_fraction_full": -0.4395,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
+      "value_bet": false
+    },
+    "insufficient_data": true,
+    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+  }
+}

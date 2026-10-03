@@ -4,8 +4,8 @@
     "fighter_b": "Mick Parkin",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.522,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.564,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -19,53 +19,54 @@
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 31.76,
-    "fighter_b_pct": 68.24,
-    "draw_pct": 2.7
+    "fighter_a_pct": 34.91,
+    "fighter_b_pct": 65.09,
+    "draw_pct": 2.43,
+    "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
     "applied": false,
     "model_weight": 1.0,
-    "fighter_a_pct": 31.76,
-    "fighter_b_pct": 68.24,
+    "fighter_a_pct": 28.45,
+    "fighter_b_pct": 71.55,
     "market_devig_a_pct": null
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 18.85,
-      "Submission": 5.0,
-      "Unanimous Decision": 4.1,
-      "Split/Majority Decision": 2.95
+      "KO/TKO": 17.85,
+      "Submission": 5.35,
+      "Unanimous Decision": 2.37,
+      "Split/Majority Decision": 2.19
     },
     "fighter_b": {
-      "KO/TKO": 15.4,
-      "Submission": 5.35,
-      "Unanimous Decision": 39.55,
-      "Split/Majority Decision": 6.1
+      "KO/TKO": 14.07,
+      "Submission": 3.53,
+      "Unanimous Decision": 47.36,
+      "Split/Majority Decision": 4.85
     }
   },
   "fight_level": {
-    "ko_tko_pct": 34.25,
-    "submission_pct": 10.35,
-    "decision_pct": 52.7,
-    "goes_the_distance_pct": 55.4,
-    "expected_fight_minutes": 11.49
+    "ko_tko_pct": 31.92,
+    "submission_pct": 8.88,
+    "decision_pct": 56.77,
+    "goes_the_distance_pct": 59.2,
+    "expected_fight_minutes": 11.8
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 166,
-      "round_2": 159,
-      "round_3": 152
+      "round_1": 829,
+      "round_2": 811,
+      "round_3": 680
     },
     "fighter_b": {
-      "round_1": 163,
-      "round_2": 140,
-      "round_3": 112
+      "round_1": 660,
+      "round_2": 568,
+      "round_3": 532
     }
   },
   "value_betting": {
@@ -73,10 +74,10 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 31.76,
-      "edge_pct": -20.62,
-      "consensus_edge_pct": -20.62,
-      "kelly_fraction_full": -0.4331,
+      "model_win_prob_pct": 34.91,
+      "edge_pct": -17.47,
+      "consensus_edge_pct": -23.93,
+      "kelly_fraction_full": -0.3668,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
@@ -86,16 +87,14 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 68.24,
-      "edge_pct": 15.86,
-      "consensus_edge_pct": 15.86,
-      "kelly_fraction_full": 0.3331,
-      "kelly_fraction_half": 0.1665,
+      "model_win_prob_pct": 65.09,
+      "edge_pct": 12.7,
+      "consensus_edge_pct": 19.17,
+      "kelly_fraction_full": 0.2668,
+      "kelly_fraction_half": 0.1334,
       "model_sees_value": true,
       "consensus_agrees": true,
-      "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+      "value_bet": true
+    }
   }
 }
