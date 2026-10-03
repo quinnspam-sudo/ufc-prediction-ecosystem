@@ -1122,9 +1122,9 @@
     },
     "Johnny Walker vs Mick Parkin": {
       "win_probability": {
-        "fighter_a_pct": 50.27,
-        "fighter_b_pct": 49.73,
-        "draw_pct": 6.2
+        "fighter_a_pct": 31.76,
+        "fighter_b_pct": 68.24,
+        "draw_pct": 2.7
       },
       "value_flags": {
         "fighter_a": false,
@@ -1184,9 +1184,9 @@
     },
     "Roberto Soldi\u0107 vs Khaos Williams": {
       "win_probability": {
-        "fighter_a_pct": 49.81,
-        "fighter_b_pct": 50.19,
-        "draw_pct": 5.85
+        "fighter_a_pct": 86.27,
+        "fighter_b_pct": 13.73,
+        "draw_pct": 0.2
       },
       "value_flags": {
         "fighter_a": false,
@@ -1196,12 +1196,13 @@
     },
     "King Green vs Esteban Ribovics": {
       "win_probability": {
-        "fighter_a_pct": 22.15,
-        "fighter_b_pct": 77.85,
-        "draw_pct": 1.35
+        "fighter_a_pct": 75.72,
+        "fighter_b_pct": 24.28,
+        "draw_pct": 0.33,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
-        "fighter_a": false,
+        "fighter_a": true,
         "fighter_b": false
       },
       "report_file": "reports/king-green-vs-esteban-ribovics.json"
@@ -1294,13 +1295,14 @@
     },
     "Katlyn Cerminara vs Jamey-Lyn Horth": {
       "win_probability": {
-        "fighter_a_pct": 27.34,
-        "fighter_b_pct": 72.66,
-        "draw_pct": 4.55
+        "fighter_a_pct": 22.06,
+        "fighter_b_pct": 77.94,
+        "draw_pct": 0.61,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": false,
-        "fighter_b": false
+        "fighter_b": true
       },
       "report_file": "reports/katlyn-cerminara-vs-jamey-lyn-horth.json"
     },
@@ -1318,12 +1320,13 @@
     },
     "Gilbert Urbina vs Julien LeBlanc": {
       "win_probability": {
-        "fighter_a_pct": 23.85,
-        "fighter_b_pct": 76.15,
-        "draw_pct": 0.0
+        "fighter_a_pct": 75.75,
+        "fighter_b_pct": 24.25,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
-        "fighter_a": false,
+        "fighter_a": true,
         "fighter_b": false
       },
       "report_file": "reports/gilbert-urbina-vs-julien-leblanc.json"
@@ -1391,9 +1394,9 @@
     },
     "Mike Malott vs Joaquin Buckley": {
       "win_probability": {
-        "fighter_a_pct": 49.24,
-        "fighter_b_pct": 50.76,
-        "draw_pct": 4.65
+        "fighter_a_pct": 52.7,
+        "fighter_b_pct": 47.3,
+        "draw_pct": 5.7
       },
       "value_flags": {
         "fighter_a": false,
@@ -1415,9 +1418,9 @@
     },
     "Julien LeBlanc vs Nick Galanti": {
       "win_probability": {
-        "fighter_a_pct": 49.33,
-        "fighter_b_pct": 50.67,
-        "draw_pct": 6.05
+        "fighter_a_pct": 16.3,
+        "fighter_b_pct": 83.7,
+        "draw_pct": 0.0
       },
       "value_flags": {
         "fighter_a": false,

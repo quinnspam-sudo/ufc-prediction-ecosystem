@@ -4,15 +4,15 @@
     "fighter_b": "Esteban Ribovics",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.621,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.677,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     },
     "fighter_b_flags": {
       "active_injury": false,
@@ -24,48 +24,49 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 22.15,
-    "fighter_b_pct": 77.85,
-    "draw_pct": 1.35
+    "fighter_a_pct": 75.72,
+    "fighter_b_pct": 24.28,
+    "draw_pct": 0.33,
+    "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
     "applied": true,
     "model_weight": 0.4,
-    "fighter_a_pct": 29.41,
-    "fighter_b_pct": 70.59,
-    "market_devig_a_pct": 34.25
+    "fighter_a_pct": 55.29,
+    "fighter_b_pct": 44.71,
+    "market_devig_a_pct": 34.32
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 8.65,
-      "Submission": 10.25,
-      "Unanimous Decision": 1.55,
-      "Split/Majority Decision": 1.4
+      "KO/TKO": 10.07,
+      "Submission": 8.37,
+      "Unanimous Decision": 67.17,
+      "Split/Majority Decision": 0.85
     },
     "fighter_b": {
-      "KO/TKO": 11.9,
-      "Submission": 4.8,
-      "Unanimous Decision": 56.2,
-      "Split/Majority Decision": 3.9
+      "KO/TKO": 8.96,
+      "Submission": 4.12,
+      "Unanimous Decision": 0.06,
+      "Split/Majority Decision": 0.07
     }
   },
   "fight_level": {
-    "ko_tko_pct": 20.55,
-    "submission_pct": 15.05,
-    "decision_pct": 63.05,
-    "goes_the_distance_pct": 64.4,
-    "expected_fight_minutes": 12.21
+    "ko_tko_pct": 19.03,
+    "submission_pct": 12.49,
+    "decision_pct": 68.15,
+    "goes_the_distance_pct": 68.48,
+    "expected_fight_minutes": 12.6
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 137,
-      "round_2": 122,
-      "round_3": 119
+      "round_1": 632,
+      "round_2": 633,
+      "round_3": 579
     },
     "fighter_b": {
-      "round_1": 131,
-      "round_2": 100,
-      "round_3": 103
+      "round_1": 457,
+      "round_2": 418,
+      "round_3": 433
     }
   },
   "value_betting": {
@@ -73,29 +74,27 @@
       "market_moneyline": 180,
       "market_decimal_odds": 2.8,
       "market_implied_prob_pct": 35.71,
-      "model_win_prob_pct": 22.15,
-      "edge_pct": -13.57,
-      "consensus_edge_pct": -6.3,
-      "kelly_fraction_full": -0.211,
+      "model_win_prob_pct": 75.72,
+      "edge_pct": 40.01,
+      "consensus_edge_pct": 19.58,
+      "kelly_fraction_full": 0.6224,
+      "kelly_fraction_half": 0.3112,
+      "model_sees_value": true,
+      "consensus_agrees": true,
+      "value_bet": true
+    },
+    "fighter_b": {
+      "market_moneyline": -216,
+      "market_decimal_odds": 1.463,
+      "market_implied_prob_pct": 68.35,
+      "model_win_prob_pct": 24.28,
+      "edge_pct": -44.08,
+      "consensus_edge_pct": -23.64,
+      "kelly_fraction_full": -1.3929,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
       "value_bet": false
-    },
-    "fighter_b": {
-      "market_moneyline": -218,
-      "market_decimal_odds": 1.459,
-      "market_implied_prob_pct": 68.55,
-      "model_win_prob_pct": 77.85,
-      "edge_pct": 9.3,
-      "consensus_edge_pct": 2.04,
-      "kelly_fraction_full": 0.2957,
-      "kelly_fraction_half": 0.1478,
-      "model_sees_value": true,
-      "consensus_agrees": true,
-      "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+    }
   }
 }

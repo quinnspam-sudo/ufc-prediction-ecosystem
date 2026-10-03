@@ -4,15 +4,15 @@
     "fighter_b": "Jamey-Lyn Horth",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.715,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.773,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     },
     "fighter_b_flags": {
       "active_injury": false,
@@ -24,48 +24,49 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 27.34,
-    "fighter_b_pct": 72.66,
-    "draw_pct": 4.55
+    "fighter_a_pct": 22.06,
+    "fighter_b_pct": 77.94,
+    "draw_pct": 0.61,
+    "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
     "applied": false,
     "model_weight": 1.0,
-    "fighter_a_pct": 27.34,
-    "fighter_b_pct": 72.66,
+    "fighter_a_pct": 10.08,
+    "fighter_b_pct": 89.92,
     "market_devig_a_pct": null
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 4.4,
-      "Submission": 11.1,
-      "Unanimous Decision": 5.95,
-      "Split/Majority Decision": 4.65
+      "KO/TKO": 3.44,
+      "Submission": 6.39,
+      "Unanimous Decision": 0.05,
+      "Split/Majority Decision": 0.14
     },
     "fighter_b": {
-      "KO/TKO": 5.8,
-      "Submission": 6.05,
-      "Unanimous Decision": 50.45,
-      "Split/Majority Decision": 7.05
+      "KO/TKO": 5.67,
+      "Submission": 6.89,
+      "Unanimous Decision": 75.68,
+      "Split/Majority Decision": 1.13
     }
   },
   "fight_level": {
-    "ko_tko_pct": 10.2,
-    "submission_pct": 17.15,
-    "decision_pct": 68.1,
-    "goes_the_distance_pct": 72.65,
-    "expected_fight_minutes": 12.89
+    "ko_tko_pct": 9.11,
+    "submission_pct": 13.28,
+    "decision_pct": 77.0,
+    "goes_the_distance_pct": 77.61,
+    "expected_fight_minutes": 13.3
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 106,
-      "round_2": 109,
-      "round_3": 95
+      "round_1": 318,
+      "round_2": 338,
+      "round_3": 327
     },
     "fighter_b": {
-      "round_1": 92,
-      "round_2": 65,
-      "round_3": 80
+      "round_1": 443,
+      "round_2": 412,
+      "round_3": 401
     }
   },
   "value_betting": {
@@ -73,10 +74,10 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 27.34,
-      "edge_pct": -25.04,
-      "consensus_edge_pct": -25.04,
-      "kelly_fraction_full": -0.5258,
+      "model_win_prob_pct": 22.06,
+      "edge_pct": -30.32,
+      "consensus_edge_pct": -42.3,
+      "kelly_fraction_full": -0.6368,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
@@ -86,16 +87,14 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 72.66,
-      "edge_pct": 20.27,
-      "consensus_edge_pct": 20.27,
-      "kelly_fraction_full": 0.4258,
-      "kelly_fraction_half": 0.2129,
+      "model_win_prob_pct": 77.94,
+      "edge_pct": 25.56,
+      "consensus_edge_pct": 37.54,
+      "kelly_fraction_full": 0.5368,
+      "kelly_fraction_half": 0.2684,
       "model_sees_value": true,
       "consensus_agrees": true,
-      "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+      "value_bet": true
+    }
   }
 }
