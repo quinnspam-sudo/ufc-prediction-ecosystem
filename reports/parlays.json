@@ -760,9 +760,9 @@
             {
               "matchup": "Allen Frye Jr. vs RJ Harris",
               "pick": "RJ Harris",
-              "moneyline": -250,
-              "decimal_odds": 1.4,
-              "consensus_prob": 0.7478,
+              "moneyline": -260,
+              "decimal_odds": 1.385,
+              "consensus_prob": 0.7493,
               "model_prob": 0.6878,
               "likely_method": "KO/TKO",
               "likely_method_pct": 47.22,
@@ -781,10 +781,10 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 36.39,
-          "combined_decimal_odds": 3.277,
-          "combined_american": 228,
-          "ev_per_unit": 0.1925,
+          "combined_prob_pct": 36.47,
+          "combined_decimal_odds": 3.241,
+          "combined_american": 224,
+          "ev_per_unit": 0.1821,
           "positive_ev": true
         },
         "5_leg": null

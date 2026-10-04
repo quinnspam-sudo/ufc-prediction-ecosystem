@@ -4,15 +4,15 @@
     "fighter_b": "Alice Pereira",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.691,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.803,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     },
     "fighter_b_flags": {
       "active_injury": false,
@@ -24,48 +24,49 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 85.2,
-    "fighter_b_pct": 14.8,
-    "draw_pct": 2.7
+    "fighter_a_pct": 61.19,
+    "fighter_b_pct": 38.81,
+    "draw_pct": 6.37,
+    "calibration_shrink_applied": 0.55
   },
   "consensus_forecast": {
     "applied": false,
     "model_weight": 1.0,
-    "fighter_a_pct": 85.2,
-    "fighter_b_pct": 14.8,
+    "fighter_a_pct": 70.35,
+    "fighter_b_pct": 29.65,
     "market_devig_a_pct": null
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 6.2,
-      "Submission": 10.9,
-      "Unanimous Decision": 62.2,
-      "Split/Majority Decision": 3.6
+      "KO/TKO": 6.12,
+      "Submission": 3.01,
+      "Unanimous Decision": 47.46,
+      "Split/Majority Decision": 9.28
     },
     "fighter_b": {
-      "KO/TKO": 8.0,
-      "Submission": 3.2,
-      "Unanimous Decision": 1.8,
-      "Split/Majority Decision": 1.4
+      "KO/TKO": 7.58,
+      "Submission": 3.05,
+      "Unanimous Decision": 10.63,
+      "Split/Majority Decision": 6.5
     }
   },
   "fight_level": {
-    "ko_tko_pct": 14.2,
-    "submission_pct": 14.1,
-    "decision_pct": 69.0,
-    "goes_the_distance_pct": 71.7,
-    "expected_fight_minutes": 12.74
+    "ko_tko_pct": 13.7,
+    "submission_pct": 6.06,
+    "decision_pct": 73.87,
+    "goes_the_distance_pct": 80.24,
+    "expected_fight_minutes": 13.52
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 128,
-      "round_2": 117,
-      "round_3": 97
+      "round_1": 285,
+      "round_2": 306,
+      "round_3": 322
     },
     "fighter_b": {
-      "round_1": 90,
-      "round_2": 66,
-      "round_3": 68
+      "round_1": 380,
+      "round_2": 330,
+      "round_3": 353
     }
   },
   "value_betting": {
@@ -73,29 +74,27 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 85.2,
-      "edge_pct": 32.82,
-      "consensus_edge_pct": 32.82,
-      "kelly_fraction_full": 0.6892,
-      "kelly_fraction_half": 0.3446,
+      "model_win_prob_pct": 61.19,
+      "edge_pct": 8.81,
+      "consensus_edge_pct": 17.97,
+      "kelly_fraction_full": 0.185,
+      "kelly_fraction_half": 0.0925,
       "model_sees_value": true,
       "consensus_agrees": true,
-      "value_bet": false
+      "value_bet": true
     },
     "fighter_b": {
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 14.8,
-      "edge_pct": -37.58,
-      "consensus_edge_pct": -37.58,
-      "kelly_fraction_full": -0.7892,
+      "model_win_prob_pct": 38.81,
+      "edge_pct": -13.57,
+      "consensus_edge_pct": -22.73,
+      "kelly_fraction_full": -0.285,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
       "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+    }
   }
 }

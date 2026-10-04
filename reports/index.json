@@ -1437,9 +1437,9 @@
     },
     "Melissa Gatto vs Ernesta Kareckaite": {
       "win_probability": {
-        "fighter_a_pct": 50.05,
-        "fighter_b_pct": 49.95,
-        "draw_pct": 6.5
+        "fighter_a_pct": 16.71,
+        "fighter_b_pct": 83.29,
+        "draw_pct": 1.25
       },
       "value_flags": {
         "fighter_a": false,
@@ -1449,12 +1449,13 @@
     },
     "Daria Zhelezniakova vs Alice Pereira": {
       "win_probability": {
-        "fighter_a_pct": 85.2,
-        "fighter_b_pct": 14.8,
-        "draw_pct": 2.7
+        "fighter_a_pct": 61.19,
+        "fighter_b_pct": 38.81,
+        "draw_pct": 6.37,
+        "calibration_shrink_applied": 0.55
       },
       "value_flags": {
-        "fighter_a": false,
+        "fighter_a": true,
         "fighter_b": false
       },
       "report_file": "reports/daria-zhelezniakova-vs-alice-pereira.json"
@@ -1511,9 +1512,9 @@
     },
     "Gerald Meerschaert vs Julius Walker": {
       "win_probability": {
-        "fighter_a_pct": 50.91,
-        "fighter_b_pct": 49.09,
-        "draw_pct": 6.1
+        "fighter_a_pct": 22.46,
+        "fighter_b_pct": 77.54,
+        "draw_pct": 0.05
       },
       "value_flags": {
         "fighter_a": false,
@@ -1559,9 +1560,9 @@
     },
     "Colby Thicknesse vs Asaf Chopurov": {
       "win_probability": {
-        "fighter_a_pct": 51.21,
-        "fighter_b_pct": 48.79,
-        "draw_pct": 6.75
+        "fighter_a_pct": 17.8,
+        "fighter_b_pct": 82.2,
+        "draw_pct": 0.0
       },
       "value_flags": {
         "fighter_a": false,
@@ -1571,12 +1572,13 @@
     },
     "Grant Dawson vs Nurullo Aliev": {
       "win_probability": {
-        "fighter_a_pct": 22.98,
-        "fighter_b_pct": 77.02,
-        "draw_pct": 2.75
+        "fighter_a_pct": 54.59,
+        "fighter_b_pct": 45.41,
+        "draw_pct": 5.97,
+        "calibration_shrink_applied": 0.55
       },
       "value_flags": {
-        "fighter_a": false,
+        "fighter_a": true,
         "fighter_b": false
       },
       "report_file": "reports/grant-dawson-vs-nurullo-aliev.json"
@@ -1608,12 +1610,13 @@
     },
     "Azamat Murzakanov vs Dominick Reyes": {
       "win_probability": {
-        "fighter_a_pct": 77.96,
-        "fighter_b_pct": 22.04,
-        "draw_pct": 2.9
+        "fighter_a_pct": 55.43,
+        "fighter_b_pct": 44.57,
+        "draw_pct": 5.79,
+        "calibration_shrink_applied": 0.55
       },
       "value_flags": {
-        "fighter_a": false,
+        "fighter_a": true,
         "fighter_b": false
       },
       "report_file": "reports/azamat-murzakanov-vs-dominick-reyes.json"

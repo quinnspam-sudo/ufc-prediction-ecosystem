@@ -4,8 +4,8 @@
     "fighter_b": "Dominick Reyes",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.542,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.596,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -19,53 +19,54 @@
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 77.96,
-    "fighter_b_pct": 22.04,
-    "draw_pct": 2.9
+    "fighter_a_pct": 55.43,
+    "fighter_b_pct": 44.57,
+    "draw_pct": 5.79,
+    "calibration_shrink_applied": 0.55
   },
   "consensus_forecast": {
     "applied": false,
     "model_weight": 1.0,
-    "fighter_a_pct": 77.96,
-    "fighter_b_pct": 22.04,
+    "fighter_a_pct": 59.88,
+    "fighter_b_pct": 40.12,
     "market_devig_a_pct": null
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 22.15,
-      "Submission": 3.25,
-      "Unanimous Decision": 46.45,
-      "Split/Majority Decision": 3.85
+      "KO/TKO": 17.69,
+      "Submission": 3.01,
+      "Unanimous Decision": 27.5,
+      "Split/Majority Decision": 8.21
     },
     "fighter_b": {
-      "KO/TKO": 12.5,
-      "Submission": 4.75,
-      "Unanimous Decision": 2.15,
-      "Split/Majority Decision": 2.0
+      "KO/TKO": 14.25,
+      "Submission": 2.99,
+      "Unanimous Decision": 13.92,
+      "Split/Majority Decision": 6.64
     }
   },
   "fight_level": {
-    "ko_tko_pct": 34.65,
-    "submission_pct": 8.0,
-    "decision_pct": 54.45,
-    "goes_the_distance_pct": 57.35,
-    "expected_fight_minutes": 11.64
+    "ko_tko_pct": 31.94,
+    "submission_pct": 6.0,
+    "decision_pct": 56.27,
+    "goes_the_distance_pct": 62.06,
+    "expected_fight_minutes": 12.03
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 175,
-      "round_2": 177,
-      "round_3": 156
+      "round_1": 748,
+      "round_2": 696,
+      "round_3": 626
     },
     "fighter_b": {
-      "round_1": 138,
-      "round_2": 113,
-      "round_3": 94
+      "round_1": 642,
+      "round_2": 562,
+      "round_3": 520
     }
   },
   "value_betting": {
@@ -73,29 +74,27 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 77.96,
-      "edge_pct": 25.58,
-      "consensus_edge_pct": 25.58,
-      "kelly_fraction_full": 0.5372,
-      "kelly_fraction_half": 0.2686,
+      "model_win_prob_pct": 55.43,
+      "edge_pct": 3.05,
+      "consensus_edge_pct": 7.5,
+      "kelly_fraction_full": 0.0641,
+      "kelly_fraction_half": 0.0321,
       "model_sees_value": true,
       "consensus_agrees": true,
-      "value_bet": false
+      "value_bet": true
     },
     "fighter_b": {
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 22.04,
-      "edge_pct": -30.34,
-      "consensus_edge_pct": -30.34,
-      "kelly_fraction_full": -0.6372,
+      "model_win_prob_pct": 44.57,
+      "edge_pct": -7.81,
+      "consensus_edge_pct": -12.26,
+      "kelly_fraction_full": -0.1641,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
       "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+    }
   }
 }
