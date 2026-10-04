@@ -478,10 +478,10 @@
               "pick": "Esteban Ribovics",
               "moneyline": -750,
               "decimal_odds": 1.133,
-              "consensus_prob": 0.8493,
-              "model_prob": 0.7497,
+              "consensus_prob": 0.8491,
+              "model_prob": 0.6959,
               "likely_method": "Unanimous Decision",
-              "likely_method_pct": 67.86,
+              "likely_method_pct": 67.83,
               "modal_finish_round": "round_1"
             },
             {
@@ -508,10 +508,10 @@
             }
           ],
           "leg_count": 4,
-          "combined_prob_pct": 44.73,
+          "combined_prob_pct": 44.72,
           "combined_decimal_odds": 1.87,
           "combined_american": 87,
-          "ev_per_unit": -0.1634,
+          "ev_per_unit": -0.1636,
           "positive_ev": false
         }
       }
@@ -652,10 +652,10 @@
               "pick": "Anthony Wint",
               "moneyline": -1500,
               "decimal_odds": 1.067,
-              "consensus_prob": 0.9021,
-              "model_prob": 0.7825,
+              "consensus_prob": 0.9019,
+              "model_prob": 0.7217,
               "likely_method": "KO/TKO",
-              "likely_method_pct": 54.63,
+              "likely_method_pct": 54.57,
               "modal_finish_round": "round_1"
             },
             {
@@ -671,10 +671,10 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 56.17,
+          "combined_prob_pct": 56.16,
           "combined_decimal_odds": 1.89,
           "combined_american": 89,
-          "ev_per_unit": 0.0617,
+          "ev_per_unit": 0.0615,
           "positive_ev": true
         },
         "5_leg": null
@@ -742,12 +742,54 @@
     },
     "UFC Fight Night: Allen vs. Duncan": {
       "card_type": "fight_night",
-      "eligible_legs": 2,
+      "eligible_legs": 3,
       "parlays": {
-        "3_leg": null,
+        "3_leg": {
+          "legs": [
+            {
+              "matchup": "Ismael Bonfim vs Francisco Prado",
+              "pick": "Ismael Bonfim",
+              "moneyline": -130,
+              "decimal_odds": 1.769,
+              "consensus_prob": 0.651,
+              "model_prob": 0.7193,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 64.15,
+              "modal_finish_round": "round_1"
+            },
+            {
+              "matchup": "Allen Frye Jr. vs RJ Harris",
+              "pick": "RJ Harris",
+              "moneyline": -250,
+              "decimal_odds": 1.4,
+              "consensus_prob": 0.7478,
+              "model_prob": 0.6878,
+              "likely_method": "KO/TKO",
+              "likely_method_pct": 47.22,
+              "modal_finish_round": "round_1"
+            },
+            {
+              "matchup": "Brendson Ribeiro vs Felipe Franco",
+              "pick": "Felipe Franco",
+              "moneyline": -310,
+              "decimal_odds": 1.323,
+              "consensus_prob": 0.7476,
+              "model_prob": 0.6542,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 58.75,
+              "modal_finish_round": "round_1"
+            }
+          ],
+          "leg_count": 3,
+          "combined_prob_pct": 36.39,
+          "combined_decimal_odds": 3.277,
+          "combined_american": 228,
+          "ev_per_unit": 0.1925,
+          "positive_ev": true
+        },
         "5_leg": null
       },
-      "note": "Only 2 eligible legs; 3_leg, 5_leg not buildable."
+      "note": "Only 3 eligible legs; 5_leg not buildable."
     }
   },
   "min_leg_consensus_prob": 0.6
