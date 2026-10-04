@@ -4,8 +4,8 @@
     "fighter_b": "Kai Kamaka III",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.688,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.716,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -19,53 +19,54 @@
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 50.37,
-    "fighter_b_pct": 49.63,
-    "draw_pct": 6.2
+    "fighter_a_pct": 33.48,
+    "fighter_b_pct": 66.52,
+    "draw_pct": 3.34,
+    "calibration_shrink_applied": 0.55
   },
   "consensus_forecast": {
     "applied": false,
     "model_weight": 1.0,
-    "fighter_a_pct": 50.37,
-    "fighter_b_pct": 49.63,
+    "fighter_a_pct": 19.96,
+    "fighter_b_pct": 80.04,
     "market_devig_a_pct": null
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 7.9,
-      "Submission": 5.85,
-      "Unanimous Decision": 24.7,
-      "Split/Majority Decision": 8.8
+      "KO/TKO": 7.56,
+      "Submission": 5.98,
+      "Unanimous Decision": 3.01,
+      "Split/Majority Decision": 2.74
     },
     "fighter_b": {
-      "KO/TKO": 8.6,
-      "Submission": 9.25,
-      "Unanimous Decision": 19.9,
-      "Split/Majority Decision": 8.8
+      "KO/TKO": 10.09,
+      "Submission": 4.43,
+      "Unanimous Decision": 56.96,
+      "Split/Majority Decision": 5.89
     }
   },
   "fight_level": {
-    "ko_tko_pct": 16.5,
-    "submission_pct": 15.1,
-    "decision_pct": 62.2,
-    "goes_the_distance_pct": 68.4,
-    "expected_fight_minutes": 12.65
+    "ko_tko_pct": 17.65,
+    "submission_pct": 10.41,
+    "decision_pct": 68.6,
+    "goes_the_distance_pct": 71.94,
+    "expected_fight_minutes": 12.88
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 83,
-      "round_2": 108,
-      "round_3": 84
+      "round_1": 453,
+      "round_2": 474,
+      "round_3": 427
     },
     "fighter_b": {
-      "round_1": 119,
-      "round_2": 111,
-      "round_3": 127
+      "round_1": 491,
+      "round_2": 481,
+      "round_3": 480
     }
   },
   "value_betting": {
@@ -73,10 +74,10 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 50.37,
-      "edge_pct": -2.01,
-      "consensus_edge_pct": -2.01,
-      "kelly_fraction_full": -0.0422,
+      "model_win_prob_pct": 33.48,
+      "edge_pct": -18.9,
+      "consensus_edge_pct": -32.42,
+      "kelly_fraction_full": -0.397,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
@@ -86,16 +87,14 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 49.63,
-      "edge_pct": -2.75,
-      "consensus_edge_pct": -2.75,
-      "kelly_fraction_full": -0.0578,
-      "kelly_fraction_half": 0.0,
-      "model_sees_value": false,
-      "consensus_agrees": false,
-      "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+      "model_win_prob_pct": 66.52,
+      "edge_pct": 14.14,
+      "consensus_edge_pct": 27.66,
+      "kelly_fraction_full": 0.297,
+      "kelly_fraction_half": 0.1485,
+      "model_sees_value": true,
+      "consensus_agrees": true,
+      "value_bet": true
+    }
   }
 }

@@ -742,17 +742,17 @@
     },
     "UFC Fight Night: Allen vs. Duncan": {
       "card_type": "fight_night",
-      "eligible_legs": 3,
+      "eligible_legs": 4,
       "parlays": {
         "3_leg": {
           "legs": [
             {
               "matchup": "Ismael Bonfim vs Francisco Prado",
               "pick": "Ismael Bonfim",
-              "moneyline": -130,
-              "decimal_odds": 1.769,
-              "consensus_prob": 0.651,
-              "model_prob": 0.7193,
+              "moneyline": -129,
+              "decimal_odds": 1.775,
+              "consensus_prob": 0.6483,
+              "model_prob": 0.6723,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 64.15,
               "modal_finish_round": "round_1"
@@ -762,34 +762,34 @@
               "pick": "RJ Harris",
               "moneyline": -260,
               "decimal_odds": 1.385,
-              "consensus_prob": 0.7493,
+              "consensus_prob": 0.753,
               "model_prob": 0.6878,
               "likely_method": "KO/TKO",
               "likely_method_pct": 47.22,
               "modal_finish_round": "round_1"
             },
             {
-              "matchup": "Brendson Ribeiro vs Felipe Franco",
-              "pick": "Felipe Franco",
-              "moneyline": -310,
-              "decimal_odds": 1.323,
-              "consensus_prob": 0.7476,
-              "model_prob": 0.6542,
+              "matchup": "Gerald Meerschaert vs Julius Walker",
+              "pick": "Julius Walker",
+              "moneyline": -250,
+              "decimal_odds": 1.4,
+              "consensus_prob": 0.7212,
+              "model_prob": 0.6529,
               "likely_method": "Unanimous Decision",
-              "likely_method_pct": 58.75,
+              "likely_method_pct": 59.18,
               "modal_finish_round": "round_1"
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 36.47,
-          "combined_decimal_odds": 3.241,
-          "combined_american": 224,
-          "ev_per_unit": 0.1821,
+          "combined_prob_pct": 35.21,
+          "combined_decimal_odds": 3.442,
+          "combined_american": 244,
+          "ev_per_unit": 0.2117,
           "positive_ev": true
         },
         "5_leg": null
       },
-      "note": "Only 3 eligible legs; 5_leg not buildable."
+      "note": "Only 4 eligible legs; 5_leg not buildable."
     }
   },
   "min_leg_consensus_prob": 0.6

@@ -4,8 +4,8 @@
     "fighter_b": "Julius Walker",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.518,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.559,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -19,66 +19,67 @@
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 22.46,
-    "fighter_b_pct": 77.54,
-    "draw_pct": 0.05
+    "fighter_a_pct": 34.71,
+    "fighter_b_pct": 65.29,
+    "draw_pct": 0.0,
+    "calibration_shrink_applied": 0.55
   },
   "consensus_forecast": {
     "applied": true,
     "model_weight": 0.4,
-    "fighter_a_pct": 27.86,
-    "fighter_b_pct": 72.14,
-    "market_devig_a_pct": 31.46
+    "fighter_a_pct": 27.88,
+    "fighter_b_pct": 72.12,
+    "market_devig_a_pct": 31.67
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 11.4,
-      "Submission": 11.05,
+      "KO/TKO": 11.01,
+      "Submission": 11.19,
       "Unanimous Decision": 0.0,
       "Split/Majority Decision": 0.0
     },
     "fighter_b": {
-      "KO/TKO": 14.5,
-      "Submission": 7.85,
-      "Unanimous Decision": 54.85,
-      "Split/Majority Decision": 0.3
+      "KO/TKO": 13.65,
+      "Submission": 4.97,
+      "Unanimous Decision": 59.18,
+      "Split/Majority Decision": 0.0
     }
   },
   "fight_level": {
-    "ko_tko_pct": 25.9,
-    "submission_pct": 18.9,
-    "decision_pct": 55.15,
-    "goes_the_distance_pct": 55.2,
-    "expected_fight_minutes": 11.47
+    "ko_tko_pct": 24.66,
+    "submission_pct": 16.16,
+    "decision_pct": 59.18,
+    "goes_the_distance_pct": 59.18,
+    "expected_fight_minutes": 11.78
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 144,
-      "round_2": 171,
-      "round_3": 134
+      "round_1": 813,
+      "round_2": 741,
+      "round_3": 666
     },
     "fighter_b": {
-      "round_1": 178,
-      "round_2": 149,
-      "round_3": 120
+      "round_1": 734,
+      "round_2": 571,
+      "round_3": 557
     }
   },
   "value_betting": {
     "fighter_a": {
-      "market_moneyline": 205,
-      "market_decimal_odds": 3.05,
-      "market_implied_prob_pct": 32.79,
-      "model_win_prob_pct": 22.46,
-      "edge_pct": -10.33,
-      "consensus_edge_pct": -4.93,
-      "kelly_fraction_full": -0.1536,
-      "kelly_fraction_half": 0.0,
-      "model_sees_value": false,
+      "market_moneyline": 202,
+      "market_decimal_odds": 3.02,
+      "market_implied_prob_pct": 33.11,
+      "model_win_prob_pct": 34.71,
+      "edge_pct": 1.6,
+      "consensus_edge_pct": -5.23,
+      "kelly_fraction_full": 0.0239,
+      "kelly_fraction_half": 0.0119,
+      "model_sees_value": true,
       "consensus_agrees": false,
       "value_bet": false
     },
@@ -86,16 +87,14 @@
       "market_moneyline": -250,
       "market_decimal_odds": 1.4,
       "market_implied_prob_pct": 71.43,
-      "model_win_prob_pct": 77.54,
-      "edge_pct": 6.11,
-      "consensus_edge_pct": 0.71,
-      "kelly_fraction_full": 0.2139,
-      "kelly_fraction_half": 0.1069,
-      "model_sees_value": true,
+      "model_win_prob_pct": 65.29,
+      "edge_pct": -6.14,
+      "consensus_edge_pct": 0.69,
+      "kelly_fraction_full": -0.2149,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
       "consensus_agrees": true,
       "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+    }
   }
 }

@@ -1234,10 +1234,10 @@
     },
     "Ismael Bonfim vs Francisco Prado": {
       "win_probability": {
-        "fighter_a_pct": 71.93,
-        "fighter_b_pct": 28.07,
+        "fighter_a_pct": 67.23,
+        "fighter_b_pct": 32.77,
         "draw_pct": 0.0,
-        "calibration_shrink_applied": 0.7
+        "calibration_shrink_applied": 0.55
       },
       "value_flags": {
         "fighter_a": true,
@@ -1488,9 +1488,9 @@
     },
     "Niko Price vs Leon Shahbazyan": {
       "win_probability": {
-        "fighter_a_pct": 49.71,
-        "fighter_b_pct": 50.29,
-        "draw_pct": 5.85
+        "fighter_a_pct": 87.9,
+        "fighter_b_pct": 12.1,
+        "draw_pct": 0.0
       },
       "value_flags": {
         "fighter_a": false,
@@ -1512,9 +1512,10 @@
     },
     "Gerald Meerschaert vs Julius Walker": {
       "win_probability": {
-        "fighter_a_pct": 22.46,
-        "fighter_b_pct": 77.54,
-        "draw_pct": 0.05
+        "fighter_a_pct": 34.71,
+        "fighter_b_pct": 65.29,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.55
       },
       "value_flags": {
         "fighter_a": false,
@@ -1524,21 +1525,22 @@
     },
     "Andre Fili vs Kai Kamaka III": {
       "win_probability": {
-        "fighter_a_pct": 50.37,
-        "fighter_b_pct": 49.63,
-        "draw_pct": 6.2
+        "fighter_a_pct": 33.48,
+        "fighter_b_pct": 66.52,
+        "draw_pct": 3.34,
+        "calibration_shrink_applied": 0.55
       },
       "value_flags": {
         "fighter_a": false,
-        "fighter_b": false
+        "fighter_b": true
       },
       "report_file": "reports/andre-fili-vs-kai-kamaka-iii.json"
     },
     "Ketlen Souza vs Loopy God\u00ednez": {
       "win_probability": {
-        "fighter_a_pct": 50.05,
-        "fighter_b_pct": 49.95,
-        "draw_pct": 6.5
+        "fighter_a_pct": 19.83,
+        "fighter_b_pct": 80.17,
+        "draw_pct": 3.45
       },
       "value_flags": {
         "fighter_a": false,
@@ -1548,9 +1550,9 @@
     },
     "Jai Herbert vs Matheus Camilo": {
       "win_probability": {
-        "fighter_a_pct": 50.87,
-        "fighter_b_pct": 49.13,
-        "draw_pct": 5.45
+        "fighter_a_pct": 14.54,
+        "fighter_b_pct": 85.46,
+        "draw_pct": 1.3
       },
       "value_flags": {
         "fighter_a": false,
@@ -1649,12 +1651,13 @@
     },
     "Ramazan Temirov vs Lone'er Kavanagh": {
       "win_probability": {
-        "fighter_a_pct": 72.27,
-        "fighter_b_pct": 27.73,
-        "draw_pct": 4.25
+        "fighter_a_pct": 54.15,
+        "fighter_b_pct": 45.85,
+        "draw_pct": 7.39,
+        "calibration_shrink_applied": 0.55
       },
       "value_flags": {
-        "fighter_a": false,
+        "fighter_a": true,
         "fighter_b": false
       },
       "report_file": "reports/ramazan-temirov-vs-lone-er-kavanagh.json"
