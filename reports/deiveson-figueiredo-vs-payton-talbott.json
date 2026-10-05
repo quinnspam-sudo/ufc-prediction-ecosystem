@@ -4,8 +4,8 @@
     "fighter_b": "Payton Talbott",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.605,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.575,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -19,53 +19,54 @@
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 24.84,
-    "fighter_b_pct": 75.16,
-    "draw_pct": 1.35
+    "fighter_a_pct": 34.11,
+    "fighter_b_pct": 65.89,
+    "draw_pct": 0.0,
+    "calibration_shrink_applied": 0.55
   },
   "consensus_forecast": {
     "applied": true,
     "model_weight": 0.4,
-    "fighter_a_pct": 18.93,
-    "fighter_b_pct": 81.07,
+    "fighter_a_pct": 17.44,
+    "fighter_b_pct": 82.56,
     "market_devig_a_pct": 15.0
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 6.6,
-      "Submission": 15.4,
-      "Unanimous Decision": 1.55,
-      "Split/Majority Decision": 0.95
+      "KO/TKO": 6.39,
+      "Submission": 14.72,
+      "Unanimous Decision": 0.0,
+      "Split/Majority Decision": 0.0
     },
     "fighter_b": {
-      "KO/TKO": 7.5,
-      "Submission": 10.05,
-      "Unanimous Decision": 53.3,
-      "Split/Majority Decision": 3.3
+      "KO/TKO": 13.71,
+      "Submission": 4.85,
+      "Unanimous Decision": 60.33,
+      "Split/Majority Decision": 0.0
     }
   },
   "fight_level": {
-    "ko_tko_pct": 14.1,
-    "submission_pct": 25.45,
-    "decision_pct": 59.1,
-    "goes_the_distance_pct": 60.45,
-    "expected_fight_minutes": 12.04
+    "ko_tko_pct": 20.1,
+    "submission_pct": 19.57,
+    "decision_pct": 60.33,
+    "goes_the_distance_pct": 60.33,
+    "expected_fight_minutes": 11.89
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 129,
-      "round_2": 171,
-      "round_3": 140
+      "round_1": 749,
+      "round_2": 712,
+      "round_3": 650
     },
     "fighter_b": {
-      "round_1": 127,
-      "round_2": 107,
-      "round_3": 117
+      "round_1": 728,
+      "round_2": 580,
+      "round_3": 548
     }
   },
   "value_betting": {
@@ -73,29 +74,27 @@
       "market_moneyline": 540,
       "market_decimal_odds": 6.4,
       "market_implied_prob_pct": 15.62,
-      "model_win_prob_pct": 24.84,
-      "edge_pct": 9.21,
-      "consensus_edge_pct": 3.31,
-      "kelly_fraction_full": 0.1092,
-      "kelly_fraction_half": 0.0546,
+      "model_win_prob_pct": 34.11,
+      "edge_pct": 18.49,
+      "consensus_edge_pct": 1.82,
+      "kelly_fraction_full": 0.2191,
+      "kelly_fraction_half": 0.1095,
       "model_sees_value": true,
       "consensus_agrees": true,
-      "value_bet": false
+      "value_bet": true
     },
     "fighter_b": {
       "market_moneyline": -775,
       "market_decimal_odds": 1.129,
       "market_implied_prob_pct": 88.57,
-      "model_win_prob_pct": 75.16,
-      "edge_pct": -13.41,
-      "consensus_edge_pct": -7.5,
-      "kelly_fraction_full": -1.1731,
+      "model_win_prob_pct": 65.89,
+      "edge_pct": -22.68,
+      "consensus_edge_pct": -6.01,
+      "kelly_fraction_full": -1.9847,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
       "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+    }
   }
 }

@@ -4,15 +4,15 @@
     "fighter_b": "Malcolm Wellmaker",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.666,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.714,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     },
     "fighter_b_flags": {
       "active_injury": false,
@@ -24,78 +24,77 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 86.37,
-    "fighter_b_pct": 13.63,
-    "draw_pct": 1.35
+    "fighter_a_pct": 71.49,
+    "fighter_b_pct": 28.51,
+    "draw_pct": 0.0,
+    "calibration_shrink_applied": 0.55
   },
   "consensus_forecast": {
     "applied": true,
     "model_weight": 0.4,
-    "fighter_a_pct": 55.26,
-    "fighter_b_pct": 44.74,
-    "market_devig_a_pct": 34.53
+    "fighter_a_pct": 56.3,
+    "fighter_b_pct": 43.7,
+    "market_devig_a_pct": 34.45
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 6.25,
-      "Submission": 14.5,
-      "Unanimous Decision": 61.35,
-      "Split/Majority Decision": 3.1
+      "KO/TKO": 7.09,
+      "Submission": 9.81,
+      "Unanimous Decision": 72.17,
+      "Split/Majority Decision": 0.0
     },
     "fighter_b": {
-      "KO/TKO": 9.35,
-      "Submission": 2.5,
-      "Unanimous Decision": 0.6,
-      "Split/Majority Decision": 1.0
+      "KO/TKO": 8.42,
+      "Submission": 2.51,
+      "Unanimous Decision": 0.0,
+      "Split/Majority Decision": 0.0
     }
   },
   "fight_level": {
-    "ko_tko_pct": 15.6,
-    "submission_pct": 17.0,
-    "decision_pct": 66.05,
-    "goes_the_distance_pct": 67.4,
-    "expected_fight_minutes": 12.52
+    "ko_tko_pct": 15.51,
+    "submission_pct": 12.32,
+    "decision_pct": 72.17,
+    "goes_the_distance_pct": 72.17,
+    "expected_fight_minutes": 12.87
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 140,
-      "round_2": 138,
-      "round_3": 137
+      "round_1": 582,
+      "round_2": 598,
+      "round_3": 510
     },
     "fighter_b": {
-      "round_1": 89,
-      "round_2": 72,
-      "round_3": 76
+      "round_1": 375,
+      "round_2": 350,
+      "round_3": 368
     }
   },
   "value_betting": {
     "fighter_a": {
-      "market_moneyline": 175,
-      "market_decimal_odds": 2.75,
-      "market_implied_prob_pct": 36.36,
-      "model_win_prob_pct": 86.37,
-      "edge_pct": 50.0,
-      "consensus_edge_pct": 18.9,
-      "kelly_fraction_full": 0.7858,
-      "kelly_fraction_half": 0.3929,
+      "market_moneyline": 176,
+      "market_decimal_odds": 2.76,
+      "market_implied_prob_pct": 36.23,
+      "model_win_prob_pct": 71.49,
+      "edge_pct": 35.26,
+      "consensus_edge_pct": 20.07,
+      "kelly_fraction_full": 0.5529,
+      "kelly_fraction_half": 0.2764,
       "model_sees_value": true,
       "consensus_agrees": true,
-      "value_bet": false
+      "value_bet": true
     },
     "fighter_b": {
       "market_moneyline": -222,
       "market_decimal_odds": 1.45,
       "market_implied_prob_pct": 68.94,
-      "model_win_prob_pct": 13.63,
-      "edge_pct": -55.31,
-      "consensus_edge_pct": -24.21,
-      "kelly_fraction_full": -1.781,
+      "model_win_prob_pct": 28.51,
+      "edge_pct": -40.43,
+      "consensus_edge_pct": -25.24,
+      "kelly_fraction_full": -1.3019,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
       "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+    }
   }
 }

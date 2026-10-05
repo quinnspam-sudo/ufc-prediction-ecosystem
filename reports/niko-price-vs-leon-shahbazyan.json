@@ -4,15 +4,15 @@
     "fighter_b": "Leon Shahbazyan",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.54,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.591,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     },
     "fighter_b_flags": {
       "active_injury": false,
@@ -24,48 +24,49 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 87.9,
-    "fighter_b_pct": 12.1,
-    "draw_pct": 0.0
+    "fighter_a_pct": 70.77,
+    "fighter_b_pct": 29.23,
+    "draw_pct": 0.0,
+    "calibration_shrink_applied": 0.55
   },
   "consensus_forecast": {
     "applied": true,
     "model_weight": 0.4,
-    "fighter_a_pct": 59.74,
-    "fighter_b_pct": 40.26,
+    "fighter_a_pct": 59.69,
+    "fighter_b_pct": 40.31,
     "market_devig_a_pct": 40.97
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 11.0,
-      "Submission": 18.75,
-      "Unanimous Decision": 58.15,
-      "Split/Majority Decision": 0.0
+      "KO/TKO": 12.22,
+      "Submission": 14.12,
+      "Unanimous Decision": 61.39,
+      "Split/Majority Decision": 0.03
     },
     "fighter_b": {
-      "KO/TKO": 9.55,
-      "Submission": 2.55,
+      "KO/TKO": 9.78,
+      "Submission": 2.46,
       "Unanimous Decision": 0.0,
       "Split/Majority Decision": 0.0
     }
   },
   "fight_level": {
-    "ko_tko_pct": 20.55,
-    "submission_pct": 21.3,
-    "decision_pct": 58.15,
-    "goes_the_distance_pct": 58.15,
-    "expected_fight_minutes": 11.65
+    "ko_tko_pct": 22.0,
+    "submission_pct": 16.58,
+    "decision_pct": 61.42,
+    "goes_the_distance_pct": 61.42,
+    "expected_fight_minutes": 11.99
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 231,
-      "round_2": 197,
-      "round_3": 167
+      "round_1": 964,
+      "round_2": 900,
+      "round_3": 770
     },
     "fighter_b": {
-      "round_1": 99,
-      "round_2": 63,
-      "round_3": 80
+      "round_1": 445,
+      "round_2": 368,
+      "round_3": 411
     }
   },
   "value_betting": {
@@ -73,29 +74,27 @@
       "market_moneyline": 133,
       "market_decimal_odds": 2.33,
       "market_implied_prob_pct": 42.92,
-      "model_win_prob_pct": 87.9,
-      "edge_pct": 44.98,
-      "consensus_edge_pct": 16.82,
-      "kelly_fraction_full": 0.788,
-      "kelly_fraction_half": 0.394,
+      "model_win_prob_pct": 70.77,
+      "edge_pct": 27.85,
+      "consensus_edge_pct": 16.77,
+      "kelly_fraction_full": 0.4879,
+      "kelly_fraction_half": 0.2439,
       "model_sees_value": true,
       "consensus_agrees": true,
-      "value_bet": false
+      "value_bet": true
     },
     "fighter_b": {
       "market_moneyline": -162,
       "market_decimal_odds": 1.617,
       "market_implied_prob_pct": 61.83,
-      "model_win_prob_pct": 12.1,
-      "edge_pct": -49.73,
-      "consensus_edge_pct": -21.58,
-      "kelly_fraction_full": -1.303,
+      "model_win_prob_pct": 29.23,
+      "edge_pct": -32.6,
+      "consensus_edge_pct": -21.52,
+      "kelly_fraction_full": -0.8541,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
       "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+    }
   }
 }

@@ -1210,12 +1210,13 @@
     },
     "Deiveson Figueiredo vs Payton Talbott": {
       "win_probability": {
-        "fighter_a_pct": 24.84,
-        "fighter_b_pct": 75.16,
-        "draw_pct": 1.35
+        "fighter_a_pct": 34.11,
+        "fighter_b_pct": 65.89,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.55
       },
       "value_flags": {
-        "fighter_a": false,
+        "fighter_a": true,
         "fighter_b": false
       },
       "report_file": "reports/deiveson-figueiredo-vs-payton-talbott.json"
@@ -1489,24 +1490,26 @@
     },
     "Niko Price vs Leon Shahbazyan": {
       "win_probability": {
-        "fighter_a_pct": 87.9,
-        "fighter_b_pct": 12.1,
-        "draw_pct": 0.0
+        "fighter_a_pct": 70.77,
+        "fighter_b_pct": 29.23,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.55
       },
       "value_flags": {
-        "fighter_a": false,
+        "fighter_a": true,
         "fighter_b": false
       },
       "report_file": "reports/niko-price-vs-leon-shahbazyan.json"
     },
     "Otari Tanzilovi vs Malcolm Wellmaker": {
       "win_probability": {
-        "fighter_a_pct": 86.37,
-        "fighter_b_pct": 13.63,
-        "draw_pct": 1.35
+        "fighter_a_pct": 71.49,
+        "fighter_b_pct": 28.51,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.55
       },
       "value_flags": {
-        "fighter_a": false,
+        "fighter_a": true,
         "fighter_b": false
       },
       "report_file": "reports/otari-tanzilovi-vs-malcolm-wellmaker.json"
@@ -1603,13 +1606,14 @@
     },
     "Nikita Krylov vs Abdul-Rakhman Yakhyaev": {
       "win_probability": {
-        "fighter_a_pct": 13.25,
-        "fighter_b_pct": 86.75,
-        "draw_pct": 0.0
+        "fighter_a_pct": 30.89,
+        "fighter_b_pct": 69.11,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.55
       },
       "value_flags": {
         "fighter_a": false,
-        "fighter_b": false
+        "fighter_b": true
       },
       "report_file": "reports/nikita-krylov-vs-abdul-rakhman-yakhyaev.json"
     },
