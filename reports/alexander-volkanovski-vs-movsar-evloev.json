@@ -4,8 +4,8 @@
     "fighter_b": "Movsar Evloev",
     "scheduled_rounds": 5,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 3.882,
+    "iterations": 10000,
+    "avg_rounds_simulated": 4.039,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -19,57 +19,58 @@
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 75.7,
-    "fighter_b_pct": 24.3,
-    "draw_pct": 0.0
+    "fighter_a_pct": 39.61,
+    "fighter_b_pct": 60.39,
+    "draw_pct": 3.5,
+    "calibration_shrink_applied": 0.55
   },
   "consensus_forecast": {
     "applied": false,
     "model_weight": 1.0,
-    "fighter_a_pct": 75.7,
-    "fighter_b_pct": 24.3,
+    "fighter_a_pct": 31.1,
+    "fighter_b_pct": 68.9,
     "market_devig_a_pct": null
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 20.3,
-      "Submission": 7.65,
-      "Unanimous Decision": 47.75,
-      "Split/Majority Decision": 0.0
+      "KO/TKO": 17.51,
+      "Submission": 7.3,
+      "Unanimous Decision": 2.76,
+      "Split/Majority Decision": 2.44
     },
     "fighter_b": {
-      "KO/TKO": 10.9,
-      "Submission": 13.4,
-      "Unanimous Decision": 0.0,
-      "Split/Majority Decision": 0.0
+      "KO/TKO": 9.98,
+      "Submission": 10.81,
+      "Unanimous Decision": 39.94,
+      "Split/Majority Decision": 5.76
     }
   },
   "fight_level": {
-    "ko_tko_pct": 31.2,
-    "submission_pct": 21.05,
-    "decision_pct": 47.75,
-    "goes_the_distance_pct": 47.75,
-    "expected_fight_minutes": 18.1
+    "ko_tko_pct": 27.49,
+    "submission_pct": 18.11,
+    "decision_pct": 50.9,
+    "goes_the_distance_pct": 54.4,
+    "expected_fight_minutes": 19.05
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 130,
-      "round_2": 111,
-      "round_3": 114,
-      "round_4": 104,
-      "round_5": 100
+      "round_1": 534,
+      "round_2": 496,
+      "round_3": 506,
+      "round_4": 488,
+      "round_5": 457
     },
     "fighter_b": {
-      "round_1": 116,
-      "round_2": 97,
-      "round_3": 103,
-      "round_4": 90,
-      "round_5": 80
+      "round_1": 485,
+      "round_2": 438,
+      "round_3": 420,
+      "round_4": 395,
+      "round_5": 341
     }
   },
   "value_betting": {
@@ -77,29 +78,27 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 75.7,
-      "edge_pct": 23.32,
-      "consensus_edge_pct": 23.32,
-      "kelly_fraction_full": 0.4897,
-      "kelly_fraction_half": 0.2449,
-      "model_sees_value": true,
-      "consensus_agrees": true,
+      "model_win_prob_pct": 39.61,
+      "edge_pct": -12.78,
+      "consensus_edge_pct": -21.28,
+      "kelly_fraction_full": -0.2683,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
       "value_bet": false
     },
     "fighter_b": {
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 24.3,
-      "edge_pct": -28.08,
-      "consensus_edge_pct": -28.08,
-      "kelly_fraction_full": -0.5897,
-      "kelly_fraction_half": 0.0,
-      "model_sees_value": false,
-      "consensus_agrees": false,
-      "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+      "model_win_prob_pct": 60.39,
+      "edge_pct": 8.01,
+      "consensus_edge_pct": 16.52,
+      "kelly_fraction_full": 0.1683,
+      "kelly_fraction_half": 0.0841,
+      "model_sees_value": true,
+      "consensus_agrees": true,
+      "value_bet": true
+    }
   }
 }

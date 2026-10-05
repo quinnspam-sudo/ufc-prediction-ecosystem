@@ -1437,13 +1437,14 @@
     },
     "Melissa Gatto vs Ernesta Kareckaite": {
       "win_probability": {
-        "fighter_a_pct": 16.71,
-        "fighter_b_pct": 83.29,
-        "draw_pct": 1.25
+        "fighter_a_pct": 31.31,
+        "fighter_b_pct": 68.69,
+        "draw_pct": 1.85,
+        "calibration_shrink_applied": 0.55
       },
       "value_flags": {
         "fighter_a": false,
-        "fighter_b": false
+        "fighter_b": true
       },
       "report_file": "reports/melissa-gatto-vs-ernesta-kareckaite.json"
     },
@@ -1500,9 +1501,9 @@
     },
     "Otari Tanzilovi vs Malcolm Wellmaker": {
       "win_probability": {
-        "fighter_a_pct": 51.21,
-        "fighter_b_pct": 48.79,
-        "draw_pct": 6.75
+        "fighter_a_pct": 86.37,
+        "fighter_b_pct": 13.63,
+        "draw_pct": 1.35
       },
       "value_flags": {
         "fighter_a": false,
@@ -1538,24 +1539,26 @@
     },
     "Ketlen Souza vs Loopy God\u00ednez": {
       "win_probability": {
-        "fighter_a_pct": 19.83,
-        "fighter_b_pct": 80.17,
-        "draw_pct": 3.45
+        "fighter_a_pct": 29.01,
+        "fighter_b_pct": 70.99,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.55
       },
       "value_flags": {
         "fighter_a": false,
-        "fighter_b": false
+        "fighter_b": true
       },
       "report_file": "reports/ketlen-souza-vs-loopy-god-nez.json"
     },
     "Jai Herbert vs Matheus Camilo": {
       "win_probability": {
-        "fighter_a_pct": 14.54,
-        "fighter_b_pct": 85.46,
-        "draw_pct": 1.3
+        "fighter_a_pct": 49.3,
+        "fighter_b_pct": 50.7,
+        "draw_pct": 6.69,
+        "calibration_shrink_applied": 0.55
       },
       "value_flags": {
-        "fighter_a": false,
+        "fighter_a": true,
         "fighter_b": false
       },
       "report_file": "reports/jai-herbert-vs-matheus-camilo.json"
@@ -1664,9 +1667,9 @@
     },
     "Merab Dvalishvili vs Petr Yan": {
       "win_probability": {
-        "fighter_a_pct": 52.16,
-        "fighter_b_pct": 47.84,
-        "draw_pct": 4.9
+        "fighter_a_pct": 75.35,
+        "fighter_b_pct": 24.65,
+        "draw_pct": 0.0
       },
       "value_flags": {
         "fighter_a": false,
@@ -1676,13 +1679,14 @@
     },
     "Alexander Volkanovski vs Movsar Evloev": {
       "win_probability": {
-        "fighter_a_pct": 75.7,
-        "fighter_b_pct": 24.3,
-        "draw_pct": 0.0
+        "fighter_a_pct": 39.61,
+        "fighter_b_pct": 60.39,
+        "draw_pct": 3.5,
+        "calibration_shrink_applied": 0.55
       },
       "value_flags": {
         "fighter_a": false,
-        "fighter_b": false
+        "fighter_b": true
       },
       "report_file": "reports/alexander-volkanovski-vs-movsar-evloev.json"
     }
