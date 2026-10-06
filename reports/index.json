@@ -1173,9 +1173,10 @@
     },
     "Roman Kopylov vs Ateba Gautier": {
       "win_probability": {
-        "fighter_a_pct": 26.59,
-        "fighter_b_pct": 73.41,
-        "draw_pct": 2.8
+        "fighter_a_pct": 41.76,
+        "fighter_b_pct": 58.24,
+        "draw_pct": 5.14,
+        "calibration_shrink_applied": 0.55
       },
       "value_flags": {
         "fighter_a": false,
@@ -1223,9 +1224,9 @@
     },
     "Natalia Silva vs Wang Cong": {
       "win_probability": {
-        "fighter_a_pct": 51.14,
-        "fighter_b_pct": 48.86,
-        "draw_pct": 5.35
+        "fighter_a_pct": 23.85,
+        "fighter_b_pct": 76.15,
+        "draw_pct": 0.0
       },
       "value_flags": {
         "fighter_a": false,
@@ -1261,12 +1262,13 @@
     },
     "SuYoung You vs Cody Chovancek": {
       "win_probability": {
-        "fighter_a_pct": 77.27,
-        "fighter_b_pct": 22.73,
-        "draw_pct": 4.1
+        "fighter_a_pct": 71.17,
+        "fighter_b_pct": 28.83,
+        "draw_pct": 0.61,
+        "calibration_shrink_applied": 0.55
       },
       "value_flags": {
-        "fighter_a": false,
+        "fighter_a": true,
         "fighter_b": false
       },
       "report_file": "reports/suyoung-you-vs-cody-chovancek.json"
@@ -1286,13 +1288,14 @@
     },
     "Chad Anheliger vs Steven Koslow": {
       "win_probability": {
-        "fighter_a_pct": 14.05,
-        "fighter_b_pct": 85.95,
-        "draw_pct": 0.0
+        "fighter_a_pct": 31.12,
+        "fighter_b_pct": 68.88,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.55
       },
       "value_flags": {
         "fighter_a": false,
-        "fighter_b": false
+        "fighter_b": true
       },
       "report_file": "reports/chad-anheliger-vs-steven-koslow.json"
     },
@@ -1336,12 +1339,13 @@
     },
     "Tanner Boser vs Jhonata Diniz": {
       "win_probability": {
-        "fighter_a_pct": 64.0,
-        "fighter_b_pct": 36.0,
-        "draw_pct": 5.7
+        "fighter_a_pct": 64.77,
+        "fighter_b_pct": 35.23,
+        "draw_pct": 3.41,
+        "calibration_shrink_applied": 0.55
       },
       "value_flags": {
-        "fighter_a": false,
+        "fighter_a": true,
         "fighter_b": false
       },
       "report_file": "reports/tanner-boser-vs-jhonata-diniz.json"
@@ -1361,12 +1365,13 @@
     },
     "Louis Jourdain vs Timmy Cuamba": {
       "win_probability": {
-        "fighter_a_pct": 83.24,
-        "fighter_b_pct": 16.76,
-        "draw_pct": 0.05
+        "fighter_a_pct": 72.42,
+        "fighter_b_pct": 27.58,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.55
       },
       "value_flags": {
-        "fighter_a": false,
+        "fighter_a": true,
         "fighter_b": false
       },
       "report_file": "reports/louis-jourdain-vs-timmy-cuamba.json"
@@ -1693,6 +1698,66 @@
         "fighter_b": true
       },
       "report_file": "reports/alexander-volkanovski-vs-movsar-evloev.json"
+    },
+    "Preston LaGrange vs Nell Ariano": {
+      "win_probability": {
+        "fighter_a_pct": 50.91,
+        "fighter_b_pct": 49.09,
+        "draw_pct": 6.1
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/preston-lagrange-vs-nell-ariano.json"
+    },
+    "Mateus Soares vs Ryuho Miyaguchi": {
+      "win_probability": {
+        "fighter_a_pct": 51.21,
+        "fighter_b_pct": 48.79,
+        "draw_pct": 6.75
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/mateus-soares-vs-ryuho-miyaguchi.json"
+    },
+    "Roque Concei\u00e7\u00e3o vs Alexander Chavez": {
+      "win_probability": {
+        "fighter_a_pct": 50.05,
+        "fighter_b_pct": 49.95,
+        "draw_pct": 6.5
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/roque-concei-o-vs-alexander-chavez.json"
+    },
+    "Salhahuddin Everett vs Ozzy Martin": {
+      "win_probability": {
+        "fighter_a_pct": 49.71,
+        "fighter_b_pct": 50.29,
+        "draw_pct": 5.85
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/salhahuddin-everett-vs-ozzy-martin.json"
+    },
+    "Alivia Bierley vs Summer Onley": {
+      "win_probability": {
+        "fighter_a_pct": 51.21,
+        "fighter_b_pct": 48.79,
+        "draw_pct": 6.75
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/alivia-bierley-vs-summer-onley.json"
     }
   }
 }

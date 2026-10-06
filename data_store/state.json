@@ -1,121 +1,6 @@
 {
   "changelog": [
     {
-      "detail": "Anthony Hernandez vs Gregory Rodrigues: consensus -165 / +140 (7 books)",
-      "ts": "2026-08-18T01:55:40+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Alik Lorenz vs Mahamed Aly: consensus +256 / -317 (2 books)",
-      "ts": "2026-08-18T07:06:44+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Trent Miller vs Douglas Rodrigues: consensus +313 / -395 (2 books)",
-      "ts": "2026-08-18T07:06:44+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Kaik Brito vs Namo Fazil: consensus +153 / -178 (2 books)",
-      "ts": "2026-08-18T07:06:44+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Roman Puga vs Taner Trembley: consensus -169 / +145 (2 books)",
-      "ts": "2026-08-18T07:06:44+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Wes Schultz vs Jackson McVey: consensus +154 / -185 (7 books)",
-      "ts": "2026-08-18T07:06:44+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Kennedy Nzechukwu vs Shamil Gaziev: consensus +115 / -135 (7 books)",
-      "ts": "2026-08-18T07:06:44+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Elise Reed vs Shanelle Dyer: consensus +505 / -715 (7 books)",
-      "ts": "2026-08-18T07:06:44+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Carli Judice vs Jeisla Chaves: consensus -525 / +400 (7 books)",
-      "ts": "2026-08-18T07:06:44+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Roman Dolidze vs Reinier de Ridder: consensus +309 / -390 (7 books)",
-      "ts": "2026-08-18T07:06:44+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Anthony Hernandez vs Gregory Rodrigues: consensus -163 / +138 (7 books)",
-      "ts": "2026-08-18T07:06:44+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Tresean Gore: \"That b**tard\" - Tresean Gore and MMA fans react to his injury, win over Vicente Luque at UFC 330 - MMA Sucka",
-      "ts": "2026-08-18T07:06:47+00:00",
-      "type": "health_injury"
-    },
-    {
-      "detail": "Roman Puga vs Taner Trembley: consensus -169 / +145 (2 books)",
-      "ts": "2026-08-18T13:10:57+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Alik Lorenz vs Mahamed Aly: consensus +256 / -317 (2 books)",
-      "ts": "2026-08-18T13:10:57+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Trent Miller vs Douglas Rodrigues: consensus +322 / -407 (2 books)",
-      "ts": "2026-08-18T13:10:57+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Kaik Brito vs Namo Fazil: consensus +151 / -176 (2 books)",
-      "ts": "2026-08-18T13:10:57+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Wes Schultz vs Jackson McVey: consensus +154 / -185 (7 books)",
-      "ts": "2026-08-18T13:10:57+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Kennedy Nzechukwu vs Shamil Gaziev: consensus +115 / -135 (7 books)",
-      "ts": "2026-08-18T13:10:57+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Elise Reed vs Shanelle Dyer: consensus +525 / -750 (7 books)",
-      "ts": "2026-08-18T13:10:57+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Carli Judice vs Jeisla Chaves: consensus -535 / +400 (7 books)",
-      "ts": "2026-08-18T13:10:57+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Roman Dolidze vs Reinier de Ridder: consensus +310 / -400 (7 books)",
-      "ts": "2026-08-18T13:10:57+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Anthony Hernandez vs Gregory Rodrigues: consensus -165 / +140 (7 books)",
-      "ts": "2026-08-18T13:10:57+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Roman Puga vs Taner Trembley: consensus -151 / +130 (2 books)",
-      "ts": "2026-08-18T18:59:44+00:00",
-      "type": "odds_update"
-    },
-    {
       "detail": "Alik Lorenz vs Mahamed Aly: consensus +260 / -320 (2 books)",
       "ts": "2026-08-18T18:59:44+00:00",
       "type": "odds_update"
@@ -2499,6 +2384,121 @@
       "detail": "Payton Talbott: real stats populated (http://ufcstats.com/fighter-details/6e743a33d56bdaa4)",
       "ts": "2026-10-05T14:48:04+00:00",
       "type": "ufcstats_scraped"
+    },
+    {
+      "detail": "Preston LaGrange vs Nell Ariano",
+      "ts": "2026-10-06T00:06:16+00:00",
+      "type": "matchup_discovered"
+    },
+    {
+      "detail": "Mateus Soares vs Ryuho Miyaguchi",
+      "ts": "2026-10-06T00:06:16+00:00",
+      "type": "matchup_discovered"
+    },
+    {
+      "detail": "Roque Concei\u00e7\u00e3o vs Alexander Chavez",
+      "ts": "2026-10-06T00:06:16+00:00",
+      "type": "matchup_discovered"
+    },
+    {
+      "detail": "Salhahuddin Everett vs Ozzy Martin",
+      "ts": "2026-10-06T00:06:16+00:00",
+      "type": "matchup_discovered"
+    },
+    {
+      "detail": "Alivia Bierley vs Summer Onley",
+      "ts": "2026-10-06T00:06:16+00:00",
+      "type": "matchup_discovered"
+    },
+    {
+      "detail": "Preston LaGrange vs Nell Ariano: consensus +317 / -470 (2 books)",
+      "ts": "2026-10-06T00:06:17+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Allen Frye Jr. vs RJ Harris: consensus +222 / -285 (6 books)",
+      "ts": "2026-10-06T00:06:17+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Brendan Allen vs Christian Leroy Duncan: consensus -135 / +114 (7 books)",
+      "ts": "2026-10-06T00:06:17+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Brendson Ribeiro vs Felipe Franco: consensus +287 / -360 (6 books)",
+      "ts": "2026-10-06T00:06:17+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Melissa Gatto vs Ernesta Kareckaite: consensus -126 / +105 (6 books)",
+      "ts": "2026-10-06T00:06:17+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Ismael Bonfim vs Francisco Prado: consensus -112 / -106 (7 books)",
+      "ts": "2026-10-06T00:06:17+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Gerald Meerschaert vs Julius Walker: consensus +220 / -275 (7 books)",
+      "ts": "2026-10-06T00:06:17+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Jai Herbert vs Matheus Camilo: consensus +162 / -195 (7 books)",
+      "ts": "2026-10-06T00:06:17+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Niko Price vs Leon Shahbazyan: consensus +130 / -160 (7 books)",
+      "ts": "2026-10-06T00:06:17+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Otari Tanzilovi vs Malcolm Wellmaker: consensus +176 / -222 (6 books)",
+      "ts": "2026-10-06T00:06:17+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Merab Dvalishvili vs Petr Yan: consensus +142 / -176 (4 books)",
+      "ts": "2026-10-06T00:06:17+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Roman Kopylov: real stats populated (http://ufcstats.com/fighter-details/9d83f6da776ff7d6)",
+      "ts": "2026-10-06T00:06:42+00:00",
+      "type": "ufcstats_scraped"
+    },
+    {
+      "detail": "Steven Koslow: real stats populated (http://ufcstats.com/fighter-details/84512339473dd300)",
+      "ts": "2026-10-06T00:06:42+00:00",
+      "type": "ufcstats_scraped"
+    },
+    {
+      "detail": "SuYoung You: real stats populated (http://ufcstats.com/fighter-details/a474aade8eb3a8f0)",
+      "ts": "2026-10-06T00:06:42+00:00",
+      "type": "ufcstats_scraped"
+    },
+    {
+      "detail": "Tanner Boser: real stats populated (http://ufcstats.com/fighter-details/04c8b08b16a5b99e)",
+      "ts": "2026-10-06T00:06:42+00:00",
+      "type": "ufcstats_scraped"
+    },
+    {
+      "detail": "Timmy Cuamba: real stats populated (http://ufcstats.com/fighter-details/0e46690e55a8df75)",
+      "ts": "2026-10-06T00:06:42+00:00",
+      "type": "ufcstats_scraped"
+    },
+    {
+      "detail": "Wang Cong: real stats populated (http://ufcstats.com/fighter-details/2997e7fe3c9d3d4a)",
+      "ts": "2026-10-06T00:06:42+00:00",
+      "type": "ufcstats_scraped"
+    },
+    {
+      "detail": "Payton Talbott beat Deiveson Figueiredo (Brier 0.1163)",
+      "ts": "2026-10-06T00:06:42+00:00",
+      "type": "calibration_resolved"
     }
   ],
   "fighters": {
@@ -2944,6 +2944,56 @@
       "weight_class": "Heavyweight",
       "withdrawn": false
     },
+    "alexander-chavez": {
+      "_updated": "2026-10-06T00:06:16+00:00",
+      "active_injury": false,
+      "age": 30,
+      "career_fights": 12,
+      "career_knockdowns_suffered": 2,
+      "career_ko_wins": 0,
+      "career_sig_strikes_absorbed": 800,
+      "career_sub_wins": 0,
+      "career_wins": 0,
+      "championship_round_fights": 0,
+      "control_time_pct": 0.3,
+      "display_name": "Alexander Chavez",
+      "division_move": 0,
+      "fight_location_country": "USA",
+      "height_in": 70.0,
+      "home_country": "USA",
+      "injury_note": "",
+      "last_fight_date": "2025-06-01",
+      "missed_weight": false,
+      "name": "Alexander Chavez",
+      "needs_stats": true,
+      "reach_in": 72.0,
+      "round_strike_output": [
+        60,
+        58,
+        56,
+        54,
+        52
+      ],
+      "sapm": 4.0,
+      "slpm": 4.0,
+      "stance": "Orthodox",
+      "stats_approx": true,
+      "strike_acc": 0.45,
+      "strike_acc_body": 0.5175,
+      "strike_acc_head": 0.45,
+      "strike_acc_leg": 0.5625,
+      "strike_def": 0.55,
+      "sub_avg": 0.6,
+      "sub_def": 0.65,
+      "sweep_rate": 0.2,
+      "td_acc": 0.4,
+      "td_avg": 1.5,
+      "td_def": 0.65,
+      "trains_at_altitude": false,
+      "venue_elevation_ft": 2001,
+      "weight_class": "Flyweight",
+      "withdrawn": false
+    },
     "alexander-hernandez": {
       "_updated": "2026-10-03T21:21:32+00:00",
       "active_injury": false,
@@ -3195,7 +3245,7 @@
       "withdrawn": false
     },
     "alice-pereira": {
-      "_updated": "2026-10-05T14:47:37+00:00",
+      "_updated": "2026-10-06T00:06:16+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -3294,8 +3344,58 @@
       "weight_class": "Light Heavyweight",
       "withdrawn": false
     },
+    "alivia-bierley": {
+      "_updated": "2026-10-06T00:06:16+00:00",
+      "active_injury": false,
+      "age": 30,
+      "career_fights": 12,
+      "career_knockdowns_suffered": 2,
+      "career_ko_wins": 0,
+      "career_sig_strikes_absorbed": 800,
+      "career_sub_wins": 0,
+      "career_wins": 0,
+      "championship_round_fights": 0,
+      "control_time_pct": 0.3,
+      "display_name": "Alivia Bierley",
+      "division_move": 0,
+      "fight_location_country": "USA",
+      "height_in": 70.0,
+      "home_country": "USA",
+      "injury_note": "",
+      "last_fight_date": "2025-06-01",
+      "missed_weight": false,
+      "name": "Alivia Bierley",
+      "needs_stats": true,
+      "reach_in": 72.0,
+      "round_strike_output": [
+        60,
+        58,
+        56,
+        54,
+        52
+      ],
+      "sapm": 4.0,
+      "slpm": 4.0,
+      "stance": "Orthodox",
+      "stats_approx": true,
+      "strike_acc": 0.45,
+      "strike_acc_body": 0.5175,
+      "strike_acc_head": 0.45,
+      "strike_acc_leg": 0.5625,
+      "strike_def": 0.55,
+      "sub_avg": 0.6,
+      "sub_def": 0.65,
+      "sweep_rate": 0.2,
+      "td_acc": 0.4,
+      "td_avg": 1.5,
+      "td_def": 0.65,
+      "trains_at_altitude": false,
+      "venue_elevation_ft": 2001,
+      "weight_class": "Bantamweight",
+      "withdrawn": false
+    },
     "allen-frye-jr": {
-      "_updated": "2026-10-05T14:47:37+00:00",
+      "_updated": "2026-10-06T00:06:16+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -3490,7 +3590,7 @@
       "withdrawn": false
     },
     "andre-fili": {
-      "_updated": "2026-10-05T14:47:37+00:00",
+      "_updated": "2026-10-06T00:06:16+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -4388,7 +4488,7 @@
     },
     "brendan-allen": {
       "_injury_from_news": true,
-      "_updated": "2026-10-05T14:47:37+00:00",
+      "_updated": "2026-10-06T00:06:16+00:00",
       "active_injury": true,
       "age": 30,
       "career_fights": 12,
@@ -4438,7 +4538,7 @@
       "withdrawn": true
     },
     "brendson-ribeiro": {
-      "_updated": "2026-10-05T14:47:37+00:00",
+      "_updated": "2026-10-06T00:06:16+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -4688,7 +4788,7 @@
       "withdrawn": false
     },
     "chad-anheliger": {
-      "_updated": "2026-10-05T14:47:37+00:00",
+      "_updated": "2026-10-06T00:06:16+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -4784,7 +4884,7 @@
       "withdrawn": false
     },
     "chelsea-chandler": {
-      "_updated": "2026-10-05T14:47:37+00:00",
+      "_updated": "2026-10-06T00:06:16+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -4885,7 +4985,7 @@
       "withdrawn": false
     },
     "christian-leroy-duncan": {
-      "_updated": "2026-10-05T14:47:37+00:00",
+      "_updated": "2026-10-06T00:06:16+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -4931,7 +5031,7 @@
       "withdrawn": false
     },
     "cody-chovancek": {
-      "_updated": "2026-10-05T14:47:37+00:00",
+      "_updated": "2026-10-06T00:06:16+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -5380,7 +5480,7 @@
       "withdrawn": false
     },
     "daria-zhelezniakova": {
-      "_updated": "2026-10-05T14:47:37+00:00",
+      "_updated": "2026-10-06T00:06:16+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -6272,7 +6372,7 @@
       "withdrawn": false
     },
     "erin-blanchfield": {
-      "_updated": "2026-10-05T14:47:37+00:00",
+      "_updated": "2026-10-06T00:06:16+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -6322,7 +6422,7 @@
       "withdrawn": false
     },
     "ernesta-kareckaite": {
-      "_updated": "2026-10-05T14:47:37+00:00",
+      "_updated": "2026-10-06T00:06:16+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -6565,7 +6665,7 @@
       "withdrawn": false
     },
     "felipe-franco": {
-      "_updated": "2026-10-05T14:47:37+00:00",
+      "_updated": "2026-10-06T00:06:16+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -6611,7 +6711,7 @@
       "withdrawn": false
     },
     "francisco-prado": {
-      "_updated": "2026-10-05T14:47:37+00:00",
+      "_updated": "2026-10-06T00:06:16+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -6762,7 +6862,7 @@
       "withdrawn": false
     },
     "gerald-meerschaert": {
-      "_updated": "2026-10-05T14:47:37+00:00",
+      "_updated": "2026-10-06T00:06:16+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -7365,7 +7465,7 @@
       "withdrawn": false
     },
     "ismael-bonfim": {
-      "_updated": "2026-10-05T14:47:37+00:00",
+      "_updated": "2026-10-06T00:06:16+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -7565,7 +7665,7 @@
       "withdrawn": false
     },
     "jai-herbert": {
-      "_updated": "2026-10-05T14:47:37+00:00",
+      "_updated": "2026-10-06T00:06:16+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -7665,7 +7765,7 @@
       "withdrawn": false
     },
     "jamey-lyn-horth": {
-      "_updated": "2026-10-05T14:47:37+00:00",
+      "_updated": "2026-10-06T00:06:16+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -7810,7 +7910,7 @@
       "withdrawn": false
     },
     "jasmine-jasudavicius": {
-      "_updated": "2026-10-05T14:47:37+00:00",
+      "_updated": "2026-10-06T00:06:16+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -7860,7 +7960,7 @@
       "withdrawn": false
     },
     "javad-mahjoub": {
-      "_updated": "2026-10-05T14:47:37+00:00",
+      "_updated": "2026-10-06T00:06:16+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -8106,7 +8206,7 @@
       "withdrawn": false
     },
     "jhonata-diniz": {
-      "_updated": "2026-10-05T14:47:37+00:00",
+      "_updated": "2026-10-06T00:06:16+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -8156,7 +8256,7 @@
       "withdrawn": false
     },
     "joaquin-buckley": {
-      "_updated": "2026-10-05T14:47:37+00:00",
+      "_updated": "2026-10-06T00:06:16+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -8601,7 +8701,7 @@
       "withdrawn": false
     },
     "julien-leblanc": {
-      "_updated": "2026-10-05T14:47:37+00:00",
+      "_updated": "2026-10-06T00:06:16+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -8651,7 +8751,7 @@
       "withdrawn": false
     },
     "julius-walker": {
-      "_updated": "2026-10-05T14:47:37+00:00",
+      "_updated": "2026-10-06T00:06:16+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -8701,7 +8801,7 @@
       "withdrawn": false
     },
     "kai-kamaka-iii": {
-      "_updated": "2026-10-05T14:47:37+00:00",
+      "_updated": "2026-10-06T00:06:16+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -8801,7 +8901,7 @@
       "withdrawn": false
     },
     "katlyn-cerminara": {
-      "_updated": "2026-10-05T14:47:37+00:00",
+      "_updated": "2026-10-06T00:06:16+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -8951,7 +9051,7 @@
       "withdrawn": false
     },
     "ketlen-souza": {
-      "_updated": "2026-10-05T14:47:37+00:00",
+      "_updated": "2026-10-06T00:06:16+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -9151,7 +9251,7 @@
       "withdrawn": false
     },
     "kyle-daukaus": {
-      "_updated": "2026-10-05T14:47:37+00:00",
+      "_updated": "2026-10-06T00:06:16+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -9251,7 +9351,7 @@
       "withdrawn": false
     },
     "leon-shahbazyan": {
-      "_updated": "2026-10-05T14:47:37+00:00",
+      "_updated": "2026-10-06T00:06:16+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -9446,7 +9546,7 @@
       "withdrawn": false
     },
     "loopy-god-nez": {
-      "_updated": "2026-10-05T14:47:37+00:00",
+      "_updated": "2026-10-06T00:06:16+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -9496,7 +9596,7 @@
       "withdrawn": false
     },
     "louie-sutherland": {
-      "_updated": "2026-10-05T14:47:37+00:00",
+      "_updated": "2026-10-06T00:06:16+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -9546,7 +9646,7 @@
       "withdrawn": false
     },
     "louis-jourdain": {
-      "_updated": "2026-10-05T14:47:37+00:00",
+      "_updated": "2026-10-06T00:06:16+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -9947,7 +10047,7 @@
       "withdrawn": false
     },
     "malcolm-wellmaker": {
-      "_updated": "2026-10-05T14:47:37+00:00",
+      "_updated": "2026-10-06T00:06:16+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -9997,7 +10097,7 @@
       "withdrawn": false
     },
     "mandel-nallo": {
-      "_updated": "2026-10-05T14:47:37+00:00",
+      "_updated": "2026-10-06T00:06:16+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -10147,7 +10247,7 @@
       "withdrawn": false
     },
     "marc-andre-barriault": {
-      "_updated": "2026-10-05T14:47:37+00:00",
+      "_updated": "2026-10-06T00:06:16+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -10446,6 +10546,56 @@
       "weight_class": "Middleweight",
       "withdrawn": false
     },
+    "mateus-soares": {
+      "_updated": "2026-10-06T00:06:16+00:00",
+      "active_injury": false,
+      "age": 30,
+      "career_fights": 12,
+      "career_knockdowns_suffered": 2,
+      "career_ko_wins": 0,
+      "career_sig_strikes_absorbed": 800,
+      "career_sub_wins": 0,
+      "career_wins": 0,
+      "championship_round_fights": 0,
+      "control_time_pct": 0.3,
+      "display_name": "Mateus Soares",
+      "division_move": 0,
+      "fight_location_country": "USA",
+      "height_in": 70.0,
+      "home_country": "USA",
+      "injury_note": "",
+      "last_fight_date": "2025-06-01",
+      "missed_weight": false,
+      "name": "Mateus Soares",
+      "needs_stats": true,
+      "reach_in": 72.0,
+      "round_strike_output": [
+        60,
+        58,
+        56,
+        54,
+        52
+      ],
+      "sapm": 4.0,
+      "slpm": 4.0,
+      "stance": "Orthodox",
+      "stats_approx": true,
+      "strike_acc": 0.45,
+      "strike_acc_body": 0.5175,
+      "strike_acc_head": 0.45,
+      "strike_acc_leg": 0.5625,
+      "strike_def": 0.55,
+      "sub_avg": 0.6,
+      "sub_def": 0.65,
+      "sweep_rate": 0.2,
+      "td_acc": 0.4,
+      "td_avg": 1.5,
+      "td_def": 0.65,
+      "trains_at_altitude": false,
+      "venue_elevation_ft": 2001,
+      "weight_class": "Bantamweight",
+      "withdrawn": false
+    },
     "mateusz-gamrot": {
       "_injury_from_news": false,
       "_updated": "2026-08-23T18:50:12+00:00",
@@ -10548,7 +10698,7 @@
       "withdrawn": false
     },
     "matheus-camilo": {
-      "_updated": "2026-10-05T14:47:37+00:00",
+      "_updated": "2026-10-06T00:06:16+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -10698,7 +10848,7 @@
       "withdrawn": false
     },
     "melissa-croden": {
-      "_updated": "2026-10-05T14:47:37+00:00",
+      "_updated": "2026-10-06T00:06:16+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -10748,7 +10898,7 @@
       "withdrawn": false
     },
     "melissa-gatto": {
-      "_updated": "2026-10-05T14:47:37+00:00",
+      "_updated": "2026-10-06T00:06:16+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -10999,7 +11149,7 @@
       "withdrawn": false
     },
     "mike-malott": {
-      "_updated": "2026-10-05T14:47:37+00:00",
+      "_updated": "2026-10-06T00:06:16+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -11494,7 +11644,7 @@
       "withdrawn": false
     },
     "nate-landwehr": {
-      "_updated": "2026-10-05T14:47:37+00:00",
+      "_updated": "2026-10-06T00:06:16+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -11643,8 +11793,58 @@
       "weight_class": "Welterweight",
       "withdrawn": false
     },
+    "nell-ariano": {
+      "_updated": "2026-10-06T00:06:16+00:00",
+      "active_injury": false,
+      "age": 30,
+      "career_fights": 12,
+      "career_knockdowns_suffered": 2,
+      "career_ko_wins": 0,
+      "career_sig_strikes_absorbed": 800,
+      "career_sub_wins": 0,
+      "career_wins": 0,
+      "championship_round_fights": 0,
+      "control_time_pct": 0.3,
+      "display_name": "Nell Ariano",
+      "division_move": 0,
+      "fight_location_country": "USA",
+      "height_in": 70.0,
+      "home_country": "USA",
+      "injury_note": "",
+      "last_fight_date": "2025-06-01",
+      "missed_weight": false,
+      "name": "Nell Ariano",
+      "needs_stats": true,
+      "reach_in": 72.0,
+      "round_strike_output": [
+        60,
+        58,
+        56,
+        54,
+        52
+      ],
+      "sapm": 4.0,
+      "slpm": 4.0,
+      "stance": "Orthodox",
+      "stats_approx": true,
+      "strike_acc": 0.45,
+      "strike_acc_body": 0.5175,
+      "strike_acc_head": 0.45,
+      "strike_acc_leg": 0.5625,
+      "strike_def": 0.55,
+      "sub_avg": 0.6,
+      "sub_def": 0.65,
+      "sweep_rate": 0.2,
+      "td_acc": 0.4,
+      "td_avg": 1.5,
+      "td_def": 0.65,
+      "trains_at_altitude": false,
+      "venue_elevation_ft": 2001,
+      "weight_class": "Light Heavyweight",
+      "withdrawn": false
+    },
     "nick-galanti": {
-      "_updated": "2026-10-05T14:47:37+00:00",
+      "_updated": "2026-10-06T00:06:16+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -11744,7 +11944,7 @@
       "withdrawn": false
     },
     "niko-price": {
-      "_updated": "2026-10-05T14:48:04+00:00",
+      "_updated": "2026-10-06T00:06:16+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -11994,7 +12194,7 @@
       "withdrawn": false
     },
     "opponent-tba": {
-      "_updated": "2026-10-05T14:47:37+00:00",
+      "_updated": "2026-10-06T00:06:16+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -12044,7 +12244,7 @@
       "withdrawn": false
     },
     "otari-tanzilovi": {
-      "_updated": "2026-10-05T14:48:04+00:00",
+      "_updated": "2026-10-06T00:06:16+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -12091,6 +12291,56 @@
       "trains_at_altitude": false,
       "venue_elevation_ft": 2001,
       "weight_class": "Bantamweight",
+      "withdrawn": false
+    },
+    "ozzy-martin": {
+      "_updated": "2026-10-06T00:06:16+00:00",
+      "active_injury": false,
+      "age": 30,
+      "career_fights": 12,
+      "career_knockdowns_suffered": 2,
+      "career_ko_wins": 0,
+      "career_sig_strikes_absorbed": 800,
+      "career_sub_wins": 0,
+      "career_wins": 0,
+      "championship_round_fights": 0,
+      "control_time_pct": 0.3,
+      "display_name": "Ozzy Martin",
+      "division_move": 0,
+      "fight_location_country": "USA",
+      "height_in": 70.0,
+      "home_country": "USA",
+      "injury_note": "",
+      "last_fight_date": "2025-06-01",
+      "missed_weight": false,
+      "name": "Ozzy Martin",
+      "needs_stats": true,
+      "reach_in": 72.0,
+      "round_strike_output": [
+        60,
+        58,
+        56,
+        54,
+        52
+      ],
+      "sapm": 4.0,
+      "slpm": 4.0,
+      "stance": "Orthodox",
+      "stats_approx": true,
+      "strike_acc": 0.45,
+      "strike_acc_body": 0.5175,
+      "strike_acc_head": 0.45,
+      "strike_acc_leg": 0.5625,
+      "strike_def": 0.55,
+      "sub_avg": 0.6,
+      "sub_def": 0.65,
+      "sweep_rate": 0.2,
+      "td_acc": 0.4,
+      "td_avg": 1.5,
+      "td_def": 0.65,
+      "trains_at_altitude": false,
+      "venue_elevation_ft": 2001,
+      "weight_class": "Welterweight",
       "withdrawn": false
     },
     "payton-talbott": {
@@ -12191,6 +12441,56 @@
       "trains_at_altitude": false,
       "venue_elevation_ft": 0.0,
       "weight_class": "Bantamweight",
+      "withdrawn": false
+    },
+    "preston-lagrange": {
+      "_updated": "2026-10-06T00:06:16+00:00",
+      "active_injury": false,
+      "age": 30,
+      "career_fights": 12,
+      "career_knockdowns_suffered": 2,
+      "career_ko_wins": 0,
+      "career_sig_strikes_absorbed": 800,
+      "career_sub_wins": 0,
+      "career_wins": 0,
+      "championship_round_fights": 0,
+      "control_time_pct": 0.3,
+      "display_name": "Preston LaGrange",
+      "division_move": 0,
+      "fight_location_country": "USA",
+      "height_in": 70.0,
+      "home_country": "USA",
+      "injury_note": "",
+      "last_fight_date": "2025-06-01",
+      "missed_weight": false,
+      "name": "Preston LaGrange",
+      "needs_stats": true,
+      "reach_in": 72.0,
+      "round_strike_output": [
+        60,
+        58,
+        56,
+        54,
+        52
+      ],
+      "sapm": 4.0,
+      "slpm": 4.0,
+      "stance": "Orthodox",
+      "stats_approx": true,
+      "strike_acc": 0.45,
+      "strike_acc_body": 0.5175,
+      "strike_acc_head": 0.45,
+      "strike_acc_leg": 0.5625,
+      "strike_def": 0.55,
+      "sub_avg": 0.6,
+      "sub_def": 0.65,
+      "sweep_rate": 0.2,
+      "td_acc": 0.4,
+      "td_avg": 1.5,
+      "td_def": 0.65,
+      "trains_at_altitude": false,
+      "venue_elevation_ft": 2001,
+      "weight_class": "Light Heavyweight",
       "withdrawn": false
     },
     "quillan-salkilld": {
@@ -12596,7 +12896,7 @@
       "withdrawn": false
     },
     "rj-harris": {
-      "_updated": "2026-10-05T14:47:37+00:00",
+      "_updated": "2026-10-06T00:06:16+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -12795,15 +13095,15 @@
       "withdrawn": false
     },
     "roman-kopylov": {
-      "_updated": "2026-10-04T05:58:52+00:00",
+      "_updated": "2026-10-06T00:06:42+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
       "career_knockdowns_suffered": 2,
-      "career_ko_wins": 0,
+      "career_ko_wins": 6,
       "career_sig_strikes_absorbed": 800,
       "career_sub_wins": 0,
-      "career_wins": 0,
+      "career_wins": 8,
       "championship_round_fights": 0,
       "control_time_pct": 0.3,
       "display_name": "Roman Kopylov",
@@ -12815,7 +13115,7 @@
       "last_fight_date": "2026-10-03",
       "missed_weight": false,
       "name": "Roman Kopylov",
-      "needs_stats": true,
+      "needs_stats": false,
       "reach_in": 72.0,
       "round_strike_output": [
         60,
@@ -12824,21 +13124,21 @@
         54,
         52
       ],
-      "sapm": 4.0,
-      "slpm": 4.0,
+      "sapm": 5.08,
+      "slpm": 4.54,
       "stance": "Orthodox",
-      "stats_approx": true,
-      "strike_acc": 0.45,
+      "stats_approx": false,
+      "strike_acc": 0.5,
       "strike_acc_body": 0.5175,
       "strike_acc_head": 0.45,
       "strike_acc_leg": 0.5625,
-      "strike_def": 0.55,
-      "sub_avg": 0.6,
+      "strike_def": 0.53,
+      "sub_avg": 0.0,
       "sub_def": 0.65,
       "sweep_rate": 0.2,
-      "td_acc": 0.4,
-      "td_avg": 1.5,
-      "td_def": 0.65,
+      "td_acc": 0.5,
+      "td_avg": 1.12,
+      "td_def": 0.88,
       "trains_at_altitude": false,
       "venue_elevation_ft": 4226,
       "weight_class": "Middleweight",
@@ -12892,6 +13192,156 @@
       "trains_at_altitude": false,
       "venue_elevation_ft": 2001,
       "weight_class": "Featherweight",
+      "withdrawn": false
+    },
+    "roque-concei-o": {
+      "_updated": "2026-10-06T00:06:16+00:00",
+      "active_injury": false,
+      "age": 30,
+      "career_fights": 12,
+      "career_knockdowns_suffered": 2,
+      "career_ko_wins": 0,
+      "career_sig_strikes_absorbed": 800,
+      "career_sub_wins": 0,
+      "career_wins": 0,
+      "championship_round_fights": 0,
+      "control_time_pct": 0.3,
+      "display_name": "Roque Concei\u00e7\u00e3o",
+      "division_move": 0,
+      "fight_location_country": "USA",
+      "height_in": 70.0,
+      "home_country": "USA",
+      "injury_note": "",
+      "last_fight_date": "2025-06-01",
+      "missed_weight": false,
+      "name": "Roque Concei\u00e7\u00e3o",
+      "needs_stats": true,
+      "reach_in": 72.0,
+      "round_strike_output": [
+        60,
+        58,
+        56,
+        54,
+        52
+      ],
+      "sapm": 4.0,
+      "slpm": 4.0,
+      "stance": "Orthodox",
+      "stats_approx": true,
+      "strike_acc": 0.45,
+      "strike_acc_body": 0.5175,
+      "strike_acc_head": 0.45,
+      "strike_acc_leg": 0.5625,
+      "strike_def": 0.55,
+      "sub_avg": 0.6,
+      "sub_def": 0.65,
+      "sweep_rate": 0.2,
+      "td_acc": 0.4,
+      "td_avg": 1.5,
+      "td_def": 0.65,
+      "trains_at_altitude": false,
+      "venue_elevation_ft": 2001,
+      "weight_class": "Flyweight",
+      "withdrawn": false
+    },
+    "ryuho-miyaguchi": {
+      "_updated": "2026-10-06T00:06:16+00:00",
+      "active_injury": false,
+      "age": 30,
+      "career_fights": 12,
+      "career_knockdowns_suffered": 2,
+      "career_ko_wins": 0,
+      "career_sig_strikes_absorbed": 800,
+      "career_sub_wins": 0,
+      "career_wins": 0,
+      "championship_round_fights": 0,
+      "control_time_pct": 0.3,
+      "display_name": "Ryuho Miyaguchi",
+      "division_move": 0,
+      "fight_location_country": "USA",
+      "height_in": 70.0,
+      "home_country": "USA",
+      "injury_note": "",
+      "last_fight_date": "2025-06-01",
+      "missed_weight": false,
+      "name": "Ryuho Miyaguchi",
+      "needs_stats": true,
+      "reach_in": 72.0,
+      "round_strike_output": [
+        60,
+        58,
+        56,
+        54,
+        52
+      ],
+      "sapm": 4.0,
+      "slpm": 4.0,
+      "stance": "Orthodox",
+      "stats_approx": true,
+      "strike_acc": 0.45,
+      "strike_acc_body": 0.5175,
+      "strike_acc_head": 0.45,
+      "strike_acc_leg": 0.5625,
+      "strike_def": 0.55,
+      "sub_avg": 0.6,
+      "sub_def": 0.65,
+      "sweep_rate": 0.2,
+      "td_acc": 0.4,
+      "td_avg": 1.5,
+      "td_def": 0.65,
+      "trains_at_altitude": false,
+      "venue_elevation_ft": 2001,
+      "weight_class": "Bantamweight",
+      "withdrawn": false
+    },
+    "salhahuddin-everett": {
+      "_updated": "2026-10-06T00:06:16+00:00",
+      "active_injury": false,
+      "age": 30,
+      "career_fights": 12,
+      "career_knockdowns_suffered": 2,
+      "career_ko_wins": 0,
+      "career_sig_strikes_absorbed": 800,
+      "career_sub_wins": 0,
+      "career_wins": 0,
+      "championship_round_fights": 0,
+      "control_time_pct": 0.3,
+      "display_name": "Salhahuddin Everett",
+      "division_move": 0,
+      "fight_location_country": "USA",
+      "height_in": 70.0,
+      "home_country": "USA",
+      "injury_note": "",
+      "last_fight_date": "2025-06-01",
+      "missed_weight": false,
+      "name": "Salhahuddin Everett",
+      "needs_stats": true,
+      "reach_in": 72.0,
+      "round_strike_output": [
+        60,
+        58,
+        56,
+        54,
+        52
+      ],
+      "sapm": 4.0,
+      "slpm": 4.0,
+      "stance": "Orthodox",
+      "stats_approx": true,
+      "strike_acc": 0.45,
+      "strike_acc_body": 0.5175,
+      "strike_acc_head": 0.45,
+      "strike_acc_leg": 0.5625,
+      "strike_def": 0.55,
+      "sub_avg": 0.6,
+      "sub_def": 0.65,
+      "sweep_rate": 0.2,
+      "td_acc": 0.4,
+      "td_avg": 1.5,
+      "td_def": 0.65,
+      "trains_at_altitude": false,
+      "venue_elevation_ft": 2001,
+      "weight_class": "Welterweight",
       "withdrawn": false
     },
     "sam-patterson": {
@@ -13391,7 +13841,7 @@
       "withdrawn": false
     },
     "steven-koslow": {
-      "_updated": "2026-10-05T14:47:37+00:00",
+      "_updated": "2026-10-06T00:06:42+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -13411,7 +13861,7 @@
       "last_fight_date": "2025-06-01",
       "missed_weight": false,
       "name": "Steven Koslow",
-      "needs_stats": true,
+      "needs_stats": false,
       "reach_in": 72.0,
       "round_strike_output": [
         60,
@@ -13420,21 +13870,21 @@
         54,
         52
       ],
-      "sapm": 4.0,
-      "slpm": 4.0,
+      "sapm": 3.73,
+      "slpm": 0.77,
       "stance": "Orthodox",
-      "stats_approx": true,
-      "strike_acc": 0.45,
+      "stats_approx": false,
+      "strike_acc": 0.37,
       "strike_acc_body": 0.5175,
       "strike_acc_head": 0.45,
       "strike_acc_leg": 0.5625,
-      "strike_def": 0.55,
-      "sub_avg": 0.6,
+      "strike_def": 0.4,
+      "sub_avg": 1.1,
       "sub_def": 0.65,
       "sweep_rate": 0.2,
-      "td_acc": 0.4,
-      "td_avg": 1.5,
-      "td_def": 0.65,
+      "td_acc": 0.55,
+      "td_avg": 5.28,
+      "td_def": 0.0,
       "trains_at_altitude": false,
       "venue_elevation_ft": 2192,
       "weight_class": "Bantamweight",
@@ -13485,8 +13935,8 @@
       "weight_class": "Flyweight",
       "withdrawn": false
     },
-    "suyoung-you": {
-      "_updated": "2026-10-05T14:47:37+00:00",
+    "summer-onley": {
+      "_updated": "2026-10-06T00:06:16+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -13497,7 +13947,7 @@
       "career_wins": 0,
       "championship_round_fights": 0,
       "control_time_pct": 0.3,
-      "display_name": "SuYoung You",
+      "display_name": "Summer Onley",
       "division_move": 0,
       "fight_location_country": "USA",
       "height_in": 70.0,
@@ -13505,7 +13955,7 @@
       "injury_note": "",
       "last_fight_date": "2025-06-01",
       "missed_weight": false,
-      "name": "SuYoung You",
+      "name": "Summer Onley",
       "needs_stats": true,
       "reach_in": 72.0,
       "round_strike_output": [
@@ -13530,6 +13980,56 @@
       "td_acc": 0.4,
       "td_avg": 1.5,
       "td_def": 0.65,
+      "trains_at_altitude": false,
+      "venue_elevation_ft": 2001,
+      "weight_class": "Bantamweight",
+      "withdrawn": false
+    },
+    "suyoung-you": {
+      "_updated": "2026-10-06T00:06:42+00:00",
+      "active_injury": false,
+      "age": 30,
+      "career_fights": 12,
+      "career_knockdowns_suffered": 2,
+      "career_ko_wins": 0,
+      "career_sig_strikes_absorbed": 800,
+      "career_sub_wins": 0,
+      "career_wins": 5,
+      "championship_round_fights": 0,
+      "control_time_pct": 0.3,
+      "display_name": "SuYoung You",
+      "division_move": 0,
+      "fight_location_country": "USA",
+      "height_in": 70.0,
+      "home_country": "USA",
+      "injury_note": "",
+      "last_fight_date": "2025-06-01",
+      "missed_weight": false,
+      "name": "SuYoung You",
+      "needs_stats": false,
+      "reach_in": 72.0,
+      "round_strike_output": [
+        60,
+        58,
+        56,
+        54,
+        52
+      ],
+      "sapm": 2.01,
+      "slpm": 2.15,
+      "stance": "Orthodox",
+      "stats_approx": false,
+      "strike_acc": 0.47,
+      "strike_acc_body": 0.5175,
+      "strike_acc_head": 0.45,
+      "strike_acc_leg": 0.5625,
+      "strike_def": 0.68,
+      "sub_avg": 0.4,
+      "sub_def": 0.65,
+      "sweep_rate": 0.2,
+      "td_acc": 0.47,
+      "td_avg": 4.26,
+      "td_def": 0.66,
       "trains_at_altitude": false,
       "venue_elevation_ft": 2192,
       "weight_class": "Bantamweight",
@@ -13631,15 +14131,15 @@
       "withdrawn": false
     },
     "tanner-boser": {
-      "_updated": "2026-10-05T14:47:37+00:00",
+      "_updated": "2026-10-06T00:06:42+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
       "career_knockdowns_suffered": 2,
-      "career_ko_wins": 0,
+      "career_ko_wins": 3,
       "career_sig_strikes_absorbed": 800,
       "career_sub_wins": 0,
-      "career_wins": 0,
+      "career_wins": 5,
       "championship_round_fights": 0,
       "control_time_pct": 0.3,
       "display_name": "Tanner Boser",
@@ -13651,7 +14151,7 @@
       "last_fight_date": "2025-06-01",
       "missed_weight": false,
       "name": "Tanner Boser",
-      "needs_stats": true,
+      "needs_stats": false,
       "reach_in": 72.0,
       "round_strike_output": [
         60,
@@ -13660,28 +14160,28 @@
         54,
         52
       ],
-      "sapm": 4.0,
-      "slpm": 4.0,
+      "sapm": 3.0,
+      "slpm": 4.82,
       "stance": "Orthodox",
-      "stats_approx": true,
-      "strike_acc": 0.45,
+      "stats_approx": false,
+      "strike_acc": 0.53,
       "strike_acc_body": 0.5175,
       "strike_acc_head": 0.45,
       "strike_acc_leg": 0.5625,
-      "strike_def": 0.55,
-      "sub_avg": 0.6,
+      "strike_def": 0.57,
+      "sub_avg": 0.0,
       "sub_def": 0.65,
       "sweep_rate": 0.2,
-      "td_acc": 0.4,
-      "td_avg": 1.5,
-      "td_def": 0.65,
+      "td_acc": 0.0,
+      "td_avg": 0.0,
+      "td_def": 0.69,
       "trains_at_altitude": false,
       "venue_elevation_ft": 2192,
       "weight_class": "Heavyweight",
       "withdrawn": false
     },
     "tba": {
-      "_updated": "2026-10-05T14:47:37+00:00",
+      "_updated": "2026-10-06T00:06:16+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -13781,15 +14281,15 @@
       "withdrawn": false
     },
     "timmy-cuamba": {
-      "_updated": "2026-10-05T14:47:37+00:00",
+      "_updated": "2026-10-06T00:06:42+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
       "career_knockdowns_suffered": 2,
-      "career_ko_wins": 0,
+      "career_ko_wins": 1,
       "career_sig_strikes_absorbed": 800,
       "career_sub_wins": 0,
-      "career_wins": 0,
+      "career_wins": 3,
       "championship_round_fights": 0,
       "control_time_pct": 0.3,
       "display_name": "Timmy Cuamba",
@@ -13801,7 +14301,7 @@
       "last_fight_date": "2025-06-01",
       "missed_weight": false,
       "name": "Timmy Cuamba",
-      "needs_stats": true,
+      "needs_stats": false,
       "reach_in": 72.0,
       "round_strike_output": [
         60,
@@ -13810,21 +14310,21 @@
         54,
         52
       ],
-      "sapm": 4.0,
-      "slpm": 4.0,
+      "sapm": 3.72,
+      "slpm": 2.88,
       "stance": "Orthodox",
-      "stats_approx": true,
-      "strike_acc": 0.45,
+      "stats_approx": false,
+      "strike_acc": 0.42,
       "strike_acc_body": 0.5175,
       "strike_acc_head": 0.45,
       "strike_acc_leg": 0.5625,
       "strike_def": 0.55,
-      "sub_avg": 0.6,
+      "sub_avg": 0.0,
       "sub_def": 0.65,
       "sweep_rate": 0.2,
-      "td_acc": 0.4,
-      "td_avg": 1.5,
-      "td_def": 0.65,
+      "td_acc": 0.31,
+      "td_avg": 1.18,
+      "td_def": 0.71,
       "trains_at_altitude": false,
       "venue_elevation_ft": 2192,
       "weight_class": "Bantamweight",
@@ -14523,15 +15023,15 @@
       "withdrawn": false
     },
     "wang-cong": {
-      "_updated": "2026-10-04T05:58:52+00:00",
+      "_updated": "2026-10-06T00:06:42+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
       "career_knockdowns_suffered": 2,
-      "career_ko_wins": 0,
+      "career_ko_wins": 1,
       "career_sig_strikes_absorbed": 800,
-      "career_sub_wins": 0,
-      "career_wins": 0,
+      "career_sub_wins": 1,
+      "career_wins": 6,
       "championship_round_fights": 0,
       "control_time_pct": 0.3,
       "display_name": "Wang Cong",
@@ -14543,7 +15043,7 @@
       "last_fight_date": "2026-10-03",
       "missed_weight": false,
       "name": "Wang Cong",
-      "needs_stats": true,
+      "needs_stats": false,
       "reach_in": 72.0,
       "round_strike_output": [
         60,
@@ -14552,21 +15052,21 @@
         54,
         52
       ],
-      "sapm": 4.0,
-      "slpm": 4.0,
+      "sapm": 2.73,
+      "slpm": 6.82,
       "stance": "Orthodox",
-      "stats_approx": true,
-      "strike_acc": 0.45,
+      "stats_approx": false,
+      "strike_acc": 0.58,
       "strike_acc_body": 0.5175,
       "strike_acc_head": 0.45,
       "strike_acc_leg": 0.5625,
-      "strike_def": 0.55,
+      "strike_def": 0.6,
       "sub_avg": 0.6,
       "sub_def": 0.65,
       "sweep_rate": 0.2,
-      "td_acc": 0.4,
-      "td_avg": 1.5,
-      "td_def": 0.65,
+      "td_acc": 0.75,
+      "td_avg": 0.62,
+      "td_def": 0.85,
       "trains_at_altitude": false,
       "venue_elevation_ft": 4226,
       "weight_class": "Flyweight",
@@ -15627,7 +16127,7 @@
     },
     {
       "a": "ismael-bonfim",
-      "a_ml": -113,
+      "a_ml": -112,
       "b": "francisco-prado",
       "b_ml": -106,
       "event": "UFC Fight Night: Allen vs. Duncan",
@@ -15637,7 +16137,7 @@
     },
     {
       "a": "brendan-allen",
-      "a_ml": -139,
+      "a_ml": -135,
       "b": "christian-leroy-duncan",
       "b_ml": 114,
       "event": "UFC Fight Night: Allen vs. Duncan",
@@ -15779,9 +16279,9 @@
     },
     {
       "a": "allen-frye-jr",
-      "a_ml": 215,
+      "a_ml": 222,
       "b": "rj-harris",
-      "b_ml": -270,
+      "b_ml": -285,
       "event": "UFC Fight Night: Allen vs. Duncan",
       "label": "Allen Frye Jr. vs RJ Harris",
       "rounds": 3,
@@ -15789,9 +16289,9 @@
     },
     {
       "a": "brendson-ribeiro",
-      "a_ml": 273,
+      "a_ml": 287,
       "b": "felipe-franco",
-      "b_ml": -345,
+      "b_ml": -360,
       "event": "UFC Fight Night: Allen vs. Duncan",
       "label": "Brendson Ribeiro vs Felipe Franco",
       "rounds": 3,
@@ -15799,9 +16299,9 @@
     },
     {
       "a": "niko-price",
-      "a_ml": 133,
+      "a_ml": 130,
       "b": "leon-shahbazyan",
-      "b_ml": -162,
+      "b_ml": -160,
       "event": "UFC Fight Night: Allen vs. Duncan",
       "label": "Niko Price vs Leon Shahbazyan",
       "rounds": 3,
@@ -15819,9 +16319,9 @@
     },
     {
       "a": "gerald-meerschaert",
-      "a_ml": 211,
+      "a_ml": 220,
       "b": "julius-walker",
-      "b_ml": -265,
+      "b_ml": -275,
       "event": "UFC Fight Night: Allen vs. Duncan",
       "label": "Gerald Meerschaert vs Julius Walker",
       "rounds": 3,
@@ -15847,7 +16347,7 @@
       "a": "jai-herbert",
       "a_ml": 162,
       "b": "matheus-camilo",
-      "b_ml": -196,
+      "b_ml": -195,
       "event": "UFC Fight Night: Allen vs. Duncan",
       "label": "Jai Herbert vs Matheus Camilo",
       "rounds": 3,
@@ -15934,13 +16434,55 @@
       "label": "Alexander Volkanovski vs Movsar Evloev",
       "rounds": 5,
       "weight_class": "Featherweight"
+    },
+    {
+      "a": "preston-lagrange",
+      "a_ml": 317,
+      "b": "nell-ariano",
+      "b_ml": -470,
+      "event": "Dana White's Contender Series: Season 10, Week 9",
+      "label": "Preston LaGrange vs Nell Ariano",
+      "rounds": 3,
+      "weight_class": "Light Heavyweight"
+    },
+    {
+      "a": "mateus-soares",
+      "b": "ryuho-miyaguchi",
+      "event": "Dana White's Contender Series: Season 10, Week 9",
+      "label": "Mateus Soares vs Ryuho Miyaguchi",
+      "rounds": 3,
+      "weight_class": "Bantamweight"
+    },
+    {
+      "a": "roque-concei-o",
+      "b": "alexander-chavez",
+      "event": "Dana White's Contender Series: Season 10, Week 9",
+      "label": "Roque Concei\u00e7\u00e3o vs Alexander Chavez",
+      "rounds": 3,
+      "weight_class": "Flyweight"
+    },
+    {
+      "a": "salhahuddin-everett",
+      "b": "ozzy-martin",
+      "event": "Dana White's Contender Series: Season 10, Week 9",
+      "label": "Salhahuddin Everett vs Ozzy Martin",
+      "rounds": 3,
+      "weight_class": "Welterweight"
+    },
+    {
+      "a": "alivia-bierley",
+      "b": "summer-onley",
+      "event": "Dana White's Contender Series: Season 10, Week 9",
+      "label": "Alivia Bierley vs Summer Onley",
+      "rounds": 3,
+      "weight_class": "Bantamweight"
     }
   ],
   "meta": {
     "calibration": {
       "shrink": 0.55
     },
-    "last_sync": "2026-10-05T14:48:10+00:00",
+    "last_sync": "2026-10-06T00:06:49+00:00",
     "news_last": {
       "aaron-pico": "2026-10-03T16:25:44.084178+00:00",
       "abdul-hussein": "2026-09-27T21:23:54.107781+00:00",
@@ -15951,6 +16493,7 @@
       "alberto-montes": "2026-09-27T21:23:54.107781+00:00",
       "alden-coria": "2026-09-27T21:23:54.107781+00:00",
       "aleksandar-rakic": "2026-09-29T05:48:08.551444+00:00",
+      "alexander-chavez": "2026-10-06T00:06:17.027760+00:00",
       "alexander-hernandez": "2026-10-01T22:43:55.729529+00:00",
       "alexander-poppeck": "2026-09-26T21:13:54.290854+00:00",
       "alexander-volkanovski": "2026-10-03T16:25:44.084178+00:00",
@@ -15958,6 +16501,7 @@
       "alexia-thainara": "2026-09-28T05:29:14.592232+00:00",
       "alice-pereira": "2026-10-03T16:25:44.084178+00:00",
       "alik-lorenz": "2026-09-29T12:58:26.982895+00:00",
+      "alivia-bierley": "2026-10-06T00:06:17.027760+00:00",
       "allen-frye-jr": "2026-10-03T16:25:44.084178+00:00",
       "alvin-hines": "2026-09-27T21:23:54.107781+00:00",
       "amanda-lemos": "2026-09-28T05:29:14.592232+00:00",
@@ -16102,6 +16646,7 @@
       "marina-spasi": "2026-09-26T21:13:54.290854+00:00",
       "mark-vologdin": "2026-10-05T05:47:00.820967+00:00",
       "marvin-vettori": "2026-10-03T05:23:13.697168+00:00",
+      "mateus-soares": "2026-10-06T00:06:17.027760+00:00",
       "mateusz-gamrot": "2026-09-28T23:19:21.298500+00:00",
       "mateusz-r-becki": "2026-10-05T05:47:00.820967+00:00",
       "matheus-camilo": "2026-10-04T12:26:34.416646+00:00",
@@ -16126,6 +16671,7 @@
       "nate-landwehr": "2026-10-03T05:23:13.697168+00:00",
       "navajo-stirling": "2026-09-26T16:27:08.928674+00:00",
       "neil-magny": "2026-10-01T13:23:30.962940+00:00",
+      "nell-ariano": "2026-10-06T00:06:17.027760+00:00",
       "nick-galanti": "2026-10-03T11:44:04.534611+00:00",
       "nikita-krylov": "2026-10-04T12:26:34.416646+00:00",
       "niko-price": "2026-10-04T12:26:34.416646+00:00",
@@ -16135,8 +16681,10 @@
       "oban-elliott": "2026-09-27T17:00:53.229485+00:00",
       "opponent-tba": "2026-09-27T17:00:53.229485+00:00",
       "otari-tanzilovi": "2026-10-04T21:32:14.797029+00:00",
+      "ozzy-martin": "2026-10-06T00:06:17.027760+00:00",
       "payton-talbott": "2026-10-03T11:44:04.534611+00:00",
       "petr-yan": "2026-10-04T21:32:14.797029+00:00",
+      "preston-lagrange": "2026-10-06T00:06:17.027760+00:00",
       "quillan-salkilld": "2026-09-27T21:23:54.107781+00:00",
       "rafael-dos-anjos": "2026-10-03T11:44:04.534611+00:00",
       "ramazan-temirov": "2026-09-27T21:23:54.107781+00:00",
@@ -16151,6 +16699,8 @@
       "roman-dolidze": "2026-09-28T23:19:21.298500+00:00",
       "roman-kopylov": "2026-10-03T11:44:04.534611+00:00",
       "roman-puga": "2026-09-29T05:48:08.551444+00:00",
+      "roque-concei-o": "2026-10-06T00:06:17.027760+00:00",
+      "ryuho-miyaguchi": "2026-10-06T00:06:17.027760+00:00",
       "sam-patterson": "2026-10-04T21:32:14.797029+00:00",
       "santiago-ponzinibbio": "2026-10-05T05:47:00.820967+00:00",
       "saygid-izagakhmaev": "2026-10-05T14:47:37.513274+00:00",
@@ -16190,8 +16740,8 @@
       "yadier-del-valle": "2026-10-04T21:32:14.797029+00:00"
     },
     "odds": {
-      "count": 15,
-      "last_call": "2026-10-05T14:47:37.509857+00:00",
+      "count": 16,
+      "last_call": "2026-10-06T00:06:17.024234+00:00",
       "month": "2026-10"
     },
     "ufcstats_last": {
@@ -16401,6 +16951,7 @@
       "robert-valentin": "2026-07-27T11:00:55.584805+00:00",
       "roberto-soldi": "2026-10-05T14:47:39.411683+00:00",
       "roman-dolidze": "2026-08-01T03:53:28.493679+00:00",
+      "roman-kopylov": "2026-10-06T00:06:18.977132+00:00",
       "roman-puga": "2026-08-19T13:12:01.856497+00:00",
       "sam-patterson": "2026-07-20T09:00:53.524154+00:00",
       "santiago-ponzinibbio": "2026-07-20T09:00:53.524154+00:00",
@@ -16412,11 +16963,15 @@
       "stephanie-luciano": "2026-07-29T09:00:53.852762+00:00",
       "steve-erceg": "2026-07-20T11:00:58.429873+00:00",
       "steven-asplund": "2026-07-27T21:00:49.625123+00:00",
+      "steven-koslow": "2026-10-06T00:06:18.977132+00:00",
       "stewart-nicoll": "2026-07-16T01:01:10.349922+00:00",
+      "suyoung-you": "2026-10-06T00:06:18.977132+00:00",
       "tabatha-ricci": "2026-07-16T03:01:20.534247+00:00",
       "taner-trembley": "2026-08-19T13:12:01.856497+00:00",
+      "tanner-boser": "2026-10-06T00:06:18.977132+00:00",
       "tba": "2026-10-01T13:23:32.611235+00:00",
       "thomas-petersen": "2026-07-20T11:00:58.429873+00:00",
+      "timmy-cuamba": "2026-10-06T00:06:18.977132+00:00",
       "tofiq-musayev": "2026-07-27T11:00:55.584805+00:00",
       "tom-pagliarulo": "2026-08-15T13:01:20.988980+00:00",
       "tommy-mcmillen": "2026-07-16T03:01:20.534247+00:00",
@@ -16430,6 +16985,7 @@
       "vicente-luque": "2026-07-28T05:00:52.608943+00:00",
       "vitor-petrino": "2026-08-01T03:53:28.493679+00:00",
       "vlasto-epo": "2026-08-02T17:00:52.284175+00:00",
+      "wang-cong": "2026-10-06T00:06:18.977132+00:00",
       "wellington-turman": "2026-07-20T11:00:58.429873+00:00",
       "wes-schultz": "2026-08-01T01:00:56.539022+00:00",
       "yadier-del-valle": "2026-07-30T01:00:51.274192+00:00"

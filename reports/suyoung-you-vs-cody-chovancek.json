@@ -4,15 +4,15 @@
     "fighter_b": "Cody Chovancek",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.692,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.733,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     },
     "fighter_b_flags": {
       "active_injury": false,
@@ -24,48 +24,49 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 77.27,
-    "fighter_b_pct": 22.73,
-    "draw_pct": 4.1
+    "fighter_a_pct": 71.17,
+    "fighter_b_pct": 28.83,
+    "draw_pct": 0.61,
+    "calibration_shrink_applied": 0.55
   },
   "consensus_forecast": {
     "applied": false,
     "model_weight": 1.0,
-    "fighter_a_pct": 77.27,
-    "fighter_b_pct": 22.73,
+    "fighter_a_pct": 88.49,
+    "fighter_b_pct": 11.51,
     "market_devig_a_pct": null
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 5.9,
-      "Submission": 10.6,
-      "Unanimous Decision": 50.1,
-      "Split/Majority Decision": 7.5
+      "KO/TKO": 4.98,
+      "Submission": 10.03,
+      "Unanimous Decision": 71.93,
+      "Split/Majority Decision": 1.01
     },
     "fighter_b": {
-      "KO/TKO": 8.55,
-      "Submission": 3.15,
-      "Unanimous Decision": 5.8,
-      "Split/Majority Decision": 4.3
+      "KO/TKO": 8.11,
+      "Submission": 3.03,
+      "Unanimous Decision": 0.11,
+      "Split/Majority Decision": 0.19
     }
   },
   "fight_level": {
-    "ko_tko_pct": 14.45,
-    "submission_pct": 13.75,
-    "decision_pct": 67.7,
-    "goes_the_distance_pct": 71.8,
-    "expected_fight_minutes": 12.76
+    "ko_tko_pct": 13.09,
+    "submission_pct": 13.06,
+    "decision_pct": 73.24,
+    "goes_the_distance_pct": 73.85,
+    "expected_fight_minutes": 13.01
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 117,
-      "round_2": 121,
-      "round_3": 92
+      "round_1": 507,
+      "round_2": 525,
+      "round_3": 469
     },
     "fighter_b": {
-      "round_1": 95,
-      "round_2": 71,
-      "round_3": 68
+      "round_1": 385,
+      "round_2": 361,
+      "round_3": 368
     }
   },
   "value_betting": {
@@ -73,29 +74,27 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 77.27,
-      "edge_pct": 24.89,
-      "consensus_edge_pct": 24.89,
-      "kelly_fraction_full": 0.5226,
-      "kelly_fraction_half": 0.2613,
+      "model_win_prob_pct": 71.17,
+      "edge_pct": 18.79,
+      "consensus_edge_pct": 36.11,
+      "kelly_fraction_full": 0.3946,
+      "kelly_fraction_half": 0.1973,
       "model_sees_value": true,
       "consensus_agrees": true,
-      "value_bet": false
+      "value_bet": true
     },
     "fighter_b": {
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 22.73,
-      "edge_pct": -29.65,
-      "consensus_edge_pct": -29.65,
-      "kelly_fraction_full": -0.6226,
+      "model_win_prob_pct": 28.83,
+      "edge_pct": -23.55,
+      "consensus_edge_pct": -40.87,
+      "kelly_fraction_full": -0.4946,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
       "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+    }
   }
 }

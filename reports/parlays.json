@@ -734,7 +734,7 @@
     },
     "UFC 332: Silva vs. Wang": {
       "card_type": "numbered/PPV",
-      "eligible_legs": 4,
+      "eligible_legs": 5,
       "parlays": {
         "main_card_parlay": {
           "legs": [
@@ -772,6 +772,17 @@
               "modal_finish_round": "round_1"
             },
             {
+              "matchup": "Roman Kopylov vs Ateba Gautier",
+              "pick": "Ateba Gautier",
+              "moneyline": -239,
+              "decimal_odds": 1.418,
+              "consensus_prob": 0.6651,
+              "model_prob": 0.5824,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 35.8,
+              "modal_finish_round": "round_1"
+            },
+            {
               "matchup": "Deiveson Figueiredo vs Payton Talbott",
               "pick": "Payton Talbott",
               "moneyline": -775,
@@ -783,11 +794,11 @@
               "modal_finish_round": "round_1"
             }
           ],
-          "leg_count": 4,
-          "combined_prob_pct": 27.06,
-          "combined_decimal_odds": 4.898,
-          "combined_american": 390,
-          "ev_per_unit": 0.3255,
+          "leg_count": 5,
+          "combined_prob_pct": 18.0,
+          "combined_decimal_odds": 6.946,
+          "combined_american": 595,
+          "ev_per_unit": 0.2501,
           "positive_ev": true
         }
       }
@@ -812,9 +823,9 @@
             {
               "matchup": "Ismael Bonfim vs Francisco Prado",
               "pick": "Ismael Bonfim",
-              "moneyline": -113,
-              "decimal_odds": 1.885,
-              "consensus_prob": 0.6299,
+              "moneyline": -112,
+              "decimal_odds": 1.893,
+              "consensus_prob": 0.6293,
               "model_prob": 0.6723,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 64.15,
@@ -823,9 +834,9 @@
             {
               "matchup": "Allen Frye Jr. vs RJ Harris",
               "pick": "RJ Harris",
-              "moneyline": -270,
-              "decimal_odds": 1.37,
-              "consensus_prob": 0.7547,
+              "moneyline": -285,
+              "decimal_odds": 1.351,
+              "consensus_prob": 0.7593,
               "model_prob": 0.6878,
               "likely_method": "KO/TKO",
               "likely_method_pct": 47.22,
@@ -833,10 +844,10 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 29.28,
-          "combined_decimal_odds": 5.294,
-          "combined_american": 429,
-          "ev_per_unit": 0.5503,
+          "combined_prob_pct": 29.43,
+          "combined_decimal_odds": 5.243,
+          "combined_american": 424,
+          "ev_per_unit": 0.5432,
           "positive_ev": true
         },
         "5_leg": {
@@ -855,9 +866,9 @@
             {
               "matchup": "Ismael Bonfim vs Francisco Prado",
               "pick": "Ismael Bonfim",
-              "moneyline": -113,
-              "decimal_odds": 1.885,
-              "consensus_prob": 0.6299,
+              "moneyline": -112,
+              "decimal_odds": 1.893,
+              "consensus_prob": 0.6293,
               "model_prob": 0.6723,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 64.15,
@@ -866,9 +877,9 @@
             {
               "matchup": "Allen Frye Jr. vs RJ Harris",
               "pick": "RJ Harris",
-              "moneyline": -270,
-              "decimal_odds": 1.37,
-              "consensus_prob": 0.7547,
+              "moneyline": -285,
+              "decimal_odds": 1.351,
+              "consensus_prob": 0.7593,
               "model_prob": 0.6878,
               "likely_method": "KO/TKO",
               "likely_method_pct": 47.22,
@@ -877,9 +888,9 @@
             {
               "matchup": "Gerald Meerschaert vs Julius Walker",
               "pick": "Julius Walker",
-              "moneyline": -265,
-              "decimal_odds": 1.377,
-              "consensus_prob": 0.727,
+              "moneyline": -275,
+              "decimal_odds": 1.364,
+              "consensus_prob": 0.7319,
               "model_prob": 0.6529,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 59.18,
@@ -888,9 +899,9 @@
             {
               "matchup": "Brendson Ribeiro vs Felipe Franco",
               "pick": "Felipe Franco",
-              "moneyline": -345,
-              "decimal_odds": 1.29,
-              "consensus_prob": 0.758,
+              "moneyline": -360,
+              "decimal_odds": 1.278,
+              "consensus_prob": 0.7632,
               "model_prob": 0.6542,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 58.75,
@@ -898,10 +909,10 @@
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 16.14,
-          "combined_decimal_odds": 9.404,
-          "combined_american": 840,
-          "ev_per_unit": 0.5175,
+          "combined_prob_pct": 16.44,
+          "combined_decimal_odds": 9.139,
+          "combined_american": 814,
+          "ev_per_unit": 0.5026,
           "positive_ev": true
         }
       }

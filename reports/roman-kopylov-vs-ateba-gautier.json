@@ -4,15 +4,15 @@
     "fighter_b": "Ateba Gautier",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.588,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.64,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     },
     "fighter_b_flags": {
       "active_injury": false,
@@ -24,48 +24,49 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 26.59,
-    "fighter_b_pct": 73.41,
-    "draw_pct": 2.8
+    "fighter_a_pct": 41.76,
+    "fighter_b_pct": 58.24,
+    "draw_pct": 5.14,
+    "calibration_shrink_applied": 0.55
   },
   "consensus_forecast": {
     "applied": true,
     "model_weight": 0.4,
-    "fighter_a_pct": 30.12,
-    "fighter_b_pct": 69.88,
+    "fighter_a_pct": 33.49,
+    "fighter_b_pct": 66.51,
     "market_devig_a_pct": 32.47
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 12.45,
-      "Submission": 7.2,
-      "Unanimous Decision": 3.7,
-      "Split/Majority Decision": 2.5
+      "KO/TKO": 15.05,
+      "Submission": 2.1,
+      "Unanimous Decision": 10.02,
+      "Split/Majority Decision": 6.04
     },
     "fighter_b": {
-      "KO/TKO": 15.6,
-      "Submission": 2.1,
-      "Unanimous Decision": 48.35,
-      "Split/Majority Decision": 5.3
+      "KO/TKO": 15.38,
+      "Submission": 1.66,
+      "Unanimous Decision": 35.8,
+      "Split/Majority Decision": 8.81
     }
   },
   "fight_level": {
-    "ko_tko_pct": 28.05,
-    "submission_pct": 9.3,
-    "decision_pct": 59.85,
-    "goes_the_distance_pct": 62.65,
-    "expected_fight_minutes": 12.01
+    "ko_tko_pct": 30.43,
+    "submission_pct": 3.76,
+    "decision_pct": 60.67,
+    "goes_the_distance_pct": 65.81,
+    "expected_fight_minutes": 12.35
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 143,
-      "round_2": 135,
-      "round_3": 115
+      "round_1": 619,
+      "round_2": 560,
+      "round_3": 536
     },
     "fighter_b": {
-      "round_1": 144,
-      "round_2": 115,
-      "round_3": 95
+      "round_1": 632,
+      "round_2": 536,
+      "round_3": 536
     }
   },
   "value_betting": {
@@ -73,12 +74,12 @@
       "market_moneyline": 195,
       "market_decimal_odds": 2.95,
       "market_implied_prob_pct": 33.9,
-      "model_win_prob_pct": 26.59,
-      "edge_pct": -7.3,
-      "consensus_edge_pct": -3.78,
-      "kelly_fraction_full": -0.1105,
-      "kelly_fraction_half": 0.0,
-      "model_sees_value": false,
+      "model_win_prob_pct": 41.76,
+      "edge_pct": 7.86,
+      "consensus_edge_pct": -0.41,
+      "kelly_fraction_full": 0.1189,
+      "kelly_fraction_half": 0.0594,
+      "model_sees_value": true,
       "consensus_agrees": false,
       "value_bet": false
     },
@@ -86,16 +87,14 @@
       "market_moneyline": -239,
       "market_decimal_odds": 1.418,
       "market_implied_prob_pct": 70.5,
-      "model_win_prob_pct": 73.41,
-      "edge_pct": 2.9,
-      "consensus_edge_pct": -0.62,
-      "kelly_fraction_full": 0.0984,
-      "kelly_fraction_half": 0.0492,
-      "model_sees_value": true,
+      "model_win_prob_pct": 58.24,
+      "edge_pct": -12.26,
+      "consensus_edge_pct": -3.99,
+      "kelly_fraction_full": -0.4155,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
       "consensus_agrees": false,
       "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+    }
   }
 }

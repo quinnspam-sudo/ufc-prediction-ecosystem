@@ -4,15 +4,15 @@
     "fighter_b": "Jhonata Diniz",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.555,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.589,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     },
     "fighter_b_flags": {
       "active_injury": false,
@@ -24,48 +24,49 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 64.0,
-    "fighter_b_pct": 36.0,
-    "draw_pct": 5.7
+    "fighter_a_pct": 64.77,
+    "fighter_b_pct": 35.23,
+    "draw_pct": 3.41,
+    "calibration_shrink_applied": 0.55
   },
   "consensus_forecast": {
     "applied": false,
     "model_weight": 1.0,
-    "fighter_a_pct": 64.0,
-    "fighter_b_pct": 36.0,
+    "fighter_a_pct": 76.86,
+    "fighter_b_pct": 23.14,
     "market_devig_a_pct": null
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 16.15,
-      "Submission": 6.25,
-      "Unanimous Decision": 30.3,
-      "Split/Majority Decision": 7.65
+      "KO/TKO": 20.59,
+      "Submission": 1.34,
+      "Unanimous Decision": 46.85,
+      "Split/Majority Decision": 5.46
     },
     "fighter_b": {
-      "KO/TKO": 16.95,
-      "Submission": 1.15,
-      "Unanimous Decision": 9.75,
-      "Split/Majority Decision": 6.1
+      "KO/TKO": 15.24,
+      "Submission": 1.27,
+      "Unanimous Decision": 3.01,
+      "Split/Majority Decision": 2.83
     }
   },
   "fight_level": {
-    "ko_tko_pct": 33.1,
-    "submission_pct": 7.4,
-    "decision_pct": 53.8,
-    "goes_the_distance_pct": 59.5,
-    "expected_fight_minutes": 11.76
+    "ko_tko_pct": 35.83,
+    "submission_pct": 2.61,
+    "decision_pct": 58.15,
+    "goes_the_distance_pct": 61.56,
+    "expected_fight_minutes": 11.98
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 154,
-      "round_2": 161,
-      "round_3": 133
+      "round_1": 807,
+      "round_2": 720,
+      "round_3": 666
     },
     "fighter_b": {
-      "round_1": 153,
-      "round_2": 115,
-      "round_3": 94
+      "round_1": 625,
+      "round_2": 529,
+      "round_3": 497
     }
   },
   "value_betting": {
@@ -73,29 +74,27 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 64.0,
-      "edge_pct": 11.62,
-      "consensus_edge_pct": 11.62,
-      "kelly_fraction_full": 0.244,
-      "kelly_fraction_half": 0.122,
+      "model_win_prob_pct": 64.77,
+      "edge_pct": 12.39,
+      "consensus_edge_pct": 24.48,
+      "kelly_fraction_full": 0.2602,
+      "kelly_fraction_half": 0.1301,
       "model_sees_value": true,
       "consensus_agrees": true,
-      "value_bet": false
+      "value_bet": true
     },
     "fighter_b": {
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 36.0,
-      "edge_pct": -16.38,
-      "consensus_edge_pct": -16.38,
-      "kelly_fraction_full": -0.344,
+      "model_win_prob_pct": 35.23,
+      "edge_pct": -17.15,
+      "consensus_edge_pct": -29.24,
+      "kelly_fraction_full": -0.3602,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
       "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+    }
   }
 }
