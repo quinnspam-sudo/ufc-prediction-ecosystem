@@ -825,7 +825,7 @@
               "pick": "Ismael Bonfim",
               "moneyline": -112,
               "decimal_odds": 1.893,
-              "consensus_prob": 0.6293,
+              "consensus_prob": 0.6279,
               "model_prob": 0.6723,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 64.15,
@@ -834,9 +834,9 @@
             {
               "matchup": "Allen Frye Jr. vs RJ Harris",
               "pick": "RJ Harris",
-              "moneyline": -285,
-              "decimal_odds": 1.351,
-              "consensus_prob": 0.7593,
+              "moneyline": -290,
+              "decimal_odds": 1.345,
+              "consensus_prob": 0.7636,
               "model_prob": 0.6878,
               "likely_method": "KO/TKO",
               "likely_method_pct": 47.22,
@@ -844,10 +844,10 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 29.43,
-          "combined_decimal_odds": 5.243,
-          "combined_american": 424,
-          "ev_per_unit": 0.5432,
+          "combined_prob_pct": 29.54,
+          "combined_decimal_odds": 5.219,
+          "combined_american": 422,
+          "ev_per_unit": 0.5416,
           "positive_ev": true
         },
         "5_leg": {
@@ -868,7 +868,7 @@
               "pick": "Ismael Bonfim",
               "moneyline": -112,
               "decimal_odds": 1.893,
-              "consensus_prob": 0.6293,
+              "consensus_prob": 0.6279,
               "model_prob": 0.6723,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 64.15,
@@ -877,9 +877,9 @@
             {
               "matchup": "Allen Frye Jr. vs RJ Harris",
               "pick": "RJ Harris",
-              "moneyline": -285,
-              "decimal_odds": 1.351,
-              "consensus_prob": 0.7593,
+              "moneyline": -290,
+              "decimal_odds": 1.345,
+              "consensus_prob": 0.7636,
               "model_prob": 0.6878,
               "likely_method": "KO/TKO",
               "likely_method_pct": 47.22,
@@ -909,10 +909,10 @@
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 16.44,
-          "combined_decimal_odds": 9.139,
-          "combined_american": 814,
-          "ev_per_unit": 0.5026,
+          "combined_prob_pct": 16.5,
+          "combined_decimal_odds": 9.099,
+          "combined_american": 810,
+          "ev_per_unit": 0.5011,
           "positive_ev": true
         }
       }

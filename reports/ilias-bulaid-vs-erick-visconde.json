@@ -1,0 +1,101 @@
+{
+  "matchup": {
+    "fighter_a": "Ilias Bulaid",
+    "fighter_b": "Erick Visconde",
+    "scheduled_rounds": 3,
+    "is_title_fight": false,
+    "iterations": 2000,
+    "avg_rounds_simulated": 2.665,
+    "fighter_a_flags": {
+      "active_injury": true,
+      "missed_weight": false,
+      "withdrawn": true,
+      "injury_note": "Ilias Bulaid vs Erick Visconde pulled from Week 8 of Contender Series, rescheduled to end of season - MMA Fighting",
+      "stats_approx": true,
+      "needs_real_stats": true
+    },
+    "fighter_b_flags": {
+      "active_injury": true,
+      "missed_weight": false,
+      "withdrawn": true,
+      "injury_note": "Ilias Bulaid vs Erick Visconde pulled from Week 8 of Contender Series, rescheduled to end of season - MMA Fighting",
+      "stats_approx": true,
+      "needs_real_stats": true
+    }
+  },
+  "win_probability": {
+    "fighter_a_pct": 51.2,
+    "fighter_b_pct": 48.8,
+    "draw_pct": 8.0
+  },
+  "consensus_forecast": {
+    "applied": false,
+    "model_weight": 1.0,
+    "fighter_a_pct": 51.2,
+    "fighter_b_pct": 48.8,
+    "market_devig_a_pct": null
+  },
+  "method_of_victory_matrix": {
+    "fighter_a": {
+      "KO/TKO": 7.4,
+      "Submission": 9.55,
+      "Unanimous Decision": 23.3,
+      "Split/Majority Decision": 6.85
+    },
+    "fighter_b": {
+      "KO/TKO": 7.5,
+      "Submission": 9.5,
+      "Unanimous Decision": 21.55,
+      "Split/Majority Decision": 6.35
+    }
+  },
+  "fight_level": {
+    "ko_tko_pct": 14.9,
+    "submission_pct": 19.05,
+    "decision_pct": 58.05,
+    "goes_the_distance_pct": 66.05,
+    "expected_fight_minutes": 12.48
+  },
+  "finish_round_distribution": {
+    "fighter_a": {
+      "round_1": 98,
+      "round_2": 137,
+      "round_3": 104
+    },
+    "fighter_b": {
+      "round_1": 115,
+      "round_2": 107,
+      "round_3": 118
+    }
+  },
+  "value_betting": {
+    "fighter_a": {
+      "market_moneyline": -110,
+      "market_decimal_odds": 1.909,
+      "market_implied_prob_pct": 52.38,
+      "model_win_prob_pct": 51.2,
+      "edge_pct": -1.19,
+      "consensus_edge_pct": -1.19,
+      "kelly_fraction_full": -0.0249,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
+      "value_bet": false
+    },
+    "fighter_b": {
+      "market_moneyline": -110,
+      "market_decimal_odds": 1.909,
+      "market_implied_prob_pct": 52.38,
+      "model_win_prob_pct": 48.8,
+      "edge_pct": -3.58,
+      "consensus_edge_pct": -3.58,
+      "kelly_fraction_full": -0.0751,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
+      "value_bet": false
+    },
+    "insufficient_data": true,
+    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+  }
+}

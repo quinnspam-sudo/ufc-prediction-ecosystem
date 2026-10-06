@@ -1758,6 +1758,30 @@
         "fighter_b": false
       },
       "report_file": "reports/alivia-bierley-vs-summer-onley.json"
+    },
+    "Aline Pereira vs Smilla Sundell": {
+      "win_probability": {
+        "fighter_a_pct": 51.21,
+        "fighter_b_pct": 48.79,
+        "draw_pct": 6.75
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/aline-pereira-vs-smilla-sundell.json"
+    },
+    "Ilias Bulaid vs Erick Visconde": {
+      "win_probability": {
+        "fighter_a_pct": 51.2,
+        "fighter_b_pct": 48.8,
+        "draw_pct": 8.0
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/ilias-bulaid-vs-erick-visconde.json"
     }
   }
 }
