@@ -805,16 +805,27 @@
     },
     "UFC Fight Night: Allen vs. Duncan": {
       "card_type": "fight_night",
-      "eligible_legs": 5,
+      "eligible_legs": 6,
       "parlays": {
         "3_leg": {
           "legs": [
             {
+              "matchup": "Niko Price vs Leon Shahbazyan",
+              "pick": "Niko Price",
+              "moneyline": 130,
+              "decimal_odds": 2.3,
+              "consensus_prob": 0.6005,
+              "model_prob": 0.7077,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 61.39,
+              "modal_finish_round": "round_1"
+            },
+            {
               "matchup": "Melissa Gatto vs Ernesta Kareckaite",
               "pick": "Ernesta Kareckaite",
-              "moneyline": 105,
-              "decimal_odds": 2.05,
-              "consensus_prob": 0.616,
+              "moneyline": 100,
+              "decimal_odds": 2.0,
+              "consensus_prob": 0.6229,
               "model_prob": 0.6869,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 70.34,
@@ -825,39 +836,39 @@
               "pick": "Ismael Bonfim",
               "moneyline": -112,
               "decimal_odds": 1.893,
-              "consensus_prob": 0.6279,
+              "consensus_prob": 0.6286,
               "model_prob": 0.6723,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 64.15,
               "modal_finish_round": "round_1"
-            },
-            {
-              "matchup": "Allen Frye Jr. vs RJ Harris",
-              "pick": "RJ Harris",
-              "moneyline": -290,
-              "decimal_odds": 1.345,
-              "consensus_prob": 0.7636,
-              "model_prob": 0.6878,
-              "likely_method": "KO/TKO",
-              "likely_method_pct": 47.22,
-              "modal_finish_round": "round_1"
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 29.54,
-          "combined_decimal_odds": 5.219,
-          "combined_american": 422,
-          "ev_per_unit": 0.5416,
+          "combined_prob_pct": 23.51,
+          "combined_decimal_odds": 8.708,
+          "combined_american": 771,
+          "ev_per_unit": 1.0475,
           "positive_ev": true
         },
         "5_leg": {
           "legs": [
             {
+              "matchup": "Niko Price vs Leon Shahbazyan",
+              "pick": "Niko Price",
+              "moneyline": 130,
+              "decimal_odds": 2.3,
+              "consensus_prob": 0.6005,
+              "model_prob": 0.7077,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 61.39,
+              "modal_finish_round": "round_1"
+            },
+            {
               "matchup": "Melissa Gatto vs Ernesta Kareckaite",
               "pick": "Ernesta Kareckaite",
-              "moneyline": 105,
-              "decimal_odds": 2.05,
-              "consensus_prob": 0.616,
+              "moneyline": 100,
+              "decimal_odds": 2.0,
+              "consensus_prob": 0.6229,
               "model_prob": 0.6869,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 70.34,
@@ -868,7 +879,7 @@
               "pick": "Ismael Bonfim",
               "moneyline": -112,
               "decimal_odds": 1.893,
-              "consensus_prob": 0.6279,
+              "consensus_prob": 0.6286,
               "model_prob": 0.6723,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 64.15,
@@ -879,7 +890,7 @@
               "pick": "RJ Harris",
               "moneyline": -290,
               "decimal_odds": 1.345,
-              "consensus_prob": 0.7636,
+              "consensus_prob": 0.7655,
               "model_prob": 0.6878,
               "likely_method": "KO/TKO",
               "likely_method_pct": 47.22,
@@ -888,31 +899,20 @@
             {
               "matchup": "Gerald Meerschaert vs Julius Walker",
               "pick": "Julius Walker",
-              "moneyline": -275,
-              "decimal_odds": 1.364,
-              "consensus_prob": 0.7319,
+              "moneyline": -277,
+              "decimal_odds": 1.361,
+              "consensus_prob": 0.7322,
               "model_prob": 0.6529,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 59.18,
               "modal_finish_round": "round_1"
-            },
-            {
-              "matchup": "Brendson Ribeiro vs Felipe Franco",
-              "pick": "Felipe Franco",
-              "moneyline": -360,
-              "decimal_odds": 1.278,
-              "consensus_prob": 0.7632,
-              "model_prob": 0.6542,
-              "likely_method": "Unanimous Decision",
-              "likely_method_pct": 58.75,
-              "modal_finish_round": "round_1"
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 16.5,
-          "combined_decimal_odds": 9.099,
-          "combined_american": 810,
-          "ev_per_unit": 0.5011,
+          "combined_prob_pct": 13.18,
+          "combined_decimal_odds": 15.94,
+          "combined_american": 1494,
+          "ev_per_unit": 1.1007,
           "positive_ev": true
         }
       }

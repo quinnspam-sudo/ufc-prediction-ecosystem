@@ -1713,9 +1713,9 @@
     },
     "Mateus Soares vs Ryuho Miyaguchi": {
       "win_probability": {
-        "fighter_a_pct": 51.21,
-        "fighter_b_pct": 48.79,
-        "draw_pct": 6.75
+        "fighter_a_pct": 89.05,
+        "fighter_b_pct": 10.95,
+        "draw_pct": 0.9
       },
       "value_flags": {
         "fighter_a": false,

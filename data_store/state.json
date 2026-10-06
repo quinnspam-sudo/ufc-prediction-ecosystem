@@ -1,76 +1,6 @@
 {
   "changelog": [
     {
-      "detail": "Anthony Hernandez vs Gregory Rodrigues: consensus -180 / +143 (7 books)",
-      "ts": "2026-08-19T01:54:45+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Daniel Rodriguez: Uros Medic hid knee injury before 30-second Daniel Rodriguez knockout - Sherdog",
-      "ts": "2026-08-19T01:54:47+00:00",
-      "type": "health_injury"
-    },
-    {
-      "detail": "Wes Schultz vs Jackson McVey: consensus +150 / -180 (7 books)",
-      "ts": "2026-08-19T07:09:06+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Kennedy Nzechukwu vs Shamil Gaziev: consensus +115 / -138 (7 books)",
-      "ts": "2026-08-19T07:09:06+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Elise Reed vs Shanelle Dyer: consensus +525 / -750 (7 books)",
-      "ts": "2026-08-19T07:09:06+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Carli Judice vs Jeisla Chaves: consensus -530 / +400 (7 books)",
-      "ts": "2026-08-19T07:09:06+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Roman Dolidze vs Reinier de Ridder: consensus +310 / -400 (7 books)",
-      "ts": "2026-08-19T07:09:06+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Anthony Hernandez vs Gregory Rodrigues: consensus -180 / +142 (7 books)",
-      "ts": "2026-08-19T07:09:06+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Wes Schultz vs Jackson McVey: consensus +150 / -180 (7 books)",
-      "ts": "2026-08-19T13:11:59+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Kennedy Nzechukwu vs Shamil Gaziev: consensus +115 / -138 (7 books)",
-      "ts": "2026-08-19T13:11:59+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Elise Reed vs Shanelle Dyer: consensus +525 / -750 (7 books)",
-      "ts": "2026-08-19T13:11:59+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Carli Judice vs Jeisla Chaves: consensus -530 / +400 (7 books)",
-      "ts": "2026-08-19T13:11:59+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Roman Dolidze vs Reinier de Ridder: consensus +310 / -400 (7 books)",
-      "ts": "2026-08-19T13:11:59+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Anthony Hernandez vs Gregory Rodrigues: consensus -170 / +142 (7 books)",
-      "ts": "2026-08-19T13:11:59+00:00",
-      "type": "odds_update"
-    },
-    {
       "detail": "Jessie Rosas: Jessie Rosas Pulled From UFC Vegas 120 Hours Prior to Weigh-In, Replacement Found - Cageside Press",
       "ts": "2026-08-19T13:12:01+00:00",
       "type": "health_withdrawn"
@@ -2499,6 +2429,76 @@
       "detail": "Roman Kopylov beat Ateba Gautier (Brier 0.3392)",
       "ts": "2026-10-06T06:26:44+00:00",
       "type": "calibration_resolved"
+    },
+    {
+      "detail": "Preston LaGrange vs Nell Ariano: consensus +410 / -537 (2 books)",
+      "ts": "2026-10-06T18:25:29+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Mateus Soares vs Ryuho Miyaguchi: consensus -400 / +310 (3 books)",
+      "ts": "2026-10-06T18:25:29+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Alivia Bierley vs Summer Onley: consensus +135 / -160 (3 books)",
+      "ts": "2026-10-06T18:25:29+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Allen Frye Jr. vs RJ Harris: consensus +237 / -290 (6 books)",
+      "ts": "2026-10-06T18:25:29+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Brendan Allen vs Christian Leroy Duncan: consensus -140 / +117 (6 books)",
+      "ts": "2026-10-06T18:25:29+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Brendson Ribeiro vs Felipe Franco: consensus +288 / -365 (6 books)",
+      "ts": "2026-10-06T18:25:29+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Melissa Gatto vs Ernesta Kareckaite: consensus -120 / +100 (5 books)",
+      "ts": "2026-10-06T18:25:29+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Ismael Bonfim vs Francisco Prado: consensus -112 / -107 (6 books)",
+      "ts": "2026-10-06T18:25:29+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Gerald Meerschaert vs Julius Walker: consensus +220 / -277 (6 books)",
+      "ts": "2026-10-06T18:25:29+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Jai Herbert vs Matheus Camilo: consensus +163 / -196 (6 books)",
+      "ts": "2026-10-06T18:25:29+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Niko Price vs Leon Shahbazyan: consensus +130 / -157 (6 books)",
+      "ts": "2026-10-06T18:25:29+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Otari Tanzilovi vs Malcolm Wellmaker: consensus +174 / -215 (5 books)",
+      "ts": "2026-10-06T18:25:29+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Merab Dvalishvili vs Petr Yan: consensus +142 / -176 (4 books)",
+      "ts": "2026-10-06T18:25:29+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Ryuho Miyaguchi: real stats populated (http://ufcstats.com/fighter-details/f1a9c0998c683782)",
+      "ts": "2026-10-06T18:25:53+00:00",
+      "type": "ufcstats_scraped"
     }
   ],
   "fighters": {
@@ -2945,7 +2945,7 @@
       "withdrawn": false
     },
     "alexander-chavez": {
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -3245,7 +3245,7 @@
       "withdrawn": false
     },
     "alice-pereira": {
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -3345,7 +3345,7 @@
       "withdrawn": false
     },
     "aline-pereira": {
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -3395,7 +3395,7 @@
       "withdrawn": false
     },
     "alivia-bierley": {
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -3445,7 +3445,7 @@
       "withdrawn": false
     },
     "allen-frye-jr": {
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -3640,7 +3640,7 @@
       "withdrawn": false
     },
     "andre-fili": {
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -4538,7 +4538,7 @@
     },
     "brendan-allen": {
       "_injury_from_news": true,
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": true,
       "age": 30,
       "career_fights": 12,
@@ -4588,7 +4588,7 @@
       "withdrawn": true
     },
     "brendson-ribeiro": {
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -4838,7 +4838,7 @@
       "withdrawn": false
     },
     "chad-anheliger": {
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -4934,7 +4934,7 @@
       "withdrawn": false
     },
     "chelsea-chandler": {
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -5035,7 +5035,7 @@
       "withdrawn": false
     },
     "christian-leroy-duncan": {
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -5081,7 +5081,7 @@
       "withdrawn": false
     },
     "cody-chovancek": {
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -5530,7 +5530,7 @@
       "withdrawn": false
     },
     "daria-zhelezniakova": {
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -6423,7 +6423,7 @@
     },
     "erick-visconde": {
       "_injury_from_news": true,
-      "_updated": "2026-10-06T06:26:22+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": true,
       "age": 30,
       "career_fights": 12,
@@ -6473,7 +6473,7 @@
       "withdrawn": true
     },
     "erin-blanchfield": {
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -6523,7 +6523,7 @@
       "withdrawn": false
     },
     "ernesta-kareckaite": {
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -6766,7 +6766,7 @@
       "withdrawn": false
     },
     "felipe-franco": {
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -6812,7 +6812,7 @@
       "withdrawn": false
     },
     "francisco-prado": {
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -6963,7 +6963,7 @@
       "withdrawn": false
     },
     "gerald-meerschaert": {
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -7415,7 +7415,7 @@
     },
     "ilias-bulaid": {
       "_injury_from_news": true,
-      "_updated": "2026-10-06T06:26:22+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": true,
       "age": 30,
       "career_fights": 12,
@@ -7617,7 +7617,7 @@
       "withdrawn": false
     },
     "ismael-bonfim": {
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -7817,7 +7817,7 @@
       "withdrawn": false
     },
     "jai-herbert": {
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -7917,7 +7917,7 @@
       "withdrawn": false
     },
     "jamey-lyn-horth": {
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -8062,7 +8062,7 @@
       "withdrawn": false
     },
     "jasmine-jasudavicius": {
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -8112,7 +8112,7 @@
       "withdrawn": false
     },
     "javad-mahjoub": {
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -8358,7 +8358,7 @@
       "withdrawn": false
     },
     "jhonata-diniz": {
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -8408,7 +8408,7 @@
       "withdrawn": false
     },
     "joaquin-buckley": {
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -8853,7 +8853,7 @@
       "withdrawn": false
     },
     "julien-leblanc": {
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -8903,7 +8903,7 @@
       "withdrawn": false
     },
     "julius-walker": {
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -8953,7 +8953,7 @@
       "withdrawn": false
     },
     "kai-kamaka-iii": {
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -9053,7 +9053,7 @@
       "withdrawn": false
     },
     "katlyn-cerminara": {
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -9203,7 +9203,7 @@
       "withdrawn": false
     },
     "ketlen-souza": {
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -9403,7 +9403,7 @@
       "withdrawn": false
     },
     "kyle-daukaus": {
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -9503,7 +9503,7 @@
       "withdrawn": false
     },
     "leon-shahbazyan": {
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -9698,7 +9698,7 @@
       "withdrawn": false
     },
     "loopy-god-nez": {
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -9748,7 +9748,7 @@
       "withdrawn": false
     },
     "louie-sutherland": {
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -9798,7 +9798,7 @@
       "withdrawn": false
     },
     "louis-jourdain": {
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -10199,7 +10199,7 @@
       "withdrawn": false
     },
     "malcolm-wellmaker": {
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -10249,7 +10249,7 @@
       "withdrawn": false
     },
     "mandel-nallo": {
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -10399,7 +10399,7 @@
       "withdrawn": false
     },
     "marc-andre-barriault": {
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -10699,7 +10699,7 @@
       "withdrawn": false
     },
     "mateus-soares": {
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -10850,7 +10850,7 @@
       "withdrawn": false
     },
     "matheus-camilo": {
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -11000,7 +11000,7 @@
       "withdrawn": false
     },
     "melissa-croden": {
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -11050,7 +11050,7 @@
       "withdrawn": false
     },
     "melissa-gatto": {
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -11301,7 +11301,7 @@
       "withdrawn": false
     },
     "mike-malott": {
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -11796,7 +11796,7 @@
       "withdrawn": false
     },
     "nate-landwehr": {
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -11946,7 +11946,7 @@
       "withdrawn": false
     },
     "nell-ariano": {
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -11996,7 +11996,7 @@
       "withdrawn": false
     },
     "nick-galanti": {
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -12096,7 +12096,7 @@
       "withdrawn": false
     },
     "niko-price": {
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -12396,7 +12396,7 @@
       "withdrawn": false
     },
     "otari-tanzilovi": {
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -12446,7 +12446,7 @@
       "withdrawn": false
     },
     "ozzy-martin": {
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -12596,7 +12596,7 @@
       "withdrawn": false
     },
     "preston-lagrange": {
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -13048,7 +13048,7 @@
       "withdrawn": false
     },
     "rj-harris": {
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -13347,7 +13347,7 @@
       "withdrawn": false
     },
     "roque-concei-o": {
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -13397,7 +13397,7 @@
       "withdrawn": false
     },
     "ryuho-miyaguchi": {
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:53+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -13417,7 +13417,7 @@
       "last_fight_date": "2025-06-01",
       "missed_weight": false,
       "name": "Ryuho Miyaguchi",
-      "needs_stats": true,
+      "needs_stats": false,
       "reach_in": 72.0,
       "round_strike_output": [
         60,
@@ -13426,28 +13426,28 @@
         54,
         52
       ],
-      "sapm": 4.0,
-      "slpm": 4.0,
+      "sapm": 6.78,
+      "slpm": 4.56,
       "stance": "Orthodox",
-      "stats_approx": true,
-      "strike_acc": 0.45,
+      "stats_approx": false,
+      "strike_acc": 0.6,
       "strike_acc_body": 0.5175,
       "strike_acc_head": 0.45,
       "strike_acc_leg": 0.5625,
-      "strike_def": 0.55,
-      "sub_avg": 0.6,
+      "strike_def": 0.45,
+      "sub_avg": 0.0,
       "sub_def": 0.65,
       "sweep_rate": 0.2,
-      "td_acc": 0.4,
-      "td_avg": 1.5,
-      "td_def": 0.65,
+      "td_acc": 0.0,
+      "td_avg": 0.0,
+      "td_def": 0.53,
       "trains_at_altitude": false,
       "venue_elevation_ft": 2001,
       "weight_class": "Bantamweight",
       "withdrawn": false
     },
     "salhahuddin-everett": {
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -13843,7 +13843,7 @@
       "withdrawn": false
     },
     "smilla-sundell": {
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -14043,7 +14043,7 @@
       "withdrawn": false
     },
     "steven-koslow": {
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -14138,7 +14138,7 @@
       "withdrawn": false
     },
     "summer-onley": {
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -14188,7 +14188,7 @@
       "withdrawn": false
     },
     "suyoung-you": {
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -14333,7 +14333,7 @@
       "withdrawn": false
     },
     "tanner-boser": {
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -14483,7 +14483,7 @@
       "withdrawn": false
     },
     "timmy-cuamba": {
-      "_updated": "2026-10-06T06:26:20+00:00",
+      "_updated": "2026-10-06T18:25:29+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -16331,7 +16331,7 @@
       "a": "ismael-bonfim",
       "a_ml": -112,
       "b": "francisco-prado",
-      "b_ml": -108,
+      "b_ml": -107,
       "event": "UFC Fight Night: Allen vs. Duncan",
       "label": "Ismael Bonfim vs Francisco Prado",
       "rounds": 3,
@@ -16339,9 +16339,9 @@
     },
     {
       "a": "brendan-allen",
-      "a_ml": -137,
+      "a_ml": -140,
       "b": "christian-leroy-duncan",
-      "b_ml": 115,
+      "b_ml": 117,
       "event": "UFC Fight Night: Allen vs. Duncan",
       "label": "Brendan Allen vs Christian Leroy Duncan",
       "rounds": 5,
@@ -16463,9 +16463,9 @@
     },
     {
       "a": "melissa-gatto",
-      "a_ml": -126,
+      "a_ml": -120,
       "b": "ernesta-kareckaite",
-      "b_ml": 105,
+      "b_ml": 100,
       "event": "UFC Fight Night: Allen vs. Duncan",
       "label": "Melissa Gatto vs Ernesta Kareckaite",
       "rounds": 3,
@@ -16481,7 +16481,7 @@
     },
     {
       "a": "allen-frye-jr",
-      "a_ml": 232,
+      "a_ml": 237,
       "b": "rj-harris",
       "b_ml": -290,
       "event": "UFC Fight Night: Allen vs. Duncan",
@@ -16491,9 +16491,9 @@
     },
     {
       "a": "brendson-ribeiro",
-      "a_ml": 287,
+      "a_ml": 288,
       "b": "felipe-franco",
-      "b_ml": -360,
+      "b_ml": -365,
       "event": "UFC Fight Night: Allen vs. Duncan",
       "label": "Brendson Ribeiro vs Felipe Franco",
       "rounds": 3,
@@ -16503,7 +16503,7 @@
       "a": "niko-price",
       "a_ml": 130,
       "b": "leon-shahbazyan",
-      "b_ml": -160,
+      "b_ml": -157,
       "event": "UFC Fight Night: Allen vs. Duncan",
       "label": "Niko Price vs Leon Shahbazyan",
       "rounds": 3,
@@ -16511,9 +16511,9 @@
     },
     {
       "a": "otari-tanzilovi",
-      "a_ml": 176,
+      "a_ml": 174,
       "b": "malcolm-wellmaker",
-      "b_ml": -222,
+      "b_ml": -215,
       "event": "UFC Fight Night: Allen vs. Duncan",
       "label": "Otari Tanzilovi vs Malcolm Wellmaker",
       "rounds": 3,
@@ -16523,7 +16523,7 @@
       "a": "gerald-meerschaert",
       "a_ml": 220,
       "b": "julius-walker",
-      "b_ml": -275,
+      "b_ml": -277,
       "event": "UFC Fight Night: Allen vs. Duncan",
       "label": "Gerald Meerschaert vs Julius Walker",
       "rounds": 3,
@@ -16547,9 +16547,9 @@
     },
     {
       "a": "jai-herbert",
-      "a_ml": 160,
+      "a_ml": 163,
       "b": "matheus-camilo",
-      "b_ml": -195,
+      "b_ml": -196,
       "event": "UFC Fight Night: Allen vs. Duncan",
       "label": "Jai Herbert vs Matheus Camilo",
       "rounds": 3,
@@ -16639,9 +16639,9 @@
     },
     {
       "a": "preston-lagrange",
-      "a_ml": 317,
+      "a_ml": 410,
       "b": "nell-ariano",
-      "b_ml": -470,
+      "b_ml": -537,
       "event": "Dana White's Contender Series: Season 10, Week 9",
       "label": "Preston LaGrange vs Nell Ariano",
       "rounds": 3,
@@ -16649,7 +16649,9 @@
     },
     {
       "a": "mateus-soares",
+      "a_ml": -400,
       "b": "ryuho-miyaguchi",
+      "b_ml": 310,
       "event": "Dana White's Contender Series: Season 10, Week 9",
       "label": "Mateus Soares vs Ryuho Miyaguchi",
       "rounds": 3,
@@ -16673,7 +16675,9 @@
     },
     {
       "a": "alivia-bierley",
+      "a_ml": 135,
       "b": "summer-onley",
+      "b_ml": -160,
       "event": "Dana White's Contender Series: Season 10, Week 9",
       "label": "Alivia Bierley vs Summer Onley",
       "rounds": 3,
@@ -16700,7 +16704,7 @@
     "calibration": {
       "shrink": 0.55
     },
-    "last_sync": "2026-10-06T06:26:46+00:00",
+    "last_sync": "2026-10-06T18:25:56+00:00",
     "news_last": {
       "aaron-pico": "2026-10-03T16:25:44.084178+00:00",
       "abdul-hussein": "2026-09-27T21:23:54.107781+00:00",
@@ -16713,7 +16717,7 @@
       "aleksandar-rakic": "2026-09-29T05:48:08.551444+00:00",
       "alexander-chavez": "2026-10-06T00:06:17.027760+00:00",
       "alexander-hernandez": "2026-10-01T22:43:55.729529+00:00",
-      "alexander-poppeck": "2026-09-26T21:13:54.290854+00:00",
+      "alexander-poppeck": "2026-10-06T18:25:29.388430+00:00",
       "alexander-volkanovski": "2026-10-03T16:25:44.084178+00:00",
       "alexander-volkov": "2026-10-03T16:25:44.084178+00:00",
       "alexia-thainara": "2026-09-28T05:29:14.592232+00:00",
@@ -16742,7 +16746,7 @@
       "billy-ray-goff": "2026-10-01T13:23:30.962940+00:00",
       "bogdan-grad": "2026-09-29T05:48:08.551444+00:00",
       "bogdan-guskov": "2026-09-27T05:22:41.480992+00:00",
-      "borislav-nikolic": "2026-09-26T21:13:54.290854+00:00",
+      "borislav-nikolic": "2026-10-06T18:25:29.388430+00:00",
       "brendan-allen": "2026-10-01T22:43:55.729529+00:00",
       "brendson-ribeiro": "2026-09-27T05:22:41.480992+00:00",
       "bruce-whitehead": "2026-10-01T22:43:55.729529+00:00",
@@ -16816,7 +16820,7 @@
       "jared-cannonier": "2026-10-06T06:26:20.532584+00:00",
       "jasmine-jasudavicius": "2026-10-02T12:41:55.480296+00:00",
       "javad-mahjoub": "2026-10-02T12:41:55.480296+00:00",
-      "jean-paul-lebosnoyani": "2026-09-26T16:27:08.928674+00:00",
+      "jean-paul-lebosnoyani": "2026-10-06T18:25:29.388430+00:00",
       "jeisla-chaves": "2026-10-01T06:02:38.101244+00:00",
       "jeremiah-wells": "2026-09-28T23:19:21.298500+00:00",
       "jessie-rosas": "2026-09-29T22:19:24.568040+00:00",
@@ -16826,7 +16830,7 @@
       "johnny-walker": "2026-10-02T12:41:55.480296+00:00",
       "jon-kunneman": "2026-09-29T22:19:24.568040+00:00",
       "jos-montanha": "2026-09-29T22:19:24.568040+00:00",
-      "jose-miguel-delgado": "2026-09-26T21:13:54.290854+00:00",
+      "jose-miguel-delgado": "2026-10-06T18:25:29.388430+00:00",
       "josias-musasa": "2026-09-30T12:40:12.126391+00:00",
       "jovan-leka": "2026-10-01T06:02:38.101244+00:00",
       "juliana-miller": "2026-10-01T13:23:30.962940+00:00",
@@ -16844,7 +16848,7 @@
       "kyle-daukaus": "2026-10-02T22:17:47.175003+00:00",
       "kyle-prepolec": "2026-10-04T21:32:14.797029+00:00",
       "leon-shahbazyan": "2026-10-04T05:58:52.841925+00:00",
-      "levi-rodrigues-jr": "2026-09-26T21:13:54.290854+00:00",
+      "levi-rodrigues-jr": "2026-10-06T18:25:29.388430+00:00",
       "logan-paxton": "2026-09-30T05:37:26.861629+00:00",
       "lone-er-kavanagh": "2026-10-04T05:58:52.841925+00:00",
       "loopy-god-nez": "2026-10-04T12:26:34.416646+00:00",
@@ -16890,7 +16894,7 @@
       "namo-fazil": "2026-10-01T06:02:38.101244+00:00",
       "natalia-silva": "2026-10-03T05:23:13.697168+00:00",
       "nate-landwehr": "2026-10-03T05:23:13.697168+00:00",
-      "navajo-stirling": "2026-09-26T16:27:08.928674+00:00",
+      "navajo-stirling": "2026-10-06T18:25:29.388430+00:00",
       "neil-magny": "2026-10-01T13:23:30.962940+00:00",
       "nell-ariano": "2026-10-06T00:06:17.027760+00:00",
       "nick-galanti": "2026-10-03T11:44:04.534611+00:00",
@@ -16926,7 +16930,7 @@
       "sam-patterson": "2026-10-04T21:32:14.797029+00:00",
       "santiago-ponzinibbio": "2026-10-05T05:47:00.820967+00:00",
       "saygid-izagakhmaev": "2026-10-05T14:47:37.513274+00:00",
-      "seokhyeon-ko": "2026-09-26T16:27:08.928674+00:00",
+      "seokhyeon-ko": "2026-10-06T18:25:29.388430+00:00",
       "serghei-spivac": "2026-09-29T22:19:24.568040+00:00",
       "shamil-gaziev": "2026-09-30T05:37:26.861629+00:00",
       "shanelle-dyer": "2026-09-30T12:40:12.126391+00:00",
@@ -16952,7 +16956,7 @@
       "ty-miller": "2026-10-01T06:02:38.101244+00:00",
       "tyrell-fortune": "2026-09-27T21:23:54.107781+00:00",
       "uran-satybaldiev": "2026-09-28T14:02:26.749330+00:00",
-      "uro-medi": "2026-09-26T16:27:08.928674+00:00",
+      "uro-medi": "2026-10-06T18:25:29.388430+00:00",
       "usman": "2026-09-28T05:29:14.592232+00:00",
       "valter-walker": "2026-09-28T19:25:04.417092+00:00",
       "vicente-luque": "2026-10-01T13:23:30.962940+00:00",
@@ -16964,8 +16968,8 @@
       "yadier-del-valle": "2026-10-04T21:32:14.797029+00:00"
     },
     "odds": {
-      "count": 17,
-      "last_call": "2026-10-06T06:26:20.529768+00:00",
+      "count": 18,
+      "last_call": "2026-10-06T18:25:29.386292+00:00",
       "month": "2026-10"
     },
     "ufcstats_last": {
@@ -16986,6 +16990,7 @@
       "alexia-thainara": "2026-07-27T21:00:49.625123+00:00",
       "alice-pereira": "2026-10-03T21:21:34.409407+00:00",
       "alik-lorenz": "2026-08-02T03:00:48.387624+00:00",
+      "aline-pereira": "2026-10-06T18:25:31.579625+00:00",
       "alivia-bierley": "2026-10-06T06:26:22.325686+00:00",
       "allen-frye-jr": "2026-10-04T06:05:09.174692+00:00",
       "alvin-hines": "2026-07-15T21:38:27.127905+00:00",
@@ -17046,6 +17051,7 @@
       "elise-reed": "2026-08-01T01:00:56.539022+00:00",
       "eric-mcconico": "2026-07-30T03:00:51.151273+00:00",
       "eric-nolan": "2026-10-01T22:43:57.766362+00:00",
+      "erick-visconde": "2026-10-06T18:25:31.579625+00:00",
       "erin-blanchfield": "2026-10-02T12:41:58.337045+00:00",
       "ernesta-kareckaite": "2026-10-04T12:26:36.096569+00:00",
       "esteban-ribovics": "2026-07-27T23:00:48.289679+00:00",
@@ -17065,6 +17071,7 @@
       "hailey-cowan": "2026-07-27T05:00:50.055887+00:00",
       "henrique-da-silva-lopes": "2026-10-01T13:23:32.611235+00:00",
       "ian-machado-garry": "2026-07-27T23:00:48.289679+00:00",
+      "ilias-bulaid": "2026-10-06T18:25:31.579625+00:00",
       "imanol-rodriguez": "2026-10-02T22:17:49.649752+00:00",
       "islam-dulatov": "2026-07-20T07:00:58.503645+00:00",
       "islam-makhachev": "2026-07-27T23:00:48.289679+00:00",
@@ -17183,6 +17190,9 @@
       "roman-dolidze": "2026-08-01T03:53:28.493679+00:00",
       "roman-kopylov": "2026-10-06T00:06:18.977132+00:00",
       "roman-puga": "2026-08-19T13:12:01.856497+00:00",
+      "roque-concei-o": "2026-10-06T18:25:31.579625+00:00",
+      "ryuho-miyaguchi": "2026-10-06T18:25:31.579625+00:00",
+      "salhahuddin-everett": "2026-10-06T18:25:31.579625+00:00",
       "sam-patterson": "2026-07-20T09:00:53.524154+00:00",
       "santiago-ponzinibbio": "2026-07-20T09:00:53.524154+00:00",
       "saygid-izagakhmaev": "2026-07-20T09:00:53.524154+00:00",
