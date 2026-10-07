@@ -1818,6 +1818,42 @@
         "fighter_b": false
       },
       "report_file": "reports/will-rentz-vs-luis-francischinelli.json"
+    },
+    "Katlyn Cerminara vs Mackenzie Stiller": {
+      "win_probability": {
+        "fighter_a_pct": 11.14,
+        "fighter_b_pct": 88.86,
+        "draw_pct": 1.7
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/katlyn-cerminara-vs-mackenzie-stiller.json"
+    },
+    "Javad Mahjoub vs Joel Faglier": {
+      "win_probability": {
+        "fighter_a_pct": 50.56,
+        "fighter_b_pct": 49.44,
+        "draw_pct": 6.15
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/javad-mahjoub-vs-joel-faglier.json"
+    },
+    "Kyle Nelson vs Cristian P\u00e9rez": {
+      "win_probability": {
+        "fighter_a_pct": 24.25,
+        "fighter_b_pct": 75.75,
+        "draw_pct": 2.9
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/kyle-nelson-vs-cristian-p-rez.json"
     }
   }
 }

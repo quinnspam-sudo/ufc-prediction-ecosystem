@@ -1,0 +1,101 @@
+{
+  "matchup": {
+    "fighter_a": "Kyle Nelson",
+    "fighter_b": "Cristian P\u00e9rez",
+    "scheduled_rounds": 3,
+    "is_title_fight": false,
+    "iterations": 2000,
+    "avg_rounds_simulated": 2.654,
+    "fighter_a_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": false,
+      "needs_real_stats": false
+    },
+    "fighter_b_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": true,
+      "needs_real_stats": true
+    }
+  },
+  "win_probability": {
+    "fighter_a_pct": 24.25,
+    "fighter_b_pct": 75.75,
+    "draw_pct": 2.9
+  },
+  "consensus_forecast": {
+    "applied": false,
+    "model_weight": 1.0,
+    "fighter_a_pct": 24.25,
+    "fighter_b_pct": 75.75,
+    "market_devig_a_pct": null
+  },
+  "method_of_victory_matrix": {
+    "fighter_a": {
+      "KO/TKO": 9.15,
+      "Submission": 7.3,
+      "Unanimous Decision": 4.0,
+      "Split/Majority Decision": 3.1
+    },
+    "fighter_b": {
+      "KO/TKO": 9.3,
+      "Submission": 9.45,
+      "Unanimous Decision": 48.6,
+      "Split/Majority Decision": 6.2
+    }
+  },
+  "fight_level": {
+    "ko_tko_pct": 18.45,
+    "submission_pct": 16.75,
+    "decision_pct": 61.9,
+    "goes_the_distance_pct": 64.8,
+    "expected_fight_minutes": 12.39
+  },
+  "finish_round_distribution": {
+    "fighter_a": {
+      "round_1": 93,
+      "round_2": 127,
+      "round_3": 109
+    },
+    "fighter_b": {
+      "round_1": 132,
+      "round_2": 115,
+      "round_3": 128
+    }
+  },
+  "value_betting": {
+    "fighter_a": {
+      "market_moneyline": -110,
+      "market_decimal_odds": 1.909,
+      "market_implied_prob_pct": 52.38,
+      "model_win_prob_pct": 24.25,
+      "edge_pct": -28.13,
+      "consensus_edge_pct": -28.13,
+      "kelly_fraction_full": -0.5907,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
+      "value_bet": false
+    },
+    "fighter_b": {
+      "market_moneyline": -110,
+      "market_decimal_odds": 1.909,
+      "market_implied_prob_pct": 52.38,
+      "model_win_prob_pct": 75.75,
+      "edge_pct": 23.37,
+      "consensus_edge_pct": 23.37,
+      "kelly_fraction_full": 0.4907,
+      "kelly_fraction_half": 0.2453,
+      "model_sees_value": true,
+      "consensus_agrees": true,
+      "value_bet": false
+    },
+    "insufficient_data": true,
+    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+  }
+}

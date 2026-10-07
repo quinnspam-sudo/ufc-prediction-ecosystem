@@ -805,10 +805,21 @@
     },
     "UFC Fight Night: Allen vs. Duncan": {
       "card_type": "fight_night",
-      "eligible_legs": 5,
+      "eligible_legs": 6,
       "parlays": {
         "3_leg": {
           "legs": [
+            {
+              "matchup": "Niko Price vs Leon Shahbazyan",
+              "pick": "Niko Price",
+              "moneyline": 130,
+              "decimal_odds": 2.3,
+              "consensus_prob": 0.6012,
+              "model_prob": 0.7077,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 61.39,
+              "modal_finish_round": "round_1"
+            },
             {
               "matchup": "Melissa Gatto vs Ernesta Kareckaite",
               "pick": "Ernesta Kareckaite",
@@ -830,29 +841,29 @@
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 64.15,
               "modal_finish_round": "round_1"
-            },
-            {
-              "matchup": "Allen Frye Jr. vs RJ Harris",
-              "pick": "RJ Harris",
-              "moneyline": -322,
-              "decimal_odds": 1.311,
-              "consensus_prob": 0.7765,
-              "model_prob": 0.6878,
-              "likely_method": "KO/TKO",
-              "likely_method_pct": 47.22,
-              "modal_finish_round": "round_1"
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 30.6,
-          "combined_decimal_odds": 4.885,
-          "combined_american": 389,
-          "ev_per_unit": 0.4949,
+          "combined_prob_pct": 23.69,
+          "combined_decimal_odds": 8.571,
+          "combined_american": 757,
+          "ev_per_unit": 1.0305,
           "positive_ev": true
         },
         "5_leg": {
           "legs": [
             {
+              "matchup": "Niko Price vs Leon Shahbazyan",
+              "pick": "Niko Price",
+              "moneyline": 130,
+              "decimal_odds": 2.3,
+              "consensus_prob": 0.6012,
+              "model_prob": 0.7077,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 61.39,
+              "modal_finish_round": "round_1"
+            },
+            {
               "matchup": "Melissa Gatto vs Ernesta Kareckaite",
               "pick": "Ernesta Kareckaite",
               "moneyline": -105,
@@ -877,9 +888,9 @@
             {
               "matchup": "Allen Frye Jr. vs RJ Harris",
               "pick": "RJ Harris",
-              "moneyline": -322,
-              "decimal_odds": 1.311,
-              "consensus_prob": 0.7765,
+              "moneyline": -335,
+              "decimal_odds": 1.299,
+              "consensus_prob": 0.7776,
               "model_prob": 0.6878,
               "likely_method": "KO/TKO",
               "likely_method_pct": 47.22,
@@ -888,31 +899,20 @@
             {
               "matchup": "Gerald Meerschaert vs Julius Walker",
               "pick": "Julius Walker",
-              "moneyline": -285,
-              "decimal_odds": 1.351,
-              "consensus_prob": 0.7369,
+              "moneyline": -286,
+              "decimal_odds": 1.35,
+              "consensus_prob": 0.737,
               "model_prob": 0.6529,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 59.18,
               "modal_finish_round": "round_1"
-            },
-            {
-              "matchup": "Brendson Ribeiro vs Felipe Franco",
-              "pick": "Felipe Franco",
-              "moneyline": -375,
-              "decimal_odds": 1.267,
-              "consensus_prob": 0.7642,
-              "model_prob": 0.6542,
-              "likely_method": "Unanimous Decision",
-              "likely_method_pct": 58.75,
-              "modal_finish_round": "round_1"
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 17.23,
-          "combined_decimal_odds": 8.362,
-          "combined_american": 736,
-          "ev_per_unit": 0.4409,
+          "combined_prob_pct": 13.58,
+          "combined_decimal_odds": 15.03,
+          "combined_american": 1403,
+          "ev_per_unit": 1.0407,
           "positive_ev": true
         }
       }
