@@ -1701,9 +1701,9 @@
     },
     "Preston LaGrange vs Nell Ariano": {
       "win_probability": {
-        "fighter_a_pct": 50.91,
-        "fighter_b_pct": 49.09,
-        "draw_pct": 6.1
+        "fighter_a_pct": 50.85,
+        "fighter_b_pct": 49.15,
+        "draw_pct": 5.6
       },
       "value_flags": {
         "fighter_a": false,
@@ -1713,9 +1713,9 @@
     },
     "Mateus Soares vs Ryuho Miyaguchi": {
       "win_probability": {
-        "fighter_a_pct": 89.05,
-        "fighter_b_pct": 10.95,
-        "draw_pct": 0.9
+        "fighter_a_pct": 89.07,
+        "fighter_b_pct": 10.93,
+        "draw_pct": 0.7
       },
       "value_flags": {
         "fighter_a": false,
@@ -1725,9 +1725,9 @@
     },
     "Roque Concei\u00e7\u00e3o vs Alexander Chavez": {
       "win_probability": {
-        "fighter_a_pct": 50.05,
-        "fighter_b_pct": 49.95,
-        "draw_pct": 6.5
+        "fighter_a_pct": 49.63,
+        "fighter_b_pct": 50.37,
+        "draw_pct": 6.2
       },
       "value_flags": {
         "fighter_a": false,
@@ -1737,9 +1737,9 @@
     },
     "Salhahuddin Everett vs Ozzy Martin": {
       "win_probability": {
-        "fighter_a_pct": 49.71,
-        "fighter_b_pct": 50.29,
-        "draw_pct": 5.85
+        "fighter_a_pct": 49.6,
+        "fighter_b_pct": 50.4,
+        "draw_pct": 5.65
       },
       "value_flags": {
         "fighter_a": false,
@@ -1749,9 +1749,9 @@
     },
     "Alivia Bierley vs Summer Onley": {
       "win_probability": {
-        "fighter_a_pct": 51.21,
-        "fighter_b_pct": 48.79,
-        "draw_pct": 6.75
+        "fighter_a_pct": 50.85,
+        "fighter_b_pct": 49.15,
+        "draw_pct": 6.3
       },
       "value_flags": {
         "fighter_a": false,
@@ -1782,6 +1782,42 @@
         "fighter_b": false
       },
       "report_file": "reports/ilias-bulaid-vs-erick-visconde.json"
+    },
+    "Jason Asher vs Greg Foster": {
+      "win_probability": {
+        "fighter_a_pct": 51.41,
+        "fighter_b_pct": 48.59,
+        "draw_pct": 5.85
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/jason-asher-vs-greg-foster.json"
+    },
+    "Davi Cabral vs Douglas da Lapa": {
+      "win_probability": {
+        "fighter_a_pct": 49.33,
+        "fighter_b_pct": 50.67,
+        "draw_pct": 6.05
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/davi-cabral-vs-douglas-da-lapa.json"
+    },
+    "Will Rentz vs Luis Francischinelli": {
+      "win_probability": {
+        "fighter_a_pct": 49.71,
+        "fighter_b_pct": 50.29,
+        "draw_pct": 5.85
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/will-rentz-vs-luis-francischinelli.json"
     }
   }
 }
