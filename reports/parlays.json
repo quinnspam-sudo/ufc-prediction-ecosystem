@@ -823,9 +823,9 @@
             {
               "matchup": "Niko Price vs Leon Shahbazyan",
               "pick": "Niko Price",
-              "moneyline": 124,
-              "decimal_odds": 2.24,
-              "consensus_prob": 0.6059,
+              "moneyline": 126,
+              "decimal_odds": 2.26,
+              "consensus_prob": 0.6053,
               "model_prob": 0.7077,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 61.39,
@@ -845,9 +845,9 @@
             {
               "matchup": "Ismael Bonfim vs Francisco Prado",
               "pick": "Ismael Bonfim",
-              "moneyline": -106,
-              "decimal_odds": 1.943,
-              "consensus_prob": 0.6201,
+              "moneyline": 100,
+              "decimal_odds": 2.0,
+              "consensus_prob": 0.6134,
               "model_prob": 0.6723,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 64.15,
@@ -855,10 +855,10 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 23.65,
-          "combined_decimal_odds": 8.496,
-          "combined_american": 750,
-          "ev_per_unit": 1.0094,
+          "combined_prob_pct": 23.37,
+          "combined_decimal_odds": 8.823,
+          "combined_american": 782,
+          "ev_per_unit": 1.0622,
           "positive_ev": true
         },
         "5_leg": {
@@ -866,9 +866,9 @@
             {
               "matchup": "Niko Price vs Leon Shahbazyan",
               "pick": "Niko Price",
-              "moneyline": 124,
-              "decimal_odds": 2.24,
-              "consensus_prob": 0.6059,
+              "moneyline": 126,
+              "decimal_odds": 2.26,
+              "consensus_prob": 0.6053,
               "model_prob": 0.7077,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 61.39,
@@ -888,9 +888,9 @@
             {
               "matchup": "Ismael Bonfim vs Francisco Prado",
               "pick": "Ismael Bonfim",
-              "moneyline": -106,
-              "decimal_odds": 1.943,
-              "consensus_prob": 0.6201,
+              "moneyline": 100,
+              "decimal_odds": 2.0,
+              "consensus_prob": 0.6134,
               "model_prob": 0.6723,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 64.15,
@@ -901,7 +901,7 @@
               "pick": "RJ Harris",
               "moneyline": -340,
               "decimal_odds": 1.294,
-              "consensus_prob": 0.7792,
+              "consensus_prob": 0.7805,
               "model_prob": 0.6878,
               "likely_method": "KO/TKO",
               "likely_method_pct": 47.22,
@@ -910,9 +910,9 @@
             {
               "matchup": "Gerald Meerschaert vs Julius Walker",
               "pick": "Julius Walker",
-              "moneyline": -292,
-              "decimal_odds": 1.342,
-              "consensus_prob": 0.7392,
+              "moneyline": -288,
+              "decimal_odds": 1.347,
+              "consensus_prob": 0.7398,
               "model_prob": 0.6529,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 59.18,
@@ -920,13 +920,22 @@
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 13.62,
-          "combined_decimal_odds": 14.753,
-          "combined_american": 1375,
-          "ev_per_unit": 1.0098,
+          "combined_prob_pct": 13.5,
+          "combined_decimal_odds": 15.379,
+          "combined_american": 1438,
+          "ev_per_unit": 1.0755,
           "positive_ev": true
         }
       }
+    },
+    "Dana White's Contender Series: Season 10, Week 9": {
+      "card_type": "fight_night",
+      "eligible_legs": 1,
+      "parlays": {
+        "3_leg": null,
+        "5_leg": null
+      },
+      "note": "Only 1 eligible legs; 3_leg, 5_leg not buildable."
     }
   },
   "min_leg_consensus_prob": 0.6

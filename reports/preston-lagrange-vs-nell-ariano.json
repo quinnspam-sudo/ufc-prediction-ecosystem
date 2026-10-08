@@ -4,68 +4,69 @@
     "fighter_b": "Nell Ariano",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.572,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.34,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     },
     "fighter_b_flags": {
       "active_injury": false,
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 50.85,
-    "fighter_b_pct": 49.15,
-    "draw_pct": 5.6
+    "fighter_a_pct": 71.03,
+    "fighter_b_pct": 28.97,
+    "draw_pct": 0.0,
+    "calibration_shrink_applied": 0.55
   },
   "consensus_forecast": {
     "applied": true,
     "model_weight": 0.4,
-    "fighter_a_pct": 31.66,
-    "fighter_b_pct": 68.34,
+    "fighter_a_pct": 46.62,
+    "fighter_b_pct": 53.38,
     "market_devig_a_pct": 18.87
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 15.5,
-      "Submission": 6.45,
-      "Unanimous Decision": 18.95,
-      "Split/Majority Decision": 7.1
+      "KO/TKO": 44.2,
+      "Submission": 1.45,
+      "Unanimous Decision": 42.59,
+      "Split/Majority Decision": 0.0
     },
     "fighter_b": {
-      "KO/TKO": 13.1,
-      "Submission": 5.15,
-      "Unanimous Decision": 18.85,
-      "Split/Majority Decision": 9.3
+      "KO/TKO": 9.78,
+      "Submission": 1.98,
+      "Unanimous Decision": 0.0,
+      "Split/Majority Decision": 0.0
     }
   },
   "fight_level": {
-    "ko_tko_pct": 28.6,
-    "submission_pct": 11.6,
-    "decision_pct": 54.2,
-    "goes_the_distance_pct": 59.8,
-    "expected_fight_minutes": 11.86
+    "ko_tko_pct": 53.98,
+    "submission_pct": 3.43,
+    "decision_pct": 42.59,
+    "goes_the_distance_pct": 42.59,
+    "expected_fight_minutes": 10.26
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 153,
-      "round_2": 148,
-      "round_3": 138
+      "round_1": 1822,
+      "round_2": 1577,
+      "round_3": 1166
     },
     "fighter_b": {
-      "round_1": 147,
-      "round_2": 108,
-      "round_3": 110
+      "round_1": 521,
+      "round_2": 341,
+      "round_3": 314
     }
   },
   "value_betting": {
@@ -73,29 +74,27 @@
       "market_moneyline": 410,
       "market_decimal_odds": 5.1,
       "market_implied_prob_pct": 19.61,
-      "model_win_prob_pct": 50.85,
-      "edge_pct": 31.24,
-      "consensus_edge_pct": 12.05,
-      "kelly_fraction_full": 0.3886,
-      "kelly_fraction_half": 0.1943,
+      "model_win_prob_pct": 71.03,
+      "edge_pct": 51.42,
+      "consensus_edge_pct": 27.01,
+      "kelly_fraction_full": 0.6397,
+      "kelly_fraction_half": 0.3198,
       "model_sees_value": true,
       "consensus_agrees": true,
-      "value_bet": false
+      "value_bet": true
     },
     "fighter_b": {
       "market_moneyline": -537,
       "market_decimal_odds": 1.186,
       "market_implied_prob_pct": 84.3,
-      "model_win_prob_pct": 49.15,
-      "edge_pct": -35.15,
-      "consensus_edge_pct": -15.96,
-      "kelly_fraction_full": -2.239,
+      "model_win_prob_pct": 28.97,
+      "edge_pct": -55.33,
+      "consensus_edge_pct": -30.92,
+      "kelly_fraction_full": -3.5247,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
       "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+    }
   }
 }

@@ -4,15 +4,15 @@
     "fighter_b": "Ryuho Miyaguchi",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.682,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.608,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     },
     "fighter_b_flags": {
       "active_injury": false,
@@ -24,48 +24,49 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 89.07,
-    "fighter_b_pct": 10.93,
-    "draw_pct": 0.7
+    "fighter_a_pct": 72.14,
+    "fighter_b_pct": 27.86,
+    "draw_pct": 0.0,
+    "calibration_shrink_applied": 0.55
   },
   "consensus_forecast": {
     "applied": true,
     "model_weight": 0.4,
-    "fighter_a_pct": 81.61,
-    "fighter_b_pct": 18.39,
+    "fighter_a_pct": 82.08,
+    "fighter_b_pct": 17.92,
     "market_devig_a_pct": 76.64
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 7.1,
-      "Submission": 12.8,
-      "Unanimous Decision": 67.2,
-      "Split/Majority Decision": 1.35
+      "KO/TKO": 25.65,
+      "Submission": 3.0,
+      "Unanimous Decision": 61.6,
+      "Split/Majority Decision": 0.0
     },
     "fighter_b": {
-      "KO/TKO": 6.9,
-      "Submission": 3.6,
-      "Unanimous Decision": 0.05,
-      "Split/Majority Decision": 0.3
+      "KO/TKO": 5.86,
+      "Submission": 3.89,
+      "Unanimous Decision": 0.0,
+      "Split/Majority Decision": 0.0
     }
   },
   "fight_level": {
-    "ko_tko_pct": 14.0,
-    "submission_pct": 16.4,
-    "decision_pct": 68.9,
-    "goes_the_distance_pct": 69.6,
-    "expected_fight_minutes": 12.65
+    "ko_tko_pct": 31.51,
+    "submission_pct": 6.89,
+    "decision_pct": 61.6,
+    "goes_the_distance_pct": 61.6,
+    "expected_fight_minutes": 12.08
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 135,
-      "round_2": 140,
-      "round_3": 123
+      "round_1": 931,
+      "round_2": 988,
+      "round_3": 946
     },
     "fighter_b": {
-      "round_1": 87,
-      "round_2": 53,
-      "round_3": 70
+      "round_1": 384,
+      "round_2": 305,
+      "round_3": 286
     }
   },
   "value_betting": {
@@ -73,12 +74,12 @@
       "market_moneyline": -400,
       "market_decimal_odds": 1.25,
       "market_implied_prob_pct": 80.0,
-      "model_win_prob_pct": 89.07,
-      "edge_pct": 9.07,
-      "consensus_edge_pct": 1.61,
-      "kelly_fraction_full": 0.4537,
-      "kelly_fraction_half": 0.2268,
-      "model_sees_value": true,
+      "model_win_prob_pct": 72.14,
+      "edge_pct": -7.86,
+      "consensus_edge_pct": 2.08,
+      "kelly_fraction_full": -0.3931,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
       "consensus_agrees": true,
       "value_bet": false
     },
@@ -86,16 +87,14 @@
       "market_moneyline": 310,
       "market_decimal_odds": 4.1,
       "market_implied_prob_pct": 24.39,
-      "model_win_prob_pct": 10.93,
-      "edge_pct": -13.46,
-      "consensus_edge_pct": -6.0,
-      "kelly_fraction_full": -0.1781,
-      "kelly_fraction_half": 0.0,
-      "model_sees_value": false,
+      "model_win_prob_pct": 27.86,
+      "edge_pct": 3.47,
+      "consensus_edge_pct": -6.47,
+      "kelly_fraction_full": 0.0459,
+      "kelly_fraction_half": 0.023,
+      "model_sees_value": true,
       "consensus_agrees": false,
       "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+    }
   }
 }

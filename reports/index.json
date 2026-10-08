@@ -1703,21 +1703,23 @@
     },
     "Preston LaGrange vs Nell Ariano": {
       "win_probability": {
-        "fighter_a_pct": 50.85,
-        "fighter_b_pct": 49.15,
-        "draw_pct": 5.6
+        "fighter_a_pct": 71.03,
+        "fighter_b_pct": 28.97,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.55
       },
       "value_flags": {
-        "fighter_a": false,
+        "fighter_a": true,
         "fighter_b": false
       },
       "report_file": "reports/preston-lagrange-vs-nell-ariano.json"
     },
     "Mateus Soares vs Ryuho Miyaguchi": {
       "win_probability": {
-        "fighter_a_pct": 89.07,
-        "fighter_b_pct": 10.93,
-        "draw_pct": 0.7
+        "fighter_a_pct": 72.14,
+        "fighter_b_pct": 27.86,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.55
       },
       "value_flags": {
         "fighter_a": false,
@@ -1727,9 +1729,9 @@
     },
     "Roque Concei\u00e7\u00e3o vs Alexander Chavez": {
       "win_probability": {
-        "fighter_a_pct": 49.63,
-        "fighter_b_pct": 50.37,
-        "draw_pct": 6.2
+        "fighter_a_pct": 89.25,
+        "fighter_b_pct": 10.75,
+        "draw_pct": 0.95
       },
       "value_flags": {
         "fighter_a": false,
@@ -1739,9 +1741,9 @@
     },
     "Salhahuddin Everett vs Ozzy Martin": {
       "win_probability": {
-        "fighter_a_pct": 49.6,
-        "fighter_b_pct": 50.4,
-        "draw_pct": 5.65
+        "fighter_a_pct": 83.4,
+        "fighter_b_pct": 16.6,
+        "draw_pct": 0.0
       },
       "value_flags": {
         "fighter_a": false,
@@ -1751,9 +1753,9 @@
     },
     "Alivia Bierley vs Summer Onley": {
       "win_probability": {
-        "fighter_a_pct": 50.85,
-        "fighter_b_pct": 49.15,
-        "draw_pct": 6.3
+        "fighter_a_pct": 82.5,
+        "fighter_b_pct": 17.5,
+        "draw_pct": 1.7
       },
       "value_flags": {
         "fighter_a": false,
