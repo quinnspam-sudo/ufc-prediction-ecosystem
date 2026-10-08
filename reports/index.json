@@ -1135,9 +1135,10 @@
     },
     "Anthony Wint vs Lucas Armand": {
       "win_probability": {
-        "fighter_a_pct": 85.95,
-        "fighter_b_pct": 14.05,
-        "draw_pct": 0.0
+        "fighter_a_pct": 71.52,
+        "fighter_b_pct": 28.48,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.55
       },
       "value_flags": {
         "fighter_a": false,
@@ -1186,12 +1187,13 @@
     },
     "Roberto Soldi\u0107 vs Khaos Williams": {
       "win_probability": {
-        "fighter_a_pct": 86.29,
-        "fighter_b_pct": 13.71,
-        "draw_pct": 0.1
+        "fighter_a_pct": 70.59,
+        "fighter_b_pct": 29.41,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.55
       },
       "value_flags": {
-        "fighter_a": false,
+        "fighter_a": true,
         "fighter_b": false
       },
       "report_file": "reports/roberto-soldi-vs-khaos-williams.json"

@@ -4,15 +4,15 @@
     "fighter_b": "Khaos Williams",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.615,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.541,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     },
     "fighter_b_flags": {
       "active_injury": false,
@@ -24,48 +24,49 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 86.29,
-    "fighter_b_pct": 13.71,
-    "draw_pct": 0.1
+    "fighter_a_pct": 70.59,
+    "fighter_b_pct": 29.41,
+    "draw_pct": 0.0,
+    "calibration_shrink_applied": 0.55
   },
   "consensus_forecast": {
     "applied": false,
     "model_weight": 1.0,
-    "fighter_a_pct": 86.29,
-    "fighter_b_pct": 13.71,
+    "fighter_a_pct": 87.44,
+    "fighter_b_pct": 12.56,
     "market_devig_a_pct": null
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 11.3,
-      "Submission": 11.5,
-      "Unanimous Decision": 62.9,
-      "Split/Majority Decision": 0.5
+      "KO/TKO": 25.14,
+      "Submission": 4.38,
+      "Unanimous Decision": 57.92,
+      "Split/Majority Decision": 0.0
     },
     "fighter_b": {
-      "KO/TKO": 11.3,
-      "Submission": 2.35,
+      "KO/TKO": 10.71,
+      "Submission": 1.85,
       "Unanimous Decision": 0.0,
-      "Split/Majority Decision": 0.05
+      "Split/Majority Decision": 0.0
     }
   },
   "fight_level": {
-    "ko_tko_pct": 22.6,
-    "submission_pct": 13.85,
-    "decision_pct": 63.45,
-    "goes_the_distance_pct": 63.55,
-    "expected_fight_minutes": 12.16
+    "ko_tko_pct": 35.85,
+    "submission_pct": 6.23,
+    "decision_pct": 57.92,
+    "goes_the_distance_pct": 57.92,
+    "expected_fight_minutes": 11.65
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 159,
-      "round_2": 165,
-      "round_3": 132
+      "round_1": 1121,
+      "round_2": 987,
+      "round_3": 844
     },
     "fighter_b": {
-      "round_1": 103,
-      "round_2": 82,
-      "round_3": 88
+      "round_1": 481,
+      "round_2": 398,
+      "round_3": 377
     }
   },
   "value_betting": {
@@ -73,29 +74,27 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 86.29,
-      "edge_pct": 33.91,
-      "consensus_edge_pct": 33.91,
-      "kelly_fraction_full": 0.712,
-      "kelly_fraction_half": 0.356,
+      "model_win_prob_pct": 70.59,
+      "edge_pct": 18.21,
+      "consensus_edge_pct": 35.06,
+      "kelly_fraction_full": 0.3824,
+      "kelly_fraction_half": 0.1912,
       "model_sees_value": true,
       "consensus_agrees": true,
-      "value_bet": false
+      "value_bet": true
     },
     "fighter_b": {
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 13.71,
-      "edge_pct": -38.67,
-      "consensus_edge_pct": -38.67,
-      "kelly_fraction_full": -0.812,
+      "model_win_prob_pct": 29.41,
+      "edge_pct": -22.97,
+      "consensus_edge_pct": -39.82,
+      "kelly_fraction_full": -0.4824,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
       "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+    }
   }
 }

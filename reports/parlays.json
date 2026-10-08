@@ -734,7 +734,7 @@
     },
     "UFC 332: Silva vs. Wang": {
       "card_type": "numbered/PPV",
-      "eligible_legs": 5,
+      "eligible_legs": 6,
       "parlays": {
         "main_card_parlay": {
           "legs": [
@@ -758,6 +758,17 @@
               "model_prob": 0.6694,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 54.68,
+              "modal_finish_round": "round_1"
+            },
+            {
+              "matchup": "Anthony Wint vs Lucas Armand",
+              "pick": "Anthony Wint",
+              "moneyline": -570,
+              "decimal_odds": 1.175,
+              "consensus_prob": 0.8445,
+              "model_prob": 0.7152,
+              "likely_method": "KO/TKO",
+              "likely_method_pct": 54.45,
               "modal_finish_round": "round_1"
             },
             {
@@ -794,11 +805,11 @@
               "modal_finish_round": "round_1"
             }
           ],
-          "leg_count": 5,
-          "combined_prob_pct": 18.0,
-          "combined_decimal_odds": 6.946,
-          "combined_american": 595,
-          "ev_per_unit": 0.2501,
+          "leg_count": 6,
+          "combined_prob_pct": 15.2,
+          "combined_decimal_odds": 8.162,
+          "combined_american": 716,
+          "ev_per_unit": 0.2405,
           "positive_ev": true
         }
       }
@@ -812,9 +823,9 @@
             {
               "matchup": "Niko Price vs Leon Shahbazyan",
               "pick": "Niko Price",
-              "moneyline": 130,
-              "decimal_odds": 2.3,
-              "consensus_prob": 0.6016,
+              "moneyline": 124,
+              "decimal_odds": 2.24,
+              "consensus_prob": 0.6059,
               "model_prob": 0.7077,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 61.39,
@@ -825,7 +836,7 @@
               "pick": "Ernesta Kareckaite",
               "moneyline": -105,
               "decimal_odds": 1.952,
-              "consensus_prob": 0.6283,
+              "consensus_prob": 0.6295,
               "model_prob": 0.6869,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 70.34,
@@ -834,9 +845,9 @@
             {
               "matchup": "Ismael Bonfim vs Francisco Prado",
               "pick": "Ismael Bonfim",
-              "moneyline": -110,
-              "decimal_odds": 1.909,
-              "consensus_prob": 0.6253,
+              "moneyline": -106,
+              "decimal_odds": 1.943,
+              "consensus_prob": 0.6201,
               "model_prob": 0.6723,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 64.15,
@@ -844,10 +855,10 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 23.64,
-          "combined_decimal_odds": 8.571,
-          "combined_american": 757,
-          "ev_per_unit": 1.0257,
+          "combined_prob_pct": 23.65,
+          "combined_decimal_odds": 8.496,
+          "combined_american": 750,
+          "ev_per_unit": 1.0094,
           "positive_ev": true
         },
         "5_leg": {
@@ -855,9 +866,9 @@
             {
               "matchup": "Niko Price vs Leon Shahbazyan",
               "pick": "Niko Price",
-              "moneyline": 130,
-              "decimal_odds": 2.3,
-              "consensus_prob": 0.6016,
+              "moneyline": 124,
+              "decimal_odds": 2.24,
+              "consensus_prob": 0.6059,
               "model_prob": 0.7077,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 61.39,
@@ -868,7 +879,7 @@
               "pick": "Ernesta Kareckaite",
               "moneyline": -105,
               "decimal_odds": 1.952,
-              "consensus_prob": 0.6283,
+              "consensus_prob": 0.6295,
               "model_prob": 0.6869,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 70.34,
@@ -877,9 +888,9 @@
             {
               "matchup": "Ismael Bonfim vs Francisco Prado",
               "pick": "Ismael Bonfim",
-              "moneyline": -110,
-              "decimal_odds": 1.909,
-              "consensus_prob": 0.6253,
+              "moneyline": -106,
+              "decimal_odds": 1.943,
+              "consensus_prob": 0.6201,
               "model_prob": 0.6723,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 64.15,
@@ -890,7 +901,7 @@
               "pick": "RJ Harris",
               "moneyline": -340,
               "decimal_odds": 1.294,
-              "consensus_prob": 0.7796,
+              "consensus_prob": 0.7792,
               "model_prob": 0.6878,
               "likely_method": "KO/TKO",
               "likely_method_pct": 47.22,
@@ -899,9 +910,9 @@
             {
               "matchup": "Gerald Meerschaert vs Julius Walker",
               "pick": "Julius Walker",
-              "moneyline": -286,
-              "decimal_odds": 1.35,
-              "consensus_prob": 0.737,
+              "moneyline": -292,
+              "decimal_odds": 1.342,
+              "consensus_prob": 0.7392,
               "model_prob": 0.6529,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 59.18,
@@ -909,10 +920,10 @@
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 13.58,
-          "combined_decimal_odds": 14.972,
-          "combined_american": 1397,
-          "ev_per_unit": 1.0332,
+          "combined_prob_pct": 13.62,
+          "combined_decimal_odds": 14.753,
+          "combined_american": 1375,
+          "ev_per_unit": 1.0098,
           "positive_ev": true
         }
       }
