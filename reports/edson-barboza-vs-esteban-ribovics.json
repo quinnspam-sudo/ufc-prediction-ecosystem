@@ -5,7 +5,7 @@
     "scheduled_rounds": 3,
     "is_title_fight": false,
     "iterations": 10000,
-    "avg_rounds_simulated": 2.683,
+    "avg_rounds_simulated": 2.687,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -16,57 +16,57 @@
     },
     "fighter_b_flags": {
       "active_injury": false,
-      "missed_weight": false,
+      "missed_weight": true,
       "withdrawn": false,
-      "injury_note": "",
+      "injury_note": "King Green and Esteban Ribovics clash over weight miss outside UFC 332 fighter hotel - Bloody Elbow",
       "stats_approx": false,
       "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 30.41,
-    "fighter_b_pct": 69.59,
-    "draw_pct": 0.31,
-    "calibration_shrink_applied": 0.55
+    "fighter_a_pct": 27.08,
+    "fighter_b_pct": 72.92,
+    "draw_pct": 0.54,
+    "calibration_shrink_applied": 0.65
   },
   "consensus_forecast": {
     "applied": true,
     "model_weight": 0.4,
-    "fighter_a_pct": 15.09,
-    "fighter_b_pct": 84.91,
+    "fighter_a_pct": 15.23,
+    "fighter_b_pct": 84.77,
     "market_devig_a_pct": 15.56
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 10.57,
-      "Submission": 3.62,
-      "Unanimous Decision": 0.04,
-      "Split/Majority Decision": 0.11
+      "KO/TKO": 10.7,
+      "Submission": 3.69,
+      "Unanimous Decision": 0.08,
+      "Split/Majority Decision": 0.19
     },
     "fighter_b": {
-      "KO/TKO": 12.51,
-      "Submission": 4.11,
-      "Unanimous Decision": 67.83,
-      "Split/Majority Decision": 0.9
+      "KO/TKO": 12.27,
+      "Submission": 4.16,
+      "Unanimous Decision": 67.21,
+      "Split/Majority Decision": 1.16
     }
   },
   "fight_level": {
-    "ko_tko_pct": 23.08,
-    "submission_pct": 7.73,
-    "decision_pct": 68.88,
-    "goes_the_distance_pct": 69.19,
-    "expected_fight_minutes": 12.65
+    "ko_tko_pct": 22.97,
+    "submission_pct": 7.85,
+    "decision_pct": 68.64,
+    "goes_the_distance_pct": 69.18,
+    "expected_fight_minutes": 12.67
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 477,
-      "round_2": 474,
-      "round_3": 468
+      "round_1": 468,
+      "round_2": 483,
+      "round_3": 488
     },
     "fighter_b": {
-      "round_1": 596,
-      "round_2": 545,
-      "round_3": 521
+      "round_1": 583,
+      "round_2": 541,
+      "round_3": 519
     }
   },
   "value_betting": {
@@ -74,11 +74,11 @@
       "market_moneyline": 515,
       "market_decimal_odds": 6.15,
       "market_implied_prob_pct": 16.26,
-      "model_win_prob_pct": 30.41,
-      "edge_pct": 14.15,
-      "consensus_edge_pct": -1.17,
-      "kelly_fraction_full": 0.169,
-      "kelly_fraction_half": 0.0845,
+      "model_win_prob_pct": 27.08,
+      "edge_pct": 10.82,
+      "consensus_edge_pct": -1.03,
+      "kelly_fraction_full": 0.1292,
+      "kelly_fraction_half": 0.0646,
       "model_sees_value": true,
       "consensus_agrees": false,
       "value_bet": false
@@ -87,10 +87,10 @@
       "market_moneyline": -750,
       "market_decimal_odds": 1.133,
       "market_implied_prob_pct": 88.24,
-      "model_win_prob_pct": 69.59,
-      "edge_pct": -18.64,
-      "consensus_edge_pct": -3.33,
-      "kelly_fraction_full": -1.5848,
+      "model_win_prob_pct": 72.92,
+      "edge_pct": -15.32,
+      "consensus_edge_pct": -3.47,
+      "kelly_fraction_full": -1.3019,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,

@@ -632,10 +632,10 @@
     },
     "Edson Barboza vs Esteban Ribovics": {
       "win_probability": {
-        "fighter_a_pct": 30.41,
-        "fighter_b_pct": 69.59,
-        "draw_pct": 0.31,
-        "calibration_shrink_applied": 0.55
+        "fighter_a_pct": 27.08,
+        "fighter_b_pct": 72.92,
+        "draw_pct": 0.54,
+        "calibration_shrink_applied": 0.65
       },
       "value_flags": {
         "fighter_a": false,
@@ -1200,10 +1200,10 @@
     },
     "King Green vs Esteban Ribovics": {
       "win_probability": {
-        "fighter_a_pct": 70.24,
-        "fighter_b_pct": 29.76,
-        "draw_pct": 0.22,
-        "calibration_shrink_applied": 0.55
+        "fighter_a_pct": 74.05,
+        "fighter_b_pct": 25.95,
+        "draw_pct": 0.17,
+        "calibration_shrink_applied": 0.65
       },
       "value_flags": {
         "fighter_a": true,
@@ -1238,10 +1238,10 @@
     },
     "Ismael Bonfim vs Francisco Prado": {
       "win_probability": {
-        "fighter_a_pct": 67.23,
-        "fighter_b_pct": 32.77,
+        "fighter_a_pct": 70.36,
+        "fighter_b_pct": 29.64,
         "draw_pct": 0.0,
-        "calibration_shrink_applied": 0.55
+        "calibration_shrink_applied": 0.65
       },
       "value_flags": {
         "fighter_a": true,
@@ -1251,10 +1251,10 @@
     },
     "Brendan Allen vs Christian Leroy Duncan": {
       "win_probability": {
-        "fighter_a_pct": 43.64,
-        "fighter_b_pct": 56.36,
+        "fighter_a_pct": 42.48,
+        "fighter_b_pct": 57.52,
         "draw_pct": 2.54,
-        "calibration_shrink_applied": 0.55
+        "calibration_shrink_applied": 0.65
       },
       "value_flags": {
         "fighter_a": false,
@@ -1484,10 +1484,10 @@
     },
     "Brendson Ribeiro vs Felipe Franco": {
       "win_probability": {
-        "fighter_a_pct": 33.18,
-        "fighter_b_pct": 66.82,
+        "fighter_a_pct": 31.77,
+        "fighter_b_pct": 68.23,
         "draw_pct": 0.0,
-        "calibration_shrink_applied": 0.6
+        "calibration_shrink_applied": 0.65
       },
       "value_flags": {
         "fighter_a": false,
@@ -1497,10 +1497,10 @@
     },
     "Niko Price vs Leon Shahbazyan": {
       "win_probability": {
-        "fighter_a_pct": 70.77,
-        "fighter_b_pct": 29.23,
+        "fighter_a_pct": 74.54,
+        "fighter_b_pct": 25.46,
         "draw_pct": 0.0,
-        "calibration_shrink_applied": 0.55
+        "calibration_shrink_applied": 0.65
       },
       "value_flags": {
         "fighter_a": true,
@@ -1510,10 +1510,10 @@
     },
     "Otari Tanzilovi vs Malcolm Wellmaker": {
       "win_probability": {
-        "fighter_a_pct": 71.49,
-        "fighter_b_pct": 28.51,
+        "fighter_a_pct": 75.4,
+        "fighter_b_pct": 24.6,
         "draw_pct": 0.0,
-        "calibration_shrink_applied": 0.55
+        "calibration_shrink_applied": 0.65
       },
       "value_flags": {
         "fighter_a": true,
@@ -1523,10 +1523,10 @@
     },
     "Gerald Meerschaert vs Julius Walker": {
       "win_probability": {
-        "fighter_a_pct": 33.32,
-        "fighter_b_pct": 66.68,
+        "fighter_a_pct": 31.93,
+        "fighter_b_pct": 68.07,
         "draw_pct": 0.0,
-        "calibration_shrink_applied": 0.6
+        "calibration_shrink_applied": 0.65
       },
       "value_flags": {
         "fighter_a": false,
@@ -1562,10 +1562,10 @@
     },
     "Jai Herbert vs Matheus Camilo": {
       "win_probability": {
-        "fighter_a_pct": 49.3,
-        "fighter_b_pct": 50.7,
+        "fighter_a_pct": 49.17,
+        "fighter_b_pct": 50.83,
         "draw_pct": 6.69,
-        "calibration_shrink_applied": 0.55
+        "calibration_shrink_applied": 0.65
       },
       "value_flags": {
         "fighter_a": true,
@@ -1754,12 +1754,13 @@
     },
     "Alivia Bierley vs Summer Onley": {
       "win_probability": {
-        "fighter_a_pct": 82.5,
-        "fighter_b_pct": 17.5,
-        "draw_pct": 1.7
+        "fighter_a_pct": 76.14,
+        "fighter_b_pct": 23.86,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.65
       },
       "value_flags": {
-        "fighter_a": false,
+        "fighter_a": true,
         "fighter_b": false
       },
       "report_file": "reports/alivia-bierley-vs-summer-onley.json"
