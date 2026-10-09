@@ -4,15 +4,15 @@
     "fighter_b": "Ozzy Martin",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.455,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.671,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     },
     "fighter_b_flags": {
       "active_injury": false,
@@ -24,48 +24,49 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 83.4,
-    "fighter_b_pct": 16.6,
-    "draw_pct": 0.0
+    "fighter_a_pct": 72.16,
+    "fighter_b_pct": 27.84,
+    "draw_pct": 0.0,
+    "calibration_shrink_applied": 0.6
   },
   "consensus_forecast": {
     "applied": false,
     "model_weight": 1.0,
-    "fighter_a_pct": 83.4,
-    "fighter_b_pct": 16.6,
+    "fighter_a_pct": 86.94,
+    "fighter_b_pct": 13.06,
     "market_devig_a_pct": null
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 9.95,
-      "Submission": 21.3,
-      "Unanimous Decision": 52.15,
+      "KO/TKO": 15.75,
+      "Submission": 4.21,
+      "Unanimous Decision": 66.98,
       "Split/Majority Decision": 0.0
     },
     "fighter_b": {
-      "KO/TKO": 14.35,
-      "Submission": 2.25,
+      "KO/TKO": 10.42,
+      "Submission": 2.64,
       "Unanimous Decision": 0.0,
       "Split/Majority Decision": 0.0
     }
   },
   "fight_level": {
-    "ko_tko_pct": 24.3,
-    "submission_pct": 23.55,
-    "decision_pct": 52.15,
-    "goes_the_distance_pct": 52.15,
-    "expected_fight_minutes": 11.08
+    "ko_tko_pct": 26.17,
+    "submission_pct": 6.85,
+    "decision_pct": 66.98,
+    "goes_the_distance_pct": 66.98,
+    "expected_fight_minutes": 12.53
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 248,
-      "round_2": 209,
-      "round_3": 168
+      "round_1": 659,
+      "round_2": 673,
+      "round_3": 664
     },
     "fighter_b": {
-      "round_1": 139,
-      "round_2": 107,
-      "round_3": 86
+      "round_1": 451,
+      "round_2": 402,
+      "round_3": 453
     }
   },
   "value_betting": {
@@ -73,29 +74,27 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 83.4,
-      "edge_pct": 31.02,
-      "consensus_edge_pct": 31.02,
-      "kelly_fraction_full": 0.6514,
-      "kelly_fraction_half": 0.3257,
+      "model_win_prob_pct": 72.16,
+      "edge_pct": 19.78,
+      "consensus_edge_pct": 34.56,
+      "kelly_fraction_full": 0.4154,
+      "kelly_fraction_half": 0.2077,
       "model_sees_value": true,
       "consensus_agrees": true,
-      "value_bet": false
+      "value_bet": true
     },
     "fighter_b": {
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 16.6,
-      "edge_pct": -35.78,
-      "consensus_edge_pct": -35.78,
-      "kelly_fraction_full": -0.7514,
+      "model_win_prob_pct": 27.84,
+      "edge_pct": -24.54,
+      "consensus_edge_pct": -39.32,
+      "kelly_fraction_full": -0.5154,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
       "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+    }
   }
 }

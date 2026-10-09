@@ -899,10 +899,10 @@
             {
               "matchup": "Allen Frye Jr. vs RJ Harris",
               "pick": "RJ Harris",
-              "moneyline": -340,
-              "decimal_odds": 1.294,
-              "consensus_prob": 0.7805,
-              "model_prob": 0.6878,
+              "moneyline": -345,
+              "decimal_odds": 1.29,
+              "consensus_prob": 0.783,
+              "model_prob": 0.7049,
               "likely_method": "KO/TKO",
               "likely_method_pct": 47.22,
               "modal_finish_round": "round_1"
@@ -910,20 +910,20 @@
             {
               "matchup": "Gerald Meerschaert vs Julius Walker",
               "pick": "Julius Walker",
-              "moneyline": -288,
-              "decimal_odds": 1.347,
-              "consensus_prob": 0.7398,
-              "model_prob": 0.6529,
+              "moneyline": -299,
+              "decimal_odds": 1.334,
+              "consensus_prob": 0.7421,
+              "model_prob": 0.6668,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 59.18,
               "modal_finish_round": "round_1"
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 13.5,
-          "combined_decimal_odds": 15.379,
-          "combined_american": 1438,
-          "ev_per_unit": 1.0755,
+          "combined_prob_pct": 13.58,
+          "combined_decimal_odds": 15.183,
+          "combined_american": 1418,
+          "ev_per_unit": 1.062,
           "positive_ev": true
         }
       }

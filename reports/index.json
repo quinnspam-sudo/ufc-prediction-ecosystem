@@ -1471,10 +1471,10 @@
     },
     "Allen Frye Jr. vs RJ Harris": {
       "win_probability": {
-        "fighter_a_pct": 31.22,
-        "fighter_b_pct": 68.78,
+        "fighter_a_pct": 29.51,
+        "fighter_b_pct": 70.49,
         "draw_pct": 0.0,
-        "calibration_shrink_applied": 0.55
+        "calibration_shrink_applied": 0.6
       },
       "value_flags": {
         "fighter_a": false,
@@ -1484,10 +1484,10 @@
     },
     "Brendson Ribeiro vs Felipe Franco": {
       "win_probability": {
-        "fighter_a_pct": 34.58,
-        "fighter_b_pct": 65.42,
+        "fighter_a_pct": 33.18,
+        "fighter_b_pct": 66.82,
         "draw_pct": 0.0,
-        "calibration_shrink_applied": 0.55
+        "calibration_shrink_applied": 0.6
       },
       "value_flags": {
         "fighter_a": false,
@@ -1523,10 +1523,10 @@
     },
     "Gerald Meerschaert vs Julius Walker": {
       "win_probability": {
-        "fighter_a_pct": 34.71,
-        "fighter_b_pct": 65.29,
+        "fighter_a_pct": 33.32,
+        "fighter_b_pct": 66.68,
         "draw_pct": 0.0,
-        "calibration_shrink_applied": 0.55
+        "calibration_shrink_applied": 0.6
       },
       "value_flags": {
         "fighter_a": false,
@@ -1741,12 +1741,13 @@
     },
     "Salhahuddin Everett vs Ozzy Martin": {
       "win_probability": {
-        "fighter_a_pct": 83.4,
-        "fighter_b_pct": 16.6,
-        "draw_pct": 0.0
+        "fighter_a_pct": 72.16,
+        "fighter_b_pct": 27.84,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.6
       },
       "value_flags": {
-        "fighter_a": false,
+        "fighter_a": true,
         "fighter_b": false
       },
       "report_file": "reports/salhahuddin-everett-vs-ozzy-martin.json"
