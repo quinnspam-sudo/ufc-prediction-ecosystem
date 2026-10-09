@@ -24,17 +24,17 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 69.33,
-    "fighter_b_pct": 30.67,
+    "fighter_a_pct": 67.95,
+    "fighter_b_pct": 32.05,
     "draw_pct": 3.77,
-    "calibration_shrink_applied": 0.7
+    "calibration_shrink_applied": 0.65
   },
   "consensus_forecast": {
-    "applied": false,
-    "model_weight": 1.0,
-    "fighter_a_pct": 77.62,
-    "fighter_b_pct": 22.38,
-    "market_devig_a_pct": null
+    "applied": true,
+    "model_weight": 0.4,
+    "fighter_a_pct": 71.28,
+    "fighter_b_pct": 28.72,
+    "market_devig_a_pct": 67.05
   },
   "method_of_victory_matrix": {
     "fighter_a": {
@@ -71,26 +71,26 @@
   },
   "value_betting": {
     "fighter_a": {
-      "market_moneyline": -110,
-      "market_decimal_odds": 1.909,
-      "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 69.33,
-      "edge_pct": 16.95,
-      "consensus_edge_pct": 25.24,
-      "kelly_fraction_full": 0.356,
-      "kelly_fraction_half": 0.178,
-      "model_sees_value": true,
+      "market_moneyline": -230,
+      "market_decimal_odds": 1.435,
+      "market_implied_prob_pct": 69.7,
+      "model_win_prob_pct": 67.95,
+      "edge_pct": -1.74,
+      "consensus_edge_pct": 1.58,
+      "kelly_fraction_full": -0.0576,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
       "consensus_agrees": true,
-      "value_bet": true
+      "value_bet": false
     },
     "fighter_b": {
-      "market_moneyline": -110,
-      "market_decimal_odds": 1.909,
-      "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 30.67,
-      "edge_pct": -21.71,
-      "consensus_edge_pct": -30.0,
-      "kelly_fraction_full": -0.456,
+      "market_moneyline": 192,
+      "market_decimal_odds": 2.92,
+      "market_implied_prob_pct": 34.25,
+      "model_win_prob_pct": 32.05,
+      "edge_pct": -2.2,
+      "consensus_edge_pct": -5.52,
+      "kelly_fraction_full": -0.0335,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
