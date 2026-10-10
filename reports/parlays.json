@@ -845,9 +845,9 @@
             {
               "matchup": "Nate Landwehr vs Mandel Nallo",
               "pick": "Mandel Nallo",
-              "moneyline": -235,
-              "decimal_odds": 1.426,
-              "consensus_prob": 0.732,
+              "moneyline": -275,
+              "decimal_odds": 1.364,
+              "consensus_prob": 0.7505,
               "model_prob": 0.7071,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 57.96,
@@ -855,10 +855,10 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 33.81,
-          "combined_decimal_odds": 4.243,
-          "combined_american": 324,
-          "ev_per_unit": 0.4347,
+          "combined_prob_pct": 34.66,
+          "combined_decimal_odds": 4.059,
+          "combined_american": 306,
+          "ev_per_unit": 0.407,
           "positive_ev": true
         },
         "5_leg": {
@@ -888,9 +888,9 @@
             {
               "matchup": "Nate Landwehr vs Mandel Nallo",
               "pick": "Mandel Nallo",
-              "moneyline": -235,
-              "decimal_odds": 1.426,
-              "consensus_prob": 0.732,
+              "moneyline": -275,
+              "decimal_odds": 1.364,
+              "consensus_prob": 0.7505,
               "model_prob": 0.7071,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 57.96,
@@ -899,9 +899,9 @@
             {
               "matchup": "Erin Blanchfield vs Jasmine Jasudavicius",
               "pick": "Erin Blanchfield",
-              "moneyline": -230,
-              "decimal_odds": 1.435,
-              "consensus_prob": 0.7128,
+              "moneyline": -250,
+              "decimal_odds": 1.4,
+              "consensus_prob": 0.7225,
               "model_prob": 0.6795,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 48.2,
@@ -920,37 +920,91 @@
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 20.03,
-          "combined_decimal_odds": 7.197,
-          "combined_american": 620,
-          "ev_per_unit": 0.4418,
+          "combined_prob_pct": 20.82,
+          "combined_decimal_odds": 6.717,
+          "combined_american": 572,
+          "ev_per_unit": 0.3982,
           "positive_ev": true
         }
       }
     },
     "UFC Fight Night: Allen vs. Duncan": {
       "card_type": "fight_night",
-      "eligible_legs": 4,
+      "eligible_legs": 5,
       "parlays": {
         "3_leg": {
           "legs": [
             {
               "matchup": "Niko Price vs Leon Shahbazyan",
               "pick": "Niko Price",
-              "moneyline": 124,
-              "decimal_odds": 2.24,
-              "consensus_prob": 0.6078,
+              "moneyline": 122,
+              "decimal_odds": 2.22,
+              "consensus_prob": 0.6103,
               "model_prob": 0.7454,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 61.39,
               "modal_finish_round": "round_1"
             },
             {
+              "matchup": "Melissa Gatto vs Ernesta Kareckaite",
+              "pick": "Ernesta Kareckaite",
+              "moneyline": -103,
+              "decimal_odds": 1.971,
+              "consensus_prob": 0.6269,
+              "model_prob": 0.7209,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 70.34,
+              "modal_finish_round": "round_1"
+            },
+            {
               "matchup": "Allen Frye Jr. vs RJ Harris",
               "pick": "RJ Harris",
-              "moneyline": -347,
-              "decimal_odds": 1.288,
-              "consensus_prob": 0.7847,
+              "moneyline": -355,
+              "decimal_odds": 1.282,
+              "consensus_prob": 0.7865,
+              "model_prob": 0.722,
+              "likely_method": "KO/TKO",
+              "likely_method_pct": 47.22,
+              "modal_finish_round": "round_1"
+            }
+          ],
+          "leg_count": 3,
+          "combined_prob_pct": 30.09,
+          "combined_decimal_odds": 5.61,
+          "combined_american": 461,
+          "ev_per_unit": 0.688,
+          "positive_ev": true
+        },
+        "5_leg": {
+          "legs": [
+            {
+              "matchup": "Niko Price vs Leon Shahbazyan",
+              "pick": "Niko Price",
+              "moneyline": 122,
+              "decimal_odds": 2.22,
+              "consensus_prob": 0.6103,
+              "model_prob": 0.7454,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 61.39,
+              "modal_finish_round": "round_1"
+            },
+            {
+              "matchup": "Melissa Gatto vs Ernesta Kareckaite",
+              "pick": "Ernesta Kareckaite",
+              "moneyline": -103,
+              "decimal_odds": 1.971,
+              "consensus_prob": 0.6269,
+              "model_prob": 0.7209,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 70.34,
+              "modal_finish_round": "round_1"
+            },
+            {
+              "matchup": "Allen Frye Jr. vs RJ Harris",
+              "pick": "RJ Harris",
+              "moneyline": -355,
+              "decimal_odds": 1.282,
+              "consensus_prob": 0.7865,
               "model_prob": 0.722,
               "likely_method": "KO/TKO",
               "likely_method_pct": 47.22,
@@ -961,23 +1015,32 @@
               "pick": "Julius Walker",
               "moneyline": -305,
               "decimal_odds": 1.328,
-              "consensus_prob": 0.7434,
+              "consensus_prob": 0.7444,
               "model_prob": 0.6807,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 59.18,
               "modal_finish_round": "round_1"
+            },
+            {
+              "matchup": "Brendson Ribeiro vs Felipe Franco",
+              "pick": "Felipe Franco",
+              "moneyline": -375,
+              "decimal_odds": 1.267,
+              "consensus_prob": 0.767,
+              "model_prob": 0.6823,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 58.75,
+              "modal_finish_round": "round_1"
             }
           ],
-          "leg_count": 3,
-          "combined_prob_pct": 35.46,
-          "combined_decimal_odds": 3.831,
-          "combined_american": 283,
-          "ev_per_unit": 0.3585,
+          "leg_count": 5,
+          "combined_prob_pct": 17.18,
+          "combined_decimal_odds": 9.438,
+          "combined_american": 844,
+          "ev_per_unit": 0.6216,
           "positive_ev": true
-        },
-        "5_leg": null
-      },
-      "note": "Only 4 eligible legs; 5_leg not buildable."
+        }
+      }
     },
     "Dana White's Contender Series: Season 10, Week 9": {
       "card_type": "fight_night",

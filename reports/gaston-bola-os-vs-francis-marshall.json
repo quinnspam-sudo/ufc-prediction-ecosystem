@@ -1,0 +1,100 @@
+{
+  "matchup": {
+    "fighter_a": "Gaston Bola\u00f1os",
+    "fighter_b": "Francis Marshall",
+    "scheduled_rounds": 3,
+    "is_title_fight": false,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.674,
+    "fighter_a_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": false,
+      "needs_real_stats": false
+    },
+    "fighter_b_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": false,
+      "needs_real_stats": false
+    }
+  },
+  "win_probability": {
+    "fighter_a_pct": 23.92,
+    "fighter_b_pct": 76.08,
+    "draw_pct": 0.23,
+    "calibration_shrink_applied": 0.65
+  },
+  "consensus_forecast": {
+    "applied": false,
+    "model_weight": 1.0,
+    "fighter_a_pct": 9.88,
+    "fighter_b_pct": 90.12,
+    "market_devig_a_pct": null
+  },
+  "method_of_victory_matrix": {
+    "fighter_a": {
+      "KO/TKO": 7.29,
+      "Submission": 2.49,
+      "Unanimous Decision": 0.03,
+      "Split/Majority Decision": 0.05
+    },
+    "fighter_b": {
+      "KO/TKO": 6.63,
+      "Submission": 14.9,
+      "Unanimous Decision": 67.81,
+      "Split/Majority Decision": 0.57
+    }
+  },
+  "fight_level": {
+    "ko_tko_pct": 13.92,
+    "submission_pct": 17.39,
+    "decision_pct": 68.46,
+    "goes_the_distance_pct": 68.69,
+    "expected_fight_minutes": 12.59
+  },
+  "finish_round_distribution": {
+    "fighter_a": {
+      "round_1": 333,
+      "round_2": 331,
+      "round_3": 314
+    },
+    "fighter_b": {
+      "round_1": 768,
+      "round_2": 726,
+      "round_3": 659
+    }
+  },
+  "value_betting": {
+    "fighter_a": {
+      "market_moneyline": -110,
+      "market_decimal_odds": 1.909,
+      "market_implied_prob_pct": 52.38,
+      "model_win_prob_pct": 23.92,
+      "edge_pct": -28.46,
+      "consensus_edge_pct": -42.5,
+      "kelly_fraction_full": -0.5976,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
+      "value_bet": false
+    },
+    "fighter_b": {
+      "market_moneyline": -110,
+      "market_decimal_odds": 1.909,
+      "market_implied_prob_pct": 52.38,
+      "model_win_prob_pct": 76.08,
+      "edge_pct": 23.7,
+      "consensus_edge_pct": 37.74,
+      "kelly_fraction_full": 0.4976,
+      "kelly_fraction_half": 0.2488,
+      "model_sees_value": true,
+      "consensus_agrees": true,
+      "value_bet": true
+    }
+  }
+}

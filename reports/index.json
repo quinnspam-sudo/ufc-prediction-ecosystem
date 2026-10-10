@@ -1361,7 +1361,7 @@
       },
       "value_flags": {
         "fighter_a": false,
-        "fighter_b": true
+        "fighter_b": false
       },
       "report_file": "reports/nate-landwehr-vs-mandel-nallo.json"
     },
@@ -1860,6 +1860,141 @@
         "fighter_b": false
       },
       "report_file": "reports/kyle-nelson-vs-cristian-p-rez.json"
+    },
+    "Gaston Bola\u00f1os vs Francis Marshall": {
+      "win_probability": {
+        "fighter_a_pct": 23.92,
+        "fighter_b_pct": 76.08,
+        "draw_pct": 0.23,
+        "calibration_shrink_applied": 0.65
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": true
+      },
+      "report_file": "reports/gaston-bola-os-vs-francis-marshall.json"
+    },
+    "Julian Erosa vs JeongYeong Lee": {
+      "win_probability": {
+        "fighter_a_pct": 73.13,
+        "fighter_b_pct": 26.87,
+        "draw_pct": 0.55,
+        "calibration_shrink_applied": 0.65
+      },
+      "value_flags": {
+        "fighter_a": true,
+        "fighter_b": false
+      },
+      "report_file": "reports/julian-erosa-vs-jeongyeong-lee.json"
+    },
+    "Andre Petroski vs Azamat Bekoev": {
+      "win_probability": {
+        "fighter_a_pct": 71.61,
+        "fighter_b_pct": 28.39,
+        "draw_pct": 0.96,
+        "calibration_shrink_applied": 0.65
+      },
+      "value_flags": {
+        "fighter_a": true,
+        "fighter_b": false
+      },
+      "report_file": "reports/andre-petroski-vs-azamat-bekoev.json"
+    },
+    "Jean-Paul Lebosnoyani vs Farman Hasanov": {
+      "win_probability": {
+        "fighter_a_pct": 24.5,
+        "fighter_b_pct": 75.5,
+        "draw_pct": 0.0
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/jean-paul-lebosnoyani-vs-farman-hasanov.json"
+    },
+    "Theodor Berggren vs Rodrigo Sezinando": {
+      "win_probability": {
+        "fighter_a_pct": 49.71,
+        "fighter_b_pct": 50.29,
+        "draw_pct": 5.85
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/theodor-berggren-vs-rodrigo-sezinando.json"
+    },
+    "Piera Rodriguez vs Talita Alencar": {
+      "win_probability": {
+        "fighter_a_pct": 50.05,
+        "fighter_b_pct": 49.95,
+        "draw_pct": 6.5
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/piera-rodriguez-vs-talita-alencar.json"
+    },
+    "Yana Santos vs Luana Santos": {
+      "win_probability": {
+        "fighter_a_pct": 51.21,
+        "fighter_b_pct": 48.79,
+        "draw_pct": 6.75
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/yana-santos-vs-luana-santos.json"
+    },
+    "Carlos Leal vs Randy Brown": {
+      "win_probability": {
+        "fighter_a_pct": 49.71,
+        "fighter_b_pct": 50.29,
+        "draw_pct": 5.85
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/carlos-leal-vs-randy-brown.json"
+    },
+    "Tainara Lisboa vs Lucia Szabova": {
+      "win_probability": {
+        "fighter_a_pct": 50.05,
+        "fighter_b_pct": 49.95,
+        "draw_pct": 6.5
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/tainara-lisboa-vs-lucia-szabova.json"
+    },
+    "Joe Kropschot vs Nick Klein": {
+      "win_probability": {
+        "fighter_a_pct": 83.0,
+        "fighter_b_pct": 17.0,
+        "draw_pct": 0.0
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/joe-kropschot-vs-nick-klein.json"
+    },
+    "Renato Moicano vs Tom Nolan": {
+      "win_probability": {
+        "fighter_a_pct": 50.29,
+        "fighter_b_pct": 49.71,
+        "draw_pct": 4.45
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/renato-moicano-vs-tom-nolan.json"
     }
   }
 }
