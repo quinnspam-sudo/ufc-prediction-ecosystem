@@ -4,8 +4,8 @@
     "fighter_b": "Talita Alencar",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.74,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.764,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -19,53 +19,54 @@
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 83.88,
-    "fighter_b_pct": 16.12,
-    "draw_pct": 0.1
+    "fighter_a_pct": 73.34,
+    "fighter_b_pct": 26.66,
+    "draw_pct": 0.0,
+    "calibration_shrink_applied": 0.65
   },
   "consensus_forecast": {
     "applied": false,
     "model_weight": 1.0,
-    "fighter_a_pct": 83.88,
-    "fighter_b_pct": 16.12,
+    "fighter_a_pct": 85.9,
+    "fighter_b_pct": 14.1,
     "market_devig_a_pct": null
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 4.45,
-      "Submission": 5.3,
-      "Unanimous Decision": 73.95,
-      "Split/Majority Decision": 0.1
+      "KO/TKO": 4.78,
+      "Submission": 4.53,
+      "Unanimous Decision": 76.53,
+      "Split/Majority Decision": 0.06
     },
     "fighter_b": {
-      "KO/TKO": 5.25,
-      "Submission": 10.85,
+      "KO/TKO": 3.62,
+      "Submission": 10.48,
       "Unanimous Decision": 0.0,
       "Split/Majority Decision": 0.0
     }
   },
   "fight_level": {
-    "ko_tko_pct": 9.7,
-    "submission_pct": 16.15,
-    "decision_pct": 74.05,
-    "goes_the_distance_pct": 74.15,
-    "expected_fight_minutes": 13.05
+    "ko_tko_pct": 8.4,
+    "submission_pct": 15.01,
+    "decision_pct": 76.59,
+    "goes_the_distance_pct": 76.59,
+    "expected_fight_minutes": 13.24
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 64,
-      "round_2": 67,
-      "round_3": 64
+      "round_1": 308,
+      "round_2": 315,
+      "round_3": 308
     },
     "fighter_b": {
-      "round_1": 112,
-      "round_2": 101,
-      "round_3": 109
+      "round_1": 492,
+      "round_2": 444,
+      "round_3": 474
     }
   },
   "value_betting": {
@@ -73,29 +74,27 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 83.88,
-      "edge_pct": 31.5,
-      "consensus_edge_pct": 31.5,
-      "kelly_fraction_full": 0.6616,
-      "kelly_fraction_half": 0.3308,
+      "model_win_prob_pct": 73.34,
+      "edge_pct": 20.95,
+      "consensus_edge_pct": 33.52,
+      "kelly_fraction_full": 0.44,
+      "kelly_fraction_half": 0.22,
       "model_sees_value": true,
       "consensus_agrees": true,
-      "value_bet": false
+      "value_bet": true
     },
     "fighter_b": {
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 16.12,
-      "edge_pct": -36.26,
-      "consensus_edge_pct": -36.26,
-      "kelly_fraction_full": -0.7616,
+      "model_win_prob_pct": 26.66,
+      "edge_pct": -25.72,
+      "consensus_edge_pct": -38.28,
+      "kelly_fraction_full": -0.54,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
       "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+    }
   }
 }
