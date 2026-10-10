@@ -1902,13 +1902,14 @@
     },
     "Jean-Paul Lebosnoyani vs Farman Hasanov": {
       "win_probability": {
-        "fighter_a_pct": 24.5,
-        "fighter_b_pct": 75.5,
-        "draw_pct": 0.0
+        "fighter_a_pct": 34.09,
+        "fighter_b_pct": 65.91,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.65
       },
       "value_flags": {
         "fighter_a": false,
-        "fighter_b": false
+        "fighter_b": true
       },
       "report_file": "reports/jean-paul-lebosnoyani-vs-farman-hasanov.json"
     },
@@ -1926,9 +1927,9 @@
     },
     "Piera Rodriguez vs Talita Alencar": {
       "win_probability": {
-        "fighter_a_pct": 50.05,
-        "fighter_b_pct": 49.95,
-        "draw_pct": 6.5
+        "fighter_a_pct": 83.88,
+        "fighter_b_pct": 16.12,
+        "draw_pct": 0.1
       },
       "value_flags": {
         "fighter_a": false,
@@ -1950,9 +1951,9 @@
     },
     "Carlos Leal vs Randy Brown": {
       "win_probability": {
-        "fighter_a_pct": 49.71,
-        "fighter_b_pct": 50.29,
-        "draw_pct": 5.85
+        "fighter_a_pct": 82.15,
+        "fighter_b_pct": 17.85,
+        "draw_pct": 0.0
       },
       "value_flags": {
         "fighter_a": false,
@@ -1974,12 +1975,13 @@
     },
     "Joe Kropschot vs Nick Klein": {
       "win_probability": {
-        "fighter_a_pct": 83.0,
-        "fighter_b_pct": 17.0,
-        "draw_pct": 0.0
+        "fighter_a_pct": 58.01,
+        "fighter_b_pct": 41.99,
+        "draw_pct": 0.75,
+        "calibration_shrink_applied": 0.65
       },
       "value_flags": {
-        "fighter_a": false,
+        "fighter_a": true,
         "fighter_b": false
       },
       "report_file": "reports/joe-kropschot-vs-nick-klein.json"

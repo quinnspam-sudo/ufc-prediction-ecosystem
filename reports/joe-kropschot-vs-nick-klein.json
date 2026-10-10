@@ -4,8 +4,8 @@
     "fighter_b": "Nick Klein",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.39,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.056,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -19,53 +19,54 @@
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 83.0,
-    "fighter_b_pct": 17.0,
-    "draw_pct": 0.0
+    "fighter_a_pct": 58.01,
+    "fighter_b_pct": 41.99,
+    "draw_pct": 0.75,
+    "calibration_shrink_applied": 0.65
   },
   "consensus_forecast": {
     "applied": false,
     "model_weight": 1.0,
-    "fighter_a_pct": 83.0,
-    "fighter_b_pct": 17.0,
+    "fighter_a_pct": 62.32,
+    "fighter_b_pct": 37.68,
     "market_devig_a_pct": null
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 25.45,
-      "Submission": 11.45,
-      "Unanimous Decision": 46.1,
-      "Split/Majority Decision": 0.0
+      "KO/TKO": 27.59,
+      "Submission": 10.46,
+      "Unanimous Decision": 22.64,
+      "Split/Majority Decision": 1.16
     },
     "fighter_b": {
-      "KO/TKO": 9.55,
-      "Submission": 7.45,
-      "Unanimous Decision": 0.0,
-      "Split/Majority Decision": 0.0
+      "KO/TKO": 8.2,
+      "Submission": 28.5,
+      "Unanimous Decision": 0.3,
+      "Split/Majority Decision": 0.4
     }
   },
   "fight_level": {
-    "ko_tko_pct": 35.0,
-    "submission_pct": 18.9,
-    "decision_pct": 46.1,
-    "goes_the_distance_pct": 46.1,
-    "expected_fight_minutes": 10.61
+    "ko_tko_pct": 35.79,
+    "submission_pct": 38.96,
+    "decision_pct": 24.5,
+    "goes_the_distance_pct": 25.25,
+    "expected_fight_minutes": 8.41
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 294,
-      "round_2": 248,
-      "round_3": 196
+      "round_1": 1789,
+      "round_2": 1210,
+      "round_3": 806
     },
     "fighter_b": {
-      "round_1": 136,
-      "round_2": 111,
-      "round_3": 93
+      "round_1": 1740,
+      "round_2": 1172,
+      "round_3": 758
     }
   },
   "value_betting": {
@@ -73,29 +74,27 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 83.0,
-      "edge_pct": 30.62,
-      "consensus_edge_pct": 30.62,
-      "kelly_fraction_full": 0.643,
-      "kelly_fraction_half": 0.3215,
+      "model_win_prob_pct": 58.01,
+      "edge_pct": 5.63,
+      "consensus_edge_pct": 9.94,
+      "kelly_fraction_full": 0.1182,
+      "kelly_fraction_half": 0.0591,
       "model_sees_value": true,
       "consensus_agrees": true,
-      "value_bet": false
+      "value_bet": true
     },
     "fighter_b": {
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 17.0,
-      "edge_pct": -35.38,
-      "consensus_edge_pct": -35.38,
-      "kelly_fraction_full": -0.743,
+      "model_win_prob_pct": 41.99,
+      "edge_pct": -10.39,
+      "consensus_edge_pct": -14.7,
+      "kelly_fraction_full": -0.2182,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
       "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+    }
   }
 }

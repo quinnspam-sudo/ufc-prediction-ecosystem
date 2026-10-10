@@ -948,9 +948,9 @@
             {
               "matchup": "Melissa Gatto vs Ernesta Kareckaite",
               "pick": "Ernesta Kareckaite",
-              "moneyline": -103,
-              "decimal_odds": 1.971,
-              "consensus_prob": 0.6269,
+              "moneyline": -102,
+              "decimal_odds": 1.98,
+              "consensus_prob": 0.6238,
               "model_prob": 0.7209,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 70.34,
@@ -959,9 +959,9 @@
             {
               "matchup": "Allen Frye Jr. vs RJ Harris",
               "pick": "RJ Harris",
-              "moneyline": -355,
-              "decimal_odds": 1.282,
-              "consensus_prob": 0.7865,
+              "moneyline": -352,
+              "decimal_odds": 1.284,
+              "consensus_prob": 0.7857,
               "model_prob": 0.722,
               "likely_method": "KO/TKO",
               "likely_method_pct": 47.22,
@@ -969,10 +969,10 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 30.09,
-          "combined_decimal_odds": 5.61,
-          "combined_american": 461,
-          "ev_per_unit": 0.688,
+          "combined_prob_pct": 29.91,
+          "combined_decimal_odds": 5.644,
+          "combined_american": 464,
+          "ev_per_unit": 0.6882,
           "positive_ev": true
         },
         "5_leg": {
@@ -991,9 +991,9 @@
             {
               "matchup": "Melissa Gatto vs Ernesta Kareckaite",
               "pick": "Ernesta Kareckaite",
-              "moneyline": -103,
-              "decimal_odds": 1.971,
-              "consensus_prob": 0.6269,
+              "moneyline": -102,
+              "decimal_odds": 1.98,
+              "consensus_prob": 0.6238,
               "model_prob": 0.7209,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 70.34,
@@ -1002,9 +1002,9 @@
             {
               "matchup": "Allen Frye Jr. vs RJ Harris",
               "pick": "RJ Harris",
-              "moneyline": -355,
-              "decimal_odds": 1.282,
-              "consensus_prob": 0.7865,
+              "moneyline": -352,
+              "decimal_odds": 1.284,
+              "consensus_prob": 0.7857,
               "model_prob": 0.722,
               "likely_method": "KO/TKO",
               "likely_method_pct": 47.22,
@@ -1015,7 +1015,7 @@
               "pick": "Julius Walker",
               "moneyline": -305,
               "decimal_odds": 1.328,
-              "consensus_prob": 0.7444,
+              "consensus_prob": 0.7462,
               "model_prob": 0.6807,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 59.18,
@@ -1024,9 +1024,9 @@
             {
               "matchup": "Brendson Ribeiro vs Felipe Franco",
               "pick": "Felipe Franco",
-              "moneyline": -375,
-              "decimal_odds": 1.267,
-              "consensus_prob": 0.767,
+              "moneyline": -390,
+              "decimal_odds": 1.256,
+              "consensus_prob": 0.7714,
               "model_prob": 0.6823,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 58.75,
@@ -1034,10 +1034,10 @@
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 17.18,
-          "combined_decimal_odds": 9.438,
-          "combined_american": 844,
-          "ev_per_unit": 0.6216,
+          "combined_prob_pct": 17.22,
+          "combined_decimal_odds": 9.414,
+          "combined_american": 841,
+          "ev_per_unit": 0.6209,
           "positive_ev": true
         }
       }
