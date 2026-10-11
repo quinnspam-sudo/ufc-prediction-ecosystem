@@ -4,8 +4,8 @@
     "fighter_b": "Bruce Whitehead",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.287,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.226,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -19,53 +19,54 @@
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 86.45,
-    "fighter_b_pct": 13.55,
-    "draw_pct": 0.0
+    "fighter_a_pct": 79.12,
+    "fighter_b_pct": 20.88,
+    "draw_pct": 0.0,
+    "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
     "applied": true,
     "model_weight": 0.4,
-    "fighter_a_pct": 87.81,
-    "fighter_b_pct": 12.19,
+    "fighter_a_pct": 89.87,
+    "fighter_b_pct": 10.13,
     "market_devig_a_pct": 88.71
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 23.15,
-      "Submission": 24.75,
-      "Unanimous Decision": 38.55,
+      "KO/TKO": 34.97,
+      "Submission": 23.43,
+      "Unanimous Decision": 33.2,
       "Split/Majority Decision": 0.0
     },
     "fighter_b": {
-      "KO/TKO": 7.6,
-      "Submission": 5.95,
+      "KO/TKO": 6.78,
+      "Submission": 1.62,
       "Unanimous Decision": 0.0,
       "Split/Majority Decision": 0.0
     }
   },
   "fight_level": {
-    "ko_tko_pct": 30.75,
-    "submission_pct": 30.7,
-    "decision_pct": 38.55,
-    "goes_the_distance_pct": 38.55,
-    "expected_fight_minutes": 9.9
+    "ko_tko_pct": 41.75,
+    "submission_pct": 25.05,
+    "decision_pct": 33.2,
+    "goes_the_distance_pct": 33.2,
+    "expected_fight_minutes": 9.46
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 387,
-      "round_2": 340,
-      "round_3": 231
+      "round_1": 2407,
+      "round_2": 1888,
+      "round_3": 1545
     },
     "fighter_b": {
-      "round_1": 110,
-      "round_2": 93,
-      "round_3": 68
+      "round_1": 386,
+      "round_2": 266,
+      "round_3": 188
     }
   },
   "value_betting": {
@@ -73,10 +74,10 @@
       "market_moneyline": -1225,
       "market_decimal_odds": 1.082,
       "market_implied_prob_pct": 92.45,
-      "model_win_prob_pct": 86.45,
-      "edge_pct": -6.0,
-      "consensus_edge_pct": -4.65,
-      "kelly_fraction_full": -0.7954,
+      "model_win_prob_pct": 79.12,
+      "edge_pct": -13.33,
+      "consensus_edge_pct": -2.59,
+      "kelly_fraction_full": -1.7666,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
@@ -86,16 +87,14 @@
       "market_moneyline": 750,
       "market_decimal_odds": 8.5,
       "market_implied_prob_pct": 11.76,
-      "model_win_prob_pct": 13.55,
-      "edge_pct": 1.79,
-      "consensus_edge_pct": 0.43,
-      "kelly_fraction_full": 0.0202,
-      "kelly_fraction_half": 0.0101,
+      "model_win_prob_pct": 20.88,
+      "edge_pct": 9.12,
+      "consensus_edge_pct": -1.63,
+      "kelly_fraction_full": 0.1033,
+      "kelly_fraction_half": 0.0517,
       "model_sees_value": true,
-      "consensus_agrees": true,
+      "consensus_agrees": false,
       "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+    }
   }
 }

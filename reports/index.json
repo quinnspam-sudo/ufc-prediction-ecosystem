@@ -1110,9 +1110,10 @@
     },
     "Jacobe Smith vs Bruce Whitehead": {
       "win_probability": {
-        "fighter_a_pct": 86.45,
-        "fighter_b_pct": 13.55,
-        "draw_pct": 0.0
+        "fighter_a_pct": 79.12,
+        "fighter_b_pct": 20.88,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": false,
@@ -1290,10 +1291,10 @@
     },
     "Chad Anheliger vs Steven Koslow": {
       "win_probability": {
-        "fighter_a_pct": 27.69,
-        "fighter_b_pct": 72.31,
+        "fighter_a_pct": 25.98,
+        "fighter_b_pct": 74.02,
         "draw_pct": 0.0,
-        "calibration_shrink_applied": 0.65
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": false,

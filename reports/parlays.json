@@ -734,7 +734,7 @@
     },
     "UFC 332: Silva vs. Wang": {
       "card_type": "numbered/PPV",
-      "eligible_legs": 6,
+      "eligible_legs": 7,
       "parlays": {
         "main_card_parlay": {
           "legs": [
@@ -772,6 +772,17 @@
               "modal_finish_round": "round_1"
             },
             {
+              "matchup": "Jacobe Smith vs Bruce Whitehead",
+              "pick": "Jacobe Smith",
+              "moneyline": -1225,
+              "decimal_odds": 1.082,
+              "consensus_prob": 0.8987,
+              "model_prob": 0.7912,
+              "likely_method": "KO/TKO",
+              "likely_method_pct": 34.97,
+              "modal_finish_round": "round_1"
+            },
+            {
               "matchup": "Andrey Pulyaev vs Damian Pinas",
               "pick": "Damian Pinas",
               "moneyline": -595,
@@ -792,24 +803,13 @@
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 35.8,
               "modal_finish_round": "round_1"
-            },
-            {
-              "matchup": "Deiveson Figueiredo vs Payton Talbott",
-              "pick": "Payton Talbott",
-              "moneyline": -775,
-              "decimal_odds": 1.129,
-              "consensus_prob": 0.8256,
-              "model_prob": 0.6589,
-              "likely_method": "Unanimous Decision",
-              "likely_method_pct": 60.33,
-              "modal_finish_round": "round_1"
             }
           ],
           "leg_count": 6,
-          "combined_prob_pct": 15.2,
-          "combined_decimal_odds": 8.162,
-          "combined_american": 716,
-          "ev_per_unit": 0.2405,
+          "combined_prob_pct": 16.54,
+          "combined_decimal_odds": 7.822,
+          "combined_american": 682,
+          "ev_per_unit": 0.2941,
           "positive_ev": true
         }
       }
@@ -823,10 +823,10 @@
             {
               "matchup": "Chad Anheliger vs Steven Koslow",
               "pick": "Steven Koslow",
-              "moneyline": 110,
-              "decimal_odds": 2.1,
-              "consensus_prob": 0.6116,
-              "model_prob": 0.7231,
+              "moneyline": 109,
+              "decimal_odds": 2.09,
+              "consensus_prob": 0.6123,
+              "model_prob": 0.7402,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 44.09,
               "modal_finish_round": "round_1"
@@ -834,9 +834,9 @@
             {
               "matchup": "Chelsea Chandler vs Melissa Croden",
               "pick": "Melissa Croden",
-              "moneyline": -241,
-              "decimal_odds": 1.415,
-              "consensus_prob": 0.7496,
+              "moneyline": -260,
+              "decimal_odds": 1.385,
+              "consensus_prob": 0.7602,
               "model_prob": 0.7546,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 58.89,
@@ -847,7 +847,7 @@
               "pick": "Mandel Nallo",
               "moneyline": -275,
               "decimal_odds": 1.364,
-              "consensus_prob": 0.7489,
+              "consensus_prob": 0.7493,
               "model_prob": 0.723,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 57.96,
@@ -855,10 +855,10 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 34.33,
-          "combined_decimal_odds": 4.053,
-          "combined_american": 305,
-          "ev_per_unit": 0.3916,
+          "combined_prob_pct": 34.88,
+          "combined_decimal_odds": 3.948,
+          "combined_american": 295,
+          "ev_per_unit": 0.3771,
           "positive_ev": true
         },
         "5_leg": {
@@ -866,10 +866,10 @@
             {
               "matchup": "Chad Anheliger vs Steven Koslow",
               "pick": "Steven Koslow",
-              "moneyline": 110,
-              "decimal_odds": 2.1,
-              "consensus_prob": 0.6116,
-              "model_prob": 0.7231,
+              "moneyline": 109,
+              "decimal_odds": 2.09,
+              "consensus_prob": 0.6123,
+              "model_prob": 0.7402,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 44.09,
               "modal_finish_round": "round_1"
@@ -877,9 +877,9 @@
             {
               "matchup": "Chelsea Chandler vs Melissa Croden",
               "pick": "Melissa Croden",
-              "moneyline": -241,
-              "decimal_odds": 1.415,
-              "consensus_prob": 0.7496,
+              "moneyline": -260,
+              "decimal_odds": 1.385,
+              "consensus_prob": 0.7602,
               "model_prob": 0.7546,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 58.89,
@@ -890,7 +890,7 @@
               "pick": "Mandel Nallo",
               "moneyline": -275,
               "decimal_odds": 1.364,
-              "consensus_prob": 0.7489,
+              "consensus_prob": 0.7493,
               "model_prob": 0.723,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 57.96,
@@ -899,9 +899,9 @@
             {
               "matchup": "Erin Blanchfield vs Jasmine Jasudavicius",
               "pick": "Erin Blanchfield",
-              "moneyline": -265,
-              "decimal_odds": 1.377,
-              "consensus_prob": 0.7287,
+              "moneyline": -297,
+              "decimal_odds": 1.337,
+              "consensus_prob": 0.7401,
               "model_prob": 0.6933,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 48.2,
@@ -920,10 +920,10 @@
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 20.85,
-          "combined_decimal_odds": 6.513,
-          "combined_american": 551,
-          "ev_per_unit": 0.3577,
+          "combined_prob_pct": 21.51,
+          "combined_decimal_odds": 6.16,
+          "combined_american": 516,
+          "ev_per_unit": 0.325,
           "positive_ev": true
         }
       }
