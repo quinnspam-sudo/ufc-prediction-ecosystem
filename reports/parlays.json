@@ -22,10 +22,10 @@
               "pick": "RJ Harris",
               "moneyline": -105,
               "decimal_odds": 1.952,
-              "consensus_prob": 0.6525,
-              "model_prob": 0.5397,
-              "likely_method": "Unanimous Decision",
-              "likely_method_pct": 74.01,
+              "consensus_prob": 0.6302,
+              "model_prob": 0.7393,
+              "likely_method": "KO/TKO",
+              "likely_method_pct": 47.28,
               "modal_finish_round": "round_1"
             },
             {
@@ -41,10 +41,10 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 33.22,
+          "combined_prob_pct": 32.09,
           "combined_decimal_odds": 5.07,
           "combined_american": 407,
-          "ev_per_unit": 0.6845,
+          "ev_per_unit": 0.6269,
           "positive_ev": true
         },
         "5_leg": {
@@ -65,10 +65,10 @@
               "pick": "RJ Harris",
               "moneyline": -105,
               "decimal_odds": 1.952,
-              "consensus_prob": 0.6525,
-              "model_prob": 0.5397,
-              "likely_method": "Unanimous Decision",
-              "likely_method_pct": 74.01,
+              "consensus_prob": 0.6302,
+              "model_prob": 0.7393,
+              "likely_method": "KO/TKO",
+              "likely_method_pct": 47.28,
               "modal_finish_round": "round_1"
             },
             {
@@ -106,10 +106,10 @@
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 19.54,
+          "combined_prob_pct": 18.87,
           "combined_decimal_odds": 8.661,
           "combined_american": 766,
-          "ev_per_unit": 0.6919,
+          "ev_per_unit": 0.6341,
           "positive_ev": true
         }
       }
@@ -132,17 +132,6 @@
               "modal_finish_round": "round_3"
             },
             {
-              "matchup": "Brendson Ribeiro vs Magomed Tuchalov",
-              "pick": "Magomed Tuchalov",
-              "moneyline": -900,
-              "decimal_odds": 1.111,
-              "consensus_prob": 0.858,
-              "model_prob": 0.6927,
-              "likely_method": "Unanimous Decision",
-              "likely_method_pct": 63.54,
-              "modal_finish_round": "round_1"
-            },
-            {
               "matchup": "Cody Gibson vs Abdul Hussein",
               "pick": "Abdul Hussein",
               "moneyline": -575,
@@ -152,13 +141,24 @@
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 48.49,
               "modal_finish_round": "round_1"
+            },
+            {
+              "matchup": "Wellington Turman vs Islam Dulatov",
+              "pick": "Islam Dulatov",
+              "moneyline": -1000,
+              "decimal_odds": 1.1,
+              "consensus_prob": 0.8572,
+              "model_prob": 0.736,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 46.46,
+              "modal_finish_round": "round_1"
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 54.54,
-          "combined_decimal_odds": 1.796,
-          "combined_american": 80,
-          "ev_per_unit": -0.0205,
+          "combined_prob_pct": 54.49,
+          "combined_decimal_odds": 1.778,
+          "combined_american": 78,
+          "ev_per_unit": -0.0311,
           "positive_ev": false
         },
         "5_leg": {
@@ -173,17 +173,6 @@
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 73.94,
               "modal_finish_round": "round_3"
-            },
-            {
-              "matchup": "Brendson Ribeiro vs Magomed Tuchalov",
-              "pick": "Magomed Tuchalov",
-              "moneyline": -900,
-              "decimal_odds": 1.111,
-              "consensus_prob": 0.858,
-              "model_prob": 0.6927,
-              "likely_method": "Unanimous Decision",
-              "likely_method_pct": 63.54,
-              "modal_finish_round": "round_1"
             },
             {
               "matchup": "Cody Gibson vs Abdul Hussein",
@@ -208,6 +197,17 @@
               "modal_finish_round": "round_1"
             },
             {
+              "matchup": "Brendson Ribeiro vs Magomed Tuchalov",
+              "pick": "Magomed Tuchalov",
+              "moneyline": -900,
+              "decimal_odds": 1.111,
+              "consensus_prob": 0.8402,
+              "model_prob": 0.7143,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 49.42,
+              "modal_finish_round": "round_1"
+            },
+            {
               "matchup": "Rizvan Kuniev vs Tyrell Fortune",
               "pick": "Rizvan Kuniev",
               "moneyline": -330,
@@ -220,10 +220,10 @@
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 32.37,
+          "combined_prob_pct": 31.69,
           "combined_decimal_odds": 2.574,
           "combined_american": 157,
-          "ev_per_unit": -0.1668,
+          "ev_per_unit": -0.1841,
           "positive_ev": false
         }
       }
@@ -834,10 +834,10 @@
             {
               "matchup": "Chelsea Chandler vs Melissa Croden",
               "pick": "Melissa Croden",
-              "moneyline": -238,
-              "decimal_odds": 1.42,
-              "consensus_prob": 0.7482,
-              "model_prob": 0.7364,
+              "moneyline": -241,
+              "decimal_odds": 1.415,
+              "consensus_prob": 0.7496,
+              "model_prob": 0.7546,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 58.89,
               "modal_finish_round": "round_1"
@@ -845,10 +845,10 @@
             {
               "matchup": "Nate Landwehr vs Mandel Nallo",
               "pick": "Mandel Nallo",
-              "moneyline": -276,
-              "decimal_odds": 1.362,
-              "consensus_prob": 0.7502,
-              "model_prob": 0.7071,
+              "moneyline": -275,
+              "decimal_odds": 1.364,
+              "consensus_prob": 0.7489,
+              "model_prob": 0.723,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 57.96,
               "modal_finish_round": "round_1"
@@ -856,9 +856,9 @@
           ],
           "leg_count": 3,
           "combined_prob_pct": 34.33,
-          "combined_decimal_odds": 4.061,
-          "combined_american": 306,
-          "ev_per_unit": 0.3943,
+          "combined_decimal_odds": 4.053,
+          "combined_american": 305,
+          "ev_per_unit": 0.3916,
           "positive_ev": true
         },
         "5_leg": {
@@ -877,10 +877,10 @@
             {
               "matchup": "Chelsea Chandler vs Melissa Croden",
               "pick": "Melissa Croden",
-              "moneyline": -238,
-              "decimal_odds": 1.42,
-              "consensus_prob": 0.7482,
-              "model_prob": 0.7364,
+              "moneyline": -241,
+              "decimal_odds": 1.415,
+              "consensus_prob": 0.7496,
+              "model_prob": 0.7546,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 58.89,
               "modal_finish_round": "round_1"
@@ -888,10 +888,10 @@
             {
               "matchup": "Nate Landwehr vs Mandel Nallo",
               "pick": "Mandel Nallo",
-              "moneyline": -276,
-              "decimal_odds": 1.362,
-              "consensus_prob": 0.7502,
-              "model_prob": 0.7071,
+              "moneyline": -275,
+              "decimal_odds": 1.364,
+              "consensus_prob": 0.7489,
+              "model_prob": 0.723,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 57.96,
               "modal_finish_round": "round_1"
@@ -899,10 +899,10 @@
             {
               "matchup": "Erin Blanchfield vs Jasmine Jasudavicius",
               "pick": "Erin Blanchfield",
-              "moneyline": -250,
-              "decimal_odds": 1.4,
-              "consensus_prob": 0.7217,
-              "model_prob": 0.6795,
+              "moneyline": -265,
+              "decimal_odds": 1.377,
+              "consensus_prob": 0.7287,
+              "model_prob": 0.6933,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 48.2,
               "modal_finish_round": "round_1"
@@ -910,20 +910,20 @@
             {
               "matchup": "Julien LeBlanc vs Nick Galanti",
               "pick": "Nick Galanti",
-              "moneyline": -550,
-              "decimal_odds": 1.182,
-              "consensus_prob": 0.8285,
-              "model_prob": 0.7313,
+              "moneyline": -600,
+              "decimal_odds": 1.167,
+              "consensus_prob": 0.8332,
+              "model_prob": 0.7491,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 42.59,
               "modal_finish_round": "round_1"
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 20.53,
-          "combined_decimal_odds": 6.721,
-          "combined_american": 572,
-          "ev_per_unit": 0.3796,
+          "combined_prob_pct": 20.85,
+          "combined_decimal_odds": 6.513,
+          "combined_american": 551,
+          "ev_per_unit": 0.3577,
           "positive_ev": true
         }
       }
@@ -940,9 +940,9 @@
               "moneyline": 117,
               "decimal_odds": 2.17,
               "consensus_prob": 0.6167,
-              "model_prob": 0.7454,
+              "model_prob": 0.7643,
               "likely_method": "Unanimous Decision",
-              "likely_method_pct": 61.39,
+              "likely_method_pct": 61.4,
               "modal_finish_round": "round_1"
             },
             {
@@ -950,10 +950,10 @@
               "pick": "Ernesta Kareckaite",
               "moneyline": -102,
               "decimal_odds": 1.98,
-              "consensus_prob": 0.6238,
-              "model_prob": 0.7209,
+              "consensus_prob": 0.6253,
+              "model_prob": 0.7406,
               "likely_method": "Unanimous Decision",
-              "likely_method_pct": 70.34,
+              "likely_method_pct": 71.26,
               "modal_finish_round": "round_1"
             },
             {
@@ -962,17 +962,17 @@
               "moneyline": -375,
               "decimal_odds": 1.267,
               "consensus_prob": 0.7909,
-              "model_prob": 0.722,
+              "model_prob": 0.7391,
               "likely_method": "KO/TKO",
               "likely_method_pct": 47.22,
               "modal_finish_round": "round_1"
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 30.43,
+          "combined_prob_pct": 30.5,
           "combined_decimal_odds": 5.444,
           "combined_american": 444,
-          "ev_per_unit": 0.6563,
+          "ev_per_unit": 0.6603,
           "positive_ev": true
         },
         "5_leg": {
@@ -983,9 +983,9 @@
               "moneyline": 117,
               "decimal_odds": 2.17,
               "consensus_prob": 0.6167,
-              "model_prob": 0.7454,
+              "model_prob": 0.7643,
               "likely_method": "Unanimous Decision",
-              "likely_method_pct": 61.39,
+              "likely_method_pct": 61.4,
               "modal_finish_round": "round_1"
             },
             {
@@ -993,10 +993,10 @@
               "pick": "Ernesta Kareckaite",
               "moneyline": -102,
               "decimal_odds": 1.98,
-              "consensus_prob": 0.6238,
-              "model_prob": 0.7209,
+              "consensus_prob": 0.6253,
+              "model_prob": 0.7406,
               "likely_method": "Unanimous Decision",
-              "likely_method_pct": 70.34,
+              "likely_method_pct": 71.26,
               "modal_finish_round": "round_1"
             },
             {
@@ -1005,7 +1005,7 @@
               "moneyline": -375,
               "decimal_odds": 1.267,
               "consensus_prob": 0.7909,
-              "model_prob": 0.722,
+              "model_prob": 0.7391,
               "likely_method": "KO/TKO",
               "likely_method_pct": 47.22,
               "modal_finish_round": "round_1"
@@ -1016,7 +1016,7 @@
               "moneyline": -310,
               "decimal_odds": 1.323,
               "consensus_prob": 0.7467,
-              "model_prob": 0.6807,
+              "model_prob": 0.6946,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 59.18,
               "modal_finish_round": "round_1"
@@ -1027,17 +1027,17 @@
               "moneyline": -400,
               "decimal_odds": 1.25,
               "consensus_prob": 0.772,
-              "model_prob": 0.6823,
+              "model_prob": 0.6963,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 58.75,
               "modal_finish_round": "round_1"
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 17.54,
+          "combined_prob_pct": 17.58,
           "combined_decimal_odds": 9.003,
           "combined_american": 800,
-          "ev_per_unit": 0.579,
+          "ev_per_unit": 0.5828,
           "positive_ev": true
         }
       }
