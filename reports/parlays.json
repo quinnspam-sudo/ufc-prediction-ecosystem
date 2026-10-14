@@ -823,9 +823,9 @@
             {
               "matchup": "Chad Anheliger vs Steven Koslow",
               "pick": "Steven Koslow",
-              "moneyline": -150,
-              "decimal_odds": 1.667,
-              "consensus_prob": 0.682,
+              "moneyline": -148,
+              "decimal_odds": 1.676,
+              "consensus_prob": 0.6805,
               "model_prob": 0.7402,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 44.09,
@@ -855,10 +855,10 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 39.36,
-          "combined_decimal_odds": 3.07,
-          "combined_american": 207,
-          "ev_per_unit": 0.2081,
+          "combined_prob_pct": 39.27,
+          "combined_decimal_odds": 3.086,
+          "combined_american": 209,
+          "ev_per_unit": 0.212,
           "positive_ev": true
         },
         "5_leg": {
@@ -866,9 +866,9 @@
             {
               "matchup": "Chad Anheliger vs Steven Koslow",
               "pick": "Steven Koslow",
-              "moneyline": -150,
-              "decimal_odds": 1.667,
-              "consensus_prob": 0.682,
+              "moneyline": -148,
+              "decimal_odds": 1.676,
+              "consensus_prob": 0.6805,
               "model_prob": 0.7402,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 44.09,
@@ -920,10 +920,10 @@
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 24.62,
-          "combined_decimal_odds": 4.674,
-          "combined_american": 367,
-          "ev_per_unit": 0.1506,
+          "combined_prob_pct": 24.57,
+          "combined_decimal_odds": 4.699,
+          "combined_american": 370,
+          "ev_per_unit": 0.1543,
           "positive_ev": true
         }
       }
