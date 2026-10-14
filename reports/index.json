@@ -1201,10 +1201,10 @@
     },
     "King Green vs Esteban Ribovics": {
       "win_probability": {
-        "fighter_a_pct": 74.05,
-        "fighter_b_pct": 25.95,
-        "draw_pct": 0.17,
-        "calibration_shrink_applied": 0.65
+        "fighter_a_pct": 75.68,
+        "fighter_b_pct": 24.32,
+        "draw_pct": 0.26,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": true,
@@ -1588,10 +1588,10 @@
     },
     "Grant Dawson vs Nurullo Aliev": {
       "win_probability": {
-        "fighter_a_pct": 54.59,
-        "fighter_b_pct": 45.41,
+        "fighter_a_pct": 55.84,
+        "fighter_b_pct": 44.16,
         "draw_pct": 5.97,
-        "calibration_shrink_applied": 0.55
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": true,
@@ -1627,14 +1627,14 @@
     },
     "Azamat Murzakanov vs Dominick Reyes": {
       "win_probability": {
-        "fighter_a_pct": 55.43,
-        "fighter_b_pct": 44.57,
+        "fighter_a_pct": 56.92,
+        "fighter_b_pct": 43.08,
         "draw_pct": 5.79,
-        "calibration_shrink_applied": 0.55
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
-        "fighter_a": true,
-        "fighter_b": false
+        "fighter_a": false,
+        "fighter_b": true
       },
       "report_file": "reports/azamat-murzakanov-vs-dominick-reyes.json"
     },
@@ -1653,10 +1653,10 @@
     },
     "Alexander Volkov vs Rizvan Kuniev": {
       "win_probability": {
-        "fighter_a_pct": 44.34,
-        "fighter_b_pct": 55.66,
+        "fighter_a_pct": 43.4,
+        "fighter_b_pct": 56.6,
         "draw_pct": 5.53,
-        "calibration_shrink_applied": 0.6
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": false,

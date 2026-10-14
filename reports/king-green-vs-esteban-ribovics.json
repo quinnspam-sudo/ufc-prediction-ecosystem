@@ -5,12 +5,12 @@
     "scheduled_rounds": 3,
     "is_title_fight": false,
     "iterations": 10000,
-    "avg_rounds_simulated": 2.68,
+    "avg_rounds_simulated": 2.681,
     "fighter_a_flags": {
       "active_injury": false,
-      "missed_weight": false,
+      "missed_weight": true,
       "withdrawn": false,
-      "injury_note": "",
+      "injury_note": "King Green Celebrates Opponent's Weight Miss At UFC 332 - Yardbarker",
       "stats_approx": false,
       "needs_real_stats": false
     },
@@ -24,49 +24,49 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 74.05,
-    "fighter_b_pct": 25.95,
-    "draw_pct": 0.17,
-    "calibration_shrink_applied": 0.65
+    "fighter_a_pct": 75.68,
+    "fighter_b_pct": 24.32,
+    "draw_pct": 0.26,
+    "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
     "applied": true,
     "model_weight": 0.4,
-    "fighter_a_pct": 56.71,
-    "fighter_b_pct": 43.29,
+    "fighter_a_pct": 56.58,
+    "fighter_b_pct": 43.42,
     "market_devig_a_pct": 36.52
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 10.29,
-      "Submission": 8.52,
-      "Unanimous Decision": 67.54,
-      "Split/Majority Decision": 0.5
+      "KO/TKO": 9.81,
+      "Submission": 8.48,
+      "Unanimous Decision": 67.43,
+      "Split/Majority Decision": 0.73
     },
     "fighter_b": {
-      "KO/TKO": 8.77,
-      "Submission": 4.13,
-      "Unanimous Decision": 0.04,
-      "Split/Majority Decision": 0.04
+      "KO/TKO": 8.91,
+      "Submission": 4.25,
+      "Unanimous Decision": 0.07,
+      "Split/Majority Decision": 0.06
     }
   },
   "fight_level": {
-    "ko_tko_pct": 19.06,
-    "submission_pct": 12.65,
-    "decision_pct": 68.12,
-    "goes_the_distance_pct": 68.29,
-    "expected_fight_minutes": 12.61
+    "ko_tko_pct": 18.72,
+    "submission_pct": 12.73,
+    "decision_pct": 68.29,
+    "goes_the_distance_pct": 68.55,
+    "expected_fight_minutes": 12.62
   },
   "finish_round_distribution": {
     "fighter_a": {
       "round_1": 622,
-      "round_2": 647,
-      "round_3": 612
+      "round_2": 627,
+      "round_3": 580
     },
     "fighter_b": {
       "round_1": 443,
-      "round_2": 418,
-      "round_3": 429
+      "round_2": 430,
+      "round_3": 443
     }
   },
   "value_betting": {
@@ -74,11 +74,11 @@
       "market_moneyline": 163,
       "market_decimal_odds": 2.63,
       "market_implied_prob_pct": 38.02,
-      "model_win_prob_pct": 74.05,
-      "edge_pct": 36.03,
-      "consensus_edge_pct": 18.69,
-      "kelly_fraction_full": 0.5813,
-      "kelly_fraction_half": 0.2906,
+      "model_win_prob_pct": 75.68,
+      "edge_pct": 37.65,
+      "consensus_edge_pct": 18.56,
+      "kelly_fraction_full": 0.6075,
+      "kelly_fraction_half": 0.3038,
       "model_sees_value": true,
       "consensus_agrees": true,
       "value_bet": true
@@ -87,10 +87,10 @@
       "market_moneyline": -195,
       "market_decimal_odds": 1.513,
       "market_implied_prob_pct": 66.1,
-      "model_win_prob_pct": 25.95,
-      "edge_pct": -40.15,
-      "consensus_edge_pct": -22.81,
-      "kelly_fraction_full": -1.1845,
+      "model_win_prob_pct": 24.32,
+      "edge_pct": -41.78,
+      "consensus_edge_pct": -22.68,
+      "kelly_fraction_full": -1.2324,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
