@@ -1285,7 +1285,7 @@
       },
       "value_flags": {
         "fighter_a": false,
-        "fighter_b": true
+        "fighter_b": false
       },
       "report_file": "reports/chelsea-chandler-vs-melissa-croden.json"
     },
@@ -1640,10 +1640,10 @@
     },
     "Arnold Allen vs Aaron Pico": {
       "win_probability": {
-        "fighter_a_pct": 45.64,
-        "fighter_b_pct": 54.36,
-        "draw_pct": 8.03,
-        "calibration_shrink_applied": 0.55
+        "fighter_a_pct": 40.98,
+        "fighter_b_pct": 59.02,
+        "draw_pct": 7.36,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": false,
@@ -1780,9 +1780,9 @@
     },
     "Ilias Bulaid vs Erick Visconde": {
       "win_probability": {
-        "fighter_a_pct": 51.08,
-        "fighter_b_pct": 48.92,
-        "draw_pct": 5.45
+        "fighter_a_pct": 11.35,
+        "fighter_b_pct": 88.65,
+        "draw_pct": 0.0
       },
       "value_flags": {
         "fighter_a": false,
@@ -1792,13 +1792,14 @@
     },
     "Jason Asher vs Greg Foster": {
       "win_probability": {
-        "fighter_a_pct": 51.08,
-        "fighter_b_pct": 48.92,
-        "draw_pct": 5.45
+        "fighter_a_pct": 27.24,
+        "fighter_b_pct": 72.76,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": false,
-        "fighter_b": false
+        "fighter_b": true
       },
       "report_file": "reports/jason-asher-vs-greg-foster.json"
     },
@@ -2005,9 +2006,9 @@
     },
     "Aaron Pico vs Losene Keita": {
       "win_probability": {
-        "fighter_a_pct": 75.75,
-        "fighter_b_pct": 24.25,
-        "draw_pct": 1.42,
+        "fighter_a_pct": 76.43,
+        "fighter_b_pct": 23.57,
+        "draw_pct": 0.6,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {

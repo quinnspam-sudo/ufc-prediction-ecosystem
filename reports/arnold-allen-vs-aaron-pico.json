@@ -5,7 +5,7 @@
     "scheduled_rounds": 3,
     "is_title_fight": false,
     "iterations": 10000,
-    "avg_rounds_simulated": 2.725,
+    "avg_rounds_simulated": 2.72,
     "fighter_a_flags": {
       "active_injury": true,
       "missed_weight": false,
@@ -15,58 +15,58 @@
       "needs_real_stats": false
     },
     "fighter_b_flags": {
-      "active_injury": true,
+      "active_injury": false,
       "missed_weight": false,
-      "withdrawn": true,
-      "injury_note": "Arnold Allen Out Of UFC 333 As Pico Draws New Opponent - mmanews.com",
+      "withdrawn": false,
+      "injury_note": "",
       "stats_approx": false,
       "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 45.64,
-    "fighter_b_pct": 54.36,
-    "draw_pct": 8.03,
-    "calibration_shrink_applied": 0.55
+    "fighter_a_pct": 40.98,
+    "fighter_b_pct": 59.02,
+    "draw_pct": 7.36,
+    "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
     "applied": false,
     "model_weight": 1.0,
-    "fighter_a_pct": 42.07,
-    "fighter_b_pct": 57.93,
+    "fighter_a_pct": 37.11,
+    "fighter_b_pct": 62.89,
     "market_devig_a_pct": null
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 5.75,
-      "Submission": 9.38,
-      "Unanimous Decision": 17.11,
-      "Split/Majority Decision": 6.45
+      "KO/TKO": 5.58,
+      "Submission": 9.06,
+      "Unanimous Decision": 13.64,
+      "Split/Majority Decision": 6.1
     },
     "fighter_b": {
-      "KO/TKO": 9.23,
-      "Submission": 2.86,
-      "Unanimous Decision": 33.69,
-      "Split/Majority Decision": 7.5
+      "KO/TKO": 9.75,
+      "Submission": 2.91,
+      "Unanimous Decision": 37.05,
+      "Split/Majority Decision": 8.55
     }
   },
   "fight_level": {
-    "ko_tko_pct": 14.98,
-    "submission_pct": 12.24,
-    "decision_pct": 64.75,
-    "goes_the_distance_pct": 72.78,
-    "expected_fight_minutes": 12.95
+    "ko_tko_pct": 15.33,
+    "submission_pct": 11.97,
+    "decision_pct": 65.34,
+    "goes_the_distance_pct": 72.7,
+    "expected_fight_minutes": 12.92
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 504,
-      "round_2": 531,
-      "round_3": 478
+      "round_1": 513,
+      "round_2": 495,
+      "round_3": 456
     },
     "fighter_b": {
-      "round_1": 411,
-      "round_2": 388,
-      "round_3": 410
+      "round_1": 435,
+      "round_2": 406,
+      "round_3": 425
     }
   },
   "value_betting": {
@@ -74,10 +74,10 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 45.64,
-      "edge_pct": -6.74,
-      "consensus_edge_pct": -10.31,
-      "kelly_fraction_full": -0.1416,
+      "model_win_prob_pct": 40.98,
+      "edge_pct": -11.4,
+      "consensus_edge_pct": -15.27,
+      "kelly_fraction_full": -0.2395,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
@@ -87,11 +87,11 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 54.36,
-      "edge_pct": 1.98,
-      "consensus_edge_pct": 5.55,
-      "kelly_fraction_full": 0.0416,
-      "kelly_fraction_half": 0.0208,
+      "model_win_prob_pct": 59.02,
+      "edge_pct": 6.64,
+      "consensus_edge_pct": 10.51,
+      "kelly_fraction_full": 0.1395,
+      "kelly_fraction_half": 0.0697,
       "model_sees_value": true,
       "consensus_agrees": true,
       "value_bet": true
