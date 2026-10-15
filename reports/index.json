@@ -1413,7 +1413,7 @@
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
-        "fighter_a": true,
+        "fighter_a": false,
         "fighter_b": false
       },
       "report_file": "reports/mike-malott-vs-joaquin-buckley.json"
@@ -1594,7 +1594,7 @@
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
-        "fighter_a": true,
+        "fighter_a": false,
         "fighter_b": false
       },
       "report_file": "reports/grant-dawson-vs-nurullo-aliev.json"
@@ -2027,6 +2027,19 @@
         "fighter_b": false
       },
       "report_file": "reports/tainara-lisboa-vs-lucia-szabov.json"
+    },
+    "Abubakar Vagaev vs Jacob Malkoun": {
+      "win_probability": {
+        "fighter_a_pct": 25.09,
+        "fighter_b_pct": 74.91,
+        "draw_pct": 1.89,
+        "calibration_shrink_applied": 0.7
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": true
+      },
+      "report_file": "reports/abubakar-vagaev-vs-jacob-malkoun.json"
     }
   }
 }
