@@ -1640,9 +1640,9 @@
     },
     "Arnold Allen vs Aaron Pico": {
       "win_probability": {
-        "fighter_a_pct": 40.98,
-        "fighter_b_pct": 59.02,
-        "draw_pct": 7.36,
+        "fighter_a_pct": 42.24,
+        "fighter_b_pct": 57.76,
+        "draw_pct": 6.76,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -1817,9 +1817,9 @@
     },
     "Will Rentz vs Luis Francischinelli": {
       "win_probability": {
-        "fighter_a_pct": 49.6,
-        "fighter_b_pct": 50.4,
-        "draw_pct": 5.65
+        "fighter_a_pct": 17.5,
+        "fighter_b_pct": 82.5,
+        "draw_pct": 0.0
       },
       "value_flags": {
         "fighter_a": false,
