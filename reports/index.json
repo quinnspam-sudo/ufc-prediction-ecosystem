@@ -1413,7 +1413,7 @@
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
-        "fighter_a": false,
+        "fighter_a": true,
         "fighter_b": false
       },
       "report_file": "reports/mike-malott-vs-joaquin-buckley.json"
@@ -1768,9 +1768,9 @@
     },
     "Aline Pereira vs Smilla Sundell": {
       "win_probability": {
-        "fighter_a_pct": 50.85,
-        "fighter_b_pct": 49.15,
-        "draw_pct": 6.3
+        "fighter_a_pct": 90.65,
+        "fighter_b_pct": 9.35,
+        "draw_pct": 0.0
       },
       "value_flags": {
         "fighter_a": false,
