@@ -1781,13 +1781,14 @@
     },
     "Ilias Bulaid vs Erick Visconde": {
       "win_probability": {
-        "fighter_a_pct": 11.35,
-        "fighter_b_pct": 88.65,
-        "draw_pct": 0.0
+        "fighter_a_pct": 22.01,
+        "fighter_b_pct": 77.99,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": false,
-        "fighter_b": false
+        "fighter_b": true
       },
       "report_file": "reports/ilias-bulaid-vs-erick-visconde.json"
     },
@@ -1806,13 +1807,14 @@
     },
     "Davi Cabral vs Douglas da Lapa": {
       "win_probability": {
-        "fighter_a_pct": 49.37,
-        "fighter_b_pct": 50.63,
-        "draw_pct": 5.4
+        "fighter_a_pct": 38.95,
+        "fighter_b_pct": 61.05,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": false,
-        "fighter_b": false
+        "fighter_b": true
       },
       "report_file": "reports/davi-cabral-vs-douglas-da-lapa.json"
     },
