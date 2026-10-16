@@ -823,9 +823,9 @@
             {
               "matchup": "Chad Anheliger vs Steven Koslow",
               "pick": "Steven Koslow",
-              "moneyline": -162,
-              "decimal_odds": 1.617,
-              "consensus_prob": 0.6921,
+              "moneyline": -165,
+              "decimal_odds": 1.606,
+              "consensus_prob": 0.6961,
               "model_prob": 0.7402,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 44.09,
@@ -834,9 +834,9 @@
             {
               "matchup": "Chelsea Chandler vs Melissa Croden",
               "pick": "Melissa Croden",
-              "moneyline": -317,
-              "decimal_odds": 1.315,
-              "consensus_prob": 0.7846,
+              "moneyline": -320,
+              "decimal_odds": 1.312,
+              "consensus_prob": 0.7848,
               "model_prob": 0.7546,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 58.89,
@@ -855,10 +855,10 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 40.84,
-          "combined_decimal_odds": 2.873,
-          "combined_american": 187,
-          "ev_per_unit": 0.1731,
+          "combined_prob_pct": 41.08,
+          "combined_decimal_odds": 2.847,
+          "combined_american": 185,
+          "ev_per_unit": 0.1695,
           "positive_ev": true
         },
         "5_leg": {
@@ -866,9 +866,9 @@
             {
               "matchup": "Chad Anheliger vs Steven Koslow",
               "pick": "Steven Koslow",
-              "moneyline": -162,
-              "decimal_odds": 1.617,
-              "consensus_prob": 0.6921,
+              "moneyline": -165,
+              "decimal_odds": 1.606,
+              "consensus_prob": 0.6961,
               "model_prob": 0.7402,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 44.09,
@@ -877,9 +877,9 @@
             {
               "matchup": "Chelsea Chandler vs Melissa Croden",
               "pick": "Melissa Croden",
-              "moneyline": -317,
-              "decimal_odds": 1.315,
-              "consensus_prob": 0.7846,
+              "moneyline": -320,
+              "decimal_odds": 1.312,
+              "consensus_prob": 0.7848,
               "model_prob": 0.7546,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 58.89,
@@ -920,10 +920,10 @@
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 25.81,
-          "combined_decimal_odds": 4.309,
-          "combined_american": 331,
-          "ev_per_unit": 0.1121,
+          "combined_prob_pct": 25.96,
+          "combined_decimal_odds": 4.27,
+          "combined_american": 327,
+          "ev_per_unit": 0.1087,
           "positive_ev": true
         }
       }
