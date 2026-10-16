@@ -4,15 +4,15 @@
     "fighter_b": "Luis Francischinelli",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.434,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.429,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     },
     "fighter_b_flags": {
       "active_injury": false,
@@ -24,48 +24,49 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 17.5,
-    "fighter_b_pct": 82.5,
-    "draw_pct": 0.0
+    "fighter_a_pct": 23.27,
+    "fighter_b_pct": 76.73,
+    "draw_pct": 0.0,
+    "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
     "applied": true,
     "model_weight": 0.4,
-    "fighter_a_pct": 25.88,
-    "fighter_b_pct": 74.12,
+    "fighter_a_pct": 23.6,
+    "fighter_b_pct": 76.4,
     "market_devig_a_pct": 31.46
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 9.75,
-      "Submission": 7.75,
+      "KO/TKO": 9.29,
+      "Submission": 2.52,
       "Unanimous Decision": 0.0,
       "Split/Majority Decision": 0.0
     },
     "fighter_b": {
-      "KO/TKO": 26.95,
-      "Submission": 6.8,
-      "Unanimous Decision": 48.75,
+      "KO/TKO": 34.82,
+      "Submission": 6.23,
+      "Unanimous Decision": 47.14,
       "Split/Majority Decision": 0.0
     }
   },
   "fight_level": {
-    "ko_tko_pct": 36.7,
-    "submission_pct": 14.55,
-    "decision_pct": 48.75,
-    "goes_the_distance_pct": 48.75,
-    "expected_fight_minutes": 10.89
+    "ko_tko_pct": 44.11,
+    "submission_pct": 8.75,
+    "decision_pct": 47.14,
+    "goes_the_distance_pct": 47.14,
+    "expected_fight_minutes": 10.83
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 116,
-      "round_2": 127,
-      "round_3": 107
+      "round_1": 449,
+      "round_2": 400,
+      "round_3": 332
     },
     "fighter_b": {
-      "round_1": 276,
-      "round_2": 220,
-      "round_3": 179
+      "round_1": 1554,
+      "round_2": 1299,
+      "round_3": 1252
     }
   },
   "value_betting": {
@@ -73,10 +74,10 @@
       "market_moneyline": 205,
       "market_decimal_odds": 3.05,
       "market_implied_prob_pct": 32.79,
-      "model_win_prob_pct": 17.5,
-      "edge_pct": -15.29,
-      "consensus_edge_pct": -6.91,
-      "kelly_fraction_full": -0.2274,
+      "model_win_prob_pct": 23.27,
+      "edge_pct": -9.52,
+      "consensus_edge_pct": -9.19,
+      "kelly_fraction_full": -0.1416,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
@@ -86,16 +87,14 @@
       "market_moneyline": -250,
       "market_decimal_odds": 1.4,
       "market_implied_prob_pct": 71.43,
-      "model_win_prob_pct": 82.5,
-      "edge_pct": 11.07,
-      "consensus_edge_pct": 2.7,
-      "kelly_fraction_full": 0.3875,
-      "kelly_fraction_half": 0.1937,
+      "model_win_prob_pct": 76.73,
+      "edge_pct": 5.3,
+      "consensus_edge_pct": 4.97,
+      "kelly_fraction_full": 0.1857,
+      "kelly_fraction_half": 0.0928,
       "model_sees_value": true,
       "consensus_agrees": true,
-      "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+      "value_bet": true
+    }
   }
 }

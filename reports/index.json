@@ -1768,12 +1768,13 @@
     },
     "Aline Pereira vs Smilla Sundell": {
       "win_probability": {
-        "fighter_a_pct": 90.65,
-        "fighter_b_pct": 9.35,
-        "draw_pct": 0.0
+        "fighter_a_pct": 78.9,
+        "fighter_b_pct": 21.1,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
-        "fighter_a": false,
+        "fighter_a": true,
         "fighter_b": false
       },
       "report_file": "reports/aline-pereira-vs-smilla-sundell.json"
@@ -1817,13 +1818,14 @@
     },
     "Will Rentz vs Luis Francischinelli": {
       "win_probability": {
-        "fighter_a_pct": 17.5,
-        "fighter_b_pct": 82.5,
-        "draw_pct": 0.0
+        "fighter_a_pct": 23.27,
+        "fighter_b_pct": 76.73,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": false,
-        "fighter_b": false
+        "fighter_b": true
       },
       "report_file": "reports/will-rentz-vs-luis-francischinelli.json"
     },

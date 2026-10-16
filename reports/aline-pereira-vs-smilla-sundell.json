@@ -4,15 +4,15 @@
     "fighter_b": "Smilla Sundell",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.552,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.766,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     },
     "fighter_b_flags": {
       "active_injury": false,
@@ -24,48 +24,49 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 90.65,
-    "fighter_b_pct": 9.35,
-    "draw_pct": 0.0
+    "fighter_a_pct": 78.9,
+    "fighter_b_pct": 21.1,
+    "draw_pct": 0.0,
+    "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
     "applied": true,
     "model_weight": 0.4,
-    "fighter_a_pct": 47.73,
-    "fighter_b_pct": 52.27,
+    "fighter_a_pct": 47.99,
+    "fighter_b_pct": 52.01,
     "market_devig_a_pct": 19.12
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 6.5,
-      "Submission": 26.25,
-      "Unanimous Decision": 57.9,
+      "KO/TKO": 7.06,
+      "Submission": 7.7,
+      "Unanimous Decision": 76.53,
       "Split/Majority Decision": 0.0
     },
     "fighter_b": {
-      "KO/TKO": 7.05,
-      "Submission": 2.3,
+      "KO/TKO": 5.71,
+      "Submission": 3.0,
       "Unanimous Decision": 0.0,
       "Split/Majority Decision": 0.0
     }
   },
   "fight_level": {
-    "ko_tko_pct": 13.55,
-    "submission_pct": 28.55,
-    "decision_pct": 57.9,
-    "goes_the_distance_pct": 57.9,
-    "expected_fight_minutes": 11.71
+    "ko_tko_pct": 12.77,
+    "submission_pct": 10.7,
+    "decision_pct": 76.53,
+    "goes_the_distance_pct": 76.53,
+    "expected_fight_minutes": 13.25
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 233,
-      "round_2": 224,
-      "round_3": 198
+      "round_1": 466,
+      "round_2": 502,
+      "round_3": 508
     },
     "fighter_b": {
-      "round_1": 76,
-      "round_2": 54,
-      "round_3": 57
+      "round_1": 319,
+      "round_2": 264,
+      "round_3": 288
     }
   },
   "value_betting": {
@@ -73,29 +74,27 @@
       "market_moneyline": 400,
       "market_decimal_odds": 5.0,
       "market_implied_prob_pct": 20.0,
-      "model_win_prob_pct": 90.65,
-      "edge_pct": 70.65,
-      "consensus_edge_pct": 27.73,
-      "kelly_fraction_full": 0.8831,
-      "kelly_fraction_half": 0.4416,
+      "model_win_prob_pct": 78.9,
+      "edge_pct": 58.9,
+      "consensus_edge_pct": 27.99,
+      "kelly_fraction_full": 0.7363,
+      "kelly_fraction_half": 0.3681,
       "model_sees_value": true,
       "consensus_agrees": true,
-      "value_bet": false
+      "value_bet": true
     },
     "fighter_b": {
       "market_moneyline": -550,
       "market_decimal_odds": 1.182,
       "market_implied_prob_pct": 84.62,
-      "model_win_prob_pct": 9.35,
-      "edge_pct": -75.27,
-      "consensus_edge_pct": -32.35,
-      "kelly_fraction_full": -4.8922,
+      "model_win_prob_pct": 21.1,
+      "edge_pct": -63.52,
+      "consensus_edge_pct": -32.6,
+      "kelly_fraction_full": -4.1287,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
       "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+    }
   }
 }
