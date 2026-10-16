@@ -834,9 +834,9 @@
             {
               "matchup": "Chelsea Chandler vs Melissa Croden",
               "pick": "Melissa Croden",
-              "moneyline": -320,
-              "decimal_odds": 1.312,
-              "consensus_prob": 0.7848,
+              "moneyline": -325,
+              "decimal_odds": 1.308,
+              "consensus_prob": 0.7869,
               "model_prob": 0.7546,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 58.89,
@@ -855,10 +855,10 @@
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 41.08,
-          "combined_decimal_odds": 2.847,
-          "combined_american": 185,
-          "ev_per_unit": 0.1695,
+          "combined_prob_pct": 41.19,
+          "combined_decimal_odds": 2.838,
+          "combined_american": 184,
+          "ev_per_unit": 0.169,
           "positive_ev": true
         },
         "5_leg": {
@@ -877,9 +877,9 @@
             {
               "matchup": "Chelsea Chandler vs Melissa Croden",
               "pick": "Melissa Croden",
-              "moneyline": -320,
-              "decimal_odds": 1.312,
-              "consensus_prob": 0.7848,
+              "moneyline": -325,
+              "decimal_odds": 1.308,
+              "consensus_prob": 0.7869,
               "model_prob": 0.7546,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 58.89,
@@ -920,10 +920,10 @@
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 25.96,
-          "combined_decimal_odds": 4.27,
-          "combined_american": 327,
-          "ev_per_unit": 0.1087,
+          "combined_prob_pct": 26.03,
+          "combined_decimal_odds": 4.257,
+          "combined_american": 326,
+          "ev_per_unit": 0.1083,
           "positive_ev": true
         }
       }
