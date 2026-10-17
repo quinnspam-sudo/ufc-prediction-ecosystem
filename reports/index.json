@@ -2045,6 +2045,165 @@
         "fighter_b": true
       },
       "report_file": "reports/abubakar-vagaev-vs-jacob-malkoun.json"
+    },
+    "Jonny Parsons vs Jose Henrique": {
+      "win_probability": {
+        "fighter_a_pct": 28.48,
+        "fighter_b_pct": 71.52,
+        "draw_pct": 6.6
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/jonny-parsons-vs-jose-henrique.json"
+    },
+    "Priscila Cachoeira vs Nina Milo\u0161evi\u0107": {
+      "win_probability": {
+        "fighter_a_pct": 22.2,
+        "fighter_b_pct": 77.8,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.7
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": true
+      },
+      "report_file": "reports/priscila-cachoeira-vs-nina-milo-evi.json"
+    },
+    "Lucas Brennan vs Austin Bashi": {
+      "win_probability": {
+        "fighter_a_pct": 26.24,
+        "fighter_b_pct": 73.76,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.7
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": true
+      },
+      "report_file": "reports/lucas-brennan-vs-austin-bashi.json"
+    },
+    "Keiichiro Nakamura vs Ollie Schmid": {
+      "win_probability": {
+        "fighter_a_pct": 78.17,
+        "fighter_b_pct": 21.83,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.7
+      },
+      "value_flags": {
+        "fighter_a": true,
+        "fighter_b": false
+      },
+      "report_file": "reports/keiichiro-nakamura-vs-ollie-schmid.json"
+    },
+    "Jose Delano vs Murtazali Magomedov": {
+      "win_probability": {
+        "fighter_a_pct": 51.41,
+        "fighter_b_pct": 48.59,
+        "draw_pct": 5.85
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/jose-delano-vs-murtazali-magomedov.json"
+    },
+    "Karine Silva vs Gabriella Fernandes": {
+      "win_probability": {
+        "fighter_a_pct": 50.05,
+        "fighter_b_pct": 49.95,
+        "draw_pct": 6.5
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/karine-silva-vs-gabriella-fernandes.json"
+    },
+    "Gabriel Loren\u00e7o vs Alvin Hines": {
+      "win_probability": {
+        "fighter_a_pct": 85.9,
+        "fighter_b_pct": 14.1,
+        "draw_pct": 0.0
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/gabriel-loren-o-vs-alvin-hines.json"
+    },
+    "Wes Schultz vs Mantas Kondratavi\u010dius": {
+      "win_probability": {
+        "fighter_a_pct": 29.7,
+        "fighter_b_pct": 70.3,
+        "draw_pct": 0.0
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/wes-schultz-vs-mantas-kondratavi-ius.json"
+    },
+    "Billy Elekana vs Lucas Fernando": {
+      "win_probability": {
+        "fighter_a_pct": 50.91,
+        "fighter_b_pct": 49.09,
+        "draw_pct": 6.1
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/billy-elekana-vs-lucas-fernando.json"
+    },
+    "Wellington Turman vs Seokhyeon Ko": {
+      "win_probability": {
+        "fighter_a_pct": 18.46,
+        "fighter_b_pct": 81.54,
+        "draw_pct": 0.05
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/wellington-turman-vs-seokhyeon-ko.json"
+    },
+    "Davey Grant vs Elijah Smith": {
+      "win_probability": {
+        "fighter_a_pct": 51.21,
+        "fighter_b_pct": 48.79,
+        "draw_pct": 6.75
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/davey-grant-vs-elijah-smith.json"
+    },
+    "Tatiana Suarez vs Virna Jandiroba": {
+      "win_probability": {
+        "fighter_a_pct": 50.05,
+        "fighter_b_pct": 49.95,
+        "draw_pct": 6.5
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/tatiana-suarez-vs-virna-jandiroba.json"
+    },
+    "Sean Brady vs Gabriel Bonfim": {
+      "win_probability": {
+        "fighter_a_pct": 53.98,
+        "fighter_b_pct": 46.02,
+        "draw_pct": 4.6
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/sean-brady-vs-gabriel-bonfim.json"
     }
   }
 }

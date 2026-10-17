@@ -1,0 +1,101 @@
+{
+  "matchup": {
+    "fighter_a": "Wellington Turman",
+    "fighter_b": "Seokhyeon Ko",
+    "scheduled_rounds": 3,
+    "is_title_fight": false,
+    "iterations": 2000,
+    "avg_rounds_simulated": 2.565,
+    "fighter_a_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": false,
+      "needs_real_stats": false
+    },
+    "fighter_b_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": true,
+      "needs_real_stats": true
+    }
+  },
+  "win_probability": {
+    "fighter_a_pct": 18.46,
+    "fighter_b_pct": 81.54,
+    "draw_pct": 0.05
+  },
+  "consensus_forecast": {
+    "applied": false,
+    "model_weight": 1.0,
+    "fighter_a_pct": 18.46,
+    "fighter_b_pct": 81.54,
+    "market_devig_a_pct": null
+  },
+  "method_of_victory_matrix": {
+    "fighter_a": {
+      "KO/TKO": 8.2,
+      "Submission": 10.25,
+      "Unanimous Decision": 0.0,
+      "Split/Majority Decision": 0.0
+    },
+    "fighter_b": {
+      "KO/TKO": 11.15,
+      "Submission": 11.3,
+      "Unanimous Decision": 59.0,
+      "Split/Majority Decision": 0.05
+    }
+  },
+  "fight_level": {
+    "ko_tko_pct": 19.35,
+    "submission_pct": 21.55,
+    "decision_pct": 59.05,
+    "goes_the_distance_pct": 59.1,
+    "expected_fight_minutes": 11.8
+  },
+  "finish_round_distribution": {
+    "fighter_a": {
+      "round_1": 120,
+      "round_2": 143,
+      "round_3": 106
+    },
+    "fighter_b": {
+      "round_1": 169,
+      "round_2": 149,
+      "round_3": 131
+    }
+  },
+  "value_betting": {
+    "fighter_a": {
+      "market_moneyline": -110,
+      "market_decimal_odds": 1.909,
+      "market_implied_prob_pct": 52.38,
+      "model_win_prob_pct": 18.46,
+      "edge_pct": -33.92,
+      "consensus_edge_pct": -33.92,
+      "kelly_fraction_full": -0.7124,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
+      "value_bet": false
+    },
+    "fighter_b": {
+      "market_moneyline": -110,
+      "market_decimal_odds": 1.909,
+      "market_implied_prob_pct": 52.38,
+      "model_win_prob_pct": 81.54,
+      "edge_pct": 29.16,
+      "consensus_edge_pct": 29.16,
+      "kelly_fraction_full": 0.6124,
+      "kelly_fraction_half": 0.3062,
+      "model_sees_value": true,
+      "consensus_agrees": true,
+      "value_bet": false
+    },
+    "insufficient_data": true,
+    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+  }
+}

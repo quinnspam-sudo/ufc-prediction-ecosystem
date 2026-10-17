@@ -1,0 +1,100 @@
+{
+  "matchup": {
+    "fighter_a": "Priscila Cachoeira",
+    "fighter_b": "Nina Milo\u0161evi\u0107",
+    "scheduled_rounds": 3,
+    "is_title_fight": false,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.694,
+    "fighter_a_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": false,
+      "needs_real_stats": false
+    },
+    "fighter_b_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": false,
+      "needs_real_stats": false
+    }
+  },
+  "win_probability": {
+    "fighter_a_pct": 22.2,
+    "fighter_b_pct": 77.8,
+    "draw_pct": 0.0,
+    "calibration_shrink_applied": 0.7
+  },
+  "consensus_forecast": {
+    "applied": false,
+    "model_weight": 1.0,
+    "fighter_a_pct": 10.29,
+    "fighter_b_pct": 89.71,
+    "market_devig_a_pct": null
+  },
+  "method_of_victory_matrix": {
+    "fighter_a": {
+      "KO/TKO": 7.72,
+      "Submission": 2.57,
+      "Unanimous Decision": 0.0,
+      "Split/Majority Decision": 0.0
+    },
+    "fighter_b": {
+      "KO/TKO": 16.29,
+      "Submission": 2.71,
+      "Unanimous Decision": 70.71,
+      "Split/Majority Decision": 0.0
+    }
+  },
+  "fight_level": {
+    "ko_tko_pct": 24.01,
+    "submission_pct": 5.28,
+    "decision_pct": 70.71,
+    "goes_the_distance_pct": 70.71,
+    "expected_fight_minutes": 12.74
+  },
+  "finish_round_distribution": {
+    "fighter_a": {
+      "round_1": 355,
+      "round_2": 352,
+      "round_3": 322
+    },
+    "fighter_b": {
+      "round_1": 686,
+      "round_2": 630,
+      "round_3": 584
+    }
+  },
+  "value_betting": {
+    "fighter_a": {
+      "market_moneyline": -110,
+      "market_decimal_odds": 1.909,
+      "market_implied_prob_pct": 52.38,
+      "model_win_prob_pct": 22.2,
+      "edge_pct": -30.18,
+      "consensus_edge_pct": -42.09,
+      "kelly_fraction_full": -0.6337,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
+      "value_bet": false
+    },
+    "fighter_b": {
+      "market_moneyline": -110,
+      "market_decimal_odds": 1.909,
+      "market_implied_prob_pct": 52.38,
+      "model_win_prob_pct": 77.8,
+      "edge_pct": 25.42,
+      "consensus_edge_pct": 37.33,
+      "kelly_fraction_full": 0.5337,
+      "kelly_fraction_half": 0.2669,
+      "model_sees_value": true,
+      "consensus_agrees": true,
+      "value_bet": true
+    }
+  }
+}
