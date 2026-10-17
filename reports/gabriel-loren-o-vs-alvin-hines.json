@@ -4,15 +4,15 @@
     "fighter_b": "Alvin Hines",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.466,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.287,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     },
     "fighter_b_flags": {
       "active_injury": false,
@@ -24,48 +24,49 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 85.9,
-    "fighter_b_pct": 14.1,
-    "draw_pct": 0.0
+    "fighter_a_pct": 76.67,
+    "fighter_b_pct": 23.33,
+    "draw_pct": 0.0,
+    "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
     "applied": false,
     "model_weight": 1.0,
-    "fighter_a_pct": 85.9,
-    "fighter_b_pct": 14.1,
+    "fighter_a_pct": 88.1,
+    "fighter_b_pct": 11.9,
     "market_devig_a_pct": null
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 22.05,
-      "Submission": 11.35,
-      "Unanimous Decision": 52.5,
+      "KO/TKO": 49.55,
+      "Submission": 1.69,
+      "Unanimous Decision": 36.86,
       "Split/Majority Decision": 0.0
     },
     "fighter_b": {
-      "KO/TKO": 12.8,
-      "Submission": 1.3,
+      "KO/TKO": 10.75,
+      "Submission": 1.15,
       "Unanimous Decision": 0.0,
       "Split/Majority Decision": 0.0
     }
   },
   "fight_level": {
-    "ko_tko_pct": 34.85,
-    "submission_pct": 12.65,
-    "decision_pct": 52.5,
-    "goes_the_distance_pct": 52.5,
-    "expected_fight_minutes": 11.14
+    "ko_tko_pct": 60.3,
+    "submission_pct": 2.84,
+    "decision_pct": 36.86,
+    "goes_the_distance_pct": 36.86,
+    "expected_fight_minutes": 9.86
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 253,
-      "round_2": 225,
-      "round_3": 190
+      "round_1": 2008,
+      "round_2": 1673,
+      "round_3": 1443
     },
     "fighter_b": {
-      "round_1": 127,
-      "round_2": 83,
-      "round_3": 72
+      "round_1": 540,
+      "round_2": 361,
+      "round_3": 289
     }
   },
   "value_betting": {
@@ -73,29 +74,27 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 85.9,
-      "edge_pct": 33.52,
-      "consensus_edge_pct": 33.52,
-      "kelly_fraction_full": 0.7039,
-      "kelly_fraction_half": 0.3519,
+      "model_win_prob_pct": 76.67,
+      "edge_pct": 24.29,
+      "consensus_edge_pct": 35.72,
+      "kelly_fraction_full": 0.5101,
+      "kelly_fraction_half": 0.255,
       "model_sees_value": true,
       "consensus_agrees": true,
-      "value_bet": false
+      "value_bet": true
     },
     "fighter_b": {
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 14.1,
-      "edge_pct": -38.28,
-      "consensus_edge_pct": -38.28,
-      "kelly_fraction_full": -0.8039,
+      "model_win_prob_pct": 23.33,
+      "edge_pct": -29.05,
+      "consensus_edge_pct": -40.48,
+      "kelly_fraction_full": -0.6101,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
       "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+    }
   }
 }

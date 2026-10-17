@@ -4,68 +4,69 @@
     "fighter_b": "Elijah Smith",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.68,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.634,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     },
     "fighter_b_flags": {
       "active_injury": false,
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 51.21,
-    "fighter_b_pct": 48.79,
-    "draw_pct": 6.75
+    "fighter_a_pct": 35.89,
+    "fighter_b_pct": 64.11,
+    "draw_pct": 5.74,
+    "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
     "applied": false,
     "model_weight": 1.0,
-    "fighter_a_pct": 51.21,
-    "fighter_b_pct": 48.79,
+    "fighter_a_pct": 29.85,
+    "fighter_b_pct": 70.15,
     "market_devig_a_pct": null
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 6.9,
-      "Submission": 9.85,
-      "Unanimous Decision": 22.3,
-      "Split/Majority Decision": 8.7
+      "KO/TKO": 7.78,
+      "Submission": 4.92,
+      "Unanimous Decision": 9.63,
+      "Split/Majority Decision": 5.81
     },
     "fighter_b": {
-      "KO/TKO": 6.4,
-      "Submission": 8.95,
-      "Unanimous Decision": 21.55,
-      "Split/Majority Decision": 8.6
+      "KO/TKO": 6.06,
+      "Submission": 16.35,
+      "Unanimous Decision": 35.95,
+      "Split/Majority Decision": 7.76
     }
   },
   "fight_level": {
-    "ko_tko_pct": 13.3,
-    "submission_pct": 18.8,
-    "decision_pct": 61.15,
-    "goes_the_distance_pct": 67.9,
-    "expected_fight_minutes": 12.6
+    "ko_tko_pct": 13.84,
+    "submission_pct": 21.27,
+    "decision_pct": 59.15,
+    "goes_the_distance_pct": 64.89,
+    "expected_fight_minutes": 12.29
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 96,
-      "round_2": 136,
-      "round_3": 103
+      "round_1": 414,
+      "round_2": 434,
+      "round_3": 422
     },
     "fighter_b": {
-      "round_1": 110,
-      "round_2": 92,
-      "round_3": 105
+      "round_1": 834,
+      "round_2": 731,
+      "round_3": 676
     }
   },
   "value_betting": {
@@ -73,10 +74,10 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 51.21,
-      "edge_pct": -1.17,
-      "consensus_edge_pct": -1.17,
-      "kelly_fraction_full": -0.0247,
+      "model_win_prob_pct": 35.89,
+      "edge_pct": -16.49,
+      "consensus_edge_pct": -22.53,
+      "kelly_fraction_full": -0.3462,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
@@ -86,16 +87,14 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 48.79,
-      "edge_pct": -3.59,
-      "consensus_edge_pct": -3.59,
-      "kelly_fraction_full": -0.0753,
-      "kelly_fraction_half": 0.0,
-      "model_sees_value": false,
-      "consensus_agrees": false,
-      "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+      "model_win_prob_pct": 64.11,
+      "edge_pct": 11.72,
+      "consensus_edge_pct": 17.77,
+      "kelly_fraction_full": 0.2462,
+      "kelly_fraction_half": 0.1231,
+      "model_sees_value": true,
+      "consensus_agrees": true,
+      "value_bet": true
+    }
   }
 }
