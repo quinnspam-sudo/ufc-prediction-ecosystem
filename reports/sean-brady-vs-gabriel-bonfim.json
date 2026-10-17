@@ -4,15 +4,15 @@
     "fighter_b": "Gabriel Bonfim",
     "scheduled_rounds": 5,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 3.553,
+    "iterations": 10000,
+    "avg_rounds_simulated": 3.6,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     },
     "fighter_b_flags": {
       "active_injury": false,
@@ -24,52 +24,53 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 27.41,
-    "fighter_b_pct": 72.59,
-    "draw_pct": 0.05
+    "fighter_a_pct": 61.98,
+    "fighter_b_pct": 38.02,
+    "draw_pct": 1.76,
+    "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
     "applied": false,
     "model_weight": 1.0,
-    "fighter_a_pct": 27.41,
-    "fighter_b_pct": 72.59,
+    "fighter_a_pct": 67.12,
+    "fighter_b_pct": 32.88,
     "market_devig_a_pct": null
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 14.7,
-      "Submission": 12.7,
-      "Unanimous Decision": 0.0,
-      "Split/Majority Decision": 0.0
+      "KO/TKO": 11.94,
+      "Submission": 21.01,
+      "Unanimous Decision": 29.72,
+      "Split/Majority Decision": 3.27
     },
     "fighter_b": {
-      "KO/TKO": 12.95,
-      "Submission": 23.25,
-      "Unanimous Decision": 36.25,
-      "Split/Majority Decision": 0.1
+      "KO/TKO": 11.91,
+      "Submission": 18.32,
+      "Unanimous Decision": 0.98,
+      "Split/Majority Decision": 1.09
     }
   },
   "fight_level": {
-    "ko_tko_pct": 27.65,
-    "submission_pct": 35.95,
-    "decision_pct": 36.35,
-    "goes_the_distance_pct": 36.4,
-    "expected_fight_minutes": 16.17
+    "ko_tko_pct": 23.85,
+    "submission_pct": 39.33,
+    "decision_pct": 35.06,
+    "goes_the_distance_pct": 36.82,
+    "expected_fight_minutes": 16.42
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 119,
-      "round_2": 136,
-      "round_3": 115,
-      "round_4": 93,
-      "round_5": 85
+      "round_1": 791,
+      "round_2": 745,
+      "round_3": 645,
+      "round_4": 596,
+      "round_5": 518
     },
     "fighter_b": {
-      "round_1": 209,
-      "round_2": 150,
-      "round_3": 135,
-      "round_4": 132,
-      "round_5": 98
+      "round_1": 715,
+      "round_2": 692,
+      "round_3": 618,
+      "round_4": 546,
+      "round_5": 452
     }
   },
   "value_betting": {
@@ -77,29 +78,27 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 27.41,
-      "edge_pct": -24.97,
-      "consensus_edge_pct": -24.97,
-      "kelly_fraction_full": -0.5243,
-      "kelly_fraction_half": 0.0,
-      "model_sees_value": false,
-      "consensus_agrees": false,
-      "value_bet": false
+      "model_win_prob_pct": 61.98,
+      "edge_pct": 9.6,
+      "consensus_edge_pct": 14.74,
+      "kelly_fraction_full": 0.2017,
+      "kelly_fraction_half": 0.1008,
+      "model_sees_value": true,
+      "consensus_agrees": true,
+      "value_bet": true
     },
     "fighter_b": {
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 72.59,
-      "edge_pct": 20.21,
-      "consensus_edge_pct": 20.21,
-      "kelly_fraction_full": 0.4243,
-      "kelly_fraction_half": 0.2122,
-      "model_sees_value": true,
-      "consensus_agrees": true,
+      "model_win_prob_pct": 38.02,
+      "edge_pct": -14.36,
+      "consensus_edge_pct": -19.5,
+      "kelly_fraction_full": -0.3017,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
       "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+    }
   }
 }

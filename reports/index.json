@@ -2099,9 +2099,10 @@
     },
     "Jose Delano vs Murtazali Magomedov": {
       "win_probability": {
-        "fighter_a_pct": 51.41,
-        "fighter_b_pct": 48.59,
-        "draw_pct": 5.85
+        "fighter_a_pct": 47.84,
+        "fighter_b_pct": 52.16,
+        "draw_pct": 3.48,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": false,
@@ -2136,25 +2137,27 @@
     },
     "Wes Schultz vs Mantas Kondratavi\u010dius": {
       "win_probability": {
-        "fighter_a_pct": 29.7,
-        "fighter_b_pct": 70.3,
-        "draw_pct": 0.0
+        "fighter_a_pct": 34.08,
+        "fighter_b_pct": 65.92,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": false,
-        "fighter_b": false
+        "fighter_b": true
       },
       "report_file": "reports/wes-schultz-vs-mantas-kondratavi-ius.json"
     },
     "Billy Elekana vs Lucas Fernando": {
       "win_probability": {
-        "fighter_a_pct": 20.15,
-        "fighter_b_pct": 79.85,
-        "draw_pct": 0.0
+        "fighter_a_pct": 28.56,
+        "fighter_b_pct": 71.44,
+        "draw_pct": 0.01,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": false,
-        "fighter_b": false
+        "fighter_b": true
       },
       "report_file": "reports/billy-elekana-vs-lucas-fernando.json"
     },
@@ -2197,12 +2200,13 @@
     },
     "Sean Brady vs Gabriel Bonfim": {
       "win_probability": {
-        "fighter_a_pct": 27.41,
-        "fighter_b_pct": 72.59,
-        "draw_pct": 0.05
+        "fighter_a_pct": 61.98,
+        "fighter_b_pct": 38.02,
+        "draw_pct": 1.76,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
-        "fighter_a": false,
+        "fighter_a": true,
         "fighter_b": false
       },
       "report_file": "reports/sean-brady-vs-gabriel-bonfim.json"
