@@ -2188,12 +2188,13 @@
     },
     "Tatiana Suarez vs Virna Jandiroba": {
       "win_probability": {
-        "fighter_a_pct": 50.05,
-        "fighter_b_pct": 49.95,
-        "draw_pct": 6.5
+        "fighter_a_pct": 67.58,
+        "fighter_b_pct": 32.42,
+        "draw_pct": 2.61,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
-        "fighter_a": false,
+        "fighter_a": true,
         "fighter_b": false
       },
       "report_file": "reports/tatiana-suarez-vs-virna-jandiroba.json"
