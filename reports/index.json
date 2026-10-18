@@ -1588,10 +1588,10 @@
     },
     "Grant Dawson vs Nurullo Aliev": {
       "win_probability": {
-        "fighter_a_pct": 55.84,
-        "fighter_b_pct": 44.16,
+        "fighter_a_pct": 54.59,
+        "fighter_b_pct": 45.41,
         "draw_pct": 5.97,
-        "calibration_shrink_applied": 0.7
+        "calibration_shrink_applied": 0.55
       },
       "value_flags": {
         "fighter_a": false,
@@ -1627,10 +1627,10 @@
     },
     "Azamat Murzakanov vs Dominick Reyes": {
       "win_probability": {
-        "fighter_a_pct": 56.92,
-        "fighter_b_pct": 43.08,
+        "fighter_a_pct": 55.43,
+        "fighter_b_pct": 44.57,
         "draw_pct": 5.79,
-        "calibration_shrink_applied": 0.7
+        "calibration_shrink_applied": 0.55
       },
       "value_flags": {
         "fighter_a": false,
@@ -2010,10 +2010,10 @@
     },
     "Aaron Pico vs Losene Keita": {
       "win_probability": {
-        "fighter_a_pct": 76.43,
-        "fighter_b_pct": 23.57,
+        "fighter_a_pct": 70.77,
+        "fighter_b_pct": 29.23,
         "draw_pct": 0.6,
-        "calibration_shrink_applied": 0.7
+        "calibration_shrink_applied": 0.55
       },
       "value_flags": {
         "fighter_a": true,
@@ -2035,10 +2035,10 @@
     },
     "Abubakar Vagaev vs Jacob Malkoun": {
       "win_probability": {
-        "fighter_a_pct": 25.09,
-        "fighter_b_pct": 74.91,
+        "fighter_a_pct": 30.43,
+        "fighter_b_pct": 69.57,
         "draw_pct": 1.89,
-        "calibration_shrink_applied": 0.7
+        "calibration_shrink_applied": 0.55
       },
       "value_flags": {
         "fighter_a": false,
