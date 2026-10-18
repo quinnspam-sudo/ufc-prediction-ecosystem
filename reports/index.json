@@ -1594,7 +1594,7 @@
         "calibration_shrink_applied": 0.55
       },
       "value_flags": {
-        "fighter_a": false,
+        "fighter_a": true,
         "fighter_b": false
       },
       "report_file": "reports/grant-dawson-vs-nurullo-aliev.json"
@@ -1653,10 +1653,10 @@
     },
     "Alexander Volkov vs Rizvan Kuniev": {
       "win_probability": {
-        "fighter_a_pct": 43.4,
-        "fighter_b_pct": 56.6,
+        "fighter_a_pct": 44.81,
+        "fighter_b_pct": 55.19,
         "draw_pct": 5.53,
-        "calibration_shrink_applied": 0.7
+        "calibration_shrink_applied": 0.55
       },
       "value_flags": {
         "fighter_a": false,
