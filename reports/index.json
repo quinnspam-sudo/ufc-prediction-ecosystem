@@ -1265,10 +1265,10 @@
     },
     "SuYoung You vs Cody Chovancek": {
       "win_probability": {
-        "fighter_a_pct": 71.17,
-        "fighter_b_pct": 28.83,
-        "draw_pct": 0.61,
-        "calibration_shrink_applied": 0.55
+        "fighter_a_pct": 77.01,
+        "fighter_b_pct": 22.99,
+        "draw_pct": 0.49,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": true,
@@ -1304,9 +1304,9 @@
     },
     "Katlyn Cerminara vs Jamey-Lyn Horth": {
       "win_probability": {
-        "fighter_a_pct": 22.06,
-        "fighter_b_pct": 77.94,
-        "draw_pct": 0.61,
+        "fighter_a_pct": 22.04,
+        "fighter_b_pct": 77.96,
+        "draw_pct": 0.52,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -1342,9 +1342,9 @@
     },
     "Tanner Boser vs Jhonata Diniz": {
       "win_probability": {
-        "fighter_a_pct": 68.8,
-        "fighter_b_pct": 31.2,
-        "draw_pct": 3.41,
+        "fighter_a_pct": 69.14,
+        "fighter_b_pct": 30.86,
+        "draw_pct": 3.14,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -1368,10 +1368,10 @@
     },
     "Louis Jourdain vs Timmy Cuamba": {
       "win_probability": {
-        "fighter_a_pct": 72.42,
-        "fighter_b_pct": 27.58,
+        "fighter_a_pct": 78.54,
+        "fighter_b_pct": 21.46,
         "draw_pct": 0.0,
-        "calibration_shrink_applied": 0.55
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": true,
@@ -1381,9 +1381,9 @@
     },
     "Kyle Daukaus vs Marc-Andre Barriault": {
       "win_probability": {
-        "fighter_a_pct": 50.85,
-        "fighter_b_pct": 49.15,
-        "draw_pct": 5.13,
+        "fighter_a_pct": 50.77,
+        "fighter_b_pct": 49.23,
+        "draw_pct": 4.72,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -1394,9 +1394,9 @@
     },
     "Erin Blanchfield vs Jasmine Jasudavicius": {
       "win_probability": {
-        "fighter_a_pct": 69.33,
-        "fighter_b_pct": 30.67,
-        "draw_pct": 3.77,
+        "fighter_a_pct": 69.64,
+        "fighter_b_pct": 30.36,
+        "draw_pct": 3.49,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -1407,9 +1407,9 @@
     },
     "Mike Malott vs Joaquin Buckley": {
       "win_probability": {
-        "fighter_a_pct": 57.45,
-        "fighter_b_pct": 42.55,
-        "draw_pct": 5.21,
+        "fighter_a_pct": 57.59,
+        "fighter_b_pct": 42.41,
+        "draw_pct": 5.1,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -1594,7 +1594,7 @@
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
-        "fighter_a": true,
+        "fighter_a": false,
         "fighter_b": false
       },
       "report_file": "reports/grant-dawson-vs-nurullo-aliev.json"
@@ -1833,9 +1833,9 @@
     },
     "Katlyn Cerminara vs Mackenzie Stiller": {
       "win_probability": {
-        "fighter_a_pct": 11.14,
-        "fighter_b_pct": 88.86,
-        "draw_pct": 1.7
+        "fighter_a_pct": 11.01,
+        "fighter_b_pct": 88.99,
+        "draw_pct": 1.45
       },
       "value_flags": {
         "fighter_a": false,
@@ -1845,9 +1845,9 @@
     },
     "Javad Mahjoub vs Joel Faglier": {
       "win_probability": {
-        "fighter_a_pct": 50.56,
-        "fighter_b_pct": 49.44,
-        "draw_pct": 6.15
+        "fighter_a_pct": 50.61,
+        "fighter_b_pct": 49.39,
+        "draw_pct": 5.45
       },
       "value_flags": {
         "fighter_a": false,
@@ -1857,9 +1857,9 @@
     },
     "Kyle Nelson vs Cristian P\u00e9rez": {
       "win_probability": {
-        "fighter_a_pct": 24.25,
-        "fighter_b_pct": 75.75,
-        "draw_pct": 2.9
+        "fighter_a_pct": 23.69,
+        "fighter_b_pct": 76.31,
+        "draw_pct": 2.7
       },
       "value_flags": {
         "fighter_a": false,

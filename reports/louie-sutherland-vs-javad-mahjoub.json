@@ -45,8 +45,8 @@
     "fighter_b": {
       "KO/TKO": 19.2,
       "Submission": 6.35,
-      "Unanimous Decision": 56.45,
-      "Split/Majority Decision": 0.05
+      "Unanimous Decision": 56.5,
+      "Split/Majority Decision": 0.0
     }
   },
   "fight_level": {
