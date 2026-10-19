@@ -181,10 +181,10 @@
     },
     "Ismael Bonfim vs Axel Sola": {
       "win_probability": {
-        "fighter_a_pct": 76.42,
-        "fighter_b_pct": 23.58,
+        "fighter_a_pct": 70.72,
+        "fighter_b_pct": 29.28,
         "draw_pct": 0.0,
-        "calibration_shrink_applied": 0.7
+        "calibration_shrink_applied": 0.55
       },
       "value_flags": {
         "fighter_a": true,
@@ -1239,10 +1239,10 @@
     },
     "Ismael Bonfim vs Francisco Prado": {
       "win_probability": {
-        "fighter_a_pct": 71.93,
-        "fighter_b_pct": 28.07,
+        "fighter_a_pct": 67.03,
+        "fighter_b_pct": 32.97,
         "draw_pct": 0.0,
-        "calibration_shrink_applied": 0.7
+        "calibration_shrink_applied": 0.55
       },
       "value_flags": {
         "fighter_a": true,
