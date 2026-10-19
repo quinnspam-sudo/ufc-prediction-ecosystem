@@ -1317,12 +1317,13 @@
     },
     "Louie Sutherland vs Javad Mahjoub": {
       "win_probability": {
-        "fighter_a_pct": 17.91,
-        "fighter_b_pct": 82.09,
-        "draw_pct": 0.05
+        "fighter_a_pct": 61.1,
+        "fighter_b_pct": 38.9,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.55
       },
       "value_flags": {
-        "fighter_a": false,
+        "fighter_a": true,
         "fighter_b": false
       },
       "report_file": "reports/louie-sutherland-vs-javad-mahjoub.json"
@@ -1833,25 +1834,27 @@
     },
     "Katlyn Cerminara vs Mackenzie Stiller": {
       "win_probability": {
-        "fighter_a_pct": 11.01,
-        "fighter_b_pct": 88.99,
-        "draw_pct": 1.45
+        "fighter_a_pct": 72.74,
+        "fighter_b_pct": 27.26,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.55
       },
       "value_flags": {
-        "fighter_a": false,
+        "fighter_a": true,
         "fighter_b": false
       },
       "report_file": "reports/katlyn-cerminara-vs-mackenzie-stiller.json"
     },
     "Javad Mahjoub vs Joel Faglier": {
       "win_probability": {
-        "fighter_a_pct": 22.3,
-        "fighter_b_pct": 77.7,
-        "draw_pct": 0.0
+        "fighter_a_pct": 32.52,
+        "fighter_b_pct": 67.48,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.55
       },
       "value_flags": {
         "fighter_a": false,
-        "fighter_b": false
+        "fighter_b": true
       },
       "report_file": "reports/javad-mahjoub-vs-joel-faglier.json"
     },

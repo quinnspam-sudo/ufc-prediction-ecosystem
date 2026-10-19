@@ -4,8 +4,8 @@
     "fighter_b": "Javad Mahjoub",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.531,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.436,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -19,53 +19,54 @@
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 17.91,
-    "fighter_b_pct": 82.09,
-    "draw_pct": 0.05
+    "fighter_a_pct": 61.1,
+    "fighter_b_pct": 38.9,
+    "draw_pct": 0.0,
+    "calibration_shrink_applied": 0.55
   },
   "consensus_forecast": {
     "applied": false,
     "model_weight": 1.0,
-    "fighter_a_pct": 17.91,
-    "fighter_b_pct": 82.09,
+    "fighter_a_pct": 70.19,
+    "fighter_b_pct": 29.81,
     "market_devig_a_pct": null
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 16.0,
-      "Submission": 1.9,
-      "Unanimous Decision": 0.0,
+      "KO/TKO": 15.86,
+      "Submission": 4.64,
+      "Unanimous Decision": 49.69,
       "Split/Majority Decision": 0.0
     },
     "fighter_b": {
-      "KO/TKO": 19.2,
-      "Submission": 6.35,
-      "Unanimous Decision": 56.5,
+      "KO/TKO": 28.49,
+      "Submission": 1.32,
+      "Unanimous Decision": 0.0,
       "Split/Majority Decision": 0.0
     }
   },
   "fight_level": {
-    "ko_tko_pct": 35.2,
-    "submission_pct": 8.25,
-    "decision_pct": 56.5,
-    "goes_the_distance_pct": 56.55,
-    "expected_fight_minutes": 11.57
+    "ko_tko_pct": 44.35,
+    "submission_pct": 5.96,
+    "decision_pct": 49.69,
+    "goes_the_distance_pct": 49.69,
+    "expected_fight_minutes": 10.92
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 127,
-      "round_2": 126,
-      "round_3": 105
+      "round_1": 790,
+      "round_2": 690,
+      "round_3": 570
     },
     "fighter_b": {
-      "round_1": 196,
-      "round_2": 165,
-      "round_3": 150
+      "round_1": 1209,
+      "round_2": 951,
+      "round_3": 821
     }
   },
   "value_betting": {
@@ -73,29 +74,27 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 17.91,
-      "edge_pct": -34.47,
-      "consensus_edge_pct": -34.47,
-      "kelly_fraction_full": -0.7239,
-      "kelly_fraction_half": 0.0,
-      "model_sees_value": false,
-      "consensus_agrees": false,
-      "value_bet": false
+      "model_win_prob_pct": 61.1,
+      "edge_pct": 8.72,
+      "consensus_edge_pct": 17.81,
+      "kelly_fraction_full": 0.1832,
+      "kelly_fraction_half": 0.0916,
+      "model_sees_value": true,
+      "consensus_agrees": true,
+      "value_bet": true
     },
     "fighter_b": {
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 82.09,
-      "edge_pct": 29.71,
-      "consensus_edge_pct": 29.71,
-      "kelly_fraction_full": 0.6239,
-      "kelly_fraction_half": 0.312,
-      "model_sees_value": true,
-      "consensus_agrees": true,
+      "model_win_prob_pct": 38.9,
+      "edge_pct": -13.49,
+      "consensus_edge_pct": -22.57,
+      "kelly_fraction_full": -0.2832,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
       "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+    }
   }
 }

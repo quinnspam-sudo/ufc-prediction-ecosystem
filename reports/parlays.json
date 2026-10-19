@@ -816,10 +816,21 @@
     },
     "UFC Fight Night: Buckley vs. Malott": {
       "card_type": "fight_night",
-      "eligible_legs": 5,
+      "eligible_legs": 6,
       "parlays": {
         "3_leg": {
           "legs": [
+            {
+              "matchup": "Javad Mahjoub vs Joel Faglier",
+              "pick": "Joel Faglier",
+              "moneyline": -132,
+              "decimal_odds": 1.758,
+              "consensus_prob": 0.6552,
+              "model_prob": 0.6748,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 51.67,
+              "modal_finish_round": "round_1"
+            },
             {
               "matchup": "Chad Anheliger vs Steven Koslow",
               "pick": "Steven Koslow",
@@ -841,28 +852,28 @@
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 58.89,
               "modal_finish_round": "round_1"
-            },
-            {
-              "matchup": "Nate Landwehr vs Mandel Nallo",
-              "pick": "Mandel Nallo",
-              "moneyline": -285,
-              "decimal_odds": 1.351,
-              "consensus_prob": 0.7532,
-              "model_prob": 0.723,
-              "likely_method": "Unanimous Decision",
-              "likely_method_pct": 57.96,
-              "modal_finish_round": "round_1"
             }
           ],
           "leg_count": 3,
-          "combined_prob_pct": 41.65,
-          "combined_decimal_odds": 2.783,
-          "combined_american": 178,
-          "ev_per_unit": 0.1592,
+          "combined_prob_pct": 36.23,
+          "combined_decimal_odds": 3.622,
+          "combined_american": 262,
+          "ev_per_unit": 0.3121,
           "positive_ev": true
         },
         "5_leg": {
           "legs": [
+            {
+              "matchup": "Javad Mahjoub vs Joel Faglier",
+              "pick": "Joel Faglier",
+              "moneyline": -132,
+              "decimal_odds": 1.758,
+              "consensus_prob": 0.6552,
+              "model_prob": 0.6748,
+              "likely_method": "Unanimous Decision",
+              "likely_method_pct": 51.67,
+              "modal_finish_round": "round_1"
+            },
             {
               "matchup": "Chad Anheliger vs Steven Koslow",
               "pick": "Steven Koslow",
@@ -906,24 +917,13 @@
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 49.03,
               "modal_finish_round": "round_1"
-            },
-            {
-              "matchup": "Julien LeBlanc vs Nick Galanti",
-              "pick": "Nick Galanti",
-              "moneyline": -667,
-              "decimal_odds": 1.15,
-              "consensus_prob": 0.8426,
-              "model_prob": 0.7491,
-              "likely_method": "Unanimous Decision",
-              "likely_method_pct": 42.59,
-              "modal_finish_round": "round_1"
             }
           ],
           "leg_count": 5,
-          "combined_prob_pct": 26.47,
-          "combined_decimal_odds": 4.171,
-          "combined_american": 317,
-          "ev_per_unit": 0.1041,
+          "combined_prob_pct": 20.59,
+          "combined_decimal_odds": 6.376,
+          "combined_american": 538,
+          "ev_per_unit": 0.3125,
           "positive_ev": true
         }
       }

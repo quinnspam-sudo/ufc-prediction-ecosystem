@@ -4,8 +4,8 @@
     "fighter_b": "Mackenzie Stiller",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.707,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.764,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -19,53 +19,54 @@
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 11.01,
-    "fighter_b_pct": 88.99,
-    "draw_pct": 1.45
+    "fighter_a_pct": 72.74,
+    "fighter_b_pct": 27.26,
+    "draw_pct": 0.0,
+    "calibration_shrink_applied": 0.55
   },
   "consensus_forecast": {
     "applied": false,
     "model_weight": 1.0,
-    "fighter_a_pct": 11.01,
-    "fighter_b_pct": 88.99,
+    "fighter_a_pct": 91.35,
+    "fighter_b_pct": 8.65,
     "market_devig_a_pct": null
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 3.35,
-      "Submission": 6.2,
-      "Unanimous Decision": 0.5,
-      "Split/Majority Decision": 0.8
+      "KO/TKO": 4.52,
+      "Submission": 10.15,
+      "Unanimous Decision": 76.68,
+      "Split/Majority Decision": 0.0
     },
     "fighter_b": {
-      "KO/TKO": 5.65,
-      "Submission": 15.05,
-      "Unanimous Decision": 64.55,
-      "Split/Majority Decision": 2.45
+      "KO/TKO": 4.76,
+      "Submission": 3.89,
+      "Unanimous Decision": 0.0,
+      "Split/Majority Decision": 0.0
     }
   },
   "fight_level": {
-    "ko_tko_pct": 9.0,
-    "submission_pct": 21.25,
-    "decision_pct": 68.3,
-    "goes_the_distance_pct": 69.75,
-    "expected_fight_minutes": 12.78
+    "ko_tko_pct": 9.28,
+    "submission_pct": 14.04,
+    "decision_pct": 76.68,
+    "goes_the_distance_pct": 76.68,
+    "expected_fight_minutes": 13.23
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 59,
-      "round_2": 65,
-      "round_3": 67
+      "round_1": 489,
+      "round_2": 498,
+      "round_3": 480
     },
     "fighter_b": {
-      "round_1": 131,
-      "round_2": 142,
-      "round_3": 141
+      "round_1": 301,
+      "round_2": 286,
+      "round_3": 278
     }
   },
   "value_betting": {
@@ -73,29 +74,27 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 11.01,
-      "edge_pct": -41.37,
-      "consensus_edge_pct": -41.37,
-      "kelly_fraction_full": -0.8688,
-      "kelly_fraction_half": 0.0,
-      "model_sees_value": false,
-      "consensus_agrees": false,
-      "value_bet": false
+      "model_win_prob_pct": 72.74,
+      "edge_pct": 20.36,
+      "consensus_edge_pct": 38.97,
+      "kelly_fraction_full": 0.4276,
+      "kelly_fraction_half": 0.2138,
+      "model_sees_value": true,
+      "consensus_agrees": true,
+      "value_bet": true
     },
     "fighter_b": {
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 88.99,
-      "edge_pct": 36.61,
-      "consensus_edge_pct": 36.61,
-      "kelly_fraction_full": 0.7688,
-      "kelly_fraction_half": 0.3844,
-      "model_sees_value": true,
-      "consensus_agrees": true,
+      "model_win_prob_pct": 27.26,
+      "edge_pct": -25.12,
+      "consensus_edge_pct": -43.73,
+      "kelly_fraction_full": -0.5276,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
       "value_bet": false
-    },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+    }
   }
 }
