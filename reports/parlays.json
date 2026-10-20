@@ -1053,7 +1053,7 @@
               "pick": "Bolaji Oki",
               "moneyline": 107,
               "decimal_odds": 2.07,
-              "consensus_prob": 0.6223,
+              "consensus_prob": 0.6213,
               "model_prob": 0.7005,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 68.82,
@@ -1073,9 +1073,9 @@
             {
               "matchup": "Nicolle Caliari vs Iasmin Lucindo",
               "pick": "Iasmin Lucindo",
-              "moneyline": -360,
-              "decimal_odds": 1.278,
-              "consensus_prob": 0.7681,
+              "moneyline": -362,
+              "decimal_odds": 1.276,
+              "consensus_prob": 0.7659,
               "model_prob": 0.6597,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 67.77,
@@ -1094,10 +1094,10 @@
             }
           ],
           "leg_count": 4,
-          "combined_prob_pct": 19.89,
-          "combined_decimal_odds": 7.198,
-          "combined_american": 620,
-          "ev_per_unit": 0.4317,
+          "combined_prob_pct": 19.8,
+          "combined_decimal_odds": 7.187,
+          "combined_american": 619,
+          "ev_per_unit": 0.4231,
           "positive_ev": true
         }
       }
