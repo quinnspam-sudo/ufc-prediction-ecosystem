@@ -1,0 +1,100 @@
+{
+  "matchup": {
+    "fighter_a": "Daniel Santos",
+    "fighter_b": "Bolaji Oki",
+    "scheduled_rounds": 3,
+    "is_title_fight": false,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.751,
+    "fighter_a_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": false,
+      "needs_real_stats": false
+    },
+    "fighter_b_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": false,
+      "needs_real_stats": false
+    }
+  },
+  "win_probability": {
+    "fighter_a_pct": 29.95,
+    "fighter_b_pct": 70.05,
+    "draw_pct": 1.55,
+    "calibration_shrink_applied": 0.55
+  },
+  "consensus_forecast": {
+    "applied": true,
+    "model_weight": 0.4,
+    "fighter_a_pct": 37.77,
+    "fighter_b_pct": 62.23,
+    "market_devig_a_pct": 53.92
+  },
+  "method_of_victory_matrix": {
+    "fighter_a": {
+      "KO/TKO": 8.55,
+      "Submission": 2.97,
+      "Unanimous Decision": 0.83,
+      "Split/Majority Decision": 0.99
+    },
+    "fighter_b": {
+      "KO/TKO": 11.1,
+      "Submission": 2.48,
+      "Unanimous Decision": 68.82,
+      "Split/Majority Decision": 2.71
+    }
+  },
+  "fight_level": {
+    "ko_tko_pct": 19.65,
+    "submission_pct": 5.45,
+    "decision_pct": 73.35,
+    "goes_the_distance_pct": 74.9,
+    "expected_fight_minutes": 13.13
+  },
+  "finish_round_distribution": {
+    "fighter_a": {
+      "round_1": 365,
+      "round_2": 402,
+      "round_3": 385
+    },
+    "fighter_b": {
+      "round_1": 462,
+      "round_2": 431,
+      "round_3": 465
+    }
+  },
+  "value_betting": {
+    "fighter_a": {
+      "market_moneyline": -130,
+      "market_decimal_odds": 1.769,
+      "market_implied_prob_pct": 56.52,
+      "model_win_prob_pct": 29.95,
+      "edge_pct": -26.57,
+      "consensus_edge_pct": -18.75,
+      "kelly_fraction_full": -0.6111,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
+      "value_bet": false
+    },
+    "fighter_b": {
+      "market_moneyline": 107,
+      "market_decimal_odds": 2.07,
+      "market_implied_prob_pct": 48.31,
+      "model_win_prob_pct": 70.05,
+      "edge_pct": 21.74,
+      "consensus_edge_pct": 13.92,
+      "kelly_fraction_full": 0.4205,
+      "kelly_fraction_half": 0.2103,
+      "model_sees_value": true,
+      "consensus_agrees": true,
+      "value_bet": true
+    }
+  }
+}

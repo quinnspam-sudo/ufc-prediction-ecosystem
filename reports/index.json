@@ -2214,6 +2214,45 @@
         "fighter_b": false
       },
       "report_file": "reports/sean-brady-vs-gabriel-bonfim.json"
+    },
+    "Nicolle Caliari vs Iasmin Lucindo": {
+      "win_probability": {
+        "fighter_a_pct": 34.03,
+        "fighter_b_pct": 65.97,
+        "draw_pct": 0.09,
+        "calibration_shrink_applied": 0.55
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/nicolle-caliari-vs-iasmin-lucindo.json"
+    },
+    "Noah Gugnon vs Kody Steele": {
+      "win_probability": {
+        "fighter_a_pct": 49.5,
+        "fighter_b_pct": 50.5,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.55
+      },
+      "value_flags": {
+        "fighter_a": true,
+        "fighter_b": false
+      },
+      "report_file": "reports/noah-gugnon-vs-kody-steele.json"
+    },
+    "Daniel Santos vs Bolaji Oki": {
+      "win_probability": {
+        "fighter_a_pct": 29.95,
+        "fighter_b_pct": 70.05,
+        "draw_pct": 1.55,
+        "calibration_shrink_applied": 0.55
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": true
+      },
+      "report_file": "reports/daniel-santos-vs-bolaji-oki.json"
     }
   }
 }

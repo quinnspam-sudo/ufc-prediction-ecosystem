@@ -1,0 +1,100 @@
+{
+  "matchup": {
+    "fighter_a": "Noah Gugnon",
+    "fighter_b": "Kody Steele",
+    "scheduled_rounds": 3,
+    "is_title_fight": false,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.132,
+    "fighter_a_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": false,
+      "needs_real_stats": false
+    },
+    "fighter_b_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": false,
+      "needs_real_stats": false
+    }
+  },
+  "win_probability": {
+    "fighter_a_pct": 49.5,
+    "fighter_b_pct": 50.5,
+    "draw_pct": 0.0,
+    "calibration_shrink_applied": 0.55
+  },
+  "consensus_forecast": {
+    "applied": true,
+    "model_weight": 0.4,
+    "fighter_a_pct": 44.6,
+    "fighter_b_pct": 55.4,
+    "market_devig_a_pct": 41.6
+  },
+  "method_of_victory_matrix": {
+    "fighter_a": {
+      "KO/TKO": 7.73,
+      "Submission": 41.37,
+      "Unanimous Decision": 0.0,
+      "Split/Majority Decision": 0.0
+    },
+    "fighter_b": {
+      "KO/TKO": 6.92,
+      "Submission": 15.42,
+      "Unanimous Decision": 28.56,
+      "Split/Majority Decision": 0.0
+    }
+  },
+  "fight_level": {
+    "ko_tko_pct": 14.65,
+    "submission_pct": 56.79,
+    "decision_pct": 28.56,
+    "goes_the_distance_pct": 28.56,
+    "expected_fight_minutes": 8.87
+  },
+  "finish_round_distribution": {
+    "fighter_a": {
+      "round_1": 2120,
+      "round_2": 1627,
+      "round_3": 1163
+    },
+    "fighter_b": {
+      "round_1": 1038,
+      "round_2": 739,
+      "round_3": 457
+    }
+  },
+  "value_betting": {
+    "fighter_a": {
+      "market_moneyline": 131,
+      "market_decimal_odds": 2.31,
+      "market_implied_prob_pct": 43.29,
+      "model_win_prob_pct": 49.5,
+      "edge_pct": 6.21,
+      "consensus_edge_pct": 1.31,
+      "kelly_fraction_full": 0.1096,
+      "kelly_fraction_half": 0.0548,
+      "model_sees_value": true,
+      "consensus_agrees": true,
+      "value_bet": true
+    },
+    "fighter_b": {
+      "market_moneyline": -155,
+      "market_decimal_odds": 1.645,
+      "market_implied_prob_pct": 60.78,
+      "model_win_prob_pct": 50.5,
+      "edge_pct": -10.29,
+      "consensus_edge_pct": -5.38,
+      "kelly_fraction_full": -0.2624,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
+      "value_bet": false
+    }
+  }
+}
