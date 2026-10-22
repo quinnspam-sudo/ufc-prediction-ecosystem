@@ -26,3 +26,8 @@ credentials.json
 
 # OS
 .DS_Store
+
+# Point-in-time store: rebuildable from the public mirror (store/ingest.py)
+data_store/raw/
+data_store/history.sqlite
+data_store/history.sqlite.tmp
