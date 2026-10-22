@@ -30,6 +30,7 @@ import os
 import re
 import subprocess
 import sys
+from datetime import datetime, timedelta, timezone
 from typing import Any, Dict, List
 
 import analytics_reporting as ar
@@ -40,6 +41,12 @@ from data_ingestion import MatchupOdds
 from main import run_pipeline
 
 REPORTS_DIR = os.path.join(os.path.dirname(__file__), "reports")
+
+
+# Sources whose failure silently stops discovery or scoring. If one fails
+# every cycle for this long, the run exits non-zero so CI raises an alert.
+CRITICAL_SOURCES = ("espn_schedule", "espn_results")
+SOURCE_OUTAGE_ALERT_HOURS = 24
 
 
 def _slug(label: str) -> str:
@@ -202,9 +209,19 @@ def run_cycle(iterations: int = config.SIM_ITERATIONS, no_network: bool = False,
     fight_results: List[Dict[str, str]] = []
     notes: List[str] = []
 
+    health = state.setdefault("meta", {}).setdefault("source_health", {})
+    health_sig0 = json.dumps(health, sort_keys=True)
+    now_iso = datetime.now(timezone.utc).isoformat(timespec="seconds")
     for src in _enabled_sources(no_network):
         result = src.safe_fetch(state)
         notes.extend(f"[{src.name}] {n}" for n in result.notes)
+        # Remember when a critical source started failing, so a silent
+        # multi-day outage (ESPN, 2026-08-04 -> 09-30) becomes a failed run.
+        if src.name in CRITICAL_SOURCES:
+            if result.ok:
+                health.pop(src.name, None)
+            else:
+                health.setdefault(src.name, now_iso)
         # Auto-discovery additions first, so later sources see the new fighters.
         if result.new_fighters or result.new_matchups:
             added_f, added_m = ds.add_discovered(
@@ -256,8 +273,12 @@ def run_cycle(iterations: int = config.SIM_ITERATIONS, no_network: bool = False,
             report = _predict_matchup(state, m, iterations, shrink)
             with open(path, "w") as fh:
                 json.dump(report, fh, indent=2)
-            # Log real-stat predictions so we can score them when they resolve.
-            if not report["matchup"].get("fighter_a_flags", {}).get("needs_real_stats"):
+            # Log real-stat predictions so we can score them when they resolve
+            # — but only BEFORE the fight. A debut fighter's stats arrive after
+            # their first fight, which used to log (and score) a "prediction"
+            # made after the result was known. Undated legacy matchups are past.
+            upcoming = m.get("date", "") >= datetime.now(timezone.utc).date().isoformat()
+            if upcoming and not report["matchup"].get("fighter_a_flags", {}).get("needs_real_stats"):
                 calibration.log_prediction(
                     cal_log, label,
                     report["matchup"]["fighter_a"], report["matchup"]["fighter_b"],
@@ -304,6 +325,8 @@ def run_cycle(iterations: int = config.SIM_ITERATIONS, no_network: bool = False,
     budget_meta_changed = (
         state.get("meta", {}).get("odds", {}).get("count", 0) != odds_count0
         or json.dumps(state.get("meta", {}).get("news_last", {}), sort_keys=True) != news_sig0
+        # Source-health stamps must persist too, or the outage clock resets.
+        or json.dumps(health, sort_keys=True) != health_sig0
     )
 
     # Only commit when something MEANINGFUL changed — not just the last_sync
@@ -326,6 +349,9 @@ def run_cycle(iterations: int = config.SIM_ITERATIONS, no_network: bool = False,
         "summary": summary,
         "committed": committed,
         "parlays": parlays,
+        "source_outages": {k: v for k, v in health.items()
+                           if datetime.now(timezone.utc) - datetime.fromisoformat(v)
+                           > timedelta(hours=SOURCE_OUTAGE_ALERT_HOURS)},
     }
 
 
@@ -362,6 +388,12 @@ def main(argv=None) -> int:
         for n in out["notes"][:20]:
             print("    -", n)
     print("summary       :", out["summary"])
+    if out["source_outages"]:
+        # Non-zero exit fails the workflow, which opens the ci-failure issue.
+        for name, since in out["source_outages"].items():
+            print(f"OUTAGE: {name} has failed every cycle since {since}",
+                  file=sys.stderr)
+        return 3
     return 0
 
 

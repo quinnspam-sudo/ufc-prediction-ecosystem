@@ -24,26 +24,57 @@ SCOREBOARD = "https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard"
 DAYS_BACK = 10
 DAYS_FORWARD = 21
 
-_cache: Dict[str, Any] = {"fetched": False, "data": None}
+_cache: Dict[str, Any] = {"fetched": False, "data": None, "error": ""}
+
+
+def _fetch(start: date, end: date):
+    """One scoreboard request; returns (json or None, error text)."""
+    r = http_get(f"{SCOREBOARD}?dates={start:%Y%m%d}-{end:%Y%m%d}")
+    if r is None:
+        return None, "no response after retries (timeout, 5xx or connection error)"
+    if r.status_code != 200:
+        return None, f"HTTP {r.status_code}"
+    try:
+        return r.json(), ""
+    except Exception:
+        return None, "HTTP 200 but body was not JSON"
 
 
 def get_scoreboard(force: bool = False) -> Optional[Dict[str, Any]]:
-    """Return the parsed scoreboard JSON, fetching at most once per process."""
+    """Return the parsed scoreboard JSON, fetching at most once per process.
+
+    ESPN refused every request from 2026-08-04 to 2026-09-30 and the reason was
+    never logged, so this now (1) records why a fetch failed (last_error()) and
+    (2) falls back to two narrower windows (past / upcoming) before giving up.
+    """
     if _cache["fetched"] and not force:
         return _cache["data"]
     today = date.today()
-    start = (today - timedelta(days=DAYS_BACK)).strftime("%Y%m%d")
-    end = (today + timedelta(days=DAYS_FORWARD)).strftime("%Y%m%d")
-    r = http_get(f"{SCOREBOARD}?dates={start}-{end}")
-    data = None
-    if r is not None and r.status_code == 200:
-        try:
-            data = r.json()
-        except Exception:
-            data = None
-    _cache["fetched"] = True
-    _cache["data"] = data
+    back, fwd = today - timedelta(days=DAYS_BACK), today + timedelta(days=DAYS_FORWARD)
+    data, err = _fetch(back, fwd)
+    if data is None:
+        past, e1 = _fetch(back, today)
+        upcoming, e2 = _fetch(today, fwd)
+        if past or upcoming:
+            seen, events = set(), []
+            for part in (past, upcoming):
+                for ev in (part or {}).get("events", []) or []:
+                    if ev.get("id") not in seen:
+                        seen.add(ev.get("id"))
+                        events.append(ev)
+            data = {"events": events}
+            err = f"full window failed ({err}); used narrower windows"
+            if not (past and upcoming):
+                err += f"; past: {e1 or 'ok'}, upcoming: {e2 or 'ok'}"
+        else:
+            err = f"full window: {err}; past window: {e1}; upcoming window: {e2}"
+    _cache.update(fetched=True, data=data, error=err)
     return data
+
+
+def last_error() -> str:
+    """Why the last scoreboard fetch failed or degraded ("" if it was clean)."""
+    return _cache.get("error", "")
 
 
 def days_until_next_card(today_iso: str) -> Optional[int]:

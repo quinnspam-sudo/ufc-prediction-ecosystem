@@ -26,7 +26,7 @@ from typing import Any, Dict, List
 
 from data_ingestion import FighterRawStats, WEIGHT_CLASSES
 from .base import Source, SourceResult, FighterPatch
-from .espn_common import get_scoreboard
+from .espn_common import get_scoreboard, last_error
 
 # Approximate elevation (feet above sea level) for cities that host UFC cards.
 # Anything not listed is treated as sea level (elevation only matters above
@@ -100,7 +100,7 @@ class EspnScheduleSource(Source):
         data = get_scoreboard()
         if not data:
             res.ok = False
-            res.notes.append("ESPN scoreboard unavailable")
+            res.notes.append(f"ESPN scoreboard unavailable: {last_error()}")
             return res
 
         for ev in data.get("events", []) or []:

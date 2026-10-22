@@ -1,17 +1,17 @@
 {
   "method_and_distance": {
-    "graded_fights": 0,
-    "method_accuracy_pct": null,
-    "method_brier_mean": null,
-    "distance_brier_mean": null
+    "graded_fights": 92,
+    "method_accuracy_pct": 21.7,
+    "method_brier_mean": 0.8626,
+    "distance_brier_mean": 0.3499
   },
-  "resolved_fights": 83,
-  "open_predictions": 86,
-  "brier_raw": 0.245,
-  "brier_calibrated": 0.2367,
-  "accuracy_pct": 56.6,
+  "resolved_fights": 96,
+  "open_predictions": 73,
+  "brier_raw": 0.269,
+  "brier_calibrated": 0.2457,
+  "accuracy_pct": 52.1,
   "baseline_brier": 0.25,
-  "shrink_factor": 0.7,
+  "shrink_factor": 0.3,
   "min_resolved_before_adapt": 15,
   "beating_coinflip": true,
   "shrink_validation": "walk-forward (fit on first 80% chronologically, applied only if it beats no-shrink on the held-out final 20%)"

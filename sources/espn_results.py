@@ -21,7 +21,7 @@ from __future__ import annotations
 from typing import Any, Dict, List
 
 from .base import Source, SourceResult, FighterPatch
-from .espn_common import get_scoreboard
+from .espn_common import get_scoreboard, last_error
 
 
 def _norm(name: str) -> str:
@@ -36,7 +36,7 @@ class EspnResultsSource(Source):
         data = get_scoreboard()
         if not data:
             res.ok = False
-            res.notes.append("ESPN scoreboard unavailable")
+            res.notes.append(f"ESPN scoreboard unavailable: {last_error()}")
             return res
 
         events = data.get("events", []) or []
