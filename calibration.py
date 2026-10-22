@@ -75,7 +75,15 @@ def log_prediction(log: Dict[str, Any], label: str, a_name: str, b_name: str,
             "p_distance": round(fight_level["goes_the_distance_pct"] / 100.0, 4),
         }
     for e in reversed(log["entries"]):
-        if e["label"] == label and not e["resolved"]:
+        if e["label"] != label:
+            continue
+        if e["resolved"] and e.get("event", "") == event:
+            # This bout already happened and was scored. Re-predicting it
+            # (a stat update or a forced refresh) must NOT log a fresh entry:
+            # it would be scored again against a known result, sometimes
+            # with post-fight stats. A rematch at a new event still logs.
+            return
+        if not e["resolved"]:
             e["p_a"] = round(p_a, 4)          # refresh the still-open prediction
             e.update(fl)
             e["logged"] = _now()
