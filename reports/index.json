@@ -1628,10 +1628,10 @@
     },
     "Azamat Murzakanov vs Dominick Reyes": {
       "win_probability": {
-        "fighter_a_pct": 55.33,
-        "fighter_b_pct": 44.67,
+        "fighter_a_pct": 52.29,
+        "fighter_b_pct": 47.71,
         "draw_pct": 6.56,
-        "calibration_shrink_applied": 0.7
+        "calibration_shrink_applied": 0.3
       },
       "value_flags": {
         "fighter_a": false,
@@ -2013,10 +2013,10 @@
     },
     "Aaron Pico vs Losene Keita": {
       "win_probability": {
-        "fighter_a_pct": 76.28,
-        "fighter_b_pct": 23.72,
+        "fighter_a_pct": 61.26,
+        "fighter_b_pct": 38.74,
         "draw_pct": 1.03,
-        "calibration_shrink_applied": 0.7
+        "calibration_shrink_applied": 0.3
       },
       "value_flags": {
         "fighter_a": false,
@@ -2217,10 +2217,10 @@
     },
     "Nicolle Caliari vs Iasmin Lucindo": {
       "win_probability": {
-        "fighter_a_pct": 29.7,
-        "fighter_b_pct": 70.3,
+        "fighter_a_pct": 41.3,
+        "fighter_b_pct": 58.7,
         "draw_pct": 0.33,
-        "calibration_shrink_applied": 0.7
+        "calibration_shrink_applied": 0.3
       },
       "value_flags": {
         "fighter_a": false,
