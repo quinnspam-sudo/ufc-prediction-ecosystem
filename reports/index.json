@@ -1589,10 +1589,10 @@
     },
     "Grant Dawson vs Nurullo Aliev": {
       "win_probability": {
-        "fighter_a_pct": 56.19,
-        "fighter_b_pct": 43.81,
+        "fighter_a_pct": 52.65,
+        "fighter_b_pct": 47.35,
         "draw_pct": 6.22,
-        "calibration_shrink_applied": 0.7
+        "calibration_shrink_applied": 0.3
       },
       "value_flags": {
         "fighter_a": false,
@@ -1654,10 +1654,10 @@
     },
     "Alexander Volkov vs Rizvan Kuniev": {
       "win_probability": {
-        "fighter_a_pct": 42.57,
-        "fighter_b_pct": 57.43,
+        "fighter_a_pct": 46.81,
+        "fighter_b_pct": 53.19,
         "draw_pct": 5.52,
-        "calibration_shrink_applied": 0.7
+        "calibration_shrink_applied": 0.3
       },
       "value_flags": {
         "fighter_a": false,
@@ -2038,10 +2038,10 @@
     },
     "Abubakar Vagaev vs Jacob Malkoun": {
       "win_probability": {
-        "fighter_a_pct": 24.94,
-        "fighter_b_pct": 75.06,
+        "fighter_a_pct": 39.26,
+        "fighter_b_pct": 60.74,
         "draw_pct": 2.32,
-        "calibration_shrink_applied": 0.7
+        "calibration_shrink_applied": 0.3
       },
       "value_flags": {
         "fighter_a": false,
@@ -2243,10 +2243,10 @@
     },
     "Daniel Santos vs Bolaji Oki": {
       "win_probability": {
-        "fighter_a_pct": 24.65,
-        "fighter_b_pct": 75.35,
+        "fighter_a_pct": 39.14,
+        "fighter_b_pct": 60.86,
         "draw_pct": 2.29,
-        "calibration_shrink_applied": 0.7
+        "calibration_shrink_applied": 0.3
       },
       "value_flags": {
         "fighter_a": false,
