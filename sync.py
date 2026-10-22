@@ -95,7 +95,8 @@ def _apply_shrink(report: Dict[str, Any], shrink: float) -> None:
         v["kelly_fraction_half"] = round(max(0.0, kelly) / 2, 4)
         v["model_sees_value"] = bool((prob - implied) > 0 and kelly > 0)
         v["value_bet"] = bool(v["model_sees_value"]
-                              and v.get("consensus_agrees", True))
+                              and v.get("consensus_agrees", True)
+                              and not config.MODEL_EDGE_SUSPENDED)
 
 
 def _predict_matchup(state: Dict[str, Any], m: Dict[str, Any],

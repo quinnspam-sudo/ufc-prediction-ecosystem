@@ -41,6 +41,8 @@ import os
 import re
 from typing import Any, Dict, List, Optional
 
+import config
+
 REPORTS_DIR = os.path.join(os.path.dirname(__file__), "reports")
 
 # A leg must be at least this likely (consensus) to belong in a parlay.
@@ -141,7 +143,10 @@ def _assemble(legs: List[Dict], size: int) -> Optional[Dict]:
 
 def build_parlays(state: Dict[str, Any]) -> Dict[str, Any]:
     """Produce the per-card parlay recommendations from existing reports."""
-    events = sorted({m.get("event", "") for m in state["matchups"] if m.get("event")})
+    if config.MODEL_EDGE_SUSPENDED:
+        return {"cards": {}, "suspended": True,
+                "note": config.MODEL_EDGE_SUSPENDED_NOTE}
+    events =sorted({m.get("event", "") for m in state["matchups"] if m.get("event")})
 
     # Collect eligible legs per card.
     cards: Dict[str, List[Dict]] = {}
@@ -193,6 +198,8 @@ def build_parlays(state: Dict[str, Any]) -> Dict[str, Any]:
 
 
 def render_cli(parlays: Dict[str, Any]) -> str:
+    if parlays.get("suspended"):
+        return f"(parlays suspended) {parlays['note']}"
     lines: List[str] = []
     for event, card in parlays.get("cards", {}).items():
         lines.append(f"── {event}  [{card['card_type']}] "

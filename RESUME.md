@@ -21,6 +21,14 @@ $0 forever** — never introduce anything that can exceed a free tier.
   beautifulsoup4, lxml). Recreate with `python3 -m venv .venv && ./.venv/bin/pip
   install -r requirements.txt` if missing.
 
+## ⚠ 2026-10-21: betting signals suspended
+The point-in-time backtest (`backtest_pit.py` → `reports/backtest_pit.json`,
+built on the `store/` feature store) showed the old 68% winner accuracy was
+lookahead leakage. Honest accuracy is ~61%, below the betting market (70.2%).
+So `MARKET_BLEND_MODEL_WEIGHT=0.0` (consensus = market) and
+`MODEL_EDGE_SUSPENDED` blocks value-bet flags and parlays. Re-enable only
+after a model beats the market on point-in-time data (roundtable step 3).
+
 ## Current status — FULLY LIVE ✅
 - Scheduler works: cron-job.org card "UFC Cron" POSTs a `repository_dispatch`
   (`event_type: refresh`) → GitHub Action `update.yml` runs `sync.py --push`.

@@ -77,13 +77,27 @@ SIM_ITERATIONS_PLACEHOLDER = _int("SIM_ITERATIONS_PLACEHOLDER", 2_000)
 
 # ── Market blend ──────────────────────────────────────────────────────────
 # Weight given to the MODEL when blending the simulated win probability with
-# the devigged market-implied probability. Community consensus (r/algobetting)
-# is that market-aware models beat stats-only models; the market is a strong
-# prior. 0.4 = 60% market / 40% model. Set to 1.0 to disable blending.
-# Blending only happens when the matchup carries REAL market odds (not the
-# -110/-110 placeholder), so placeholder fights are never dragged around by
-# fake market data.
-MARKET_BLEND_MODEL_WEIGHT = _float("MARKET_BLEND_MODEL_WEIGHT", 0.4)
+# the devigged market-implied probability. 0.0 = consensus is the market alone;
+# 1.0 disables blending. Blending only happens when the matchup carries REAL
+# market odds (not the -110/-110 placeholder).
+#
+# Set to 0.0 on 2026-10-21 after the point-in-time backtest (backtest_pit.py,
+# reports/backtest_pit.json): on 862 fights with closing lines, the honest
+# model added nothing to the market, and the old 0.4 weight made the consensus
+# WORSE than the market alone (Brier 0.201 vs 0.196). The earlier "blend beats
+# market" result came from lookahead-leaked stats. Raise this only after a
+# model beats the market on point-in-time data.
+MARKET_BLEND_MODEL_WEIGHT = _float("MARKET_BLEND_MODEL_WEIGHT", 0.0)
+
+# Kill switch for every model-derived betting signal: value_bet flags and the
+# parlay engine. On while no model beats the market on the point-in-time
+# backtest (same 2026-10-21 finding: the model picked a different winner than
+# the market on 268 fights and was right on 38% of them). Set
+# MODEL_EDGE_SUSPENDED=0 to re-enable once one does.
+MODEL_EDGE_SUSPENDED = os.environ.get("MODEL_EDGE_SUSPENDED", "1") != "0"
+MODEL_EDGE_SUSPENDED_NOTE = (
+    "Value bets and parlays suspended: on point-in-time stats the model "
+    "doesn't beat the betting market (see reports/backtest_pit.json).")
 
 # ── Calibration prior ─────────────────────────────────────────────────────
 # Confidence-shrink λ to use BEFORE the live ledger has enough resolved

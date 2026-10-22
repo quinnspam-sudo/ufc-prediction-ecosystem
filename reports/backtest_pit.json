@@ -1,0 +1,376 @@
+{
+  "note": "Same simulator for every variant; only the stat source differs. Each fight averaged over both A/B orders.",
+  "since": "2024-04-13",
+  "iterations_per_order": 2500,
+  "fights_in_store": 1328,
+  "all_fights": {
+    "pit": {
+      "n": 1134,
+      "winner_accuracy_pct": 60.6,
+      "brier": 0.2702,
+      "log_loss": 0.7749,
+      "accuracy_by_confidence": {
+        "50-60": {
+          "n": 140,
+          "accuracy_pct": 51.4
+        },
+        "60-70": {
+          "n": 151,
+          "accuracy_pct": 60.9
+        },
+        "70-80": {
+          "n": 284,
+          "accuracy_pct": 59.2
+        },
+        "80+": {
+          "n": 559,
+          "accuracy_pct": 63.5
+        }
+      },
+      "fitted_lambda": 0.4,
+      "brier_at_lambda": 0.2367,
+      "method_accuracy_pct": 51.7,
+      "distance_accuracy_pct": 56.5
+    },
+    "pit_shrunk": {
+      "n": 1134,
+      "winner_accuracy_pct": 61.0,
+      "brier": 0.2517,
+      "log_loss": 0.7105,
+      "accuracy_by_confidence": {
+        "50-60": {
+          "n": 187,
+          "accuracy_pct": 54.0
+        },
+        "60-70": {
+          "n": 203,
+          "accuracy_pct": 54.7
+        },
+        "70-80": {
+          "n": 332,
+          "accuracy_pct": 59.9
+        },
+        "80+": {
+          "n": 412,
+          "accuracy_pct": 68.2
+        }
+      },
+      "fitted_lambda": 0.5,
+      "brier_at_lambda": 0.2336,
+      "method_accuracy_pct": 51.7,
+      "distance_accuracy_pct": 55.4
+    },
+    "leaky": {
+      "n": 1134,
+      "winner_accuracy_pct": 68.0,
+      "brier": 0.2169,
+      "log_loss": 0.6271,
+      "accuracy_by_confidence": {
+        "50-60": {
+          "n": 148,
+          "accuracy_pct": 57.4
+        },
+        "60-70": {
+          "n": 162,
+          "accuracy_pct": 52.5
+        },
+        "70-80": {
+          "n": 276,
+          "accuracy_pct": 68.1
+        },
+        "80+": {
+          "n": 548,
+          "accuracy_pct": 75.4
+        }
+      },
+      "fitted_lambda": 0.7,
+      "brier_at_lambda": 0.2092,
+      "method_accuracy_pct": 53.0,
+      "distance_accuracy_pct": 55.5
+    }
+  },
+  "debut_fights": {
+    "pit": {
+      "n": 187,
+      "winner_accuracy_pct": 57.2,
+      "brier": 0.2804,
+      "log_loss": 0.7989,
+      "accuracy_by_confidence": {
+        "50-60": {
+          "n": 50,
+          "accuracy_pct": 58.0
+        },
+        "60-70": {
+          "n": 23,
+          "accuracy_pct": 47.8
+        },
+        "70-80": {
+          "n": 40,
+          "accuracy_pct": 52.5
+        },
+        "80+": {
+          "n": 74,
+          "accuracy_pct": 62.2
+        }
+      },
+      "fitted_lambda": 0.3,
+      "brier_at_lambda": 0.2439,
+      "method_accuracy_pct": 43.9,
+      "distance_accuracy_pct": 48.1
+    },
+    "pit_shrunk": {
+      "n": 187,
+      "winner_accuracy_pct": 55.6,
+      "brier": 0.2578,
+      "log_loss": 0.7171,
+      "accuracy_by_confidence": {
+        "50-60": {
+          "n": 57,
+          "accuracy_pct": 49.1
+        },
+        "60-70": {
+          "n": 42,
+          "accuracy_pct": 54.8
+        },
+        "70-80": {
+          "n": 53,
+          "accuracy_pct": 56.6
+        },
+        "80+": {
+          "n": 35,
+          "accuracy_pct": 65.7
+        }
+      },
+      "fitted_lambda": 0.4,
+      "brier_at_lambda": 0.242,
+      "method_accuracy_pct": 43.9,
+      "distance_accuracy_pct": 43.9
+    },
+    "leaky": {
+      "n": 187,
+      "winner_accuracy_pct": 75.4,
+      "brier": 0.1753,
+      "log_loss": 0.5245,
+      "accuracy_by_confidence": {
+        "50-60": {
+          "n": 8,
+          "accuracy_pct": 37.5
+        },
+        "60-70": {
+          "n": 18,
+          "accuracy_pct": 66.7
+        },
+        "70-80": {
+          "n": 36,
+          "accuracy_pct": 66.7
+        },
+        "80+": {
+          "n": 125,
+          "accuracy_pct": 81.6
+        }
+      },
+      "fitted_lambda": 0.85,
+      "brier_at_lambda": 0.1723,
+      "method_accuracy_pct": 46.0,
+      "distance_accuracy_pct": 50.3
+    }
+  },
+  "veteran_fights": {
+    "pit": {
+      "n": 947,
+      "winner_accuracy_pct": 61.2,
+      "brier": 0.2682,
+      "log_loss": 0.7701,
+      "accuracy_by_confidence": {
+        "50-60": {
+          "n": 90,
+          "accuracy_pct": 47.8
+        },
+        "60-70": {
+          "n": 128,
+          "accuracy_pct": 63.3
+        },
+        "70-80": {
+          "n": 244,
+          "accuracy_pct": 60.2
+        },
+        "80+": {
+          "n": 485,
+          "accuracy_pct": 63.7
+        }
+      },
+      "fitted_lambda": 0.4,
+      "brier_at_lambda": 0.2351,
+      "method_accuracy_pct": 53.3,
+      "distance_accuracy_pct": 58.1
+    },
+    "pit_shrunk": {
+      "n": 947,
+      "winner_accuracy_pct": 62.1,
+      "brier": 0.2505,
+      "log_loss": 0.7091,
+      "accuracy_by_confidence": {
+        "50-60": {
+          "n": 130,
+          "accuracy_pct": 56.2
+        },
+        "60-70": {
+          "n": 161,
+          "accuracy_pct": 54.7
+        },
+        "70-80": {
+          "n": 279,
+          "accuracy_pct": 60.6
+        },
+        "80+": {
+          "n": 377,
+          "accuracy_pct": 68.4
+        }
+      },
+      "fitted_lambda": 0.5,
+      "brier_at_lambda": 0.2319,
+      "method_accuracy_pct": 53.3,
+      "distance_accuracy_pct": 57.7
+    },
+    "leaky": {
+      "n": 947,
+      "winner_accuracy_pct": 66.5,
+      "brier": 0.2251,
+      "log_loss": 0.6474,
+      "accuracy_by_confidence": {
+        "50-60": {
+          "n": 140,
+          "accuracy_pct": 58.6
+        },
+        "60-70": {
+          "n": 144,
+          "accuracy_pct": 50.7
+        },
+        "70-80": {
+          "n": 240,
+          "accuracy_pct": 68.3
+        },
+        "80+": {
+          "n": 423,
+          "accuracy_pct": 73.5
+        }
+      },
+      "fitted_lambda": 0.65,
+      "brier_at_lambda": 0.2159,
+      "method_accuracy_pct": 54.4,
+      "distance_accuracy_pct": 56.6
+    }
+  },
+  "vs_market": {
+    "pit": {
+      "n": 862,
+      "winner_accuracy_pct": 61.9,
+      "brier": 0.2615,
+      "log_loss": 0.7538,
+      "accuracy_by_confidence": {
+        "50-60": {
+          "n": 104,
+          "accuracy_pct": 50.0
+        },
+        "60-70": {
+          "n": 115,
+          "accuracy_pct": 62.6
+        },
+        "70-80": {
+          "n": 214,
+          "accuracy_pct": 60.7
+        },
+        "80+": {
+          "n": 429,
+          "accuracy_pct": 65.3
+        }
+      },
+      "fitted_lambda": 0.45,
+      "brier_at_lambda": 0.2331,
+      "method_accuracy_pct": 52.4,
+      "distance_accuracy_pct": 56.4
+    },
+    "pit_shrunk": {
+      "n": 862,
+      "winner_accuracy_pct": 62.8,
+      "brier": 0.2425,
+      "log_loss": 0.6889,
+      "accuracy_by_confidence": {
+        "50-60": {
+          "n": 138,
+          "accuracy_pct": 55.8
+        },
+        "60-70": {
+          "n": 158,
+          "accuracy_pct": 53.8
+        },
+        "70-80": {
+          "n": 244,
+          "accuracy_pct": 61.9
+        },
+        "80+": {
+          "n": 322,
+          "accuracy_pct": 70.8
+        }
+      },
+      "fitted_lambda": 0.55,
+      "brier_at_lambda": 0.2286,
+      "method_accuracy_pct": 52.4,
+      "distance_accuracy_pct": 55.8
+    },
+    "leaky": {
+      "n": 862,
+      "winner_accuracy_pct": 68.4,
+      "brier": 0.2129,
+      "log_loss": 0.6185,
+      "accuracy_by_confidence": {
+        "50-60": {
+          "n": 113,
+          "accuracy_pct": 53.1
+        },
+        "60-70": {
+          "n": 122,
+          "accuracy_pct": 54.9
+        },
+        "70-80": {
+          "n": 214,
+          "accuracy_pct": 70.1
+        },
+        "80+": {
+          "n": 413,
+          "accuracy_pct": 75.8
+        }
+      },
+      "fitted_lambda": 0.7,
+      "brier_at_lambda": 0.2065,
+      "method_accuracy_pct": 53.7,
+      "distance_accuracy_pct": 55.9
+    },
+    "market": {
+      "n": 862,
+      "winner_accuracy_pct": 70.2,
+      "brier": 0.1964,
+      "log_loss": 0.5768,
+      "accuracy_by_confidence": {
+        "50-60": {
+          "n": 237,
+          "accuracy_pct": 58.2
+        },
+        "60-70": {
+          "n": 287,
+          "accuracy_pct": 65.9
+        },
+        "70-80": {
+          "n": 221,
+          "accuracy_pct": 77.4
+        },
+        "80+": {
+          "n": 117,
+          "accuracy_pct": 91.5
+        }
+      },
+      "fitted_lambda": 1.0,
+      "brier_at_lambda": 0.1964
+    }
+  }
+}

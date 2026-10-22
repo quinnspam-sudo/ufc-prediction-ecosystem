@@ -187,7 +187,8 @@ def build_report(result: SimulationResult, odds: MatchupOdds) -> Dict:
             "kelly_fraction_half": round(max(0.0, kelly) / 2, 4),
             "model_sees_value": model_sees_value,
             "consensus_agrees": consensus_agrees,
-            "value_bet": bool(model_sees_value and consensus_agrees),
+            "value_bet": bool(model_sees_value and consensus_agrees
+                              and not config.MODEL_EDGE_SUSPENDED),
         }
 
     report = {
@@ -239,6 +240,9 @@ def build_report(result: SimulationResult, odds: MatchupOdds) -> Dict:
                                      odds.fighter_b_moneyline),
         },
     }
+    if config.MODEL_EDGE_SUSPENDED:
+        report["value_betting"]["suspended"] = True
+        report["value_betting"]["note"] = config.MODEL_EDGE_SUSPENDED_NOTE
     return report
 
 
@@ -356,5 +360,7 @@ def render_cli(report: Dict) -> str:
         "market-blended consensus.\n  ◇ model only = model edge the consensus "
         "rejects — informational, not a bet signal."
     )
+    if vb.get("suspended"):
+        blocks.append(f"  ⚠ {vb['note']}")
 
     return "\n".join(blocks)
