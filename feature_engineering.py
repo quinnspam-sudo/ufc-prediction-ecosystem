@@ -28,9 +28,6 @@ from typing import Tuple
 
 from data_ingestion import FighterRawStats, WEIGHT_CLASSES
 
-# Reference date used for layoff computation. In production, pass the actual
-# scheduled fight date. Kept as a module constant so results are reproducible.
-REFERENCE_FIGHT_DATE = date(2026, 7, 15)
 
 
 # ---------------------------------------------------------------------------
@@ -272,9 +269,11 @@ def _finish_propensity(s: FighterRawStats) -> Tuple[float, float]:
 
 
 def _days_since_last_fight(s: FighterRawStats) -> int:
+    """Layoff measured to THIS bout's date (s.fight_date; today if unset)."""
     try:
-        y, m, d = (int(x) for x in s.last_fight_date.split("-"))
-        return (REFERENCE_FIGHT_DATE - date(y, m, d)).days
+        last = date.fromisoformat(s.last_fight_date[:10])
+        bout = date.fromisoformat(s.fight_date[:10]) if s.fight_date else date.today()
+        return max(0, (bout - last).days)
     except Exception:
         return 0
 
@@ -371,12 +370,7 @@ def _rust_variance(s: FighterRawStats) -> float:
     fighters are less predictable, not strictly worse. Returned as an extra
     std-dev added to the per-round dominance noise.
     """
-    try:
-        y, m, d = (int(x) for x in s.last_fight_date.split("-"))
-        last = date(y, m, d)
-    except Exception:
-        return 0.0
-    days_off = (REFERENCE_FIGHT_DATE - last).days
+    days_off = _days_since_last_fight(s)
     if days_off <= LAYOFF_RUST_DAYS:
         return 0.0
     # Scale: every extra 180 days beyond a year adds ~0.05 std-dev, capped.

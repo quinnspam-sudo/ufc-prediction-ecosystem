@@ -119,6 +119,10 @@ class FighterRawStats:
     # under-modeled factor) unless the fighter trains at altitude.
     venue_elevation_ft: float = 0.0
     trains_at_altitude: bool = False        # camp at >~4000ft negates the tax
+    # ISO date of THIS bout. Layoff, ring rust and stat staleness are measured
+    # from it; empty means "today" (fine for an upcoming card, wrong for a
+    # backtest — backtests must always set it).
+    fight_date: str = ""
 
     # --- Live health / status (auto-populated by the update pipeline) ------
     # These are refreshed by sources/injury_news.py + sources/espn_results.py.

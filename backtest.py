@@ -266,6 +266,7 @@ def _build_raw(fd: Dict[str, Any], name: str, wc: str, fight_date: str):
         career_sub_wins=sum(1 for h in wins if h["method"] == "Submission"),
         round_strike_output=[55, 53, 51, 49, 47],
         last_fight_date=last_before,
+        fight_date=fight_date,
     )
 
 

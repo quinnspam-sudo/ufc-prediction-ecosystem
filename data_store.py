@@ -199,10 +199,10 @@ def add_discovered(state: Dict[str, Any],
         added_f.append(key)
 
     # Existing matchup pairs (by normalized fighter names).
-    existing_pairs = set()
+    existing_pairs = {}
     for m in state["matchups"]:
-        existing_pairs.add(frozenset((_norm_name(_display(state, m["a"])),
-                                      _norm_name(_display(state, m["b"])))))
+        existing_pairs[frozenset((_norm_name(_display(state, m["a"])),
+                                  _norm_name(_display(state, m["b"]))))] = m
 
     for m in new_matchups:
         a_key = keymap.get(m["a"], m["a"])
@@ -210,12 +210,17 @@ def add_discovered(state: Dict[str, Any],
         pair = frozenset((_norm_name(_display(state, a_key)),
                           _norm_name(_display(state, b_key))))
         if pair in existing_pairs:
-            continue                                  # already tracked (e.g. curated)
+            # Already tracked (e.g. curated) — but keep its bout date current,
+            # since layoff/rust are measured to it.
+            known = existing_pairs[pair]
+            if m.get("date") and known.get("date") != m["date"]:
+                known["date"] = m["date"]
+            continue
         entry = {k: v for k, v in m.items() if k not in ("a", "b")}
         entry["a"] = a_key
         entry["b"] = b_key
         state["matchups"].append(entry)
-        existing_pairs.add(pair)
+        existing_pairs[pair] = entry
         added_m.append(entry.get("label"))
 
     return added_f, added_m

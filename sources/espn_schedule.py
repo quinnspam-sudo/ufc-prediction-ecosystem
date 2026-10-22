@@ -133,6 +133,8 @@ class EspnScheduleSource(Source):
                 res.new_matchups.append({
                     "a": a_key, "b": b_key, "rounds": rounds, "label": label,
                     "weight_class": wc, "event": ev_name,
+                    # Bout date (UTC day) — layoff/rust are measured to it.
+                    "date": (comp.get("date") or ev.get("date") or "")[:10],
                 })
 
                 # Venue elevation: patch BOTH fighters (covers pre-existing

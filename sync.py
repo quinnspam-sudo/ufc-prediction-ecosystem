@@ -104,6 +104,7 @@ def _predict_matchup(state: Dict[str, Any], m: Dict[str, Any],
     """Run the full pipeline for one matchup dict and return the report."""
     a_raw = ds.state_fighter_to_raw(state["fighters"][m["a"]])
     b_raw = ds.state_fighter_to_raw(state["fighters"][m["b"]])
+    a_raw.fight_date = b_raw.fight_date = m.get("date", "")   # "" -> today
     # A valid American line is never inside (-100, +100); older state may hold
     # a bad consensus (e.g. 0), so treat it as no market rather than crash.
     has_market = all(abs(int(m.get(k, 0))) >= 100 for k in ("a_ml", "b_ml"))

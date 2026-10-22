@@ -86,6 +86,7 @@ def _pit_raw(snap: Dict, fighter: Dict, wc: str, shrunk: bool) -> FighterRawStat
         career_sub_wins=snap["sub_wins"],
         round_strike_output=[55, 53, 51, 49, 47],
         last_fight_date=snap["last_fight_date"] or "2023-01-01",
+        fight_date=snap["as_of"],
     )
 
 

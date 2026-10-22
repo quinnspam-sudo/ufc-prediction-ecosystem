@@ -7,256 +7,256 @@
     "pit": {
       "n": 1134,
       "winner_accuracy_pct": 60.6,
-      "brier": 0.2702,
-      "log_loss": 0.7749,
+      "brier": 0.2742,
+      "log_loss": 0.7894,
       "accuracy_by_confidence": {
         "50-60": {
-          "n": 140,
-          "accuracy_pct": 51.4
+          "n": 113,
+          "accuracy_pct": 54.0
         },
         "60-70": {
-          "n": 151,
-          "accuracy_pct": 60.9
+          "n": 143,
+          "accuracy_pct": 55.9
         },
         "70-80": {
-          "n": 284,
-          "accuracy_pct": 59.2
+          "n": 278,
+          "accuracy_pct": 59.0
         },
         "80+": {
-          "n": 559,
-          "accuracy_pct": 63.5
+          "n": 600,
+          "accuracy_pct": 63.7
         }
       },
-      "fitted_lambda": 0.4,
-      "brier_at_lambda": 0.2367,
-      "method_accuracy_pct": 51.7,
-      "distance_accuracy_pct": 56.5
+      "fitted_lambda": 0.35,
+      "brier_at_lambda": 0.237,
+      "method_accuracy_pct": 51.9,
+      "distance_accuracy_pct": 56.7
     },
     "pit_shrunk": {
       "n": 1134,
       "winner_accuracy_pct": 61.0,
-      "brier": 0.2517,
-      "log_loss": 0.7105,
+      "brier": 0.2562,
+      "log_loss": 0.7243,
       "accuracy_by_confidence": {
         "50-60": {
-          "n": 187,
-          "accuracy_pct": 54.0
+          "n": 150,
+          "accuracy_pct": 51.3
         },
         "60-70": {
-          "n": 203,
-          "accuracy_pct": 54.7
+          "n": 176,
+          "accuracy_pct": 53.4
         },
         "70-80": {
-          "n": 332,
-          "accuracy_pct": 59.9
+          "n": 334,
+          "accuracy_pct": 61.4
         },
         "80+": {
-          "n": 412,
-          "accuracy_pct": 68.2
+          "n": 474,
+          "accuracy_pct": 66.7
         }
       },
-      "fitted_lambda": 0.5,
-      "brier_at_lambda": 0.2336,
+      "fitted_lambda": 0.45,
+      "brier_at_lambda": 0.234,
       "method_accuracy_pct": 51.7,
       "distance_accuracy_pct": 55.4
     },
     "leaky": {
       "n": 1134,
-      "winner_accuracy_pct": 68.0,
-      "brier": 0.2169,
-      "log_loss": 0.6271,
+      "winner_accuracy_pct": 67.7,
+      "brier": 0.2215,
+      "log_loss": 0.6417,
       "accuracy_by_confidence": {
         "50-60": {
-          "n": 148,
-          "accuracy_pct": 57.4
+          "n": 114,
+          "accuracy_pct": 55.3
         },
         "60-70": {
-          "n": 162,
-          "accuracy_pct": 52.5
+          "n": 137,
+          "accuracy_pct": 55.5
         },
         "70-80": {
-          "n": 276,
-          "accuracy_pct": 68.1
+          "n": 233,
+          "accuracy_pct": 60.1
         },
         "80+": {
-          "n": 548,
-          "accuracy_pct": 75.4
+          "n": 650,
+          "accuracy_pct": 75.2
         }
       },
-      "fitted_lambda": 0.7,
-      "brier_at_lambda": 0.2092,
+      "fitted_lambda": 0.65,
+      "brier_at_lambda": 0.2099,
       "method_accuracy_pct": 53.0,
-      "distance_accuracy_pct": 55.5
+      "distance_accuracy_pct": 55.6
     }
   },
   "debut_fights": {
     "pit": {
       "n": 187,
-      "winner_accuracy_pct": 57.2,
-      "brier": 0.2804,
-      "log_loss": 0.7989,
+      "winner_accuracy_pct": 56.7,
+      "brier": 0.2863,
+      "log_loss": 0.8182,
       "accuracy_by_confidence": {
         "50-60": {
-          "n": 50,
-          "accuracy_pct": 58.0
+          "n": 41,
+          "accuracy_pct": 61.0
         },
         "60-70": {
-          "n": 23,
-          "accuracy_pct": 47.8
+          "n": 28,
+          "accuracy_pct": 39.3
         },
         "70-80": {
-          "n": 40,
-          "accuracy_pct": 52.5
+          "n": 34,
+          "accuracy_pct": 50.0
         },
         "80+": {
-          "n": 74,
-          "accuracy_pct": 62.2
+          "n": 84,
+          "accuracy_pct": 63.1
         }
       },
-      "fitted_lambda": 0.3,
-      "brier_at_lambda": 0.2439,
-      "method_accuracy_pct": 43.9,
-      "distance_accuracy_pct": 48.1
+      "fitted_lambda": 0.25,
+      "brier_at_lambda": 0.2444,
+      "method_accuracy_pct": 43.3,
+      "distance_accuracy_pct": 47.6
     },
     "pit_shrunk": {
       "n": 187,
-      "winner_accuracy_pct": 55.6,
-      "brier": 0.2578,
-      "log_loss": 0.7171,
+      "winner_accuracy_pct": 54.5,
+      "brier": 0.2656,
+      "log_loss": 0.7387,
       "accuracy_by_confidence": {
         "50-60": {
-          "n": 57,
-          "accuracy_pct": 49.1
+          "n": 49,
+          "accuracy_pct": 42.9
         },
         "60-70": {
-          "n": 42,
-          "accuracy_pct": 54.8
+          "n": 37,
+          "accuracy_pct": 51.4
         },
         "70-80": {
-          "n": 53,
-          "accuracy_pct": 56.6
+          "n": 57,
+          "accuracy_pct": 59.6
         },
         "80+": {
-          "n": 35,
-          "accuracy_pct": 65.7
+          "n": 44,
+          "accuracy_pct": 63.6
         }
       },
-      "fitted_lambda": 0.4,
-      "brier_at_lambda": 0.242,
+      "fitted_lambda": 0.35,
+      "brier_at_lambda": 0.2432,
       "method_accuracy_pct": 43.9,
       "distance_accuracy_pct": 43.9
     },
     "leaky": {
       "n": 187,
       "winner_accuracy_pct": 75.4,
-      "brier": 0.1753,
-      "log_loss": 0.5245,
+      "brier": 0.1785,
+      "log_loss": 0.5338,
       "accuracy_by_confidence": {
         "50-60": {
-          "n": 8,
-          "accuracy_pct": 37.5
+          "n": 3,
+          "accuracy_pct": 33.3
         },
         "60-70": {
-          "n": 18,
-          "accuracy_pct": 66.7
+          "n": 17,
+          "accuracy_pct": 70.6
         },
         "70-80": {
-          "n": 36,
-          "accuracy_pct": 66.7
+          "n": 30,
+          "accuracy_pct": 56.7
         },
         "80+": {
-          "n": 125,
-          "accuracy_pct": 81.6
+          "n": 137,
+          "accuracy_pct": 81.0
         }
       },
-      "fitted_lambda": 0.85,
-      "brier_at_lambda": 0.1723,
+      "fitted_lambda": 0.8,
+      "brier_at_lambda": 0.1732,
       "method_accuracy_pct": 46.0,
-      "distance_accuracy_pct": 50.3
+      "distance_accuracy_pct": 50.8
     }
   },
   "veteran_fights": {
     "pit": {
       "n": 947,
-      "winner_accuracy_pct": 61.2,
-      "brier": 0.2682,
-      "log_loss": 0.7701,
+      "winner_accuracy_pct": 61.4,
+      "brier": 0.2718,
+      "log_loss": 0.7838,
       "accuracy_by_confidence": {
         "50-60": {
-          "n": 90,
-          "accuracy_pct": 47.8
+          "n": 72,
+          "accuracy_pct": 50.0
         },
         "60-70": {
-          "n": 128,
-          "accuracy_pct": 63.3
+          "n": 115,
+          "accuracy_pct": 60.0
         },
         "70-80": {
           "n": 244,
           "accuracy_pct": 60.2
         },
         "80+": {
-          "n": 485,
-          "accuracy_pct": 63.7
+          "n": 516,
+          "accuracy_pct": 63.8
         }
       },
       "fitted_lambda": 0.4,
-      "brier_at_lambda": 0.2351,
-      "method_accuracy_pct": 53.3,
-      "distance_accuracy_pct": 58.1
+      "brier_at_lambda": 0.2353,
+      "method_accuracy_pct": 53.6,
+      "distance_accuracy_pct": 58.5
     },
     "pit_shrunk": {
       "n": 947,
-      "winner_accuracy_pct": 62.1,
-      "brier": 0.2505,
-      "log_loss": 0.7091,
+      "winner_accuracy_pct": 62.3,
+      "brier": 0.2543,
+      "log_loss": 0.7214,
       "accuracy_by_confidence": {
         "50-60": {
-          "n": 130,
-          "accuracy_pct": 56.2
+          "n": 101,
+          "accuracy_pct": 55.4
         },
         "60-70": {
-          "n": 161,
-          "accuracy_pct": 54.7
+          "n": 139,
+          "accuracy_pct": 54.0
         },
         "70-80": {
-          "n": 279,
-          "accuracy_pct": 60.6
+          "n": 277,
+          "accuracy_pct": 61.7
         },
         "80+": {
-          "n": 377,
-          "accuracy_pct": 68.4
+          "n": 430,
+          "accuracy_pct": 67.0
         }
       },
-      "fitted_lambda": 0.5,
-      "brier_at_lambda": 0.2319,
+      "fitted_lambda": 0.45,
+      "brier_at_lambda": 0.232,
       "method_accuracy_pct": 53.3,
       "distance_accuracy_pct": 57.7
     },
     "leaky": {
       "n": 947,
-      "winner_accuracy_pct": 66.5,
-      "brier": 0.2251,
-      "log_loss": 0.6474,
+      "winner_accuracy_pct": 66.2,
+      "brier": 0.2299,
+      "log_loss": 0.663,
       "accuracy_by_confidence": {
         "50-60": {
-          "n": 140,
-          "accuracy_pct": 58.6
+          "n": 111,
+          "accuracy_pct": 55.9
         },
         "60-70": {
-          "n": 144,
-          "accuracy_pct": 50.7
+          "n": 120,
+          "accuracy_pct": 53.3
         },
         "70-80": {
-          "n": 240,
-          "accuracy_pct": 68.3
+          "n": 203,
+          "accuracy_pct": 60.6
         },
         "80+": {
-          "n": 423,
-          "accuracy_pct": 73.5
+          "n": 513,
+          "accuracy_pct": 73.7
         }
       },
-      "fitted_lambda": 0.65,
-      "brier_at_lambda": 0.2159,
+      "fitted_lambda": 0.6,
+      "brier_at_lambda": 0.2166,
       "method_accuracy_pct": 54.4,
       "distance_accuracy_pct": 56.6
     }
@@ -264,87 +264,87 @@
   "vs_market": {
     "pit": {
       "n": 862,
-      "winner_accuracy_pct": 61.9,
-      "brier": 0.2615,
-      "log_loss": 0.7538,
+      "winner_accuracy_pct": 61.8,
+      "brier": 0.2656,
+      "log_loss": 0.7684,
       "accuracy_by_confidence": {
         "50-60": {
-          "n": 104,
-          "accuracy_pct": 50.0
+          "n": 82,
+          "accuracy_pct": 51.2
         },
         "60-70": {
-          "n": 115,
-          "accuracy_pct": 62.6
+          "n": 111,
+          "accuracy_pct": 58.6
         },
         "70-80": {
-          "n": 214,
-          "accuracy_pct": 60.7
+          "n": 210,
+          "accuracy_pct": 60.0
         },
         "80+": {
-          "n": 429,
-          "accuracy_pct": 65.3
+          "n": 459,
+          "accuracy_pct": 65.4
         }
       },
-      "fitted_lambda": 0.45,
-      "brier_at_lambda": 0.2331,
-      "method_accuracy_pct": 52.4,
+      "fitted_lambda": 0.4,
+      "brier_at_lambda": 0.2334,
+      "method_accuracy_pct": 52.8,
       "distance_accuracy_pct": 56.4
     },
     "pit_shrunk": {
       "n": 862,
-      "winner_accuracy_pct": 62.8,
-      "brier": 0.2425,
-      "log_loss": 0.6889,
+      "winner_accuracy_pct": 62.5,
+      "brier": 0.2471,
+      "log_loss": 0.7031,
       "accuracy_by_confidence": {
         "50-60": {
-          "n": 138,
-          "accuracy_pct": 55.8
+          "n": 114,
+          "accuracy_pct": 51.8
         },
         "60-70": {
-          "n": 158,
-          "accuracy_pct": 53.8
+          "n": 128,
+          "accuracy_pct": 52.3
         },
         "70-80": {
-          "n": 244,
-          "accuracy_pct": 61.9
+          "n": 249,
+          "accuracy_pct": 62.2
         },
         "80+": {
-          "n": 322,
-          "accuracy_pct": 70.8
+          "n": 371,
+          "accuracy_pct": 69.5
         }
       },
-      "fitted_lambda": 0.55,
-      "brier_at_lambda": 0.2286,
+      "fitted_lambda": 0.5,
+      "brier_at_lambda": 0.2292,
       "method_accuracy_pct": 52.4,
       "distance_accuracy_pct": 55.8
     },
     "leaky": {
       "n": 862,
-      "winner_accuracy_pct": 68.4,
-      "brier": 0.2129,
-      "log_loss": 0.6185,
+      "winner_accuracy_pct": 68.0,
+      "brier": 0.2175,
+      "log_loss": 0.6335,
       "accuracy_by_confidence": {
         "50-60": {
-          "n": 113,
-          "accuracy_pct": 53.1
+          "n": 86,
+          "accuracy_pct": 50.0
         },
         "60-70": {
-          "n": 122,
-          "accuracy_pct": 54.9
+          "n": 101,
+          "accuracy_pct": 53.5
         },
         "70-80": {
-          "n": 214,
-          "accuracy_pct": 70.1
+          "n": 177,
+          "accuracy_pct": 63.3
         },
         "80+": {
-          "n": 413,
-          "accuracy_pct": 75.8
+          "n": 498,
+          "accuracy_pct": 75.7
         }
       },
-      "fitted_lambda": 0.7,
-      "brier_at_lambda": 0.2065,
+      "fitted_lambda": 0.65,
+      "brier_at_lambda": 0.2072,
       "method_accuracy_pct": 53.7,
-      "distance_accuracy_pct": 55.9
+      "distance_accuracy_pct": 56.1
     },
     "market": {
       "n": 862,
