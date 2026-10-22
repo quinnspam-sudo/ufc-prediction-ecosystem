@@ -12,7 +12,9 @@ Endpoint:
 
 We match each event's two competitors against watched matchups (by fighter
 display name) and emit an odds update {a_ml, b_ml} for the matching label.
-Consensus line = median across returned bookmakers.
+Consensus line = median implied probability across returned bookmakers,
+converted back to American odds (a raw median of American prices is wrong:
+with an even book count, -110 and +105 average to ~0, which is not a line).
 """
 
 from __future__ import annotations
@@ -32,6 +34,22 @@ ODDS_URL = ("https://api.the-odds-api.com/v4/sports/"
 
 def _norm(name: str) -> str:
     return " ".join(name.lower().replace(".", "").split())
+
+
+def _consensus_moneyline(prices: List[int]) -> int:
+    """Median of the books' implied probabilities, as an American moneyline."""
+    probs = []
+    for ml in prices:
+        if ml >= 100:
+            probs.append(100.0 / (ml + 100.0))
+        elif ml <= -100:
+            probs.append(-ml / (-ml + 100.0))
+    if not probs:
+        raise ValueError("no valid American prices")
+    p = statistics.median(probs)
+    if p >= 0.5:
+        return -round(100.0 * p / (1.0 - p))
+    return round(100.0 * (1.0 - p) / p)
 
 
 def _budget_check(state: Dict[str, Any], res: SourceResult) -> bool:
@@ -163,8 +181,11 @@ class OddsApiSource(Source):
             if not a_prices or not b_prices:
                 continue
 
-            a_ml = int(statistics.median(a_prices))
-            b_ml = int(statistics.median(b_prices))
+            try:
+                a_ml = _consensus_moneyline(a_prices)
+                b_ml = _consensus_moneyline(b_prices)
+            except ValueError:
+                continue
             label = match.get("label", f"{match['a']} vs {match['b']}")
             res.odds[label] = {"a_ml": a_ml, "b_ml": b_ml}
             res.events.append({

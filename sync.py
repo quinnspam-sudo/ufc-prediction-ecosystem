@@ -103,14 +103,17 @@ def _predict_matchup(state: Dict[str, Any], m: Dict[str, Any],
     """Run the full pipeline for one matchup dict and return the report."""
     a_raw = ds.state_fighter_to_raw(state["fighters"][m["a"]])
     b_raw = ds.state_fighter_to_raw(state["fighters"][m["b"]])
+    # A valid American line is never inside (-100, +100); older state may hold
+    # a bad consensus (e.g. 0), so treat it as no market rather than crash.
+    has_market = all(abs(int(m.get(k, 0))) >= 100 for k in ("a_ml", "b_ml"))
     odds = MatchupOdds(
-        fighter_a_moneyline=int(m.get("a_ml", -110)),
-        fighter_b_moneyline=int(m.get("b_ml", -110)),
+        fighter_a_moneyline=int(m["a_ml"]) if has_market else -110,
+        fighter_b_moneyline=int(m["b_ml"]) if has_market else -110,
         scheduled_rounds=int(m.get("rounds", 3)),
         is_title_fight=bool(m.get("is_title_fight", False)),
         # Only blend the model with the market when a real odds feed has
         # priced this bout — never against the -110/-110 placeholder.
-        is_real_market=bool("a_ml" in m and "b_ml" in m),
+        is_real_market=has_market,
     )
     needs_stats = (state["fighters"][m["a"]].get("needs_stats")
                    or state["fighters"][m["b"]].get("needs_stats"))
