@@ -24,10 +24,10 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 61.53,
-    "fighter_b_pct": 38.47,
-    "draw_pct": 3.15,
-    "calibration_shrink_applied": 0.6
+    "fighter_a_pct": 62.8,
+    "fighter_b_pct": 37.2,
+    "draw_pct": 3.69,
+    "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
     "applied": true,
@@ -40,20 +40,20 @@
     "fighter_a": {
       "KO/TKO": 19.28,
       "Submission": 8.65,
-      "Unanimous Decision": 33.86,
-      "Split/Majority Decision": 5.24
+      "Unanimous Decision": 32.85,
+      "Split/Majority Decision": 4.98
     },
     "fighter_b": {
       "KO/TKO": 8.68,
       "Submission": 14.56,
-      "Unanimous Decision": 3.68,
-      "Split/Majority Decision": 2.9
+      "Unanimous Decision": 4.42,
+      "Split/Majority Decision": 2.89
     }
   },
   "fight_level": {
     "ko_tko_pct": 27.96,
     "submission_pct": 23.21,
-    "decision_pct": 45.68,
+    "decision_pct": 45.14,
     "goes_the_distance_pct": 48.83,
     "expected_fight_minutes": 10.86
   },
@@ -74,11 +74,11 @@
       "market_moneyline": -106,
       "market_decimal_odds": 1.943,
       "market_implied_prob_pct": 51.46,
-      "model_win_prob_pct": 61.53,
-      "edge_pct": 10.07,
+      "model_win_prob_pct": 62.8,
+      "edge_pct": 11.34,
       "consensus_edge_pct": -2.22,
-      "kelly_fraction_full": 0.2074,
-      "kelly_fraction_half": 0.1037,
+      "kelly_fraction_full": 0.2336,
+      "kelly_fraction_half": 0.1168,
       "model_sees_value": true,
       "consensus_agrees": false,
       "value_bet": false
@@ -87,10 +87,10 @@
       "market_moneyline": -113,
       "market_decimal_odds": 1.885,
       "market_implied_prob_pct": 53.05,
-      "model_win_prob_pct": 38.47,
-      "edge_pct": -14.58,
+      "model_win_prob_pct": 37.2,
+      "edge_pct": -15.85,
       "consensus_edge_pct": -2.29,
-      "kelly_fraction_full": -0.3105,
+      "kelly_fraction_full": -0.3376,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,

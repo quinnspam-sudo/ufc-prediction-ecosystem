@@ -24,10 +24,10 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 28.65,
-    "fighter_b_pct": 71.35,
-    "draw_pct": 1.89,
-    "calibration_shrink_applied": 0.6
+    "fighter_a_pct": 25.42,
+    "fighter_b_pct": 74.58,
+    "draw_pct": 2.14,
+    "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
     "applied": true,
@@ -40,20 +40,20 @@
     "fighter_a": {
       "KO/TKO": 8.96,
       "Submission": 2.86,
-      "Unanimous Decision": 1.21,
-      "Split/Majority Decision": 1.12
+      "Unanimous Decision": 1.43,
+      "Split/Majority Decision": 1.32
     },
     "fighter_b": {
       "KO/TKO": 13.75,
       "Submission": 6.27,
-      "Unanimous Decision": 60.25,
-      "Split/Majority Decision": 3.69
+      "Unanimous Decision": 59.25,
+      "Split/Majority Decision": 4.02
     }
   },
   "fight_level": {
     "ko_tko_pct": 22.71,
     "submission_pct": 9.13,
-    "decision_pct": 66.27,
+    "decision_pct": 66.02,
     "goes_the_distance_pct": 68.16,
     "expected_fight_minutes": 12.55
   },
@@ -74,10 +74,10 @@
       "market_moneyline": -155,
       "market_decimal_odds": 1.645,
       "market_implied_prob_pct": 60.78,
-      "model_win_prob_pct": 28.65,
-      "edge_pct": -32.13,
+      "model_win_prob_pct": 25.42,
+      "edge_pct": -35.36,
       "consensus_edge_pct": -2.49,
-      "kelly_fraction_full": -0.8194,
+      "kelly_fraction_full": -0.9017,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
@@ -87,11 +87,11 @@
       "market_moneyline": 130,
       "market_decimal_odds": 2.3,
       "market_implied_prob_pct": 43.48,
-      "model_win_prob_pct": 71.35,
-      "edge_pct": 27.87,
+      "model_win_prob_pct": 74.58,
+      "edge_pct": 31.1,
       "consensus_edge_pct": -1.78,
-      "kelly_fraction_full": 0.4931,
-      "kelly_fraction_half": 0.2465,
+      "kelly_fraction_full": 0.5502,
+      "kelly_fraction_half": 0.2751,
       "model_sees_value": true,
       "consensus_agrees": false,
       "value_bet": false
