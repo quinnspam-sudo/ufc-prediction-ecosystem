@@ -327,17 +327,20 @@ def simulate_fight(
         b_ko, b_sub = _finish_probabilities(b, a, -strike_gap_a, -grapple_gap_a,
                                             a_stam, a_hurt)
 
-        # Resolve finishes. Draw four uniforms; the largest exceeded prob that
-        # "fires" first (by a fixed priority) ends the fight. Priority order is
-        # arbitrary but consistent; probabilities are small so collisions rare.
+        # Resolve finishes: each of the four triggers fires with its own
+        # probability, and the first to fire (in a freshly shuffled order)
+        # ends the fight. The order MUST be random: a fixed A-first order
+        # handed A every round where both fighters' triggers fired, which
+        # gave identical fighters a 50.4% / 49.6% split (see
+        # tests/test_symmetry.py).
         events = [
             ("A", "KO/TKO", a_ko),
             ("B", "KO/TKO", b_ko),
             ("A", "Submission", a_sub),
             ("B", "Submission", b_sub),
         ]
-        finished = False
-        for who, method, prob in events:
+        for i in rng.permutation(len(events)):
+            who, method, prob = events[i]
             if rng.random() < prob:
                 rounds.append(RoundResult(rnd, a_dom, b_dom, True, who, method))
                 return FightOutcome(winner=who, method=method,

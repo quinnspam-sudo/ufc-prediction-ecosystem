@@ -14,12 +14,17 @@ on:
         description: "Re-predict every matchup (e.g. after a model/config change)"
         type: boolean
         default: false
+      test_alert:
+        description: "Fail on purpose to test the failure alert (no sync runs)"
+        type: boolean
+        default: false
   schedule:
     - cron: "17 */6 * * *"   # backup: every ~6h at :17 (GitHub cron is flaky)
 
 # Allow the job to commit updated reports/state back to the repo.
 permissions:
   contents: write
+  issues: write      # failure alerts open/comment on a ci-failure issue
 
 concurrency:
   group: ufc-auto-update
@@ -31,6 +36,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v7
+
+      - name: Deliberate failure (alert test)
+        if: ${{ inputs.test_alert }}
+        run: echo "test_alert=true — failing on purpose" && exit 1
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -50,3 +59,12 @@ jobs:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
           FORCE_FLAG: ${{ inputs.force && '--force' || '' }}
         run: python sync.py --push --iterations 10000 $FORCE_FLAG
+
+      - name: Alert on failure
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          # Optional: add a Discord webhook URL as this repo secret to also
+          # get a Discord message. Without it, a GitHub issue is opened.
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        run: bash .github/scripts/notify_failure.sh

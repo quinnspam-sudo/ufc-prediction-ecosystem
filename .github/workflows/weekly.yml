@@ -18,6 +18,7 @@ on:
 
 permissions:
   contents: write
+  issues: write      # failure alerts open/comment on a ci-failure issue
 
 concurrency:
   group: ufc-auto-update
@@ -56,3 +57,12 @@ jobs:
           git add reports/backtest.json
           git diff --cached --quiet || git commit -m "weekly recalibration: refresh backtest report"
           git push
+
+      - name: Alert on failure
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          # Optional: add a Discord webhook URL as this repo secret to also
+          # get a Discord message. Without it, a GitHub issue is opened.
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        run: bash .github/scripts/notify_failure.sh
