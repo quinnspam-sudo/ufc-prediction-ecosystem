@@ -9,6 +9,11 @@ on:
   repository_dispatch:
     types: [refresh]
   workflow_dispatch:
+    inputs:
+      force:
+        description: "Re-predict every matchup (e.g. after a model/config change)"
+        type: boolean
+        default: false
   schedule:
     - cron: "17 */6 * * *"   # backup: every ~6h at :17 (GitHub cron is flaky)
 
@@ -43,4 +48,5 @@ jobs:
           # Add this in repo Settings → Secrets and variables → Actions.
           # If unset, the odds source is skipped cleanly (everything else runs).
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
-        run: python sync.py --push --iterations 10000
+          FORCE_FLAG: ${{ inputs.force && '--force' || '' }}
+        run: python sync.py --push --iterations 10000 $FORCE_FLAG
