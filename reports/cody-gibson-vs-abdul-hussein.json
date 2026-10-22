@@ -5,7 +5,7 @@
     "scheduled_rounds": 3,
     "is_title_fight": false,
     "iterations": 10000,
-    "avg_rounds_simulated": 2.443,
+    "avg_rounds_simulated": 2.47,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -24,9 +24,9 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 33.88,
-    "fighter_b_pct": 66.12,
-    "draw_pct": 3.42,
+    "fighter_a_pct": 33.14,
+    "fighter_b_pct": 66.86,
+    "draw_pct": 4.0,
     "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
@@ -38,35 +38,35 @@
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 5.98,
-      "Submission": 11.37,
-      "Unanimous Decision": 5.13,
-      "Split/Majority Decision": 3.57
+      "KO/TKO": 5.29,
+      "Submission": 10.99,
+      "Unanimous Decision": 4.86,
+      "Split/Majority Decision": 3.73
     },
     "fighter_b": {
-      "KO/TKO": 7.28,
-      "Submission": 25.3,
-      "Unanimous Decision": 32.49,
-      "Split/Majority Decision": 5.46
+      "KO/TKO": 6.27,
+      "Submission": 26.68,
+      "Unanimous Decision": 32.43,
+      "Split/Majority Decision": 5.75
     }
   },
   "fight_level": {
-    "ko_tko_pct": 13.26,
-    "submission_pct": 36.67,
-    "decision_pct": 46.65,
-    "goes_the_distance_pct": 50.07,
-    "expected_fight_minutes": 10.97
+    "ko_tko_pct": 11.56,
+    "submission_pct": 37.67,
+    "decision_pct": 46.77,
+    "goes_the_distance_pct": 50.77,
+    "expected_fight_minutes": 11.12
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 695,
-      "round_2": 585,
-      "round_3": 455
+      "round_1": 592,
+      "round_2": 544,
+      "round_3": 492
     },
     "fighter_b": {
-      "round_1": 1266,
-      "round_2": 1066,
-      "round_3": 926
+      "round_1": 1246,
+      "round_2": 1076,
+      "round_3": 973
     }
   },
   "value_betting": {
@@ -74,11 +74,11 @@
       "market_moneyline": 425,
       "market_decimal_odds": 5.25,
       "market_implied_prob_pct": 19.05,
-      "model_win_prob_pct": 33.88,
-      "edge_pct": 14.83,
+      "model_win_prob_pct": 33.14,
+      "edge_pct": 14.09,
       "consensus_edge_pct": -0.77,
-      "kelly_fraction_full": 0.1832,
-      "kelly_fraction_half": 0.0916,
+      "kelly_fraction_full": 0.174,
+      "kelly_fraction_half": 0.087,
       "model_sees_value": true,
       "consensus_agrees": false,
       "value_bet": false
@@ -87,10 +87,10 @@
       "market_moneyline": -575,
       "market_decimal_odds": 1.174,
       "market_implied_prob_pct": 85.19,
-      "model_win_prob_pct": 66.12,
-      "edge_pct": -19.06,
+      "model_win_prob_pct": 66.86,
+      "edge_pct": -18.32,
       "consensus_edge_pct": -3.46,
-      "kelly_fraction_full": -1.2868,
+      "kelly_fraction_full": -1.2367,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,

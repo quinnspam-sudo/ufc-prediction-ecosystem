@@ -2,9 +2,9 @@
   "matchups": {
     "Du Plessis vs Usman": {
       "win_probability": {
-        "fighter_a_pct": 35.19,
-        "fighter_b_pct": 64.81,
-        "draw_pct": 0.01,
+        "fighter_a_pct": 35.18,
+        "fighter_b_pct": 64.82,
+        "draw_pct": 0.03,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -15,9 +15,9 @@
     },
     "Dione Barbosa vs Anna Melisano": {
       "win_probability": {
-        "fighter_a_pct": 79.99,
-        "fighter_b_pct": 20.01,
-        "draw_pct": 0.01,
+        "fighter_a_pct": 80.37,
+        "fighter_b_pct": 19.63,
+        "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -28,8 +28,8 @@
     },
     "Alvin Hines vs RJ Harris": {
       "win_probability": {
-        "fighter_a_pct": 26.07,
-        "fighter_b_pct": 73.93,
+        "fighter_a_pct": 24.54,
+        "fighter_b_pct": 75.46,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -41,8 +41,8 @@
     },
     "Alden Coria vs Stewart Nicoll": {
       "win_probability": {
-        "fighter_a_pct": 79.19,
-        "fighter_b_pct": 20.81,
+        "fighter_a_pct": 79.62,
+        "fighter_b_pct": 20.38,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -54,9 +54,9 @@
     },
     "Felipe Franco vs Levi Rodrigues Jr.": {
       "win_probability": {
-        "fighter_a_pct": 26.75,
-        "fighter_b_pct": 73.25,
-        "draw_pct": 0.2,
+        "fighter_a_pct": 26.0,
+        "fighter_b_pct": 74.0,
+        "draw_pct": 0.22,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -67,9 +67,9 @@
     },
     "Jean-Paul Lebosnoyani vs Seokhyeon Ko": {
       "win_probability": {
-        "fighter_a_pct": 24.45,
-        "fighter_b_pct": 75.55,
-        "draw_pct": 0.0
+        "fighter_a_pct": 25.86,
+        "fighter_b_pct": 74.14,
+        "draw_pct": 0.05
       },
       "value_flags": {
         "fighter_a": false,
@@ -79,9 +79,9 @@
     },
     "Austin Bashi vs Jose Miguel Delgado": {
       "win_probability": {
-        "fighter_a_pct": 84.3,
-        "fighter_b_pct": 15.7,
-        "draw_pct": 0.0
+        "fighter_a_pct": 84.59,
+        "fighter_b_pct": 15.41,
+        "draw_pct": 0.05
       },
       "value_flags": {
         "fighter_a": false,
@@ -91,8 +91,8 @@
     },
     "Alberto Montes vs Tommy McMillen": {
       "win_probability": {
-        "fighter_a_pct": 39.77,
-        "fighter_b_pct": 60.23,
+        "fighter_a_pct": 40.54,
+        "fighter_b_pct": 59.46,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -104,9 +104,9 @@
     },
     "Tabatha Ricci vs Fatima Kline": {
       "win_probability": {
-        "fighter_a_pct": 28.18,
-        "fighter_b_pct": 71.82,
-        "draw_pct": 3.59,
+        "fighter_a_pct": 27.69,
+        "fighter_b_pct": 72.31,
+        "draw_pct": 3.74,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -117,8 +117,8 @@
     },
     "Chase Hooper vs Mitch Ramirez": {
       "win_probability": {
-        "fighter_a_pct": 78.44,
-        "fighter_b_pct": 21.56,
+        "fighter_a_pct": 79.03,
+        "fighter_b_pct": 20.97,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -130,9 +130,9 @@
     },
     "Jared Cannonier vs Christian Leroy Duncan": {
       "win_probability": {
-        "fighter_a_pct": 33.42,
-        "fighter_b_pct": 66.58,
-        "draw_pct": 3.88,
+        "fighter_a_pct": 33.07,
+        "fighter_b_pct": 66.93,
+        "draw_pct": 4.34,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -143,8 +143,8 @@
     },
     "Damien Anderson vs Ezra Elliott": {
       "win_probability": {
-        "fighter_a_pct": 26.02,
-        "fighter_b_pct": 73.98,
+        "fighter_a_pct": 24.56,
+        "fighter_b_pct": 75.44,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -156,9 +156,9 @@
     },
     "Mike Davis vs Nurullo Aliev": {
       "win_probability": {
-        "fighter_a_pct": 22.71,
-        "fighter_b_pct": 77.29,
-        "draw_pct": 2.45
+        "fighter_a_pct": 22.3,
+        "fighter_b_pct": 77.7,
+        "draw_pct": 2.7
       },
       "value_flags": {
         "fighter_a": false,
@@ -168,8 +168,8 @@
     },
     "Brendson Ribeiro vs Magomed Tuchalov": {
       "win_probability": {
-        "fighter_a_pct": 28.57,
-        "fighter_b_pct": 71.43,
+        "fighter_a_pct": 27.75,
+        "fighter_b_pct": 72.25,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -181,8 +181,8 @@
     },
     "Ismael Bonfim vs Axel Sola": {
       "win_probability": {
-        "fighter_a_pct": 76.38,
-        "fighter_b_pct": 23.62,
+        "fighter_a_pct": 76.48,
+        "fighter_b_pct": 23.52,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -194,9 +194,9 @@
     },
     "Santiago Ponzinibbio vs Sam Patterson": {
       "win_probability": {
-        "fighter_a_pct": 67.89,
-        "fighter_b_pct": 32.11,
-        "draw_pct": 0.0,
+        "fighter_a_pct": 67.23,
+        "fighter_b_pct": 32.77,
+        "draw_pct": 0.01,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -207,8 +207,8 @@
     },
     "Dustin Jacoby vs Uran Satybaldiev": {
       "win_probability": {
-        "fighter_a_pct": 71.04,
-        "fighter_b_pct": 28.96,
+        "fighter_a_pct": 69.71,
+        "fighter_b_pct": 30.29,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -220,8 +220,8 @@
     },
     "Thomas Petersen vs Valter Walker": {
       "win_probability": {
-        "fighter_a_pct": 69.11,
-        "fighter_b_pct": 30.89,
+        "fighter_a_pct": 68.63,
+        "fighter_b_pct": 31.37,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -233,9 +233,9 @@
     },
     "Abubakar Vagaev vs Saygid Izagakhmaev": {
       "win_probability": {
-        "fighter_a_pct": 25.67,
-        "fighter_b_pct": 74.33,
-        "draw_pct": 2.21,
+        "fighter_a_pct": 25.38,
+        "fighter_b_pct": 74.62,
+        "draw_pct": 2.4,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -246,9 +246,9 @@
     },
     "Rizvan Kuniev vs Tyrell Fortune": {
       "win_probability": {
-        "fighter_a_pct": 64.91,
-        "fighter_b_pct": 35.09,
-        "draw_pct": 4.81,
+        "fighter_a_pct": 64.14,
+        "fighter_b_pct": 35.86,
+        "draw_pct": 4.86,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -259,8 +259,8 @@
     },
     "Magomed Zaynukov vs Damian Rzepecki": {
       "win_probability": {
-        "fighter_a_pct": 78.13,
-        "fighter_b_pct": 21.87,
+        "fighter_a_pct": 77.27,
+        "fighter_b_pct": 22.73,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -272,8 +272,8 @@
     },
     "Wellington Turman vs Islam Dulatov": {
       "win_probability": {
-        "fighter_a_pct": 26.4,
-        "fighter_b_pct": 73.6,
+        "fighter_a_pct": 26.33,
+        "fighter_b_pct": 73.67,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -285,9 +285,9 @@
     },
     "Ramazan Temirov vs Steve Erceg": {
       "win_probability": {
-        "fighter_a_pct": 58.81,
-        "fighter_b_pct": 41.19,
-        "draw_pct": 6.47,
+        "fighter_a_pct": 59.37,
+        "fighter_b_pct": 40.63,
+        "draw_pct": 7.02,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -298,9 +298,9 @@
     },
     "Magomed Ankalaev vs Bogdan Guskov": {
       "win_probability": {
-        "fighter_a_pct": 61.25,
-        "fighter_b_pct": 38.75,
-        "draw_pct": 0.75,
+        "fighter_a_pct": 59.61,
+        "fighter_b_pct": 40.39,
+        "draw_pct": 0.93,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -311,9 +311,9 @@
     },
     "Cody Gibson vs Abdul Hussein": {
       "win_probability": {
-        "fighter_a_pct": 33.88,
-        "fighter_b_pct": 66.12,
-        "draw_pct": 3.42,
+        "fighter_a_pct": 33.14,
+        "fighter_b_pct": 66.86,
+        "draw_pct": 4.0,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -324,9 +324,9 @@
     },
     "Dustin Jacoby vs Muhammad Said": {
       "win_probability": {
-        "fighter_a_pct": 61.08,
-        "fighter_b_pct": 38.92,
-        "draw_pct": 4.55
+        "fighter_a_pct": 60.41,
+        "fighter_b_pct": 39.59,
+        "draw_pct": 6.3
       },
       "value_flags": {
         "fighter_a": false,
@@ -336,8 +336,8 @@
     },
     "Jovan Leka vs Max Gimenis": {
       "win_probability": {
-        "fighter_a_pct": 74.23,
-        "fighter_b_pct": 25.77,
+        "fighter_a_pct": 73.98,
+        "fighter_b_pct": 26.02,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -349,9 +349,9 @@
     },
     "Hailey Cowan vs Nina Milo\u0161evi\u0107": {
       "win_probability": {
-        "fighter_a_pct": 21.25,
-        "fighter_b_pct": 78.75,
-        "draw_pct": 0.02,
+        "fighter_a_pct": 21.22,
+        "fighter_b_pct": 78.78,
+        "draw_pct": 0.03,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -362,8 +362,8 @@
     },
     "Kyle Prepolec vs Mateusz R\u0119becki": {
       "win_probability": {
-        "fighter_a_pct": 22.62,
-        "fighter_b_pct": 77.38,
+        "fighter_a_pct": 21.97,
+        "fighter_b_pct": 78.03,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -375,9 +375,9 @@
     },
     "Dennis Buzukja vs Bogdan Grad": {
       "win_probability": {
-        "fighter_a_pct": 24.64,
-        "fighter_b_pct": 75.36,
-        "draw_pct": 0.17,
+        "fighter_a_pct": 24.13,
+        "fighter_b_pct": 75.87,
+        "draw_pct": 0.21,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -388,9 +388,9 @@
     },
     "Josias Musasa vs Mark Vologdin": {
       "win_probability": {
-        "fighter_a_pct": 26.05,
-        "fighter_b_pct": 73.95,
-        "draw_pct": 0.35,
+        "fighter_a_pct": 26.35,
+        "fighter_b_pct": 73.65,
+        "draw_pct": 0.33,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -401,8 +401,8 @@
     },
     "Oban Elliott vs Michael Oliveira": {
       "win_probability": {
-        "fighter_a_pct": 22.9,
-        "fighter_b_pct": 77.1,
+        "fighter_a_pct": 23.16,
+        "fighter_b_pct": 76.84,
         "draw_pct": 0.03,
         "calibration_shrink_applied": 0.7
       },
@@ -414,9 +414,9 @@
     },
     "Ludovit Klein vs Tofiq Musayev": {
       "win_probability": {
-        "fighter_a_pct": 75.17,
-        "fighter_b_pct": 24.83,
-        "draw_pct": 2.54,
+        "fighter_a_pct": 75.49,
+        "fighter_b_pct": 24.51,
+        "draw_pct": 2.27,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -427,8 +427,8 @@
     },
     "Gilbert Urbina vs Vlasto \u010cepo": {
       "win_probability": {
-        "fighter_a_pct": 77.34,
-        "fighter_b_pct": 22.66,
+        "fighter_a_pct": 77.36,
+        "fighter_b_pct": 22.64,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -440,8 +440,8 @@
     },
     "Du\u0161ko Todorovi\u0107 vs Robert Valentin": {
       "win_probability": {
-        "fighter_a_pct": 68.8,
-        "fighter_b_pct": 31.2,
+        "fighter_a_pct": 67.63,
+        "fighter_b_pct": 32.37,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -453,9 +453,9 @@
     },
     "Marcin Tybura vs Aleksandar Rakic": {
       "win_probability": {
-        "fighter_a_pct": 38.48,
-        "fighter_b_pct": 61.52,
-        "draw_pct": 5.25,
+        "fighter_a_pct": 37.6,
+        "fighter_b_pct": 62.4,
+        "draw_pct": 5.11,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -466,9 +466,9 @@
     },
     "Jan Blachowicz vs Navajo Stirling": {
       "win_probability": {
-        "fighter_a_pct": 27.96,
-        "fighter_b_pct": 72.04,
-        "draw_pct": 0.02,
+        "fighter_a_pct": 27.5,
+        "fighter_b_pct": 72.5,
+        "draw_pct": 0.13,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -479,9 +479,9 @@
     },
     "Daniel Rodriguez vs Uro\u0161 Medi\u0107": {
       "win_probability": {
-        "fighter_a_pct": 70.91,
-        "fighter_b_pct": 29.09,
-        "draw_pct": 0.15
+        "fighter_a_pct": 69.67,
+        "fighter_b_pct": 30.33,
+        "draw_pct": 0.1
       },
       "value_flags": {
         "fighter_a": false,
@@ -491,8 +491,8 @@
     },
     "Amanda Lemos vs Alexia Thainara": {
       "win_probability": {
-        "fighter_a_pct": 26.0,
-        "fighter_b_pct": 74.0,
+        "fighter_a_pct": 24.91,
+        "fighter_b_pct": 75.09,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -504,8 +504,8 @@
     },
     "Steven Asplund vs Guilherme Pat": {
       "win_probability": {
-        "fighter_a_pct": 74.79,
-        "fighter_b_pct": 25.21,
+        "fighter_a_pct": 73.72,
+        "fighter_b_pct": 26.28,
         "draw_pct": 0.02,
         "calibration_shrink_applied": 0.7
       },
@@ -517,9 +517,9 @@
     },
     "Henrique da Silva Lopes vs Louie Sutherland": {
       "win_probability": {
-        "fighter_a_pct": 83.25,
-        "fighter_b_pct": 16.75,
-        "draw_pct": 0.0
+        "fighter_a_pct": 82.79,
+        "fighter_b_pct": 17.21,
+        "draw_pct": 0.05
       },
       "value_flags": {
         "fighter_a": false,
@@ -529,9 +529,9 @@
     },
     "Diego Ferreira vs Billy Quarantillo": {
       "win_probability": {
-        "fighter_a_pct": 28.24,
-        "fighter_b_pct": 71.76,
-        "draw_pct": 0.91,
+        "fighter_a_pct": 27.59,
+        "fighter_b_pct": 72.41,
+        "draw_pct": 1.03,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -542,9 +542,9 @@
     },
     "Bruno Lopes vs Diyar Nurgozhay": {
       "win_probability": {
-        "fighter_a_pct": 26.08,
-        "fighter_b_pct": 73.92,
-        "draw_pct": 0.32,
+        "fighter_a_pct": 25.72,
+        "fighter_b_pct": 74.28,
+        "draw_pct": 0.43,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -555,9 +555,9 @@
     },
     "Mateusz Gamrot vs Quillan Salkilld": {
       "win_probability": {
-        "fighter_a_pct": 30.7,
-        "fighter_b_pct": 69.3,
-        "draw_pct": 0.44,
+        "fighter_a_pct": 30.44,
+        "fighter_b_pct": 69.56,
+        "draw_pct": 0.42,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -568,9 +568,9 @@
     },
     "TBA vs Opponent TBA": {
       "win_probability": {
-        "fighter_a_pct": 50.72,
-        "fighter_b_pct": 49.28,
-        "draw_pct": 6.45
+        "fighter_a_pct": 49.68,
+        "fighter_b_pct": 50.32,
+        "draw_pct": 7.4
       },
       "value_flags": {
         "fighter_a": false,
@@ -580,9 +580,9 @@
     },
     "Neil Magny vs Ramiz Brahimaj": {
       "win_probability": {
-        "fighter_a_pct": 68.16,
-        "fighter_b_pct": 31.84,
-        "draw_pct": 0.27,
+        "fighter_a_pct": 67.71,
+        "fighter_b_pct": 32.29,
+        "draw_pct": 0.18,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -593,9 +593,9 @@
     },
     "Vicente Luque vs Tresean Gore": {
       "win_probability": {
-        "fighter_a_pct": 62.8,
-        "fighter_b_pct": 37.2,
-        "draw_pct": 3.69,
+        "fighter_a_pct": 62.5,
+        "fighter_b_pct": 37.5,
+        "draw_pct": 3.95,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -606,9 +606,9 @@
     },
     "Chidi Njokuani vs Geoff Neal": {
       "win_probability": {
-        "fighter_a_pct": 68.89,
-        "fighter_b_pct": 31.11,
-        "draw_pct": 4.22,
+        "fighter_a_pct": 68.38,
+        "fighter_b_pct": 31.62,
+        "draw_pct": 3.94,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -619,8 +619,8 @@
     },
     "Jeremiah Wells vs Myktybek Orolbai": {
       "win_probability": {
-        "fighter_a_pct": 29.7,
-        "fighter_b_pct": 70.3,
+        "fighter_a_pct": 29.13,
+        "fighter_b_pct": 70.87,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -632,9 +632,9 @@
     },
     "Edson Barboza vs Esteban Ribovics": {
       "win_probability": {
-        "fighter_a_pct": 25.42,
-        "fighter_b_pct": 74.58,
-        "draw_pct": 0.65,
+        "fighter_a_pct": 25.21,
+        "fighter_b_pct": 74.79,
+        "draw_pct": 0.74,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -645,9 +645,9 @@
     },
     "Dustin Stoltzfus vs Mansur Abdul-Malik": {
       "win_probability": {
-        "fighter_a_pct": 34.93,
-        "fighter_b_pct": 65.07,
-        "draw_pct": 2.9,
+        "fighter_a_pct": 35.15,
+        "fighter_b_pct": 64.85,
+        "draw_pct": 2.99,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -658,9 +658,9 @@
     },
     "Jalin Turner vs Kau\u00ea Fernandes": {
       "win_probability": {
-        "fighter_a_pct": 72.58,
-        "fighter_b_pct": 27.42,
-        "draw_pct": 5.0
+        "fighter_a_pct": 71.97,
+        "fighter_b_pct": 28.03,
+        "draw_pct": 4.75
       },
       "value_flags": {
         "fighter_a": false,
@@ -670,8 +670,8 @@
     },
     "Mackenzie Dern vs Gillian Robertson": {
       "win_probability": {
-        "fighter_a_pct": 35.22,
-        "fighter_b_pct": 64.78,
+        "fighter_a_pct": 34.23,
+        "fighter_b_pct": 65.77,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -683,9 +683,9 @@
     },
     "Islam Makhachev vs Ian Machado Garry": {
       "win_probability": {
-        "fighter_a_pct": 68.82,
-        "fighter_b_pct": 31.18,
-        "draw_pct": 1.1,
+        "fighter_a_pct": 69.01,
+        "fighter_b_pct": 30.99,
+        "draw_pct": 1.03,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -696,9 +696,9 @@
     },
     "Stephanie Luciano vs Marina Spasi\u0107": {
       "win_probability": {
-        "fighter_a_pct": 78.54,
-        "fighter_b_pct": 21.46,
-        "draw_pct": 0.51,
+        "fighter_a_pct": 79.03,
+        "fighter_b_pct": 20.97,
+        "draw_pct": 0.56,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -709,8 +709,8 @@
     },
     "Alexander Poppeck vs Jovan Leka": {
       "win_probability": {
-        "fighter_a_pct": 27.59,
-        "fighter_b_pct": 72.41,
+        "fighter_a_pct": 26.23,
+        "fighter_b_pct": 73.77,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -722,9 +722,9 @@
     },
     "Borislav Nikolic vs Mark Vologdin": {
       "win_probability": {
-        "fighter_a_pct": 76.71,
-        "fighter_b_pct": 23.29,
-        "draw_pct": 1.8,
+        "fighter_a_pct": 77.08,
+        "fighter_b_pct": 22.92,
+        "draw_pct": 1.86,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -735,9 +735,9 @@
     },
     "Milos Janicic vs Noah Gugnon": {
       "win_probability": {
-        "fighter_a_pct": 32.57,
-        "fighter_b_pct": 67.43,
-        "draw_pct": 3.34,
+        "fighter_a_pct": 32.33,
+        "fighter_b_pct": 67.67,
+        "draw_pct": 3.49,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -748,9 +748,9 @@
     },
     "Darren Elkins vs Yadier del Valle": {
       "win_probability": {
-        "fighter_a_pct": 35.29,
-        "fighter_b_pct": 64.71,
-        "draw_pct": 4.31,
+        "fighter_a_pct": 34.77,
+        "fighter_b_pct": 65.23,
+        "draw_pct": 4.73,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -761,9 +761,9 @@
     },
     "Billy Ray Goff vs Ty Miller": {
       "win_probability": {
-        "fighter_a_pct": 69.19,
-        "fighter_b_pct": 30.81,
-        "draw_pct": 5.21,
+        "fighter_a_pct": 68.94,
+        "fighter_b_pct": 31.06,
+        "draw_pct": 4.99,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -774,9 +774,9 @@
     },
     "Juliana Miller vs Ravena Oliveira": {
       "win_probability": {
-        "fighter_a_pct": 77.41,
-        "fighter_b_pct": 22.59,
-        "draw_pct": 2.37,
+        "fighter_a_pct": 77.71,
+        "fighter_b_pct": 22.29,
+        "draw_pct": 2.48,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -787,9 +787,9 @@
     },
     "Eric McConico vs Donte Johnson": {
       "win_probability": {
-        "fighter_a_pct": 23.74,
-        "fighter_b_pct": 76.26,
-        "draw_pct": 0.09,
+        "fighter_a_pct": 23.62,
+        "fighter_b_pct": 76.38,
+        "draw_pct": 0.13,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -800,9 +800,9 @@
     },
     "Gauge Young vs Kody Steele": {
       "win_probability": {
-        "fighter_a_pct": 72.17,
-        "fighter_b_pct": 27.83,
-        "draw_pct": 0.04,
+        "fighter_a_pct": 71.9,
+        "fighter_b_pct": 28.1,
+        "draw_pct": 0.09,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -813,9 +813,9 @@
     },
     "Elise Reed vs Shanelle Dyer": {
       "win_probability": {
-        "fighter_a_pct": 19.99,
-        "fighter_b_pct": 80.01,
-        "draw_pct": 0.01,
+        "fighter_a_pct": 19.48,
+        "fighter_b_pct": 80.52,
+        "draw_pct": 0.03,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -826,9 +826,9 @@
     },
     "Wes Schultz vs Jackson McVey": {
       "win_probability": {
-        "fighter_a_pct": 63.64,
-        "fighter_b_pct": 36.36,
-        "draw_pct": 2.25,
+        "fighter_a_pct": 64.17,
+        "fighter_b_pct": 35.83,
+        "draw_pct": 2.3,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -839,9 +839,9 @@
     },
     "Carli Judice vs Jeisla Chaves": {
       "win_probability": {
-        "fighter_a_pct": 76.3,
-        "fighter_b_pct": 23.7,
-        "draw_pct": 0.05,
+        "fighter_a_pct": 76.31,
+        "fighter_b_pct": 23.69,
+        "draw_pct": 0.04,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -852,9 +852,9 @@
     },
     "Kennedy Nzechukwu vs Shamil Gaziev": {
       "win_probability": {
-        "fighter_a_pct": 72.36,
-        "fighter_b_pct": 27.64,
-        "draw_pct": 0.47,
+        "fighter_a_pct": 71.12,
+        "fighter_b_pct": 28.88,
+        "draw_pct": 0.64,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -865,9 +865,9 @@
     },
     "Serghei Spivac vs Vitor Petrino": {
       "win_probability": {
-        "fighter_a_pct": 49.55,
-        "fighter_b_pct": 50.46,
-        "draw_pct": 5.86,
+        "fighter_a_pct": 48.77,
+        "fighter_b_pct": 51.23,
+        "draw_pct": 6.54,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -878,9 +878,9 @@
     },
     "Roman Dolidze vs Reinier de Ridder": {
       "win_probability": {
-        "fighter_a_pct": 28.35,
-        "fighter_b_pct": 71.65,
-        "draw_pct": 0.03,
+        "fighter_a_pct": 27.59,
+        "fighter_b_pct": 72.41,
+        "draw_pct": 0.08,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -891,8 +891,8 @@
     },
     "Anthony Hernandez vs Gregory Rodrigues": {
       "win_probability": {
-        "fighter_a_pct": 67.07,
-        "fighter_b_pct": 32.93,
+        "fighter_a_pct": 67.94,
+        "fighter_b_pct": 32.06,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -904,8 +904,8 @@
     },
     "Joe Kropschot vs Jon Kunneman": {
       "win_probability": {
-        "fighter_a_pct": 76.93,
-        "fighter_b_pct": 23.07,
+        "fighter_a_pct": 76.59,
+        "fighter_b_pct": 23.41,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -917,9 +917,9 @@
     },
     "Tom Pagliarulo vs Ananias Mulumba": {
       "win_probability": {
-        "fighter_a_pct": 58.11,
-        "fighter_b_pct": 41.89,
-        "draw_pct": 5.32,
+        "fighter_a_pct": 58.25,
+        "fighter_b_pct": 41.75,
+        "draw_pct": 5.46,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -930,8 +930,8 @@
     },
     "Bilal Hasan vs Mridul Saikia": {
       "win_probability": {
-        "fighter_a_pct": 79.78,
-        "fighter_b_pct": 20.22,
+        "fighter_a_pct": 79.82,
+        "fighter_b_pct": 20.18,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -943,8 +943,8 @@
     },
     "Abe Alsaghir vs Fabrizio Escarrega": {
       "win_probability": {
-        "fighter_a_pct": 27.13,
-        "fighter_b_pct": 72.87,
+        "fighter_a_pct": 26.55,
+        "fighter_b_pct": 73.45,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -956,8 +956,8 @@
     },
     "Anthony Wint vs Matt Adams": {
       "win_probability": {
-        "fighter_a_pct": 78.21,
-        "fighter_b_pct": 21.79,
+        "fighter_a_pct": 76.77,
+        "fighter_b_pct": 23.23,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -969,8 +969,8 @@
     },
     "Logan Paxton vs Cristian Perez": {
       "win_probability": {
-        "fighter_a_pct": 72.18,
-        "fighter_b_pct": 27.82,
+        "fighter_a_pct": 71.2,
+        "fighter_b_pct": 28.8,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -982,8 +982,8 @@
     },
     "Alik Lorenz vs Mahamed Aly": {
       "win_probability": {
-        "fighter_a_pct": 24.61,
-        "fighter_b_pct": 75.39,
+        "fighter_a_pct": 23.74,
+        "fighter_b_pct": 76.26,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -995,8 +995,8 @@
     },
     "Roman Puga vs Taner Trembley": {
       "win_probability": {
-        "fighter_a_pct": 78.21,
-        "fighter_b_pct": 21.79,
+        "fighter_a_pct": 77.77,
+        "fighter_b_pct": 22.23,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -1008,8 +1008,8 @@
     },
     "Miles Johns vs Jessie Rosas": {
       "win_probability": {
-        "fighter_a_pct": 77.24,
-        "fighter_b_pct": 22.76,
+        "fighter_a_pct": 77.39,
+        "fighter_b_pct": 22.61,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -1021,9 +1021,9 @@
     },
     "Manoel Sousa vs Richie Miranda": {
       "win_probability": {
-        "fighter_a_pct": 77.71,
-        "fighter_b_pct": 22.29,
-        "draw_pct": 0.0,
+        "fighter_a_pct": 77.66,
+        "fighter_b_pct": 22.34,
+        "draw_pct": 0.01,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -1034,8 +1034,8 @@
     },
     "Kaik Brito vs Namo Fazil": {
       "win_probability": {
-        "fighter_a_pct": 30.64,
-        "fighter_b_pct": 69.36,
+        "fighter_a_pct": 31.23,
+        "fighter_b_pct": 68.77,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -1047,8 +1047,8 @@
     },
     "Trent Miller vs Douglas Rodrigues": {
       "win_probability": {
-        "fighter_a_pct": 13.2,
-        "fighter_b_pct": 86.8,
+        "fighter_a_pct": 11.55,
+        "fighter_b_pct": 88.45,
         "draw_pct": 0.0
       },
       "value_flags": {
@@ -1059,9 +1059,9 @@
     },
     "Louie Sutherland vs Jos\u00e9 Montanha": {
       "win_probability": {
-        "fighter_a_pct": 17.91,
-        "fighter_b_pct": 82.09,
-        "draw_pct": 0.05
+        "fighter_a_pct": 17.05,
+        "fighter_b_pct": 82.95,
+        "draw_pct": 0.0
       },
       "value_flags": {
         "fighter_a": false,
@@ -1071,8 +1071,8 @@
     },
     "Court McGee vs Eric Nolan": {
       "win_probability": {
-        "fighter_a_pct": 76.92,
-        "fighter_b_pct": 23.09,
+        "fighter_a_pct": 76.8,
+        "fighter_b_pct": 23.2,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -1084,9 +1084,9 @@
     },
     "Marvin Vettori vs Ismail Naurdiev": {
       "win_probability": {
-        "fighter_a_pct": 30.23,
-        "fighter_b_pct": 69.77,
-        "draw_pct": 2.66,
+        "fighter_a_pct": 30.11,
+        "fighter_b_pct": 69.89,
+        "draw_pct": 2.74,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -1097,9 +1097,9 @@
     },
     "Rafael Dos Anjos vs Alexander Hernandez": {
       "win_probability": {
-        "fighter_a_pct": 53.26,
-        "fighter_b_pct": 46.74,
-        "draw_pct": 6.32,
+        "fighter_a_pct": 52.92,
+        "fighter_b_pct": 47.08,
+        "draw_pct": 6.51,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -1110,8 +1110,8 @@
     },
     "Jacobe Smith vs Bruce Whitehead": {
       "win_probability": {
-        "fighter_a_pct": 79.12,
-        "fighter_b_pct": 20.88,
+        "fighter_a_pct": 78.98,
+        "fighter_b_pct": 21.02,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -1123,9 +1123,9 @@
     },
     "Johnny Walker vs Mick Parkin": {
       "win_probability": {
-        "fighter_a_pct": 34.59,
-        "fighter_b_pct": 65.41,
-        "draw_pct": 2.15,
+        "fighter_a_pct": 33.97,
+        "fighter_b_pct": 66.03,
+        "draw_pct": 2.6,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -1136,8 +1136,8 @@
     },
     "Anthony Wint vs Lucas Armand": {
       "win_probability": {
-        "fighter_a_pct": 77.39,
-        "fighter_b_pct": 22.61,
+        "fighter_a_pct": 76.06,
+        "fighter_b_pct": 23.94,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -1149,9 +1149,9 @@
     },
     "Andrey Pulyaev vs Damian Pinas": {
       "win_probability": {
-        "fighter_a_pct": 28.99,
-        "fighter_b_pct": 71.01,
-        "draw_pct": 2.32,
+        "fighter_a_pct": 29.09,
+        "fighter_b_pct": 70.91,
+        "draw_pct": 2.61,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -1162,8 +1162,8 @@
     },
     "Alden Coria vs Imanol Rodriguez": {
       "win_probability": {
-        "fighter_a_pct": 77.77,
-        "fighter_b_pct": 22.23,
+        "fighter_a_pct": 78.42,
+        "fighter_b_pct": 21.58,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -1175,9 +1175,9 @@
     },
     "Roman Kopylov vs Ateba Gautier": {
       "win_probability": {
-        "fighter_a_pct": 39.51,
-        "fighter_b_pct": 60.49,
-        "draw_pct": 5.14,
+        "fighter_a_pct": 38.81,
+        "fighter_b_pct": 61.19,
+        "draw_pct": 5.17,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -1188,8 +1188,8 @@
     },
     "Roberto Soldi\u0107 vs Khaos Williams": {
       "win_probability": {
-        "fighter_a_pct": 76.21,
-        "fighter_b_pct": 23.79,
+        "fighter_a_pct": 76.02,
+        "fighter_b_pct": 23.98,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -1201,9 +1201,9 @@
     },
     "King Green vs Esteban Ribovics": {
       "win_probability": {
-        "fighter_a_pct": 75.68,
-        "fighter_b_pct": 24.32,
-        "draw_pct": 0.26,
+        "fighter_a_pct": 75.9,
+        "fighter_b_pct": 24.1,
+        "draw_pct": 0.28,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -1214,8 +1214,8 @@
     },
     "Deiveson Figueiredo vs Payton Talbott": {
       "win_probability": {
-        "fighter_a_pct": 29.78,
-        "fighter_b_pct": 70.22,
+        "fighter_a_pct": 29.39,
+        "fighter_b_pct": 70.61,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -1227,8 +1227,8 @@
     },
     "Natalia Silva vs Wang Cong": {
       "win_probability": {
-        "fighter_a_pct": 23.85,
-        "fighter_b_pct": 76.15,
+        "fighter_a_pct": 24.9,
+        "fighter_b_pct": 75.1,
         "draw_pct": 0.0
       },
       "value_flags": {
@@ -1239,8 +1239,8 @@
     },
     "Ismael Bonfim vs Francisco Prado": {
       "win_probability": {
-        "fighter_a_pct": 71.67,
-        "fighter_b_pct": 28.33,
+        "fighter_a_pct": 71.15,
+        "fighter_b_pct": 28.85,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -1252,9 +1252,9 @@
     },
     "Brendan Allen vs Christian Leroy Duncan": {
       "win_probability": {
-        "fighter_a_pct": 42.19,
-        "fighter_b_pct": 57.81,
-        "draw_pct": 2.28,
+        "fighter_a_pct": 42.82,
+        "fighter_b_pct": 57.18,
+        "draw_pct": 2.11,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -1265,9 +1265,9 @@
     },
     "SuYoung You vs Cody Chovancek": {
       "win_probability": {
-        "fighter_a_pct": 77.01,
-        "fighter_b_pct": 22.99,
-        "draw_pct": 0.49,
+        "fighter_a_pct": 77.45,
+        "fighter_b_pct": 22.55,
+        "draw_pct": 0.36,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -1278,8 +1278,8 @@
     },
     "Chelsea Chandler vs Melissa Croden": {
       "win_probability": {
-        "fighter_a_pct": 24.54,
-        "fighter_b_pct": 75.46,
+        "fighter_a_pct": 24.23,
+        "fighter_b_pct": 75.77,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -1291,8 +1291,8 @@
     },
     "Chad Anheliger vs Steven Koslow": {
       "win_probability": {
-        "fighter_a_pct": 25.98,
-        "fighter_b_pct": 74.02,
+        "fighter_a_pct": 24.86,
+        "fighter_b_pct": 75.14,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -1304,9 +1304,9 @@
     },
     "Katlyn Cerminara vs Jamey-Lyn Horth": {
       "win_probability": {
-        "fighter_a_pct": 22.15,
-        "fighter_b_pct": 77.85,
-        "draw_pct": 0.68,
+        "fighter_a_pct": 22.29,
+        "fighter_b_pct": 77.71,
+        "draw_pct": 0.59,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -1317,8 +1317,8 @@
     },
     "Louie Sutherland vs Javad Mahjoub": {
       "win_probability": {
-        "fighter_a_pct": 64.13,
-        "fighter_b_pct": 35.87,
+        "fighter_a_pct": 63.68,
+        "fighter_b_pct": 36.32,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -1330,8 +1330,8 @@
     },
     "Gilbert Urbina vs Julien LeBlanc": {
       "win_probability": {
-        "fighter_a_pct": 75.75,
-        "fighter_b_pct": 24.25,
+        "fighter_a_pct": 75.68,
+        "fighter_b_pct": 24.32,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -1343,9 +1343,9 @@
     },
     "Tanner Boser vs Jhonata Diniz": {
       "win_probability": {
-        "fighter_a_pct": 69.14,
-        "fighter_b_pct": 30.86,
-        "draw_pct": 3.14,
+        "fighter_a_pct": 68.49,
+        "fighter_b_pct": 31.51,
+        "draw_pct": 3.18,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -1356,8 +1356,8 @@
     },
     "Nate Landwehr vs Mandel Nallo": {
       "win_probability": {
-        "fighter_a_pct": 27.7,
-        "fighter_b_pct": 72.3,
+        "fighter_a_pct": 27.74,
+        "fighter_b_pct": 72.26,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -1369,8 +1369,8 @@
     },
     "Louis Jourdain vs Timmy Cuamba": {
       "win_probability": {
-        "fighter_a_pct": 78.54,
-        "fighter_b_pct": 21.46,
+        "fighter_a_pct": 78.98,
+        "fighter_b_pct": 21.02,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -1382,9 +1382,9 @@
     },
     "Kyle Daukaus vs Marc-Andre Barriault": {
       "win_probability": {
-        "fighter_a_pct": 50.77,
-        "fighter_b_pct": 49.23,
-        "draw_pct": 4.72,
+        "fighter_a_pct": 51.69,
+        "fighter_b_pct": 48.31,
+        "draw_pct": 4.81,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -1395,9 +1395,9 @@
     },
     "Erin Blanchfield vs Jasmine Jasudavicius": {
       "win_probability": {
-        "fighter_a_pct": 69.64,
-        "fighter_b_pct": 30.36,
-        "draw_pct": 3.49,
+        "fighter_a_pct": 69.76,
+        "fighter_b_pct": 30.24,
+        "draw_pct": 3.58,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -1408,9 +1408,9 @@
     },
     "Mike Malott vs Joaquin Buckley": {
       "win_probability": {
-        "fighter_a_pct": 57.59,
-        "fighter_b_pct": 42.41,
-        "draw_pct": 5.1,
+        "fighter_a_pct": 58.08,
+        "fighter_b_pct": 41.92,
+        "draw_pct": 4.65,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -1421,9 +1421,9 @@
     },
     "Marcus McGhee vs Anthony Romero": {
       "win_probability": {
-        "fighter_a_pct": 25.84,
-        "fighter_b_pct": 74.16,
-        "draw_pct": 1.09,
+        "fighter_a_pct": 25.23,
+        "fighter_b_pct": 74.77,
+        "draw_pct": 0.8,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -1434,8 +1434,8 @@
     },
     "Julien LeBlanc vs Nick Galanti": {
       "win_probability": {
-        "fighter_a_pct": 25.09,
-        "fighter_b_pct": 74.91,
+        "fighter_a_pct": 23.97,
+        "fighter_b_pct": 76.03,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -1447,9 +1447,9 @@
     },
     "Melissa Gatto vs Ernesta Kareckaite": {
       "win_probability": {
-        "fighter_a_pct": 25.94,
-        "fighter_b_pct": 74.06,
-        "draw_pct": 1.54,
+        "fighter_a_pct": 25.55,
+        "fighter_b_pct": 74.45,
+        "draw_pct": 1.69,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -1460,9 +1460,9 @@
     },
     "Daria Zhelezniakova vs Alice Pereira": {
       "win_probability": {
-        "fighter_a_pct": 64.61,
-        "fighter_b_pct": 35.39,
-        "draw_pct": 5.9,
+        "fighter_a_pct": 64.75,
+        "fighter_b_pct": 35.25,
+        "draw_pct": 6.41,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -1473,8 +1473,8 @@
     },
     "Allen Frye Jr. vs RJ Harris": {
       "win_probability": {
-        "fighter_a_pct": 26.1,
-        "fighter_b_pct": 73.91,
+        "fighter_a_pct": 24.73,
+        "fighter_b_pct": 75.27,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -1486,8 +1486,8 @@
     },
     "Brendson Ribeiro vs Felipe Franco": {
       "win_probability": {
-        "fighter_a_pct": 30.37,
-        "fighter_b_pct": 69.63,
+        "fighter_a_pct": 30.09,
+        "fighter_b_pct": 69.91,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -1499,8 +1499,8 @@
     },
     "Niko Price vs Leon Shahbazyan": {
       "win_probability": {
-        "fighter_a_pct": 76.43,
-        "fighter_b_pct": 23.57,
+        "fighter_a_pct": 76.37,
+        "fighter_b_pct": 23.63,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -1512,8 +1512,8 @@
     },
     "Otari Tanzilovi vs Malcolm Wellmaker": {
       "win_probability": {
-        "fighter_a_pct": 77.35,
-        "fighter_b_pct": 22.65,
+        "fighter_a_pct": 77.69,
+        "fighter_b_pct": 22.31,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -1525,8 +1525,8 @@
     },
     "Gerald Meerschaert vs Julius Walker": {
       "win_probability": {
-        "fighter_a_pct": 30.54,
-        "fighter_b_pct": 69.46,
+        "fighter_a_pct": 30.81,
+        "fighter_b_pct": 69.19,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -1538,9 +1538,9 @@
     },
     "Andre Fili vs Kai Kamaka III": {
       "win_probability": {
-        "fighter_a_pct": 28.61,
-        "fighter_b_pct": 71.39,
-        "draw_pct": 2.95,
+        "fighter_a_pct": 28.29,
+        "fighter_b_pct": 71.71,
+        "draw_pct": 3.44,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -1551,8 +1551,8 @@
     },
     "Ketlen Souza vs Loopy God\u00ednez": {
       "win_probability": {
-        "fighter_a_pct": 23.28,
-        "fighter_b_pct": 76.72,
+        "fighter_a_pct": 22.84,
+        "fighter_b_pct": 77.16,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -1564,9 +1564,9 @@
     },
     "Jai Herbert vs Matheus Camilo": {
       "win_probability": {
-        "fighter_a_pct": 49.09,
-        "fighter_b_pct": 50.91,
-        "draw_pct": 6.28,
+        "fighter_a_pct": 48.97,
+        "fighter_b_pct": 51.03,
+        "draw_pct": 7.0,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -1577,8 +1577,8 @@
     },
     "Colby Thicknesse vs Asaf Chopurov": {
       "win_probability": {
-        "fighter_a_pct": 17.8,
-        "fighter_b_pct": 82.2,
+        "fighter_a_pct": 18.35,
+        "fighter_b_pct": 81.65,
         "draw_pct": 0.0
       },
       "value_flags": {
@@ -1589,9 +1589,9 @@
     },
     "Grant Dawson vs Nurullo Aliev": {
       "win_probability": {
-        "fighter_a_pct": 55.84,
-        "fighter_b_pct": 44.16,
-        "draw_pct": 6.56,
+        "fighter_a_pct": 56.19,
+        "fighter_b_pct": 43.81,
+        "draw_pct": 6.22,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -1602,8 +1602,8 @@
     },
     "Abus Magomedov vs Cam Rowston": {
       "win_probability": {
-        "fighter_a_pct": 71.16,
-        "fighter_b_pct": 28.84,
+        "fighter_a_pct": 71.53,
+        "fighter_b_pct": 28.47,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -1615,8 +1615,8 @@
     },
     "Nikita Krylov vs Abdul-Rakhman Yakhyaev": {
       "win_probability": {
-        "fighter_a_pct": 25.68,
-        "fighter_b_pct": 74.32,
+        "fighter_a_pct": 23.67,
+        "fighter_b_pct": 76.33,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -1628,9 +1628,9 @@
     },
     "Azamat Murzakanov vs Dominick Reyes": {
       "win_probability": {
-        "fighter_a_pct": 56.5,
-        "fighter_b_pct": 43.5,
-        "draw_pct": 6.29,
+        "fighter_a_pct": 55.33,
+        "fighter_b_pct": 44.67,
+        "draw_pct": 6.56,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -1641,9 +1641,9 @@
     },
     "Arnold Allen vs Aaron Pico": {
       "win_probability": {
-        "fighter_a_pct": 42.99,
-        "fighter_b_pct": 57.01,
-        "draw_pct": 7.21,
+        "fighter_a_pct": 42.75,
+        "fighter_b_pct": 57.25,
+        "draw_pct": 7.27,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -1654,9 +1654,9 @@
     },
     "Alexander Volkov vs Rizvan Kuniev": {
       "win_probability": {
-        "fighter_a_pct": 43.72,
-        "fighter_b_pct": 56.28,
-        "draw_pct": 5.75,
+        "fighter_a_pct": 42.57,
+        "fighter_b_pct": 57.43,
+        "draw_pct": 5.52,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -1667,9 +1667,9 @@
     },
     "Ramazan Temirov vs Lone'er Kavanagh": {
       "win_probability": {
-        "fighter_a_pct": 55.01,
-        "fighter_b_pct": 44.99,
-        "draw_pct": 7.87,
+        "fighter_a_pct": 55.4,
+        "fighter_b_pct": 44.6,
+        "draw_pct": 8.55,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -1680,8 +1680,8 @@
     },
     "Merab Dvalishvili vs Petr Yan": {
       "win_probability": {
-        "fighter_a_pct": 75.35,
-        "fighter_b_pct": 24.65,
+        "fighter_a_pct": 74.15,
+        "fighter_b_pct": 25.85,
         "draw_pct": 0.0
       },
       "value_flags": {
@@ -1692,9 +1692,9 @@
     },
     "Alexander Volkanovski vs Movsar Evloev": {
       "win_probability": {
-        "fighter_a_pct": 37.49,
-        "fighter_b_pct": 62.51,
-        "draw_pct": 3.82,
+        "fighter_a_pct": 37.46,
+        "fighter_b_pct": 62.54,
+        "draw_pct": 3.96,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -1705,8 +1705,8 @@
     },
     "Preston LaGrange vs Nell Ariano": {
       "win_probability": {
-        "fighter_a_pct": 76.77,
-        "fighter_b_pct": 23.23,
+        "fighter_a_pct": 75.54,
+        "fighter_b_pct": 24.46,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -1718,8 +1718,8 @@
     },
     "Mateus Soares vs Ryuho Miyaguchi": {
       "win_probability": {
-        "fighter_a_pct": 78.17,
-        "fighter_b_pct": 21.83,
+        "fighter_a_pct": 77.73,
+        "fighter_b_pct": 22.27,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -1731,9 +1731,9 @@
     },
     "Roque Concei\u00e7\u00e3o vs Alexander Chavez": {
       "win_probability": {
-        "fighter_a_pct": 89.25,
-        "fighter_b_pct": 10.75,
-        "draw_pct": 0.95
+        "fighter_a_pct": 90.22,
+        "fighter_b_pct": 9.78,
+        "draw_pct": 1.3
       },
       "value_flags": {
         "fighter_a": false,
@@ -1743,8 +1743,8 @@
     },
     "Salhahuddin Everett vs Ozzy Martin": {
       "win_probability": {
-        "fighter_a_pct": 75.86,
-        "fighter_b_pct": 24.14,
+        "fighter_a_pct": 75.85,
+        "fighter_b_pct": 24.15,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -1756,8 +1756,8 @@
     },
     "Alivia Bierley vs Summer Onley": {
       "win_probability": {
-        "fighter_a_pct": 78.15,
-        "fighter_b_pct": 21.85,
+        "fighter_a_pct": 78.78,
+        "fighter_b_pct": 21.22,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -1769,8 +1769,8 @@
     },
     "Aline Pereira vs Smilla Sundell": {
       "win_probability": {
-        "fighter_a_pct": 78.9,
-        "fighter_b_pct": 21.1,
+        "fighter_a_pct": 79.34,
+        "fighter_b_pct": 20.66,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -1782,8 +1782,8 @@
     },
     "Ilias Bulaid vs Erick Visconde": {
       "win_probability": {
-        "fighter_a_pct": 22.01,
-        "fighter_b_pct": 77.99,
+        "fighter_a_pct": 21.16,
+        "fighter_b_pct": 78.84,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -1795,8 +1795,8 @@
     },
     "Jason Asher vs Greg Foster": {
       "win_probability": {
-        "fighter_a_pct": 27.24,
-        "fighter_b_pct": 72.76,
+        "fighter_a_pct": 27.36,
+        "fighter_b_pct": 72.65,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -1808,9 +1808,9 @@
     },
     "Davi Cabral vs Douglas da Lapa": {
       "win_probability": {
-        "fighter_a_pct": 38.95,
-        "fighter_b_pct": 61.05,
-        "draw_pct": 0.0,
+        "fighter_a_pct": 39.23,
+        "fighter_b_pct": 60.77,
+        "draw_pct": 0.02,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -1821,8 +1821,8 @@
     },
     "Will Rentz vs Luis Francischinelli": {
       "win_probability": {
-        "fighter_a_pct": 23.27,
-        "fighter_b_pct": 76.73,
+        "fighter_a_pct": 22.67,
+        "fighter_b_pct": 77.33,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -1834,8 +1834,8 @@
     },
     "Katlyn Cerminara vs Mackenzie Stiller": {
       "win_probability": {
-        "fighter_a_pct": 78.94,
-        "fighter_b_pct": 21.05,
+        "fighter_a_pct": 79.5,
+        "fighter_b_pct": 20.5,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -1847,8 +1847,8 @@
     },
     "Javad Mahjoub vs Joel Faglier": {
       "win_probability": {
-        "fighter_a_pct": 27.75,
-        "fighter_b_pct": 72.25,
+        "fighter_a_pct": 27.19,
+        "fighter_b_pct": 72.81,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -1860,9 +1860,9 @@
     },
     "Kyle Nelson vs Cristian P\u00e9rez": {
       "win_probability": {
-        "fighter_a_pct": 23.69,
-        "fighter_b_pct": 76.31,
-        "draw_pct": 2.7
+        "fighter_a_pct": 23.18,
+        "fighter_b_pct": 76.82,
+        "draw_pct": 3.35
       },
       "value_flags": {
         "fighter_a": false,
@@ -1872,9 +1872,9 @@
     },
     "Gaston Bola\u00f1os vs Francis Marshall": {
       "win_probability": {
-        "fighter_a_pct": 22.01,
-        "fighter_b_pct": 77.99,
-        "draw_pct": 0.51,
+        "fighter_a_pct": 21.6,
+        "fighter_b_pct": 78.4,
+        "draw_pct": 0.44,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -1885,9 +1885,9 @@
     },
     "Julian Erosa vs JeongYeong Lee": {
       "win_probability": {
-        "fighter_a_pct": 74.71,
-        "fighter_b_pct": 25.29,
-        "draw_pct": 0.88,
+        "fighter_a_pct": 74.9,
+        "fighter_b_pct": 25.1,
+        "draw_pct": 0.94,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -1898,9 +1898,9 @@
     },
     "Andre Petroski vs Azamat Bekoev": {
       "win_probability": {
-        "fighter_a_pct": 72.88,
-        "fighter_b_pct": 27.12,
-        "draw_pct": 1.36,
+        "fighter_a_pct": 72.76,
+        "fighter_b_pct": 27.24,
+        "draw_pct": 1.37,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -1911,8 +1911,8 @@
     },
     "Jean-Paul Lebosnoyani vs Farman Hasanov": {
       "win_probability": {
-        "fighter_a_pct": 32.87,
-        "fighter_b_pct": 67.13,
+        "fighter_a_pct": 33.04,
+        "fighter_b_pct": 66.96,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -1924,8 +1924,8 @@
     },
     "Theodor Berggren vs Rodrigo Sezinando": {
       "win_probability": {
-        "fighter_a_pct": 25.4,
-        "fighter_b_pct": 74.6,
+        "fighter_a_pct": 25.27,
+        "fighter_b_pct": 74.73,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -1937,9 +1937,9 @@
     },
     "Piera Rodriguez vs Talita Alencar": {
       "win_probability": {
-        "fighter_a_pct": 75.12,
-        "fighter_b_pct": 24.88,
-        "draw_pct": 0.03,
+        "fighter_a_pct": 75.28,
+        "fighter_b_pct": 24.72,
+        "draw_pct": 0.05,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -1950,9 +1950,9 @@
     },
     "Yana Santos vs Luana Santos": {
       "win_probability": {
-        "fighter_a_pct": 40.2,
-        "fighter_b_pct": 59.8,
-        "draw_pct": 8.45
+        "fighter_a_pct": 39.95,
+        "fighter_b_pct": 60.05,
+        "draw_pct": 7.25
       },
       "value_flags": {
         "fighter_a": false,
@@ -1962,9 +1962,9 @@
     },
     "Carlos Leal vs Randy Brown": {
       "win_probability": {
-        "fighter_a_pct": 73.13,
-        "fighter_b_pct": 26.87,
-        "draw_pct": 1.05,
+        "fighter_a_pct": 72.41,
+        "fighter_b_pct": 27.59,
+        "draw_pct": 1.07,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -1975,9 +1975,9 @@
     },
     "Tainara Lisboa vs Lucia Szabova": {
       "win_probability": {
-        "fighter_a_pct": 12.76,
-        "fighter_b_pct": 87.24,
-        "draw_pct": 0.85
+        "fighter_a_pct": 14.06,
+        "fighter_b_pct": 85.94,
+        "draw_pct": 0.75
       },
       "value_flags": {
         "fighter_a": false,
@@ -1987,9 +1987,9 @@
     },
     "Joe Kropschot vs Nick Klein": {
       "win_probability": {
-        "fighter_a_pct": 58.32,
-        "fighter_b_pct": 41.68,
-        "draw_pct": 0.76,
+        "fighter_a_pct": 56.46,
+        "fighter_b_pct": 43.54,
+        "draw_pct": 0.86,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -2000,9 +2000,9 @@
     },
     "Renato Moicano vs Tom Nolan": {
       "win_probability": {
-        "fighter_a_pct": 60.77,
-        "fighter_b_pct": 39.23,
-        "draw_pct": 2.56,
+        "fighter_a_pct": 60.51,
+        "fighter_b_pct": 39.49,
+        "draw_pct": 2.36,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -2013,9 +2013,9 @@
     },
     "Aaron Pico vs Losene Keita": {
       "win_probability": {
-        "fighter_a_pct": 76.23,
-        "fighter_b_pct": 23.77,
-        "draw_pct": 0.9,
+        "fighter_a_pct": 76.28,
+        "fighter_b_pct": 23.72,
+        "draw_pct": 1.03,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -2026,9 +2026,9 @@
     },
     "Tainara Lisboa vs Lucia Szabov\u00e1": {
       "win_probability": {
-        "fighter_a_pct": 12.76,
-        "fighter_b_pct": 87.24,
-        "draw_pct": 0.9
+        "fighter_a_pct": 14.06,
+        "fighter_b_pct": 85.94,
+        "draw_pct": 0.75
       },
       "value_flags": {
         "fighter_a": false,
@@ -2038,9 +2038,9 @@
     },
     "Abubakar Vagaev vs Jacob Malkoun": {
       "win_probability": {
-        "fighter_a_pct": 25.42,
-        "fighter_b_pct": 74.58,
-        "draw_pct": 2.14,
+        "fighter_a_pct": 24.94,
+        "fighter_b_pct": 75.06,
+        "draw_pct": 2.32,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -2051,9 +2051,9 @@
     },
     "Jonny Parsons vs Jose Henrique": {
       "win_probability": {
-        "fighter_a_pct": 29.85,
-        "fighter_b_pct": 70.15,
-        "draw_pct": 6.7
+        "fighter_a_pct": 30.71,
+        "fighter_b_pct": 69.29,
+        "draw_pct": 6.05
       },
       "value_flags": {
         "fighter_a": false,
@@ -2063,8 +2063,8 @@
     },
     "Priscila Cachoeira vs Nina Milo\u0161evi\u0107": {
       "win_probability": {
-        "fighter_a_pct": 22.2,
-        "fighter_b_pct": 77.8,
+        "fighter_a_pct": 22.26,
+        "fighter_b_pct": 77.74,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -2076,8 +2076,8 @@
     },
     "Lucas Brennan vs Austin Bashi": {
       "win_probability": {
-        "fighter_a_pct": 26.24,
-        "fighter_b_pct": 73.76,
+        "fighter_a_pct": 24.88,
+        "fighter_b_pct": 75.12,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -2089,8 +2089,8 @@
     },
     "Keiichiro Nakamura vs Ollie Schmid": {
       "win_probability": {
-        "fighter_a_pct": 78.17,
-        "fighter_b_pct": 21.83,
+        "fighter_a_pct": 78.13,
+        "fighter_b_pct": 21.87,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -2102,9 +2102,9 @@
     },
     "Jose Delano vs Murtazali Magomedov": {
       "win_probability": {
-        "fighter_a_pct": 47.18,
-        "fighter_b_pct": 52.82,
-        "draw_pct": 3.92,
+        "fighter_a_pct": 46.47,
+        "fighter_b_pct": 53.53,
+        "draw_pct": 4.13,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -2115,9 +2115,9 @@
     },
     "Karine Silva vs Gabriella Fernandes": {
       "win_probability": {
-        "fighter_a_pct": 84.07,
-        "fighter_b_pct": 15.93,
-        "draw_pct": 2.1
+        "fighter_a_pct": 85.95,
+        "fighter_b_pct": 14.05,
+        "draw_pct": 1.75
       },
       "value_flags": {
         "fighter_a": false,
@@ -2127,8 +2127,8 @@
     },
     "Gabriel Loren\u00e7o vs Alvin Hines": {
       "win_probability": {
-        "fighter_a_pct": 76.67,
-        "fighter_b_pct": 23.33,
+        "fighter_a_pct": 75.38,
+        "fighter_b_pct": 24.62,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -2140,8 +2140,8 @@
     },
     "Wes Schultz vs Mantas Kondratavi\u010dius": {
       "win_probability": {
-        "fighter_a_pct": 34.08,
-        "fighter_b_pct": 65.92,
+        "fighter_a_pct": 33.85,
+        "fighter_b_pct": 66.15,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -2153,9 +2153,9 @@
     },
     "Billy Elekana vs Lucas Fernando": {
       "win_probability": {
-        "fighter_a_pct": 28.56,
-        "fighter_b_pct": 71.44,
-        "draw_pct": 0.02,
+        "fighter_a_pct": 28.57,
+        "fighter_b_pct": 71.43,
+        "draw_pct": 0.06,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -2166,8 +2166,8 @@
     },
     "Wellington Turman vs Seokhyeon Ko": {
       "win_probability": {
-        "fighter_a_pct": 18.47,
-        "fighter_b_pct": 81.53,
+        "fighter_a_pct": 18.92,
+        "fighter_b_pct": 81.08,
         "draw_pct": 0.1
       },
       "value_flags": {
@@ -2178,9 +2178,9 @@
     },
     "Davey Grant vs Elijah Smith": {
       "win_probability": {
-        "fighter_a_pct": 36.73,
-        "fighter_b_pct": 63.26,
-        "draw_pct": 6.43,
+        "fighter_a_pct": 36.1,
+        "fighter_b_pct": 63.9,
+        "draw_pct": 6.52,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -2191,9 +2191,9 @@
     },
     "Tatiana Suarez vs Virna Jandiroba": {
       "win_probability": {
-        "fighter_a_pct": 66.71,
-        "fighter_b_pct": 33.29,
-        "draw_pct": 3.37,
+        "fighter_a_pct": 67.08,
+        "fighter_b_pct": 32.92,
+        "draw_pct": 3.0,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -2204,9 +2204,9 @@
     },
     "Sean Brady vs Gabriel Bonfim": {
       "win_probability": {
-        "fighter_a_pct": 61.4,
-        "fighter_b_pct": 38.6,
-        "draw_pct": 2.2,
+        "fighter_a_pct": 61.5,
+        "fighter_b_pct": 38.5,
+        "draw_pct": 2.08,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -2217,9 +2217,9 @@
     },
     "Nicolle Caliari vs Iasmin Lucindo": {
       "win_probability": {
-        "fighter_a_pct": 29.72,
-        "fighter_b_pct": 70.28,
-        "draw_pct": 0.25,
+        "fighter_a_pct": 29.7,
+        "fighter_b_pct": 70.3,
+        "draw_pct": 0.33,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -2230,8 +2230,8 @@
     },
     "Noah Gugnon vs Kody Steele": {
       "win_probability": {
-        "fighter_a_pct": 49.36,
-        "fighter_b_pct": 50.64,
+        "fighter_a_pct": 48.08,
+        "fighter_b_pct": 51.92,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
@@ -2243,9 +2243,9 @@
     },
     "Daniel Santos vs Bolaji Oki": {
       "win_probability": {
-        "fighter_a_pct": 24.93,
-        "fighter_b_pct": 75.07,
-        "draw_pct": 2.11,
+        "fighter_a_pct": 24.65,
+        "fighter_b_pct": 75.35,
+        "draw_pct": 2.29,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
