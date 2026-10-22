@@ -1595,7 +1595,7 @@
         "calibration_shrink_applied": 0.55
       },
       "value_flags": {
-        "fighter_a": false,
+        "fighter_a": true,
         "fighter_b": false
       },
       "report_file": "reports/grant-dawson-vs-nurullo-aliev.json"

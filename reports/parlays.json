@@ -1051,9 +1051,9 @@
             {
               "matchup": "Daniel Santos vs Bolaji Oki",
               "pick": "Bolaji Oki",
-              "moneyline": 105,
-              "decimal_odds": 2.05,
-              "consensus_prob": 0.6258,
+              "moneyline": -100,
+              "decimal_odds": 2.0,
+              "consensus_prob": 0.6328,
               "model_prob": 0.7005,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 68.82,
@@ -1062,9 +1062,9 @@
             {
               "matchup": "Aaron Pico vs Losene Keita",
               "pick": "Aaron Pico",
-              "moneyline": -119,
-              "decimal_odds": 1.84,
-              "consensus_prob": 0.6635,
+              "moneyline": -133,
+              "decimal_odds": 1.752,
+              "consensus_prob": 0.6781,
               "model_prob": 0.7077,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 72.31,
@@ -1073,9 +1073,9 @@
             {
               "matchup": "Nicolle Caliari vs Iasmin Lucindo",
               "pick": "Iasmin Lucindo",
-              "moneyline": -375,
-              "decimal_odds": 1.267,
-              "consensus_prob": 0.769,
+              "moneyline": -380,
+              "decimal_odds": 1.263,
+              "consensus_prob": 0.7707,
               "model_prob": 0.6597,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 67.77,
@@ -1084,9 +1084,9 @@
             {
               "matchup": "Azamat Murzakanov vs Dominick Reyes",
               "pick": "Azamat Murzakanov",
-              "moneyline": -220,
-              "decimal_odds": 1.455,
-              "consensus_prob": 0.6329,
+              "moneyline": -221,
+              "decimal_odds": 1.452,
+              "consensus_prob": 0.6336,
               "model_prob": 0.5543,
               "likely_method": "Unanimous Decision",
               "likely_method_pct": 27.5,
@@ -1094,10 +1094,10 @@
             }
           ],
           "leg_count": 4,
-          "combined_prob_pct": 20.21,
-          "combined_decimal_odds": 6.954,
-          "combined_american": 595,
-          "ev_per_unit": 0.4052,
+          "combined_prob_pct": 20.95,
+          "combined_decimal_odds": 6.426,
+          "combined_american": 543,
+          "ev_per_unit": 0.3465,
           "positive_ev": true
         }
       }
