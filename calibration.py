@@ -33,6 +33,10 @@ LOG_PATH = os.path.join(os.path.dirname(__file__), "data_store", "predictions_lo
 # Don't apply any learned shrink until we've resolved at least this many fights —
 # below this, the sample is too small to trust (avoid over-fitting to noise).
 MIN_RESOLVED = 15
+# Entries ledger_backfill.py ruled out: logged only after the fight, a bout
+# that never happened, or a draw / no-contest. Live result scoring must leave
+# them alone, or they get scored as if they were real pre-fight predictions.
+EXCLUDED = ("no_prefight", "cancelled", "void")
 BASELINE_BRIER = 0.25   # a 50/50 guess scores 0.25; we want to beat this
 
 
@@ -108,7 +112,7 @@ def resolve_result(log: Dict[str, Any], winner_name: str, loser_name: str,
     """
     w, l = _norm(winner_name), _norm(loser_name)
     for e in reversed(log["entries"]):
-        if e["resolved"]:
+        if e["resolved"] or e.get("backfill") in EXCLUDED:
             continue
         names = {_norm(e["a"]), _norm(e["b"])}
         if names == {w, l}:
