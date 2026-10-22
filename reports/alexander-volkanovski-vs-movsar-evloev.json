@@ -98,7 +98,9 @@
       "kelly_fraction_half": 0.0841,
       "model_sees_value": true,
       "consensus_agrees": true,
-      "value_bet": true
-    }
+      "value_bet": false
+    },
+    "suspended": true,
+    "note": "Value bets and parlays suspended: on point-in-time stats the model doesn't beat the betting market (see reports/backtest_pit.json)."
   }
 }

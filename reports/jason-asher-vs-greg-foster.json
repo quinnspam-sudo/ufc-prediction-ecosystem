@@ -24,16 +24,16 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 27.24,
-    "fighter_b_pct": 72.76,
+    "fighter_a_pct": 32.11,
+    "fighter_b_pct": 67.89,
     "draw_pct": 0.0,
-    "calibration_shrink_applied": 0.7
+    "calibration_shrink_applied": 0.55
   },
   "consensus_forecast": {
     "applied": true,
-    "model_weight": 0.4,
-    "fighter_a_pct": 45.51,
-    "fighter_b_pct": 54.49,
+    "model_weight": 0.0,
+    "fighter_a_pct": 64.2,
+    "fighter_b_pct": 35.8,
     "market_devig_a_pct": 64.2
   },
   "method_of_victory_matrix": {
@@ -74,10 +74,10 @@
       "market_moneyline": -200,
       "market_decimal_odds": 1.5,
       "market_implied_prob_pct": 66.67,
-      "model_win_prob_pct": 27.24,
-      "edge_pct": -39.43,
-      "consensus_edge_pct": -21.15,
-      "kelly_fraction_full": -1.1829,
+      "model_win_prob_pct": 32.11,
+      "edge_pct": -34.55,
+      "consensus_edge_pct": -2.47,
+      "kelly_fraction_full": -1.0366,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
@@ -87,14 +87,16 @@
       "market_moneyline": 169,
       "market_decimal_odds": 2.69,
       "market_implied_prob_pct": 37.17,
-      "model_win_prob_pct": 72.76,
-      "edge_pct": 35.59,
-      "consensus_edge_pct": 17.31,
-      "kelly_fraction_full": 0.5665,
-      "kelly_fraction_half": 0.2832,
+      "model_win_prob_pct": 67.89,
+      "edge_pct": 30.71,
+      "consensus_edge_pct": -1.38,
+      "kelly_fraction_full": 0.4888,
+      "kelly_fraction_half": 0.2444,
       "model_sees_value": true,
-      "consensus_agrees": true,
-      "value_bet": true
-    }
+      "consensus_agrees": false,
+      "value_bet": false
+    },
+    "suspended": true,
+    "note": "Value bets and parlays suspended: on point-in-time stats the model doesn't beat the betting market (see reports/backtest_pit.json)."
   }
 }

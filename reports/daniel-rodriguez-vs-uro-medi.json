@@ -99,7 +99,8 @@
       "consensus_agrees": false,
       "value_bet": false
     },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+    "suspended": true,
+    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable.",
+    "insufficient_data": true
   }
 }

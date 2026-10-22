@@ -30,9 +30,9 @@
   },
   "consensus_forecast": {
     "applied": true,
-    "model_weight": 0.4,
-    "fighter_a_pct": 48.17,
-    "fighter_b_pct": 51.83,
+    "model_weight": 0.0,
+    "fighter_a_pct": 64.39,
+    "fighter_b_pct": 35.61,
     "market_devig_a_pct": 64.39
   },
   "method_of_victory_matrix": {
@@ -79,7 +79,7 @@
       "market_implied_prob_pct": 67.21,
       "model_win_prob_pct": 23.85,
       "edge_pct": -43.36,
-      "consensus_edge_pct": -19.04,
+      "consensus_edge_pct": -2.83,
       "kelly_fraction_full": -1.3226,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
@@ -92,14 +92,15 @@
       "market_implied_prob_pct": 37.17,
       "model_win_prob_pct": 76.15,
       "edge_pct": 38.98,
-      "consensus_edge_pct": 14.65,
+      "consensus_edge_pct": -1.56,
       "kelly_fraction_full": 0.6204,
       "kelly_fraction_half": 0.3102,
       "model_sees_value": true,
-      "consensus_agrees": true,
+      "consensus_agrees": false,
       "value_bet": false
     },
-    "insufficient_data": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable."
+    "suspended": true,
+    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable.",
+    "insufficient_data": true
   }
 }
