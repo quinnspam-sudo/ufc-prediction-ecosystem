@@ -1898,10 +1898,10 @@
     },
     "Andre Petroski vs Azamat Bekoev": {
       "win_probability": {
-        "fighter_a_pct": 72.76,
-        "fighter_b_pct": 27.24,
+        "fighter_a_pct": 59.75,
+        "fighter_b_pct": 40.25,
         "draw_pct": 1.37,
-        "calibration_shrink_applied": 0.7
+        "calibration_shrink_applied": 0.3
       },
       "value_flags": {
         "fighter_a": false,
@@ -1911,10 +1911,10 @@
     },
     "Jean-Paul Lebosnoyani vs Farman Hasanov": {
       "win_probability": {
-        "fighter_a_pct": 33.04,
-        "fighter_b_pct": 66.96,
+        "fighter_a_pct": 42.73,
+        "fighter_b_pct": 57.27,
         "draw_pct": 0.0,
-        "calibration_shrink_applied": 0.7
+        "calibration_shrink_applied": 0.3
       },
       "value_flags": {
         "fighter_a": false,
@@ -1924,10 +1924,10 @@
     },
     "Theodor Berggren vs Rodrigo Sezinando": {
       "win_probability": {
-        "fighter_a_pct": 25.27,
-        "fighter_b_pct": 74.73,
+        "fighter_a_pct": 39.4,
+        "fighter_b_pct": 60.6,
         "draw_pct": 0.0,
-        "calibration_shrink_applied": 0.7
+        "calibration_shrink_applied": 0.3
       },
       "value_flags": {
         "fighter_a": false,
@@ -1937,10 +1937,10 @@
     },
     "Piera Rodriguez vs Talita Alencar": {
       "win_probability": {
-        "fighter_a_pct": 75.28,
-        "fighter_b_pct": 24.72,
+        "fighter_a_pct": 60.84,
+        "fighter_b_pct": 39.16,
         "draw_pct": 0.05,
-        "calibration_shrink_applied": 0.7
+        "calibration_shrink_applied": 0.3
       },
       "value_flags": {
         "fighter_a": false,
@@ -2000,10 +2000,10 @@
     },
     "Renato Moicano vs Tom Nolan": {
       "win_probability": {
-        "fighter_a_pct": 60.51,
-        "fighter_b_pct": 39.49,
+        "fighter_a_pct": 54.5,
+        "fighter_b_pct": 45.5,
         "draw_pct": 2.36,
-        "calibration_shrink_applied": 0.7
+        "calibration_shrink_applied": 0.3
       },
       "value_flags": {
         "fighter_a": false,
@@ -2230,10 +2230,10 @@
     },
     "Noah Gugnon vs Kody Steele": {
       "win_probability": {
-        "fighter_a_pct": 48.08,
-        "fighter_b_pct": 51.92,
+        "fighter_a_pct": 49.18,
+        "fighter_b_pct": 50.82,
         "draw_pct": 0.0,
-        "calibration_shrink_applied": 0.7
+        "calibration_shrink_applied": 0.3
       },
       "value_flags": {
         "fighter_a": false,
