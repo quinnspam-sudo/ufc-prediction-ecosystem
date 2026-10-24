@@ -38,35 +38,35 @@
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 6.51,
-      "Submission": 40.74,
+      "KO/TKO": 6.53,
+      "Submission": 40.72,
       "Unanimous Decision": 0.0,
       "Split/Majority Decision": 0.0
     },
     "fighter_b": {
       "KO/TKO": 5.53,
       "Submission": 18.21,
-      "Unanimous Decision": 28.99,
-      "Split/Majority Decision": 0.02
+      "Unanimous Decision": 29.0,
+      "Split/Majority Decision": 0.01
     }
   },
   "fight_level": {
-    "ko_tko_pct": 12.04,
-    "submission_pct": 58.95,
+    "ko_tko_pct": 12.06,
+    "submission_pct": 58.93,
     "decision_pct": 29.01,
     "goes_the_distance_pct": 29.01,
-    "expected_fight_minutes": 8.92
+    "expected_fight_minutes": 8.91
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 2061,
-      "round_2": 1543,
+      "round_1": 2062,
+      "round_2": 1542,
       "round_3": 1121
     },
     "fighter_b": {
       "round_1": 1114,
-      "round_2": 727,
-      "round_3": 533
+      "round_2": 728,
+      "round_3": 532
     }
   },
   "value_betting": {

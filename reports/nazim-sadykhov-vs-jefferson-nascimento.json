@@ -5,12 +5,12 @@
     "scheduled_rounds": 3,
     "is_title_fight": false,
     "iterations": 10000,
-    "avg_rounds_simulated": 2.683,
+    "avg_rounds_simulated": 2.689,
     "fighter_a_flags": {
-      "active_injury": false,
+      "active_injury": true,
       "missed_weight": false,
-      "withdrawn": false,
-      "injury_note": "",
+      "withdrawn": true,
+      "injury_note": "Nazim Sadykhov withdraws from UFC 334 with injury - Operativ M\u0259lumat M\u0259rk\u0259zi",
       "stats_approx": false,
       "needs_real_stats": false
     },
@@ -24,49 +24,49 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 60.96,
-    "fighter_b_pct": 39.04,
-    "draw_pct": 1.76,
+    "fighter_a_pct": 60.51,
+    "fighter_b_pct": 39.49,
+    "draw_pct": 2.77,
     "calibration_shrink_applied": 0.3
   },
   "consensus_forecast": {
     "applied": false,
     "model_weight": 1.0,
-    "fighter_a_pct": 86.53,
-    "fighter_b_pct": 13.47,
+    "fighter_a_pct": 85.03,
+    "fighter_b_pct": 14.97,
     "market_devig_a_pct": null
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 12.52,
-      "Submission": 7.13,
-      "Unanimous Decision": 62.35,
-      "Split/Majority Decision": 3.01
+      "KO/TKO": 11.8,
+      "Submission": 7.1,
+      "Unanimous Decision": 60.07,
+      "Split/Majority Decision": 3.7
     },
     "fighter_b": {
-      "KO/TKO": 8.49,
-      "Submission": 2.74,
-      "Unanimous Decision": 1.02,
-      "Split/Majority Decision": 0.98
+      "KO/TKO": 8.62,
+      "Submission": 2.82,
+      "Unanimous Decision": 1.98,
+      "Split/Majority Decision": 1.14
     }
   },
   "fight_level": {
-    "ko_tko_pct": 21.01,
-    "submission_pct": 9.87,
-    "decision_pct": 67.36,
-    "goes_the_distance_pct": 69.12,
-    "expected_fight_minutes": 12.64
+    "ko_tko_pct": 20.42,
+    "submission_pct": 9.92,
+    "decision_pct": 66.89,
+    "goes_the_distance_pct": 69.66,
+    "expected_fight_minutes": 12.69
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 689,
-      "round_2": 677,
-      "round_3": 599
+      "round_1": 678,
+      "round_2": 636,
+      "round_3": 576
     },
     "fighter_b": {
       "round_1": 361,
-      "round_2": 390,
-      "round_3": 372
+      "round_2": 392,
+      "round_3": 391
     }
   },
   "value_betting": {
@@ -74,11 +74,11 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 60.96,
-      "edge_pct": 8.58,
-      "consensus_edge_pct": 34.15,
-      "kelly_fraction_full": 0.1801,
-      "kelly_fraction_half": 0.0901,
+      "model_win_prob_pct": 60.51,
+      "edge_pct": 8.13,
+      "consensus_edge_pct": 32.64,
+      "kelly_fraction_full": 0.1707,
+      "kelly_fraction_half": 0.0853,
       "model_sees_value": true,
       "consensus_agrees": true,
       "value_bet": false
@@ -87,10 +87,10 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 39.04,
-      "edge_pct": -13.34,
-      "consensus_edge_pct": -38.91,
-      "kelly_fraction_full": -0.2801,
+      "model_win_prob_pct": 39.49,
+      "edge_pct": -12.89,
+      "consensus_edge_pct": -37.41,
+      "kelly_fraction_full": -0.2707,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
