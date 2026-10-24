@@ -2282,9 +2282,9 @@
     },
     "Adrian Ya\u00f1ez vs Juan Diaz": {
       "win_probability": {
-        "fighter_a_pct": 47.48,
-        "fighter_b_pct": 52.52,
-        "draw_pct": 7.6,
+        "fighter_a_pct": 48.32,
+        "fighter_b_pct": 51.68,
+        "draw_pct": 7.62,
         "calibration_shrink_applied": 0.3
       },
       "value_flags": {
@@ -2295,9 +2295,9 @@
     },
     "Macy Chiasson vs Bia Mesquita": {
       "win_probability": {
-        "fighter_a_pct": 49.54,
-        "fighter_b_pct": 50.46,
-        "draw_pct": 7.45
+        "fighter_a_pct": 36.02,
+        "fighter_b_pct": 63.98,
+        "draw_pct": 4.35
       },
       "value_flags": {
         "fighter_a": false,
@@ -2307,9 +2307,10 @@
     },
     "Baisangur Susurkaev vs Donte Johnson": {
       "win_probability": {
-        "fighter_a_pct": 20.04,
-        "fighter_b_pct": 79.96,
-        "draw_pct": 0.45
+        "fighter_a_pct": 55.57,
+        "fighter_b_pct": 44.43,
+        "draw_pct": 4.6,
+        "calibration_shrink_applied": 0.3
       },
       "value_flags": {
         "fighter_a": false,
@@ -2331,9 +2332,9 @@
     },
     "Drew Dober vs Chris Duncan": {
       "win_probability": {
-        "fighter_a_pct": 49.59,
-        "fighter_b_pct": 50.41,
-        "draw_pct": 7.45
+        "fighter_a_pct": 28.78,
+        "fighter_b_pct": 71.22,
+        "draw_pct": 5.5
       },
       "value_flags": {
         "fighter_a": false,
@@ -2343,9 +2344,9 @@
     },
     "Stephen Thompson vs Charles Radtke": {
       "win_probability": {
-        "fighter_a_pct": 49.87,
-        "fighter_b_pct": 50.13,
-        "draw_pct": 6.85
+        "fighter_a_pct": 28.93,
+        "fighter_b_pct": 71.07,
+        "draw_pct": 3.9
       },
       "value_flags": {
         "fighter_a": false,
@@ -2379,9 +2380,9 @@
     },
     "Caio Borralho vs Yousri Belgaroui": {
       "win_probability": {
-        "fighter_a_pct": 49.68,
-        "fighter_b_pct": 50.32,
-        "draw_pct": 7.4
+        "fighter_a_pct": 69.17,
+        "fighter_b_pct": 30.83,
+        "draw_pct": 4.95
       },
       "value_flags": {
         "fighter_a": false,
@@ -2391,9 +2392,9 @@
     },
     "Amanda Nunes vs Kayla Harrison": {
       "win_probability": {
-        "fighter_a_pct": 45.44,
-        "fighter_b_pct": 54.56,
-        "draw_pct": 6.25
+        "fighter_a_pct": 76.9,
+        "fighter_b_pct": 23.1,
+        "draw_pct": 0.2
       },
       "value_flags": {
         "fighter_a": false,
