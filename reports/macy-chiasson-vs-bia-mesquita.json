@@ -4,15 +4,15 @@
     "fighter_b": "Bia Mesquita",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.451,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.439,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     },
     "fighter_b_flags": {
       "active_injury": false,
@@ -24,48 +24,49 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 36.02,
-    "fighter_b_pct": 63.98,
-    "draw_pct": 4.35
+    "fighter_a_pct": 47.1,
+    "fighter_b_pct": 52.9,
+    "draw_pct": 5.24,
+    "calibration_shrink_applied": 0.25
   },
   "consensus_forecast": {
     "applied": false,
     "model_weight": 1.0,
-    "fighter_a_pct": 36.02,
-    "fighter_b_pct": 63.98,
+    "fighter_a_pct": 38.41,
+    "fighter_b_pct": 61.59,
     "market_devig_a_pct": null
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 6.15,
-      "Submission": 12.45,
-      "Unanimous Decision": 10.45,
-      "Split/Majority Decision": 5.4
+      "KO/TKO": 5.67,
+      "Submission": 12.32,
+      "Unanimous Decision": 13.36,
+      "Split/Majority Decision": 5.05
     },
     "fighter_b": {
-      "KO/TKO": 6.15,
-      "Submission": 26.5,
-      "Unanimous Decision": 23.15,
-      "Split/Majority Decision": 5.4
+      "KO/TKO": 6.41,
+      "Submission": 27.06,
+      "Unanimous Decision": 19.3,
+      "Split/Majority Decision": 5.59
     }
   },
   "fight_level": {
-    "ko_tko_pct": 12.3,
-    "submission_pct": 38.95,
-    "decision_pct": 44.4,
-    "goes_the_distance_pct": 48.75,
-    "expected_fight_minutes": 10.97
+    "ko_tko_pct": 12.08,
+    "submission_pct": 39.38,
+    "decision_pct": 43.3,
+    "goes_the_distance_pct": 48.54,
+    "expected_fight_minutes": 10.91
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 143,
-      "round_2": 130,
-      "round_3": 99
+      "round_1": 692,
+      "round_2": 601,
+      "round_3": 506
     },
     "fighter_b": {
-      "round_1": 237,
-      "round_2": 208,
-      "round_3": 208
+      "round_1": 1278,
+      "round_2": 1073,
+      "round_3": 996
     }
   },
   "value_betting": {
@@ -73,10 +74,10 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 36.02,
-      "edge_pct": -16.36,
-      "consensus_edge_pct": -16.36,
-      "kelly_fraction_full": -0.3436,
+      "model_win_prob_pct": 47.1,
+      "edge_pct": -5.28,
+      "consensus_edge_pct": -13.97,
+      "kelly_fraction_full": -0.1108,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
@@ -86,17 +87,16 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 63.98,
-      "edge_pct": 11.6,
-      "consensus_edge_pct": 11.6,
-      "kelly_fraction_full": 0.2436,
-      "kelly_fraction_half": 0.1218,
+      "model_win_prob_pct": 52.9,
+      "edge_pct": 0.52,
+      "consensus_edge_pct": 9.21,
+      "kelly_fraction_full": 0.0108,
+      "kelly_fraction_half": 0.0054,
       "model_sees_value": true,
       "consensus_agrees": true,
       "value_bet": false
     },
     "suspended": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable.",
-    "insufficient_data": true
+    "note": "Value bets and parlays suspended: on point-in-time stats the model doesn't beat the betting market (see reports/backtest_pit.json)."
   }
 }

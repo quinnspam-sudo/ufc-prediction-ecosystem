@@ -246,10 +246,10 @@
     },
     "Rizvan Kuniev vs Tyrell Fortune": {
       "win_probability": {
-        "fighter_a_pct": 64.14,
-        "fighter_b_pct": 35.86,
+        "fighter_a_pct": 55.05,
+        "fighter_b_pct": 44.95,
         "draw_pct": 4.86,
-        "calibration_shrink_applied": 0.7
+        "calibration_shrink_applied": 0.25
       },
       "value_flags": {
         "fighter_a": false,
@@ -285,10 +285,10 @@
     },
     "Ramazan Temirov vs Steve Erceg": {
       "win_probability": {
-        "fighter_a_pct": 59.37,
-        "fighter_b_pct": 40.63,
+        "fighter_a_pct": 53.35,
+        "fighter_b_pct": 46.65,
         "draw_pct": 7.02,
-        "calibration_shrink_applied": 0.7
+        "calibration_shrink_applied": 0.25
       },
       "value_flags": {
         "fighter_a": false,
@@ -1589,10 +1589,10 @@
     },
     "Grant Dawson vs Nurullo Aliev": {
       "win_probability": {
-        "fighter_a_pct": 52.65,
-        "fighter_b_pct": 47.35,
-        "draw_pct": 6.22,
-        "calibration_shrink_applied": 0.3
+        "fighter_a_pct": 52.24,
+        "fighter_b_pct": 47.76,
+        "draw_pct": 5.82,
+        "calibration_shrink_applied": 0.25
       },
       "value_flags": {
         "fighter_a": false,
@@ -1602,10 +1602,10 @@
     },
     "Abus Magomedov vs Cam Rowston": {
       "win_probability": {
-        "fighter_a_pct": 71.53,
-        "fighter_b_pct": 28.47,
+        "fighter_a_pct": 57.69,
+        "fighter_b_pct": 42.31,
         "draw_pct": 0.0,
-        "calibration_shrink_applied": 0.7
+        "calibration_shrink_applied": 0.25
       },
       "value_flags": {
         "fighter_a": false,
@@ -1615,10 +1615,10 @@
     },
     "Nikita Krylov vs Abdul-Rakhman Yakhyaev": {
       "win_probability": {
-        "fighter_a_pct": 23.67,
-        "fighter_b_pct": 76.33,
+        "fighter_a_pct": 40.6,
+        "fighter_b_pct": 59.4,
         "draw_pct": 0.0,
-        "calibration_shrink_applied": 0.7
+        "calibration_shrink_applied": 0.25
       },
       "value_flags": {
         "fighter_a": false,
@@ -1628,10 +1628,10 @@
     },
     "Azamat Murzakanov vs Dominick Reyes": {
       "win_probability": {
-        "fighter_a_pct": 52.29,
-        "fighter_b_pct": 47.71,
-        "draw_pct": 6.56,
-        "calibration_shrink_applied": 0.3
+        "fighter_a_pct": 52.07,
+        "fighter_b_pct": 47.93,
+        "draw_pct": 5.98,
+        "calibration_shrink_applied": 0.25
       },
       "value_flags": {
         "fighter_a": false,
@@ -1641,10 +1641,10 @@
     },
     "Arnold Allen vs Aaron Pico": {
       "win_probability": {
-        "fighter_a_pct": 42.75,
-        "fighter_b_pct": 57.25,
-        "draw_pct": 7.27,
-        "calibration_shrink_applied": 0.7
+        "fighter_a_pct": 47.27,
+        "fighter_b_pct": 52.73,
+        "draw_pct": 6.99,
+        "calibration_shrink_applied": 0.25
       },
       "value_flags": {
         "fighter_a": false,
@@ -1654,10 +1654,10 @@
     },
     "Alexander Volkov vs Rizvan Kuniev": {
       "win_probability": {
-        "fighter_a_pct": 46.81,
-        "fighter_b_pct": 53.19,
-        "draw_pct": 5.52,
-        "calibration_shrink_applied": 0.3
+        "fighter_a_pct": 47.12,
+        "fighter_b_pct": 52.88,
+        "draw_pct": 5.22,
+        "calibration_shrink_applied": 0.25
       },
       "value_flags": {
         "fighter_a": false,
@@ -1667,10 +1667,10 @@
     },
     "Ramazan Temirov vs Lone'er Kavanagh": {
       "win_probability": {
-        "fighter_a_pct": 55.4,
-        "fighter_b_pct": 44.6,
-        "draw_pct": 8.55,
-        "calibration_shrink_applied": 0.7
+        "fighter_a_pct": 52.07,
+        "fighter_b_pct": 47.93,
+        "draw_pct": 7.79,
+        "calibration_shrink_applied": 0.25
       },
       "value_flags": {
         "fighter_a": false,
@@ -1911,10 +1911,10 @@
     },
     "Jean-Paul Lebosnoyani vs Farman Hasanov": {
       "win_probability": {
-        "fighter_a_pct": 42.73,
-        "fighter_b_pct": 57.27,
+        "fighter_a_pct": 43.94,
+        "fighter_b_pct": 56.06,
         "draw_pct": 0.0,
-        "calibration_shrink_applied": 0.3
+        "calibration_shrink_applied": 0.25
       },
       "value_flags": {
         "fighter_a": false,
@@ -1924,10 +1924,10 @@
     },
     "Theodor Berggren vs Rodrigo Sezinando": {
       "win_probability": {
-        "fighter_a_pct": 39.4,
-        "fighter_b_pct": 60.6,
+        "fighter_a_pct": 41.17,
+        "fighter_b_pct": 58.83,
         "draw_pct": 0.0,
-        "calibration_shrink_applied": 0.3
+        "calibration_shrink_applied": 0.25
       },
       "value_flags": {
         "fighter_a": false,
@@ -1937,10 +1937,10 @@
     },
     "Piera Rodriguez vs Talita Alencar": {
       "win_probability": {
-        "fighter_a_pct": 60.84,
-        "fighter_b_pct": 39.16,
+        "fighter_a_pct": 59.03,
+        "fighter_b_pct": 40.97,
         "draw_pct": 0.05,
-        "calibration_shrink_applied": 0.3
+        "calibration_shrink_applied": 0.25
       },
       "value_flags": {
         "fighter_a": false,
@@ -2000,10 +2000,10 @@
     },
     "Renato Moicano vs Tom Nolan": {
       "win_probability": {
-        "fighter_a_pct": 54.5,
-        "fighter_b_pct": 45.5,
+        "fighter_a_pct": 53.75,
+        "fighter_b_pct": 46.25,
         "draw_pct": 2.36,
-        "calibration_shrink_applied": 0.3
+        "calibration_shrink_applied": 0.25
       },
       "value_flags": {
         "fighter_a": false,
@@ -2013,10 +2013,10 @@
     },
     "Aaron Pico vs Losene Keita": {
       "win_probability": {
-        "fighter_a_pct": 61.26,
-        "fighter_b_pct": 38.74,
-        "draw_pct": 1.03,
-        "calibration_shrink_applied": 0.3
+        "fighter_a_pct": 59.5,
+        "fighter_b_pct": 40.5,
+        "draw_pct": 0.41,
+        "calibration_shrink_applied": 0.25
       },
       "value_flags": {
         "fighter_a": false,
@@ -2295,9 +2295,10 @@
     },
     "Macy Chiasson vs Bia Mesquita": {
       "win_probability": {
-        "fighter_a_pct": 36.02,
-        "fighter_b_pct": 63.98,
-        "draw_pct": 4.35
+        "fighter_a_pct": 47.1,
+        "fighter_b_pct": 52.9,
+        "draw_pct": 5.24,
+        "calibration_shrink_applied": 0.25
       },
       "value_flags": {
         "fighter_a": false,
@@ -2320,9 +2321,9 @@
     },
     "Jim Miller vs Terrance McKinney": {
       "win_probability": {
-        "fighter_a_pct": 49.59,
-        "fighter_b_pct": 50.41,
-        "draw_pct": 7.45
+        "fighter_a_pct": 15.15,
+        "fighter_b_pct": 84.85,
+        "draw_pct": 0.0
       },
       "value_flags": {
         "fighter_a": false,
@@ -2344,9 +2345,10 @@
     },
     "Stephen Thompson vs Charles Radtke": {
       "win_probability": {
-        "fighter_a_pct": 28.93,
-        "fighter_b_pct": 71.07,
-        "draw_pct": 3.9
+        "fighter_a_pct": 42.56,
+        "fighter_b_pct": 57.44,
+        "draw_pct": 3.39,
+        "calibration_shrink_applied": 0.25
       },
       "value_flags": {
         "fighter_a": false,
@@ -2356,9 +2358,10 @@
     },
     "Luis Gurule vs Bilal Hasan": {
       "win_probability": {
-        "fighter_a_pct": 31.4,
-        "fighter_b_pct": 68.6,
-        "draw_pct": 0.0
+        "fighter_a_pct": 40.84,
+        "fighter_b_pct": 59.16,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.25
       },
       "value_flags": {
         "fighter_a": false,
@@ -2416,9 +2419,9 @@
     },
     "Mickey Gall vs Zach Reese": {
       "win_probability": {
-        "fighter_a_pct": 49.76,
-        "fighter_b_pct": 50.24,
-        "draw_pct": 7.45
+        "fighter_a_pct": 24.05,
+        "fighter_b_pct": 75.95,
+        "draw_pct": 0.0
       },
       "value_flags": {
         "fighter_a": false,
@@ -2441,9 +2444,10 @@
     },
     "Dakota Hope vs Francis Marshall": {
       "win_probability": {
-        "fighter_a_pct": 26.96,
-        "fighter_b_pct": 73.04,
-        "draw_pct": 4.1
+        "fighter_a_pct": 54.36,
+        "fighter_b_pct": 45.64,
+        "draw_pct": 6.34,
+        "calibration_shrink_applied": 0.25
       },
       "value_flags": {
         "fighter_a": false,
