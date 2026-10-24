@@ -2253,6 +2253,165 @@
         "fighter_b": false
       },
       "report_file": "reports/daniel-santos-vs-bolaji-oki.json"
+    },
+    "Ode' Osbourne vs Cody Durden": {
+      "win_probability": {
+        "fighter_a_pct": 39.26,
+        "fighter_b_pct": 60.74,
+        "draw_pct": 0.68,
+        "calibration_shrink_applied": 0.3
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/ode-osbourne-vs-cody-durden.json"
+    },
+    "Nazim Sadykhov vs Jefferson Nascimento": {
+      "win_probability": {
+        "fighter_a_pct": 60.96,
+        "fighter_b_pct": 39.04,
+        "draw_pct": 1.76,
+        "calibration_shrink_applied": 0.3
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/nazim-sadykhov-vs-jefferson-nascimento.json"
+    },
+    "Adrian Ya\u00f1ez vs Juan Diaz": {
+      "win_probability": {
+        "fighter_a_pct": 47.48,
+        "fighter_b_pct": 52.52,
+        "draw_pct": 7.6,
+        "calibration_shrink_applied": 0.3
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/adrian-ya-ez-vs-juan-diaz.json"
+    },
+    "Macy Chiasson vs Bia Mesquita": {
+      "win_probability": {
+        "fighter_a_pct": 49.54,
+        "fighter_b_pct": 50.46,
+        "draw_pct": 7.45
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/macy-chiasson-vs-bia-mesquita.json"
+    },
+    "Baisangur Susurkaev vs Donte Johnson": {
+      "win_probability": {
+        "fighter_a_pct": 20.04,
+        "fighter_b_pct": 79.96,
+        "draw_pct": 0.45
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/baisangur-susurkaev-vs-donte-johnson.json"
+    },
+    "Jim Miller vs Terrance McKinney": {
+      "win_probability": {
+        "fighter_a_pct": 49.59,
+        "fighter_b_pct": 50.41,
+        "draw_pct": 7.45
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/jim-miller-vs-terrance-mckinney.json"
+    },
+    "Drew Dober vs Chris Duncan": {
+      "win_probability": {
+        "fighter_a_pct": 49.59,
+        "fighter_b_pct": 50.41,
+        "draw_pct": 7.45
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/drew-dober-vs-chris-duncan.json"
+    },
+    "Stephen Thompson vs Charles Radtke": {
+      "win_probability": {
+        "fighter_a_pct": 49.87,
+        "fighter_b_pct": 50.13,
+        "draw_pct": 6.85
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/stephen-thompson-vs-charles-radtke.json"
+    },
+    "Luis Gurule vs Bilal Hasan": {
+      "win_probability": {
+        "fighter_a_pct": 31.4,
+        "fighter_b_pct": 68.6,
+        "draw_pct": 0.0
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/luis-gurule-vs-bilal-hasan.json"
+    },
+    "Kevin Holland vs Uro\u0161 Medi\u0107": {
+      "win_probability": {
+        "fighter_a_pct": 50.43,
+        "fighter_b_pct": 49.57,
+        "draw_pct": 6.7
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/kevin-holland-vs-uro-medi.json"
+    },
+    "Caio Borralho vs Yousri Belgaroui": {
+      "win_probability": {
+        "fighter_a_pct": 49.68,
+        "fighter_b_pct": 50.32,
+        "draw_pct": 7.4
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/caio-borralho-vs-yousri-belgaroui.json"
+    },
+    "Amanda Nunes vs Kayla Harrison": {
+      "win_probability": {
+        "fighter_a_pct": 45.44,
+        "fighter_b_pct": 54.56,
+        "draw_pct": 6.25
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/amanda-nunes-vs-kayla-harrison.json"
+    },
+    "Josh Hokit vs Ciryl Gane": {
+      "win_probability": {
+        "fighter_a_pct": 50.73,
+        "fighter_b_pct": 49.27,
+        "draw_pct": 4.6
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/josh-hokit-vs-ciryl-gane.json"
     }
   }
 }

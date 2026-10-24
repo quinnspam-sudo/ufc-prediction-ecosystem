@@ -1,0 +1,106 @@
+{
+  "matchup": {
+    "fighter_a": "Amanda Nunes",
+    "fighter_b": "Kayla Harrison",
+    "scheduled_rounds": 5,
+    "is_title_fight": false,
+    "iterations": 2000,
+    "avg_rounds_simulated": 3.945,
+    "fighter_a_flags": {
+      "active_injury": true,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "Kayla Harrison opens up about her neck surgery, Amanda Nunes fight withdrawal and rebooking for UFC 334 - MMA Sucka",
+      "stats_approx": true,
+      "needs_real_stats": true
+    },
+    "fighter_b_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": true,
+      "needs_real_stats": true
+    }
+  },
+  "win_probability": {
+    "fighter_a_pct": 45.44,
+    "fighter_b_pct": 54.56,
+    "draw_pct": 6.25
+  },
+  "consensus_forecast": {
+    "applied": true,
+    "model_weight": 0.0,
+    "fighter_a_pct": 36.22,
+    "fighter_b_pct": 63.78,
+    "market_devig_a_pct": 36.22
+  },
+  "method_of_victory_matrix": {
+    "fighter_a": {
+      "KO/TKO": 8.85,
+      "Submission": 15.45,
+      "Unanimous Decision": 13.7,
+      "Split/Majority Decision": 4.6
+    },
+    "fighter_b": {
+      "KO/TKO": 10.2,
+      "Submission": 16.55,
+      "Unanimous Decision": 18.55,
+      "Split/Majority Decision": 5.85
+    }
+  },
+  "fight_level": {
+    "ko_tko_pct": 19.05,
+    "submission_pct": 32.0,
+    "decision_pct": 42.7,
+    "goes_the_distance_pct": 48.95,
+    "expected_fight_minutes": 18.45
+  },
+  "finish_round_distribution": {
+    "fighter_a": {
+      "round_1": 105,
+      "round_2": 97,
+      "round_3": 107,
+      "round_4": 85,
+      "round_5": 92
+    },
+    "fighter_b": {
+      "round_1": 106,
+      "round_2": 100,
+      "round_3": 134,
+      "round_4": 109,
+      "round_5": 86
+    }
+  },
+  "value_betting": {
+    "fighter_a": {
+      "market_moneyline": 162,
+      "market_decimal_odds": 2.62,
+      "market_implied_prob_pct": 38.17,
+      "model_win_prob_pct": 45.44,
+      "edge_pct": 7.27,
+      "consensus_edge_pct": -1.95,
+      "kelly_fraction_full": 0.1176,
+      "kelly_fraction_half": 0.0588,
+      "model_sees_value": true,
+      "consensus_agrees": false,
+      "value_bet": false
+    },
+    "fighter_b": {
+      "market_moneyline": -205,
+      "market_decimal_odds": 1.488,
+      "market_implied_prob_pct": 67.21,
+      "model_win_prob_pct": 54.56,
+      "edge_pct": -12.65,
+      "consensus_edge_pct": -3.43,
+      "kelly_fraction_full": -0.3859,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
+      "value_bet": false
+    },
+    "suspended": true,
+    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable.",
+    "insufficient_data": true
+  }
+}
