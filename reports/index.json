@@ -2409,9 +2409,9 @@
     },
     "Josh Hokit vs Ciryl Gane": {
       "win_probability": {
-        "fighter_a_pct": 50.73,
-        "fighter_b_pct": 49.27,
-        "draw_pct": 4.6
+        "fighter_a_pct": 35.26,
+        "fighter_b_pct": 64.74,
+        "draw_pct": 1.6
       },
       "value_flags": {
         "fighter_a": false,
