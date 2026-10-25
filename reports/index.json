@@ -1692,10 +1692,10 @@
     },
     "Alexander Volkanovski vs Movsar Evloev": {
       "win_probability": {
-        "fighter_a_pct": 37.46,
-        "fighter_b_pct": 62.54,
-        "draw_pct": 3.96,
-        "calibration_shrink_applied": 0.7
+        "fighter_a_pct": 45.16,
+        "fighter_b_pct": 54.84,
+        "draw_pct": 3.4,
+        "calibration_shrink_applied": 0.25
       },
       "value_flags": {
         "fighter_a": false,
@@ -2383,9 +2383,10 @@
     },
     "Caio Borralho vs Yousri Belgaroui": {
       "win_probability": {
-        "fighter_a_pct": 69.17,
-        "fighter_b_pct": 30.83,
-        "draw_pct": 4.95
+        "fighter_a_pct": 41.57,
+        "fighter_b_pct": 58.43,
+        "draw_pct": 1.31,
+        "calibration_shrink_applied": 0.25
       },
       "value_flags": {
         "fighter_a": false,
@@ -2419,9 +2420,10 @@
     },
     "Mickey Gall vs Zach Reese": {
       "win_probability": {
-        "fighter_a_pct": 24.05,
-        "fighter_b_pct": 75.95,
-        "draw_pct": 0.0
+        "fighter_a_pct": 42.73,
+        "fighter_b_pct": 57.27,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.25
       },
       "value_flags": {
         "fighter_a": false,
