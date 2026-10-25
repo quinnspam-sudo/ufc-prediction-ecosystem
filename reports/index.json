@@ -2434,10 +2434,10 @@
     },
     "Randy Brown vs Jacobe Smith": {
       "win_probability": {
-        "fighter_a_pct": 39.14,
-        "fighter_b_pct": 60.86,
+        "fighter_a_pct": 40.95,
+        "fighter_b_pct": 59.05,
         "draw_pct": 0.0,
-        "calibration_shrink_applied": 0.3
+        "calibration_shrink_applied": 0.25
       },
       "value_flags": {
         "fighter_a": false,
