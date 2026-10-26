@@ -1681,8 +1681,8 @@
     },
     "Merab Dvalishvili vs Petr Yan": {
       "win_probability": {
-        "fighter_a_pct": 74.15,
-        "fighter_b_pct": 25.85,
+        "fighter_a_pct": 73.8,
+        "fighter_b_pct": 26.2,
         "draw_pct": 0.0
       },
       "value_flags": {
@@ -2322,9 +2322,10 @@
     },
     "Jim Miller vs Terrance McKinney": {
       "win_probability": {
-        "fighter_a_pct": 15.15,
-        "fighter_b_pct": 84.85,
-        "draw_pct": 0.0
+        "fighter_a_pct": 42.53,
+        "fighter_b_pct": 57.47,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.25
       },
       "value_flags": {
         "fighter_a": false,
@@ -2334,9 +2335,10 @@
     },
     "Drew Dober vs Chris Duncan": {
       "win_probability": {
-        "fighter_a_pct": 28.78,
-        "fighter_b_pct": 71.22,
-        "draw_pct": 5.5
+        "fighter_a_pct": 41.02,
+        "fighter_b_pct": 58.98,
+        "draw_pct": 0.65,
+        "calibration_shrink_applied": 0.25
       },
       "value_flags": {
         "fighter_a": false,
@@ -2409,9 +2411,10 @@
     },
     "Josh Hokit vs Ciryl Gane": {
       "win_probability": {
-        "fighter_a_pct": 35.26,
-        "fighter_b_pct": 64.74,
-        "draw_pct": 1.6
+        "fighter_a_pct": 54.94,
+        "fighter_b_pct": 45.06,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.25
       },
       "value_flags": {
         "fighter_a": false,
@@ -2457,6 +2460,32 @@
         "fighter_b": false
       },
       "report_file": "reports/dakota-hope-vs-francis-marshall.json"
+    },
+    "Jared Gordon vs Melquizael Costa": {
+      "win_probability": {
+        "fighter_a_pct": 57.39,
+        "fighter_b_pct": 42.61,
+        "draw_pct": 0.86,
+        "calibration_shrink_applied": 0.25
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/jared-gordon-vs-melquizael-costa.json"
+    },
+    "Cesar Almeida vs Donte Johnson": {
+      "win_probability": {
+        "fighter_a_pct": 41.41,
+        "fighter_b_pct": 58.59,
+        "draw_pct": 0.04,
+        "calibration_shrink_applied": 0.25
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/cesar-almeida-vs-donte-johnson.json"
     }
   }
 }

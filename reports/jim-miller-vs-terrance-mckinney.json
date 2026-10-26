@@ -4,15 +4,15 @@
     "fighter_b": "Terrance McKinney",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.401,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.243,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     },
     "fighter_b_flags": {
       "active_injury": false,
@@ -24,48 +24,49 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 15.15,
-    "fighter_b_pct": 84.85,
-    "draw_pct": 0.0
+    "fighter_a_pct": 42.53,
+    "fighter_b_pct": 57.47,
+    "draw_pct": 0.0,
+    "calibration_shrink_applied": 0.25
   },
   "consensus_forecast": {
     "applied": false,
     "model_weight": 1.0,
-    "fighter_a_pct": 15.15,
-    "fighter_b_pct": 84.85,
+    "fighter_a_pct": 20.11,
+    "fighter_b_pct": 79.89,
     "market_devig_a_pct": null
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 7.15,
-      "Submission": 8.0,
+      "KO/TKO": 4.91,
+      "Submission": 15.2,
       "Unanimous Decision": 0.0,
       "Split/Majority Decision": 0.0
     },
     "fighter_b": {
-      "KO/TKO": 13.65,
-      "Submission": 24.35,
-      "Unanimous Decision": 46.85,
+      "KO/TKO": 13.79,
+      "Submission": 29.7,
+      "Unanimous Decision": 36.4,
       "Split/Majority Decision": 0.0
     }
   },
   "fight_level": {
-    "ko_tko_pct": 20.8,
-    "submission_pct": 32.35,
-    "decision_pct": 46.85,
-    "goes_the_distance_pct": 46.85,
-    "expected_fight_minutes": 10.67
+    "ko_tko_pct": 18.7,
+    "submission_pct": 44.9,
+    "decision_pct": 36.4,
+    "goes_the_distance_pct": 36.4,
+    "expected_fight_minutes": 9.62
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 122,
-      "round_2": 103,
-      "round_3": 78
+      "round_1": 831,
+      "round_2": 662,
+      "round_3": 518
     },
     "fighter_b": {
-      "round_1": 300,
-      "round_2": 252,
-      "round_3": 208
+      "round_1": 1930,
+      "round_2": 1388,
+      "round_3": 1031
     }
   },
   "value_betting": {
@@ -73,10 +74,10 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 15.15,
-      "edge_pct": -37.23,
-      "consensus_edge_pct": -37.23,
-      "kelly_fraction_full": -0.7819,
+      "model_win_prob_pct": 42.53,
+      "edge_pct": -9.85,
+      "consensus_edge_pct": -32.27,
+      "kelly_fraction_full": -0.2069,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
@@ -86,17 +87,16 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 84.85,
-      "edge_pct": 32.47,
-      "consensus_edge_pct": 32.47,
-      "kelly_fraction_full": 0.6819,
-      "kelly_fraction_half": 0.3409,
+      "model_win_prob_pct": 57.47,
+      "edge_pct": 5.09,
+      "consensus_edge_pct": 27.51,
+      "kelly_fraction_full": 0.1069,
+      "kelly_fraction_half": 0.0535,
       "model_sees_value": true,
       "consensus_agrees": true,
       "value_bet": false
     },
     "suspended": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable.",
-    "insufficient_data": true
+    "note": "Value bets and parlays suspended: on point-in-time stats the model doesn't beat the betting market (see reports/backtest_pit.json)."
   }
 }
