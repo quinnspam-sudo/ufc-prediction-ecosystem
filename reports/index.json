@@ -2487,6 +2487,45 @@
         "fighter_b": false
       },
       "report_file": "reports/cesar-almeida-vs-donte-johnson.json"
+    },
+    "Mitch Raposo vs Marcos Degli": {
+      "win_probability": {
+        "fighter_a_pct": 52.24,
+        "fighter_b_pct": 47.76,
+        "draw_pct": 0.66,
+        "calibration_shrink_applied": 0.25
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/mitch-raposo-vs-marcos-degli.json"
+    },
+    "Andre Petroski vs Mantas Kondratavi\u010dius": {
+      "win_probability": {
+        "fighter_a_pct": 42.45,
+        "fighter_b_pct": 57.55,
+        "draw_pct": 0.03,
+        "calibration_shrink_applied": 0.25
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/andre-petroski-vs-mantas-kondratavi-ius.json"
+    },
+    "Evan Elder vs Samuel Sanches": {
+      "win_probability": {
+        "fighter_a_pct": 40.98,
+        "fighter_b_pct": 59.02,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.25
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/evan-elder-vs-samuel-sanches.json"
     }
   }
 }
