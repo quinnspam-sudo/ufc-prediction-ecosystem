@@ -18,23 +18,23 @@
       "active_injury": false,
       "missed_weight": true,
       "withdrawn": false,
-      "injury_note": "Team Ismael Bonfim Explains Giant Weight Miss at UFC Vegas 122 - Heavy.com",
+      "injury_note": "UFC Vegas 122: UFC boots Ismael Bonfim from roster after weight miss and TKO loss - MMA Crossfire",
       "stats_approx": false,
       "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 61.5,
-    "fighter_b_pct": 38.5,
+    "fighter_a_pct": 54.11,
+    "fighter_b_pct": 45.89,
     "draw_pct": 2.08,
-    "calibration_shrink_applied": 0.7
+    "calibration_shrink_applied": 0.25
   },
   "consensus_forecast": {
-    "applied": false,
-    "model_weight": 1.0,
-    "fighter_a_pct": 66.43,
-    "fighter_b_pct": 33.57,
-    "market_devig_a_pct": null
+    "applied": true,
+    "model_weight": 0.0,
+    "fighter_a_pct": 44.82,
+    "fighter_b_pct": 55.18,
+    "market_devig_a_pct": 44.82
   },
   "method_of_victory_matrix": {
     "fighter_a": {
@@ -75,26 +75,26 @@
   },
   "value_betting": {
     "fighter_a": {
-      "market_moneyline": -110,
-      "market_decimal_odds": 1.909,
-      "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 61.5,
-      "edge_pct": 9.12,
-      "consensus_edge_pct": 14.05,
-      "kelly_fraction_full": 0.1915,
-      "kelly_fraction_half": 0.0958,
+      "market_moneyline": 115,
+      "market_decimal_odds": 2.15,
+      "market_implied_prob_pct": 46.51,
+      "model_win_prob_pct": 54.11,
+      "edge_pct": 7.6,
+      "consensus_edge_pct": -1.69,
+      "kelly_fraction_full": 0.142,
+      "kelly_fraction_half": 0.071,
       "model_sees_value": true,
-      "consensus_agrees": true,
+      "consensus_agrees": false,
       "value_bet": false
     },
     "fighter_b": {
-      "market_moneyline": -110,
-      "market_decimal_odds": 1.909,
-      "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 38.5,
-      "edge_pct": -13.88,
-      "consensus_edge_pct": -18.81,
-      "kelly_fraction_full": -0.2915,
+      "market_moneyline": -134,
+      "market_decimal_odds": 1.746,
+      "market_implied_prob_pct": 57.26,
+      "model_win_prob_pct": 45.89,
+      "edge_pct": -11.37,
+      "consensus_edge_pct": -2.08,
+      "kelly_fraction_full": -0.2661,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,

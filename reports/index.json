@@ -2064,10 +2064,10 @@
     },
     "Priscila Cachoeira vs Nina Milo\u0161evi\u0107": {
       "win_probability": {
-        "fighter_a_pct": 22.26,
-        "fighter_b_pct": 77.74,
+        "fighter_a_pct": 40.09,
+        "fighter_b_pct": 59.91,
         "draw_pct": 0.0,
-        "calibration_shrink_applied": 0.7
+        "calibration_shrink_applied": 0.25
       },
       "value_flags": {
         "fighter_a": false,
@@ -2090,10 +2090,10 @@
     },
     "Keiichiro Nakamura vs Ollie Schmid": {
       "win_probability": {
-        "fighter_a_pct": 78.13,
-        "fighter_b_pct": 21.87,
+        "fighter_a_pct": 60.05,
+        "fighter_b_pct": 39.95,
         "draw_pct": 0.0,
-        "calibration_shrink_applied": 0.7
+        "calibration_shrink_applied": 0.25
       },
       "value_flags": {
         "fighter_a": false,
@@ -2103,10 +2103,10 @@
     },
     "Jose Delano vs Murtazali Magomedov": {
       "win_probability": {
-        "fighter_a_pct": 46.47,
-        "fighter_b_pct": 53.53,
+        "fighter_a_pct": 48.74,
+        "fighter_b_pct": 51.26,
         "draw_pct": 4.13,
-        "calibration_shrink_applied": 0.7
+        "calibration_shrink_applied": 0.25
       },
       "value_flags": {
         "fighter_a": false,
@@ -2154,10 +2154,10 @@
     },
     "Billy Elekana vs Lucas Fernando": {
       "win_probability": {
-        "fighter_a_pct": 28.57,
-        "fighter_b_pct": 71.43,
+        "fighter_a_pct": 42.35,
+        "fighter_b_pct": 57.65,
         "draw_pct": 0.06,
-        "calibration_shrink_applied": 0.7
+        "calibration_shrink_applied": 0.25
       },
       "value_flags": {
         "fighter_a": false,
@@ -2192,10 +2192,10 @@
     },
     "Tatiana Suarez vs Virna Jandiroba": {
       "win_probability": {
-        "fighter_a_pct": 67.08,
-        "fighter_b_pct": 32.92,
+        "fighter_a_pct": 56.1,
+        "fighter_b_pct": 43.9,
         "draw_pct": 3.0,
-        "calibration_shrink_applied": 0.7
+        "calibration_shrink_applied": 0.25
       },
       "value_flags": {
         "fighter_a": false,
@@ -2205,10 +2205,10 @@
     },
     "Sean Brady vs Gabriel Bonfim": {
       "win_probability": {
-        "fighter_a_pct": 61.5,
-        "fighter_b_pct": 38.5,
+        "fighter_a_pct": 54.11,
+        "fighter_b_pct": 45.89,
         "draw_pct": 2.08,
-        "calibration_shrink_applied": 0.7
+        "calibration_shrink_applied": 0.25
       },
       "value_flags": {
         "fighter_a": false,
