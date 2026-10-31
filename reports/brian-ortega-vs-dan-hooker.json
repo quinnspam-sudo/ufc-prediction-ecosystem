@@ -1,0 +1,102 @@
+{
+  "matchup": {
+    "fighter_a": "Brian Ortega",
+    "fighter_b": "Dan Hooker",
+    "scheduled_rounds": 3,
+    "is_title_fight": false,
+    "iterations": 2000,
+    "avg_rounds_simulated": 2.643,
+    "fighter_a_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": true,
+      "needs_real_stats": true
+    },
+    "fighter_b_flags": {
+      "active_injury": true,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "UFC Fighter Dan Hooker Shows Off Nasty Training Injury With Gruesome Lip Cut - MMA Sucka",
+      "stats_approx": true,
+      "needs_real_stats": true
+    }
+  },
+  "win_probability": {
+    "fighter_a_pct": 51.17,
+    "fighter_b_pct": 48.83,
+    "draw_pct": 8.05
+  },
+  "consensus_forecast": {
+    "applied": false,
+    "model_weight": 1.0,
+    "fighter_a_pct": 51.17,
+    "fighter_b_pct": 48.83,
+    "market_devig_a_pct": null
+  },
+  "method_of_victory_matrix": {
+    "fighter_a": {
+      "KO/TKO": 8.35,
+      "Submission": 8.8,
+      "Unanimous Decision": 24.2,
+      "Split/Majority Decision": 5.7
+    },
+    "fighter_b": {
+      "KO/TKO": 7.7,
+      "Submission": 9.55,
+      "Unanimous Decision": 21.4,
+      "Split/Majority Decision": 6.25
+    }
+  },
+  "fight_level": {
+    "ko_tko_pct": 16.05,
+    "submission_pct": 18.35,
+    "decision_pct": 57.55,
+    "goes_the_distance_pct": 65.6,
+    "expected_fight_minutes": 12.35
+  },
+  "finish_round_distribution": {
+    "fighter_a": {
+      "round_1": 111,
+      "round_2": 131,
+      "round_3": 101
+    },
+    "fighter_b": {
+      "round_1": 128,
+      "round_2": 106,
+      "round_3": 111
+    }
+  },
+  "value_betting": {
+    "fighter_a": {
+      "market_moneyline": -110,
+      "market_decimal_odds": 1.909,
+      "market_implied_prob_pct": 52.38,
+      "model_win_prob_pct": 51.17,
+      "edge_pct": -1.21,
+      "consensus_edge_pct": -1.21,
+      "kelly_fraction_full": -0.0254,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
+      "value_bet": false
+    },
+    "fighter_b": {
+      "market_moneyline": -110,
+      "market_decimal_odds": 1.909,
+      "market_implied_prob_pct": 52.38,
+      "model_win_prob_pct": 48.83,
+      "edge_pct": -3.55,
+      "consensus_edge_pct": -3.55,
+      "kelly_fraction_full": -0.0746,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
+      "value_bet": false
+    },
+    "suspended": true,
+    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable.",
+    "insufficient_data": true
+  }
+}

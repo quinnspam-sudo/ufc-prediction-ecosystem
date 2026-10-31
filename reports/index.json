@@ -2526,6 +2526,142 @@
         "fighter_b": false
       },
       "report_file": "reports/evan-elder-vs-samuel-sanches.json"
+    },
+    "Thomas Petersen vs Gabriel Loren\u00e7o": {
+      "win_probability": {
+        "fighter_a_pct": 42.07,
+        "fighter_b_pct": 57.93,
+        "draw_pct": 0.17,
+        "calibration_shrink_applied": 0.25
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/thomas-petersen-vs-gabriel-loren-o.json"
+    },
+    "Johnny Walker vs Waldo Cortes Acosta": {
+      "win_probability": {
+        "fighter_a_pct": 46.45,
+        "fighter_b_pct": 53.55,
+        "draw_pct": 1.49,
+        "calibration_shrink_applied": 0.25
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/johnny-walker-vs-waldo-cortes-acosta.json"
+    },
+    "Amir Albazi vs Alessandro Costa": {
+      "win_probability": {
+        "fighter_a_pct": 41.73,
+        "fighter_b_pct": 58.27,
+        "draw_pct": 1.92,
+        "calibration_shrink_applied": 0.25
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/amir-albazi-vs-alessandro-costa.json"
+    },
+    "Kyoji Horiguchi vs Asu Almabayev": {
+      "win_probability": {
+        "fighter_a_pct": 43.97,
+        "fighter_b_pct": 56.03,
+        "draw_pct": 5.95,
+        "calibration_shrink_applied": 0.25
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/kyoji-horiguchi-vs-asu-almabayev.json"
+    },
+    "Aleksandre Topuria vs Santiago Luna": {
+      "win_probability": {
+        "fighter_a_pct": 74.0,
+        "fighter_b_pct": 26.0,
+        "draw_pct": 5.0
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/aleksandre-topuria-vs-santiago-luna.json"
+    },
+    "Jake Matthews vs Tahir Abdullayev": {
+      "win_probability": {
+        "fighter_a_pct": 49.81,
+        "fighter_b_pct": 50.19,
+        "draw_pct": 6.85
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/jake-matthews-vs-tahir-abdullayev.json"
+    },
+    "Shamil Gaziev vs Tallison Teixeira": {
+      "win_probability": {
+        "fighter_a_pct": 22.98,
+        "fighter_b_pct": 77.02,
+        "draw_pct": 2.3
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/shamil-gaziev-vs-tallison-teixeira.json"
+    },
+    "Jared Cannonier vs Ikram Aliskerov": {
+      "win_probability": {
+        "fighter_a_pct": 39.1,
+        "fighter_b_pct": 60.9,
+        "draw_pct": 6.0
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/jared-cannonier-vs-ikram-aliskerov.json"
+    },
+    "Brian Ortega vs Dan Hooker": {
+      "win_probability": {
+        "fighter_a_pct": 51.17,
+        "fighter_b_pct": 48.83,
+        "draw_pct": 8.05
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/brian-ortega-vs-dan-hooker.json"
+    },
+    "Aljamain Sterling vs Kevin Vallejos": {
+      "win_probability": {
+        "fighter_a_pct": 49.62,
+        "fighter_b_pct": 50.38,
+        "draw_pct": 7.5
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/aljamain-sterling-vs-kevin-vallejos.json"
+    },
+    "Ji\u0159\u00ed Proch\u00e1zka vs Navajo Stirling": {
+      "win_probability": {
+        "fighter_a_pct": 28.6,
+        "fighter_b_pct": 71.4,
+        "draw_pct": 0.0
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/ji-proch-zka-vs-navajo-stirling.json"
     }
   }
 }

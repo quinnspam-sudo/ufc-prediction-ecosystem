@@ -1,0 +1,102 @@
+{
+  "matchup": {
+    "fighter_a": "Amir Albazi",
+    "fighter_b": "Alessandro Costa",
+    "scheduled_rounds": 3,
+    "is_title_fight": false,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.663,
+    "fighter_a_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": false,
+      "needs_real_stats": false
+    },
+    "fighter_b_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": false,
+      "needs_real_stats": false
+    }
+  },
+  "win_probability": {
+    "fighter_a_pct": 41.73,
+    "fighter_b_pct": 58.27,
+    "draw_pct": 1.92,
+    "calibration_shrink_applied": 0.25
+  },
+  "consensus_forecast": {
+    "applied": false,
+    "model_weight": 1.0,
+    "fighter_a_pct": 16.92,
+    "fighter_b_pct": 83.08,
+    "market_devig_a_pct": null
+  },
+  "method_of_victory_matrix": {
+    "fighter_a": {
+      "KO/TKO": 3.75,
+      "Submission": 11.02,
+      "Unanimous Decision": 0.96,
+      "Split/Majority Decision": 0.87
+    },
+    "fighter_b": {
+      "KO/TKO": 6.73,
+      "Submission": 11.03,
+      "Unanimous Decision": 60.77,
+      "Split/Majority Decision": 2.95
+    }
+  },
+  "fight_level": {
+    "ko_tko_pct": 10.48,
+    "submission_pct": 22.05,
+    "decision_pct": 65.55,
+    "goes_the_distance_pct": 67.47,
+    "expected_fight_minutes": 12.5
+  },
+  "finish_round_distribution": {
+    "fighter_a": {
+      "round_1": 517,
+      "round_2": 504,
+      "round_3": 456
+    },
+    "fighter_b": {
+      "round_1": 610,
+      "round_2": 616,
+      "round_3": 550
+    }
+  },
+  "value_betting": {
+    "fighter_a": {
+      "market_moneyline": -110,
+      "market_decimal_odds": 1.909,
+      "market_implied_prob_pct": 52.38,
+      "model_win_prob_pct": 41.73,
+      "edge_pct": -10.65,
+      "consensus_edge_pct": -35.46,
+      "kelly_fraction_full": -0.2237,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
+      "value_bet": false
+    },
+    "fighter_b": {
+      "market_moneyline": -110,
+      "market_decimal_odds": 1.909,
+      "market_implied_prob_pct": 52.38,
+      "model_win_prob_pct": 58.27,
+      "edge_pct": 5.89,
+      "consensus_edge_pct": 30.69,
+      "kelly_fraction_full": 0.1237,
+      "kelly_fraction_half": 0.0618,
+      "model_sees_value": true,
+      "consensus_agrees": true,
+      "value_bet": false
+    },
+    "suspended": true,
+    "note": "Value bets and parlays suspended: on point-in-time stats the model doesn't beat the betting market (see reports/backtest_pit.json)."
+  }
+}
