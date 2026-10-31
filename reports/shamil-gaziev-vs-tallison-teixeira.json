@@ -4,8 +4,8 @@
     "fighter_b": "Tallison Teixeira",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.525,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.427,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -19,53 +19,54 @@
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 22.98,
-    "fighter_b_pct": 77.02,
-    "draw_pct": 2.3
+    "fighter_a_pct": 54.03,
+    "fighter_b_pct": 45.97,
+    "draw_pct": 3.53,
+    "calibration_shrink_applied": 0.3
   },
   "consensus_forecast": {
     "applied": false,
     "model_weight": 1.0,
-    "fighter_a_pct": 22.98,
-    "fighter_b_pct": 77.02,
+    "fighter_a_pct": 63.42,
+    "fighter_b_pct": 36.58,
     "market_devig_a_pct": null
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 14.55,
-      "Submission": 5.35,
-      "Unanimous Decision": 1.4,
-      "Split/Majority Decision": 1.15
+      "KO/TKO": 13.79,
+      "Submission": 8.87,
+      "Unanimous Decision": 34.12,
+      "Split/Majority Decision": 4.4
     },
     "fighter_b": {
-      "KO/TKO": 20.15,
-      "Submission": 4.75,
-      "Unanimous Decision": 47.05,
-      "Split/Majority Decision": 3.3
+      "KO/TKO": 27.07,
+      "Submission": 1.31,
+      "Unanimous Decision": 4.14,
+      "Split/Majority Decision": 2.77
     }
   },
   "fight_level": {
-    "ko_tko_pct": 34.7,
-    "submission_pct": 10.1,
-    "decision_pct": 52.9,
-    "goes_the_distance_pct": 55.2,
-    "expected_fight_minutes": 11.5
+    "ko_tko_pct": 40.86,
+    "submission_pct": 10.18,
+    "decision_pct": 45.43,
+    "goes_the_distance_pct": 48.96,
+    "expected_fight_minutes": 10.86
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 134,
-      "round_2": 142,
-      "round_3": 122
+      "round_1": 873,
+      "round_2": 780,
+      "round_3": 613
     },
     "fighter_b": {
-      "round_1": 189,
-      "round_2": 163,
-      "round_3": 146
+      "round_1": 1135,
+      "round_2": 932,
+      "round_3": 771
     }
   },
   "value_betting": {
@@ -73,30 +74,29 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 22.98,
-      "edge_pct": -29.4,
-      "consensus_edge_pct": -29.4,
-      "kelly_fraction_full": -0.6175,
-      "kelly_fraction_half": 0.0,
-      "model_sees_value": false,
-      "consensus_agrees": false,
+      "model_win_prob_pct": 54.03,
+      "edge_pct": 1.65,
+      "consensus_edge_pct": 11.04,
+      "kelly_fraction_full": 0.0345,
+      "kelly_fraction_half": 0.0173,
+      "model_sees_value": true,
+      "consensus_agrees": true,
       "value_bet": false
     },
     "fighter_b": {
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 77.02,
-      "edge_pct": 24.64,
-      "consensus_edge_pct": 24.64,
-      "kelly_fraction_full": 0.5175,
-      "kelly_fraction_half": 0.2587,
-      "model_sees_value": true,
-      "consensus_agrees": true,
+      "model_win_prob_pct": 45.97,
+      "edge_pct": -6.41,
+      "consensus_edge_pct": -15.8,
+      "kelly_fraction_full": -0.1345,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
       "value_bet": false
     },
     "suspended": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable.",
-    "insufficient_data": true
+    "note": "Value bets and parlays suspended: on point-in-time stats the model doesn't beat the betting market (see reports/backtest_pit.json)."
   }
 }

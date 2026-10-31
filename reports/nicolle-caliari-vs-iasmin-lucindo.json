@@ -8,9 +8,9 @@
     "avg_rounds_simulated": 2.681,
     "fighter_a_flags": {
       "active_injury": false,
-      "missed_weight": false,
+      "missed_weight": true,
       "withdrawn": false,
-      "injury_note": "",
+      "injury_note": "UFC 333 Weigh-In: Title Fights Set As Nicolle Caliari Misses Weight - NDTV Sports",
       "stats_approx": false,
       "needs_real_stats": false
     },
@@ -24,9 +24,9 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 41.28,
-    "fighter_b_pct": 58.72,
-    "draw_pct": 0.17,
+    "fighter_a_pct": 41.25,
+    "fighter_b_pct": 58.75,
+    "draw_pct": 0.1,
     "calibration_shrink_applied": 0.3
   },
   "consensus_forecast": {
@@ -38,35 +38,35 @@
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 3.23,
-      "Submission": 17.61,
+      "KO/TKO": 3.16,
+      "Submission": 17.6,
       "Unanimous Decision": 0.03,
       "Split/Majority Decision": 0.02
     },
     "fighter_b": {
-      "KO/TKO": 3.94,
-      "Submission": 6.43,
-      "Unanimous Decision": 68.34,
-      "Split/Majority Decision": 0.23
+      "KO/TKO": 4.01,
+      "Submission": 6.51,
+      "Unanimous Decision": 68.35,
+      "Split/Majority Decision": 0.22
     }
   },
   "fight_level": {
     "ko_tko_pct": 7.17,
-    "submission_pct": 24.04,
+    "submission_pct": 24.11,
     "decision_pct": 68.62,
-    "goes_the_distance_pct": 68.79,
+    "goes_the_distance_pct": 68.72,
     "expected_fight_minutes": 12.62
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 710,
-      "round_2": 692,
-      "round_3": 682
+      "round_1": 708,
+      "round_2": 691,
+      "round_3": 677
     },
     "fighter_b": {
-      "round_1": 371,
-      "round_2": 338,
-      "round_3": 328
+      "round_1": 368,
+      "round_2": 344,
+      "round_3": 340
     }
   },
   "value_betting": {
@@ -74,11 +74,11 @@
       "market_moneyline": 310,
       "market_decimal_odds": 4.1,
       "market_implied_prob_pct": 24.39,
-      "model_win_prob_pct": 41.28,
-      "edge_pct": 16.89,
+      "model_win_prob_pct": 41.25,
+      "edge_pct": 16.86,
       "consensus_edge_pct": -1.03,
-      "kelly_fraction_full": 0.2234,
-      "kelly_fraction_half": 0.1117,
+      "kelly_fraction_full": 0.223,
+      "kelly_fraction_half": 0.1115,
       "model_sees_value": true,
       "consensus_agrees": false,
       "value_bet": false
@@ -87,10 +87,10 @@
       "market_moneyline": -400,
       "market_decimal_odds": 1.25,
       "market_implied_prob_pct": 80.0,
-      "model_win_prob_pct": 58.72,
-      "edge_pct": -21.28,
+      "model_win_prob_pct": 58.75,
+      "edge_pct": -21.25,
       "consensus_edge_pct": -3.36,
-      "kelly_fraction_full": -1.0639,
+      "kelly_fraction_full": -1.0625,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
