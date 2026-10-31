@@ -6,7 +6,7 @@
     "distance_brier_mean": 0.3499
   },
   "resolved_fights": 110,
-  "open_predictions": 87,
+  "open_predictions": 91,
   "brier_raw": 0.2723,
   "brier_calibrated": 0.2472,
   "accuracy_pct": 50.9,
