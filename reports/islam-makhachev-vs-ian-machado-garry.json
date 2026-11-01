@@ -5,12 +5,12 @@
     "scheduled_rounds": 5,
     "is_title_fight": false,
     "iterations": 10000,
-    "avg_rounds_simulated": 3.645,
+    "avg_rounds_simulated": 3.656,
     "fighter_a_flags": {
-      "active_injury": false,
+      "active_injury": true,
       "missed_weight": false,
-      "withdrawn": false,
-      "injury_note": "",
+      "withdrawn": true,
+      "injury_note": "Islam Makhachev Reportedly Out of UFC 336 as Dana White Offers a Cryptic Response - Yahoo Sports",
       "stats_approx": false,
       "needs_real_stats": false
     },
@@ -24,53 +24,53 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 69.01,
-    "fighter_b_pct": 30.99,
-    "draw_pct": 1.03,
+    "fighter_a_pct": 68.04,
+    "fighter_b_pct": 31.96,
+    "draw_pct": 1.46,
     "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
     "applied": false,
     "model_weight": 1.0,
-    "fighter_a_pct": 77.15,
-    "fighter_b_pct": 22.85,
+    "fighter_a_pct": 75.77,
+    "fighter_b_pct": 24.23,
     "market_devig_a_pct": null
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 11.3,
-      "Submission": 28.2,
-      "Unanimous Decision": 35.32,
-      "Split/Majority Decision": 1.54
+      "KO/TKO": 10.87,
+      "Submission": 27.92,
+      "Unanimous Decision": 33.57,
+      "Split/Majority Decision": 2.3
     },
     "fighter_b": {
-      "KO/TKO": 14.0,
-      "Submission": 7.71,
-      "Unanimous Decision": 0.38,
-      "Split/Majority Decision": 0.52
+      "KO/TKO": 14.29,
+      "Submission": 7.67,
+      "Unanimous Decision": 1.06,
+      "Split/Majority Decision": 0.86
     }
   },
   "fight_level": {
-    "ko_tko_pct": 25.3,
-    "submission_pct": 35.91,
-    "decision_pct": 37.76,
-    "goes_the_distance_pct": 38.79,
-    "expected_fight_minutes": 16.69
+    "ko_tko_pct": 25.16,
+    "submission_pct": 35.59,
+    "decision_pct": 37.79,
+    "goes_the_distance_pct": 39.25,
+    "expected_fight_minutes": 16.76
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 943,
-      "round_2": 900,
-      "round_3": 811,
-      "round_4": 718,
-      "round_5": 578
+      "round_1": 920,
+      "round_2": 896,
+      "round_3": 785,
+      "round_4": 710,
+      "round_5": 568
     },
     "fighter_b": {
-      "round_1": 510,
-      "round_2": 466,
-      "round_3": 451,
-      "round_4": 398,
-      "round_5": 346
+      "round_1": 515,
+      "round_2": 462,
+      "round_3": 473,
+      "round_4": 403,
+      "round_5": 343
     }
   },
   "value_betting": {
@@ -78,11 +78,11 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 69.01,
-      "edge_pct": 16.62,
-      "consensus_edge_pct": 24.77,
-      "kelly_fraction_full": 0.3491,
-      "kelly_fraction_half": 0.1746,
+      "model_win_prob_pct": 68.04,
+      "edge_pct": 15.66,
+      "consensus_edge_pct": 23.39,
+      "kelly_fraction_full": 0.3288,
+      "kelly_fraction_half": 0.1644,
       "model_sees_value": true,
       "consensus_agrees": true,
       "value_bet": false
@@ -91,10 +91,10 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 30.99,
-      "edge_pct": -21.39,
-      "consensus_edge_pct": -29.54,
-      "kelly_fraction_full": -0.4491,
+      "model_win_prob_pct": 31.96,
+      "edge_pct": -20.42,
+      "consensus_edge_pct": -28.15,
+      "kelly_fraction_full": -0.4288,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,

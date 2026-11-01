@@ -683,9 +683,9 @@
     },
     "Islam Makhachev vs Ian Machado Garry": {
       "win_probability": {
-        "fighter_a_pct": 69.01,
-        "fighter_b_pct": 30.99,
-        "draw_pct": 1.03,
+        "fighter_a_pct": 68.04,
+        "fighter_b_pct": 31.96,
+        "draw_pct": 1.46,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -1899,10 +1899,10 @@
     },
     "Andre Petroski vs Azamat Bekoev": {
       "win_probability": {
-        "fighter_a_pct": 59.75,
-        "fighter_b_pct": 40.25,
-        "draw_pct": 1.37,
-        "calibration_shrink_applied": 0.3
+        "fighter_a_pct": 71.64,
+        "fighter_b_pct": 28.36,
+        "draw_pct": 2.7,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": false,
@@ -2103,10 +2103,10 @@
     },
     "Jose Delano vs Murtazali Magomedov": {
       "win_probability": {
-        "fighter_a_pct": 48.74,
-        "fighter_b_pct": 51.26,
+        "fighter_a_pct": 46.47,
+        "fighter_b_pct": 53.53,
         "draw_pct": 4.13,
-        "calibration_shrink_applied": 0.25
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": false,
@@ -2412,10 +2412,10 @@
     },
     "Josh Hokit vs Ciryl Gane": {
       "win_probability": {
-        "fighter_a_pct": 54.94,
-        "fighter_b_pct": 45.06,
+        "fighter_a_pct": 63.82,
+        "fighter_b_pct": 36.18,
         "draw_pct": 0.0,
-        "calibration_shrink_applied": 0.25
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": false,
@@ -2503,10 +2503,10 @@
     },
     "Andre Petroski vs Mantas Kondratavi\u010dius": {
       "win_probability": {
-        "fighter_a_pct": 42.45,
-        "fighter_b_pct": 57.55,
-        "draw_pct": 0.03,
-        "calibration_shrink_applied": 0.25
+        "fighter_a_pct": 28.45,
+        "fighter_b_pct": 71.55,
+        "draw_pct": 0.08,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": false,
