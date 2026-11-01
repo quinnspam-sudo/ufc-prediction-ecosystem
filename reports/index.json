@@ -1873,9 +1873,9 @@
     },
     "Gaston Bola\u00f1os vs Francis Marshall": {
       "win_probability": {
-        "fighter_a_pct": 21.54,
-        "fighter_b_pct": 78.46,
-        "draw_pct": 0.32,
+        "fighter_a_pct": 21.63,
+        "fighter_b_pct": 78.37,
+        "draw_pct": 0.43,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -2154,10 +2154,10 @@
     },
     "Billy Elekana vs Lucas Fernando": {
       "win_probability": {
-        "fighter_a_pct": 42.35,
-        "fighter_b_pct": 57.65,
+        "fighter_a_pct": 28.57,
+        "fighter_b_pct": 71.43,
         "draw_pct": 0.06,
-        "calibration_shrink_applied": 0.25
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": false,
@@ -2361,10 +2361,10 @@
     },
     "Luis Gurule vs Bilal Hasan": {
       "win_probability": {
-        "fighter_a_pct": 40.84,
-        "fighter_b_pct": 59.16,
+        "fighter_a_pct": 24.34,
+        "fighter_b_pct": 75.66,
         "draw_pct": 0.0,
-        "calibration_shrink_applied": 0.25
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": false,
@@ -2386,10 +2386,10 @@
     },
     "Caio Borralho vs Yousri Belgaroui": {
       "win_probability": {
-        "fighter_a_pct": 39.89,
-        "fighter_b_pct": 60.11,
+        "fighter_a_pct": 26.4,
+        "fighter_b_pct": 73.6,
         "draw_pct": 1.31,
-        "calibration_shrink_applied": 0.3
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": false,
@@ -2451,9 +2451,9 @@
     },
     "Dakota Hope vs Francis Marshall": {
       "win_probability": {
-        "fighter_a_pct": 63.63,
-        "fighter_b_pct": 36.37,
-        "draw_pct": 5.38,
+        "fighter_a_pct": 65.16,
+        "fighter_b_pct": 34.84,
+        "draw_pct": 4.98,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {

@@ -5,7 +5,7 @@
     "scheduled_rounds": 3,
     "is_title_fight": false,
     "iterations": 10000,
-    "avg_rounds_simulated": 2.711,
+    "avg_rounds_simulated": 2.714,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -16,17 +16,17 @@
     },
     "fighter_b_flags": {
       "active_injury": false,
-      "missed_weight": false,
+      "missed_weight": true,
       "withdrawn": false,
-      "injury_note": "",
+      "injury_note": "Francis Marshall Misses Weight By Two Pounds At UFC Vegas 123 Weigh-Ins - MiddleEasy",
       "stats_approx": false,
       "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 63.63,
-    "fighter_b_pct": 36.37,
-    "draw_pct": 5.38,
+    "fighter_a_pct": 65.16,
+    "fighter_b_pct": 34.84,
+    "draw_pct": 4.98,
     "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
@@ -38,34 +38,34 @@
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 8.72,
-      "Submission": 3.47,
-      "Unanimous Decision": 45.3,
-      "Split/Majority Decision": 8.24
+      "KO/TKO": 8.97,
+      "Submission": 3.53,
+      "Unanimous Decision": 47.57,
+      "Split/Majority Decision": 8.02
     },
     "fighter_b": {
-      "KO/TKO": 6.15,
-      "Submission": 9.76,
-      "Unanimous Decision": 7.44,
-      "Split/Majority Decision": 5.54
+      "KO/TKO": 5.98,
+      "Submission": 9.74,
+      "Unanimous Decision": 6.27,
+      "Split/Majority Decision": 4.94
     }
   },
   "fight_level": {
-    "ko_tko_pct": 14.87,
-    "submission_pct": 13.23,
-    "decision_pct": 66.52,
-    "goes_the_distance_pct": 71.9,
-    "expected_fight_minutes": 12.85
+    "ko_tko_pct": 14.95,
+    "submission_pct": 13.27,
+    "decision_pct": 66.8,
+    "goes_the_distance_pct": 71.78,
+    "expected_fight_minutes": 12.86
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 409,
-      "round_2": 437,
-      "round_3": 373
+      "round_1": 408,
+      "round_2": 448,
+      "round_3": 394
     },
     "fighter_b": {
-      "round_1": 554,
-      "round_2": 527,
+      "round_1": 538,
+      "round_2": 524,
       "round_3": 510
     }
   },
@@ -74,11 +74,11 @@
       "market_moneyline": 176,
       "market_decimal_odds": 2.76,
       "market_implied_prob_pct": 36.23,
-      "model_win_prob_pct": 63.63,
-      "edge_pct": 27.4,
+      "model_win_prob_pct": 65.16,
+      "edge_pct": 28.93,
       "consensus_edge_pct": -1.38,
-      "kelly_fraction_full": 0.4296,
-      "kelly_fraction_half": 0.2148,
+      "kelly_fraction_full": 0.4537,
+      "kelly_fraction_half": 0.2268,
       "model_sees_value": true,
       "consensus_agrees": false,
       "value_bet": false
@@ -87,10 +87,10 @@
       "market_moneyline": -210,
       "market_decimal_odds": 1.476,
       "market_implied_prob_pct": 67.74,
-      "model_win_prob_pct": 36.37,
-      "edge_pct": -31.37,
+      "model_win_prob_pct": 34.84,
+      "edge_pct": -32.9,
       "consensus_edge_pct": -2.59,
-      "kelly_fraction_full": -0.9725,
+      "kelly_fraction_full": -1.02,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
