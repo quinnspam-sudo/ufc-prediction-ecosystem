@@ -1976,9 +1976,10 @@
     },
     "Tainara Lisboa vs Lucia Szabova": {
       "win_probability": {
-        "fighter_a_pct": 13.93,
-        "fighter_b_pct": 86.07,
-        "draw_pct": 0.55
+        "fighter_a_pct": 22.2,
+        "fighter_b_pct": 77.8,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": false,
@@ -2027,9 +2028,10 @@
     },
     "Tainara Lisboa vs Lucia Szabov\u00e1": {
       "win_probability": {
-        "fighter_a_pct": 13.91,
-        "fighter_b_pct": 86.09,
-        "draw_pct": 0.45
+        "fighter_a_pct": 22.2,
+        "fighter_b_pct": 77.8,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": false,
