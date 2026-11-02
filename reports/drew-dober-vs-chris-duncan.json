@@ -24,17 +24,17 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 41.02,
-    "fighter_b_pct": 58.98,
+    "fighter_a_pct": 24.86,
+    "fighter_b_pct": 75.14,
     "draw_pct": 0.65,
-    "calibration_shrink_applied": 0.25
+    "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
-    "applied": false,
-    "model_weight": 1.0,
-    "fighter_a_pct": 14.09,
-    "fighter_b_pct": 85.91,
-    "market_devig_a_pct": null
+    "applied": true,
+    "model_weight": 0.0,
+    "fighter_a_pct": 40.78,
+    "fighter_b_pct": 59.22,
+    "market_devig_a_pct": 40.78
   },
   "method_of_victory_matrix": {
     "fighter_a": {
@@ -71,29 +71,29 @@
   },
   "value_betting": {
     "fighter_a": {
-      "market_moneyline": -110,
-      "market_decimal_odds": 1.909,
-      "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 41.02,
-      "edge_pct": -11.36,
-      "consensus_edge_pct": -38.29,
-      "kelly_fraction_full": -0.2385,
+      "market_moneyline": 136,
+      "market_decimal_odds": 2.36,
+      "market_implied_prob_pct": 42.37,
+      "model_win_prob_pct": 24.86,
+      "edge_pct": -17.51,
+      "consensus_edge_pct": -1.59,
+      "kelly_fraction_full": -0.3038,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
       "value_bet": false
     },
     "fighter_b": {
-      "market_moneyline": -110,
-      "market_decimal_odds": 1.909,
-      "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 58.98,
-      "edge_pct": 6.6,
-      "consensus_edge_pct": 33.53,
-      "kelly_fraction_full": 0.1385,
-      "kelly_fraction_half": 0.0693,
+      "market_moneyline": -160,
+      "market_decimal_odds": 1.625,
+      "market_implied_prob_pct": 61.54,
+      "model_win_prob_pct": 75.14,
+      "edge_pct": 13.6,
+      "consensus_edge_pct": -2.32,
+      "kelly_fraction_full": 0.3536,
+      "kelly_fraction_half": 0.1768,
       "model_sees_value": true,
-      "consensus_agrees": true,
+      "consensus_agrees": false,
       "value_bet": false
     },
     "suspended": true,
