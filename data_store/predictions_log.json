@@ -3996,6 +3996,22 @@
       "p_sub": 0.0807,
       "p_dec": 0.3446,
       "p_distance": 0.3446
+    },
+    {
+      "label": "Jonny Parsons vs Jos\u00e9 Souza",
+      "a": "Jonny Parsons",
+      "b": "Jos\u00e9 Souza",
+      "p_a": 0.3071,
+      "event": "UFC Fight Night: Cortes Acosta vs. Walker",
+      "logged": "2026-11-03T01:01:57+00:00",
+      "resolved": false,
+      "actual_a": null,
+      "brier": null,
+      "resolved_at": null,
+      "p_ko": 0.2155,
+      "p_sub": 0.1355,
+      "p_dec": 0.5885,
+      "p_distance": 0.649
     }
   ]
 }

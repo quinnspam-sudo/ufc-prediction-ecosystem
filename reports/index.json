@@ -2671,6 +2671,18 @@
         "fighter_b": false
       },
       "report_file": "reports/ji-proch-zka-vs-navajo-stirling.json"
+    },
+    "Jonny Parsons vs Jos\u00e9 Souza": {
+      "win_probability": {
+        "fighter_a_pct": 30.71,
+        "fighter_b_pct": 69.29,
+        "draw_pct": 6.05
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/jonny-parsons-vs-jos-souza.json"
     }
   }
 }
