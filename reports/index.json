@@ -2494,7 +2494,7 @@
       "win_probability": {
         "fighter_a_pct": 56.29,
         "fighter_b_pct": 43.71,
-        "draw_pct": 0.66,
+        "draw_pct": 0.67,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
