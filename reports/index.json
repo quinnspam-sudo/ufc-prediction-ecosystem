@@ -2683,6 +2683,19 @@
         "fighter_b": false
       },
       "report_file": "reports/jonny-parsons-vs-jos-souza.json"
+    },
+    "Austin Bashi vs Carlos Calderon": {
+      "win_probability": {
+        "fighter_a_pct": 78.58,
+        "fighter_b_pct": 21.42,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.7
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/austin-bashi-vs-carlos-calderon.json"
     }
   }
 }

@@ -1,0 +1,102 @@
+{
+  "matchup": {
+    "fighter_a": "Austin Bashi",
+    "fighter_b": "Carlos Calderon",
+    "scheduled_rounds": 3,
+    "is_title_fight": false,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.336,
+    "fighter_a_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": false,
+      "needs_real_stats": false
+    },
+    "fighter_b_flags": {
+      "active_injury": true,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "Carlos Calderon Replaces Injured Lucas Brennan Against Austin Bashi On November 7 - MiddleEasy",
+      "stats_approx": false,
+      "needs_real_stats": false
+    }
+  },
+  "win_probability": {
+    "fighter_a_pct": 78.58,
+    "fighter_b_pct": 21.42,
+    "draw_pct": 0.0,
+    "calibration_shrink_applied": 0.7
+  },
+  "consensus_forecast": {
+    "applied": true,
+    "model_weight": 0.0,
+    "fighter_a_pct": 78.24,
+    "fighter_b_pct": 21.76,
+    "market_devig_a_pct": 78.24
+  },
+  "method_of_victory_matrix": {
+    "fighter_a": {
+      "KO/TKO": 6.02,
+      "Submission": 44.86,
+      "Unanimous Decision": 39.95,
+      "Split/Majority Decision": 0.0
+    },
+    "fighter_b": {
+      "KO/TKO": 6.63,
+      "Submission": 2.54,
+      "Unanimous Decision": 0.0,
+      "Split/Majority Decision": 0.0
+    }
+  },
+  "fight_level": {
+    "ko_tko_pct": 12.65,
+    "submission_pct": 47.4,
+    "decision_pct": 39.95,
+    "goes_the_distance_pct": 39.95,
+    "expected_fight_minutes": 10.18
+  },
+  "finish_round_distribution": {
+    "fighter_a": {
+      "round_1": 1961,
+      "round_2": 1682,
+      "round_3": 1445
+    },
+    "fighter_b": {
+      "round_1": 375,
+      "round_2": 287,
+      "round_3": 255
+    }
+  },
+  "value_betting": {
+    "fighter_a": {
+      "market_moneyline": -465,
+      "market_decimal_odds": 1.215,
+      "market_implied_prob_pct": 82.3,
+      "model_win_prob_pct": 78.58,
+      "edge_pct": -3.72,
+      "consensus_edge_pct": -4.06,
+      "kelly_fraction_full": -0.2102,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
+      "value_bet": false
+    },
+    "fighter_b": {
+      "market_moneyline": 337,
+      "market_decimal_odds": 4.37,
+      "market_implied_prob_pct": 22.88,
+      "model_win_prob_pct": 21.42,
+      "edge_pct": -1.46,
+      "consensus_edge_pct": -1.13,
+      "kelly_fraction_full": -0.019,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
+      "value_bet": false
+    },
+    "suspended": true,
+    "note": "Value bets and parlays suspended: on point-in-time stats the model doesn't beat the betting market (see reports/backtest_pit.json)."
+  }
+}
