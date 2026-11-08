@@ -2388,9 +2388,9 @@
     },
     "Caio Borralho vs Yousri Belgaroui": {
       "win_probability": {
-        "fighter_a_pct": 26.4,
-        "fighter_b_pct": 73.6,
-        "draw_pct": 1.31,
+        "fighter_a_pct": 26.16,
+        "fighter_b_pct": 73.84,
+        "draw_pct": 1.76,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
@@ -2401,9 +2401,9 @@
     },
     "Amanda Nunes vs Kayla Harrison": {
       "win_probability": {
-        "fighter_a_pct": 33.52,
-        "fighter_b_pct": 66.48,
-        "draw_pct": 0.9,
+        "fighter_a_pct": 33.76,
+        "fighter_b_pct": 66.24,
+        "draw_pct": 0.81,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {
