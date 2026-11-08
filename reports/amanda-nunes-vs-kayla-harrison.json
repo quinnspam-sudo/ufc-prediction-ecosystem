@@ -5,7 +5,7 @@
     "scheduled_rounds": 5,
     "is_title_fight": false,
     "iterations": 10000,
-    "avg_rounds_simulated": 3.744,
+    "avg_rounds_simulated": 3.737,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -15,87 +15,87 @@
       "needs_real_stats": false
     },
     "fighter_b_flags": {
-      "active_injury": true,
+      "active_injury": false,
       "missed_weight": false,
       "withdrawn": false,
-      "injury_note": "Morning Report: Kayla Harrison opens up about injury layoff and possible retirement - MMA Fighting",
+      "injury_note": "",
       "stats_approx": false,
       "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 33.76,
-    "fighter_b_pct": 66.24,
-    "draw_pct": 0.81,
+    "fighter_a_pct": 33.09,
+    "fighter_b_pct": 66.9,
+    "draw_pct": 0.26,
     "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
     "applied": true,
     "model_weight": 0.0,
-    "fighter_a_pct": 36.99,
-    "fighter_b_pct": 63.01,
-    "market_devig_a_pct": 36.99
+    "fighter_a_pct": 36.68,
+    "fighter_b_pct": 63.32,
+    "market_devig_a_pct": 36.68
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 11.72,
-      "Submission": 14.37,
-      "Unanimous Decision": 0.17,
-      "Split/Majority Decision": 0.32
+      "KO/TKO": 11.55,
+      "Submission": 14.07,
+      "Unanimous Decision": 0.02,
+      "Split/Majority Decision": 0.14
     },
     "fighter_b": {
-      "KO/TKO": 8.65,
-      "Submission": 23.06,
-      "Unanimous Decision": 39.62,
-      "Split/Majority Decision": 1.28
+      "KO/TKO": 9.12,
+      "Submission": 23.49,
+      "Unanimous Decision": 40.65,
+      "Split/Majority Decision": 0.7
     }
   },
   "fight_level": {
-    "ko_tko_pct": 20.37,
-    "submission_pct": 37.43,
-    "decision_pct": 41.39,
-    "goes_the_distance_pct": 42.2,
-    "expected_fight_minutes": 17.28
+    "ko_tko_pct": 20.67,
+    "submission_pct": 37.56,
+    "decision_pct": 41.51,
+    "goes_the_distance_pct": 41.77,
+    "expected_fight_minutes": 17.23
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 580,
-      "round_2": 556,
-      "round_3": 532,
-      "round_4": 498,
-      "round_5": 443
+      "round_1": 577,
+      "round_2": 558,
+      "round_3": 516,
+      "round_4": 486,
+      "round_5": 425
     },
     "fighter_b": {
-      "round_1": 770,
-      "round_2": 671,
-      "round_3": 657,
-      "round_4": 601,
-      "round_5": 472
+      "round_1": 774,
+      "round_2": 676,
+      "round_3": 689,
+      "round_4": 624,
+      "round_5": 498
     }
   },
   "value_betting": {
     "fighter_a": {
-      "market_moneyline": 160,
-      "market_decimal_odds": 2.6,
-      "market_implied_prob_pct": 38.46,
-      "model_win_prob_pct": 33.76,
-      "edge_pct": -4.7,
-      "consensus_edge_pct": -1.47,
-      "kelly_fraction_full": -0.0764,
+      "market_moneyline": 163,
+      "market_decimal_odds": 2.63,
+      "market_implied_prob_pct": 38.02,
+      "model_win_prob_pct": 33.09,
+      "edge_pct": -4.93,
+      "consensus_edge_pct": -1.34,
+      "kelly_fraction_full": -0.0795,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
       "value_bet": false
     },
     "fighter_b": {
-      "market_moneyline": -190,
-      "market_decimal_odds": 1.526,
-      "market_implied_prob_pct": 65.52,
-      "model_win_prob_pct": 66.24,
-      "edge_pct": 0.72,
-      "consensus_edge_pct": -2.51,
-      "kelly_fraction_full": 0.021,
-      "kelly_fraction_half": 0.0105,
+      "market_moneyline": -191,
+      "market_decimal_odds": 1.524,
+      "market_implied_prob_pct": 65.64,
+      "model_win_prob_pct": 66.9,
+      "edge_pct": 1.27,
+      "consensus_edge_pct": -2.32,
+      "kelly_fraction_full": 0.0369,
+      "kelly_fraction_half": 0.0185,
       "model_sees_value": true,
       "consensus_agrees": false,
       "value_bet": false

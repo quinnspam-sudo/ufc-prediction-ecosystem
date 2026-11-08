@@ -2285,10 +2285,10 @@
     },
     "Adrian Ya\u00f1ez vs Juan Diaz": {
       "win_probability": {
-        "fighter_a_pct": 48.32,
-        "fighter_b_pct": 51.68,
-        "draw_pct": 7.62,
-        "calibration_shrink_applied": 0.3
+        "fighter_a_pct": 44.13,
+        "fighter_b_pct": 55.87,
+        "draw_pct": 7.6,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": false,
@@ -2376,9 +2376,9 @@
     },
     "Kevin Holland vs Uro\u0161 Medi\u0107": {
       "win_probability": {
-        "fighter_a_pct": 39.75,
-        "fighter_b_pct": 60.25,
-        "draw_pct": 5.15
+        "fighter_a_pct": 38.99,
+        "fighter_b_pct": 61.01,
+        "draw_pct": 5.1
       },
       "value_flags": {
         "fighter_a": false,
@@ -2401,9 +2401,9 @@
     },
     "Amanda Nunes vs Kayla Harrison": {
       "win_probability": {
-        "fighter_a_pct": 33.76,
-        "fighter_b_pct": 66.24,
-        "draw_pct": 0.81,
+        "fighter_a_pct": 33.09,
+        "fighter_b_pct": 66.9,
+        "draw_pct": 0.26,
         "calibration_shrink_applied": 0.7
       },
       "value_flags": {

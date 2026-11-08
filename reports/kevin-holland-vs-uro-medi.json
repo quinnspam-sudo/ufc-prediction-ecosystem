@@ -5,12 +5,12 @@
     "scheduled_rounds": 3,
     "is_title_fight": false,
     "iterations": 2000,
-    "avg_rounds_simulated": 2.575,
+    "avg_rounds_simulated": 2.58,
     "fighter_a_flags": {
-      "active_injury": false,
+      "active_injury": true,
       "missed_weight": false,
-      "withdrawn": false,
-      "injury_note": "",
+      "withdrawn": true,
+      "injury_note": "UFC Vegas 123 star threatens to 'smack' Kevin Holland out of the cage due to failed fights and shared DM's - Bloody Elbow",
       "stats_approx": false,
       "needs_real_stats": false
     },
@@ -24,48 +24,48 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 39.75,
-    "fighter_b_pct": 60.25,
-    "draw_pct": 5.15
+    "fighter_a_pct": 38.99,
+    "fighter_b_pct": 61.01,
+    "draw_pct": 5.1
   },
   "consensus_forecast": {
     "applied": false,
     "model_weight": 1.0,
-    "fighter_a_pct": 39.75,
-    "fighter_b_pct": 60.25,
+    "fighter_a_pct": 38.99,
+    "fighter_b_pct": 61.01,
     "market_devig_a_pct": null
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 10.1,
+      "KO/TKO": 9.3,
       "Submission": 11.2,
-      "Unanimous Decision": 10.55,
-      "Split/Majority Decision": 5.85
+      "Unanimous Decision": 10.95,
+      "Split/Majority Decision": 5.55
     },
     "fighter_b": {
-      "KO/TKO": 9.35,
-      "Submission": 10.65,
-      "Unanimous Decision": 29.6,
-      "Split/Majority Decision": 7.55
+      "KO/TKO": 9.3,
+      "Submission": 11.4,
+      "Unanimous Decision": 30.35,
+      "Split/Majority Decision": 6.85
     }
   },
   "fight_level": {
-    "ko_tko_pct": 19.45,
-    "submission_pct": 21.85,
-    "decision_pct": 53.55,
-    "goes_the_distance_pct": 58.7,
-    "expected_fight_minutes": 11.84
+    "ko_tko_pct": 18.6,
+    "submission_pct": 22.6,
+    "decision_pct": 53.7,
+    "goes_the_distance_pct": 58.8,
+    "expected_fight_minutes": 11.87
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 148,
-      "round_2": 145,
-      "round_3": 133
+      "round_1": 137,
+      "round_2": 144,
+      "round_3": 129
     },
     "fighter_b": {
-      "round_1": 145,
-      "round_2": 120,
-      "round_3": 135
+      "round_1": 149,
+      "round_2": 124,
+      "round_3": 141
     }
   },
   "value_betting": {
@@ -73,10 +73,10 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 39.75,
-      "edge_pct": -12.63,
-      "consensus_edge_pct": -12.63,
-      "kelly_fraction_full": -0.2653,
+      "model_win_prob_pct": 38.99,
+      "edge_pct": -13.39,
+      "consensus_edge_pct": -13.39,
+      "kelly_fraction_full": -0.2812,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
@@ -86,11 +86,11 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 60.25,
-      "edge_pct": 7.87,
-      "consensus_edge_pct": 7.87,
-      "kelly_fraction_full": 0.1653,
-      "kelly_fraction_half": 0.0827,
+      "model_win_prob_pct": 61.01,
+      "edge_pct": 8.63,
+      "consensus_edge_pct": 8.63,
+      "kelly_fraction_full": 0.1812,
+      "kelly_fraction_half": 0.0906,
       "model_sees_value": true,
       "consensus_agrees": true,
       "value_bet": false
