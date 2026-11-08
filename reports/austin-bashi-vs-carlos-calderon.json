@@ -5,7 +5,7 @@
     "scheduled_rounds": 3,
     "is_title_fight": false,
     "iterations": 10000,
-    "avg_rounds_simulated": 2.336,
+    "avg_rounds_simulated": 2.334,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -15,7 +15,7 @@
       "needs_real_stats": false
     },
     "fighter_b_flags": {
-      "active_injury": true,
+      "active_injury": false,
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "Carlos Calderon Replaces Injured Lucas Brennan Against Austin Bashi On November 7 - MiddleEasy",
@@ -24,8 +24,8 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 78.58,
-    "fighter_b_pct": 21.42,
+    "fighter_a_pct": 78.29,
+    "fighter_b_pct": 21.71,
     "draw_pct": 0.0,
     "calibration_shrink_applied": 0.7
   },
@@ -38,35 +38,35 @@
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 6.02,
-      "Submission": 44.86,
-      "Unanimous Decision": 39.95,
+      "KO/TKO": 5.94,
+      "Submission": 44.38,
+      "Unanimous Decision": 40.1,
       "Split/Majority Decision": 0.0
     },
     "fighter_b": {
-      "KO/TKO": 6.63,
-      "Submission": 2.54,
+      "KO/TKO": 7.09,
+      "Submission": 2.49,
       "Unanimous Decision": 0.0,
       "Split/Majority Decision": 0.0
     }
   },
   "fight_level": {
-    "ko_tko_pct": 12.65,
-    "submission_pct": 47.4,
-    "decision_pct": 39.95,
-    "goes_the_distance_pct": 39.95,
-    "expected_fight_minutes": 10.18
+    "ko_tko_pct": 13.03,
+    "submission_pct": 46.87,
+    "decision_pct": 40.1,
+    "goes_the_distance_pct": 40.1,
+    "expected_fight_minutes": 10.17
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 1961,
-      "round_2": 1682,
-      "round_3": 1445
+      "round_1": 1960,
+      "round_2": 1659,
+      "round_3": 1413
     },
     "fighter_b": {
-      "round_1": 375,
-      "round_2": 287,
-      "round_3": 255
+      "round_1": 389,
+      "round_2": 301,
+      "round_3": 268
     }
   },
   "value_betting": {
@@ -74,10 +74,10 @@
       "market_moneyline": -650,
       "market_decimal_odds": 1.154,
       "market_implied_prob_pct": 86.67,
-      "model_win_prob_pct": 78.58,
-      "edge_pct": -8.09,
+      "model_win_prob_pct": 78.29,
+      "edge_pct": -8.37,
       "consensus_edge_pct": -3.75,
-      "kelly_fraction_full": -0.6064,
+      "kelly_fraction_full": -0.628,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
@@ -87,11 +87,11 @@
       "market_moneyline": 460,
       "market_decimal_odds": 5.6,
       "market_implied_prob_pct": 17.86,
-      "model_win_prob_pct": 21.42,
-      "edge_pct": 3.56,
+      "model_win_prob_pct": 21.71,
+      "edge_pct": 3.85,
       "consensus_edge_pct": -0.77,
-      "kelly_fraction_full": 0.0434,
-      "kelly_fraction_half": 0.0217,
+      "kelly_fraction_full": 0.0469,
+      "kelly_fraction_half": 0.0234,
       "model_sees_value": true,
       "consensus_agrees": false,
       "value_bet": false
