@@ -2272,10 +2272,10 @@
     },
     "Nazim Sadykhov vs Jefferson Nascimento": {
       "win_probability": {
-        "fighter_a_pct": 60.51,
-        "fighter_b_pct": 39.49,
-        "draw_pct": 2.77,
-        "calibration_shrink_applied": 0.3
+        "fighter_a_pct": 75.57,
+        "fighter_b_pct": 24.43,
+        "draw_pct": 1.76,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": false,
