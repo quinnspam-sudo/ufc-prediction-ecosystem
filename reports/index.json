@@ -2696,6 +2696,19 @@
         "fighter_b": false
       },
       "report_file": "reports/austin-bashi-vs-carlos-calderon.json"
+    },
+    "Alatengheili vs Juan Diaz": {
+      "win_probability": {
+        "fighter_a_pct": 68.7,
+        "fighter_b_pct": 31.3,
+        "draw_pct": 1.32,
+        "calibration_shrink_applied": 0.7
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/alatengheili-vs-juan-diaz.json"
     }
   }
 }
