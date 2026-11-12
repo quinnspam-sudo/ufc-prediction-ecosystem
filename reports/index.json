@@ -2583,10 +2583,10 @@
     },
     "Aleksandre Topuria vs Santiago Luna": {
       "win_probability": {
-        "fighter_a_pct": 42.6,
-        "fighter_b_pct": 57.39,
+        "fighter_a_pct": 32.75,
+        "fighter_b_pct": 67.25,
         "draw_pct": 6.63,
-        "calibration_shrink_applied": 0.3
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": false,
@@ -2609,10 +2609,10 @@
     },
     "Shamil Gaziev vs Tallison Teixeira": {
       "win_probability": {
-        "fighter_a_pct": 54.03,
-        "fighter_b_pct": 45.97,
+        "fighter_a_pct": 59.39,
+        "fighter_b_pct": 40.61,
         "draw_pct": 3.53,
-        "calibration_shrink_applied": 0.3
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": false,
@@ -2622,10 +2622,10 @@
     },
     "Jared Cannonier vs Ikram Aliskerov": {
       "win_probability": {
-        "fighter_a_pct": 40.94,
-        "fighter_b_pct": 59.06,
+        "fighter_a_pct": 24.63,
+        "fighter_b_pct": 75.37,
         "draw_pct": 0.0,
-        "calibration_shrink_applied": 0.25
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": false,

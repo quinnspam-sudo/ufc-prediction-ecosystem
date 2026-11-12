@@ -24,17 +24,17 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 42.6,
-    "fighter_b_pct": 57.39,
+    "fighter_a_pct": 32.75,
+    "fighter_b_pct": 67.25,
     "draw_pct": 6.63,
-    "calibration_shrink_applied": 0.3
+    "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
-    "applied": false,
-    "model_weight": 1.0,
-    "fighter_a_pct": 25.35,
-    "fighter_b_pct": 74.65,
-    "market_devig_a_pct": null
+    "applied": true,
+    "model_weight": 0.0,
+    "fighter_a_pct": 66.68,
+    "fighter_b_pct": 33.32,
+    "market_devig_a_pct": 66.68
   },
   "method_of_victory_matrix": {
     "fighter_a": {
@@ -71,29 +71,29 @@
   },
   "value_betting": {
     "fighter_a": {
-      "market_moneyline": -110,
-      "market_decimal_odds": 1.909,
-      "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 42.6,
-      "edge_pct": -9.78,
-      "consensus_edge_pct": -27.03,
-      "kelly_fraction_full": -0.2053,
+      "market_moneyline": -225,
+      "market_decimal_odds": 1.444,
+      "market_implied_prob_pct": 69.23,
+      "model_win_prob_pct": 32.75,
+      "edge_pct": -36.49,
+      "consensus_edge_pct": -2.56,
+      "kelly_fraction_full": -1.1858,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
       "value_bet": false
     },
     "fighter_b": {
-      "market_moneyline": -110,
-      "market_decimal_odds": 1.909,
-      "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 57.39,
-      "edge_pct": 5.01,
-      "consensus_edge_pct": 22.27,
-      "kelly_fraction_full": 0.1053,
-      "kelly_fraction_half": 0.0526,
+      "market_moneyline": 189,
+      "market_decimal_odds": 2.89,
+      "market_implied_prob_pct": 34.6,
+      "model_win_prob_pct": 67.25,
+      "edge_pct": 32.65,
+      "consensus_edge_pct": -1.28,
+      "kelly_fraction_full": 0.4993,
+      "kelly_fraction_half": 0.2496,
       "model_sees_value": true,
-      "consensus_agrees": true,
+      "consensus_agrees": false,
       "value_bet": false
     },
     "suspended": true,
