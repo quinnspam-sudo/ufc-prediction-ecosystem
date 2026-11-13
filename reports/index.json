@@ -2207,10 +2207,10 @@
     },
     "Sean Brady vs Gabriel Bonfim": {
       "win_probability": {
-        "fighter_a_pct": 54.11,
-        "fighter_b_pct": 45.89,
-        "draw_pct": 2.08,
-        "calibration_shrink_applied": 0.25
+        "fighter_a_pct": 61.8,
+        "fighter_b_pct": 38.2,
+        "draw_pct": 1.86,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": false,
@@ -2557,10 +2557,10 @@
     },
     "Amir Albazi vs Alessandro Costa": {
       "win_probability": {
-        "fighter_a_pct": 41.73,
-        "fighter_b_pct": 58.27,
+        "fighter_a_pct": 26.84,
+        "fighter_b_pct": 73.16,
         "draw_pct": 1.92,
-        "calibration_shrink_applied": 0.25
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": false,
@@ -2596,10 +2596,10 @@
     },
     "Jake Matthews vs Tahir Abdullayev": {
       "win_probability": {
-        "fighter_a_pct": 46.41,
-        "fighter_b_pct": 53.59,
+        "fighter_a_pct": 41.63,
+        "fighter_b_pct": 58.37,
         "draw_pct": 6.54,
-        "calibration_shrink_applied": 0.3
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": false,

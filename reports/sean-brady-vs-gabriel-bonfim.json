@@ -5,7 +5,7 @@
     "scheduled_rounds": 5,
     "is_title_fight": false,
     "iterations": 10000,
-    "avg_rounds_simulated": 3.599,
+    "avg_rounds_simulated": 3.606,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -15,19 +15,19 @@
       "needs_real_stats": false
     },
     "fighter_b_flags": {
-      "active_injury": false,
+      "active_injury": true,
       "missed_weight": true,
-      "withdrawn": false,
-      "injury_note": "UFC Vegas 122: UFC boots Ismael Bonfim from roster after weight miss and TKO loss - MMA Crossfire",
+      "withdrawn": true,
+      "injury_note": "\"I couldn't walk\" - Sean Brady explains being forced out of Gabriel Bonfim fight at UFC Vegas 124 - Sportskeeda",
       "stats_approx": false,
       "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 54.11,
-    "fighter_b_pct": 45.89,
-    "draw_pct": 2.08,
-    "calibration_shrink_applied": 0.25
+    "fighter_a_pct": 61.8,
+    "fighter_b_pct": 38.2,
+    "draw_pct": 1.86,
+    "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
     "applied": true,
@@ -38,39 +38,39 @@
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 11.45,
-      "Submission": 21.71,
-      "Unanimous Decision": 28.78,
-      "Split/Majority Decision": 3.11
+      "KO/TKO": 11.95,
+      "Submission": 22.19,
+      "Unanimous Decision": 28.45,
+      "Split/Majority Decision": 3.02
     },
     "fighter_b": {
-      "KO/TKO": 9.94,
-      "Submission": 20.32,
-      "Unanimous Decision": 1.3,
-      "Split/Majority Decision": 1.31
+      "KO/TKO": 9.36,
+      "Submission": 20.36,
+      "Unanimous Decision": 1.53,
+      "Split/Majority Decision": 1.28
     }
   },
   "fight_level": {
-    "ko_tko_pct": 21.39,
-    "submission_pct": 42.03,
-    "decision_pct": 34.5,
-    "goes_the_distance_pct": 36.58,
-    "expected_fight_minutes": 16.41
+    "ko_tko_pct": 21.31,
+    "submission_pct": 42.55,
+    "decision_pct": 34.28,
+    "goes_the_distance_pct": 36.14,
+    "expected_fight_minutes": 16.43
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 739,
-      "round_2": 769,
-      "round_3": 681,
-      "round_4": 607,
-      "round_5": 520
+      "round_1": 740,
+      "round_2": 782,
+      "round_3": 703,
+      "round_4": 652,
+      "round_5": 537
     },
     "fighter_b": {
-      "round_1": 748,
-      "round_2": 656,
-      "round_3": 645,
-      "round_4": 527,
-      "round_5": 450
+      "round_1": 706,
+      "round_2": 642,
+      "round_3": 646,
+      "round_4": 535,
+      "round_5": 443
     }
   },
   "value_betting": {
@@ -78,11 +78,11 @@
       "market_moneyline": 115,
       "market_decimal_odds": 2.15,
       "market_implied_prob_pct": 46.51,
-      "model_win_prob_pct": 54.11,
-      "edge_pct": 7.6,
+      "model_win_prob_pct": 61.8,
+      "edge_pct": 15.28,
       "consensus_edge_pct": -1.69,
-      "kelly_fraction_full": 0.142,
-      "kelly_fraction_half": 0.071,
+      "kelly_fraction_full": 0.2857,
+      "kelly_fraction_half": 0.1429,
       "model_sees_value": true,
       "consensus_agrees": false,
       "value_bet": false
@@ -91,10 +91,10 @@
       "market_moneyline": -134,
       "market_decimal_odds": 1.746,
       "market_implied_prob_pct": 57.26,
-      "model_win_prob_pct": 45.89,
-      "edge_pct": -11.37,
+      "model_win_prob_pct": 38.2,
+      "edge_pct": -19.06,
       "consensus_edge_pct": -2.08,
-      "kelly_fraction_full": -0.2661,
+      "kelly_fraction_full": -0.446,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
