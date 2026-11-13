@@ -2079,8 +2079,8 @@
     },
     "Lucas Brennan vs Austin Bashi": {
       "win_probability": {
-        "fighter_a_pct": 24.88,
-        "fighter_b_pct": 75.12,
+        "fighter_a_pct": 24.74,
+        "fighter_b_pct": 75.26,
         "draw_pct": 0.0,
         "calibration_shrink_applied": 0.7
       },
