@@ -1,0 +1,106 @@
+{
+  "matchup": {
+    "fighter_a": "Israel Adesanya",
+    "fighter_b": "Shara Magomedov",
+    "scheduled_rounds": 5,
+    "is_title_fight": false,
+    "iterations": 2000,
+    "avg_rounds_simulated": 3.703,
+    "fighter_a_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": true,
+      "needs_real_stats": true
+    },
+    "fighter_b_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": true,
+      "needs_real_stats": true
+    }
+  },
+  "win_probability": {
+    "fighter_a_pct": 50.16,
+    "fighter_b_pct": 49.84,
+    "draw_pct": 4.6
+  },
+  "consensus_forecast": {
+    "applied": true,
+    "model_weight": 0.0,
+    "fighter_a_pct": 58.04,
+    "fighter_b_pct": 41.96,
+    "market_devig_a_pct": 58.04
+  },
+  "method_of_victory_matrix": {
+    "fighter_a": {
+      "KO/TKO": 19.1,
+      "Submission": 11.4,
+      "Unanimous Decision": 12.85,
+      "Split/Majority Decision": 4.5
+    },
+    "fighter_b": {
+      "KO/TKO": 17.8,
+      "Submission": 11.25,
+      "Unanimous Decision": 13.2,
+      "Split/Majority Decision": 5.3
+    }
+  },
+  "fight_level": {
+    "ko_tko_pct": 36.9,
+    "submission_pct": 22.65,
+    "decision_pct": 35.85,
+    "goes_the_distance_pct": 40.45,
+    "expected_fight_minutes": 17.02
+  },
+  "finish_round_distribution": {
+    "fighter_a": {
+      "round_1": 134,
+      "round_2": 128,
+      "round_3": 142,
+      "round_4": 107,
+      "round_5": 99
+    },
+    "fighter_b": {
+      "round_1": 134,
+      "round_2": 135,
+      "round_3": 122,
+      "round_4": 99,
+      "round_5": 91
+    }
+  },
+  "value_betting": {
+    "fighter_a": {
+      "market_moneyline": -156,
+      "market_decimal_odds": 1.641,
+      "market_implied_prob_pct": 60.94,
+      "model_win_prob_pct": 50.16,
+      "edge_pct": -10.78,
+      "consensus_edge_pct": -2.9,
+      "kelly_fraction_full": -0.276,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
+      "value_bet": false
+    },
+    "fighter_b": {
+      "market_moneyline": 127,
+      "market_decimal_odds": 2.27,
+      "market_implied_prob_pct": 44.05,
+      "model_win_prob_pct": 49.84,
+      "edge_pct": 5.79,
+      "consensus_edge_pct": -2.09,
+      "kelly_fraction_full": 0.1035,
+      "kelly_fraction_half": 0.0517,
+      "model_sees_value": true,
+      "consensus_agrees": false,
+      "value_bet": false
+    },
+    "suspended": true,
+    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable.",
+    "insufficient_data": true
+  }
+}

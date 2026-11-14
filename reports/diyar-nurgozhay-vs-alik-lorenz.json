@@ -1,0 +1,102 @@
+{
+  "matchup": {
+    "fighter_a": "Diyar Nurgozhay",
+    "fighter_b": "Alik Lorenz",
+    "scheduled_rounds": 3,
+    "is_title_fight": false,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.363,
+    "fighter_a_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": false,
+      "needs_real_stats": false
+    },
+    "fighter_b_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": false,
+      "needs_real_stats": false
+    }
+  },
+  "win_probability": {
+    "fighter_a_pct": 76.19,
+    "fighter_b_pct": 23.81,
+    "draw_pct": 0.0,
+    "calibration_shrink_applied": 0.7
+  },
+  "consensus_forecast": {
+    "applied": false,
+    "model_weight": 1.0,
+    "fighter_a_pct": 87.41,
+    "fighter_b_pct": 12.59,
+    "market_devig_a_pct": null
+  },
+  "method_of_victory_matrix": {
+    "fighter_a": {
+      "KO/TKO": 39.93,
+      "Submission": 5.08,
+      "Unanimous Decision": 42.4,
+      "Split/Majority Decision": 0.0
+    },
+    "fighter_b": {
+      "KO/TKO": 10.71,
+      "Submission": 1.88,
+      "Unanimous Decision": 0.0,
+      "Split/Majority Decision": 0.0
+    }
+  },
+  "fight_level": {
+    "ko_tko_pct": 50.64,
+    "submission_pct": 6.96,
+    "decision_pct": 42.4,
+    "goes_the_distance_pct": 42.4,
+    "expected_fight_minutes": 10.37
+  },
+  "finish_round_distribution": {
+    "fighter_a": {
+      "round_1": 1775,
+      "round_2": 1456,
+      "round_3": 1270
+    },
+    "fighter_b": {
+      "round_1": 471,
+      "round_2": 424,
+      "round_3": 364
+    }
+  },
+  "value_betting": {
+    "fighter_a": {
+      "market_moneyline": -110,
+      "market_decimal_odds": 1.909,
+      "market_implied_prob_pct": 52.38,
+      "model_win_prob_pct": 76.19,
+      "edge_pct": 23.81,
+      "consensus_edge_pct": 35.03,
+      "kelly_fraction_full": 0.4999,
+      "kelly_fraction_half": 0.25,
+      "model_sees_value": true,
+      "consensus_agrees": true,
+      "value_bet": false
+    },
+    "fighter_b": {
+      "market_moneyline": -110,
+      "market_decimal_odds": 1.909,
+      "market_implied_prob_pct": 52.38,
+      "model_win_prob_pct": 23.81,
+      "edge_pct": -28.57,
+      "consensus_edge_pct": -39.79,
+      "kelly_fraction_full": -0.5999,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
+      "value_bet": false
+    },
+    "suspended": true,
+    "note": "Value bets and parlays suspended: on point-in-time stats the model doesn't beat the betting market (see reports/backtest_pit.json)."
+  }
+}

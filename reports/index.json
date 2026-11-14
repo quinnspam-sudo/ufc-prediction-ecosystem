@@ -2709,6 +2709,178 @@
         "fighter_b": false
       },
       "report_file": "reports/alatengheili-vs-juan-diaz.json"
+    },
+    "Diyar Nurgozhay vs Alik Lorenz": {
+      "win_probability": {
+        "fighter_a_pct": 76.19,
+        "fighter_b_pct": 23.81,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.7
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/diyar-nurgozhay-vs-alik-lorenz.json"
+    },
+    "Nikolas Motta vs Dom Mar Fan": {
+      "win_probability": {
+        "fighter_a_pct": 24.04,
+        "fighter_b_pct": 75.96,
+        "draw_pct": 1.92,
+        "calibration_shrink_applied": 0.7
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/nikolas-motta-vs-dom-mar-fan.json"
+    },
+    "Abdul Hussein vs Hecher Sosa": {
+      "win_probability": {
+        "fighter_a_pct": 45.93,
+        "fighter_b_pct": 54.07,
+        "draw_pct": 4.06,
+        "calibration_shrink_applied": 0.7
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/abdul-hussein-vs-hecher-sosa.json"
+    },
+    "Matthieu Letho Duclos vs Modestino Rodrigues": {
+      "win_probability": {
+        "fighter_a_pct": 25.04,
+        "fighter_b_pct": 74.95,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.7
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/matthieu-letho-duclos-vs-modestino-rodrigues.json"
+    },
+    "Mehemmedeli Osmanli vs Pavel Andrusca": {
+      "win_probability": {
+        "fighter_a_pct": 10.0,
+        "fighter_b_pct": 90.0,
+        "draw_pct": 0.5
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/mehemmedeli-osmanli-vs-pavel-andrusca.json"
+    },
+    "JunYong Park vs Marco Tulio": {
+      "win_probability": {
+        "fighter_a_pct": 49.59,
+        "fighter_b_pct": 50.41,
+        "draw_pct": 7.45
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/junyong-park-vs-marco-tulio.json"
+    },
+    "Uran Satybaldiev vs Ivan Gnizditskiy": {
+      "win_probability": {
+        "fighter_a_pct": 22.5,
+        "fighter_b_pct": 77.5,
+        "draw_pct": 0.0
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/uran-satybaldiev-vs-ivan-gnizditskiy.json"
+    },
+    "Bruno Silva vs Jafel Filho": {
+      "win_probability": {
+        "fighter_a_pct": 50.4,
+        "fighter_b_pct": 49.6,
+        "draw_pct": 7.35
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/bruno-silva-vs-jafel-filho.json"
+    },
+    "Ion Cutelaba vs Magomed Tuchalov": {
+      "win_probability": {
+        "fighter_a_pct": 19.55,
+        "fighter_b_pct": 80.45,
+        "draw_pct": 0.0
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/ion-cutelaba-vs-magomed-tuchalov.json"
+    },
+    "Mairon Santos vs Akbar Abdullaev": {
+      "win_probability": {
+        "fighter_a_pct": 49.7,
+        "fighter_b_pct": 50.3,
+        "draw_pct": 7.65
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/mairon-santos-vs-akbar-abdullaev.json"
+    },
+    "Levan Chokheli vs Islam Dulatov": {
+      "win_probability": {
+        "fighter_a_pct": 17.9,
+        "fighter_b_pct": 82.1,
+        "draw_pct": 0.0
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/levan-chokheli-vs-islam-dulatov.json"
+    },
+    "Serghei Spivac vs Mario Pinto": {
+      "win_probability": {
+        "fighter_a_pct": 76.13,
+        "fighter_b_pct": 23.87,
+        "draw_pct": 1.75
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/serghei-spivac-vs-mario-pinto.json"
+    },
+    "Yaroslav Amosov vs Ian Machado Garry": {
+      "win_probability": {
+        "fighter_a_pct": 23.05,
+        "fighter_b_pct": 76.95,
+        "draw_pct": 2.8
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/yaroslav-amosov-vs-ian-machado-garry.json"
+    },
+    "Israel Adesanya vs Shara Magomedov": {
+      "win_probability": {
+        "fighter_a_pct": 50.16,
+        "fighter_b_pct": 49.84,
+        "draw_pct": 4.6
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/israel-adesanya-vs-shara-magomedov.json"
     }
   }
 }
