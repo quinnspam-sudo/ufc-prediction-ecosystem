@@ -4,8 +4,8 @@
     "fighter_b": "Mario Pinto",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.537,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.448,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -19,53 +19,54 @@
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 76.13,
-    "fighter_b_pct": 23.87,
-    "draw_pct": 1.75
+    "fighter_a_pct": 27.31,
+    "fighter_b_pct": 72.69,
+    "draw_pct": 0.01,
+    "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
     "applied": false,
     "model_weight": 1.0,
-    "fighter_a_pct": 76.13,
-    "fighter_b_pct": 23.87,
+    "fighter_a_pct": 17.58,
+    "fighter_b_pct": 82.42,
     "market_devig_a_pct": null
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 12.35,
-      "Submission": 9.1,
-      "Unanimous Decision": 51.15,
-      "Split/Majority Decision": 2.2
+      "KO/TKO": 12.38,
+      "Submission": 5.2,
+      "Unanimous Decision": 0.0,
+      "Split/Majority Decision": 0.0
     },
     "fighter_b": {
-      "KO/TKO": 16.9,
-      "Submission": 5.0,
-      "Unanimous Decision": 0.95,
-      "Split/Majority Decision": 0.6
+      "KO/TKO": 26.21,
+      "Submission": 5.86,
+      "Unanimous Decision": 50.33,
+      "Split/Majority Decision": 0.01
     }
   },
   "fight_level": {
-    "ko_tko_pct": 29.25,
-    "submission_pct": 14.1,
-    "decision_pct": 54.9,
-    "goes_the_distance_pct": 56.65,
-    "expected_fight_minutes": 11.6
+    "ko_tko_pct": 38.59,
+    "submission_pct": 11.06,
+    "decision_pct": 50.34,
+    "goes_the_distance_pct": 50.35,
+    "expected_fight_minutes": 11.0
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 139,
-      "round_2": 170,
-      "round_3": 120
+      "round_1": 661,
+      "round_2": 606,
+      "round_3": 491
     },
     "fighter_b": {
-      "round_1": 171,
-      "round_2": 137,
-      "round_3": 130
+      "round_1": 1254,
+      "round_2": 1087,
+      "round_3": 866
     }
   },
   "value_betting": {
@@ -73,30 +74,29 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 76.13,
-      "edge_pct": 23.75,
-      "consensus_edge_pct": 23.75,
-      "kelly_fraction_full": 0.4988,
-      "kelly_fraction_half": 0.2494,
-      "model_sees_value": true,
-      "consensus_agrees": true,
+      "model_win_prob_pct": 27.31,
+      "edge_pct": -25.07,
+      "consensus_edge_pct": -34.8,
+      "kelly_fraction_full": -0.5266,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
       "value_bet": false
     },
     "fighter_b": {
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 23.87,
-      "edge_pct": -28.51,
-      "consensus_edge_pct": -28.51,
-      "kelly_fraction_full": -0.5988,
-      "kelly_fraction_half": 0.0,
-      "model_sees_value": false,
-      "consensus_agrees": false,
+      "model_win_prob_pct": 72.69,
+      "edge_pct": 20.31,
+      "consensus_edge_pct": 30.04,
+      "kelly_fraction_full": 0.4266,
+      "kelly_fraction_half": 0.2133,
+      "model_sees_value": true,
+      "consensus_agrees": true,
       "value_bet": false
     },
     "suspended": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable.",
-    "insufficient_data": true
+    "note": "Value bets and parlays suspended: on point-in-time stats the model doesn't beat the betting market (see reports/backtest_pit.json)."
   }
 }

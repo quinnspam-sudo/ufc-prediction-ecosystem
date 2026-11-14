@@ -4,15 +4,15 @@
     "fighter_b": "Islam Dulatov",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.485,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.44,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     },
     "fighter_b_flags": {
       "active_injury": false,
@@ -24,48 +24,49 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 17.9,
-    "fighter_b_pct": 82.1,
-    "draw_pct": 0.0
+    "fighter_a_pct": 72.42,
+    "fighter_b_pct": 27.58,
+    "draw_pct": 0.0,
+    "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
     "applied": false,
     "model_weight": 1.0,
-    "fighter_a_pct": 17.9,
-    "fighter_b_pct": 82.1,
+    "fighter_a_pct": 82.03,
+    "fighter_b_pct": 17.97,
     "market_devig_a_pct": null
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 9.6,
-      "Submission": 8.3,
-      "Unanimous Decision": 0.0,
-      "Split/Majority Decision": 0.0
+      "KO/TKO": 32.31,
+      "Submission": 2.5,
+      "Unanimous Decision": 47.18,
+      "Split/Majority Decision": 0.04
     },
     "fighter_b": {
-      "KO/TKO": 23.6,
-      "Submission": 3.45,
-      "Unanimous Decision": 55.05,
+      "KO/TKO": 10.92,
+      "Submission": 7.05,
+      "Unanimous Decision": 0.0,
       "Split/Majority Decision": 0.0
     }
   },
   "fight_level": {
-    "ko_tko_pct": 33.2,
-    "submission_pct": 11.75,
-    "decision_pct": 55.05,
-    "goes_the_distance_pct": 55.05,
-    "expected_fight_minutes": 11.3
+    "ko_tko_pct": 43.23,
+    "submission_pct": 9.55,
+    "decision_pct": 47.22,
+    "goes_the_distance_pct": 47.22,
+    "expected_fight_minutes": 10.88
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 142,
-      "round_2": 123,
-      "round_3": 93
+      "round_1": 1244,
+      "round_2": 1170,
+      "round_3": 1067
     },
     "fighter_b": {
-      "round_1": 220,
-      "round_2": 183,
-      "round_3": 138
+      "round_1": 657,
+      "round_2": 626,
+      "round_3": 514
     }
   },
   "value_betting": {
@@ -73,30 +74,29 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 17.9,
-      "edge_pct": -34.48,
-      "consensus_edge_pct": -34.48,
-      "kelly_fraction_full": -0.7241,
-      "kelly_fraction_half": 0.0,
-      "model_sees_value": false,
-      "consensus_agrees": false,
+      "model_win_prob_pct": 72.42,
+      "edge_pct": 20.04,
+      "consensus_edge_pct": 29.65,
+      "kelly_fraction_full": 0.4208,
+      "kelly_fraction_half": 0.2104,
+      "model_sees_value": true,
+      "consensus_agrees": true,
       "value_bet": false
     },
     "fighter_b": {
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 82.1,
-      "edge_pct": 29.72,
-      "consensus_edge_pct": 29.72,
-      "kelly_fraction_full": 0.6241,
-      "kelly_fraction_half": 0.312,
-      "model_sees_value": true,
-      "consensus_agrees": true,
+      "model_win_prob_pct": 27.58,
+      "edge_pct": -24.8,
+      "consensus_edge_pct": -34.41,
+      "kelly_fraction_full": -0.5208,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
       "value_bet": false
     },
     "suspended": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable.",
-    "insufficient_data": true
+    "note": "Value bets and parlays suspended: on point-in-time stats the model doesn't beat the betting market (see reports/backtest_pit.json)."
   }
 }

@@ -2764,9 +2764,10 @@
     },
     "Mehemmedeli Osmanli vs Pavel Andrusca": {
       "win_probability": {
-        "fighter_a_pct": 10.0,
-        "fighter_b_pct": 90.0,
-        "draw_pct": 0.5
+        "fighter_a_pct": 21.94,
+        "fighter_b_pct": 78.06,
+        "draw_pct": 0.8,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": false,
@@ -2776,9 +2777,10 @@
     },
     "JunYong Park vs Marco Tulio": {
       "win_probability": {
-        "fighter_a_pct": 49.59,
-        "fighter_b_pct": 50.41,
-        "draw_pct": 7.45
+        "fighter_a_pct": 70.65,
+        "fighter_b_pct": 29.35,
+        "draw_pct": 0.02,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": false,
@@ -2837,9 +2839,10 @@
     },
     "Levan Chokheli vs Islam Dulatov": {
       "win_probability": {
-        "fighter_a_pct": 17.9,
-        "fighter_b_pct": 82.1,
-        "draw_pct": 0.0
+        "fighter_a_pct": 72.42,
+        "fighter_b_pct": 27.58,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": false,
@@ -2849,9 +2852,10 @@
     },
     "Serghei Spivac vs Mario Pinto": {
       "win_probability": {
-        "fighter_a_pct": 76.13,
-        "fighter_b_pct": 23.87,
-        "draw_pct": 1.75
+        "fighter_a_pct": 27.31,
+        "fighter_b_pct": 72.69,
+        "draw_pct": 0.01,
+        "calibration_shrink_applied": 0.7
       },
       "value_flags": {
         "fighter_a": false,

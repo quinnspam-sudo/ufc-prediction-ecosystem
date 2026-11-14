@@ -4,68 +4,69 @@
     "fighter_b": "Marco Tulio",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.6,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.365,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     },
     "fighter_b_flags": {
       "active_injury": false,
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 49.59,
-    "fighter_b_pct": 50.41,
-    "draw_pct": 7.45
+    "fighter_a_pct": 70.65,
+    "fighter_b_pct": 29.35,
+    "draw_pct": 0.02,
+    "calibration_shrink_applied": 0.7
   },
   "consensus_forecast": {
     "applied": false,
     "model_weight": 1.0,
-    "fighter_a_pct": 49.59,
-    "fighter_b_pct": 50.41,
+    "fighter_a_pct": 79.5,
+    "fighter_b_pct": 20.5,
     "market_devig_a_pct": null
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 12.65,
-      "Submission": 7.45,
-      "Unanimous Decision": 20.0,
-      "Split/Majority Decision": 5.8
+      "KO/TKO": 8.61,
+      "Submission": 26.57,
+      "Unanimous Decision": 44.25,
+      "Split/Majority Decision": 0.05
     },
     "fighter_b": {
-      "KO/TKO": 12.05,
-      "Submission": 7.45,
-      "Unanimous Decision": 20.45,
-      "Split/Majority Decision": 6.7
+      "KO/TKO": 17.28,
+      "Submission": 3.21,
+      "Unanimous Decision": 0.0,
+      "Split/Majority Decision": 0.01
     }
   },
   "fight_level": {
-    "ko_tko_pct": 24.7,
-    "submission_pct": 14.9,
-    "decision_pct": 52.95,
-    "goes_the_distance_pct": 60.4,
-    "expected_fight_minutes": 12.01
+    "ko_tko_pct": 25.89,
+    "submission_pct": 29.78,
+    "decision_pct": 44.31,
+    "goes_the_distance_pct": 44.33,
+    "expected_fight_minutes": 10.43
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 125,
-      "round_2": 152,
-      "round_3": 125
+      "round_1": 1423,
+      "round_2": 1165,
+      "round_3": 930
     },
     "fighter_b": {
-      "round_1": 131,
-      "round_2": 136,
-      "round_3": 123
+      "round_1": 827,
+      "round_2": 688,
+      "round_3": 534
     }
   },
   "value_betting": {
@@ -73,30 +74,29 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 49.59,
-      "edge_pct": -2.79,
-      "consensus_edge_pct": -2.79,
-      "kelly_fraction_full": -0.0585,
-      "kelly_fraction_half": 0.0,
-      "model_sees_value": false,
-      "consensus_agrees": false,
+      "model_win_prob_pct": 70.65,
+      "edge_pct": 18.27,
+      "consensus_edge_pct": 27.11,
+      "kelly_fraction_full": 0.3837,
+      "kelly_fraction_half": 0.1918,
+      "model_sees_value": true,
+      "consensus_agrees": true,
       "value_bet": false
     },
     "fighter_b": {
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 50.41,
-      "edge_pct": -1.98,
-      "consensus_edge_pct": -1.98,
-      "kelly_fraction_full": -0.0415,
+      "model_win_prob_pct": 29.35,
+      "edge_pct": -23.03,
+      "consensus_edge_pct": -31.88,
+      "kelly_fraction_full": -0.4836,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
       "value_bet": false
     },
     "suspended": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable.",
-    "insufficient_data": true
+    "note": "Value bets and parlays suspended: on point-in-time stats the model doesn't beat the betting market (see reports/backtest_pit.json)."
   }
 }
