@@ -5,9 +5,9 @@
     "scheduled_rounds": 3,
     "is_title_fight": false,
     "iterations": 10000,
-    "avg_rounds_simulated": 2.545,
+    "avg_rounds_simulated": 2.539,
     "fighter_a_flags": {
-      "active_injury": true,
+      "active_injury": false,
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "Caio Borralho Reveals Broken Rib Before UFC 326 Win - BVM Sports",
@@ -24,10 +24,10 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 26.16,
-    "fighter_b_pct": 73.84,
-    "draw_pct": 1.76,
-    "calibration_shrink_applied": 0.7
+    "fighter_a_pct": 39.65,
+    "fighter_b_pct": 60.35,
+    "draw_pct": 0.64,
+    "calibration_shrink_applied": 0.3
   },
   "consensus_forecast": {
     "applied": true,
@@ -38,35 +38,35 @@
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 8.15,
-      "Submission": 5.8,
-      "Unanimous Decision": 0.88,
-      "Split/Majority Decision": 0.84
+      "KO/TKO": 9.2,
+      "Submission": 5.77,
+      "Unanimous Decision": 0.17,
+      "Split/Majority Decision": 0.25
     },
     "fighter_b": {
-      "KO/TKO": 25.73,
-      "Submission": 2.09,
-      "Unanimous Decision": 52.71,
-      "Split/Majority Decision": 2.04
+      "KO/TKO": 25.3,
+      "Submission": 1.95,
+      "Unanimous Decision": 55.3,
+      "Split/Majority Decision": 1.42
     }
   },
   "fight_level": {
-    "ko_tko_pct": 33.88,
-    "submission_pct": 7.89,
-    "decision_pct": 56.47,
-    "goes_the_distance_pct": 58.23,
-    "expected_fight_minutes": 11.68
+    "ko_tko_pct": 34.5,
+    "submission_pct": 7.72,
+    "decision_pct": 57.14,
+    "goes_the_distance_pct": 57.78,
+    "expected_fight_minutes": 11.64
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 518,
-      "round_2": 487,
-      "round_3": 390
+      "round_1": 552,
+      "round_2": 522,
+      "round_3": 423
     },
     "fighter_b": {
-      "round_1": 1034,
-      "round_2": 956,
-      "round_3": 792
+      "round_1": 1026,
+      "round_2": 931,
+      "round_3": 768
     }
   },
   "value_betting": {
@@ -74,10 +74,10 @@
       "market_moneyline": -155,
       "market_decimal_odds": 1.645,
       "market_implied_prob_pct": 60.78,
-      "model_win_prob_pct": 26.16,
-      "edge_pct": -34.62,
+      "model_win_prob_pct": 39.65,
+      "edge_pct": -21.14,
       "consensus_edge_pct": -2.27,
-      "kelly_fraction_full": -0.8828,
+      "kelly_fraction_full": -0.539,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
@@ -87,11 +87,11 @@
       "market_moneyline": 132,
       "market_decimal_odds": 2.32,
       "market_implied_prob_pct": 43.1,
-      "model_win_prob_pct": 73.84,
-      "edge_pct": 30.73,
+      "model_win_prob_pct": 60.35,
+      "edge_pct": 17.25,
       "consensus_edge_pct": -1.61,
-      "kelly_fraction_full": 0.5401,
-      "kelly_fraction_half": 0.2701,
+      "kelly_fraction_full": 0.3032,
+      "kelly_fraction_half": 0.1516,
       "model_sees_value": true,
       "consensus_agrees": false,
       "value_bet": false

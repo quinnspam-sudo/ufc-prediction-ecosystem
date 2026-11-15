@@ -24,10 +24,10 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 24.86,
-    "fighter_b_pct": 75.14,
-    "draw_pct": 0.65,
-    "calibration_shrink_applied": 0.7
+    "fighter_a_pct": 39.15,
+    "fighter_b_pct": 60.85,
+    "draw_pct": 0.29,
+    "calibration_shrink_applied": 0.3
   },
   "consensus_forecast": {
     "applied": true,
@@ -40,20 +40,20 @@
     "fighter_a": {
       "KO/TKO": 9.83,
       "Submission": 3.78,
-      "Unanimous Decision": 0.17,
-      "Split/Majority Decision": 0.22
+      "Unanimous Decision": 0.06,
+      "Split/Majority Decision": 0.12
     },
     "fighter_b": {
       "KO/TKO": 6.72,
       "Submission": 15.94,
-      "Unanimous Decision": 61.71,
-      "Split/Majority Decision": 0.98
+      "Unanimous Decision": 62.76,
+      "Split/Majority Decision": 0.5
     }
   },
   "fight_level": {
     "ko_tko_pct": 16.55,
     "submission_pct": 19.72,
-    "decision_pct": 63.08,
+    "decision_pct": 63.44,
     "goes_the_distance_pct": 63.73,
     "expected_fight_minutes": 12.23
   },
@@ -74,10 +74,10 @@
       "market_moneyline": 153,
       "market_decimal_odds": 2.53,
       "market_implied_prob_pct": 39.53,
-      "model_win_prob_pct": 24.86,
-      "edge_pct": -14.66,
+      "model_win_prob_pct": 39.15,
+      "edge_pct": -0.38,
       "consensus_edge_pct": -1.68,
-      "kelly_fraction_full": -0.2425,
+      "kelly_fraction_full": -0.0062,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
@@ -87,12 +87,12 @@
       "market_moneyline": -185,
       "market_decimal_odds": 1.541,
       "market_implied_prob_pct": 64.91,
-      "model_win_prob_pct": 75.14,
-      "edge_pct": 10.22,
+      "model_win_prob_pct": 60.85,
+      "edge_pct": -4.06,
       "consensus_edge_pct": -2.76,
-      "kelly_fraction_full": 0.2914,
-      "kelly_fraction_half": 0.1457,
-      "model_sees_value": true,
+      "kelly_fraction_full": -0.1157,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
       "consensus_agrees": false,
       "value_bet": false
     },

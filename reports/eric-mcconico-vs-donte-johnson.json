@@ -24,10 +24,10 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 23.62,
-    "fighter_b_pct": 76.38,
-    "draw_pct": 0.13,
-    "calibration_shrink_applied": 0.7
+    "fighter_a_pct": 38.69,
+    "fighter_b_pct": 61.31,
+    "draw_pct": 0.1,
+    "calibration_shrink_applied": 0.3
   },
   "consensus_forecast": {
     "applied": true,
@@ -41,19 +41,19 @@
       "KO/TKO": 9.78,
       "Submission": 2.46,
       "Unanimous Decision": 0.01,
-      "Split/Majority Decision": 0.05
+      "Split/Majority Decision": 0.03
     },
     "fighter_b": {
       "KO/TKO": 12.72,
       "Submission": 13.4,
-      "Unanimous Decision": 61.18,
-      "Split/Majority Decision": 0.27
+      "Unanimous Decision": 61.31,
+      "Split/Majority Decision": 0.19
     }
   },
   "fight_level": {
     "ko_tko_pct": 22.5,
     "submission_pct": 15.86,
-    "decision_pct": 61.51,
+    "decision_pct": 61.54,
     "goes_the_distance_pct": 61.64,
     "expected_fight_minutes": 12.04
   },
@@ -74,12 +74,12 @@
       "market_moneyline": 250,
       "market_decimal_odds": 3.5,
       "market_implied_prob_pct": 28.57,
-      "model_win_prob_pct": 23.62,
-      "edge_pct": -4.95,
+      "model_win_prob_pct": 38.69,
+      "edge_pct": 10.12,
       "consensus_edge_pct": -1.15,
-      "kelly_fraction_full": -0.0693,
-      "kelly_fraction_half": 0.0,
-      "model_sees_value": false,
+      "kelly_fraction_full": 0.1416,
+      "kelly_fraction_half": 0.0708,
+      "model_sees_value": true,
       "consensus_agrees": false,
       "value_bet": false
     },
@@ -87,12 +87,12 @@
       "market_moneyline": -310,
       "market_decimal_odds": 1.323,
       "market_implied_prob_pct": 75.61,
-      "model_win_prob_pct": 76.38,
-      "edge_pct": 0.77,
+      "model_win_prob_pct": 61.31,
+      "edge_pct": -14.3,
       "consensus_edge_pct": -3.03,
-      "kelly_fraction_full": 0.0314,
-      "kelly_fraction_half": 0.0157,
-      "model_sees_value": true,
+      "kelly_fraction_full": -0.5862,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
       "consensus_agrees": false,
       "value_bet": false
     },
