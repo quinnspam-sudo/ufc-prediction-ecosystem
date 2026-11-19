@@ -5,12 +5,12 @@
     "scheduled_rounds": 3,
     "is_title_fight": false,
     "iterations": 10000,
-    "avg_rounds_simulated": 2.729,
+    "avg_rounds_simulated": 2.731,
     "fighter_a_flags": {
-      "active_injury": false,
+      "active_injury": true,
       "missed_weight": false,
       "withdrawn": false,
-      "injury_note": "",
+      "injury_note": "Ilia Topuria says UFC White House injury was inches away from ending career - Irish Star",
       "stats_approx": false,
       "needs_real_stats": false
     },
@@ -24,74 +24,74 @@
     }
   },
   "win_probability": {
-    "fighter_a_pct": 42.6,
-    "fighter_b_pct": 57.39,
-    "draw_pct": 6.63,
+    "fighter_a_pct": 42.7,
+    "fighter_b_pct": 57.3,
+    "draw_pct": 7.29,
     "calibration_shrink_applied": 0.3
   },
   "consensus_forecast": {
     "applied": true,
     "model_weight": 0.0,
-    "fighter_a_pct": 70.67,
-    "fighter_b_pct": 29.33,
-    "market_devig_a_pct": 70.67
+    "fighter_a_pct": 70.64,
+    "fighter_b_pct": 29.36,
+    "market_devig_a_pct": 70.64
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 4.81,
-      "Submission": 3.33,
-      "Unanimous Decision": 9.96,
-      "Split/Majority Decision": 5.57
+      "KO/TKO": 4.55,
+      "Submission": 3.29,
+      "Unanimous Decision": 10.68,
+      "Split/Majority Decision": 5.27
     },
     "fighter_b": {
-      "KO/TKO": 8.4,
-      "Submission": 9.91,
-      "Unanimous Decision": 43.13,
-      "Split/Majority Decision": 8.26
+      "KO/TKO": 8.52,
+      "Submission": 10.12,
+      "Unanimous Decision": 42.99,
+      "Split/Majority Decision": 7.29
     }
   },
   "fight_level": {
-    "ko_tko_pct": 13.21,
-    "submission_pct": 13.24,
-    "decision_pct": 66.92,
-    "goes_the_distance_pct": 73.55,
-    "expected_fight_minutes": 12.98
+    "ko_tko_pct": 13.07,
+    "submission_pct": 13.41,
+    "decision_pct": 66.23,
+    "goes_the_distance_pct": 73.52,
+    "expected_fight_minutes": 12.99
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 265,
-      "round_2": 293,
-      "round_3": 256
+      "round_1": 257,
+      "round_2": 275,
+      "round_3": 252
     },
     "fighter_b": {
       "round_1": 632,
-      "round_2": 621,
-      "round_3": 578
+      "round_2": 633,
+      "round_3": 599
     }
   },
   "value_betting": {
     "fighter_a": {
-      "market_moneyline": -290,
-      "market_decimal_odds": 1.345,
-      "market_implied_prob_pct": 74.36,
-      "model_win_prob_pct": 42.6,
-      "edge_pct": -31.75,
-      "consensus_edge_pct": -3.69,
-      "kelly_fraction_full": -1.2384,
+      "market_moneyline": -285,
+      "market_decimal_odds": 1.351,
+      "market_implied_prob_pct": 74.03,
+      "model_win_prob_pct": 42.7,
+      "edge_pct": -31.33,
+      "consensus_edge_pct": -3.39,
+      "kelly_fraction_full": -1.2061,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
       "value_bet": false
     },
     "fighter_b": {
-      "market_moneyline": 224,
-      "market_decimal_odds": 3.24,
-      "market_implied_prob_pct": 30.86,
-      "model_win_prob_pct": 57.39,
+      "market_moneyline": 225,
+      "market_decimal_odds": 3.25,
+      "market_implied_prob_pct": 30.77,
+      "model_win_prob_pct": 57.3,
       "edge_pct": 26.53,
-      "consensus_edge_pct": -1.53,
-      "kelly_fraction_full": 0.3837,
-      "kelly_fraction_half": 0.1919,
+      "consensus_edge_pct": -1.41,
+      "kelly_fraction_full": 0.3833,
+      "kelly_fraction_half": 0.1916,
       "model_sees_value": true,
       "consensus_agrees": false,
       "value_bet": false

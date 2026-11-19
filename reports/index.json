@@ -2583,9 +2583,9 @@
     },
     "Aleksandre Topuria vs Santiago Luna": {
       "win_probability": {
-        "fighter_a_pct": 42.6,
-        "fighter_b_pct": 57.39,
-        "draw_pct": 6.63,
+        "fighter_a_pct": 42.7,
+        "fighter_b_pct": 57.3,
+        "draw_pct": 7.29,
         "calibration_shrink_applied": 0.3
       },
       "value_flags": {
@@ -2888,6 +2888,18 @@
         "fighter_b": false
       },
       "report_file": "reports/israel-adesanya-vs-shara-magomedov.json"
+    },
+    "Shoaib Yousaf vs John Mitchell": {
+      "win_probability": {
+        "fighter_a_pct": 49.59,
+        "fighter_b_pct": 50.41,
+        "draw_pct": 7.45
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/shoaib-yousaf-vs-john-mitchell.json"
     }
   }
 }
