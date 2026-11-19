@@ -1,51 +1,6 @@
 {
   "changelog": [
     {
-      "detail": "Jared Gordon vs Melquizael Costa: consensus +291 / -360 (1 books)",
-      "ts": "2026-11-05T06:53:55+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Jim Miller vs Terrance McKinney: consensus +181 / -215 (1 books)",
-      "ts": "2026-11-05T06:53:55+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Luis Gurule vs Bilal Hasan: consensus +599 / -917 (4 books)",
-      "ts": "2026-11-05T06:53:55+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Caio Borralho vs Yousri Belgaroui: consensus -157 / +129 (4 books)",
-      "ts": "2026-11-05T06:53:55+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Amanda Nunes vs Kayla Harrison: consensus +151 / -186 (4 books)",
-      "ts": "2026-11-05T06:53:55+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Josh Hokit vs Ciryl Gane: consensus +205 / -261 (4 books)",
-      "ts": "2026-11-05T06:53:55+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Carlos Calderon: Carlos Calderon Replaces Injured Lucas Brennan Against Austin Bashi On November 7 - MiddleEasy",
-      "ts": "2026-11-05T06:53:57+00:00",
-      "type": "health_injury"
-    },
-    {
-      "detail": "Carlos Calderon: real stats populated (http://ufcstats.com/fighter-details/7d4d7583df7eebf9)",
-      "ts": "2026-11-05T06:54:14+00:00",
-      "type": "ufcstats_scraped"
-    },
-    {
-      "detail": "Karine Silva vs Gabriella Fernandes: consensus -230 / +190 (7 books)",
-      "ts": "2026-11-05T20:00:15+00:00",
-      "type": "odds_update"
-    },
-    {
       "detail": "Jose Delano vs Murtazali Magomedov: consensus -118 / -102 (7 books)",
       "ts": "2026-11-05T20:00:15+00:00",
       "type": "odds_update"
@@ -2498,6 +2453,51 @@
     {
       "detail": "Israel Adesanya vs Shara Magomedov: consensus -160 / +130 (6 books)",
       "ts": "2026-11-18T20:37:05+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Diyar Nurgozhay vs Alik Lorenz: consensus -250 / +200 (7 books)",
+      "ts": "2026-11-19T07:31:19+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Nikolas Motta vs Dom Mar Fan: consensus +138 / -165 (7 books)",
+      "ts": "2026-11-19T07:31:19+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Jake Matthews vs Tahir Abdullayev: consensus -253 / +209 (7 books)",
+      "ts": "2026-11-19T07:31:19+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Amir Albazi vs Alessandro Costa: consensus -112 / -108 (7 books)",
+      "ts": "2026-11-19T07:31:19+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Shamil Gaziev vs Tallison Teixeira: consensus -198 / +164 (7 books)",
+      "ts": "2026-11-19T07:31:19+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Aleksandre Topuria vs Santiago Luna: consensus -290 / +224 (6 books)",
+      "ts": "2026-11-19T07:31:19+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Aljamain Sterling vs Kevin Vallejos: consensus +108 / -132 (7 books)",
+      "ts": "2026-11-19T07:31:19+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Jared Cannonier vs Ikram Aliskerov: consensus +239 / -298 (7 books)",
+      "ts": "2026-11-19T07:31:19+00:00",
+      "type": "odds_update"
+    },
+    {
+      "detail": "Israel Adesanya vs Shara Magomedov: consensus -160 / +130 (6 books)",
+      "ts": "2026-11-19T07:31:19+00:00",
       "type": "odds_update"
     }
   ],
@@ -23882,9 +23882,9 @@
     },
     {
       "a": "amir-albazi",
-      "a_ml": -115,
+      "a_ml": -112,
       "b": "alessandro-costa",
-      "b_ml": -105,
+      "b_ml": -108,
       "date": "2026-11-21",
       "event": "UFC Fight Night: Proch\u00e1zka vs. Stirling",
       "label": "Amir Albazi vs Alessandro Costa",
@@ -23902,7 +23902,7 @@
     },
     {
       "a": "aleksandre-topuria",
-      "a_ml": -286,
+      "a_ml": -290,
       "b": "santiago-luna",
       "b_ml": 224,
       "date": "2026-11-21",
@@ -23913,9 +23913,9 @@
     },
     {
       "a": "jake-matthews",
-      "a_ml": -258,
+      "a_ml": -253,
       "b": "tahir-abdullayev",
-      "b_ml": 210,
+      "b_ml": 209,
       "date": "2026-11-21",
       "event": "UFC Fight Night: Proch\u00e1zka vs. Stirling",
       "label": "Jake Matthews vs Tahir Abdullayev",
@@ -23924,9 +23924,9 @@
     },
     {
       "a": "shamil-gaziev",
-      "a_ml": -200,
+      "a_ml": -198,
       "b": "tallison-teixeira",
-      "b_ml": 165,
+      "b_ml": 164,
       "date": "2026-11-21",
       "event": "UFC Fight Night: Proch\u00e1zka vs. Stirling",
       "label": "Shamil Gaziev vs Tallison Teixeira",
@@ -23935,9 +23935,9 @@
     },
     {
       "a": "jared-cannonier",
-      "a_ml": 238,
+      "a_ml": 239,
       "b": "ikram-aliskerov",
-      "b_ml": -290,
+      "b_ml": -298,
       "date": "2026-11-21",
       "event": "UFC Fight Night: Proch\u00e1zka vs. Stirling",
       "label": "Jared Cannonier vs Ikram Aliskerov",
@@ -24017,9 +24017,9 @@
     },
     {
       "a": "nikolas-motta",
-      "a_ml": 133,
+      "a_ml": 138,
       "b": "dom-mar-fan",
-      "b_ml": -160,
+      "b_ml": -165,
       "date": "2026-11-21",
       "event": "UFC Fight Night: Proch\u00e1zka vs. Stirling",
       "label": "Nikolas Motta vs Dom Mar Fan",
@@ -24141,7 +24141,7 @@
     "calibration": {
       "shrink": 0.3
     },
-    "last_sync": "2026-11-18T20:37:25+00:00",
+    "last_sync": "2026-11-19T07:31:39+00:00",
     "news_last": {
       "aaron-pico": "2026-11-09T22:04:10.120633+00:00",
       "abdul-hussein": "2026-11-18T07:35:05.703451+00:00",
@@ -24169,15 +24169,15 @@
       "alivia-bierley": "2026-11-15T06:40:07.566620+00:00",
       "aljamain-sterling": "2026-10-31T05:50:14.798806+00:00",
       "allen-frye-jr": "2026-11-10T07:24:26.262982+00:00",
-      "alvin-hines": "2026-10-30T22:25:17.457425+00:00",
-      "amanda-lemos": "2026-10-30T22:25:17.457425+00:00",
+      "alvin-hines": "2026-11-19T07:31:19.877864+00:00",
+      "amanda-lemos": "2026-11-19T07:31:19.877864+00:00",
       "amanda-nunes": "2026-11-08T13:30:32.145128+00:00",
       "amir-albazi": "2026-10-31T05:50:14.798806+00:00",
       "ananias-mulumba": "2026-11-03T01:01:42.716324+00:00",
       "andre-fili": "2026-11-10T07:24:26.262982+00:00",
       "andre-petroski": "2026-11-01T13:31:36.793192+00:00",
       "andrey-pulyaev": "2026-11-06T06:53:35.410536+00:00",
-      "anna-melisano": "2026-10-30T22:25:17.457425+00:00",
+      "anna-melisano": "2026-11-19T07:31:19.877864+00:00",
       "anthony-hernandez": "2026-11-04T06:31:31.609203+00:00",
       "anthony-romero": "2026-11-06T19:27:37.245985+00:00",
       "anthony-wint": "2026-11-03T01:01:42.716324+00:00",
@@ -24439,12 +24439,12 @@
       "niko-price": "2026-11-12T07:17:36.604565+00:00",
       "nikolas-motta": "2026-11-14T22:29:23.138890+00:00",
       "nina-milo-evi": "2026-11-18T20:37:05.945161+00:00",
-      "noah-gugnon": "2026-10-30T13:01:38.293644+00:00",
-      "nurullo-aliev": "2026-10-30T13:01:38.293644+00:00",
-      "oban-elliott": "2026-10-30T13:01:38.293644+00:00",
+      "noah-gugnon": "2026-11-19T07:31:19.877864+00:00",
+      "nurullo-aliev": "2026-11-19T07:31:19.877864+00:00",
+      "oban-elliott": "2026-11-19T07:31:19.877864+00:00",
       "ode-osbourne": "2026-11-09T06:41:56.164070+00:00",
       "ollie-schmid": "2026-11-15T06:40:07.566620+00:00",
-      "opponent-tba": "2026-10-30T13:01:38.293644+00:00",
+      "opponent-tba": "2026-11-19T07:31:19.877864+00:00",
       "otari-tanzilovi": "2026-11-12T07:17:36.604565+00:00",
       "ozzy-martin": "2026-11-15T18:54:48.793731+00:00",
       "pavel-andrusca": "2026-11-14T22:29:23.138890+00:00",
@@ -24504,7 +24504,7 @@
       "tba": "2026-11-04T19:49:03.338185+00:00",
       "terrance-mckinney": "2026-11-09T06:41:56.164070+00:00",
       "theodor-berggren": "2026-11-02T21:31:30.705425+00:00",
-      "thomas-petersen": "2026-10-30T13:01:38.293644+00:00",
+      "thomas-petersen": "2026-11-19T07:31:19.877864+00:00",
       "timmy-cuamba": "2026-11-12T19:58:55.398480+00:00",
       "tofiq-musayev": "2026-11-16T06:36:54.129586+00:00",
       "tom-nolan": "2026-11-02T21:31:30.705425+00:00",
@@ -24534,8 +24534,8 @@
       "zach-reese": "2026-11-09T22:04:10.120633+00:00"
     },
     "odds": {
-      "count": 41,
-      "last_call": "2026-11-18T20:37:05.942797+00:00",
+      "count": 42,
+      "last_call": "2026-11-19T07:31:19.875487+00:00",
       "month": "2026-11"
     },
     "source_health": {},
@@ -24722,8 +24722,8 @@
       "johnny-walker": "2026-10-03T05:23:15.974357+00:00",
       "jon-kunneman": "2026-08-15T13:01:20.988980+00:00",
       "jonny-parsons": "2026-10-17T04:33:16.433857+00:00",
-      "jos-montanha": "2026-11-17T07:59:31.665031+00:00",
-      "jos-souza": "2026-11-17T07:59:31.665031+00:00",
+      "jos-montanha": "2026-11-19T07:31:21.665059+00:00",
+      "jos-souza": "2026-11-19T07:31:21.665059+00:00",
       "jose-delano": "2026-10-17T15:39:31.080032+00:00",
       "jose-henrique": "2026-11-17T20:59:14.322359+00:00",
       "jose-miguel-delgado": "2026-11-18T07:35:07.665674+00:00",
@@ -24763,7 +24763,7 @@
       "losene-keita": "2026-10-11T05:52:45.076167+00:00",
       "louie-sutherland": "2026-07-27T21:00:49.625123+00:00",
       "louis-jourdain": "2026-10-03T11:44:06.550332+00:00",
-      "luana-santos": "2026-11-17T07:59:31.665031+00:00",
+      "luana-santos": "2026-11-19T07:31:21.665059+00:00",
       "lucas-armand": "2026-10-08T13:36:13.189651+00:00",
       "lucas-brennan": "2026-10-17T04:33:16.433857+00:00",
       "lucas-fernando": "2026-10-17T15:39:31.080032+00:00",
@@ -24809,7 +24809,7 @@
       "michael-oliveira": "2026-07-27T09:00:48.864437+00:00",
       "mick-parkin": "2026-10-03T16:25:46.175405+00:00",
       "mickey-gall": "2026-10-24T20:53:37.808566+00:00",
-      "mike-davis": "2026-11-17T07:59:31.665031+00:00",
+      "mike-davis": "2026-11-19T07:31:21.665059+00:00",
       "mike-malott": "2026-10-03T16:25:46.175405+00:00",
       "miles-johns": "2026-08-02T05:00:46.612283+00:00",
       "milos-janicic": "2026-08-02T13:00:46.955267+00:00",
@@ -24897,7 +24897,7 @@
       "taner-trembley": "2026-08-19T13:12:01.856497+00:00",
       "tanner-boser": "2026-10-06T00:06:18.977132+00:00",
       "tatiana-suarez": "2026-10-17T20:39:40.726501+00:00",
-      "tba": "2026-11-17T07:59:31.665031+00:00",
+      "tba": "2026-11-19T07:31:21.665059+00:00",
       "terrance-mckinney": "2026-10-24T20:53:37.808566+00:00",
       "theodor-berggren": "2026-10-10T21:48:24.717239+00:00",
       "thomas-petersen": "2026-07-20T11:00:58.429873+00:00",
@@ -24911,7 +24911,7 @@
       "ty-miller": "2026-07-30T01:00:51.274192+00:00",
       "tyrell-fortune": "2026-07-20T11:00:58.429873+00:00",
       "uran-satybaldiev": "2026-07-20T11:00:58.429873+00:00",
-      "uro-medi": "2026-11-17T07:59:31.665031+00:00",
+      "uro-medi": "2026-11-19T07:31:21.665059+00:00",
       "valter-walker": "2026-07-20T11:00:58.429873+00:00",
       "vicente-luque": "2026-07-28T05:00:52.608943+00:00",
       "virna-jandiroba": "2026-10-17T20:39:40.726501+00:00",
