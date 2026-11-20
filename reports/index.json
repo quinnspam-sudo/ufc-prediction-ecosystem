@@ -2635,10 +2635,10 @@
     },
     "Brian Ortega vs Dan Hooker": {
       "win_probability": {
-        "fighter_a_pct": 42.85,
-        "fighter_b_pct": 57.15,
-        "draw_pct": 0.69,
-        "calibration_shrink_applied": 0.25
+        "fighter_a_pct": 41.15,
+        "fighter_b_pct": 58.85,
+        "draw_pct": 0.29,
+        "calibration_shrink_applied": 0.3
       },
       "value_flags": {
         "fighter_a": false,
