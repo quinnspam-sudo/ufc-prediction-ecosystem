@@ -2596,9 +2596,9 @@
     },
     "Jake Matthews vs Tahir Abdullayev": {
       "win_probability": {
-        "fighter_a_pct": 46.41,
-        "fighter_b_pct": 53.59,
-        "draw_pct": 6.54,
+        "fighter_a_pct": 46.79,
+        "fighter_b_pct": 53.21,
+        "draw_pct": 6.72,
         "calibration_shrink_applied": 0.3
       },
       "value_flags": {

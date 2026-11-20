@@ -5,7 +5,7 @@
     "scheduled_rounds": 3,
     "is_title_fight": false,
     "iterations": 10000,
-    "avg_rounds_simulated": 2.657,
+    "avg_rounds_simulated": 2.663,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -16,82 +16,82 @@
     },
     "fighter_b_flags": {
       "active_injury": false,
-      "missed_weight": false,
+      "missed_weight": true,
       "withdrawn": false,
-      "injury_note": "",
+      "injury_note": "Tahir Abdullayev misses weight but will fight Jake Matthews - Operativ M\u0259lumat M\u0259rk\u0259zi",
       "stats_approx": false,
       "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 46.41,
-    "fighter_b_pct": 53.59,
-    "draw_pct": 6.54,
+    "fighter_a_pct": 46.79,
+    "fighter_b_pct": 53.21,
+    "draw_pct": 6.72,
     "calibration_shrink_applied": 0.3
   },
   "consensus_forecast": {
     "applied": true,
     "model_weight": 0.0,
-    "fighter_a_pct": 68.54,
-    "fighter_b_pct": 31.46,
-    "market_devig_a_pct": 68.54
+    "fighter_a_pct": 67.98,
+    "fighter_b_pct": 32.02,
+    "market_devig_a_pct": 67.98
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 7.98,
-      "Submission": 11.57,
-      "Unanimous Decision": 10.46,
-      "Split/Majority Decision": 5.54
+      "KO/TKO": 8.18,
+      "Submission": 11.69,
+      "Unanimous Decision": 11.29,
+      "Split/Majority Decision": 5.51
     },
     "fighter_b": {
-      "KO/TKO": 10.89,
-      "Submission": 2.94,
-      "Unanimous Decision": 36.9,
-      "Split/Majority Decision": 7.18
+      "KO/TKO": 10.33,
+      "Submission": 2.9,
+      "Unanimous Decision": 35.81,
+      "Split/Majority Decision": 7.57
     }
   },
   "fight_level": {
-    "ko_tko_pct": 18.87,
-    "submission_pct": 14.51,
-    "decision_pct": 60.08,
-    "goes_the_distance_pct": 66.62,
-    "expected_fight_minutes": 12.45
+    "ko_tko_pct": 18.51,
+    "submission_pct": 14.59,
+    "decision_pct": 60.18,
+    "goes_the_distance_pct": 66.9,
+    "expected_fight_minutes": 12.49
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 670,
-      "round_2": 673,
-      "round_3": 612
+      "round_1": 663,
+      "round_2": 681,
+      "round_3": 643
     },
     "fighter_b": {
-      "round_1": 473,
-      "round_2": 475,
-      "round_3": 435
+      "round_1": 453,
+      "round_2": 455,
+      "round_3": 415
     }
   },
   "value_betting": {
     "fighter_a": {
-      "market_moneyline": -250,
-      "market_decimal_odds": 1.4,
-      "market_implied_prob_pct": 71.43,
-      "model_win_prob_pct": 46.41,
-      "edge_pct": -25.02,
-      "consensus_edge_pct": -2.89,
-      "kelly_fraction_full": -0.8756,
+      "market_moneyline": -245,
+      "market_decimal_odds": 1.408,
+      "market_implied_prob_pct": 71.01,
+      "model_win_prob_pct": 46.79,
+      "edge_pct": -24.22,
+      "consensus_edge_pct": -3.03,
+      "kelly_fraction_full": -0.8356,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
       "value_bet": false
     },
     "fighter_b": {
-      "market_moneyline": 205,
-      "market_decimal_odds": 3.05,
-      "market_implied_prob_pct": 32.79,
-      "model_win_prob_pct": 53.59,
-      "edge_pct": 20.8,
-      "consensus_edge_pct": -1.33,
-      "kelly_fraction_full": 0.3095,
-      "kelly_fraction_half": 0.1547,
+      "market_moneyline": 199,
+      "market_decimal_odds": 2.99,
+      "market_implied_prob_pct": 33.44,
+      "model_win_prob_pct": 53.21,
+      "edge_pct": 19.76,
+      "consensus_edge_pct": -1.43,
+      "kelly_fraction_full": 0.2969,
+      "kelly_fraction_half": 0.1485,
       "model_sees_value": true,
       "consensus_agrees": false,
       "value_bet": false
