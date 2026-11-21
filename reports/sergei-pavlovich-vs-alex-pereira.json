@@ -4,72 +4,73 @@
     "fighter_b": "Alex Pereira",
     "scheduled_rounds": 5,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 3.594,
+    "iterations": 10000,
+    "avg_rounds_simulated": 3.574,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     },
     "fighter_b_flags": {
       "active_injury": false,
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 50.71,
-    "fighter_b_pct": 49.29,
-    "draw_pct": 4.35
+    "fighter_a_pct": 43.78,
+    "fighter_b_pct": 56.22,
+    "draw_pct": 2.47,
+    "calibration_shrink_applied": 0.35
   },
   "consensus_forecast": {
     "applied": false,
     "model_weight": 1.0,
-    "fighter_a_pct": 50.71,
-    "fighter_b_pct": 49.29,
+    "fighter_a_pct": 32.23,
+    "fighter_b_pct": 67.77,
     "market_devig_a_pct": null
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 24.05,
-      "Submission": 8.15,
-      "Unanimous Decision": 12.6,
-      "Split/Majority Decision": 3.7
+      "KO/TKO": 25.17,
+      "Submission": 2.28,
+      "Unanimous Decision": 2.19,
+      "Split/Majority Decision": 1.79
     },
     "fighter_b": {
-      "KO/TKO": 23.15,
-      "Submission": 7.7,
-      "Unanimous Decision": 12.15,
-      "Split/Majority Decision": 4.15
+      "KO/TKO": 33.38,
+      "Submission": 3.62,
+      "Unanimous Decision": 25.78,
+      "Split/Majority Decision": 3.32
     }
   },
   "fight_level": {
-    "ko_tko_pct": 47.2,
-    "submission_pct": 15.85,
-    "decision_pct": 32.6,
-    "goes_the_distance_pct": 36.95,
-    "expected_fight_minutes": 16.39
+    "ko_tko_pct": 58.55,
+    "submission_pct": 5.9,
+    "decision_pct": 33.08,
+    "goes_the_distance_pct": 35.55,
+    "expected_fight_minutes": 16.26
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 149,
-      "round_2": 144,
-      "round_3": 141,
-      "round_4": 108,
-      "round_5": 102
+      "round_1": 661,
+      "round_2": 625,
+      "round_3": 533,
+      "round_4": 500,
+      "round_5": 426
     },
     "fighter_b": {
-      "round_1": 149,
-      "round_2": 141,
-      "round_3": 134,
-      "round_4": 107,
-      "round_5": 86
+      "round_1": 912,
+      "round_2": 802,
+      "round_3": 746,
+      "round_4": 625,
+      "round_5": 615
     }
   },
   "value_betting": {
@@ -77,10 +78,10 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 50.71,
-      "edge_pct": -1.68,
-      "consensus_edge_pct": -1.68,
-      "kelly_fraction_full": -0.0352,
+      "model_win_prob_pct": 43.78,
+      "edge_pct": -8.6,
+      "consensus_edge_pct": -20.15,
+      "kelly_fraction_full": -0.1806,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,
@@ -90,17 +91,16 @@
       "market_moneyline": -110,
       "market_decimal_odds": 1.909,
       "market_implied_prob_pct": 52.38,
-      "model_win_prob_pct": 49.29,
-      "edge_pct": -3.09,
-      "consensus_edge_pct": -3.09,
-      "kelly_fraction_full": -0.0648,
-      "kelly_fraction_half": 0.0,
-      "model_sees_value": false,
-      "consensus_agrees": false,
+      "model_win_prob_pct": 56.22,
+      "edge_pct": 3.84,
+      "consensus_edge_pct": 15.39,
+      "kelly_fraction_full": 0.0806,
+      "kelly_fraction_half": 0.0403,
+      "model_sees_value": true,
+      "consensus_agrees": true,
       "value_bet": false
     },
     "suspended": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable.",
-    "insufficient_data": true
+    "note": "Value bets and parlays suspended: on point-in-time stats the model doesn't beat the betting market (see reports/backtest_pit.json)."
   }
 }
