@@ -2900,6 +2900,82 @@
         "fighter_b": false
       },
       "report_file": "reports/shoaib-yousaf-vs-john-mitchell.json"
+    },
+    "Junior Tafa vs Quentin Pasley": {
+      "win_probability": {
+        "fighter_a_pct": 40.26,
+        "fighter_b_pct": 59.74,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.3
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/junior-tafa-vs-quentin-pasley.json"
+    },
+    "Damian Pinas vs Baisangur Susurkaev": {
+      "win_probability": {
+        "fighter_a_pct": 40.1,
+        "fighter_b_pct": 59.9,
+        "draw_pct": 0.36,
+        "calibration_shrink_applied": 0.3
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/damian-pinas-vs-baisangur-susurkaev.json"
+    },
+    "Kyler Phillips vs Ethyn Ewing": {
+      "win_probability": {
+        "fighter_a_pct": 38.88,
+        "fighter_b_pct": 61.12,
+        "draw_pct": 0.1,
+        "calibration_shrink_applied": 0.3
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/kyler-phillips-vs-ethyn-ewing.json"
+    },
+    "Brandon Moreno vs Charles Johnson": {
+      "win_probability": {
+        "fighter_a_pct": 52.67,
+        "fighter_b_pct": 47.33,
+        "draw_pct": 7.83,
+        "calibration_shrink_applied": 0.3
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/brandon-moreno-vs-charles-johnson.json"
+    },
+    "Sergei Pavlovich vs Alex Pereira": {
+      "win_probability": {
+        "fighter_a_pct": 50.71,
+        "fighter_b_pct": 49.29,
+        "draw_pct": 4.35
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/sergei-pavlovich-vs-alex-pereira.json"
+    },
+    "Charles Oliveira vs Diego Lopes": {
+      "win_probability": {
+        "fighter_a_pct": 49.1,
+        "fighter_b_pct": 50.9,
+        "draw_pct": 5.1
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/charles-oliveira-vs-diego-lopes.json"
     }
   }
 }

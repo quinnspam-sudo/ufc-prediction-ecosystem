@@ -1,0 +1,106 @@
+{
+  "matchup": {
+    "fighter_a": "Sergei Pavlovich",
+    "fighter_b": "Alex Pereira",
+    "scheduled_rounds": 5,
+    "is_title_fight": false,
+    "iterations": 2000,
+    "avg_rounds_simulated": 3.594,
+    "fighter_a_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": true,
+      "needs_real_stats": true
+    },
+    "fighter_b_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": true,
+      "needs_real_stats": true
+    }
+  },
+  "win_probability": {
+    "fighter_a_pct": 50.71,
+    "fighter_b_pct": 49.29,
+    "draw_pct": 4.35
+  },
+  "consensus_forecast": {
+    "applied": false,
+    "model_weight": 1.0,
+    "fighter_a_pct": 50.71,
+    "fighter_b_pct": 49.29,
+    "market_devig_a_pct": null
+  },
+  "method_of_victory_matrix": {
+    "fighter_a": {
+      "KO/TKO": 24.05,
+      "Submission": 8.15,
+      "Unanimous Decision": 12.6,
+      "Split/Majority Decision": 3.7
+    },
+    "fighter_b": {
+      "KO/TKO": 23.15,
+      "Submission": 7.7,
+      "Unanimous Decision": 12.15,
+      "Split/Majority Decision": 4.15
+    }
+  },
+  "fight_level": {
+    "ko_tko_pct": 47.2,
+    "submission_pct": 15.85,
+    "decision_pct": 32.6,
+    "goes_the_distance_pct": 36.95,
+    "expected_fight_minutes": 16.39
+  },
+  "finish_round_distribution": {
+    "fighter_a": {
+      "round_1": 149,
+      "round_2": 144,
+      "round_3": 141,
+      "round_4": 108,
+      "round_5": 102
+    },
+    "fighter_b": {
+      "round_1": 149,
+      "round_2": 141,
+      "round_3": 134,
+      "round_4": 107,
+      "round_5": 86
+    }
+  },
+  "value_betting": {
+    "fighter_a": {
+      "market_moneyline": -110,
+      "market_decimal_odds": 1.909,
+      "market_implied_prob_pct": 52.38,
+      "model_win_prob_pct": 50.71,
+      "edge_pct": -1.68,
+      "consensus_edge_pct": -1.68,
+      "kelly_fraction_full": -0.0352,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
+      "value_bet": false
+    },
+    "fighter_b": {
+      "market_moneyline": -110,
+      "market_decimal_odds": 1.909,
+      "market_implied_prob_pct": 52.38,
+      "model_win_prob_pct": 49.29,
+      "edge_pct": -3.09,
+      "consensus_edge_pct": -3.09,
+      "kelly_fraction_full": -0.0648,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
+      "value_bet": false
+    },
+    "suspended": true,
+    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable.",
+    "insufficient_data": true
+  }
+}

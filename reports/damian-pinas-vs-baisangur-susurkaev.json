@@ -1,0 +1,102 @@
+{
+  "matchup": {
+    "fighter_a": "Damian Pinas",
+    "fighter_b": "Baisangur Susurkaev",
+    "scheduled_rounds": 3,
+    "is_title_fight": false,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.528,
+    "fighter_a_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": false,
+      "needs_real_stats": false
+    },
+    "fighter_b_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": false,
+      "needs_real_stats": false
+    }
+  },
+  "win_probability": {
+    "fighter_a_pct": 40.1,
+    "fighter_b_pct": 59.9,
+    "draw_pct": 0.36,
+    "calibration_shrink_applied": 0.3
+  },
+  "consensus_forecast": {
+    "applied": false,
+    "model_weight": 1.0,
+    "fighter_a_pct": 17.0,
+    "fighter_b_pct": 83.0,
+    "market_devig_a_pct": null
+  },
+  "method_of_victory_matrix": {
+    "fighter_a": {
+      "KO/TKO": 14.55,
+      "Submission": 2.12,
+      "Unanimous Decision": 0.13,
+      "Split/Majority Decision": 0.14
+    },
+    "fighter_b": {
+      "KO/TKO": 14.61,
+      "Submission": 12.96,
+      "Unanimous Decision": 54.39,
+      "Split/Majority Decision": 0.74
+    }
+  },
+  "fight_level": {
+    "ko_tko_pct": 29.16,
+    "submission_pct": 15.08,
+    "decision_pct": 55.4,
+    "goes_the_distance_pct": 55.76,
+    "expected_fight_minutes": 11.53
+  },
+  "finish_round_distribution": {
+    "fighter_a": {
+      "round_1": 595,
+      "round_2": 568,
+      "round_3": 504
+    },
+    "fighter_b": {
+      "round_1": 1028,
+      "round_2": 910,
+      "round_3": 819
+    }
+  },
+  "value_betting": {
+    "fighter_a": {
+      "market_moneyline": -110,
+      "market_decimal_odds": 1.909,
+      "market_implied_prob_pct": 52.38,
+      "model_win_prob_pct": 40.1,
+      "edge_pct": -12.28,
+      "consensus_edge_pct": -35.38,
+      "kelly_fraction_full": -0.2579,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
+      "value_bet": false
+    },
+    "fighter_b": {
+      "market_moneyline": -110,
+      "market_decimal_odds": 1.909,
+      "market_implied_prob_pct": 52.38,
+      "model_win_prob_pct": 59.9,
+      "edge_pct": 7.52,
+      "consensus_edge_pct": 30.62,
+      "kelly_fraction_full": 0.1579,
+      "kelly_fraction_half": 0.0789,
+      "model_sees_value": true,
+      "consensus_agrees": true,
+      "value_bet": false
+    },
+    "suspended": true,
+    "note": "Value bets and parlays suspended: on point-in-time stats the model doesn't beat the betting market (see reports/backtest_pit.json)."
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "matchup": {
+    "fighter_a": "Junior Tafa",
+    "fighter_b": "Quentin Pasley",
+    "scheduled_rounds": 3,
+    "is_title_fight": false,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.539,
+    "fighter_a_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": false,
+      "needs_real_stats": false
+    },
+    "fighter_b_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": false,
+      "needs_real_stats": false
+    }
+  },
+  "win_probability": {
+    "fighter_a_pct": 40.26,
+    "fighter_b_pct": 59.74,
+    "draw_pct": 0.0,
+    "calibration_shrink_applied": 0.3
+  },
+  "consensus_forecast": {
+    "applied": false,
+    "model_weight": 1.0,
+    "fighter_a_pct": 17.53,
+    "fighter_b_pct": 82.47,
+    "market_devig_a_pct": null
+  },
+  "method_of_victory_matrix": {
+    "fighter_a": {
+      "KO/TKO": 15.84,
+      "Submission": 1.69,
+      "Unanimous Decision": 0.0,
+      "Split/Majority Decision": 0.0
+    },
+    "fighter_b": {
+      "KO/TKO": 21.54,
+      "Submission": 3.78,
+      "Unanimous Decision": 57.15,
+      "Split/Majority Decision": 0.0
+    }
+  },
+  "fight_level": {
+    "ko_tko_pct": 37.38,
+    "submission_pct": 5.47,
+    "decision_pct": 57.15,
+    "goes_the_distance_pct": 57.15,
+    "expected_fight_minutes": 11.62
+  },
+  "finish_round_distribution": {
+    "fighter_a": {
+      "round_1": 619,
+      "round_2": 599,
+      "round_3": 535
+    },
+    "fighter_b": {
+      "round_1": 955,
+      "round_2": 864,
+      "round_3": 713
+    }
+  },
+  "value_betting": {
+    "fighter_a": {
+      "market_moneyline": -110,
+      "market_decimal_odds": 1.909,
+      "market_implied_prob_pct": 52.38,
+      "model_win_prob_pct": 40.26,
+      "edge_pct": -12.12,
+      "consensus_edge_pct": -34.85,
+      "kelly_fraction_full": -0.2546,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
+      "value_bet": false
+    },
+    "fighter_b": {
+      "market_moneyline": -110,
+      "market_decimal_odds": 1.909,
+      "market_implied_prob_pct": 52.38,
+      "model_win_prob_pct": 59.74,
+      "edge_pct": 7.36,
+      "consensus_edge_pct": 30.09,
+      "kelly_fraction_full": 0.1546,
+      "kelly_fraction_half": 0.0773,
+      "model_sees_value": true,
+      "consensus_agrees": true,
+      "value_bet": false
+    },
+    "suspended": true,
+    "note": "Value bets and parlays suspended: on point-in-time stats the model doesn't beat the betting market (see reports/backtest_pit.json)."
+  }
+}
