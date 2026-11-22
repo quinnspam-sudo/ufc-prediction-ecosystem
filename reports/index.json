@@ -466,10 +466,10 @@
     },
     "Jan Blachowicz vs Navajo Stirling": {
       "win_probability": {
-        "fighter_a_pct": 27.5,
-        "fighter_b_pct": 72.5,
+        "fighter_a_pct": 38.75,
+        "fighter_b_pct": 61.25,
         "draw_pct": 0.13,
-        "calibration_shrink_applied": 0.7
+        "calibration_shrink_applied": 0.35
       },
       "value_flags": {
         "fighter_a": false,
@@ -2635,10 +2635,10 @@
     },
     "Brian Ortega vs Dan Hooker": {
       "win_probability": {
-        "fighter_a_pct": 41.15,
-        "fighter_b_pct": 58.85,
-        "draw_pct": 0.29,
-        "calibration_shrink_applied": 0.3
+        "fighter_a_pct": 39.61,
+        "fighter_b_pct": 60.39,
+        "draw_pct": 0.15,
+        "calibration_shrink_applied": 0.35
       },
       "value_flags": {
         "fighter_a": false,
@@ -2648,9 +2648,9 @@
     },
     "Aljamain Sterling vs Kevin Vallejos": {
       "win_probability": {
-        "fighter_a_pct": 46.63,
-        "fighter_b_pct": 53.37,
-        "draw_pct": 7.11,
+        "fighter_a_pct": 46.01,
+        "fighter_b_pct": 53.99,
+        "draw_pct": 6.28,
         "calibration_shrink_applied": 0.35
       },
       "value_flags": {
@@ -2661,10 +2661,10 @@
     },
     "Ji\u0159\u00ed Proch\u00e1zka vs Navajo Stirling": {
       "win_probability": {
-        "fighter_a_pct": 44.75,
-        "fighter_b_pct": 55.25,
+        "fighter_a_pct": 42.64,
+        "fighter_b_pct": 57.36,
         "draw_pct": 0.0,
-        "calibration_shrink_applied": 0.25
+        "calibration_shrink_applied": 0.35
       },
       "value_flags": {
         "fighter_a": false,
