@@ -1899,10 +1899,10 @@
     },
     "Andre Petroski vs Azamat Bekoev": {
       "win_probability": {
-        "fighter_a_pct": 73.13,
-        "fighter_b_pct": 26.87,
-        "draw_pct": 1.67,
-        "calibration_shrink_applied": 0.7
+        "fighter_a_pct": 61.54,
+        "fighter_b_pct": 38.46,
+        "draw_pct": 1.16,
+        "calibration_shrink_applied": 0.35
       },
       "value_flags": {
         "fighter_a": false,
@@ -2814,10 +2814,10 @@
     },
     "Ion Cutelaba vs Magomed Tuchalov": {
       "win_probability": {
-        "fighter_a_pct": 27.89,
-        "fighter_b_pct": 72.11,
+        "fighter_a_pct": 38.94,
+        "fighter_b_pct": 61.06,
         "draw_pct": 0.0,
-        "calibration_shrink_applied": 0.7
+        "calibration_shrink_applied": 0.35
       },
       "value_flags": {
         "fighter_a": false,
@@ -2839,10 +2839,10 @@
     },
     "Levan Chokheli vs Islam Dulatov": {
       "win_probability": {
-        "fighter_a_pct": 72.42,
-        "fighter_b_pct": 27.58,
+        "fighter_a_pct": 61.21,
+        "fighter_b_pct": 38.79,
         "draw_pct": 0.0,
-        "calibration_shrink_applied": 0.7
+        "calibration_shrink_applied": 0.35
       },
       "value_flags": {
         "fighter_a": false,
@@ -2891,9 +2891,10 @@
     },
     "Shoaib Yousaf vs John Mitchell": {
       "win_probability": {
-        "fighter_a_pct": 49.92,
-        "fighter_b_pct": 50.08,
-        "draw_pct": 6.75
+        "fighter_a_pct": 35.94,
+        "fighter_b_pct": 64.06,
+        "draw_pct": 0.0,
+        "calibration_shrink_applied": 0.35
       },
       "value_flags": {
         "fighter_a": false,

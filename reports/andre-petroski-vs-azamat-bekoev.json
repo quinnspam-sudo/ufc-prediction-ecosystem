@@ -5,7 +5,7 @@
     "scheduled_rounds": 3,
     "is_title_fight": false,
     "iterations": 10000,
-    "avg_rounds_simulated": 2.568,
+    "avg_rounds_simulated": 2.561,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
@@ -15,19 +15,19 @@
       "needs_real_stats": false
     },
     "fighter_b_flags": {
-      "active_injury": true,
+      "active_injury": false,
       "missed_weight": false,
-      "withdrawn": true,
-      "injury_note": "Azamat Bekoev Withdraws From Andre Petroski Fight After Health Scare - MiddleEasy",
+      "withdrawn": false,
+      "injury_note": "",
       "stats_approx": false,
       "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 73.13,
-    "fighter_b_pct": 26.87,
-    "draw_pct": 1.67,
-    "calibration_shrink_applied": 0.7
+    "fighter_a_pct": 61.54,
+    "fighter_b_pct": 38.46,
+    "draw_pct": 1.16,
+    "calibration_shrink_applied": 0.35
   },
   "consensus_forecast": {
     "applied": true,
@@ -38,35 +38,35 @@
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 10.71,
-      "Submission": 15.45,
-      "Unanimous Decision": 53.53,
-      "Split/Majority Decision": 1.96
+      "KO/TKO": 10.58,
+      "Submission": 15.04,
+      "Unanimous Decision": 54.52,
+      "Split/Majority Decision": 1.87
     },
     "fighter_b": {
-      "KO/TKO": 13.18,
-      "Submission": 2.02,
-      "Unanimous Decision": 0.79,
-      "Split/Majority Decision": 0.69
+      "KO/TKO": 13.81,
+      "Submission": 2.04,
+      "Unanimous Decision": 0.45,
+      "Split/Majority Decision": 0.53
     }
   },
   "fight_level": {
-    "ko_tko_pct": 23.89,
-    "submission_pct": 17.47,
-    "decision_pct": 56.97,
-    "goes_the_distance_pct": 58.64,
-    "expected_fight_minutes": 11.81
+    "ko_tko_pct": 24.39,
+    "submission_pct": 17.08,
+    "decision_pct": 57.37,
+    "goes_the_distance_pct": 58.53,
+    "expected_fight_minutes": 11.77
   },
   "finish_round_distribution": {
     "fighter_a": {
       "round_1": 940,
-      "round_2": 868,
-      "round_3": 808
+      "round_2": 853,
+      "round_3": 769
     },
     "fighter_b": {
-      "round_1": 541,
-      "round_2": 491,
-      "round_3": 488
+      "round_1": 577,
+      "round_2": 503,
+      "round_3": 505
     }
   },
   "value_betting": {
@@ -74,11 +74,11 @@
       "market_moneyline": 300,
       "market_decimal_odds": 4.0,
       "market_implied_prob_pct": 25.0,
-      "model_win_prob_pct": 73.13,
-      "edge_pct": 48.13,
+      "model_win_prob_pct": 61.54,
+      "edge_pct": 36.54,
       "consensus_edge_pct": -1.19,
-      "kelly_fraction_full": 0.6417,
-      "kelly_fraction_half": 0.3209,
+      "kelly_fraction_full": 0.4872,
+      "kelly_fraction_half": 0.2436,
       "model_sees_value": true,
       "consensus_agrees": false,
       "value_bet": false
@@ -87,10 +87,10 @@
       "market_moneyline": -400,
       "market_decimal_odds": 1.25,
       "market_implied_prob_pct": 80.0,
-      "model_win_prob_pct": 26.87,
-      "edge_pct": -53.13,
+      "model_win_prob_pct": 38.46,
+      "edge_pct": -41.54,
       "consensus_edge_pct": -3.81,
-      "kelly_fraction_full": -2.6564,
+      "kelly_fraction_full": -2.077,
       "kelly_fraction_half": 0.0,
       "model_sees_value": false,
       "consensus_agrees": false,

@@ -4,29 +4,30 @@
     "fighter_b": "John Mitchell",
     "scheduled_rounds": 3,
     "is_title_fight": false,
-    "iterations": 2000,
-    "avg_rounds_simulated": 2.642,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.529,
     "fighter_a_flags": {
       "active_injury": false,
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     },
     "fighter_b_flags": {
       "active_injury": false,
       "missed_weight": false,
       "withdrawn": false,
       "injury_note": "",
-      "stats_approx": true,
-      "needs_real_stats": true
+      "stats_approx": false,
+      "needs_real_stats": false
     }
   },
   "win_probability": {
-    "fighter_a_pct": 49.92,
-    "fighter_b_pct": 50.08,
-    "draw_pct": 6.75
+    "fighter_a_pct": 35.94,
+    "fighter_b_pct": 64.06,
+    "draw_pct": 0.0,
+    "calibration_shrink_applied": 0.35
   },
   "consensus_forecast": {
     "applied": true,
@@ -37,35 +38,35 @@
   },
   "method_of_victory_matrix": {
     "fighter_a": {
-      "KO/TKO": 8.55,
-      "Submission": 8.75,
-      "Unanimous Decision": 21.8,
-      "Split/Majority Decision": 7.45
+      "KO/TKO": 6.79,
+      "Submission": 3.05,
+      "Unanimous Decision": 0.0,
+      "Split/Majority Decision": 0.0
     },
     "fighter_b": {
-      "KO/TKO": 8.05,
-      "Submission": 9.45,
-      "Unanimous Decision": 20.15,
-      "Split/Majority Decision": 9.05
+      "KO/TKO": 32.29,
+      "Submission": 2.75,
+      "Unanimous Decision": 55.12,
+      "Split/Majority Decision": 0.0
     }
   },
   "fight_level": {
-    "ko_tko_pct": 16.6,
-    "submission_pct": 18.2,
-    "decision_pct": 58.45,
-    "goes_the_distance_pct": 65.2,
-    "expected_fight_minutes": 12.34
+    "ko_tko_pct": 39.08,
+    "submission_pct": 5.8,
+    "decision_pct": 55.12,
+    "goes_the_distance_pct": 55.12,
+    "expected_fight_minutes": 11.52
   },
   "finish_round_distribution": {
     "fighter_a": {
-      "round_1": 113,
-      "round_2": 129,
-      "round_3": 104
+      "round_1": 364,
+      "round_2": 340,
+      "round_3": 280
     },
     "fighter_b": {
-      "round_1": 129,
-      "round_2": 104,
-      "round_3": 117
+      "round_1": 1232,
+      "round_2": 1177,
+      "round_3": 1095
     }
   },
   "value_betting": {
@@ -73,12 +74,12 @@
       "market_moneyline": 120,
       "market_decimal_odds": 2.2,
       "market_implied_prob_pct": 45.45,
-      "model_win_prob_pct": 49.92,
-      "edge_pct": 4.47,
+      "model_win_prob_pct": 35.94,
+      "edge_pct": -9.51,
       "consensus_edge_pct": -1.8,
-      "kelly_fraction_full": 0.0819,
-      "kelly_fraction_half": 0.0409,
-      "model_sees_value": true,
+      "kelly_fraction_full": -0.1744,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
       "consensus_agrees": false,
       "value_bet": false
     },
@@ -86,17 +87,16 @@
       "market_moneyline": -142,
       "market_decimal_odds": 1.704,
       "market_implied_prob_pct": 58.68,
-      "model_win_prob_pct": 50.08,
-      "edge_pct": -8.6,
+      "model_win_prob_pct": 64.06,
+      "edge_pct": 5.38,
       "consensus_edge_pct": -2.33,
-      "kelly_fraction_full": -0.2081,
-      "kelly_fraction_half": 0.0,
-      "model_sees_value": false,
+      "kelly_fraction_full": 0.1302,
+      "kelly_fraction_half": 0.0651,
+      "model_sees_value": true,
       "consensus_agrees": false,
       "value_bet": false
     },
     "suspended": true,
-    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable.",
-    "insufficient_data": true
+    "note": "Value bets and parlays suspended: on point-in-time stats the model doesn't beat the betting market (see reports/backtest_pit.json)."
   }
 }
