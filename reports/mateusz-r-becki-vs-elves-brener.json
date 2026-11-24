@@ -1,0 +1,102 @@
+{
+  "matchup": {
+    "fighter_a": "Mateusz R\u0119becki",
+    "fighter_b": "Elves Brener",
+    "scheduled_rounds": 3,
+    "is_title_fight": false,
+    "iterations": 10000,
+    "avg_rounds_simulated": 2.678,
+    "fighter_a_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": false,
+      "needs_real_stats": false
+    },
+    "fighter_b_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": false,
+      "needs_real_stats": false
+    }
+  },
+  "win_probability": {
+    "fighter_a_pct": 62.35,
+    "fighter_b_pct": 37.65,
+    "draw_pct": 1.57,
+    "calibration_shrink_applied": 0.35
+  },
+  "consensus_forecast": {
+    "applied": false,
+    "model_weight": 1.0,
+    "fighter_a_pct": 85.3,
+    "fighter_b_pct": 14.7,
+    "market_devig_a_pct": null
+  },
+  "method_of_victory_matrix": {
+    "fighter_a": {
+      "KO/TKO": 7.68,
+      "Submission": 11.76,
+      "Unanimous Decision": 61.98,
+      "Split/Majority Decision": 2.54
+    },
+    "fighter_b": {
+      "KO/TKO": 10.44,
+      "Submission": 2.2,
+      "Unanimous Decision": 0.91,
+      "Split/Majority Decision": 0.92
+    }
+  },
+  "fight_level": {
+    "ko_tko_pct": 18.12,
+    "submission_pct": 13.96,
+    "decision_pct": 66.35,
+    "goes_the_distance_pct": 67.92,
+    "expected_fight_minutes": 12.59
+  },
+  "finish_round_distribution": {
+    "fighter_a": {
+      "round_1": 654,
+      "round_2": 649,
+      "round_3": 641
+    },
+    "fighter_b": {
+      "round_1": 417,
+      "round_2": 432,
+      "round_3": 415
+    }
+  },
+  "value_betting": {
+    "fighter_a": {
+      "market_moneyline": -110,
+      "market_decimal_odds": 1.909,
+      "market_implied_prob_pct": 52.38,
+      "model_win_prob_pct": 62.35,
+      "edge_pct": 9.97,
+      "consensus_edge_pct": 32.92,
+      "kelly_fraction_full": 0.2095,
+      "kelly_fraction_half": 0.1047,
+      "model_sees_value": true,
+      "consensus_agrees": true,
+      "value_bet": false
+    },
+    "fighter_b": {
+      "market_moneyline": -110,
+      "market_decimal_odds": 1.909,
+      "market_implied_prob_pct": 52.38,
+      "model_win_prob_pct": 37.65,
+      "edge_pct": -14.74,
+      "consensus_edge_pct": -37.68,
+      "kelly_fraction_full": -0.3095,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
+      "value_bet": false
+    },
+    "suspended": true,
+    "note": "Value bets and parlays suspended: on point-in-time stats the model doesn't beat the betting market (see reports/backtest_pit.json)."
+  }
+}

@@ -1,16 +1,6 @@
 {
   "changelog": [
     {
-      "detail": "Josh Hokit vs Ciryl Gane: consensus +195 / -247 (4 books)",
-      "ts": "2026-11-07T21:54:59+00:00",
-      "type": "odds_update"
-    },
-    {
-      "detail": "Jonny Parsons did not win at UFC Fight Night: Cortes Acosta vs. Walker (2026-11-07)",
-      "ts": "2026-11-08T06:08:23+00:00",
-      "type": "fight_result"
-    },
-    {
       "detail": "Jos\u00e9 Souza won at UFC Fight Night: Cortes Acosta vs. Walker (2026-11-07)",
       "ts": "2026-11-08T06:08:23+00:00",
       "type": "fight_result"
@@ -2499,6 +2489,16 @@
       "detail": "Shoaib Yousaf: real stats populated (http://ufcstats.com/fighter-details/5f183a54b8875e61)",
       "ts": "2026-11-22T19:45:15+00:00",
       "type": "ufcstats_scraped"
+    },
+    {
+      "detail": "Mateusz R\u0119becki vs Elves Brener",
+      "ts": "2026-11-24T09:59:10+00:00",
+      "type": "matchup_discovered"
+    },
+    {
+      "detail": "Elves Brener: real stats populated (http://ufcstats.com/fighter-details/48a9a128784d53d1)",
+      "ts": "2026-11-24T09:59:30+00:00",
+      "type": "ufcstats_scraped"
     }
   ],
   "fighters": {
@@ -3201,7 +3201,7 @@
       "withdrawn": false
     },
     "alex-pereira": {
-      "_updated": "2026-11-23T23:57:35+00:00",
+      "_updated": "2026-11-24T09:59:10+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -4851,7 +4851,7 @@
       "withdrawn": false
     },
     "baisangur-susurkaev": {
-      "_updated": "2026-11-23T23:57:35+00:00",
+      "_updated": "2026-11-24T09:59:10+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -5355,7 +5355,7 @@
       "withdrawn": false
     },
     "brandon-moreno": {
-      "_updated": "2026-11-23T23:57:35+00:00",
+      "_updated": "2026-11-24T09:59:10+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -6064,7 +6064,7 @@
       "withdrawn": false
     },
     "charles-johnson": {
-      "_updated": "2026-11-23T23:57:35+00:00",
+      "_updated": "2026-11-24T09:59:10+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -6115,7 +6115,7 @@
       "withdrawn": false
     },
     "charles-oliveira": {
-      "_updated": "2026-11-23T23:57:35+00:00",
+      "_updated": "2026-11-24T09:59:10+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -6914,7 +6914,7 @@
       "withdrawn": false
     },
     "damian-pinas": {
-      "_updated": "2026-11-23T23:57:35+00:00",
+      "_updated": "2026-11-24T09:59:10+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -7565,7 +7565,7 @@
       "withdrawn": false
     },
     "diego-lopes": {
-      "_updated": "2026-11-23T23:57:35+00:00",
+      "_updated": "2026-11-24T09:59:10+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -8359,6 +8359,57 @@
       "weight_class": "Flyweight",
       "withdrawn": false
     },
+    "elves-brener": {
+      "_updated": "2026-11-24T09:59:30+00:00",
+      "active_injury": false,
+      "age": 30,
+      "career_fights": 12,
+      "career_knockdowns_suffered": 2,
+      "career_ko_wins": 3,
+      "career_sig_strikes_absorbed": 800,
+      "career_sub_wins": 0,
+      "career_wins": 4,
+      "championship_round_fights": 0,
+      "control_time_pct": 0.3,
+      "display_name": "Elves Brener",
+      "division_move": 0,
+      "fight_date": "",
+      "fight_location_country": "USA",
+      "height_in": 70.0,
+      "home_country": "USA",
+      "injury_note": "",
+      "last_fight_date": "2025-06-01",
+      "missed_weight": false,
+      "name": "Elves Brener",
+      "needs_stats": false,
+      "reach_in": 72.0,
+      "round_strike_output": [
+        60,
+        58,
+        56,
+        54,
+        52
+      ],
+      "sapm": 5.67,
+      "slpm": 4.82,
+      "stance": "Orthodox",
+      "stats_approx": false,
+      "strike_acc": 0.48,
+      "strike_acc_body": 0.5175,
+      "strike_acc_head": 0.45,
+      "strike_acc_leg": 0.5625,
+      "strike_def": 0.5,
+      "sub_avg": 0.0,
+      "sub_def": 0.65,
+      "sweep_rate": 0.2,
+      "td_acc": 0.16,
+      "td_avg": 0.94,
+      "td_def": 0.71,
+      "trains_at_altitude": false,
+      "venue_elevation_ft": 0.0,
+      "weight_class": "Lightweight",
+      "withdrawn": false
+    },
     "eric-mcconico": {
       "_updated": "2026-07-30T03:01:07+00:00",
       "active_injury": false,
@@ -8662,7 +8713,7 @@
       "withdrawn": false
     },
     "ethyn-ewing": {
-      "_updated": "2026-11-23T23:57:35+00:00",
+      "_updated": "2026-11-24T09:59:10+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -12716,7 +12767,7 @@
       "withdrawn": false
     },
     "junior-tafa": {
-      "_updated": "2026-11-23T23:57:35+00:00",
+      "_updated": "2026-11-24T09:59:10+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -13674,7 +13725,7 @@
       "withdrawn": false
     },
     "kyler-phillips": {
-      "_updated": "2026-11-23T23:57:35+00:00",
+      "_updated": "2026-11-24T09:59:10+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -18140,7 +18191,7 @@
       "withdrawn": false
     },
     "opponent-tba": {
-      "_updated": "2026-11-23T23:57:35+00:00",
+      "_updated": "2026-11-24T09:59:10+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -18592,7 +18643,7 @@
       "withdrawn": false
     },
     "quentin-pasley": {
-      "_updated": "2026-11-23T23:57:35+00:00",
+      "_updated": "2026-11-24T09:59:10+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -19992,7 +20043,7 @@
       "withdrawn": false
     },
     "sergei-pavlovich": {
-      "_updated": "2026-11-23T23:57:35+00:00",
+      "_updated": "2026-11-24T09:59:10+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -21140,7 +21191,7 @@
       "withdrawn": false
     },
     "tba": {
-      "_updated": "2026-11-23T23:57:35+00:00",
+      "_updated": "2026-11-24T09:59:10+00:00",
       "active_injury": false,
       "age": 30,
       "career_fights": 12,
@@ -24938,18 +24989,27 @@
       "label": "Gabriel Santos vs Luke Riley",
       "rounds": 3,
       "weight_class": "Featherweight"
+    },
+    {
+      "a": "mateusz-r-becki",
+      "b": "elves-brener",
+      "date": "2026-12-05",
+      "event": "UFC Fight Night: Adesanya vs Magomedov",
+      "label": "Mateusz R\u0119becki vs Elves Brener",
+      "rounds": 3,
+      "weight_class": "Lightweight"
     }
   ],
   "meta": {
     "calibration": {
       "shrink": 0.35
     },
-    "last_sync": "2026-11-23T23:57:53+00:00",
+    "last_sync": "2026-11-24T09:59:31+00:00",
     "news_last": {
       "aaron-pico": "2026-11-09T22:04:10.120633+00:00",
       "abdul-hussein": "2026-11-18T07:35:05.703451+00:00",
       "abdul-rakhman-yakhyaev": "2026-11-09T22:25:35.004302+00:00",
-      "abe-alsaghir": "2026-11-02T21:31:30.705425+00:00",
+      "abe-alsaghir": "2026-11-24T09:59:10.930790+00:00",
       "abubakar-vagaev": "2026-11-16T22:10:29.206649+00:00",
       "abus-magomedov": "2026-11-09T22:25:35.004302+00:00",
       "adrian-ya-ez": "2026-11-08T13:30:32.145128+00:00",
@@ -24968,7 +25028,7 @@
       "alexander-volkov": "2026-11-10T07:24:26.262982+00:00",
       "alexia-thainara": "2026-11-18T20:37:05.945161+00:00",
       "alice-pereira": "2026-11-10T07:24:26.262982+00:00",
-      "alik-lorenz": "2026-11-02T21:31:30.705425+00:00",
+      "alik-lorenz": "2026-11-24T09:59:10.930790+00:00",
       "aline-pereira": "2026-11-15T18:54:48.793731+00:00",
       "alivia-bierley": "2026-11-15T06:40:07.566620+00:00",
       "aljamain-sterling": "2026-11-20T07:22:37.341616+00:00",
@@ -24999,7 +25059,7 @@
       "billy-elekana": "2026-11-13T06:51:19.747006+00:00",
       "billy-quarantillo": "2026-11-19T20:42:13.036358+00:00",
       "billy-ray-goff": "2026-11-05T20:00:15.180368+00:00",
-      "bogdan-grad": "2026-11-02T21:31:30.705425+00:00",
+      "bogdan-grad": "2026-11-24T09:59:10.930790+00:00",
       "bogdan-guskov": "2026-11-17T07:59:29.438996+00:00",
       "bolaji-oki": "2026-11-19T20:42:13.036358+00:00",
       "borislav-nikolic": "2026-11-16T06:36:54.129586+00:00",
@@ -25063,6 +25123,7 @@
       "edson-barboza": "2026-11-22T06:56:16.174572+00:00",
       "elijah-smith": "2026-11-13T06:51:19.747006+00:00",
       "elise-reed": "2026-11-04T19:49:03.338185+00:00",
+      "elves-brener": "2026-11-24T09:59:10.930790+00:00",
       "eric-mcconico": "2026-11-06T06:53:35.410536+00:00",
       "eric-nolan": "2026-11-07T06:03:53.909954+00:00",
       "erick-visconde": "2026-11-15T18:54:48.793731+00:00",
@@ -25201,7 +25262,7 @@
       "malcolm-wellmaker": "2026-11-11T06:32:29.618280+00:00",
       "mandel-nallo": "2026-11-08T06:08:23.775143+00:00",
       "manoel-sousa": "2026-11-04T06:31:31.609203+00:00",
-      "mansur-abdul-malik": "2026-11-02T21:31:30.705425+00:00",
+      "mansur-abdul-malik": "2026-11-24T09:59:10.930790+00:00",
       "mantas-kondratavi-ius": "2026-11-14T22:29:23.138890+00:00",
       "marc-andre-barriault": "2026-11-08T06:08:23.775143+00:00",
       "marcin-tybura": "2026-11-12T07:17:36.604565+00:00",
@@ -25275,13 +25336,13 @@
       "randy-brown": "2026-11-23T23:57:35.768766+00:00",
       "ravena-oliveira": "2026-11-22T19:44:55.646890+00:00",
       "reinier-de-ridder": "2026-11-23T07:45:47.748845+00:00",
-      "renato-moicano": "2026-11-02T16:11:47.323479+00:00",
+      "renato-moicano": "2026-11-24T09:59:10.930790+00:00",
       "richie-miranda": "2026-11-23T23:35:07.796242+00:00",
       "rizvan-kuniev": "2026-11-03T01:01:42.716324+00:00",
       "rj-harris": "2026-11-06T06:53:35.410536+00:00",
       "robert-valentin": "2026-11-06T19:27:37.245985+00:00",
       "roberto-soldi": "2026-11-09T22:25:35.004302+00:00",
-      "rodrigo-sezinando": "2026-11-02T16:11:47.323479+00:00",
+      "rodrigo-sezinando": "2026-11-24T09:59:10.930790+00:00",
       "roman-dolidze": "2026-11-03T01:01:42.716324+00:00",
       "roman-kopylov": "2026-11-09T22:25:35.004302+00:00",
       "roman-puga": "2026-11-03T14:22:28.830893+00:00",
@@ -25312,7 +25373,7 @@
       "suyoung-you": "2026-11-09T22:25:35.004302+00:00",
       "tabatha-ricci": "2026-11-18T20:37:05.945161+00:00",
       "tahir-abdullayev": "2026-11-20T20:26:44.570875+00:00",
-      "tainara-lisboa": "2026-11-02T16:11:47.323479+00:00",
+      "tainara-lisboa": "2026-11-24T09:59:10.930790+00:00",
       "talita-alencar": "2026-11-02T21:31:30.705425+00:00",
       "tallison-teixeira": "2026-11-20T20:26:44.570875+00:00",
       "taner-trembley": "2026-11-03T14:22:28.830893+00:00",
@@ -25420,7 +25481,7 @@
       "brian-ortega": "2026-10-31T12:39:23.369228+00:00",
       "bruce-whitehead": "2026-10-11T12:56:22.394595+00:00",
       "bruno-lopes": "2026-07-27T22:16:59.977367+00:00",
-      "bruno-silva": "2026-11-23T07:45:49.531131+00:00",
+      "bruno-silva": "2026-11-24T09:59:12.588161+00:00",
       "caio-borralho": "2026-10-24T11:07:35.271814+00:00",
       "cam-rowston": "2026-10-04T06:05:09.174692+00:00",
       "carli-judice": "2026-08-01T03:00:56.954564+00:00",
@@ -25473,6 +25534,7 @@
       "edson-barboza": "2026-07-27T23:00:48.289679+00:00",
       "elijah-smith": "2026-10-17T10:50:08.190349+00:00",
       "elise-reed": "2026-08-01T01:00:56.539022+00:00",
+      "elves-brener": "2026-11-24T09:59:12.588161+00:00",
       "eric-mcconico": "2026-07-30T03:00:51.151273+00:00",
       "eric-nolan": "2026-10-01T22:43:57.766362+00:00",
       "erick-visconde": "2026-10-16T11:29:51.238874+00:00",
@@ -25550,7 +25612,7 @@
       "jos-montanha": "2026-11-23T23:57:37.338178+00:00",
       "jos-souza": "2026-11-23T23:57:37.338178+00:00",
       "jose-delano": "2026-10-17T15:39:31.080032+00:00",
-      "jose-henrique": "2026-11-22T19:44:57.251532+00:00",
+      "jose-henrique": "2026-11-24T09:59:12.588161+00:00",
       "jose-miguel-delgado": "2026-11-23T07:45:49.531131+00:00",
       "josh-hokit": "2026-10-26T04:53:34.988609+00:00",
       "josias-musasa": "2026-07-27T09:00:48.864437+00:00",
@@ -25646,11 +25708,11 @@
       "modestino-rodrigues": "2026-11-14T06:31:20.890747+00:00",
       "movsar-evloev": "2026-10-05T05:47:05.228416+00:00",
       "mridul-saikia": "2026-08-02T01:02:07.115172+00:00",
-      "muhammad-said": "2026-11-22T19:44:57.251532+00:00",
+      "muhammad-said": "2026-11-24T09:59:12.588161+00:00",
       "murtazali-magomedov": "2026-10-17T15:39:31.080032+00:00",
       "myktybek-orolbai": "2026-07-28T03:00:47.803012+00:00",
       "namo-fazil": "2026-08-20T07:09:25.873302+00:00",
-      "natalia-silva": "2026-11-22T19:44:57.251532+00:00",
+      "natalia-silva": "2026-11-24T09:59:12.588161+00:00",
       "nate-landwehr": "2026-10-03T16:25:46.175405+00:00",
       "navajo-stirling": "2026-07-27T11:00:55.584805+00:00",
       "nazim-sadykhov": "2026-10-24T04:42:05.061519+00:00",
@@ -25668,7 +25730,7 @@
       "oban-elliott": "2026-07-27T11:00:55.584805+00:00",
       "ode-osbourne": "2026-10-24T04:42:05.061519+00:00",
       "ollie-schmid": "2026-10-17T04:33:16.433857+00:00",
-      "opponent-tba": "2026-11-22T19:44:57.251532+00:00",
+      "opponent-tba": "2026-11-24T09:59:12.588161+00:00",
       "otari-tanzilovi": "2026-10-05T14:47:39.411683+00:00",
       "ozzy-martin": "2026-10-08T23:23:56.082524+00:00",
       "pavel-andrusca": "2026-11-14T22:29:25.300216+00:00",

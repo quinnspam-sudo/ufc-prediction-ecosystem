@@ -2992,6 +2992,19 @@
         "fighter_b": false
       },
       "report_file": "reports/gabriel-santos-vs-luke-riley.json"
+    },
+    "Mateusz R\u0119becki vs Elves Brener": {
+      "win_probability": {
+        "fighter_a_pct": 62.35,
+        "fighter_b_pct": 37.65,
+        "draw_pct": 1.57,
+        "calibration_shrink_applied": 0.35
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/mateusz-r-becki-vs-elves-brener.json"
     }
   }
 }
