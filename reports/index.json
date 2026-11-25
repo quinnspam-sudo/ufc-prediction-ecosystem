@@ -2764,10 +2764,10 @@
     },
     "Mehemmedeli Osmanli vs Pavel Andrusca": {
       "win_probability": {
-        "fighter_a_pct": 21.94,
-        "fighter_b_pct": 78.06,
+        "fighter_a_pct": 35.97,
+        "fighter_b_pct": 64.03,
         "draw_pct": 0.8,
-        "calibration_shrink_applied": 0.7
+        "calibration_shrink_applied": 0.35
       },
       "value_flags": {
         "fighter_a": false,
