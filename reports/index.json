@@ -2207,10 +2207,10 @@
     },
     "Sean Brady vs Gabriel Bonfim": {
       "win_probability": {
-        "fighter_a_pct": 61.8,
-        "fighter_b_pct": 38.2,
+        "fighter_a_pct": 55.9,
+        "fighter_b_pct": 44.1,
         "draw_pct": 1.86,
-        "calibration_shrink_applied": 0.7
+        "calibration_shrink_applied": 0.35
       },
       "value_flags": {
         "fighter_a": false,
