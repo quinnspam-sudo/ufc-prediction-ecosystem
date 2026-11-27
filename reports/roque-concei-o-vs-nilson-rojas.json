@@ -1,0 +1,102 @@
+{
+  "matchup": {
+    "fighter_a": "Roque Concei\u00e7\u00e3o",
+    "fighter_b": "Nilson Rojas",
+    "scheduled_rounds": 3,
+    "is_title_fight": false,
+    "iterations": 2000,
+    "avg_rounds_simulated": 2.687,
+    "fighter_a_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": true,
+      "needs_real_stats": true
+    },
+    "fighter_b_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": true,
+      "needs_real_stats": true
+    }
+  },
+  "win_probability": {
+    "fighter_a_pct": 50.3,
+    "fighter_b_pct": 49.7,
+    "draw_pct": 7.05
+  },
+  "consensus_forecast": {
+    "applied": false,
+    "model_weight": 1.0,
+    "fighter_a_pct": 50.3,
+    "fighter_b_pct": 49.7,
+    "market_devig_a_pct": null
+  },
+  "method_of_victory_matrix": {
+    "fighter_a": {
+      "KO/TKO": 4.25,
+      "Submission": 11.95,
+      "Unanimous Decision": 23.35,
+      "Split/Majority Decision": 7.2
+    },
+    "fighter_b": {
+      "KO/TKO": 4.2,
+      "Submission": 11.6,
+      "Unanimous Decision": 22.35,
+      "Split/Majority Decision": 8.05
+    }
+  },
+  "fight_level": {
+    "ko_tko_pct": 8.45,
+    "submission_pct": 23.55,
+    "decision_pct": 60.95,
+    "goes_the_distance_pct": 68.0,
+    "expected_fight_minutes": 12.63
+  },
+  "finish_round_distribution": {
+    "fighter_a": {
+      "round_1": 104,
+      "round_2": 120,
+      "round_3": 100
+    },
+    "fighter_b": {
+      "round_1": 98,
+      "round_2": 102,
+      "round_3": 116
+    }
+  },
+  "value_betting": {
+    "fighter_a": {
+      "market_moneyline": -110,
+      "market_decimal_odds": 1.909,
+      "market_implied_prob_pct": 52.38,
+      "model_win_prob_pct": 50.3,
+      "edge_pct": -2.09,
+      "consensus_edge_pct": -2.09,
+      "kelly_fraction_full": -0.0438,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
+      "value_bet": false
+    },
+    "fighter_b": {
+      "market_moneyline": -110,
+      "market_decimal_odds": 1.909,
+      "market_implied_prob_pct": 52.38,
+      "model_win_prob_pct": 49.7,
+      "edge_pct": -2.68,
+      "consensus_edge_pct": -2.68,
+      "kelly_fraction_full": -0.0562,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
+      "value_bet": false
+    },
+    "suspended": true,
+    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable.",
+    "insufficient_data": true
+  }
+}

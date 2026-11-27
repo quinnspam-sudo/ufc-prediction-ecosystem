@@ -3005,6 +3005,30 @@
         "fighter_b": false
       },
       "report_file": "reports/mateusz-r-becki-vs-elves-brener.json"
+    },
+    "Jacqueline Cavalcanti vs Michelle Montague": {
+      "win_probability": {
+        "fighter_a_pct": 49.73,
+        "fighter_b_pct": 50.27,
+        "draw_pct": 7.6
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/jacqueline-cavalcanti-vs-michelle-montague.json"
+    },
+    "Roque Concei\u00e7\u00e3o vs Nilson Rojas": {
+      "win_probability": {
+        "fighter_a_pct": 50.3,
+        "fighter_b_pct": 49.7,
+        "draw_pct": 7.05
+      },
+      "value_flags": {
+        "fighter_a": false,
+        "fighter_b": false
+      },
+      "report_file": "reports/roque-concei-o-vs-nilson-rojas.json"
     }
   }
 }

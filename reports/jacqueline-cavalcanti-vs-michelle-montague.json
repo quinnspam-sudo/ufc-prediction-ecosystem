@@ -1,0 +1,102 @@
+{
+  "matchup": {
+    "fighter_a": "Jacqueline Cavalcanti",
+    "fighter_b": "Michelle Montague",
+    "scheduled_rounds": 3,
+    "is_title_fight": false,
+    "iterations": 2000,
+    "avg_rounds_simulated": 2.677,
+    "fighter_a_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": true,
+      "needs_real_stats": true
+    },
+    "fighter_b_flags": {
+      "active_injury": false,
+      "missed_weight": false,
+      "withdrawn": false,
+      "injury_note": "",
+      "stats_approx": true,
+      "needs_real_stats": true
+    }
+  },
+  "win_probability": {
+    "fighter_a_pct": 49.73,
+    "fighter_b_pct": 50.27,
+    "draw_pct": 7.6
+  },
+  "consensus_forecast": {
+    "applied": false,
+    "model_weight": 1.0,
+    "fighter_a_pct": 49.73,
+    "fighter_b_pct": 50.27,
+    "market_devig_a_pct": null
+  },
+  "method_of_victory_matrix": {
+    "fighter_a": {
+      "KO/TKO": 6.3,
+      "Submission": 10.2,
+      "Unanimous Decision": 23.25,
+      "Split/Majority Decision": 6.2
+    },
+    "fighter_b": {
+      "KO/TKO": 5.7,
+      "Submission": 10.7,
+      "Unanimous Decision": 23.35,
+      "Split/Majority Decision": 6.7
+    }
+  },
+  "fight_level": {
+    "ko_tko_pct": 12.0,
+    "submission_pct": 20.9,
+    "decision_pct": 59.5,
+    "goes_the_distance_pct": 67.1,
+    "expected_fight_minutes": 12.56
+  },
+  "finish_round_distribution": {
+    "fighter_a": {
+      "round_1": 104,
+      "round_2": 128,
+      "round_3": 98
+    },
+    "fighter_b": {
+      "round_1": 109,
+      "round_2": 92,
+      "round_3": 127
+    }
+  },
+  "value_betting": {
+    "fighter_a": {
+      "market_moneyline": -110,
+      "market_decimal_odds": 1.909,
+      "market_implied_prob_pct": 52.38,
+      "model_win_prob_pct": 49.73,
+      "edge_pct": -2.65,
+      "consensus_edge_pct": -2.65,
+      "kelly_fraction_full": -0.0557,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
+      "value_bet": false
+    },
+    "fighter_b": {
+      "market_moneyline": -110,
+      "market_decimal_odds": 1.909,
+      "market_implied_prob_pct": 52.38,
+      "model_win_prob_pct": 50.27,
+      "edge_pct": -2.11,
+      "consensus_edge_pct": -2.11,
+      "kelly_fraction_full": -0.0443,
+      "kelly_fraction_half": 0.0,
+      "model_sees_value": false,
+      "consensus_agrees": false,
+      "value_bet": false
+    },
+    "suspended": true,
+    "note": "Value flags suppressed: one or both fighters use placeholder league-average stats. Add real stats in watchlist.json to enable.",
+    "insufficient_data": true
+  }
+}
